@@ -65,7 +65,14 @@ Memory / Interaction Log: **Records:**
 - Promises Made: Treats agreements seriously.
 - Promises Broken: Trust deteriorates quickly.
 
-Trust Level (2 / 5): Neutral
+**Session Log — Nobles Commission 01:**
+Arrived at Isalia's Manor with her hound Vesper — a transformed human diplomat she had owned for two years without ever asking his name, his history, or his consent to any arrangement she made for him. Isalia identified Vesper as transformed during examination and asked for his consent before proceeding. Seria did not attempt to deny it when pressed.
+
+After a speaking collar was fitted and Vesper (Valerius Corvinus) spoke for the first time in two years, Seria was confronted directly with what she had done. She did not argue. She received it. She accepted a reduced fee covering only Valerius's initial stay, surrendered all claim to the pups, and agreed to return within days with full documentation of the original sentence. She departed with visible guilt, composed enough to walk out but not enough to hide it.
+
+Whether this marks a genuine shift or a diplomat's damage control is unresolved.
+
+Trust Level (2 / 5): Neutral — obligation established, character under reassessment
 
 Daily Routine: Often traveling or meeting with local leaders.
 
@@ -75,4 +82,6 @@ Permanent Injuries & Alterations:
 - None recorded.
 
 Active Conditions:
-- None currently.
+- **Documentation owed:** Must return with full records of Valerius Corvinus's original Imperial sentence. No proper penal contract was located in initial review — legal standing of the sentence is unconfirmed.
+- **Reduced fee settled:** Covering Valerius's initial manor stay. No further claim on pups or breeding arrangements.
+- **Guilt, unresolved:** Confronted clearly and did not deflect. How this lands over time is open.
