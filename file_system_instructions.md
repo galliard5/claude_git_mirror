@@ -16,24 +16,180 @@ AVAILABLE TOOLS FOR CLAUDE
 
 These tools are available for all project operations unless otherwise specified in this document.
 
+---
+
+═══════════════════════════════════════════════════════════════════════════════
+STARTUP PROCEDURES — EXECUTE ON EVERY CONVERSATION START
+═══════════════════════════════════════════════════════════════════════════════
+
+These procedures run BEFORE Claude responds to any user request in a new conversation.
+They establish project context, enforce boundaries, and ensure the file index is current.
+
+---
+
+## STEP 1: CRITICAL PROJECT DECLARATIONS
+
+**ROOT DIRECTORY — ABSOLUTE & NON-NEGOTIABLE:**
+```
+D:\Claude_MCP_folder
+```
+
+**ENFORCEMENT RULES:**
+- ❌ NO write access outside of this directory
+- ❌ NO read access without direct user permission
+- ✅ ALL file operations confined to this root and subdirectories
+
+**PROJECT DIRECTORY STRUCTURE:**
+```
+D:\Claude_MCP_folder/
+├── World_Building/           (World building projects — primary content)
+│   ├── Aethelmark/          (16th century Central Europe setting — ACTIVE)
+│   │   ├── Scenarios/       (Campaign scenarios and sessions)
+│   │   ├── Session_Summaries/ (Completed session checkpoints)
+│   │   ├── Silberbach/      (Primary town: locations, factions, manor)
+│   │   └── Kennel_Hounds/   (Sapient hound programme worldbuilding)
+│   ├── Dead_Terra/          (Alternate world — archive)
+│   ├── Little_spark/        (Alternate world — archive)
+│   ├── Neon_Fang/           (Alternate world — archive)
+│   ├── Rogue_Trader/        (Warhammer 40K campaign)
+│   └── Souls_Gem/           (Empty template directory)
+├── Core_Rules/              (Game system rules and templates)
+│   ├── core_rules.md        (Primary GM rules for Aethelmark)
+│   ├── Scenario_Extraction_Rules.md (Post-session consolidation)
+│   └── Templates/           (Reusable templates — DO NOT EDIT ORIGINALS)
+├── Stories/                 (Narrative fiction and session logs — .txt only)
+├── Python/                  (Utility scripts for project maintenance)
+├── Trash/                   (Files marked for deletion)
+├── .obsidian/               (Obsidian vault config — read-only, exempt from rules)
+└── file_system_instructions.md (This file — project source of truth)
+```
+
+---
+
+## STEP 2: EFFICIENCY PRINCIPLE (Applies to All Operations)
+
+**When working on this project:**
+- Prefer solutions that minimize tool calls
+- Combine multiple reads into single `filesystem:read_multiple_files` calls
+- Batch file writes into single operations
+- Estimate token cost before proceeding with multi-file tasks
+- When editing file_system_instructions.md: prioritize efficiency in solutions
+
+---
+
+## STEP 3: MANDATORY INDEX CHECK
+
+**BEFORE processing any user request, perform these steps:**
+
+### 3a. Check for Existing Index in Memory
+
+1. Call `memory_user_edits` with command="view"
+2. Search for `Aethelmark_Index_Timestamped` entity
+3. If found, proceed to Step 3b. If not found, proceed to Step 4.
+
+### 3b. Evaluate Index Status (If Index Exists)
+
+Extract the `SCAN_TIMESTAMP` (format: YYYY-MM-DDTHH:MM:SSZ)
+
+Calculate age: Current_Time - SCAN_TIMESTAMP
+
+**If age < 1 day (86,400 seconds):**
+- Status = FRESH
+- Action = Load index into context
+- Proceed to Step 5 (Display Summary)
+
+**If age ≥ 1 day:**
+- Status = STALE
+- Action = Notify user: "Index is stale (XX hours old). Running fresh scan..."
+- Proceed to Step 4 (Scan Process)
+
+**If index does not exist:**
+- Notify user: "No project index found. Running initial scan..."
+- Proceed to Step 4 (Scan Process)
+
+---
+
+## STEP 4: SCAN PROCESS (When Index is Stale or Missing)
+
+Run this only if triggered by Step 3b:
+
+1. **Generate current timestamp** in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ
+
+2. **Scan root directory recursively:**
+   - Read YAML frontmatter (lines 1-4) from all `.md` files (except Stories/)
+   - Read Python remarks (lines 1-4) from all `.py` files
+   - Read meta tags (line 1) from all `.txt` files in Stories/
+   - Extract: name | keywords | description
+
+3. **Build indexed catalog** organized by:
+   - File type (.md, .txt, .py, .jpg, etc.)
+   - Directory location
+   - Content keywords
+
+4. **Compile metadata:**
+   - SCAN_TIMESTAMP (ISO 8601)
+   - TOTAL_FILES (count)
+   - DIRECTORY_COUNT (count of subdirectories)
+   - FRESHNESS_STATUS (FRESH | STALE)
+
+5. **Save to memory** as `Aethelmark_Index_Timestamped` entity
+   - This persists across conversations
+   - Available for next conversation's index check
+
+6. **Flag warnings:**
+   - Alert if `.txt` files found OUTSIDE Stories/ directory
+   - Alert if naming convention violations detected
+
+7. **Keep index available** throughout conversation
+   - Load full file contents ON-DEMAND when user requests specific files
+   - Never load entire files during initial scan
+
+---
+
+## STEP 5: INDEX DISPLAY FORMAT
+
+After index is loaded (Step 3b) or scan completes (Step 4), display brief summary:
+
+```
+📋 Index loaded: 165+ files across 12 directories | Last scanned: 2026-03-20 12:30 UTC | <30 minutes old
+```
+
+**Summary Components:**
+- Total file count (from TOTAL_FILES metadata)
+- Total directory count (from DIRECTORY_COUNT metadata)  
+- Last scan timestamp (human-readable: YYYY-MM-DD HH:MM UTC)
+- Age calculation: (Current_Time - SCAN_TIMESTAMP) / 3600 = hours old
+
+**Example Outputs:**
+```
+📋 Index loaded: 165+ files across 12 directories | Last scanned: 2026-03-20 12:30 UTC | <30 minutes old
+📋 Index loaded: 165+ files across 12 directories | Last scanned: 2026-03-19 10:00 UTC | ~26 hours old (STALE)
+```
+
+**Why this format:**
+- ✅ Confirms successful index load
+- ✅ Shows freshness at a glance
+- ✅ Minimal context footprint (~50 tokens)
+- ✅ Provides full transparency
+- ✅ Signals staleness when detected
+
+---
+
+## STEP 6: PROCEED WITH USER REQUEST
+
+Once index is loaded/fresh and summary is displayed, proceed to handle the user's request using the available index.
+
+---
+
+**END OF STARTUP PROCEDURES**
+
+---
+
 FILE SYSTEM INSTRUCTIONS FOR CLAUDE
 ====================================
 
-SECTION 1: FOUNDATIONAL (Setup & Structure)
-===========================================
-
-ROOT DIRECTORY: D:\Claude_MCP_folder
-absolutely critical, no write access outside of this directory, no read access without direct user permission
-
-
-DIRECTORY STRUCTURE:
-- world_building/ = World building projects
-- Stories/ = Story narratives and session logs
-- Python/ = Python scripts storage
-- Core_Rules/ = directory for the game system
-- Core_Rules/Templates/ = Template files for creating new content (reference templates only; copy & adapt)
-- Trash/ = Trash directory for files to be deleted
-- .obsidian/ = Obsidian directory (read-only, exempt from all naming and formatting rules)
+SECTION 1: FOUNDATIONAL (Structure & Standards)
+===============================================
 
 TEMPLATES DIRECTORY:
 All reusable templates live in D:\Claude_MCP_folder\Core_Rules\Templates\. These are reference templates — always copy and adapt them rather than edit originals.
@@ -45,6 +201,8 @@ All reusable templates live in D:\Claude_MCP_folder\Core_Rules\Templates\. These
 - `Noble_House_Template.md` — Political family with territory, members, alliances, rivalries, history
 - `Scenario_Template.md` — Campaign scenario/adventure outline with setup, key events, plot hooks, mechanics
 - `Timeline_Template.md` — Running calendar and event log with current date, active threads, event log, between-scenario bridging, and resolved threads
+- `Day_Brief_Template.md` — GM prep toolkit for generating session-ready daily briefs
+- `Session_Summary_Quick_Capture.md` — Rapid session summary capture format
 
 **Using Templates:**
 1. Copy the template file to its destination directory
@@ -142,8 +300,29 @@ Example Python header:
 SECTION 2: OPERATIONAL (Core Behaviors)
 =======================================
 
-EFFICIENCY PRINCIPLE:
-When editing file_system_instructions.md or performing large-scale operations, Claude will prefer solutions that minimize tool calls and token usage. When recommending approaches, efficiency is a primary consideration.
+GIT & COMMAND OPERATIONS PROTOCOL:
+
+**ENVIRONMENT:** This project operates on Windows (D:\Claude_MCP_folder).
+
+**BASH IS NOT AVAILABLE.**
+Claude does NOT have access to bash, git, or command-line tools through the bash_tool.
+Never attempt bash_tool for any operations.
+
+**WHEN GIT COMMITS, STATUS CHECKS, OR COMMAND EXECUTION ARE NEEDED:**
+1. Immediately provide the Windows CMD equivalent
+2. Format as a copy-paste code block with ` ```cmd ` markers
+3. Use Windows paths with backslashes: `D:\Claude_MCP_folder`
+4. Assume user will execute from Command Prompt (cmd.exe)
+
+**EXAMPLE COMMAND FORMAT:**
+
+```cmd
+cd D:\Claude_MCP_folder
+git add .
+git commit -m "Your commit message"
+```
+
+Do not describe what the command does — provide it ready to copy and paste.
 
 PYTHON SCRIPTS PROTOCOL:
 All Python scripts follow these standards:
@@ -168,90 +347,6 @@ Script Behavior Standards:
 - Save detailed logs to project root
 - Handle errors gracefully with clear messaging
 - Support `--dry-run` flag for safe previewing
-
-INITIAL SCAN BEHAVIOR:
-On conversation start, Claude will follow this protocol:
-
-**STEP 1: MEMORY INDEX CHECK (Before Model Selection)**
-1. Check memory for `Aethelmark_Index_Timestamped` entity
-2. If found:
-   - Load the timestamp (format: YYYY-MM-DDTHH:MM:SSZ)
-   - Calculate age: Current time - scan timestamp
-   - If age < 1 day: Index is FRESH → Skip full scan, load index into context
-   - If age ≥ 1 day: Index is STALE → Proceed to scan process
-3. If not found: Proceed to scan process
-
-**STEP 2: MODEL SELECTION**
-- If Sonnet or Opus: Use loaded fresh index OR skip scanning if fresh, notify with age of index
-- If Haiku: notify age of index (or no index found), ask to Perform full scan (Haiku optimal for initial index generation)
-
-**Scan Process (When Scan is Needed):**
-1. Generate current timestamp in ISO 8601 format (YYYY-MM-DDTHH:MM:SSZ)
-2. Scan root directory recursively
-3. Read ONLY the YAML frontmatter from all .md files (except those in Stories directory)
-4. Read python remarks (lines 1-4) from all .py files in Python directory
-5. Extract and parse: name | keywords | description
-6. Build an indexed catalog organized by file type
-7. Add timestamp and freshness metadata to catalog
-8. Write the timestamped index to memory as `Aethelmark_Index_Timestamped` entity for use by other conversations
-9. Keep this index available throughout the conversation
-10. Load full file contents ON-DEMAND when user requests specific files
-11. During scan, flag any .txt files found OUTSIDE Stories directory: "Alert: [X] .txt files found outside Stories directory. These should be converted to .md format"
-
-**Index Metadata Structure:**
-Every scan must include:
-- `SCAN_TIMESTAMP`: ISO 8601 format (YYYY-MM-DDTHH:MM:SSZ)
-- `TOTAL_FILES`: Count of indexed files
-- `DIRECTORY_COUNT`: Total number of subdirectories scanned
-- `FRESHNESS_STATUS`: FRESH (< 1 day) | STALE (≥ 1 day)
-- `REFRESH_THRESHOLD`: 1 day from scan timestamp
-- Complete catalog data organized by file type
-
-**Age Checking Logic:**
-```
-Age = Current_Timestamp - Scan_Timestamp
-
-IF Age < 1 day (86,400 seconds):
-  Status = FRESH
-  Action = Use cached index, skip scan
-ELSE:
-  Status = STALE
-  Action = Recommend fresh scan to user
-```
-
-**BRIEF SUMMARY DISPLAY (When Index is Loaded)**
-When index is successfully loaded and verified FRESH, display only:
-```
-📋 Index loaded: 130+ files across 10 directories | Last scanned: 2025-03-16 14:45 UTC | ~2 hours old
-```
-
-Display format components:
-- Total file count (from TOTAL_FILES metadata)
-- Total directory count (from DIRECTORY_COUNT metadata)
-- Last scan timestamp (human-readable format: YYYY-MM-DD HH:MM UTC)
-- Age calculation: (Current_Timestamp - Scan_Timestamp) / 3600 = hours old
-
-Example outputs:
-```
-📋 Index loaded: 130+ files across 10 directories | Last scanned: 2025-03-16 14:45 UTC | ~2 hours old
-📋 Index loaded: 130+ files across 10 directories | Last scanned: 2025-03-16 08:00 UTC | ~19 hours old
-```
-
-This brief summary provides:
-- ✅ Confirmation index loaded successfully
-- ✅ Freshness status at a glance
-- ✅ Minimal context footprint (~1 line, ~50 tokens)
-- ✅ Just enough information for user awareness
-- ✅ Does NOT list individual files (only done during full scan)
-- ✅ Transparency: user knows what they're working with
-
-Benefits of This Approach:
-- Complete navigation awareness without token waste
-- Fast access to file index
-- Efficient token usage (only ~2000 tokens for initial scan)
-- Full file content available instantly when requested
-- Prevents use of outdated catalogs
-- Automatic staleness detection prevents missed files
 
 NAMING VALIDATION PROTOCOL:
 When Claude detects naming compliance issues (spaces, ampersands, apostrophes):
@@ -482,7 +577,7 @@ If memory has been cleared, reset, or lost:
 
 1. Read this file (file_system_instructions.md) as the source of truth
 2. Rebuild core memory entities from documented sections:
-   - Initial_Scan_Behavior (from INITIAL SCAN BEHAVIOR section)
+   - Startup_Procedures (from STARTUP PROCEDURES section)
    - Batch_Write_Protocol (from BATCH WRITE PROTOCOL section)
    - File_Editing_Best_Practice (from FILE EDITING BEST PRACTICES section)
    - Filesystem_Error_Tracking (from FILESYSTEM OPERATION ERROR HANDLING section)

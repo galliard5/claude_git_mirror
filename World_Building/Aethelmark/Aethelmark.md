@@ -30,17 +30,21 @@ Practical implications: Isalia's transformation archives are sealed under imperi
 Currency System:
 
 **Standard Coinage:**
-- **Platinum Thrones** - Highest denomination; used for major transactions, noble dealings, and imperial commerce. Rare in common circulation.
-- **Gold Crowns** - Primary currency for significant transactions, property purchases, and merchant trade. The standard for measuring wealth.
-- **Electrum Coins** - Mixed-metal coins from various kingdoms and historical periods. Less common in modern trade but still accepted.
-- **Silver Dollars** - Common currency for everyday transactions, skilled labor wages, and middle-class commerce.
-- **Copper Pence** - Smallest denomination for daily purchases, simple goods, and common labor wages.
+- **Copper Pence** — Smallest denomination. Daily purchases, simple goods, common labor wages.
+- **Silver Dollars** — Common currency for everyday transactions, skilled labor wages, and middle-class commerce.
+- **Gold Crowns** — Primary currency for significant transactions, property purchases, and merchant trade. The standard for measuring wealth.
+- **Platinum Thrones** — Highest denomination. Noble dealings, imperial transactions, major property transfers. Rare in common circulation — when someone produces one at a market stall, people notice.
 
-**Exchange Rates:**
-While exact exchange rates vary by region and economic conditions, the general hierarchy places platinum as the highest value, followed by gold, electrum, silver, and copper as the base currency.
+**Exchange Rate: 100 Pence = 10 Dollars = 1 Crown = 1/10 Throne**
+
+Mental arithmetic runs clean at these rates. Three Dollars and forty Pence is 340 Pence. A Crown is 1,000 Pence.
 
 **Common Usage:**
-While coins have formal names (Thrones, Crowns, Dollars, Pence), people commonly refer to them by their metal type in everyday conversation. A merchant might say "five gold" instead of "five Crowns," or a laborer might ask for "ten copper" rather than "ten Pence." Both forms are understood and accepted in commerce.
+While coins have formal names (Thrones, Crowns, Dollars, Pence), people commonly refer to them by their metal type in everyday conversation — "five crown" rather than "five Gold Crowns," "ten pence" rather than "ten Copper Pence." Both forms are understood.
+
+**Electrum coins** circulate occasionally — older mints and distant kingdoms. Still accepted in most markets, but value is negotiated at point of exchange rather than fixed. Treated as curiosities rather than functional currency in day-to-day trade.
+
+**Treasury bars** are used for bulk transfers and large transactions — major property sales, noble-to-noble payments, imperial levies. Each bar is marked with its mint of origin, weighed, and valued at 1,000 times the equivalent coin (a gold treasury bar equals 1,000 Crowns). Not seen in ordinary commerce; their appearance signals a transaction of significant scale.
 
 **Historical Note:**
-The monetary system reflects the diverse political landscape of 16th century Central Europe, where multiple kingdoms, principalities, and free cities mint their own coinage. Electrum coins in particular represent older currencies that remain in circulation from previous eras and distant realms.
+The monetary system reflects the diverse political landscape of 16th century Central Europe, where multiple kingdoms, principalities, and free cities mint their own coinage. Exact coin weight and purity varies by mint — a Silberbach Crown and an imperial Crown are functionally equivalent, but a moneychanger will still weigh them. Vander's Currency Exchange in Silberbach handles the more complex conversions.

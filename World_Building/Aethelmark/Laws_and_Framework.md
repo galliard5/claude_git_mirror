@@ -1,7 +1,7 @@
 ---
 name: Laws and Framework
-keywords: [rules, lore, law]
-description: Legal and political framework governing Aethelmark including slavery necromancy transformation and civic positions
+keywords: [rules, lore, law, hierarchy, courts, guilds, transformation, civic]
+description: Legal and political framework governing Aethelmark — authority hierarchy, courts and escalation, slavery, necromancy, transformation law, penal transformation, civic positions, and alchemical ingredients
 ---
 
 Laws & Framework
@@ -40,6 +40,42 @@ Licensed transformation practitioners are required to maintain sealed records of
 
 These records are sealed under imperial privilege and cannot be compelled by regional authority. Retrieval requires an imperial subpoena — a threshold that Count Valtor and House Aldenberg cannot reach through ordinary means. The archives function as a quiet deterrent: those who might otherwise pressure the estate are aware that their own records, or those of their associates, sit in those files.
 
+Legal Hierarchy: **The Chain of Authority**
+
+Law in Aethelmark operates through a clear hierarchy of authority. Higher tiers can override lower tiers; lower tiers cannot compel action from higher ones without proper petition.
+
+**1. Imperial Law (Emperor)**
+The supreme legal authority. Imperial edicts apply across all territories regardless of local custom. Imperial privilege — such as the seal protecting Isalia's transformation archives — can only be broken by imperial subpoena. Regional nobility cannot compel access to imperially-protected material regardless of their local standing.
+
+**2. Ducal / High Noble Law**
+Dukes and high noble houses exercise authority over their territories. House Kreiger operates at this tier. Ducal authority supersedes county authority — Count Valtor reports ultimately to the relevant Duke, not vice versa.
+
+**3. County Law (Count Valtor)**
+Count Elias Valtor governs the River Valley, including Silberbach and its surrounding estates. He appoints magistrates, controls the garrison, sets local levies, and has authority over town governance within his territory. His authority is real and immediate — but bounded above by ducal and imperial law.
+
+**4. Town Law (Mayor + Council)**
+The Mayor and Town Council govern civic matters within Silberbach proper: market regulation, trade disputes, property within town limits, civic infrastructure. The Town Council draws from wealthy merchants and guildmasters. In practice, Count Valtor can override town decisions but rarely does so on routine matters.
+
+**5. Guild Law (Internal)**
+Each guild maintains its own internal tribunal for member disputes, quality standards, and trade violations. Guild law applies only to guild members and matters within the guild's domain. A guild cannot adjudicate matters involving non-members. Guild decisions can be appealed to the Town Council if they involve civic commerce.
+
+---
+
+**Courts and Dispute Escalation**
+
+| Matter | First Stop | Escalates To |
+|---|---|---|
+| Trade dispute between guild members | Guild tribunal | Town magistrate |
+| Debt or contract dispute | Town magistrate (Judge Kinsky) | County court (Count Valtor's delegate) |
+| Criminal matter (theft, fraud) | Constable → Town magistrate | County court for serious offenses |
+| Noble-to-noble dispute | County court | Ducal court |
+| Offense against the crown / imperial matter | County court | Imperial court (rarely reached) |
+| Transformation-related dispute | Town magistrate (licensed practitioners) | County court |
+
+**Judge Kinsky** sits as the primary magistrate for Silberbach. Serious criminal matters and disputes involving nobility are escalated to Count Valtor's delegates at the Keep. Imperial matters are handled by correspondence and petition — no imperial court sits in Silberbach.
+
+**Key threshold — Isalia's estate:** The estate operates under county jurisdiction for day-to-day matters. Its imperial privilege specifically protects transformation archives. Count Valtor has authority to inspect ordinary estate operations but cannot compel disclosure of sealed records without an imperial instrument he cannot obtain.
+
 Town Civic Positions: - **Mayor:** Elected head of the town council
 - **Bailiff:** Enforces laws, collects taxes
 - **Town Clerk:** Maintains records and correspondence
@@ -60,3 +96,9 @@ Alchemical Ingredients & Potions: **Ingredients:**
 - **Truth-Tonic:** Enhances truth-detection in Pact bearers
 - **Frost Salve:** Numbs surgical pain
 - **Reversion Elixir:** Reverses transformation — cheap, widely available
+
+---
+
+## Connections
+
+[[Aethelmark|Aethelmark Overview]] | [[World_Standards|World Standards]] | [[Silberbach|Silberbach Town]] | [[Isalia_Kreiger|Isalia Kreiger]] | [[Count_Elias_Valtor|Count Valtor]] | [[Judge_Thomas_Kinsky|Judge Kinsky]] | [[Constable_Ferris|Constable Ferris]]
