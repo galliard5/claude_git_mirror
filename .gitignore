@@ -1,0 +1,10 @@
+.obsidian/cache/
+.obsidian/plugins/
+.obsidian/workspace.json
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+Thumbs.db
+.DS_Store
+*.lnk

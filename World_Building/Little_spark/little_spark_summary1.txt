@@ -1,0 +1,157 @@
+🎲 RPG SAVE FILE — NULL-FELINE
+
+=== PLAYER CHARACTER ===
+Name: (Unchosen — “Little Spark”)
+Race: Kobold (Augmented Null-Feline Hybrid)
+Class: Rogue (Predator Protocol)
+Level: 1
+
+=== CORE IDENTITY ===
+
+* Retained full personality after experimental brain transplant
+* Only known stable subject
+* Functions as a mental “anchor” for other variants (Echoes)
+
+=== ABILITIES ===
+STR: 10
+DEX: 17
+CON: 14
+INT: 13
+WIS: 15
+CHA: 8
+
+=== UNIQUE TRAITS ===
+
+🧬 Stabilize Echo
+
+* Can restore sanity to unstable variants
+* Requires contact + focus
+* Causes mental strain
+
+⚖️ Stability Load
+
+* Each active Echo increases strain
+* High strain risks loss of control
+
+🧠 Stability Control (Tier 1)
+
+* Can limit connection intensity
+* Can safely disengage
+
+🌌 Stability Aura (Passive - Emerging)
+
+* Nearby Echoes stabilize slowly while resting
+
+⚡ Phase Cloak (Prototype)
+
+* Brief invisibility (1 round)
+* Recharge: Short rest
+
+🐾 Predator Instinct
+
+* Bonus damage from stealth
+* Enhanced tracking
+
+🧬 Neural Interface
+
+* Can interact with tech directly (basic systems)
+
+🩸 Adaptive Regeneration
+
+* Faster healing at rest / in darkness
+
+=== CURRENT CONDITION ===
+Health: Stable (recently recovered)
+Mental Strain: MODERATE (was HIGH, now reduced)
+Status: In control, but near limits if overused
+
+=== COMPANIONS ===
+
+❤️ Mother
+
+* Former Krait Biodyne scientist
+* Knowledge: Neural transfer, project details
+* Status: Stabilized, recovering
+
+🧠 Father
+
+* Survivor, familiar with undergrid
+* Skills: Navigation, survival
+* Status: Healthy
+
+🧬 Echo #1
+
+* Stable
+* Loyal, responsive
+* Assists in stabilization
+
+🧬 Echo #2
+
+* Stabilized (recently)
+* Physically injured (leg damage)
+* Mentally fragile but improving
+
+=== INVENTORY / GEAR ===
+
+* Level 3 Keycard
+* Modified Tracker Device (“Signal Ghost” capability)
+* Pendant (family item)
+* Basic scavenged supplies
+
+=== LOCATION ===
+Undergrid Safe Zone
+
+* Hidden, off-network
+* Multiple exits
+* Temporary base of operations
+
+=== KNOWN THREATS ===
+
+* Krait Biodyne (active pursuit)
+* Doctor Virex (alive)
+* Hunter-Killer Units (HK series)
+* Core Lab (Sublevel 4 — active)
+* Multiple unstable Echoes
+
+=== OBJECTIVES ===
+
+PRIMARY:
+
+* Survive
+* Protect family
+* Manage stability
+
+SECONDARY:
+
+* Stabilize more Echoes (carefully)
+* Build a “pack”
+* Learn limits of power
+
+LONG TERM:
+
+* Destroy or infiltrate Core Lab
+* Stop production of new variants
+* Decide fate of Echoes (save or eliminate)
+
+=== CURRENT STATE ===
+
+* Family reunited
+* Two Echoes stabilized
+* No active trackers
+* Safe but temporary location
+
+=== NEXT SESSION HOOK ===
+You are resting in the undergrid with your family and two Echoes.
+Your strain is reduced, but your limits are real.
+
+You are deciding:
+
+* Grow your pack?
+* Train control?
+* Scout enemies?
+* Plan a strike?
+
+=== RESUME PROMPT ===
+“Resume RPG — I am Little Spark in the undergrid safe zone with my family and two stabilized echoes. I want to [action].”
+
+END SAVE FILE

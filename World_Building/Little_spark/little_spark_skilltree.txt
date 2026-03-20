@@ -1,0 +1,269 @@
+Alright—this is where your character really starts to evolve 😈
+Here’s a **custom skill tree** built specifically for your Null-Feline + Echo Anchor playstyle.
+
+---
+
+# 🎲 **NULL-FELINE SKILL TREE**
+
+---
+
+## 🌌 CORE PATH: **THE ANCHOR (YOU)**
+
+Focus: Control, stability, leadership
+
+```
+        [Core Self]
+             |
+     -------------------
+     |        |        |
+ Control   Expansion   Mastery
+```
+
+---
+
+### 🧠 **Tier 1 — CONTROL (You are here)**
+
+* ✅ **Stability Control I**
+
+  * Reduce strain when stabilizing
+* ✅ **Partial Disconnect**
+
+  * Safely pull out of overload
+* 🔓 **Focused Anchor (Next)**
+
+  * Stabilizing one target costs less strain
+
+---
+
+### 🧠 **Tier 2 — EXPANSION**
+
+* 🔒 **Dual Stabilization**
+
+  * Stabilize two echoes at reduced penalty
+* 🔒 **Emotional Anchor**
+
+  * Words + presence improve success chance
+* 🔒 **Pain Filter**
+
+  * Reduce mental backlash from injured echoes
+
+---
+
+### 🧠 **Tier 3 — MASTERY**
+
+* 🔒 **Anchor Field**
+
+  * Actively stabilize multiple echoes in an area
+* 🔒 **Identity Lock**
+
+  * Immunity to losing yourself under strain
+* 🔒 **Echo Command**
+
+  * Issue coordinated commands to all stabilized echoes
+
+---
+
+# 🐾 PATH: **THE PREDATOR (YOUR BODY)**
+
+Focus: Combat, stealth, instinct
+
+```
+      Predator Core
+           |
+   -----------------
+   |       |       |
+ Stealth  Combat  Evolution
+```
+
+---
+
+### 🐾 Tier 1 (Unlocked)
+
+* ✅ **Predator Instinct**
+* ✅ **Enhanced Tracking**
+* 🔓 **Silent Pounce**
+
+  * Bonus damage + no sound on first strike
+
+---
+
+### 🐾 Tier 2
+
+* 🔒 **Adaptive Reflexes**
+
+  * Dodge reaction (once per encounter)
+* 🔒 **Rending Claws**
+
+  * Cause bleed damage
+* 🔒 **Wall Phantom**
+
+  * Move freely across vertical surfaces
+
+---
+
+### 🐾 Tier 3
+
+* 🔒 **Phase Hunter**
+
+  * Attack from cloak without breaking invisibility immediately
+* 🔒 **Feral Overdrive (Controlled)**
+
+  * Enter boosted state without losing control
+* 🔒 **Apex Form**
+
+  * Massive temporary stat boost (high cost)
+
+---
+
+# 🧬 PATH: **THE ECHO (YOUR PACK)**
+
+Focus: Allies, coordination, growth
+
+```
+       Echo Bond
+          |
+   ----------------
+   |      |       |
+ Support  Sync   Growth
+```
+
+---
+
+### 🧬 Tier 1 (Current)
+
+* ✅ **Echo Bond**
+* ✅ **Basic Stabilization**
+* 🔓 **Shared Senses**
+
+  * Briefly see through an echo
+
+---
+
+### 🧬 Tier 2
+
+* 🔒 **Echo Relay**
+
+  * Transfer strain between echoes
+* 🔒 **Pack Instinct**
+
+  * Bonus when fighting together
+* 🔒 **Guard Command**
+
+  * Assign an echo to protect a target
+
+---
+
+### 🧬 Tier 3
+
+* 🔒 **Echo Network**
+
+  * Maintain long-distance connection
+* 🔒 **Stability Chain**
+
+  * Echoes help stabilize each other
+* 🔒 **Echo Evolution**
+
+  * Permanently enhance an echo (specialization)
+
+---
+
+# ⚡ PATH: **THE SYSTEM (TECH INTERFACE)**
+
+Focus: hacking, control, manipulation
+
+```
+     Neural Interface
+           |
+   ------------------
+   |       |        |
+ Hack   Disrupt   Control
+```
+
+---
+
+### ⚡ Tier 1
+
+* ✅ **Basic Interface**
+* 🔓 **Signal Ghost (Unlocked)**
+
+  * Spoof tracking signals
+
+---
+
+### ⚡ Tier 2
+
+* 🔒 **System Override**
+
+  * Disable doors, turrets, etc.
+* 🔒 **Tracker Hijack**
+
+  * Turn enemy tracking into intel
+* 🔒 **Power Surge**
+
+  * Weaponize environment (shock traps)
+
+---
+
+### ⚡ Tier 3
+
+* 🔒 **Full Sync**
+
+  * Control multiple systems at once
+* 🔒 **AI Intrusion**
+
+  * Fight system intelligence (like what you felt earlier)
+* 🔒 **Facility Collapse**
+
+  * Trigger large-scale system failure
+
+---
+
+# ⚖️ SPECIAL MECHANIC: **STRAIN TIERS**
+
+| Strain Level | Effect                    |
+| ------------ | ------------------------- |
+| Low          | No penalties              |
+| Moderate     | Minor blur, fatigue       |
+| High         | Risk of instinct takeover |
+| Critical     | Loss of control possible  |
+
+---
+
+# 🎯 CURRENT BUILD (YOU RIGHT NOW)
+
+* Anchor: Tier 1
+* Predator: Tier 1
+* Echo: Tier 1
+* System: Tier 1
+* Strain: **Moderate (recovering)**
+
+---
+
+# 🔥 SUGGESTED NEXT UNLOCKS
+
+Based on your playstyle:
+
+👉 **Focused Anchor** (reduce strain)
+👉 **Shared Senses** (tactical awareness)
+👉 **Silent Pounce** (combat edge)
+
+---
+
+# 🎲 HOW YOU PROGRESS
+
+You’ll gain new abilities by:
+
+* Stabilizing more echoes
+* Surviving high-strain moments
+* Major story decisions
+* Training sessions
+
+---
+
+If you want next, I can:
+
+* Build a **level-up system with XP**
+* Give each echo its own **mini skill tree**
+* Or design a **boss progression path for Virex**
+
+Just tell me 👍

@@ -1,0 +1,283 @@
+---
+name: Session Checkpoint Template
+keywords: [checkpoint, session, save-point, template, structure]
+description: Standard checkpoint format for auto-generated session save points - includes character state, NPCs, plot threads, and world continuity
+---
+
+# Session Checkpoint Template
+
+**Purpose:** Auto-generated at natural stopping points (end of in-game day, major plot beat, player request). Contains enough detail for seamless session resumption.
+
+**Usage:** This template defines the checkpoint structure. When a checkpoint is generated, fill in each section with current session data.
+
+**CRITICAL:** The checkpoint header MUST ALWAYS include Campaign, IN-GAME DATE, Location, and Session number. The in-game date is essential for resuming accurately—it tells you exactly where you are in the timeline and what day/time it is in the world.
+
+---
+
+## Checkpoint Structure
+
+```
+═══════════════════════════════════════════════════════════
+[CHECKPOINT SAVED: SESSION_XX]
+═══════════════════════════════════════════════════════════
+
+CAMPAIGN: [Campaign Name]
+IN-GAME DATE: [Day X, Time (morning/afternoon/evening/night)]
+LOCATION: [Current location name and brief sensory anchor]
+SESSION: Session_XX
+
+---
+
+CHARACTER STATE
+
+**Name:** [Character name/race/class if relevant]
+
+**Physical Condition:**
+- Appearance: [Visible state: injuries, scars, cleanliness, bearing]
+- Status Conditions: [Hungry, Tired, Injured, Exhausted, Sick, Intoxicated, etc.]
+- Equipment: [Notable items on person or in inventory]
+
+**Emotional/Mental State:**
+- Current Mood: [Anxious, confident, determined, conflicted, suspicious, etc.]
+- Relationships: [Recent attitude shifts with key NPCs]
+- Character Arc: [What's the character grappling with or learning?]
+
+**Bonds/Reputation:**
+- [NPC Name]: [Attitude toward PC + reason (e.g., "impressed by bravery", "suspicious of motives")]
+- [NPC Name]: [Attitude]
+
+---
+
+SCENE CONTEXT
+
+**Current Setting:** [Detailed description of immediate surroundings that establishes mood/tone]
+
+**Time of Day Specifics:** [What's happening naturally at this time? Who's around? What activities are ongoing?]
+
+**Recent Dialogue Echo:** [If a significant conversation just occurred, capture the final beat or emotional tone]
+
+---
+
+MAJOR NPCs IN CURRENT LOCATION (Or Recently Encountered)
+
+**[NPC Name]** [Brief role: e.g., "Garrison Captain", "Local merchant", etc.]
+- **Attitude Toward PC:** [Friendly/wary/neutral/hostile + reason]
+- **Current State:** [What are they doing? Mental/emotional state]
+- **Key Quirk/Speech Pattern:** [One notable habit that makes them recognizable]
+- **Recent Interaction:** [Last significant exchange with PC, if any]
+
+**[NPC Name]**
+- **Attitude Toward PC:** [Attitude]
+- **Current State:** [What they're doing]
+- **Key Quirk/Speech Pattern:** [One distinctive trait]
+- **Recent Interaction:** [Last exchange]
+
+(Include 3-5 major NPCs; note any who have left the location or are expected to return)
+
+---
+
+RECURRING NPCs — LOCATION-TIED (Consistency Layer)
+
+(Include staffing NPCs tied to locations the PC visits—not random street traffic, but people who work/live there. E.g., Joe who runs the alchemist stall on 5th Street. These NPCs should be consistent across sessions unless there's an in-world reason for absence. Reference: [[Location_Brief_Template]] for staffing model.)
+
+**[Location]: [NPC Name]** — [Role/Position]
+- **Attitude toward PC:** [How they relate to the character]
+- **Key Detail:** [One distinctive trait: appearance, habit, speech quirk]
+- **Regular Pattern:** [When/where are they typically available? E.g., "mornings at the stall", "off Sundays", "night shift only"]
+- **Last Interaction:** [What was the last significant exchange with the PC?]
+- **Current Status:** [Working as usual, sick, taking leave, promoted, left town, dead?]
+
+**[Location]: [NPC Name]** — [Role/Position]
+- **Attitude toward PC:** [Attitude]
+- **Key Detail:** [One distinctive trait]
+- **Regular Pattern:** [When/where available]
+- **Last Interaction:** [Last exchange]
+- **Current Status:** [Current state]
+
+(Only include NPCs with a fixed location or role who might reappear. Random street vendors or one-off encounters don't get logged here. If Joe works at the alchemist stall and you visit in Session 01, Joe should be there in Session 02 unless something happened to him)
+
+---
+
+WORLD STATE
+
+**Time Passage:** [How many days have passed in total? In-game calendar position]
+
+**Location Changes:** [Any places destroyed, created, or significantly altered?]
+
+**Faction Status:** [Any factions advanced their goals? Lost ground? New conflicts?]
+
+**Environmental/Seasonal:** [Weather, season, conditions affecting travel/activities?]
+
+---
+
+KEY EVENTS (This Session)
+
+- [Event 1: What happened, who was involved, consequence]
+- [Event 2]
+- [Event 3]
+(3-5 major beats maximum; prioritize what matters for continuity)
+
+---
+
+PLOT THREADS & HOOKS (What's Unresolved)
+
+**Active (In Progress):**
+- [Thread 1: What's the PC pursuing? Status?]
+- [Thread 2]
+
+**Pending (Waiting for PC Action):**
+- [Something an NPC asked the PC to do]
+- [A mystery that needs investigation]
+
+**Complications (Problems That Will Worsen):**
+- [If ignored, what escalates? What's the timer?]
+
+**Opportunities (Closing/Expiring):**
+- [What can the PC still pursue before it's too late?]
+
+---
+
+GM MEMORY NOTES (For AI Continuity)
+
+**NPC Voices to Maintain:**
+- [NPC Name]: [Two distinctive speech quirks to keep consistent]
+- [NPC Name]: [Two quirks]
+
+**World Tone/Themes in Play:**
+- [What thematic elements are active? E.g., "trust/betrayal", "duty vs. freedom"]
+
+**Recent Foreshadowing Planted:**
+- [What hints have been dropped? What will pay off?]
+
+**PC Emotional Arc:**
+- [Where is the character emotionally? What's driving them?]
+
+---
+END CHECKPOINT
+═══════════════════════════════════════════════════════════
+```
+
+---
+
+## Field Guide
+
+### CHECKPOINT HEADER (Required on every checkpoint)
+
+**CRITICAL: Every checkpoint MUST begin with these four fields:**
+
+- **CAMPAIGN:** Name of the current campaign (e.g., "Aethelmark", "The Wandering Road")
+- **IN-GAME DATE:** Exact day and time within the world. Format: "Day X, [morning/afternoon/evening/night]" or "Spring Day 14, evening" or "Wintermonth 3, mid-afternoon". **This is essential for resuming accurately.** Without it, I don't know what day/time context to use for the next session.
+- **LOCATION:** Current location name + brief sensory anchor (e.g., "Silberbach Market Square - vendor stalls, crowd noise, smell of fresh bread")
+- **SESSION:** Session number with zero-padding (Session_01, Session_02, etc.)
+
+**Why IN-GAME DATE matters:** It tells you exactly where in the timeline you are. It affects what NPCs are working, what weather conditions exist, what time-sensitive opportunities are still available, and what state the world is in. If I don't have this, I can't resume accurately.
+
+---
+
+### CHARACTER STATE
+
+Captures the PC's complete status so I can render them accurately:
+
+- **Appearance:** How they look physically (wounds, scars, cleanliness, bearing, mood-written-on-body)
+- **Status Conditions:** Active statuses from Section 6 of core rules (these persist between sessions)
+- **Equipment:** What they're carrying (backpack, weapons, valuables, magical items)
+- **Mood:** Emotional tenor right now
+- **Relationships:** How key NPCs' attitudes toward them have shifted
+- **Character Arc:** What internal journey is the character on? What are they learning/confronting?
+
+### SCENE CONTEXT
+
+Provides immersive continuity:
+
+- **Current Setting:** Sensory details of the immediate environment (sight, sound, smell, mood)
+- **Time of Day Specifics:** What's naturally happening at this hour? Is the tavern crowded? Is the street empty? Who works night shift here?
+- **Recent Dialogue Echo:** If a scene just ended with a significant conversation, capture the final emotional beat (not the full dialogue, just the resonance)
+
+### MAJOR NPCs (3-5 per checkpoint)
+
+NPCs actively in the scene or directly relevant to current situation:
+
+- **Attitude:** Friendly, wary, hostile, neutral (+ reason: "impressed by bravery", "suspect you're hiding something", etc.)
+- **Current State:** What are they doing right now? How do they feel?
+- **Key Quirk:** One distinctive speech pattern or behavior that makes them instantly recognizable
+- **Recent Interaction:** Last meaningful exchange with PC (not necessarily this session)
+
+### RECURRING NPCs — LOCATION-TIED (The Consistency Layer)
+
+**This is critical for world coherence.** These are location-staffing NPCs:
+
+- **[Location]: Joe** — runs the alchemist stall
+- **[Location]: Marget** — owns the bakery
+- **[Location]: Guard Captain** — evening gate shift
+
+**When you return to that location next session, these NPCs should be there** (unless something happened to them).
+
+- **Regular Pattern:** when/where they work. "Mornings at the stall", "off Sundays", "night shift only", "opens at dawn"
+- **Current Status:** clarifies if they're unavailable. "Sick this week", "took leave", "promoted to supervisor", "dead"
+
+### WORLD STATE
+
+Background continuity:
+
+- **Time Passage:** cumulative days in the campaign (important for aging, seasons, deadlines)
+- **Location Changes:** if you destroyed a building or factions fought over territory
+- **Faction Status:** political/economic shifts
+- **Environmental/Seasonal:** affects what's happening and what's possible
+
+### KEY EVENTS
+
+3-5 bullet points of major narrative beats. Prioritizes continuity:
+- What changed in the world?
+- What changed in PC relationships?
+- What conflict resolved or escalated?
+
+### PLOT THREADS & HOOKS
+
+**Active:** What the PC is currently pursuing  
+**Pending:** Quests/favors NPCs asked for, mysteries to solve  
+**Complications:** Time bombs (what gets worse if ignored?)  
+**Opportunities:** Limited-time quests (what expires soon?)  
+
+### GM MEMORY NOTES
+
+**Critical for AI continuity** — this is how I stay consistent across sessions:
+
+- **NPC Voices:** Two speech quirks per major NPC so I don't drift toward generic dialogue
+- **World Tone/Themes:** What's thematically active? (Trust/betrayal? Duty vs. freedom? Progress vs. tradition?)
+- **Foreshadowing:** What hints have been planted? What will pay off?
+- **PC Emotional Arc:** Where is the character's head? What are they grappling with?
+
+---
+
+## When to Create a Checkpoint
+
+See Section 10 of [[core_rules|core_rules.md]] for full rules. Quick version:
+
+1. **In-game day ends** — character settling for sleep
+2. **Scenario milestone reached** — major plot beat concluded
+3. **Player explicitly requests** — "save here", "checkpoint"
+4. **Emotional/narrative completion** — scene feels complete, not hanging
+5. **Time passage indicates transition** — new chapter beginning (location/quest change)
+
+---
+
+## Session Naming
+
+Auto-increments: **Session_01 → Session_02 → Session_03 ... Session_10 → Session_11**, etc.
+
+- Zero-padded: `Session_01`, not `Session_1`
+- Tracks across entire campaign
+- Each checkpoint creates next session number
+
+---
+
+## Integration After Checkpoint
+
+After generating a checkpoint:
+
+- **Character Sheet:** update current date + status
+- **Campaign Timeline:** log major events
+- **Scenario File:** update progress
+- **Recurring NPC locations:** verify staffing is current
+
+(These can be batched; checkpoint itself is immediate.)
