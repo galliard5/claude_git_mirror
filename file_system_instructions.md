@@ -332,6 +332,64 @@ Benefits:
 - User controls timing of file writes
 - More efficient token usage during iterative work
 
+GIT INTEGRATION:
+Git commits mark logical boundaries in your project workflow. Commits happen automatically after batch write operations complete and all files verify. This creates clean, meaningful snapshots tied to your actual world-building work.
+
+**BATCH WRITE + GIT COMMIT WORKFLOW:**
+1. Accumulate file changes in conversation (pending list visible)
+2. User initiates batch write: "commit", "save all", "batch write", "done", etc.
+3. Claude executes batch write operation
+4. Claude verifies all newly created/modified files
+5. Claude displays verified file list
+6. Claude proposes git commit with message and asks for approval
+7. If approved: Claude executes `git add .` and `git commit` directly using bash
+8. Claude displays commit confirmation with hash and message
+
+**COMMIT MESSAGE FORMAT:**
+All git commits follow this structure for consistency:
+
+`[Category]: [Subject] | [Details] | [In-Game Date (if applicable)]`
+
+**Categories:**
+- `Session:` — After game session concludes (e.g., "Session: Viktor Steinfeld 02 | Investigation deepens, embezzler confrontation | Date: 11 April 1650")
+- `Scenario Extraction:` — After scenario data consolidation (e.g., "Scenario Extraction: Viktor Steinfeld 01 → NPCs, locations, factions consolidated")
+- `World Building:` — Faction, location, or lore additions (e.g., "World Building: Added Valtor Keep garrison structure and staffing details")
+- `Character:` — New or updated NPC/PC files (e.g., "Character: Created Oswin Brandt embezzler profile")
+- `Rules Update:` — Changes to core_rules or mechanics (e.g., "Rules Update: Clarified transformation consent protocol")
+- `Project Maintenance:` — Metadata fixes, organization, renaming (e.g., "Project Maintenance: Updated YAML frontmatter across 8 character files")
+- `Bulk:` — Large, multi-category changes (e.g., "Bulk: Initial commit - Aethelmark & Kennel Hounds, 150+ files, 3 active campaigns")
+
+**Examples of good commits:**
+```
+Session: Maruvec Campaign 02 | Donor selection, squad briefing, pre-transformation logistics | Date: 8 March 1651
+Scenario Extraction: Viktor Steinfeld 01 | Extracted NPCs, locations, factions from checkpoint
+World Building: Silberbach Town structure - added Noble Quarter locations and Merchant House headquarters
+Character: Created Renaud Bastier (Vauclair kennel master) - gruff, programme architect
+Rules Update: Clarified session continuation logic - 3-5 sentence recap only after breaks
+```
+
+**Why commit messages matter:**
+- `git log` becomes your project's annotated history
+- Future you will thank present you when searching for "when did I add this?"
+- Tied to in-game calendar dates for scenario continuity
+- Clear audit trail of world-building decisions
+
+**BRANCHING FOR EXPERIMENTS:**
+Before testing major mechanics changes or alternative world states, notify the user to run:
+
+```cmd
+git branch experimental/[short-description]
+git checkout experimental/[short-description]
+```
+
+Example:
+```cmd
+git branch experimental/breeding-rules-v2
+git checkout experimental/breeding-rules-v2
+```
+
+Work on the branch, test, then either keep changes or discard. For solo work, branching is optional — use only if experimenting with major changes.
+
 FILE CREATION VERIFICATION:
 After executing a batch write operation, ANY newly created files must be verified:
 

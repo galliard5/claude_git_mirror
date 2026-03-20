@@ -748,5 +748,71 @@ The checkpoint itself is immediate. File updates follow in order after it is wri
 
 ---
 
+GIT CHECKPOINT INTEGRATION
+==========================
+
+**Core Directive:** After each session checkpoint is written and the player has a moment to review it, a git commit is automatically prepared and executed.
+
+---
+
+## Checkpoint to Git Workflow
+
+When a checkpoint is generated:
+
+1. Checkpoint is displayed to the player
+2. Player reviews checkpoint and decides to continue or break
+3. Claude preposes a git commit message based on the session's major events
+4. Claude asks: **"Commit this session to git? [proposed message]"**
+5. Player approves or requests message changes
+6. If approved: Claude executes `git add .` and `git commit -m "[message]"` directly
+7. Claude displays commit confirmation with hash and timestamp
+
+**The git commit is the permanent save point** — equivalent to saving a game. It marks the end of a play session with all changes captured.
+
+---
+
+## Commit Messages for Sessions
+
+Session commits use this format:
+
+`Session: [Campaign Name] [Session #] | [1-2 sentence summary] | Date: [In-Game Date]`
+
+**Examples:**
+```
+Session: Viktor Steinfeld 02 | Investigation deepens—embezzler confronted, solicitors arrive | Date: 11 April 1650
+Session: Maruvec Campaign 03 | Squad transformation complete, first patrol briefing | Date: 9 March 1651
+Session: Vauclair Campaign 01 | Kobold PC transforms into sapient hound, garrison integration begins | Date: [date]
+```
+
+**Key elements:**
+- Campaign name (ties to the scenario file)
+- Session number (auto-incremented)
+- Concise summary (what the major event was)
+- In-game date (critical for continuity and searching through git log)
+
+---
+
+## Searching Git History
+
+With session dates in commit messages, you can quickly find:
+- When a specific plot point occurred: `git log --grep="embezzler"`
+- Sessions in a date range: check the commit timeline
+- All sessions for a campaign: `git log --grep="Viktor Steinfeld"`
+- What changed between two sessions: `git diff [session-hash-1] [session-hash-2]`
+
+This makes git log your **campaign archive** — a searchable, timestamped record of everything that happened.
+
+---
+
+## Extraction Commits
+
+After scenario extraction completes (NPCs, locations, factions consolidated into project files):
+
+`Scenario Extraction: [Campaign Name] [Session #] | Data consolidated to project files | Date: [extraction date]`
+
+This marks the end of a scenario's data lifecycle — when temporary session-specific details become permanent world fixtures.
+
+---
+
 END CORE RULES
 ==============
