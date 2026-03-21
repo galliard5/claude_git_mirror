@@ -1,7 +1,7 @@
 ---
 name: Ito
-keywords: [pc, scout, sniper, lxotl-anthro, rogue-trader, ground-team]
-description: Lxotl lizard anthro scout and sniper specialist, typically detached to ground teams in a support role
+keywords: [pc, scout, sniper, lxotl-anthro, rogue-trader, ground-team, fates-cast]
+description: Lxotl lizard anthro scout and sniper specialist aboard the Fates Cast, typically detached to ground teams in a support role
 ---
 
 # Ito
@@ -16,12 +16,12 @@ description: Lxotl lizard anthro scout and sniper specialist, typically detached
 
 **Background:** Lxotl anthros were a specialist line — small unit infiltration, long-range observation, forward scouting for imperial operations that needed eyes somewhere before boots. Ito's lineage is old enough that her immediate family doesn't know which program produced their line. It has simply always been what they are.
 
-She came to the ship the way most of the crew came to the ship — through a contract that extended, and then extended again, until the question of leaving stopped arising naturally. She is formally attached as a specialist support asset, detached to ground teams as required. In practice she is as much a crew member as anyone else, which she would neither confirm nor deny if asked.
+She came to the Fates Cast the way most of the crew came to the Fates Cast — through a contract that extended, and then extended again, until the question of leaving stopped arising naturally. She is formally attached as a specialist support asset, detached to ground teams as required. In practice she is as much a crew member as anyone else, which she would neither confirm nor deny if asked.
 
 Her alignment is difficult to read. The ship's cult observances she participates in minimally, practically — before a transit she performs one small personal ritual, quietly, and that's the extent of it. What she actually believes about the warp, the ship, or anything else, she keeps to herself.
 
 **Race:** Lxotl Anthro
-**Status:** Scout / Sniper Specialist, ground team support
+**Status:** Scout / Sniper Specialist, ground team support — Fates Cast
 **Age:** Indeterminate. Lxotl age slowly.
 
 **Skills & Abilities:**
@@ -39,7 +39,7 @@ Her alignment is difficult to read. The ship's cult observances she participates
 
 **Fears:** Being seen when she doesn't intend to be — in the literal sense and the figurative one.
 
-**Location:** Wherever she's needed. Her personal space aboard ship is minimal and rarely occupied.
+**Location:** Wherever she's needed. Her personal space aboard the Fates Cast is minimal and rarely occupied.
 
 **Voice:**
 **Default Conversational Move:** Short, direct, accurate. Ito answers questions precisely and does not volunteer additional information.
@@ -71,6 +71,7 @@ Her alignment is difficult to read. The ship's cult observances she participates
 
 **Relationships:**
 **Ally:** Works most fluidly alongside Balphereon — he runs the squad, she runs the edges of it.
+**Neutral:** Sebastian — Ito's assessment of the captain is professional and ongoing. He is competent, he does not interfere with her operational method, and he has not given her a reason to reconsider her position aboard the Fates Cast. Whether this constitutes trust or merely the absence of a reason to leave is a distinction Ito does not appear to find meaningful. She has noted that he does not ask unnecessary questions about her personal business, which she considers the correct behaviour for a captain.
 **Rival:** None current. Previous ones tend to not remain a problem.
 **Complication:** Damien finds her biology professionally interesting. She finds this mildly irritating and has made this clear several times without apparent effect.
 

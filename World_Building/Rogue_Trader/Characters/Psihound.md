@@ -1,7 +1,7 @@
 ---
 name: Psihound
-keywords: [npc, experiment, psyker, cyber-mastiff, damien, ship-crew, rogue-trader]
-description: A low-level psyker volunteer converted into a cyber-mastiff chassis by Damien — an ongoing experiment with unexpected and complicated results
+keywords: [npc, experiment, psyker, cyber-mastiff, damien, ship-crew, rogue-trader, fates-cast]
+description: A low-level psyker volunteer converted into a cyber-mastiff chassis by Damien aboard the Fates Cast — an ongoing experiment with unexpected and complicated results
 ---
 
 # Psihound
@@ -14,14 +14,14 @@ description: A low-level psyker volunteer converted into a cyber-mastiff chassis
 
 **Flaw:** The chassis limits expression. She communicates through behaviour, psyniscience, and occasional warp-adjacent means rather than language. Being consistently misread — treated as equipment rather than crew — produces the kind of frustration that has no clean outlet.
 
-**Background:** She volunteered. This is important and is not always remembered. Damien was converting subjects to cyber-mastiff chassis for ship defence purposes — a known technology, a functional programme. She was a low-level psyker with limited prospects who found the offer more interesting than her alternatives. What Damien hadn't fully modelled was what a psyker chassis would do inside a cyber-mastiff architecture exposed to the ship's warp-adjacent environment.
+**Background:** She volunteered. This is important and is not always remembered. Damien was converting subjects to cyber-mastiff chassis for ship defence purposes — a known technology, a functional programme. She was a low-level psyker with limited prospects who found the offer more interesting than her alternatives. What Damien hadn't fully modelled was what a psyker chassis would do inside a cyber-mastiff architecture exposed to the Fates Cast's warp-adjacent environment.
 
 The result is that she works. She functions as a ship's security and scouting asset. She also has psy rating, psychic abilities, and a relationship with the warp that Damien documents with great interest and she experiences from the inside. What she thinks about all of this, she manages to communicate to those who pay attention.
 
 She is not the last experiment of this type. She is the first one that clearly went somewhere interesting.
 
 **Race:** Formerly human psyker, now cyber-mastiff chassis with psyker integration
-**Status:** Ship's security and scout asset; Damien's ongoing experiment
+**Status:** Ship's security and scout asset; Damien's ongoing experiment — Fates Cast
 **Age:** Relatively recent conversion. Young in the current form.
 
 **Skills & Abilities:**
@@ -38,7 +38,7 @@ She is not the last experiment of this type. She is the first one that clearly w
 
 **Fears:** That Damien will find the results of a subsequent experiment more interesting than her continued operation.
 
-**Location:** Has freedom of the ship. Often found in the lower decks where the warp-adjacent atmosphere is thickest.
+**Location:** Has freedom of the Fates Cast. Often found in the lower decks where the warp-adjacent atmosphere is thickest.
 
 **Voice:**
 **Default Conversational Move:** Behaviour and demonstration. She shows rather than tells, and reads people's responses carefully.
@@ -62,14 +62,15 @@ She is not the last experiment of this type. She is the first one that clearly w
 **Crisis Line:** Psychic scream, deployed with precision rather than panic.
 
 **Combat Disposition:**
-**Bravery:** Moderate and calculated. She fights when the ship needs protecting, not for its own sake.
-**Loyalty:** To the ship and crew — this is home in the only meaningful sense she has.
+**Bravery:** Moderate and calculated. She fights when the Fates Cast needs protecting, not for its own sake.
+**Loyalty:** To the ship and crew — the Fates Cast is home in the only meaningful sense she has.
 **Breaking Point:** When Damien is in direct danger. Her response becomes less calculated.
 
 **Relationships:**
 **Ally:** Damien — complicated, foundational, not fully resolved.
+**Neutral:** Sebastian — the captain treats her as crew. This is not a small thing. He uses her name rather than her designation, acknowledges her presence in briefings when she attends, and does not speak about her as though she is not in the room. Whether he does this out of genuine recognition of her personhood or because it is his policy to treat the ship's more unusual members with baseline respect is a distinction she has not yet resolved. Either way, the behaviour earns something from her — not loyalty in the way she feels toward Damien or the Fates Cast itself, but a willingness to extend the benefit of the doubt that she does not offer freely.
 **Rival:** Anyone who treats her as equipment.
-**Complication:** The warp-adjacent parts of the ship respond to her in ways Damien is still documenting. She may understand why better than he does.
+**Complication:** The warp-adjacent parts of the Fates Cast respond to her in ways Damien is still documenting. She may understand why better than he does.
 
 **Memory / Interaction Log:**
 **Records:**
@@ -81,7 +82,7 @@ She is not the last experiment of this type. She is the first one that clearly w
 **Trust Level (0 / 5):** —
 
 **Daily Routine:**
-- Variable. Patrols the ship on no fixed schedule.
+- Variable. Patrols the Fates Cast on no fixed schedule.
 - Spends significant time in the lower decks.
 - Present during Damien's research sessions — whether as subject, observer, or assistant is context-dependent.
 
@@ -95,3 +96,5 @@ She is not the last experiment of this type. She is the first one that clearly w
 
 **GM Notes:**
 The psihound is the ethical centrepiece of Damien's work in miniature. She volunteered, the conversion worked, and she is now something that didn't exist before. The question of what she is owed — whether the original consent covered this outcome, whether she has standing as crew, what her future looks like — is deliberately left open. She functions. She thinks. She has preferences and fears. Whether the people around her treat her accordingly is a consistent source of quiet tension.
+
+Sebastian's treatment of her — casual, respectful, unremarkable — may ultimately matter more to her standing aboard the Fates Cast than any formal declaration. When the captain treats someone as crew, the crew notices.

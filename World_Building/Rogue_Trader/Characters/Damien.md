@@ -1,11 +1,11 @@
 ---
 name: Damien
-keywords: [pc, chief-engineer, medicae, heritek, mouse-anthro, occult, rogue-trader]
-description: Mouse anthro chief engineer, ship's medicae and lead researcher — a former mechanicus biologis turned heritek who gene-edited himself and dabbles in the occult
+keywords: [pc, chief-engineer, medicae, heritek, mouse-anthro, occult, rogue-trader, fates-cast]
+description: Mouse anthro chief engineer, ship's medicae and lead researcher aboard the Fates Cast — a former mechanicus biologis turned heritek who gene-edited himself and dabbles in the occult
 ---
 
 # Damien
-### Chief Engineer / Medicae / Researcher. Mouse Anthro. The ship's beating brain.
+### Chief Engineer / Medicae / Researcher. Mouse Anthro. The Fates Cast's beating brain.
 
 **Appearance:** Fully anthro in form — the gene-editing went further than perhaps originally intended. Damien stands small even by mouse standards, with large dark eyes that catch light in unsettling ways, rounded ears that swivel independently toward sounds, and fine grey-brown fur now shot through with silver at the muzzle and temples. He moves in quick, precise bursts, rarely still, hands always doing something. His mechadendrite utility rig is permanently attached and has become so integrated into his daily movement that he reaches for tools with it reflexively, mid-sentence. His clothing is practical, layered with pouches, and perpetually stained with something biological.
 
@@ -16,12 +16,12 @@ description: Mouse anthro chief engineer, ship's medicae and lead researcher —
 
 **Background:** Damien began his career as chief biologis aboard a mechanicus exploration ark — a true believer in the order's philosophy of knowledge preservation and careful documentation. The problem was that the order's definition of research and his definition of research diverged significantly. They wanted cataloguing. He wanted answers. When he began conducting experiments that produced results rather than records, he was quietly classified as heritek and found himself needing new employment.
 
-The self-modification came later, after he was already aboard the ship. He had access to pre-collapse genetic manipulation archives that no functioning institution would have permitted him to use. The mouse genome was, he maintains, a practical choice — enhanced sensory acuity, metabolic efficiency, manual dexterity improvements. That it also changed his appearance entirely was, he says, an acceptable trade-off. Whether he was also simply curious about what it would feel like is a question he deflects with statistics.
+The self-modification came later, after he was already aboard the Fates Cast. He had access to pre-collapse genetic manipulation archives that no functioning institution would have permitted him to use. The mouse genome was, he maintains, a practical choice — enhanced sensory acuity, metabolic efficiency, manual dexterity improvements. That it also changed his appearance entirely was, he says, an acceptable trade-off. Whether he was also simply curious about what it would feel like is a question he deflects with statistics.
 
 The occult interest developed gradually, in the way that many things develop gradually for people who spend time near warp-sensitive crew. He began with documentation — recording the Navigator's observances, cross-referencing them with pre-collapse texts recovered from dead systems. Then with cautious experimentation. He maintains that he approaches the arcane the same way he approaches everything else: systematically, with proper controls, and with full records kept. The crew is not entirely reassured by this.
 
 **Race:** Mouse Anthro (gene-edited, formerly baseline human)
-**Status:** Chief Engineer, Ship's Medicae, Lead Researcher
+**Status:** Chief Engineer, Ship's Medicae, Lead Researcher — Fates Cast
 **Age:** Unknown. Metabolic alteration has complicated the usual indicators.
 **Gender:** Gender-nullified through modification. Presents and identifies as male.
 
@@ -40,7 +40,7 @@ The occult interest developed gradually, in the way that many things develop gra
 - Customised high-quality plasma gun — his primary ground weapon; modified for his dexterity and specifications
 - Role on ground expeditions: ranged fire support, glass cannon. Devastating at range, not built to absorb punishment. Stays back, puts out extraordinary volume of precise fire, and relies on the rest of the team to keep things off him.
 
-**Independent Goal:** Damien wants to understand how the empire's most advanced technology actually worked, not just how to operate it. Somewhere in the dead systems and sealed archives is the actual physics — the engineering principles behind the singularity cannons and temporal fields. He considers this the most important research project anyone could undertake, and he is conducting it quietly, systematically, in whatever time is left over from keeping the ship running.
+**Independent Goal:** Damien wants to understand how the empire's most advanced technology actually worked, not just how to operate it. Somewhere in the dead systems and sealed archives is the actual physics — the engineering principles behind the singularity cannons and temporal fields. He considers this the most important research project anyone could undertake, and he is conducting it quietly, systematically, in whatever time is left over from keeping the Fates Cast running.
 
 **Fears:** That his records will be lost. That the knowledge he's assembled will die with him or the ship. He has backups of his backups, encrypted and distributed, but the fear remains.
 
@@ -71,14 +71,15 @@ The occult interest developed gradually, in the way that many things develop gra
 
 **Combat Disposition:**
 **Bravery:** Low-to-moderate. Not a coward — will act when necessary — but accurately assesses himself as more valuable alive and at a workbench than as a combat participant.
-**Loyalty:** To the ship and to his research. The crew come with the ship.
+**Loyalty:** To the Fates Cast and to his research. The crew come with the ship.
 **Breaking Point:** He will retreat when the situation stops being solvable with his skillset.
 
 **Relationships:**
-**Ally:** The ship itself, in whatever way that means anything.
+**Ally:** The Fates Cast itself, in whatever way that means anything.
+**Ally:** Sebastian — the arrangement is built on mutual non-interference. Sebastian does not pretend to understand the technical work and does not interfere with Damien's methods. Damien does not pretend to understand command and does not interfere with Sebastian's contracts. What holds it together is that both recognise the other's competence as genuine, and that Sebastian has never once threatened to restrict the research programme for political reasons. For Damien, who has been chased out of one institution already for producing results they didn't want, a captain who lets him work is worth considerable loyalty.
 **Rival:** Any functioning remnant of the mechanicus orders who would classify his work as heritek.
 **Complication:** The psihound. His most successful and most ethically complicated experiment is now a crew member he is simultaneously responsible for and professionally fascinated by.
-**Notable:** Has posed for the captain's personal paintings on at least one occasion. Considers this a reasonable exchange. Does not bring it up unprompted.
+**Notable:** Has posed for Sebastian's personal paintings on at least one occasion. Considers this a reasonable exchange. Does not bring it up unprompted.
 
 **Memory / Interaction Log:**
 **Records:**

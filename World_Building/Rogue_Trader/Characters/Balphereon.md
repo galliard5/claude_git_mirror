@@ -1,7 +1,7 @@
 ---
 name: Balphereon
-keywords: [pc, sergeant, squad-lead, ground-team, mutant, warp-gifted, rogue-trader]
-description: Mutated squad sergeant and ground forces lead — warp-gifted over years of service, command-focused, the operational backbone of the ship's combat capability
+keywords: [pc, sergeant, squad-lead, ground-team, mutant, warp-gifted, rogue-trader, fates-cast]
+description: Mutated squad sergeant and ground forces lead aboard the Fates Cast — warp-gifted over years of service, command-focused, the operational backbone of the ship's combat capability
 ---
 
 # Balphereon
@@ -18,10 +18,10 @@ He does not hide the mutations from the crew. He does not advertise them to outs
 
 **Background:** Former imperial guard equivalent — death world origin, the kind of background that produces people with very high toughness and very practical views about survival. His regiment was part of the broader collapse-era military fragmentation — the unit was good, the institution behind it fell apart, and people like Balphereon ended up as independent operators because the alternative was unemployment or allegiance to something worse.
 
-He took mercenary work, then security contracts, then found the ship through a ground-team posting that turned permanent. He is comfortable with the ship's unusual culture — he has served under stranger flags, and his criteria for a good posting have always been competent leadership, capable squad mates, and work that means something. He has all three. The rest is details.
+He took mercenary work, then security contracts, then found the Fates Cast through a ground-team posting that turned permanent. He is comfortable with the ship's unusual culture — he has served under stranger flags, and his criteria for a good posting have always been competent leadership, capable squad mates, and work that means something. He has all three. The rest is details.
 
 **Race:** Human (death world origin, extensively mutated)
-**Status:** Ground team sergeant, squad leader
+**Status:** Ground team sergeant, squad leader — Fates Cast
 **Age:** Mid-to-late career. Exact age unclear.
 
 **Skills & Abilities:**
@@ -68,11 +68,12 @@ He took mercenary work, then security contracts, then found the ship through a g
 
 **Combat Disposition:**
 **Bravery:** High and steady. Not reckless — controlled.
-**Loyalty:** To his squad, absolutely. To the ship's command structure, operationally. To abstractions, not much.
+**Loyalty:** To his squad, absolutely. To the Fates Cast's command structure, operationally. To abstractions, not much.
 **Breaking Point:** When the squad is gone and continuation serves no purpose. He will hold as long as holding means something.
 
 **Relationships:**
 **Ally:** Kerberos — trusts the combat capability completely, has made peace with everything else.
+**Ally:** Sebastian — the command relationship is clean and professional. Sebastian sets objectives, Balphereon achieves them. What makes it work is that Sebastian does not micromanage tactical decisions in the field, and Balphereon does not question strategic decisions from the bridge. The trust is operational rather than personal, which suits both of them. Balphereon has noted, without comment, that Sebastian is one of the few captains he has served under who walks the lower decks and remembers ground team names. He considers this a good sign in a young captain.
 **Rival:** Anyone who leads badly and gets people killed for it.
 **Complication:** Ito. He trusts her operationally without reservation and has very little idea what she actually thinks about anything.
 

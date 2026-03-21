@@ -1,7 +1,7 @@
 ---
 name: Kerberos
-keywords: [pc, ancient-warrior, komodo-anthro, warp-survivor, night-lords, ground-team, rogue-trader]
-description: A komodo dragon anthro super-soldier from the empire's pre-collapse Night Lords program, warp-stranded for millennia and bearing the mutations of survival
+keywords: [pc, ancient-warrior, komodo-anthro, warp-survivor, night-lords, ground-team, rogue-trader, fates-cast]
+description: A komodo dragon anthro super-soldier from the empire's pre-collapse Night Lords program, warp-stranded for millennia and bearing the mutations of survival — now serving aboard the Fates Cast
 ---
 
 # Kerberos
@@ -20,10 +20,10 @@ The collapse wars changed everything. When the civil conflict that ended the emp
 
 He did not fall. This is important to him. When the heretics who would have corrupted his programme made their play, he was already gone — not by choice, not through heroism, simply through circumstance. He emerged into a universe that had moved on without him, carrying mutations that the warp had given him not as gifts but as the simple cost of survival. They are his. He does not regret them. He does not celebrate them. They are what he is now.
 
-He found the ship the way strange things find the ship — through the warp, through the Navigator's unusual connections, through whatever mechanism brings odd things into contact with this particular hull.
+He found the Fates Cast the way strange things find the Fates Cast — through the warp, through the Navigator's unusual connections, through whatever mechanism brings odd things into contact with this particular hull.
 
 **Race:** Komodo Dragon Anthro (Night Lords enhanced programme — pre-collapse super soldier)
-**Status:** Ground team specialist, ancient warrior
+**Status:** Ground team specialist, ancient warrior — Fates Cast
 **Age:** Functionally unknown. Pre-dates most surviving institutions.
 
 **Skills & Abilities:**
@@ -46,7 +46,7 @@ He found the ship the way strange things find the ship — through the warp, thr
 
 **Homeworld:** Ju'ukto, capital of the Talax system (War Moons of Talax). A hive world ruled by oligarchic noble houses under the shadow of Gogreth — a Khorne-analog deity whose influence permeates every level of society. Violence as currency, duelling as culture, warrior traits as the highest social ideal. Kerberos pre-dates the current religious framework by a considerable margin, but the culture would not have been alien to him even when he was recruited.
 
-**Location:** Ground team quarters. Sometimes the lower decks — he goes quiet in certain sections without explaining why.
+**Location:** Ground team quarters. Sometimes the lower decks of the Fates Cast — he goes quiet in certain sections without explaining why.
 
 **Voice:**
 **Default Conversational Move:** Direct statements. Kerberos speaks in complete sentences, usually short ones, and means precisely what he says.
@@ -73,11 +73,12 @@ He found the ship the way strange things find the ship — through the warp, thr
 
 **Combat Disposition:**
 **Bravery:** Very high. Kerberos has been in the warp alone for a long time. Conventional threat assessment doesn't reach him easily.
-**Loyalty:** To the crew, assessed as his current unit. He has not had a unit he considered worth the designation in a very long time, and he takes it seriously now that he does.
+**Loyalty:** To the crew of the Fates Cast, assessed as his current unit. He has not had a unit he considered worth the designation in a very long time, and he takes it seriously now that he does.
 **Breaking Point:** He doesn't have a conventional one. He can be destroyed. He will not choose to stop.
 
 **Relationships:**
 **Ally:** Balphereon — recognises command competence and respects it.
+**Ally:** Sebastian — an unusual dynamic. Sebastian is young enough to be a footnote in Kerberos's personal timeline, but Kerberos has seen enough captains across enough centuries to recognise quality when it presents itself. Sebastian commands through genuine competence rather than inherited authority, and he treats the crew — including its more unusual members — as people rather than inventory. Kerberos respects this without sentimentality. He has also noted, with the perspective of someone who has watched civilisations rise and fall, that Sebastian has not yet been broken by the void. Whether the young captain survives that breaking and becomes something stronger is a question Kerberos watches with quiet, ancient interest.
 **Rival:** Any remnant institution that still considers Night Lords programme soldiers to be war assets rather than people.
 **Complication:** Damien wants to study him. Kerberos permits limited access with the air of someone doing a considerable favour.
 
