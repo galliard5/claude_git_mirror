@@ -54,7 +54,31 @@ JANUARY  |  FEBRUARY  |  MARCH  |  APRIL  |  MAY  |  JUNE  |  JULY  |  AUGUST  |
 
 ---
 
-### 2. SERGOVY WALDHEIM AT ISALIA'S MANOR
+### 2. NOBLES COMMISSION — ISALIA'S MANOR
+**World:** Aethelmark  
+**Start Date:** 17 April 1650  
+**Location:** [[Isalias_Manor|Isalia's Manor]]  
+**Primary Location:** [[Isalias_Manor|Isalia's Manor]]  
+**Character:** Isalia Kreiger (proprietor, kobold, ~70)  
+
+**Arc:** Routine breeding commission becomes a legal and ethical reckoning when Isalia identifies client's hound as a transformed human without proper penal contract. Valerius Corvinus freed, petition filed, new residents integrated. Background threads: barrel discrepancy, southern-origin spouse pattern, House Grauwald incoming.
+
+**Sessions Complete:** Session_01 (17 Apr), Session_02 (18 Apr)
+
+**Key Threads:**
+- Valerius Corvinus legal status — petition filed, hearing est. ~2 May
+- Seria Rennic documentation outstanding — returns with sentence records
+- House Grauwald consultation — Countess arriving within fortnight
+- Barrel discrepancy — Mira investigating Brewers Guild/Aldric
+- Southern-origin spouse pattern — Mecklau thread, Kira tracking
+- Valerius's pups — conception underway, due in coming weeks
+- Isalia's fertility — tonic taken, answer within the week of 18 Apr
+
+**Expected Duration:** Open-ended (estate operations, multiple threads)
+
+---
+
+### 3. SERGOVY WALDHEIM AT ISALIA'S MANOR
 **World:** Aethelmark  
 **Start Date:** Pending — approaching during Viktor scenario (likely mid-to-late April 1650)  
 **Location:** [[Isalias_Manor|Isalia's Manor]]  
@@ -108,6 +132,22 @@ JANUARY  |  FEBRUARY  |  MARCH  |  APRIL  |  MAY  |  JUNE  |  JULY  |  AUGUST  |
 - Hannah Voss departs for Isalia's Manor (provenance letter + message to Duke Romaine re: Aldenberg)
 - Multiple estate repairs authorized (Bruck drainage, Markel well, Kern roof, east pasture)
 - Ground floor reception conversion approved
+
+**17 APRIL 1650 (Nobles Commission Session 01):**
+- Lady Seria Rennic arrives with Vesper (Valerius Corvinus, transformed human, no proper penal contract)
+- Speaking collar commissioned and fitted — Valerius speaks for first time in two years
+- Seria confronted with two years of non-consent; accepts reduced fee, no pup claim
+- Valerius Corvinus accepted as free resident; kennel assigned, patrol with Renn begins
+- Legal review initiated by Elias — no penal servitude contract on file
+- Isalia takes first fertility tonic dose (second set aside for morning)
+
+**18 APRIL 1650 (Nobles Commission Session 02):**
+- Second fertility tonic taken; Alric confirms — results within the week
+- Valerius informed of legal status; petition for status determination filed with Judge Kinsky's office
+- House Grauwald letter received; Countess arriving within fortnight for sensitive consultation
+- Barrel discrepancy flagged by Mira (3 barrels, ~12 dollars, Brewers Guild/Aldric)
+- Walk-in client redirected — transformed husband, 8 months silent, southern origin
+- Kira notes three southern-origin spouses in one month, none returned (Mecklau thread)
 
 **MID-APRIL TO EARLY MAY 1650:**
 - Judge Kinsky due to give birth (non-regressed pregnancy, at Isalia's Manor)
