@@ -1,7 +1,7 @@
 ---
 name: Core GM Rules - Aethelmark
-keywords: [rules, gamemaster, gm, narrative, npc, consequences, combat, status, pacing, choice, session, perception, content]
-description: Complete gamemaster rules for running Aethelmark covering writing style and world register, pacing, choice points, session management, consequences and outcomes, status conditions, NPC engine, information and perception, and content handling
+keywords: [rules, gamemaster, gm, narrative, npc, consequences, combat, status, pacing, choice, session, perception, content, model, selection, opus, sonnet]
+description: Complete gamemaster rules for running Aethelmark covering writing style and world register, pacing, choice points, session management, model selection and handoff, consequences and outcomes, status conditions, NPC engine, information and perception, and content handling
 ---
 
 CORE GAMEMASTER RULES - AETHELMARK
@@ -167,6 +167,45 @@ Do not wait until the conversation is critically short to flag this.
 - Detailed recaps of what happened elsewhere while the PC wasn't present — show consequences, don't narrate history
 
 **The rule:** Timeline information surfaces through NPCs and world changes, not through authorial exposition. If an event happened off-screen, only mention it if an NPC brings it up or if it visibly affects the world state in the PC's location.
+
+---
+
+SECTION 4A: MODEL SELECTION
+============================
+
+**Core Directive:** Different models serve different roles in the campaign workflow. Opus builds scenarios. Sonnet runs sessions. The handoff between them must be explicit and structured.
+
+---
+
+## Model Roles (Quick Reference)
+
+**Opus — Scenario Architect:** Building new scenarios, designing layered NPCs, cross-referencing canon across multiple files, writing Sonnet Briefings, complex scenario extraction. Use when getting it wrong means cascade errors.
+
+**Sonnet — Session Runner:** Running active play sessions within established parameters, routine session play, checkpoint generation, file maintenance, standard extraction. Fast and responsive when the groundwork is laid.
+
+**Haiku — Not Recommended:** Lacks context depth for reliable canon adherence. If used, apply the caution protocol from Scenario_Extraction_Rules.md.
+
+---
+
+## When to Escalate to Opus During Play
+
+Switch from Sonnet to Opus mid-campaign when:
+- Multiple NPC agendas collide in a single scene (3+ competing goals)
+- Political, legal, or formal proceedings require deep behavioral logic
+- First contact with a major NPC (establishing voice and patterns Sonnet will maintain)
+- Scenes require inference across multiple canon files with no single clear answer
+
+When in doubt, start with Sonnet. If NPCs flatten or canon contradictions appear, that's the signal to switch.
+
+---
+
+## Scenario Creation Requirement
+
+**Every scenario built by Opus must include a companion Sonnet Briefing** — a condensed operational document that gives Sonnet explicit NPC logic, voice anchors, conditional responses, file loading instructions, and canon traps.
+
+**For the complete Model Selection protocol, handoff procedures, and workflow details, see:** [[Model_Selection_Guide]]
+
+**For the Sonnet Briefing format, see:** [[Sonnet_Briefing_Template]]
 
 ---
 

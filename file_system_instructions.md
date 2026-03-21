@@ -317,6 +317,7 @@ Never attempt bash_tool for any operations.
 **EXAMPLE COMMAND FORMAT:**
 
 ```cmd
+D:
 cd D:\Claude_MCP_folder
 git add .
 git commit -m "Your commit message"
