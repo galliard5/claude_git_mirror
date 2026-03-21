@@ -42,6 +42,8 @@ The manor runs on scheduled supply relationships. Most deliveries arrive on pred
 
 *Tob is the primary estate interface for this relationship. Any new face at the bread delivery is a small event — he'll want to know why.*
 
+*Kitchen staff are briefed on the dietary restrictions of any transformed residents — what is safe for humans is not always safe for the animals they have become.*
+
 ---
 
 ### Twice Weekly (est. Montag / Donnerstag)
