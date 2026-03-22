@@ -1,7 +1,7 @@
 ---
 name: Kennel Hounds Setting
-keywords: [lore, setting, overview, A Cendrel-based setting framework built around a noble-funded programme to trial sapient transformed hounds across military outposts, border towns]
-description: and major cities
+keywords: [lore, setting, overview, kennel-hounds, programme, cendrel, transformation]
+description: A Cendrel-based setting framework built around a noble-funded programme to trial sapient transformed hounds across military outposts, border towns, and major cities
 ---
 
 Kennel Hounds — Setting Overview
@@ -68,17 +68,30 @@ Volunteers come from varied backgrounds:
 - Soldiers or watchmen already in service who see the transformation as an advancement opportunity
 - Anyone else the local commander decides to accept
 
-**Sex Chromosome Inheritance**
+**Transformation Sex Outcomes**
 
-The transformation uses the donor animal's chromosomes as the template. A female donor contributes only XX chromosomes, so the recipient will always be female. A male donor contributes XY, so the outcome is either XX or XY — the distribution appears random. YY is prevented by the potion's formulation in all but the rarest cases; whether this is intentional design or a property of the magic is not fully understood.
+The transformation replaces the volunteer's body entirely. The donor animal provides the template — not just shape and species, but the fundamental nature of the new form. The volunteer's original body is not blended or modified; it is overwritten. Nothing of the original physical template survives the process. This is also why reversion through conventional means is impossible — there is no original state stored anywhere to return to.
 
-The recipient's own sex prior to transformation has no bearing on the outcome. A male volunteer using a female donor will result in a female hound. A female volunteer using a male donor may result in either. The donor is what determines the result.
+In practical terms, the result is a sibling of the donor animal. The transformed individual shares the donor's bloodline as fully as any littermate would. All physical traits — build, coloring, constitution — are drawn from the same source as the donor's own.
 
-The programme is aware of this pattern. It is documented, and the central office has acknowledged it. What they do not have is sufficient sample size to establish ratios, probabilities, or any reliable predictive model. The data exists across scattered site reports; nobody has aggregated it meaningfully. For now, "it depends on the donor, and male donors produce variable results" is the full extent of what can be said with confidence.
+This includes sex.
 
-For a player character, the outcome is settled out-of-character — the player may choose male, female, or leave it to a random roll — but in-fiction it is always presented as chance. The character does not choose; the biology resolves as it resolves.
+**The observed pattern:**
+- A **female donor** always produces a female result. No exceptions have been recorded across any pilot site.
+- A **male donor** produces either a male or female result. The distribution appears random and no method of predicting the outcome has been identified.
 
-The programme does not advertise this but does not hide it. The inheritance quirk is documented in the alchemist's technical notes and disclosed at competent pilot sites. At sites where the kennel master did not read the full packet, or where the alchemist condensed the briefing, volunteers may not learn of it until after.
+The volunteer's own sex prior to transformation has no bearing on the outcome. A male volunteer using a female donor will become female. A female volunteer using a male donor may become either.
+
+**Why this happens** is not fully understood by the programme's alchemists. The working theory, such as it is, holds that the potion breaks the donor's essence down into its component parts and reassembles them in the volunteer. A female animal's essence contains only female potential — so the result is always female. A male animal's essence contains both male and female potential in roughly equal measure — so either outcome is possible. This is consistent with what breeders have long observed about sires producing both sons and daughters, while dams contribute only one side of that equation.
+
+**Rare failures:** In a very small number of cases, the reassembly produces a nonviable result — the magical equivalent of drawing two incompatible elements. These transformations fail catastrophically. The programme has recorded at least one death attributed to this failure mode. Whether the potion's formulation actively prevents this outcome in most cases, or whether it is simply uncommon by nature, is debated among the programme's alchemists.
+
+**Programme handling:**
+The programme is aware of this pattern. It is documented in the alchemist's technical notes and disclosed at competent pilot sites during the volunteer briefing. At sites where the kennel master did not read the full packet, or where the alchemist condensed the briefing, volunteers may not learn of it until after transformation.
+
+The programme does not advertise the pattern publicly but does not actively conceal it. Internally, there is insufficient data to establish reliable ratios or probabilities — the results are scattered across site reports that nobody has aggregated meaningfully. For now, "it depends on the donor, and male donors produce variable results" is the full extent of what can be stated with confidence.
+
+**For a player character,** the outcome is settled out-of-character — the player may choose male, female, or leave it to a random roll — but in-fiction it is always presented as chance. The character does not choose; the nature of the donor resolves as it resolves.
 
 The Setting's Tone: The programme is a real institution with real stakes, run by real people with mixed motives and incomplete information. The hounds it produces are fully sapient individuals navigating a world that doesn't have established norms for what they are.
 
