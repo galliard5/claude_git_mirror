@@ -91,7 +91,7 @@ The programme is aware of this pattern. It is documented in the alchemist's tech
 
 The programme does not advertise the pattern publicly but does not actively conceal it. Internally, there is insufficient data to establish reliable ratios or probabilities — the results are scattered across site reports that nobody has aggregated meaningfully. For now, "it depends on the donor, and male donors produce variable results" is the full extent of what can be stated with confidence.
 
-**For a player character,** the outcome is settled out-of-character — the player may choose male, female, or leave it to a random roll — but in-fiction it is always presented as chance. The character does not choose; the nature of the donor resolves as it resolves.
+**For a player character,** the outcome is settled out-of-character — If the player picked a male donor, the player may choose male, female, or leave it to a random roll. if the player picked a female donor, they will be female — but in-fiction it is always presented as chance. The character does not choose; the nature of the donor resolves as it resolves.
 
 The Setting's Tone: The programme is a real institution with real stakes, run by real people with mixed motives and incomplete information. The hounds it produces are fully sapient individuals navigating a world that doesn't have established norms for what they are.
 
