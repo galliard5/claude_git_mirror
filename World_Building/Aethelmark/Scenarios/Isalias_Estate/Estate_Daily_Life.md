@@ -351,6 +351,62 @@ Two regular delivery contacts are in the yard at the same time — unusual — a
 
 ---
 
+## Special Events
+
+Structured events that overlay onto the daily life framework. These run across multiple days or weeks and coexist with normal estate operations. They use the same time slots, the same staff, and the same supply cadence — they just add guests, logistics, and social complexity.
+
+### Summer Transformation Camp
+
+**Concept:** Wealthy merchant or noble families book 2–4 weeks at the estate for a supervised transformation excursion — adults and children together. Think summer camp, but everyone is transformed for the duration.
+
+**Estate Rules (Non-Negotiable):**
+- Minimum stay: 2 weeks. Maximum: 4 weeks.
+- All adult chaperones must also transform for the full duration. No exceptions — no human adults supervising transformed children.
+- A dedicated fenced area is prepared specifically for the group, separate from regular estate operations.
+- Dr. Korr conducts medical screening before transformation and again at reversion.
+- Estate staff supervise throughout. This is not a drop-off arrangement.
+
+**This is not the estate's first time.** They have handled children before — whether through similar group bookings or individual family visits. The rules exist because experience taught them where problems come from. The fencing, the chaperone requirement, the minimum stay — all of these were lessons.
+
+**Daily Life Integration:**
+The camp runs in the background of normal estate operations. Staff rotate through involvement:
+- **Renn** takes groups on trail outings, tracking games, and outdoor activities.
+- **Sable** may involve older children in supervised stable-adjacent tasks.
+- **Tob** complains about feeding extra mouths but produces appropriately.
+- **Selene** monitors health throughout, especially for younger children adjusting to transformed forms.
+
+The camp populates the Variable Slots naturally — kids being loud at dawn, a group activity occupying the afternoon, a parent asking staff questions during the evening social window.
+
+**The Complication:**
+Everything runs smoothly. The kids have fun. The staff are professional. The families are satisfied.
+
+Except one parent has been sneaking out of the fenced area at night. Multiple nights. Nobody caught it during the stay — the estate's perimeter security is oriented outward, not inward, and a transformed adult moving quietly at night doesn't trigger the same alarms as an intruder.
+
+**The Reveal:**
+Group reversion day. Everyone lines up. Dr. Korr processes the group. When she reaches the parent who snuck out, she stops the procedure.
+
+The parent is pregnant. Encountered local wildlife during their nighttime excursions and — based on the repeated trips — deliberately sought it out after the first encounter.
+
+**Pregnancy means no reversion.** The transformation must be carried to term. That's months, not days.
+
+**The Fallout (Play These Through Daily Life):**
+- **The other families** are present when one parent doesn't revert with the group. The estate can attempt discretion — "a medical complication requiring extended stay" — but the other parents are sharp people who will draw conclusions.
+- **The children** notice. Their friend's parent is still transformed. Kids ask questions.
+- **The spouse situation** determines the tone:
+  - *If the spouse was present and also transformed:* The crisis is contained but the marriage may not be. They're both stuck at the estate while this gets sorted. Mutual recrimination or shared shame — either way, the estate staff are witnesses.
+  - *If the spouse stayed home on business:* Detonation. The parent can't go home on schedule. A letter must be sent. "I can't come home because I got pregnant by a wild animal" is not a letter anyone wants to write or receive. Does the spouse come to the estate demanding answers? Does the parent ask staff to help construct a cover story?
+- **The child** either goes home with the other families or stays at the estate with their transformed parent. Both options are painful.
+- **Estate liability:** Isalia's people did everything right. The rules were clear, the supervision was solid, the fencing was adequate. This parent made a deliberate choice, repeatedly. But the estate's reputation absorbs the impact regardless, because it happened on their grounds.
+- **Staff reaction:** Renn, Selene, and the others ran a clean camp. One guest's behavior now defines the event in everyone's memory. Professional frustration is warranted.
+
+**GM Notes:**
+- This event works best after the estate's daily rhythms are already established. The camp should feel like a natural extension of operations, not a disruption — until the reveal makes it one.
+- The identity of the families, the species involved, and the spouse's situation are all open variables. Establish them during prep or discover them in play.
+- The pregnant parent's attitude is a major tone lever: mortified and apologetic plays differently from defiant or in denial.
+- The fallout scenes are daily life scenes — conversations in the mess hall, letters being drafted, Isalia deciding how to handle the reputational question. They slot into the normal time blocks.
+
+---
+
 ## Extraction Notes
 
 After any session using this framework:
