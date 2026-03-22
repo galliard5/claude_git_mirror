@@ -58,6 +58,36 @@ Kennel Hounds Timeline
 - Squad builds practical logistics list (doors, latches, reports, latrines, field operations, collar in noise, evidence handling) — nothing in programme documentation covers any of it.
 - Plan: Varre + Cault meeting this afternoon, all five squad members. Whatever is worked out here feeds forward to the next site.
 
+**Preparation day / Transformation day (Sessions 03-04)**
+- Physical assessment with Varre at 0700. Individual intake reviews with Cault at 1300.
+- Isandar asks Cault about the lost case directly — full account received. Fifth-hour arrest, cause unknown, monitoring adjusted. Filed.
+- Sex chromosome question addressed: Brac is male, outcome variable and unpredictable from inspection.
+- Squad evening out — harbour-side place near fish market. Bread, fish stew, rough wine.
+- Perrin leaves after dinner to tell Maret the full truth. Returns to barracks. Walks back alone.
+- Morning of transformation: Isandar checks on Perrin (awake, nods once). Breakfast with Sable. Sits with Brac at fence until 0800.
+- 0800: Preparation room. Five pallets, Cault and Varre present.
+- Cault administers in sequence. Isandar drinks first. Process runs approximately six hours.
+- All five through by early afternoon.
+- Isandar: olive-bronze coat (Brac's template). Chromosome variable resolved **female**. First words through collar: "Still me."
+- Chromosome outcomes across squad: Isandar (female), Sable (female, Tarre female donor — guaranteed), Dix (female, male donor — variable), Théo (male), Perrin (male).
+- Théo: first genuinely unguarded laugh. Perrin: exhaled properly for the first time.
+
+**Day after transformation — morning (Session 05)**
+- Brac introduction: nose touch through wire, gate opened, shoulder contact. Full acceptance.
+- Kess introduction: all five cleared. Kess deliberated longest on Perrin.
+- Perrin discloses to Isandar: Maret cried (different kind), asked eleven specific questions, asked to attend harness fitting. Varre approved. Luc asked to come, told no.
+- Isandar's first real personal exchange with Perrin.
+- Squad settled in yard sun — Isandar between Dix and Théo. Dozing.
+
+**Day after transformation — afternoon (Session 06)**
+- Renne introduction: Isandar lay down at gate unprompted. Renne approached incrementally. Nose to nose through wire. Settled.
+- Varre: "There it is." Then: "That's all twelve."
+- All twelve working hounds settled for all five squad members. Pack integration complete.
+- Squad moved inside for food, ate with full commitment.
+- Sable to Isandar: "All twelve."
+- Isandar found sun patch in anteroom, circled it (instinct fully natural, unnoticed), folded down. All five asleep in afternoon warmth.
+- Kobold scent profile: one documented data point (Renne). Feeds forward to future programme sites.
+
 ---
 
 ## Between Scenarios
@@ -68,4 +98,14 @@ Kennel Hounds Timeline
 
 ## Resolved Threads
 
-*None yet.*
+| Thread | Resolution | Session |
+|---|---|---|
+| Donor hound selection | Brac selected after three weeks | Session 01 |
+| Parents informed | Kaz and Yara told on Isandar's terms | Session 01 |
+| Dix absent / dock connection | Found on Longers Wharf, disclosed to Varre, nominally closed | Session 02 |
+| Transformation | All five through. No complications. | Session 04 |
+| Chromosome outcomes | Isandar F, Sable F, Dix F, Théo M, Perrin M | Session 04 |
+| Brac introduction | Full acceptance, shoulder contact | Session 05 |
+| Kess introduction (all five) | Settled for all. Pack tone set. | Session 05 |
+| Renne introduction | Settled. Kobold scent profile documented. | Session 06 |
+| Full pack integration | All twelve working hounds accepted all five. Complete. | Session 06 |

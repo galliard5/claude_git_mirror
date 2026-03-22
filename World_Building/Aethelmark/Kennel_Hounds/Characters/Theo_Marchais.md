@@ -80,23 +80,33 @@ Not articulated but present: that he transforms, it's fine, and he feels stupid 
 Relationships
 -------------
 
-**Isandar** — Early wariness — the kobold's enthusiasm for the programme reads as suspicious when you're as suspicious of the programme as Théo is. May develop into something more functional when Théo runs out of energy for the blanket grievance and starts making distinctions.
-**Sable Venn** — She's too relaxed about this for his comfort. He's not sure if that's wisdom or naivety.
-**Perrin Aldec** — Respects Aldec's experience. Hasn't noticed Aldec is scared.
-**Dix** — Uncertain. She's too agreeable. He doesn't trust people who are too agreeable.
-**Varre** — Working hostile. She told him the information and moved on. He's not done with it.
+**Isandar** — Warmer than pre-transformation. The early wariness about Isandar's enthusiasm has faded as the grievance quieted. They flanked each other in the yard after Kess. Physical proximity becoming a natural default.
+**Sable Venn** — Steady presence. Less of a question mark than she was.
+**Perrin Aldec** — Respects Aldec's experience. Something in the shared experience of transformation has shifted the dynamic — they're squad, not just colleagues.
+**Dix** — Less uncertain than before. Her ease reads differently when you've all been through the same thing.
+**Varre** — Something changing. She ran the introduction sequence with professional precision. He engaged with the logistics list she'll use for programme documentation. The hostility hasn't disappeared but it's less sharp.
 
 Memory / Interaction Log:
-- Player Helped: [Empty]
-- Player Offended: [Empty]
-- Promises Made: [Empty]
-- Promises Broken: [Empty]
+- Player Helped: None directed specifically.
+- Player Offended: None.
+- Promises Made: None.
+- Promises Broken: None.
 
-Trust Level (2/5): Cautious. He extends working trust to squadmates because the situation requires it. Personal trust is further off.
+Trust Level (3/5): Something loosening. The squad is becoming a unit through physical proximity and shared experience rather than through any decision he's made about it.
 
 Combat Disposition:
 **Bravery:** High. He gets angry fast and anger pushes him forward. This is not always tactically wise.
 **Loyalty:** To people, not institutions. He'd go to the wall for someone he'd decided was worth it and shrug at an order he thought was stupid.
 **Breaking Point:** Taking a serious injury on behalf of an institution that didn't ask whether he wanted to be there. He'd hold in a fight. He might not hold in a conversation about it afterward.
 
-Current Date: [In-game date — update at the end of each session]
+---
+
+Transformation Status
+---------------------
+
+**Transformed:** Hound form. Chromosome variable resolved: **male** (male donor, resolved male).
+**Collar:** Fitted, functional.
+**Recovery:** Day 2 of ~7. Steadier on four legs than expected. Less performed than pre-transformation — the new form doesn't carry his old postures the same way, and something genuine is showing through.
+**Movement:** Functional.
+
+Current Date: Day after transformation — afternoon (Session 06 end)

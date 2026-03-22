@@ -82,23 +82,33 @@ She hasn't told anyone this. She might not tell anyone this.
 Relationships
 -------------
 
-**Isandar** — Peer, natural. They're different in approach — she's slower and more internal, he's deliberate but more forward-asking — but they've arrived at a comfortable working rhythm. She likes that he asks the actual question rather than dancing around it.
-**Théo** — She finds him useful because he says the things others are thinking. She also finds him exhausting because he doesn't know when to stop.
-**Perrin** — She's noticed something. She hasn't decided whether to say anything.
-**Dix** — Friendly acquaintance. There's something there she hasn't figured out yet.
-**Varre** — The relationship she's invested most deliberately in. Varre answers her questions. Sable is building an exchange.
+**Isandar** — Warm working peer, mutual recognition forming. Morning in the kennel together before donor selection — she was leaning toward Tarre while he settled on Brac. Two people who observe carefully, arriving at it from different angles. She named "all twelve" when the pack sequence finished. He heard it.
+**Théo** — She finds him useful because he says the things others are thinking. Something loosening in him post-transformation that she's cataloguing.
+**Perrin** — She noticed something pre-transformation. Now she's watching how it develops in the new form. Kess deliberated longest on him — Sable noticed that too.
+**Dix** — Friendly. Shoulder contact in the yard during introductions. The squad settling into physical proximity as a natural default.
+**Varre** — The relationship she's invested most deliberately in. Varre answers her questions. Sable asked Cault about perception and cognition at intake — got an honest "I don't know" and accepted it. She's building a picture from multiple sources.
 
 Memory / Interaction Log:
-- Player Helped: [Empty]
-- Player Offended: [Empty]
-- Promises Made: [Empty]
-- Promises Broken: [Empty]
+- Player Helped: None directed specifically.
+- Player Offended: None.
+- Promises Made: None.
+- Promises Broken: None.
 
-Trust Level (3/5): Warmer than her default exterior suggests. She extends working trust early to people who prove they're not careless.
+Trust Level (3/5): Warmer than her default exterior suggests. The shared experience of transformation has deepened the working trust into something more substantial.
 
 Combat Disposition:
 **Bravery:** Moderate — not fearless, not a coward. She'll hold if the situation calls for it and retreat if retreat is the correct answer.
 **Loyalty:** To people she's decided to trust. That decision is slow and not easily revised.
 **Breaking Point:** Being asked to do something that requires her to ignore what she's observing. She can follow an order she disagrees with. She cannot pretend she doesn't see what she sees.
 
-Current Date: [In-game date — update at the end of each session]
+---
+
+Transformation Status
+---------------------
+
+**Transformed:** Hound form. Donor: Tarre (female). Chromosome variable resolved: **female** (female donor, guaranteed outcome).
+**Collar:** Fitted, functional.
+**Recovery:** Day 2 of ~7. Composed throughout. Got four legs on second try. Tail moving after Kess settled without her knowing. Still cataloguing everything.
+**Movement:** Functional.
+
+Current Date: Day after transformation — afternoon (Session 06 end)

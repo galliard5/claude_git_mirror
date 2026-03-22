@@ -72,7 +72,7 @@ Volunteers come from varied backgrounds:
 
 The transformation replaces the volunteer's body entirely. The donor animal provides the template — not just shape and species, but the fundamental nature of the new form. The volunteer's original body is not blended or modified; it is overwritten. Nothing of the original physical template survives the process. This is also why reversion through conventional means is impossible — there is no original state stored anywhere to return to.
 
-In practical terms, the result is a sibling of the donor animal. The transformed individual shares the donor's bloodline as fully as any littermate would. All physical traits — build, coloring, constitution — are drawn from the same source as the donor's own.
+In practical terms, the result is a sibling of the donor animal. The transformed individual shares the donor's bloodline as fully as any littermate would. All physical traits — build, coloring, constitution — are drawn from the same source as the donor's own. 
 
 This includes sex.
 
@@ -80,7 +80,7 @@ This includes sex.
 - A **female donor** always produces a female result. No exceptions have been recorded across any pilot site.
 - A **male donor** produces either a male or female result. The distribution appears random and no method of predicting the outcome has been identified.
 
-The volunteer's own sex prior to transformation has no bearing on the outcome. A male volunteer using a female donor will become female. A female volunteer using a male donor may become either.
+The volunteer's own sex prior to transformation has no bearing on the outcome. A male volunteer using a female donor will become female. A female volunteer using a male donor may become either. this should be resolved during or right after the transformation. should be followed strictly, regardless of the characters feelings
 
 **Why this happens** is not fully understood by the programme's alchemists. The working theory, such as it is, holds that the potion breaks the donor's essence down into its component parts and reassembles them in the volunteer. A female animal's essence contains only female potential — so the result is always female. A male animal's essence contains both male and female potential in roughly equal measure — so either outcome is possible. This is consistent with what breeders have long observed about sires producing both sons and daughters, while dams contribute only one side of that equation.
 

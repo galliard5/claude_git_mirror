@@ -79,33 +79,47 @@ To handle this in a way that Maret and Luc can live with. He doesn't know what t
 Fears
 -----
 
-The transformation making him into something Luc is afraid of. He knows that's not how it works — the transformation doesn't change who you are, the documentation says. He believes the documentation ninety percent. The other ten percent wakes him up at three in the morning.
+The transformation happened. He went to Maret the night before and told her the full truth. She cried — a different kind than before, not grief, something else — and then she asked eleven specific questions. She's coming to the harness fitting. He is not yet sure whether that makes things easier or harder.
 
-Maret finding out he hasn't told her everything, and what that does to the thing they've built.
+The fear about Luc hasn't been fully confronted. "Will I get a dog?" is the question of an eight-year-old who doesn't understand what his father has become. The fear that remains: the moment Luc sees him and the answer arrives.
+
+Maret knows. That fear is resolved. What replaces it: whether what they've built can hold this shape.
 
 ---
 
 Relationships
 -------------
 
-**Maret Aldec** — Wife. Eight years together. She's perceptive in ways that make her both exactly the person he should talk to and the person it's most frightening to talk to.
-**Luc Aldec** — Son, eight. The primary reason everything feels higher stakes than it would otherwise.
-**Isandar** — He respects the kid's competence and genuine interest. Hasn't initiated much conversation. May when he's more comfortable.
-**Théo** — He understands Théo's grievance. He has his own version of it. He's choosing to hold his in differently, and Théo's method of not holding it makes him uncomfortable in ways he hasn't examined.
-**Sable** — He has a feeling she's noticed something. He's hoping she doesn't mention it.
-**Dix** — Easy company. Uncomplicated on the surface. He's glad she's on the squad.
+**Maret Aldec** — Wife. Eight years together. He told her everything the night before transformation. She cried differently, asked eleven specific questions, and asked to come to the harness fitting. Varre said yes. Whatever was said between them is still unspoken to anyone else. She is arriving tomorrow.
+**Luc Aldec** — Son, eight. Asked "will I get a dog?" Asked to come to the fitting. Was told no. Still asked. The conversation about what his father has become hasn't happened yet.
+**Isandar** — First real personal exchange during the introduction sequence. Perrin disclosed about Maret and Luc. Isandar asked the right question about Luc and got the first real laugh. Something loosened in how Perrin carries things around him. Settled beside Isandar during the wait.
+**Théo** — He understands Théo's grievance. Something in the shared experience of transformation has shifted things — they're squad now.
+**Sable** — She noticed something. It's less hidden now. The transformation didn't fix the weight, but the weight is being carried differently.
+**Dix** — Easy company. Warm. The squad settling into physical proximity as a default.
+**Varre** — Professional respect. She ran the introduction sequence with precision. She said yes to Maret attending the fitting.
 
 Memory / Interaction Log:
-- Player Helped: [Empty]
-- Player Offended: [Empty]
-- Promises Made: [Empty]
-- Promises Broken: [Empty]
+- Player Helped: None directed specifically.
+- Player Offended: None.
+- Promises Made: None.
+- Promises Broken: None.
 
-Trust Level (3/5): Warm baseline. He extends goodwill freely. He just doesn't extend the parts of himself that are currently having a difficult time.
+Trust Level (3/5): Carrying less visibly. The first real laugh — twice — arrived during the campaign. Something is loosening.
 
 Combat Disposition:
 **Bravery:** High and experienced — not the angry recklessness of someone young, but the steadiness of a man who has been in enough situations to know he can handle them.
 **Loyalty:** Institutional — he means his contract, he means his squadmates. Very personal — Maret and Luc, in ways that would override everything else if it came to it.
 **Breaking Point:** The moment he calculates that coming home is no longer possible. Everything before that, he holds.
 
-Current Date: [In-game date — update at the end of each session]
+---
+
+Transformation Status
+---------------------
+
+**Transformed:** Hound form. Chromosome variable resolved: **male** (male donor, resolved male).
+**Collar:** Fitted, functional.
+**Recovery:** Day 2 of ~7. Ring paw flat on stone. Eyes closed, face easier than yesterday. Exhaled properly for the first time on transformation day. Asleep in the afternoon sun with the squad.
+**Movement:** Functional.
+**Note:** Kess deliberated longest on Perrin during the introduction sequence. She read something in him. Worth tracking.
+
+Current Date: Day after transformation — afternoon (Session 06 end)

@@ -193,6 +193,21 @@ Unresolved Programme Questions
 Connections
 -----------
 
-[[Kennel_Hounds_Setting]] | [[Cendrel]] | [[Maruvec]] | [[Colette_Varre]] | [[Silas_Drouet]] | [[Isandar_Quickclaw]] | [[Theo_Marchais]] | [[Sable_Venn]] | [[Perrin_Aldec]] | [[Dix]]
+[[Kennel_Hounds_Setting]] | [[Cendrel]] | [[Maruvec]] | [[Colette_Varre]] | [[Silas_Drouet]] | [[Severin_Cault]] | [[Isandar_Quickclaw]] | [[Theo_Marchais]] | [[Sable_Venn]] | [[Perrin_Aldec]] | [[Dix]] | [[Maret_Aldec]] | [[Kaz_Quickclaw]] | [[Yara_Quickclaw]] | [[Brac]] | [[Kess]] | [[Renne]]
 
-Current Date: [In-game date — update at end of each session]
+---
+
+Sessions Completed
+------------------
+
+**Sessions 01–06 complete.** Campaign is in Act 2 (Transformation and Integration), recovery period day 2 of approximately 7.
+
+- **Session 01:** Donor selected (Brac). Parents told. Squad evening at mess.
+- **Session 02:** Cault arrives. Dix found at Longers Wharf, dock connection disclosed. Logistics list built.
+- **Sessions 03–04:** Preparation day and transformation. All five through. Chromosome outcomes resolved (Isandar F, Sable F, Dix F, Théo M, Perrin M). First words: "Still me."
+- **Session 05:** Brac and Kess introductions complete for all five. First personal exchange with Perrin.
+- **Session 06:** Renne introduction complete. All twelve working hounds settled. Pack integration done. Squad asleep in the afternoon sun.
+
+**Next:** Harness fittings. Maret Aldec attending. Recovery continues.
+
+Current Date: Day after transformation — afternoon (Session 06 end)

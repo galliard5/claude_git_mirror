@@ -85,9 +85,9 @@ To establish enough of a career that his parents' situation stabilises. Not ambi
 Fears
 -----
 
-Making a permanent decision on incomplete information. He's read enough to know the transformation falls into that category and is trying to determine whether his interest in the programme overrides the discomfort. He hasn't resolved this.
+The incomplete-information fear has been confronted directly. He asked Cault about the lost case, received the full account, and decided it didn't change anything. The transformation happened. The permanent decision was made. What remains: being the thing that makes his parents' situation worse — now carrying the additional weight of having become something his mother is waiting to see come back.
 
-Being the thing that makes his parents' situation worse.
+The new fear, not yet articulated: that the recovery period ends and the operational reality doesn't match the curiosity that carried him through.
 
 ---
 
@@ -105,14 +105,14 @@ Underground familiarity: moderate. Grew up on the surface but knows The Chains' 
 Status
 ------
 
-**Health:** Healthy
+**Health:** Healthy (recovering from transformation)
 **Hunger:** Fed
-**Fatigue:** Rested
-**Morale:** Stable
+**Fatigue:** Tired (transformation recovery, day 2 of ~7)
+**Morale:** Stable — genuinely good
 
 **Reputation:**
-- Garrison — Neutral
-- Street (Chains) — Neutral / Warm (neighbourhood familiarity)
+- Garrison — Neutral-Warm (thorough approach noted by Varre and Cault)
+- Street (Chains) — Neutral-Warm (neighbourhood familiarity; post-transformation status unknown to neighbourhood)
 - Dock District — Neutral
 
 ---
@@ -120,36 +120,54 @@ Status
 Relationships
 -------------
 
-**Squad:** Théo Marchais, Sable Venn, Perrin Aldec, Dix. Three weeks into the assignment. Opinions forming, mostly unvoiced.
-**Kennel Master Varre** — Working relationship, established. He respects her competence. She hasn't indicated whether she's noticed him specifically.
+**Colette Varre** — Professional respect, earned both ways. She called his three-week approach to Brac "correct." Thanked him for bringing Dix in. He's one of five but she's noticed him specifically. Trust building.
+**Severin Cault** — Full professional respect, mutual. Isandar asked the hard questions directly; Cault responded with complete honesty. Near-humor at the chromosome reveal. The kind of professional bond that forms when two precise people recognise each other.
+**Théo Marchais** — Warmer than pre-transformation. Théo's grievance has quieted; something is loosening underneath. They flanked each other in the yard after Kess. The squad is forming around physical proximity that nobody decided on.
+**Sable Venn** — Warm working peer. Morning in the kennel together before donor selection. Mutual recognition forming — two people who observe carefully, arriving at it from different angles. She named "all twelve" when the sequence finished. He heard it.
+**Perrin Aldec** — First real personal exchange during the introduction sequence. Perrin disclosed about Maret and Luc. Isandar asked the right question about Luc and got the first real laugh. Something loosened in how Perrin carries things around him.
+**Dix** — Something shifted at Longers Wharf. She thanked him by first name — first time. The warmth since is specific and real, not performed. Shoulder contact in the yard during Perrin's wait. Same neighbourhood, dock district, now the same form.
+**Brac** — Donor hound. Three weeks at the fence. Shoulder to shoulder post-transformation. The anchor.
+**Kaz Quickclaw** — Father. Told about the transformation Day 1. Held the practical facts.
+**Yara Quickclaw** — Mother. "Come back after." She is waiting.
 **Commander Drouet** — No direct relationship yet. An authority, not a person.
 
 Memory / Interaction Log:
-- Player Helped: [Empty]
-- Player Offended: [Empty]
-- Promises Made: [Empty]
-- Promises Broken: [Empty]
+- Player Helped: Brought Dix back from Longers Wharf (Session 02). Lay down at Renne's gate to reduce pressure (Session 06).
+- Player Offended: None.
+- Promises Made: Yara — "Come back after" (implicit promise to return).
+- Promises Broken: None.
 
 ---
 
 Permanent Injuries & Alterations
 ---------------------------------
 
-- None currently. Pre-transformation.
+**Transformation (permanent):**
+- Form: Hound, olive-bronze coat (Brac's template, same colour lineage)
+- Chromosome variable resolved: **female** (Brac male donor, variable outcome). Received with equanimity and genuine happiness. "Did say I was curious."
+- Enhanced scent: reads in full layers, can identify individuals through walls
+- Enhanced hearing: differentiated and precise, every sound in the preparation room arrived distinctly overnight
+- Tail: present, responsive, involuntary movement noted (wagging, positional). Circling now fully instinctive — occurred before the sun patch in Session 06 without conscious thought.
+- Voice: absent without collar. Attempted speech before collar fitting — the shelf was empty. Useful data point.
+- First words through collar: "Still me."
 
 Active Conditions
 -----------------
 
-- None currently.
+- Tired (transformation recovery, day 2 of ~7)
+- Movement: functional. Small lag in back right leg resolved by Session 06. Circling instinctive. Body learning its own logic.
 
-Current Date: Day 2 of final pre-transformation week, midday
+Current Date: Day after transformation — afternoon (Session 06 end)
 
 Inventory
 ---------
 
-- Standard watch uniform (Good)
-- Garrison-issue short sword (Good)
-- Patrol baton (Good)
-- Belt knife (Good)
-- Personal: the water-damaged logistics manual (Worn, held together with twine)
-- Personal: a small notebook, half-filled, cramped handwriting (Good)
+- Speaking collar (Fitted · Functional · Garrison-issued) — **primary equipment**
+- Standard watch uniform (Good — on hook in barracks, no longer fits)
+- Garrison-issue short sword (Good — no longer wearable in current form)
+- Patrol baton (Good — no longer carriable in current form)
+- Belt knife (Good — no longer carriable in current form)
+- Personal: the water-damaged logistics manual (Worn — in barracks)
+- Personal: a small notebook, half-filled, cramped handwriting (Good — in barracks)
+- Harness: **pending fitting tomorrow**
+- Note: Equipment situation to be resolved during recovery period. Old gear stored, new operational loadout TBD.

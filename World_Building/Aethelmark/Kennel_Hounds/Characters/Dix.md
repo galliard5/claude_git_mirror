@@ -87,30 +87,44 @@ Not visible yet.
 Connections — Dock District
 ---------------------------
 
-She knows people in the Harbour District and The Chains. The extent and nature of those connections is currently unknown. Some are certainly just neighbours and former coworkers. Some may be more operational. The hound programme gives her a professional context for existing near the docks and a badge that changes how those connections interact with her, in ways she may or may not have anticipated.
+She knows people in the Harbour District and The Chains. On Day 2 of the final pre-transformation week, she was absent all morning and found by Isandar on Longers Wharf, emerging from a warehouse passage. She'd gone to close arrangements with a dock contact — "cargo coordination operation" — before the transformation made the conversation complicated.
+
+She disclosed the connection to Varre in a clipped, direct interview. Said it was closed, said nothing ongoing. Varre accepted. One line in the ledger.
+
+Whether it stays closed is a later question. The transformation breaks the visible thread between a kobold recruit and a garrison hound — Isandar pointed this out on the walk back. Dix recalibrated visibly. But the people she knows still know her, and the shadow economy doesn't stop existing because one of its edges changed shape.
 
 ---
 
 Relationships
 -------------
 
-**Isandar** — She knows his family's neighbourhood. May have known his parents by face if not by name before they both showed up in the watch. She hasn't mentioned this yet.
-**Théo** — She doesn't find him difficult. She's been around people who blow off steam her whole life and she knows it's not personal. She also knows he's saying things that are true and she's not contradicting them, which is a choice she's made.
+**Isandar** — Something shifted at Longers Wharf. He came to find her without being asked, walked her back without pressing, pointed out that the transformation would sever the visible connection between her and her dock contacts. She thanked him by first name — first time. The warmth since is specific and real, not the performed ease she extends to everyone. Shoulder contact in the yard during Perrin's introduction wait. Same neighbourhood, same form now.
+**Théo** — She doesn't find him difficult. She's been around people who blow off steam her whole life and she knows it's not personal. Something loosening in him post-transformation — she's noticed.
 **Sable** — Friendly. There's a quiet mutual recognition there — two people who watch carefully and don't always say what they see.
-**Perrin** — She likes him. Straightforward, reliable, kind. She's not probing the thing Sable has apparently noticed.
-**Varre** — Professional, respectful. Dix hasn't asked Varre questions the way Sable has. She's let Sable run that line and listened to the answers.
+**Perrin** — She likes him. Straightforward, reliable, kind. Carrying less visibly since the transformation.
+**Varre** — Disclosure made. Varre accepted it, noted it. The relationship is now one where Varre knows something specific about Dix and Dix knows Varre knows. Professional, with a new edge.
 
 Memory / Interaction Log:
-- Player Helped: [Empty]
-- Player Offended: [Empty]
-- Promises Made: [Empty]
-- Promises Broken: [Empty]
+- Player Helped: None directed at Isandar specifically, but the dock disclosure was prompted by his intervention.
+- Player Offended: None.
+- Promises Made: None.
+- Promises Broken: None.
 
-Trust Level (3/5): She extends warmth easily. Actual disclosure is much further in. The warmth is real. So is the gap.
+Trust Level (3/5): The warmth toward Isandar specifically has deepened since Longers Wharf. Full disclosure is still further in. The warmth is real. So is the remaining gap.
 
 Combat Disposition:
 **Bravery:** Functional — she's been in dock situations that got physical and she didn't fold. She's not a soldier.
 **Loyalty:** Unclear in the institutional sense. Personal loyalties are present and undisclosed.
 **Breaking Point:** A situation where the garrison's interests and her dock district connections pull in opposite directions. She's probably been thinking about this. She hasn't told anyone she's been thinking about it.
 
-Current Date: [In-game date — update at the end of each session]
+---
+
+Transformation Status
+---------------------
+
+**Transformed:** Hound form. Chromosome variable resolved: **female** (male donor, variable outcome).
+**Collar:** Fitted, functional.
+**Recovery:** Day 2 of ~7. Easy throughout. Ate efficiently. Watching the room. Asleep in the afternoon sun with the squad.
+**Movement:** Functional.
+
+Current Date: Day after transformation — afternoon (Session 06 end)

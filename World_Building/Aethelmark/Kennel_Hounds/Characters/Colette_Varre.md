@@ -97,17 +97,19 @@ Relationships
 -------------
 
 **Commander Drouet** — Professional respect, maintained distance. He assigned her the squad without consulting her on selection. She noted this.
-**The Squad** — She knows them at three weeks' acquaintance. Her assessments are forming. She hasn't told any of them what she thinks of them, and she won't unless it becomes operationally relevant.
+**Isandar Quickclaw** — Professional neutral shifted to slight approval. He spent three weeks at the fence with Brac — she called the approach "correct" and meant it. He brought Dix back from Longers Wharf without being asked. She thanked him for it — "Thank you for bringing her in" — which is not something she does lightly. He asks the right questions. She's noticed.
+**The Squad** — All five through the transformation. All twelve working hound introductions complete — the sequence she designed and ran from start to finish. She allowed something in the pause after "all twelve." Her initial assessments have been tested and largely confirmed: one eager and worth watching (Isandar), one pragmatic and functional (Sable), one difficult in a manageable way (Théo — managing), one terrified and hiding it imperfectly (Perrin — held), one unknown quantity (Dix — still unknown, dock disclosure noted).
+**Severin Cault** — Professional respect. He read the full packet and gave the squad complete information. She's worked with alchemists who don't.
 **Programme Central Office** — Low opinion, professionally maintained. They sent her a form letter acknowledging her pre-arrival questions. She has been answering their quarterly report template with precision and without additional commentary.
 **Edouard Vellancourt** — She's never met him. She respects the ambition of what he's trying to do. She has reservations about his follow-through. She keeps these reservations to herself.
 
 Memory / Interaction Log:
-- Player Helped: [Empty]
-- Player Offended: [Empty]
-- Promises Made: [Empty]
-- Promises Broken: [Empty]
+- Player Helped: Received donor selection, confirmed approach was correct. Accepted Dix's disclosure after Isandar brought her in. Ran full pack introduction sequence for all five.
+- Player Offended: None.
+- Promises Made: None.
+- Promises Broken: None.
 
-Trust Level (2/5): Professional neutral. The squad starts at baseline respect; trust is built through demonstrated competence and reliability. She does not extend personal trust easily.
+Trust Level (3/5): Moved from baseline to working trust through demonstrated competence. Isandar's thoroughness and the Dix recovery earned a register above neutral. She does not extend personal trust easily — but professional trust is building.
 
 ---
 
@@ -130,4 +132,4 @@ Active Conditions
 
 - None currently.
 
-Current Date: [In-game date — update at the end of each session]
+Current Date: Day after transformation — afternoon (Session 06 end)
