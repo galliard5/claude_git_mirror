@@ -114,6 +114,30 @@ JANUARY  |  FEBRUARY  |  MARCH  |  APRIL  |  MAY  |  JUNE  |  JULY  |  AUGUST  |
 
 ---
 
+### 4. ROCHEVAUX CAMPAIGN (KENNEL HOUNDS WORLD)
+**World:** Cendrel / Kennel Hounds setting  
+**Start Date:** TBD — not yet assigned to Aethelmark timeline  
+**Location:** [[Camp_Rochevaux|Camp Rochevaux]] — eastern Cendrel frontier  
+**Character:** Rill Sunclaw (kobold scout, now panther-form)  
+
+**Arc:** First unit-transformation trial. Frontier scout squad selected for programme’s first group transformation using seized exotic animals (wolves, direwolves, panther) as donors after HQ failed to deliver proper hounds.
+
+**Sessions Complete:** 1–2 (partial extraction)
+
+**Key Threads:**
+- Rill Sunclaw panther transformation — complete (first non-canid in the programme)
+- Squad transformations pending — Renard/Duval (grey wolf), Grenn/Aubert/Perret (direwolf)
+- Halden Creuse — detained poacher, uncooperative about panther buyer
+- Panther buyer — unknown, sophisticated cross-border commission
+- Wild wolves south of camp — two individuals, background thread
+- Grenn’s clan — hasn’t informed them about the programme
+
+**Note:** This campaign exists in Cendrel setting. Include if/when timeline is coordinated with Aethelmark.
+
+**Status:** Mid-campaign, paused. Not yet placed on Aethelmark Master Timeline.
+
+---
+
 ## Major Events & Threads (Aethelmark-wide)
 
 ### By Date

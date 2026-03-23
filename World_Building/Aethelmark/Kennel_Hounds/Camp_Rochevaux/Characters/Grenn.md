@@ -64,12 +64,15 @@ Relationships: **Ally:** Aubert — unlikely pair, but they work well together. 
 **Complication:** His clan — absent from the scenario but present in his thinking. Their reaction to his transformation is something he's going to have to face eventually, and he's not ready.
 
 Memory / Interaction Log: **Records:**
-- Player Helped: [Empty until interactions occur]
-- Player Offended: [Empty until interactions occur]
-- Promises Made: [Empty until interactions occur]
-- Promises Broken: [Empty until interactions occur]
+- Session 1: Made his most personal statement at the briefing — choosing to hold formation every time. Glanced at Rill after the "not a hammer" observation.
+- Session 2: Visited enclosure mid-afternoon. Watched Rill offer his hand through the panel — panther crossed to it, sniffed, pressed nose briefly. Grenn exhaled. Confirmed donor choice: direwolf. Noted Aubert wants the same.
+- Session 2: At mess post-transformation. Connected Rill's scent-tracking ability to a warren concept — a word for knowing where your people are without looking. Said he didn't think it applied to anything outside the warren. Visibly moved, quietly.
+- Session 2: Asked what the panther smelled like. Connected it to the pendant and the clan question he hasn't resolved.
+- Clan status: Has not written to his clan about the programme. Not yet ready.
+- Promises Made: [None yet]
+- Promises Broken: [None yet]
 
-Trust Level (0 / 5): 4 — Established squad trust. Grenn trusts the PC as a fellow scout. Deeper trust comes from the PC respecting his space and not pressing on things he hasn't offered.
+Trust Level (0 / 5): 4, with genuine movement toward openness — the warren word exchange was the most personal thing Grenn has shared with the squad. Something real surfaced.
 
 Daily Routine:
 - Pre-dawn: Awake and alert — kobold circadian rhythm runs earlier than humans.
@@ -86,3 +89,12 @@ Permanent Injuries & Alterations:
 
 Active Conditions:
 - [None at scenario start]
+
+---
+
+## Transformation Tracking (Pending)
+
+- **Donor type:** Direwolf (scheduled — transformation pending next morning)
+- **Instinct management:** N/A — not yet transformed
+- **Physical adjustment:** N/A
+- **Collar calibration:** N/A

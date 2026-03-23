@@ -65,10 +65,9 @@ Relationships: **Ally:** The central office — in his mind. He believes the pro
 **Complication:** Daubray — she's the technical expert, and her reservations about non-standard donors are the one objection he can't simply override with command authority. He needs her cooperation, not just her compliance.
 
 Memory / Interaction Log: **Records:**
-- Player Helped: [Empty until interactions occur]
-- Player Offended: [Empty until interactions occur]
-- Promises Made: [Empty until interactions occur]
-- Promises Broken: [Empty until interactions occur]
+- Session 1: Called donor briefing. Proposed using seized exotic animals, framing it as solving the problem with available resources. Noted Rill's volunteering for the panther positively — momentum for his plan.
+- Promises Made: [None yet]
+- Promises Broken: [None yet]
 
 Trust Level (0 / 5): 3 — The PC is a subordinate. Tournon trusts them to follow orders. Personal trust is not a category he operates in with enlisted personnel.
 

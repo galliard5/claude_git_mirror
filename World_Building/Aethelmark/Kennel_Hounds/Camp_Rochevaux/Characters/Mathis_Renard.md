@@ -63,12 +63,18 @@ Relationships: **Ally:** Duval — the squad member whose judgment he trusts mos
 **Complication:** Perret — the youngest, the most eager. Renard feels responsible for him in a way that goes beyond normal squad duty, and worries the kid will agree to something he's not ready for because he doesn't want to look weak.
 
 Memory / Interaction Log: **Records:**
-- Player Helped: [Empty until interactions occur]
-- Player Offended: [Empty until interactions occur]
-- Promises Made: [Empty until interactions occur]
-- Promises Broken: [Empty until interactions occur]
+- Session 1: Found Rill at enclosure after briefing. Tracked his reasoning, accepted the panther decision. Noted Rill's question-by-question process positively — couldn't argue with it after the fact.
+- Session 1: Ordered Rill to put everything on the table with Daubray that afternoon. Private instruction.
+- Session 1: Revealed he hasn't decided his own form yet. Noted Perret will likely follow whatever he chooses.
+- Session 2: Announced grey wolf choice at evening mess — quietly, simply, after Perret stated his. Table settled around it without drama.
+- Session 2: Waited outside the transformation shed in the cold during Rill's procedure. Came himself to collect Rill rather than sending anyone. One pass over Rill head to tail. Nodded. "Solid."
+- Session 2: Walked beside Rill to the mess — not escorting, beside.
+- Session 2: Filed night vision and scent range for immediate operational use — ridge crossings, split patrols, forward scout without torch.
+- Session 2: Visited the grey wolf at the enclosure (per Rill's advice to sit with chosen donor, bring food). Content of visit unknown.
+- Promises Made: [None yet]
+- Promises Broken: [None yet]
 
-Trust Level (0 / 5): 4 — The PC is established squad. Renard trusts them operationally. Full trust requires demonstrated judgment under pressure.
+Trust Level (0 / 5): 4, holding — something warmer at the edges. Renard tracked Rill's reasoning, accepted the decision, waited during the transformation, came himself. Trust is operational plus the beginnings of personal respect.
 
 Daily Routine:
 - Pre-dawn: Up before the squad. Checks equipment, reviews patrol assignments.
@@ -84,3 +90,12 @@ Permanent Injuries & Alterations:
 
 Active Conditions:
 - [None at scenario start]
+
+---
+
+## Transformation Tracking (Pending)
+
+- **Donor type:** Grey wolf (scheduled — transformation pending next morning)
+- **Instinct management:** N/A — not yet transformed
+- **Physical adjustment:** N/A
+- **Collar calibration:** N/A

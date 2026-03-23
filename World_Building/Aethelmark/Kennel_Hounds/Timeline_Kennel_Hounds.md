@@ -26,6 +26,10 @@ Kennel Hounds Timeline
 | Corvel (Vauclair) black market ties | Ongoing | Background — unverified | Oversized ingredient inventory, back alley entrance, eleven years as only licensed alchemist. Not investigated. |
 | Sekkel — missing kin investigation | Ongoing | Personal — cold trail | Sekkel quietly pursuing what happened to kin who left for the surface a generation ago. Slow, incremental. |
 | Marenne's Vauclair improvement timeline | Ongoing | Behind schedule | Wants black market contained enough that Crown stops treating post as a problem assignment. Has a timeline. Behind it. |
+| Rochevaux unit-transformation trial | Active | In progress | First unit-transformation. Rill (panther) complete. Five remaining scheduled. |
+| Rochevaux donor shortage — exotic animals | Active | Resolved (workaround) | HQ hounds never arrived. Tournon authorised seized exotic animals as donors. |
+| Halden Creuse — panther buyer | Active | Stalled | Creuse uncooperative. Buyer unknown. Sophisticated cross-border commission. |
+| Wild wolves south of camp | Background | Observed | Two individuals heard calling at dusk from creek south of Rochevaux. |
 
 ---
 
@@ -87,6 +91,33 @@ Kennel Hounds Timeline
 - Sable to Isandar: "All twelve."
 - Isandar found sun patch in anteroom, circled it (instinct fully natural, unnoticed), folded down. All five asleep in afternoon warmth.
 - Kobold scent profile: one documented data point (Renne). Feeds forward to future programme sites.
+
+---
+
+---
+
+### Rochevaux Campaign — Active (Partial, Sessions 1–2)
+
+**Session 1 (Donor Briefing Day)**
+- Tournon calls full briefing: no proper donors arriving, proposes seized exotic animals.
+- Daubray states concerns on record: process species-agnostic but outcome data is hound-only.
+- Rill Sunclaw volunteers for panther transformation organically through question-by-question reasoning.
+- Duval confirms grey wolf choice quietly at lunch.
+- Grenn hasn't decided (cultural weight). Aubert, Perret, Renard undecided.
+- Rill establishes first contact with panther: fed her twice (jerky, rabbit), sat with her through evening.
+- Wild wolves heard calling at dusk from creek south of camp (two individuals).
+- Daubray consultation: panther transformation estimated 10–12 hrs, collar fitted when stable.
+
+**Session 2 (Transformation Day)**
+- Morning: Rill's second enclosure visit. Panther closer than previous day. Nose contact through panel (her initiative).
+- Grenn visits enclosure: watches Rill's hand-through-panel moment, confirms direwolf.
+- Squad choices finalised: Duval/Renard = grey wolf, Grenn/Aubert/Perret = direwolf.
+- Sample extraction: Rill distracts panther with jerky, Daubray extracts clean. "Cleanest she'd ever done."
+- Rill's transformation runs from first light through late afternoon. Daubray present throughout, narrating.
+- Transformation complete. Collar fitted. First words: "That was very weird."
+- Renard waited outside shed in the cold. Came himself to collect Rill. "Solid."
+- Evening mess: squad receives Rill. Cook produces second bowl (barely cooked, no comment). Grenn shares warren word. Renard files night vision for ops.
+- Evening enclosure: panther recognises change in Rill, makes first voluntary vocalisation, answers twice, settles closest to panel she's ever rested.
 
 ---
 

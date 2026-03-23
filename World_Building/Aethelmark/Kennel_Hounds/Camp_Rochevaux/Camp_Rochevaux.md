@@ -62,9 +62,19 @@ Surrounding Area
 Current Situation
 -----------------
 
-The programme charter arrived three months ago, selecting Rochevaux's scout squad for the kingdom's first unit-transformation trial. The alchemist, Celine Daubray, arrived five weeks ago with materials for six transformations. The programme is stalled: HQ's records listed eight working hounds at the camp. There are two. A donor requisition was sent six weeks ago. The central office acknowledged receipt. No donors have arrived.
+The programme charter arrived three months ago, selecting Rochevaux's scout squad for the kingdom's first unit-transformation trial. The alchemist, Celine Daubray, arrived five weeks ago with materials for six transformations. Original donor shortage (HQ records listed eight hounds; actual count: two) resolved by Tournon's decision to use seized exotic animals as donors.
 
-Two weeks ago, the scout squad intercepted a poacher-smuggler named Halden Creuse moving caged exotic animals along a game trail. The seized animals — wolves, direwolves, and a black panther — are being held at the camp. Their potential use as transformation donors is under active discussion. The investigation into Creuse's buyer has not progressed.
+Two weeks ago, the scout squad intercepted a poacher-smuggler named Halden Creuse moving caged exotic animals along a game trail. The seized animals — wolves, direwolves, and a black panther — were approved for use as transformation donors.
+
+**Transformation Status (as of Session 2):**
+- **Rill Sunclaw (kobold):** Transformed — panther donor. Collar fitted, voice confirmed. First programme panther transformation.
+- **Duval:** Grey wolf — scheduled next morning.
+- **Renard:** Grey wolf — scheduled next morning.
+- **Grenn:** Direwolf — scheduled next morning.
+- **Aubert:** Direwolf — scheduled next morning.
+- **Perret:** Direwolf — scheduled next morning.
+
+Daubray has five transformations remaining. The investigation into Creuse's buyer has not progressed — Creuse remains uncooperative in the cellar.
 
 ---
 
@@ -73,7 +83,12 @@ Key Personnel
 
 - **Captain Gervais Tournon** — Camp commander. Career frontier officer, opportunistic about the programme.
 - **Celine Daubray** — Programme alchemist. First solo assignment. Competent but untested with non-standard donors.
-- **Sergeant Mathis Renard** — Scout squad leader. Protective of squad cohesion.
+- **Sergeant Mathis Renard** — Scout squad leader. Protective of squad cohesion. Grey wolf donor (pending).
+- **Rill Sunclaw** — PC. Kobold scout, now in panther form. First non-canid transformation in the programme.
+- **Duval** — Scout, tracker. Grey wolf donor (pending).
+- **Grenn** — Scout, kobold, close-terrain specialist. Direwolf donor (pending).
+- **Aubert** — Scout, heavy. Direwolf donor (pending).
+- **Perret** — Scout, youngest. Direwolf donor (pending).
 - **Halden Creuse** — Detained poacher-smuggler. Uncooperative. Afraid of his buyer.
 - **Tessier** — Quartermaster. Runs supply logistics.
 - **Fabron** — Mill owner in Les Granges, de facto settlement leader.

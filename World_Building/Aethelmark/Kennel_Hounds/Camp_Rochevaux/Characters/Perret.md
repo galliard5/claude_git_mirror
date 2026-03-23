@@ -63,12 +63,13 @@ Relationships: **Ally:** The PC — depending on how the PC treats him. Perret g
 **Complication:** Renard — the respect is genuine but the need for approval creates dependency. Renard's opinion of the exotic donors will heavily influence Perret's, whether Perret realizes it or not.
 
 Memory / Interaction Log: **Records:**
-- Player Helped: [Empty until interactions occur]
-- Player Offended: [Empty until interactions occur]
-- Promises Made: [Empty until interactions occur]
-- Promises Broken: [Empty until interactions occur]
+- Session 1: Rill's observation — "this isn't a hammer you can change out" — landed visibly on him. Admitted he'd been thinking about what makes sense for the squad rather than what he wants to be.
+- Session 2: Confirmed donor choice: direwolf.
+- Session 2: At mess post-transformation. "Hi Rill." Overwhelmed and genuine — no performance.
+- Promises Made: [None yet]
+- Promises Broken: [None yet]
 
-Trust Level (0 / 5): 4 — Established squad trust. Perret trusts the PC as a squadmate. May open up further if the PC gives him space to be honest without judgment.
+Trust Level (0 / 5): 4, opening further — settling into something more honest since the permanent-choice observation. Less performance, more real.
 
 Daily Routine:
 - Dawn: Up early. Gear check, kit inspection, ready before required.
@@ -84,3 +85,12 @@ Permanent Injuries & Alterations:
 
 Active Conditions:
 - [None at scenario start]
+
+---
+
+## Transformation Tracking (Pending)
+
+- **Donor type:** Direwolf (scheduled — transformation pending next morning)
+- **Instinct management:** N/A — not yet transformed
+- **Physical adjustment:** N/A
+- **Collar calibration:** N/A

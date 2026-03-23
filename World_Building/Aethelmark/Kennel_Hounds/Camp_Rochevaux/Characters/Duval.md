@@ -63,10 +63,11 @@ Relationships: **Ally:** Renard — longest working relationship in the squad. M
 **Complication:** The camp's two hounds — he's more attached to them than he'd admit. If they're used as donors, someone in the squad will be carrying their template. That's not nothing.
 
 Memory / Interaction Log: **Records:**
-- Player Helped: [Empty until interactions occur]
-- Player Offended: [Empty until interactions occur]
-- Promises Made: [Empty until interactions occur]
-- Promises Broken: [Empty until interactions occur]
+- Session 1: Noted first at briefing that the panther has been calm since day two — patient, not distressed. Observational, not advocating.
+- Session 1: Confirmed donor choice quietly at lunch: grey wolf.
+- Session 2: Tested whether Rill could hear him from outside the mess post-transformation. Confirmed range was different. Satisfied.
+- Promises Made: [None yet]
+- Promises Broken: [None yet]
 
 Trust Level (0 / 5): 4 — Established squad trust. Duval trusts the PC's competence. Deeper trust comes from the PC demonstrating they think before they act.
 
@@ -84,3 +85,12 @@ Permanent Injuries & Alterations:
 
 Active Conditions:
 - [None at scenario start]
+
+---
+
+## Transformation Tracking (Pending)
+
+- **Donor type:** Grey wolf (scheduled — transformation pending next morning)
+- **Instinct management:** N/A — not yet transformed
+- **Physical adjustment:** N/A
+- **Collar calibration:** N/A

@@ -65,12 +65,14 @@ Relationships: **Ally:** Her training — the senior alchemist's methods and doc
 **Complication:** The squad — they're not abstractions to her. She's met them, spoken with them, and will be performing an irreversible procedure on their bodies. Professional distance is harder to maintain when the patients are people you've eaten meals near.
 
 Memory / Interaction Log: **Records:**
-- Player Helped: [Empty until interactions occur]
-- Player Offended: [Empty until interactions occur]
-- Promises Made: [Empty until interactions occur]
-- Promises Broken: [Empty until interactions occur]
+- Session 1: Briefing — stated concerns clearly, insisted they be on record. Confirmed process is species-agnostic but outcome data is hound-only.
+- Session 1: Consultation with Rill — answered precise questions about transformation duration (panther est. 10-12 hrs), recovery, collar fitting. Instructed Rill to spend another morning at the enclosure. Professional rapport established.
+- Session 2: Sample extraction — called it the cleanest donor extraction she'd ever done. Rill distracted panther with jerky while she drew blood.
+- Session 2: Ran Rill's transformation start to finish. Present throughout, narrating each stage. Laughed (genuine, released) at Rill's first words: "That was very weird."
+- Promises Made: Speaking collar is permanently Rill's per Vellancourt's charter.
+- Promises Broken: [None]
 
-Trust Level (0 / 5): 3 — The PC is one of her future patients. She's professional and approachable but maintains the distance appropriate to someone who will be performing a permanent medical procedure.
+Trust Level (0 / 5): 3 → 4 — Professional rapport solidified through the transformation. She ran a clean procedure and was honest throughout. Trust earned through mutual competence.
 
 Daily Routine:
 - Dawn: In her workspace. Checks potion stability, reviews notes.

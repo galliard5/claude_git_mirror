@@ -63,10 +63,10 @@ Relationships: **Ally:** Grenn — they work well together despite being opposit
 **Complication:** Tournon — the captain frames the exotic donors in practical terms ("this makes your squad more capable"), which is exactly the framing most likely to bypass Aubert's limited scepticism.
 
 Memory / Interaction Log: **Records:**
-- Player Helped: [Empty until interactions occur]
-- Player Offended: [Empty until interactions occur]
-- Promises Made: [Empty until interactions occur]
-- Promises Broken: [Empty until interactions occur]
+- Session 2: Confirmed donor choice — direwolf. Coordinated with Grenn (they talked it through together).
+- Session 2: At mess, asked about Rill's ears post-transformation, wanted the demonstration repeated. Genuinely curious.
+- Promises Made: [None yet]
+- Promises Broken: [None yet]
 
 Trust Level (0 / 5): 4 — Established squad trust. Aubert trusts the PC to do their job. That's the highest form of trust he operates in.
 
@@ -84,3 +84,12 @@ Permanent Injuries & Alterations:
 
 Active Conditions:
 - [None at scenario start]
+
+---
+
+## Transformation Tracking (Pending)
+
+- **Donor type:** Direwolf (scheduled — transformation pending next morning)
+- **Instinct management:** N/A — not yet transformed
+- **Physical adjustment:** N/A
+- **Collar calibration:** N/A

@@ -13,6 +13,17 @@ description: A coherent frontier scout squad selected for the programme's first 
 
 ---
 
+## Campaign Status (Partial Extraction)
+
+**Sessions Complete:** 1-2
+**Status:** Mid-campaign, paused. Act 1 resolved into Act 2.
+**PC:** Rill Sunclaw, kobold scout, now in panther form (transformed Session 2).
+**Current Position:** Rill transformed. Five squad transformations scheduled next morning. Creuse investigation stalled. Buyer thread open.
+**Donor Allocation (Final):** Rill = panther, Duval = grey wolf, Renard = grey wolf, Grenn = direwolf, Aubert = direwolf, Perret = direwolf.
+**Extraction Date:** 23 March 2026 (partial — scenario not concluded)
+
+---
+
 ## Overview
 
 A six-person frontier scout squad at Camp Rochevaux has been selected for the Kennel Hounds programme's first unit-transformation trial. The hypothesis: an already-bonded squad will perform better after transformation than individually recruited volunteers. The PC is rank-and-file — one of the six, trusted by the others, living inside the group's dynamics rather than steering them.
