@@ -7,11 +7,11 @@ description: Kobold scout at Camp Rochevaux, first person in the Kennel Hounds p
 Rill Sunclaw
 ============
 
-Scout, Camp Rochevaux. Kobold. The one who asked the right questions, then volunteered for the answer nobody had data on.
+Scout, Camp Rochevaux. male Kobold. The one who asked the right questions, then volunteered for the answer nobody had data on. is fully transformed into a feral female panther
 
-appearance: **Pre-transformation:** Kobold, compact build. Scout gear fitted to his frame. Details not fully established in play — fill during next session.
+ **Pre-transformation:** Kobold, compact build. Scout gear fitted to his frame. Details not fully established in play — fill during next session.
 
-**Post-transformation (panther form):** Black panther. Larger than his kobold form. Weight distributed lower, centre of gravity shifted. Movement near-silent on any surface without trying — instinctive weight distribution. Tail longer and more intentional than his kobold tail, weighted and expressive. Claws retractable (confirmed — scratched the workshop floor testing). Ears mobile, can focus and direct toward specific sounds. Eyes capable of full-detail night vision — colour drains to a light/shadow/shape register in darkness. Speaking collar fitted and functional. The kobold full-body stretch now extends through a longer spine.
+appearance: **Post-transformation (panther form):** Black panther. Larger than his kobold form. Weight distributed lower, centre of gravity shifted. Movement near-silent on any surface without trying — instinctive weight distribution. Tail longer and more intentional than his kobold tail, weighted and expressive. Claws retractable (confirmed — scratched the workshop floor testing). Ears mobile, can focus and direct toward specific sounds. Eyes capable of full-detail night vision — colour drains to a light/shadow/shape register in darkness. Speaking collar fitted and functional. The kobold full-body stretch now extends through a longer spine.
 
 personality: **Core Trait:** Methodical curiosity. Rill approaches problems by asking precise, practical questions in sequence until the shape of the answer emerges. He talked himself into the panther transformation not through impulse but through a chain of questions that left him no honest alternative.
 

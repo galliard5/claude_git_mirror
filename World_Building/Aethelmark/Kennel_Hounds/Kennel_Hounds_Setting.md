@@ -93,6 +93,28 @@ The programme does not advertise the pattern publicly but does not actively conc
 
 **For a player character,** the outcome is settled out-of-character — If the player picked a male donor, the player may choose male, female, or leave it to a random roll. if the player picked a female donor, they will be female — but in-fiction it is always presented as chance. The character does not choose; the nature of the donor resolves as it resolves.
 
+**Feral Forms and Physical Capability**
+
+The forms produced by the programme are fully feral animal bodies. They are not humanoid variants, not digitigrade compromises, not "wolf-shaped people." A wolf is a wolf. A panther is a panther. The volunteer's mind and voice survive the process. Their hands do not.
+
+What this means in practice: Gripping, pinching, threading, turning, lifting by handle — anything requiring an opposable thumb or coordinated finger use is simply unavailable. Utensils cannot be held. Doors with round handles cannot be opened. A pen, a cup, a buckle, a latch designed for hands — these are inaccessible without external assistance.
+
+Fine manipulation is effectively zero. Even coarse manipulation is limited: a paw can push, bat, or press against a surface, but not grip, close around, or precisely control an object.
+
+What remains available:
+- Carrying objects in the mouth — functional but limited to what the jaw can hold without damaging
+- Nudging, pawing, or pressing large simple objects (a lever, a flat-push door, an unlatched gate)
+- Physical tasks suited to the animal form: running, tracking, restraining, pulling on a rope or harness, swimming
+- Communication via the speaking collar — the primary interface with the human world
+
+Eating and drinking require adaptation. Water must be lapped from a bowl or source. Solid food must be placed where it can be eaten without hands. The programme's better-run sites account for this in daily logistics. Others do not.
+
+No exceptions to the feral form constraint have been recorded across any pilot site. All species produce the same result in this regard — the form is animal, and the limitations are animal limitations.
+
+**GM note:** When running scenes with transformed characters, default to the assumption that any task requiring hands requires either another person's help, a purpose-built workaround, or simply cannot be done. Do not reach for a convenient solution unless one has been established in the fiction.
+
+---
+
 The Setting's Tone: The programme is a real institution with real stakes, run by real people with mixed motives and incomplete information. The hounds it produces are fully sapient individuals navigating a world that doesn't have established norms for what they are.
 
 The black market, the smuggling economy, the garrison politics, the warren clan dynamics — these exist independently of the programme and intersect with it in ways nobody at the central office has modelled. Individual campaigns explore those intersections from ground level.
