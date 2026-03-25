@@ -85,18 +85,24 @@ Memory / Interaction Log: **Records:**
 - Session 2: Renard waited outside shed during transformation. Came himself to collect Rill. "Solid."
 - Session 2: Mess hall — squad received him. Cook produced second bowl (barely cooked salt pork, no comment). Grenn shared warren word. Renard filed night vision and scent range for ops.
 - Session 2: Evening enclosure visit post-transformation. Panther recognised the change. First voluntary vocalisation toward him. Answered vocal exchange twice. Settled closest to panel she's ever rested.
+- Session 3: Woke before first light, hunted two rabbits (ate one whole in field, brought one for panther). Fed panther at enclosure — brief greeting exchange, low chest sound, ear flick. Stayed with each squad member through their transformation individually. Guided Duval through sensory stages, talked Grenn through resistance wall, present for all five. Gathered squad to mess for first assembly as transformed unit. Established shared expectations: beds will be bad, instincts arrive before you do, much still unknown.
+- Session 4: Proposed the cage swap plan during mess. Daubray cut notch in left ear (cover story: cage latch in transit). Entered the cage after panther moved to stable stall. Investigated latch from inside — can lift it with bridge of muzzle, slow, requires no audience. Collar removed and passed to Grenn in the deep hours.
+- Session 5: Rode out in cage at dawn, collar off. Creuse loaded the cart without incident (warning growl at the ear). Calibrated ear compensation during transit — consistent angular shift from notch, partially correctable. Confirmed Duval in treeline twice by sound, confirmed pitch on axle by scent. Arrived at buyer's facility. Blood draw by alchemist day one — held resting register throughout. Night: infiltrated shed, retrieved non-standard collar, identified prisoner by voice in second structure.
+- Session 6: Drew all facility personnel to front yard using kenneled dogs as cover. Headbutted buyer into the dirt, held him down with one paw. Squad took the rear clean. Collar refitted by Grenn. Rill's counter-argument exposed the inside-programme knowledge gap (contractor knew about panther before Rochevaux filed report). Session ended with Rill noting the shed evidence may point at the second site.
 
 Trust Level (0 / 5): N/A — Player Character
 
 Daily Routine: [Pre-transformation routine not established. Post-transformation routine to emerge in play.]
 
-Current Date: [Day of transformation — update at end of each session]
+Current Date: Transformation day +2 (end of Session 6)
 
 Permanent Injuries & Alterations:
 - Panther transformation: Permanent. Kobold → panther form via programme potion, panther donor. Speaking collar fitted. Irreversible.
+- Left ear notch: Controlled cut by Daubray (Session 4), minor. Cover story: cage latch in transit. Directional precision on left side slightly reduced — angular shift identified and partially compensable with conscious effort. Healing.
 
 Active Conditions:
-- Sensory calibration: Ongoing, settling over next 1-2 days per Daubray. Scent range initially overwhelming, then calibrated. Hearing and vision stabilised.
+- Left ear healing: Minor injury, bandaged. Directional precision partially compensated for. Not debilitating.
+- Sensory calibration: Near-complete per Daubray. Ear compensation established — consistent angular shift adjustable with conscious effort. Nose calibration ongoing — wind direction effects understood.
 
 ---
 
@@ -121,6 +127,6 @@ Active Conditions:
 ## Transformation Tracking
 
 - **Donor type:** Panther (black panther, large female)
-- **Instinct management:** [To be assessed in field — controlled so far in camp setting]
-- **Physical adjustment:** Adjusting — movement natural, sensory calibration settling
-- **Collar calibration:** Calibrated — voice working, first words confirmed
+- **Instinct management:** Controlled — held full animal register for two days under close observation by hostile NPC (alchemist), maintained resting posture during blood draw, broke cover only when tactically optimal
+- **Physical adjustment:** Adapted — movement natural, sensory calibration near-complete, ear compensation established, hunting instinct clean (two rabbit kills)
+- **Collar calibration:** Calibrated — voice working. Collar was removed for two days during facility infiltration (Sessions 4-6) and refitted successfully

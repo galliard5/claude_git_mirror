@@ -9,7 +9,9 @@ Perret
 
 Scout, Camp Rochevaux. The youngest in the squad, still building the reputation he thinks he needs.
 
-appearance: Early twenties, still carrying the last traces of adolescent lankiness in his frame. Sandy hair, fair skin that burns and freckles on the frontier rather than tanning. Clean-shaven because he can't grow much worth keeping. Quick-moving, slightly restless energy — he's the one tapping his foot during briefings, shifting his weight, ready to go before anyone's finished talking. His gear is well-maintained — conspicuously so, like someone who knows the older members will notice if it isn't.
+appearance: **Pre-transformation:** Early twenties, still carrying the last traces of adolescent lankiness in his frame. Sandy hair, fair skin that burns and freckles on the frontier rather than tanning. Clean-shaven because he can't grow much worth keeping. Quick-moving, slightly restless energy — he's the one tapping his foot during briefings, shifting his weight, ready to go before anyone's finished talking. His gear is well-maintained — conspicuously so, like someone who knows the older members will notice if it isn't.
+
+**Post-transformation (direwolf form):** Direwolf. The form settling over someone still growing into himself. Most vocal through the hard hours — small sounds, a confused laugh when he first heard the panther breathing from inside the shed. Speaking collar fitted and functional. Found relief sitting with his back to the wall at the first meal. First words: *Hi Rill.*
 
 personality: **Core Trait:** Eagerness channelled as competence. Perret works harder than he needs to because he believes effort is how you earn your place. He's not wrong, but the intensity is noticeable.
 
@@ -66,10 +68,13 @@ Memory / Interaction Log: **Records:**
 - Session 1: Rill's observation — "this isn't a hammer you can change out" — landed visibly on him. Admitted he'd been thinking about what makes sense for the squad rather than what he wants to be.
 - Session 2: Confirmed donor choice: direwolf.
 - Session 2: At mess post-transformation. "Hi Rill." Overwhelmed and genuine — no performance.
+- Session 3: Transformed — direwolf, late afternoon (last of the day). Most vocal through hard hours. Confused laugh when he heard the panther breathing from inside the shed. First words: "Hi Rill." Found relief sitting with his back to the wall at first meal. Duval told him not to be embarrassed — everyone turned.
+- Session 4: Positioned with Renard in follow team for facility operation.
+- Session 6: Held the alchemist (Gregor) at shed wall. Functional, steady.
 - Promises Made: [None yet]
 - Promises Broken: [None yet]
 
-Trust Level (0 / 5): 4, opening further — settling into something more honest since the permanent-choice observation. Less performance, more real.
+Trust Level (0 / 5): 4, genuinely settling. The permanent-choice observation and transformation day changed his trajectory — less performance, more honest. Held the alchemist at the shed wall without flinching.
 
 Daily Routine:
 - Dawn: Up early. Gear check, kit inspection, ready before required.
@@ -88,9 +93,9 @@ Active Conditions:
 
 ---
 
-## Transformation Tracking (Pending)
+## Transformation Tracking
 
-- **Donor type:** Direwolf (scheduled — transformation pending next morning)
-- **Instinct management:** N/A — not yet transformed
-- **Physical adjustment:** N/A
-- **Collar calibration:** N/A
+- **Donor type:** Direwolf — transformation complete (Session 3, late afternoon, last of the day)
+- **Instinct management:** Adjusting — most vocal through the process, still settling into the form
+- **Physical adjustment:** Adapting — the form settling over someone still growing into himself
+- **Collar calibration:** Calibrated — voice working, first words confirmed ("Hi Rill")

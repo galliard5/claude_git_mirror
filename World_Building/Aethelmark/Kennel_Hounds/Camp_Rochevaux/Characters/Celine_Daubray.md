@@ -69,10 +69,14 @@ Memory / Interaction Log: **Records:**
 - Session 1: Consultation with Rill — answered precise questions about transformation duration (panther est. 10-12 hrs), recovery, collar fitting. Instructed Rill to spend another morning at the enclosure. Professional rapport established.
 - Session 2: Sample extraction — called it the cleanest donor extraction she'd ever done. Rill distracted panther with jerky while she drew blood.
 - Session 2: Ran Rill's transformation start to finish. Present throughout, narrating each stage. Laughed (genuine, released) at Rill's first words: "That was very weird."
+- Session 3: Ran five more transformations in a single day — Duval, Renard, Grenn, Aubert, Perret. All clean, all stable, all collared. Sat when it was done — looked at the empty vials. "Well. That's that, then." Visibly tired and relieved. Grateful Rill stayed with each member.
+- Session 4: Cut the notch in Rill's left ear — controlled, precise, wrapped. Moved the panther from enclosure to stable back stall. Professional throughout. Agreed to be woken if something goes wrong during the operation.
+- Session 5: Not present at facility — remained at Camp Rochevaux.
+- Session 6: Not present at facility.
 - Promises Made: Speaking collar is permanently Rill's per Vellancourt's charter.
 - Promises Broken: [None]
 
-Trust Level (0 / 5): 3 → 4 — Professional rapport solidified through the transformation. She ran a clean procedure and was honest throughout. Trust earned through mutual competence.
+Trust Level (0 / 5): 4 — Professional rapport solid. Six clean transformations, honest throughout, grateful for Rill's support during the squad procedures. Trust earned through mutual competence and shared stakes.
 
 Daily Routine:
 - Dawn: In her workspace. Checks potion stability, reviews notes.
@@ -88,4 +92,4 @@ Permanent Injuries & Alterations:
 - [None at scenario start]
 
 Active Conditions:
-- [None at scenario start]
+- Exhausted: Ran six transformations in a single day (Sessions 2-3). Recovery ongoing.

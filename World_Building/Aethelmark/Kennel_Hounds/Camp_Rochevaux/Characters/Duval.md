@@ -9,7 +9,9 @@ Duval
 
 Scout, Tracker, Camp Rochevaux. The quiet one who notices everything and says just enough.
 
-appearance: Early thirties, medium build tending wiry. Brown hair kept short and practical, a patchy beard he maintains poorly. Hands scarred from years of fieldwork — small nicks and calluses layered over each other. His eyes are his most notable feature: pale grey, attentive, the kind that track movement at the edge of vision. Dresses in scout gear that's been repaired more times than replaced, everything faded to the same indeterminate earth tone.
+appearance: **Pre-transformation:** Early thirties, medium build tending wiry. Brown hair kept short and practical, a patchy beard he maintains poorly. Hands scarred from years of fieldwork — small nicks and calluses layered over each other. His eyes are his most notable feature: pale grey, attentive, the kind that track movement at the edge of vision. Dresses in scout gear that's been repaired more times than replaced, everything faded to the same indeterminate earth tone.
+
+**Post-transformation (grey wolf form):** Grey wolf. The attentive quality of his eyes translated directly — still the tracker, still watching the edges. Speaking collar fitted and functional. Identified Grenn's footfall at the enclosure by ear alone post-transformation. The quietest member of the squad is now physically silent as well.
 
 personality: **Core Trait:** Observation. Duval's instinct is to watch, assess, and understand before acting. He applies this to terrain, to animals, and to people.
 
@@ -66,10 +68,15 @@ Memory / Interaction Log: **Records:**
 - Session 1: Noted first at briefing that the panther has been calm since day two — patient, not distressed. Observational, not advocating.
 - Session 1: Confirmed donor choice quietly at lunch: grey wolf.
 - Session 2: Tested whether Rill could hear him from outside the mess post-transformation. Confirmed range was different. Satisfied.
+- Session 3: Transformed — grey wolf, first of the day. Rill guided him through pressure and sensory stages. Identified Grenn's footfall at the enclosure by ear alone post-transformation. Recovery clean.
+- Session 3: Added three patrol routes that change with night vision capability.
+- Session 4: Forward position on eastern road before first light for cage swap operation.
+- Session 5: Worked around to treeline behind buyer's property. Has eyes on the back. Confirmed in treeline twice during transit by sound.
+- Session 6: Held front gate during yard control. Planted between Gate Man and buyer. Volunteered to ride for Sermont — warn the circled name before the six-day window closes.
 - Promises Made: [None yet]
 - Promises Broken: [None yet]
 
-Trust Level (0 / 5): 4 — Established squad trust. Duval trusts the PC's competence. Deeper trust comes from the PC demonstrating they think before they act.
+Trust Level (0 / 5): 4 — Established and confirmed. Rill guided him through transformation. Duval's tracker instincts now amplified — the transformation validated rather than disrupted his approach.
 
 Daily Routine:
 - Dawn: Checks on the hounds. Feeds them, inspects their condition.
@@ -88,9 +95,9 @@ Active Conditions:
 
 ---
 
-## Transformation Tracking (Pending)
+## Transformation Tracking
 
-- **Donor type:** Grey wolf (scheduled — transformation pending next morning)
-- **Instinct management:** N/A — not yet transformed
-- **Physical adjustment:** N/A
-- **Collar calibration:** N/A
+- **Donor type:** Grey wolf — transformation complete (Session 3, first of the day)
+- **Instinct management:** Controlled — sensory calibration settled quickly, tracking capability now baseline
+- **Physical adjustment:** Adapted — clean recovery, new senses integrated into existing tracker skillset
+- **Collar calibration:** Calibrated — voice working

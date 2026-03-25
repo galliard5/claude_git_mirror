@@ -64,16 +64,18 @@ Relationships: **Ally:** None present. His contacts are along the frontier and h
 **Complication:** The squad — they're the ones who caught him. He watched them work. He knows they're competent. If they become the things in the cages next to his cell, that's a development he hasn't processed.
 
 Memory / Interaction Log: **Records:**
-- Player Helped: [Empty until interactions occur]
-- Player Offended: [Empty until interactions occur]
-- Promises Made: [Empty until interactions occur]
-- Promises Broken: [Empty until interactions occur]
+- Session 4: Loaded the cage at dawn without incident. Studied the bandaged ear — hand came too close, received a warning growl from Rill (posing as panther). Accepted it as animal behavior and moved on.
+- Session 5: Delivered cage to buyer's facility. Was waiting out front for payment when cart moved around back.
+- Session 5-6: Status after facility raid unknown — may have been paid and departed, or may still be at the facility. Not mentioned in the yard takedown.
+- Player Helped: [None]
+- Player Offended: [None]
+- Promises Made: [None]
+- Promises Broken: [None]
 
-Trust Level (0 / 5): 1 — The PC is one of the soldiers who captured him. Creuse has no trust and no hostility — just wariness.
+Trust Level (0 / 5): 1 — Creuse never knew the switch happened. His interaction was with a panther-shaped kobold he believed was his cargo.
 
 Daily Routine:
-- All day: Cell. Fed twice daily. Interrogated irregularly.
-- He keeps a mental count of days. He knows exactly how long he's been here.
+- [No longer in cell — departed Camp Rochevaux with the cage at dawn of transformation day +1. Current location unknown.]
 
 Current Date: [In-game date — update at the end of each session]
 
@@ -82,7 +84,7 @@ Permanent Injuries & Alterations:
 - Numerous minor scars on hands and forearms from animal handling.
 
 Active Conditions:
-- [None at scenario start]
+- Status unknown: Departed camp with cage containing Rill (disguised as panther). Delivered to buyer's facility. May have been paid and left before the squad arrived, or may still be at the facility.
 
 **Interrogation Notes (GM Reference):**
 

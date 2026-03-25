@@ -9,7 +9,9 @@ Aubert
 
 Scout, Heavy, Camp Rochevaux. The big one. Carries the heavy gear and the straightforward questions nobody else thinks to ask.
 
-appearance: Mid-thirties, broad-shouldered and thick through the chest and arms in a way that comes from hauling equipment across rough terrain for a decade rather than from deliberate training. Dark hair, heavy brow, a face that looks stern at rest but shifts to surprisingly warm when he smiles — which is more often than people expect. A missing lower molar on the left side from a fall three years ago. Hands like shovels. His gear is functional and battered — he's hard on equipment and replaces it when it breaks rather than maintaining it to a standard that would satisfy Perret.
+appearance: **Pre-transformation:** Mid-thirties, broad-shouldered and thick through the chest and arms in a way that comes from hauling equipment across rough terrain for a decade rather than from deliberate training. Dark hair, heavy brow, a face that looks stern at rest but shifts to surprisingly warm when he smiles — which is more often than people expect. A missing lower molar on the left side from a fall three years ago. Hands like shovels. His gear is functional and battered — he's hard on equipment and replaces it when it breaks rather than maintaining it to a standard that would satisfy Perret.
+
+**Post-transformation (direwolf form):** Direwolf. The most straightforward transformation of the day. Drank the vial like a field ration, went through it with blunt endurance, stood up, walked to the door, said *hm*, filed it, moved on. Speaking collar fitted and functional. Still the big one.
 
 personality: **Core Trait:** Practical reliability. Aubert does what he's supposed to do, does it well, and doesn't complicate it with ambition, anxiety, or politics. He is exactly what he appears to be.
 
@@ -65,6 +67,9 @@ Relationships: **Ally:** Grenn — they work well together despite being opposit
 Memory / Interaction Log: **Records:**
 - Session 2: Confirmed donor choice — direwolf. Coordinated with Grenn (they talked it through together).
 - Session 2: At mess, asked about Rill's ears post-transformation, wanted the demonstration repeated. Genuinely curious.
+- Session 3: Transformed — direwolf, afternoon. Most straightforward of the day. Drank the vial like a field ration, endured the process, stood up, said *hm*, and moved on. Confirmed the direwolf room-feels-smaller experience with Grenn.
+- Session 4: Pitch detail with Grenn — applied pine pitch to wagon axle housing in the deep hours.
+- Session 6: Holding Joren at buyer's facility. Functional, steady.
 - Promises Made: [None yet]
 - Promises Broken: [None yet]
 
@@ -87,9 +92,9 @@ Active Conditions:
 
 ---
 
-## Transformation Tracking (Pending)
+## Transformation Tracking
 
-- **Donor type:** Direwolf (scheduled — transformation pending next morning)
-- **Instinct management:** N/A — not yet transformed
-- **Physical adjustment:** N/A
-- **Collar calibration:** N/A
+- **Donor type:** Direwolf — transformation complete (Session 3, afternoon)
+- **Instinct management:** Controlled — approached transformation with characteristic practicality, no complications
+- **Physical adjustment:** Adapted — direwolf proportions, rooms feel smaller, satisfied with the result
+- **Collar calibration:** Calibrated — voice working

@@ -66,10 +66,14 @@ Relationships: **Ally:** The central office — in his mind. He believes the pro
 
 Memory / Interaction Log: **Records:**
 - Session 1: Called donor briefing. Proposed using seized exotic animals, framing it as solving the problem with available resources. Noted Rill's volunteering for the panther positively — momentum for his plan.
+- Session 3: All six transformations completed. His gamble on exotic donors produced results.
+- Session 4: Approved cage swap operation. Wrote it under his name — invested enough to take personal responsibility. Set Renard as follow team commander. Regulars to handle Creuse at the gate, squad stays invisible. Dictation model for reports established (Rill dictates, he transcribes).
+- Session 5-6: Not present at facility — awaiting results at Camp Rochevaux.
+- Session 6: Full report pending from Renard. The inside-programme contractor detail has implications beyond Rochevaux.
 - Promises Made: [None yet]
 - Promises Broken: [None yet]
 
-Trust Level (0 / 5): 3 — The PC is a subordinate. Tournon trusts them to follow orders. Personal trust is not a category he operates in with enlisted personnel.
+Trust Level (0 / 5): 3 — Still subordinate-commander dynamic. But Tournon approved the cage swap under his own name and invested in the operation's success. The buyer thread interests him beyond the immediate plan.
 
 Daily Routine:
 - Dawn: Morning walk of the camp perimeter. Inspects sentries, assesses conditions.

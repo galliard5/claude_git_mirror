@@ -118,23 +118,35 @@ JANUARY  |  FEBRUARY  |  MARCH  |  APRIL  |  MAY  |  JUNE  |  JULY  |  AUGUST  |
 **World:** Cendrel / Kennel Hounds setting  
 **Start Date:** TBD — not yet assigned to Aethelmark timeline  
 **Location:** [[Camp_Rochevaux|Camp Rochevaux]] — eastern Cendrel frontier  
-**Character:** Rill Sunclaw (kobold scout, now panther-form)  
+**Character:** Rill Sunclaw (kobold scout, panther-form)  
 
-**Arc:** First unit-transformation trial. Frontier scout squad selected for programme’s first group transformation using seized exotic animals (wolves, direwolves, panther) as donors after HQ failed to deliver proper hounds.
+**Arc:** First unit-transformation trial using exotic donors. Squad fully transformed, buyer's private facility raided, supply chain partially exposed, second unknown site identified.
 
-**Sessions Complete:** 1–2 (partial extraction)
+**Sessions Complete:** 1–6 (full extraction through Session 6)
 
-**Key Threads:**
-- Rill Sunclaw panther transformation — complete (first non-canid in the programme)
-- Squad transformations pending — Renard/Duval (grey wolf), Grenn/Aubert/Perret (direwolf)
-- Halden Creuse — detained poacher, uncooperative about panther buyer
-- Panther buyer — unknown, sophisticated cross-border commission
-- Wild wolves south of camp — two individuals, background thread
-- Grenn’s clan — hasn’t informed them about the programme
+**Session Arc:**
+- Sessions 1-2: Donor briefing, Rill volunteers for panther, transformation complete
+- Session 3: Full squad transformation day — all six complete, no incidents
+- Session 4: Cage swap plan approved, Rill enters cage, collar off
+- Session 5: Rill rides to buyer's facility, blood draw survived, shed infiltrated, prisoner identified
+- Session 6: Squad takes facility, buyer contained, Lenne Souchard freed, supply chain exposed
+
+**Key Threads (Active):**
+- Shed evidence examination — transformation diagram may identify second unknown site
+- Sermont circled name — Duval riding, 5-day window to warn guild factor
+- Six crossed names — forced transformees without consent, whereabouts unknown
+- Second unknown programme site — contractor had inside programme knowledge
+- Full report to Tournon pending
+- Programme precedent — HQ still unaware of exotic donor transformations
+
+**Key Threads (Background):**
+- Wild wolves south of camp — two individuals, unconnected
+- Grenn's clan — hasn't informed them about the programme
+- Panther release — stable stall, 2-3 day window, eastern forest
 
 **Note:** This campaign exists in Cendrel setting. Include if/when timeline is coordinated with Aethelmark.
 
-**Status:** Mid-campaign, paused. Not yet placed on Aethelmark Master Timeline.
+**Status:** Mid-campaign, paused at end of Act 2. Act 3 (Aftermath & Investigation) pending.
 
 ---
 

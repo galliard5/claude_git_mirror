@@ -9,7 +9,9 @@ Mathis Renard
 
 Sergeant, Scout Squad Leader, Camp Rochevaux. The man who keeps six people alive on the frontier and intends to keep doing so regardless of what shape they're in.
 
-appearance: Late thirties, lean in the way frontier work makes people lean — no excess anywhere. Weather-darkened skin, close-cropped dark hair going grey at the temples earlier than it should. A long scar on his left forearm from a knife fight six years ago that he doesn't talk about. Moves with the economical precision of someone who's spent twenty years learning not to waste effort. Wears his scout gear like a second skin — everything where it should be, nothing loose, nothing that rattles.
+appearance: **Pre-transformation:** Late thirties, lean in the way frontier work makes people lean — no excess anywhere. Weather-darkened skin, close-cropped dark hair going grey at the temples earlier than it should. A long scar on his left forearm from a knife fight six years ago that he doesn't talk about. Moves with the economical precision of someone who's spent twenty years learning not to waste effort. Wears his scout gear like a second skin — everything where it should be, nothing loose, nothing that rattles.
+
+**Post-transformation (grey wolf form):** Broader than expected — wolf proportions suited to leading from the front. The contained, deliberate manner translated directly into the new form. Speaking collar fitted and functional. Moves with the same economical precision, now expressed through four legs rather than two.
 
 personality: **Core Trait:** Protective pragmatism. Renard's first calculation in any situation is what it costs his people. Everything else is secondary.
 
@@ -71,10 +73,14 @@ Memory / Interaction Log: **Records:**
 - Session 2: Walked beside Rill to the mess — not escorting, beside.
 - Session 2: Filed night vision and scent range for immediate operational use — ridge crossings, split patrols, forward scout without torch.
 - Session 2: Visited the grey wolf at the enclosure (per Rill's advice to sit with chosen donor, bring food). Content of visit unknown.
+- Session 3: Transformed — grey wolf. Contained, deliberate throughout. One hand-tighten mid-process. Came out broader — wolf proportions suited for leading from front. Immediately noted night vision and scent range have operational implications. Set group protocol at first mess: "something's wrong, you say it when it's happening."
+- Session 4: Reframed gear question: stop asking what we can still use, ask what we are now. Added scent trail (pine pitch on axle) to Rill's cage swap plan. Set as follow team commander by Tournon. "We don't lose you" — to Rill before the cage.
+- Session 5: Follow team on road behind facility. Positioned with Perret.
+- Session 6: Secured perimeter at facility. Found travel papers and the list on Gate Man. Came around front after Rill contained buyer. Handed Lenne the yard once she established jurisdiction. Wants full report to Tournon before anything else moves.
 - Promises Made: [None yet]
 - Promises Broken: [None yet]
 
-Trust Level (0 / 5): 4, holding — something warmer at the edges. Renard tracked Rill's reasoning, accepted the decision, waited during the transformation, came himself. Trust is operational plus the beginnings of personal respect.
+Trust Level (0 / 5): 4+, warmer at the edges. "We don't lose you" before the cage swap. Waited outside the shed during Rill's transformation. Set Rill at the centre of the squad's adjustment process. Trust is operational plus genuine personal investment in Rill's safety.
 
 Daily Routine:
 - Pre-dawn: Up before the squad. Checks equipment, reviews patrol assignments.
@@ -93,9 +99,9 @@ Active Conditions:
 
 ---
 
-## Transformation Tracking (Pending)
+## Transformation Tracking
 
-- **Donor type:** Grey wolf (scheduled — transformation pending next morning)
-- **Instinct management:** N/A — not yet transformed
-- **Physical adjustment:** N/A
-- **Collar calibration:** N/A
+- **Donor type:** Grey wolf — transformation complete (Session 3)
+- **Instinct management:** Controlled — Renard's discipline and self-possession transferred cleanly into the new form
+- **Physical adjustment:** Adapted — broader build, wolf proportions, immediate operational assessment of new capabilities
+- **Collar calibration:** Calibrated — voice working, first use was operational (setting group protocol)

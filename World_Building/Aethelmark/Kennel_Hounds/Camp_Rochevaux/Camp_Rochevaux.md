@@ -64,35 +64,55 @@ Current Situation
 
 The programme charter arrived three months ago, selecting Rochevaux's scout squad for the kingdom's first unit-transformation trial. The alchemist, Celine Daubray, arrived five weeks ago with materials for six transformations. Original donor shortage (HQ records listed eight hounds; actual count: two) resolved by Tournon's decision to use seized exotic animals as donors.
 
-Two weeks ago, the scout squad intercepted a poacher-smuggler named Halden Creuse moving caged exotic animals along a game trail. The seized animals — wolves, direwolves, and a black panther — were approved for use as transformation donors.
+**Transformation Status (as of Session 6 — ALL COMPLETE):**
+- **Rill Sunclaw (kobold):** Panther form. Collar fitted. First non-canid transformation in the programme.
+- **Duval:** Grey wolf form. Collar fitted. Tracking capability amplified.
+- **Renard:** Grey wolf form. Collar fitted. Broader build, immediate operational assessment.
+- **Grenn:** Direwolf form. Collar fitted. Large, low, ancient-looking.
+- **Aubert:** Direwolf form. Collar fitted. Most straightforward transformation.
+- **Perret:** Direwolf form. Collar fitted. Still settling into the form.
 
-**Transformation Status (as of Session 2):**
-- **Rill Sunclaw (kobold):** Transformed — panther donor. Collar fitted, voice confirmed. First programme panther transformation.
-- **Duval:** Grey wolf — scheduled next morning.
-- **Renard:** Grey wolf — scheduled next morning.
-- **Grenn:** Direwolf — scheduled next morning.
-- **Aubert:** Direwolf — scheduled next morning.
-- **Perret:** Direwolf — scheduled next morning.
+All six transformations completed without incident by Daubray in a single day (Session 3). Programme's first successful unit-transformation using non-standard donors. HQ has not yet been informed.
 
-Daubray has five transformations remaining. The investigation into Creuse's buyer has not progressed — Creuse remains uncooperative in the cellar.
+**Panther Donor:** Moved from enclosure to stable back stall with Aldric (Session 4). Release into eastern forest north of the road planned when squad signals destination confirmed — 2-3 day window.
+
+**Halden Creuse:** Released from cellar, departed with cage at dawn (Session 4-5). Delivered cage to buyer's facility. Current location unknown.
+
+**Buyer's Facility Operation:** Squad conducted cage swap and infiltration operation (Sessions 4-6). Facility half a day east — private transformation infrastructure. Buyer and alchemist contained. Prisoner (Lenne Souchard, magistrate's aide) freed. See [[Buyers_Facility]] for details.
+
+**Active Operational Threads:**
+- Duval riding for Sermont — 5-day window to warn circled name on the list
+- Full report to Tournon pending from Renard
+- Shed evidence at buyer's facility not yet examined (transformation diagram may identify second site)
+- Buyer and alchemist awaiting transport to Varel under magistrate's jurisdiction
 
 ---
 
 Key Personnel
 -------------
 
-- **Captain Gervais Tournon** — Camp commander. Career frontier officer, opportunistic about the programme.
-- **Celine Daubray** — Programme alchemist. First solo assignment. Competent but untested with non-standard donors.
-- **Sergeant Mathis Renard** — Scout squad leader. Protective of squad cohesion. Grey wolf donor (pending).
-- **Rill Sunclaw** — PC. Kobold scout, now in panther form. First non-canid transformation in the programme.
-- **Duval** — Scout, tracker. Grey wolf donor (pending).
-- **Grenn** — Scout, kobold, close-terrain specialist. Direwolf donor (pending).
-- **Aubert** — Scout, heavy. Direwolf donor (pending).
-- **Perret** — Scout, youngest. Direwolf donor (pending).
-- **Halden Creuse** — Detained poacher-smuggler. Uncooperative. Afraid of his buyer.
+**Camp Staff:**
+- **Captain Gervais Tournon** — Camp commander. Approved the cage swap operation under his own name.
+- **Celine Daubray** — Programme alchemist. Completed six transformations. Exhausted.
 - **Tessier** — Quartermaster. Runs supply logistics.
 - **Fabron** — Mill owner in Les Granges, de facto settlement leader.
 
+**Scout Squad (All Transformed):**
+- **Rill Sunclaw** — PC. Panther form. First non-canid in the programme. Led facility infiltration.
+- **Sergeant Mathis Renard** — Grey wolf form. Squad leader. Follow team commander on facility op.
+- **Duval** — Grey wolf form. Tracker. Currently riding for Sermont.
+- **Grenn** — Direwolf form. Kobold, close-terrain specialist. Holding shed at buyer's facility.
+- **Aubert** — Direwolf form. Heavy. Holding Joren at buyer's facility.
+- **Perret** — Direwolf form. Youngest. Held alchemist at buyer's facility.
+
+**Connected NPCs (Off-Site):**
+- **Halden Creuse** — Former prisoner. Departed with cage. Current location unknown.
+- **Lenne Souchard** — Inspector's aide, magistrate's office, Varel. Freed from buyer's facility.
+- **The Buyer** — Unnamed. Contained at his facility. Awaiting transport to Varel.
+- **Gregor** — Alchemist at buyer's facility. Contained. Cooperating minimally.
+- **Joren** — Keeper at buyer's facility. Cooperative.
+- **Gate Man** — Armed guard at buyer's facility. Cooperative. Carried the list.
+
 Setting: Eastern Cendrel frontier
 Programme Type: Military Outpost Pilot (3-5 sapient hounds per charter; 6 approved for unit trial)
-Current Date: [In-game date — update at end of each session]
+Current Date: Transformation day +2 (end of Session 6)

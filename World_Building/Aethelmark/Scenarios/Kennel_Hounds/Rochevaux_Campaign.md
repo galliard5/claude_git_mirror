@@ -1,7 +1,7 @@
 ---
 name: Rochevaux Campaign
-keywords: [scenario, campaign, frontier, military, outpost, scouts, kennel-hounds, transformation, wolves, direwolves]
-description: A coherent frontier scout squad selected for the programme's first unit-transformation trial faces a donor shortage, seized exotic animals, and a missing buyer
+keywords: [scenario, campaign, frontier, military, outpost, scouts, kennel-hounds, transformation, wolves, direwolves, panther, facility, supply-chain, investigation]
+description: First unit-transformation trial using exotic donors — squad fully transformed, buyer's private transformation facility raided, supply chain partially exposed, second unknown site identified
 ---
 
 # Rochevaux Campaign
@@ -13,14 +13,65 @@ description: A coherent frontier scout squad selected for the programme's first 
 
 ---
 
-## Campaign Status (Partial Extraction)
+## Campaign Status (Full Extraction — Sessions 1-6)
 
-**Sessions Complete:** 1-2
-**Status:** Mid-campaign, paused. Act 1 resolved into Act 2.
-**PC:** Rill Sunclaw, kobold scout, now in panther form (transformed Session 2).
-**Current Position:** Rill transformed. Five squad transformations scheduled next morning. Creuse investigation stalled. Buyer thread open.
+**Sessions Complete:** 1-6
+**Status:** Mid-campaign, paused at end of Act 2. Act 3 (Aftermath & Investigation) pending.
+**PC:** Rill Sunclaw, kobold scout, panther form (transformed Session 2).
+**Current Position:** All six squad members transformed. Buyer's facility raided and secured. Buyer and alchemist contained, awaiting transport to Varel. Lenne Souchard (magistrate's aide) freed. Shed evidence pending examination. Duval riding for Sermont to warn circled name (5-day window). Full report to Tournon pending.
 **Donor Allocation (Final):** Rill = panther, Duval = grey wolf, Renard = grey wolf, Grenn = direwolf, Aubert = direwolf, Perret = direwolf.
-**Extraction Date:** 23 March 2026 (partial — scenario not concluded)
+**Extraction Date:** 25 March 2026 (full extraction through Session 6)
+
+---
+
+## Session Arc Summary
+
+| Session | Key Events |
+|---|---|
+| 1 | Donor briefing. Rill volunteers for panther. First contact with panther established. Squad donor choices begin. |
+| 2 | Sample extraction. Rill's panther transformation complete. First words: "That was very weird." Squad finalises donor choices. |
+| 3 | Squad transformation day — all five complete (Duval, Renard, Grenn, Aubert, Perret). First assembly as transformed unit. |
+| 4 | Cage swap plan proposed and approved. Daubray cuts Rill's ear. Rill enters cage. Panther to stable. Collar passed to Grenn. |
+| 5 | Rill rides out in cage. Arrives at buyer's facility. Blood draw survived. Shed infiltrated. Prisoner identified. |
+| 6 | Squad takes facility. Buyer headbutted and contained. Lenne Souchard freed. Supply chain partially exposed. Second site implied. |
+
+## Characters Met (Sessions 1-6)
+
+**New NPCs Introduced:**
+- [[The_Buyer|The Buyer]] — Unnamed facility owner, commissioned panther, contained
+- [[Gregor]] — Contracted alchemist at facility, cooperating minimally
+- [[Joren]] — On-site keeper, decades of animal work, cooperative
+- [[Gate_Man|Gate Man]] — Armed guard, carried travel papers and the list
+- [[Lenne_Souchard|Lenne Souchard]] — Inspector's aide, magistrate's office, Varel
+
+**Existing NPCs Updated:**
+- All squad members (Rill, Renard, Duval, Grenn, Aubert, Perret) — transformed
+- [[Celine_Daubray|Daubray]] — completed six transformations, ear notch, panther transfer
+- [[Gervais_Tournon|Tournon]] — approved cage swap under his name
+- [[Halden_Creuse|Creuse]] — departed camp, delivered cage, current location unknown
+
+## Locations Discovered (Sessions 1-6)
+
+- [[Buyers_Facility|Buyer's Facility]] — Isolated private transformation infrastructure, half day east of camp
+
+## Outcome (Through Session 6)
+
+**Resolved:**
+- Squad transformation: Complete — all six, no incidents, non-standard donors
+- Buyer located and contained
+- Prisoner (Lenne Souchard) freed
+- Supply chain partially exposed (list of 7 names, travel papers)
+
+**Unresolved — Threads for Continuation:**
+- Shed evidence examination (transformation diagram → second site)
+- Sermont circled name (Duval riding, 5-day window)
+- Six crossed names — forced transformees, whereabouts unknown
+- Second unknown programme site (contractor had inside knowledge)
+- Full report to Tournon (inside-programme contractor detail)
+- Programme precedent — HQ still unaware of exotic donor use
+- Panther release (stable stall, 2-3 day window)
+- Wild wolves south of camp (background, unconnected)
+- Grenn's clan (hasn't written)
 
 ---
 

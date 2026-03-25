@@ -9,7 +9,9 @@ Grenn
 
 Scout, Close-Terrain Specialist, Camp Rochevaux. A kobold who's been on the surface long enough that the squad stopped noticing, and who carries the weight of what the programme means for his people more carefully than he lets on.
 
-appearance: Kobold, compact and solid for his kind. Dark bronze scales with a matte finish — frontier weathering has scoured the sheen off. Short, broad snout, amber eyes that catch torchlight. Moves with a low centre of gravity and an economy of motion that makes him nearly silent in undergrowth and tunnel alike. His tail is slightly crooked near the tip — an old break that healed without setting. Wears his scout gear modified for his frame, well-fitted after years of adjustment. A small carved-stone pendant under his shirt that he doesn't discuss.
+appearance: **Pre-transformation:** Kobold, compact and solid for his kind. Dark bronze scales with a matte finish — frontier weathering has scoured the sheen off. Short, broad snout, amber eyes that catch torchlight. Moves with a low centre of gravity and an economy of motion that makes him nearly silent in undergrowth and tunnel alike. His tail is slightly crooked near the tip — an old break that healed without setting. Wears his scout gear modified for his frame, well-fitted after years of adjustment. A small carved-stone pendant under his shirt that he doesn't discuss.
+
+**Post-transformation (direwolf form):** Large, low, ancient-looking. The direwolf proportions make rooms feel smaller around him. Speaking collar fitted and functional. The pendant is gone — or at least no longer visible. The carved-stone weight of it may still be somewhere on his person or in his kit. The warren word for knowing where your people are without looking means something different now.
 
 personality: **Core Trait:** Practical self-containment. Grenn manages himself, his feelings, and his responsibilities without asking for help and without performing his competence. He just does the work.
 
@@ -69,10 +71,14 @@ Memory / Interaction Log: **Records:**
 - Session 2: At mess post-transformation. Connected Rill's scent-tracking ability to a warren concept — a word for knowing where your people are without looking. Said he didn't think it applied to anything outside the warren. Visibly moved, quietly.
 - Session 2: Asked what the panther smelled like. Connected it to the pendant and the clan question he hasn't resolved.
 - Clan status: Has not written to his clan about the programme. Not yet ready.
+- Session 3: Transformed — direwolf, midday. Hit a resistance wall mid-process — holding back against the instinct wave. Rill told him to stop resisting, receive it instead. He let go. Came out large, low, ancient-looking. Afterward: said he understood the warren word for knowing where your people are without looking differently now.
+- Session 4: Pitch detail with Aubert — applied pine pitch to wagon axle housing in the deep hours.
+- Session 4-5: Received Rill's collar at the bars before dawn (Creuse asleep). Carried collar with follow team.
+- Session 6: Holding the shed door at buyer's facility. Nobody goes in. Planted.
 - Promises Made: [None yet]
 - Promises Broken: [None yet]
 
-Trust Level (0 / 5): 4, with genuine movement toward openness — the warren word exchange was the most personal thing Grenn has shared with the squad. Something real surfaced.
+Trust Level (0 / 5): 4, genuine openness. The warren word exchange deepened through transformation — he understands it differently now. Received Rill's collar from the road without incident. Holding the shed with visible commitment.
 
 Daily Routine:
 - Pre-dawn: Awake and alert — kobold circadian rhythm runs earlier than humans.
@@ -92,9 +98,9 @@ Active Conditions:
 
 ---
 
-## Transformation Tracking (Pending)
+## Transformation Tracking
 
-- **Donor type:** Direwolf (scheduled — transformation pending next morning)
-- **Instinct management:** N/A — not yet transformed
-- **Physical adjustment:** N/A
-- **Collar calibration:** N/A
+- **Donor type:** Direwolf — transformation complete (Session 3, midday)
+- **Instinct management:** Initially resisted — Rill talked him through releasing the instinct wave. Now controlled.
+- **Physical adjustment:** Adapted — large, low, ancient-looking. Rooms feel smaller. The form suits something in him.
+- **Collar calibration:** Calibrated — voice working
