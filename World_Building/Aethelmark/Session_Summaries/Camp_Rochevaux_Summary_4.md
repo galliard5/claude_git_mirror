@@ -60,17 +60,17 @@ The full squad is transformed. Over evening mess the squad worked through what t
 
 ## Major NPCs
 
-| NPC | Status | Notes |
-|---|---|---|
-| Renard | Follow team commander. Grey wolf. | Steady, warm at the edges. *We don't lose you.* Trust 4+. |
-| Daubray | Procedure complete. Panther in stable. | Professional rapport solid. She'll be woken if something goes wrong. Trust 4. |
-| Tournon | Operation approved. Written under his name. | Invested. The buyer thread interests him beyond the immediate plan. Trust 3. |
-| Duval | Forward position, eastern road, before first light. | Grey wolf. Tracking capability now baseline. |
-| Grenn | Pitch detail with Aubert. | Direwolf. Something shifted for him — warren word resonance. |
-| Aubert | Pitch detail with Grenn. | Direwolf. Satisfied. Practical. |
-| Perret | With Renard in follow team. | Direwolf. Settling into honesty rather than performance. |
-| Creuse | Asleep in the cellar. | Doesn't know anything has changed. |
-| The panther | Stable back stall. | Daubray moved her — calm transfer. |
+| NPC         | Status                                              | Notes                                                                                   |
+| ----------- | --------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Renard      | Follow team commander. Grey wolf.                   | Steady, warm at the edges. *We don't lose you.* Trust 4+.                               |
+| Daubray     | Procedure complete. Panther in stable.              | Professional rapport solid. She'll be woken if something goes wrong. Trust 4.           |
+| Tournon     | Operation approved. Written under his name.         | Invested. The buyer thread interests him beyond the immediate plan. Trust 3.            |
+| Duval       | Forward position, eastern road, before first light. | Grey wolf. Tracking capability now baseline.                                            |
+| Grenn       | Pitch detail with Aubert.                           | Direwolf. Something shifted for him — warren word resonance.                            |
+| Aubert      | Pitch detail with Grenn.                            | Direwolf. Satisfied. Practical.                                                         |
+| Perret      | With Renard in follow team.                         | Direwolf. Settling into honesty rather than performance.                                |
+| Creuse      | Asleep in the cellar.                               | Doesn't know anything has changed. he is taking the panther to a collector for breeding |
+| The panther | Stable back stall.                                  | Daubray moved her — calm transfer.                                                      |
 
 ---
 

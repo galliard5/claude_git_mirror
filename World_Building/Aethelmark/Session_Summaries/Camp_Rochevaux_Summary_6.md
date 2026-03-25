@@ -1,66 +1,77 @@
 ---
 name: Camp Rochevaux Session 6 Checkpoint
-keywords: [session, checkpoint, camp-rochevaux, kennel-hounds, rill-sunclaw, infiltration, facility, badger, ocelot, signals]
-description: Sixth session checkpoint — first full day at the facility, handler assessment passed, communication channel established with badger and ocelot, afternoon observation from cover
+keywords: [session, checkpoint, camp-rochevaux, kennel-hounds, rill-sunclaw, facility-raid, buyer-captured, lenne-souchard, supply-chain]
+description: Sixth session checkpoint — facility secured, buyer and alchemist contained, prisoner Lenne Souchard (magistrate's aide) freed, supply chain operation partially exposed, second unknown site identified
 ---
 
 # Camp Rochevaux — Session 6 Checkpoint
 
 **Campaign:** Camp Rochevaux — Kennel Hounds Military Outpost Pilot
 **Session:** 6
-**In-Game Date:** Day two at destination facility — afternoon
-**Location:** Destination facility, eastern Cendrel — one day northeast of Camp Rochevaux on the eastern road branch
-**PC:** Rill Sunclaw, kobold scout, panther form. Collar removed before swap — understands everything, cannot speak.
+**In-Game Date:** Transformation day +2 — mid-afternoon
+**Location:** Buyer's facility — front yard, facility secured
+**PC:** Rill Sunclaw, kobold scout, panther form. Own collar refitted, voice restored. Non-standard collar secured as evidence.
 
 ---
 
 ## Summary
 
-First full day at the facility. Handler assessment passed — Rill ate from a pocket-sourced strip (not the trough), showed a settling pattern the handler read as a transport animal adjusting. The badger and ocelot established a communication channel built on tapped/tail-swept rhythms. Rill has been mirroring patterns back but has not yet decoded meaning — the channel is open, the language is still ahead. The afternoon was spent in a feigned nap against the partition wall, all three pressed to the same timber, running passive intelligence on the facility through scent and sound.
+Rill ran two days of deep recon inside the facility — blood draw survived, alchemist's shed infiltrated, non-standard collar retrieved, prisoner in the second structure identified by voice. Squad arrived at the treeline on day two, mid-afternoon, exactly as the alchemist began his binding setup. Rill drew all facility personnel to the front yard using the kenneled dogs as cover. Squad took the rear clean. Rill headbutted the buyer into the dirt in the front yard and held him down while Renard secured the perimeter. Facility taken without injury. Prisoner freed. Own collar refitted. The operation is done — the evidence is not yet read.
 
 ---
 
-## Key Events
+## What Happened
 
-1. Handler morning assessment — Rill found on the high beam, ate a pocket-sourced venison strip (lighter compound signature than trough), stepped back from the trough, held the beam. Handler noted "eight days in a camp and you're up there" and "there you are" — reading a stressed transport animal that was cautiously settling. Filed it as progress.
-2. Badger established counting rhythm through the partition gap — claw taps, deliberate spacing, building toward a signal system. Ocelot translated the base units, coaching Rill silently with jaw movements and pointing.
-3. Ocelot pointed at herself, then the badger, then Rill. Three of them. A group, or a shared situation, or both.
-4. Badger put forepaw against the timber near Rill's flank. Not pressing. Present.
-5. Rill settled against the partition wall beside the ocelot — parallel posture, backs to the same wall.
-6. Afternoon: Rill feigned nap, ran passive observation — scent mapping, sound mapping — while the handler worked inside.
-
-**Note on the communication channel:** Rill has been mirroring patterns back without decoding meaning. The channel is established and the badger believes contact has been made. What the signals actually mean has not yet been worked out — this is the next layer.
-
----
-
-## Character State
-
-- **Form:** Panther, permanent. Collar removed — with squad. Cannot speak. Understands everything.
-- **Physical:** Rested (partial). Hungry — one pocket-sourced strip of venison, no trough feed. Left ear: minor injury, managed.
-- **Compound exposure:** Trace only — ambient enclosure air, edge-of-pour piece. Not a full feed. Nothing felt yet. The badger carries it in his coat from long-term residence; the hounds show behavioral modification from sustained exposure.
-- **Cover status:** Holding. Handler reads a stressed transport animal cautiously settling. The beam behaviour was a slight tell — noted, filed, not alarmed.
-- **Sensory calibration:** Complete.
+- Blood draw executed by alchemist day one — Rill held resting register throughout, gave one warning growl when he entered the cage, snapped to attention when the latch opened. Alchemist noted the ear compensation as consistent. Drew one clean sample.
+- Night one: shed infiltrated, non-standard collar retrieved and staged in cage. Second structure identified — person inside, four days in, southern city accent. Heard through the door: *fourth day, not coming.* Listened until alchemist revealed transformation was planned: *at least it's a hound.*
+- Alchemist confirmed four cylinders in shed (not three), spoke of a six-day window, agreed to one more draw maximum. Buyer overheard through wall: *this afternoon.*
+- Squad scent confirmed in treeline forty minutes before alchemist began binding setup. Rill moved the dogs — walked to the kennel front, sat down in view, four dogs lost their minds. Buyer and Joren drawn to front yard. Rear cleared.
+- Squad took rear: alchemist contained at shed wall (Perret), second structure opened, prisoner freed.
+- Rill headbutted buyer in front yard, held him down with one paw and a growl. Duval planted between gate man and buyer. Renard came around front and secured perimeter. Gate man sheathed blade. Joren sat down.
+- Own collar refitted. Non-standard collar set aside as evidence, Grenn holding the shed.
+- Prisoner identified as Lenne Souchard, inspector's aide, regional magistrate's office, Varel. Was following a procurement chain — unlicensed transformation materials, unregistered donors, transport records not matching any programme site. Found the end of the chain; it found her first.
+- Evidence in front yard: travel papers, four sets. A list — seven names, six crossed off, one circled. The circled name is a guild factor in Sermont — Lenne's read: not a disappearance target, a commissioned transformation. Someone wanted a specific person as a specific form.
+- Buyer broke on one detail: the contractor specified a panther and a speaking collar. Someone inside the programme. Rill's counter: the panther was never reported as a potential donor — the decision was internal, days after the seizure report. So either the contractor knew about the panther before Rochevaux did, or there's a second site with exotic donors that also hasn't been reported.
+- Alchemist stated he was contracted for process only, believed subjects were volunteers, received payment via unmarked treasury bar, never verified. Acknowledged he was wrong not to.
+- Lenne took command: buyer and alchemist to be transported to Varel separately. Duval to ride for Sermont — warn the circled name before the six-day window closes. Rider to Varel — magistrate's office, Lenne is alive, she has the end of the chain.
+- Session ended with Rill noting the shed evidence may point at the second site.
 
 ---
 
-## Passive Intelligence Gathered (Afternoon Observation)
+## Decisions & Consequences
 
-**Scent map:**
-- Second structure behind main building: multiple animals, species not yet fully identified, some overlap with enclosure animals (same compound signature), at least one large individual — heavier musk, different from wolves, not feline
-- Main building: alchemical workspace confirmed — rendered fat, mineral compounds, precision instruments, woodsmoke from a hearth, food stores (same venison curing as the strips), parchment and ink
-- Compound in feed: mineral carrier base, complex organic component, same chemistry family as transformation potion but slower, more patient — has been in the trough for a long time, worked into the wood grain itself
-- Handler: mid-fifties human, carries compound signature in hands from long-term contact, food residue consistent with cooking for himself alone — likely working alone or near-alone
+**Decision:** Used the kenneled dogs as cover to draw facility personnel to the front yard rather than a direct signal to the squad.
+**Consequence:** Rear taken clean, alchemist separated from second structure mid-setup, no alarm raised. Zero injuries on both sides.
 
-**Sound map:**
-- Handler movement: chair, glass on wood, occasional footsteps — working at a bench, not preparing to go out
-- Second structure: animal sounds, low and periodic — not distress, routine; at least three distinct individuals; one sound that was almost but not quite a hound
-- No other human voices detected all day — consistent with isolated single-operator facility
-- Wild sounds beyond the treeline: birds, wind, nothing that suggests settlement proximity
+**Decision:** Headbutted the buyer rather than holding position or signalling the squad directly.
+**Consequence:** Buyer physically contained and composure broken before Renard arrived. Accelerated yard control. Buyer subsequently broke on the contractor detail.
 
-**Hound observation:**
-- Three hounds, synchronized breathing, long-kennelled — behavioral modification from compound exposure is the most visible data point for what sustained feeding does
-- They wait. That's the primary behavioral change — they wait with a patience that isn't natural, that has been built in over time
-- Otherwise physically sound, well-fed, coats in good condition
+**Decision:** Handed operational authority to Lenne once the yard was secured.
+**Consequence:** Clean jurisdictional handoff — magistrate's office owns the prosecution chain. Rochevaux's involvement stays military-operational, not investigative overreach.
+
+---
+
+## NPC States
+
+| NPC | What Happened | Current Attitude / Status |
+|---|---|---|
+| The Buyer | Headbutted into the dirt, held down, composure broken. Revealed contractor had inside programme knowledge. Stopped speaking after that. | Contained, front yard. Awaiting transport to Varel. Calculating how much silence costs him. |
+| The Alchemist (Gregor) | Contained at shed wall by Perret. Stated he believed subjects were volunteers. Acknowledged he was wrong. | Cooperating minimally. Separate transport to Varel. Aware his position is worse than he thought. |
+| Joren | Sat down when Renard told him to. Made no move. | Sitting against kennel enclosure. Not in trouble unless he makes himself in trouble. |
+| Gate Man | Hand on blade, then sheathed when two grey wolves and three direwolves arrived in the yard. | Sitting beside Joren. |
+| Lenne Souchard | Freed from second structure. Five days in, controlled, not broken. Magistrate's aide from Varel following the procurement chain. Took command of the situation cleanly once the yard was secured. | Alert, operational, exhausted underneath. Eyes on the shed evidence. |
+| Duval | Held the front gate during yard control. Volunteered to ride for Sermont. | Ready to ride. Five days on the clock for the circled name. |
+| Renard | Secured perimeter, found travel papers and the list on the gate man, handed Lenne the yard once she established jurisdiction. | Solid. Wants the full report to Tournon before anything else moves. |
+| Grenn | Received Rill's collar from the road, holding the shed door. | Planted in front of the shed. Nobody goes in. |
+| Aubert / Perret | Aubert holding Joren. Perret held the alchemist at shed wall. | Functional, steady. |
+
+---
+
+## Player Character Status
+
+**Active Conditions:** Left ear healing (minor)
+**Injuries or Permanent Changes:** Panther form (permanent). Own collar refitted, voice restored.
+**Inventory Changes:** Non-standard collar set down as evidence — not Rill's to keep. Own collar back on throat.
 
 ---
 
@@ -68,47 +79,39 @@ First full day at the facility. Handler assessment passed — Rill ate from a po
 
 | Thread | Status | Notes |
 |---|---|---|
-| Communication channel — badger | ACTIVE | Channel established through rhythm mirroring. Rill has not decoded meaning yet — mirroring only. Next step: work out what the patterns actually mean. The badger believes contact is made. |
-| The ocelot | ACTIVE | Young, transformed, speaking collar. Has been translating between Rill and the badger. Pointed at all three of them. Watching Rill closely. |
-| The compound in the feed | ACTIVE | Trace exposure only so far. Decision each morning: eat from trough or hold out. Holding out reads as stress (plausible) but hunger accumulates. |
-| The second structure | ACTIVE — PRIORITY | Multiple animals, at least one large unknown individual, same compound signature. Unexplored. Handler visits morning and presumably other times. |
-| Handler assessment | ONGOING | Morning passed. He's watching the settling pattern. Next visit will test cover further. |
-| Squad follow team | UNKNOWN | Duval forward on the eastern road. Renard behind with Perret. Aubert and Grenn ran pitch detail on axle. No signal yet — expected. Assume at least one more day, possibly two. |
-| The actual panther | HOLDING | Stable back stall at Rochevaux with Aldric. Release window: 1 day remaining or already released into eastern forest. |
-| Buyer identity | ACTIVE | Facility is the answer Creuse wouldn't give. What it's for is still emerging. |
-| Wild wolves south of camp | BACKGROUND | Not connected to this thread. |
-| Grenn's clan | BACKGROUND | Not urgent. |
+| Shed evidence examination | IMMEDIATE NEXT | Four cylinders, non-standard collar, transformation diagram with second-hand annotations. May identify the second site. Nobody goes in until Tournon's people arrive — but Lenne and Rill both know the diagram is the key. |
+| Second unknown programme site | ACTIVE — URGENT | Contractor had inside knowledge predating any filed report from Rochevaux. Either knew about the panther before Rochevaux did, or there's a second exotic-donor site operating unreported. Six crossed names already. |
+| Sermont — circled name | ACTIVE — TICKING | Duval riding. Five days on the six-day window. Guild factor, Sermont. Not yet warned. |
+| Lenne Souchard — transport | PENDING | Needs to reach Varel. Rider already being arranged. She should travel with the evidence, not ahead of it. |
+| Buyer / Alchemist — transport | PENDING | Separate transports to Varel. Buyer hasn't given up the contractor. Alchemist may talk further if offered something. |
+| Tournon — full report | PENDING | Renard flagged this: not a rider, a full report. Includes the inside-programme contractor detail. Has implications beyond Rochevaux. |
+| Six crossed names | OPEN | Six people already transformed without consent, no collars on three of them, no legal standing. Whereabouts unknown. Lenne's investigation thread — but someone has to find them. |
+| Wild wolves south of camp | BACKGROUND | Two individuals heard at dusk, multiple sessions. Not connected. |
+| Grenn's clan | BACKGROUND | Hasn't written. Not urgent. |
+| Programme precedent — exotic donors | BACKGROUND | HQ still unaware. Six non-standard transformations at Rochevaux complete. This operation adds a different layer — private programme use. |
 
 ---
 
-## NPC States
+## Resolved This Session
 
-| NPC | Status | Notes |
-|---|---|---|
-| The handler | Main building, working. | Professional, observant, experienced. Morning assessment: cautious settling, noted beam, noted the step back from the trough. Not alarmed. Next visit unknown — likely evening feed. |
-| The badger | Rear left partition, near gap. Forepaw against timber. | Old, clear-eyed, long-term resident. Built counting system alone over time. Believes contact made. Has been trying to establish this channel for a long time, possibly. |
-| The ocelot | Against partition wall, parallel to Rill. | Young, transformed, speaking collar. Translated between Rill and badger. Pointed at all three. Now settled, watching, waiting. |
-| Three hounds | Front of partition, synchronized. | Behaviorally modified. Long-kennelled. Patient in the unnatural way. |
-| Renard | Somewhere on eastern road. | Follow team commander. Does not know destination yet. |
-| Duval | Forward position, tracking. | Grey wolf. Has the pitch trail. |
-| Tournon | Camp Rochevaux. | Waiting for signal. Invested in the buyer thread. |
+| Thread | Outcome |
+|---|---|
+| Facility infiltration | Complete — two days of recon, squad arrived in time, facility taken without injury |
+| Prisoner in second structure | Freed — Lenne Souchard, alive, coherent, operational |
+| Buyer contained | Yes — front yard, awaiting transport |
+| Alchemist contained | Yes — shed wall, cooperating minimally |
+| Blood draw (second) | Did not occur — operation moved before alchemist began binding |
+| Non-standard collar | Secured as evidence, Grenn holding shed |
 
 ---
 
-## GM Notes
+## In-Game Time & Date
 
-**The communication channel:** Rill has been mirroring without decoding. The badger thinks he's talking to someone who understands the beginning of his system. He's wrong, but not entirely — the mirroring shows Rill can receive and return signal accurately. The next layer is meaning. The ocelot is the bridge — she can speak, she knows the badger's system, but she hasn't spoken yet because the handler could return at any moment. When she does, it will need to be fast and quiet and in a window the handler won't interrupt. That scene is coming.
-
-**The compound:** One more day of trace exposure changes nothing. Three days of trough feeding might. The hunger question is going to get harder as the cover of "stressed transport animal not eating" becomes less plausible with each passing day. The handler is watching the settling pattern — eating from his pocket strip read as progress. Not eating from the trough is still within the range of a cautious animal. That window is not permanent.
-
-**The second structure:** This is the priority intelligence target. The handler went in with a clay bowl and a cloth. At least three animals, one large unknown. The compound signature is present there too. Whatever the facility is doing, the second structure is where the longer-term results are kept.
-
-**Handler working alone:** Consistent with what's been observed so far. Isolated facility, no other human voices, food stores for one. Either he works alone entirely or resupply/visitor contact is infrequent. Either way, Rill has relative freedom of observation when the handler is in the main building — the question is what can be seen from inside the enclosure.
-
-**Squad ETA:** Duval is forward with the pitch trail. Rochevaux to this facility is one day — the squad left after Creuse departed, which means they're somewhere on the eastern road branch. Realistically: tonight at the earliest for Duval to locate the facility, tomorrow morning for the follow team to assess approach. Rill should plan for at least one more full day alone.
+**Current Date:** Transformation day +2
+**Time of Day at Checkpoint:** Mid-afternoon
 
 ---
 
 ## Next Session Hook
 
-Evening brings the handler's second visit — feeding time, another assessment of the settling pattern. The trough will be refilled. The hunger is real and getting more real. The badger is waiting near the gap. The ocelot is watching. The second structure made sounds all afternoon that haven't been explained yet.
+The shed is sealed and waiting. The transformation diagram with its second-hand annotations is the most likely thread to the unknown site — and Lenne and Rill both know it. The evidence examination is next, the full report to Tournon follows, and somewhere in a shed that nobody from Rochevaux has properly read yet, there may be a name.

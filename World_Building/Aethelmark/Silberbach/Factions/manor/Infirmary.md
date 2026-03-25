@@ -57,6 +57,11 @@ Verification requirements before proceeding:
 
 Patients who complete this procedure are transitioned into the estate's animal care program. They are treated with the same dignity and quality of care as any resident.
 
+**Surgical Body Modification & Gender Affirming Procedures**
+Permanent anatomical alterations including castration, penectomy, clitorectomy, hysterectomy, gender nullification, and urethral rerouting. These procedures cannot be performed via transformation potion — potions operate on a species-template model and cannot selectively modify or remove anatomy within a single form. Surgical precision is required.
+
+*Consent & verification:* All procedures in this category are permanent and irreversible. A minimum of one full consultation is required prior to scheduling. Written consent must be signed in the presence of Dr. Korr and witnessed by Isalia or Lyra. If Dr. Korr has any concern about the patient's state of mind or the presence of external pressure, the procedure is postponed pending a second consultation — not denied outright.
+
 ---
 
 ## Active Conditions
