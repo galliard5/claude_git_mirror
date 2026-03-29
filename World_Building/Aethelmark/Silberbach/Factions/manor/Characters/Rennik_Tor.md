@@ -79,12 +79,12 @@ Daily Routine: Usually near storage buildings or supply yards:
 - updating supply lists
 - coordinating transport
 
-Current Date: [In-game date — update at the end of each session]
+Current Date: 20 April 1650
 
 Permanent Injuries & Alterations:
 - None recorded.
 
 Active Conditions:
-- **New receiving policy (19 April 1650):** Full count on delivery, every time. Deliverer countersigns the count. Gate staff matched to delivery type (bulk/ale: gate guard; herbs/specialty: Alric's people; hay/feed/tack: Sable/stablehand). Receiving sheet posted in gate house. Isalia present for first delivery of each supplier.
-- **Barrel investigation active:** Three-month pattern documented (1 short, 2 short, 3 short, then clean last month). Mira pulling six-month logs. First test of new policy: Brewers Guild / Aldric, Thursday.
-- **Current Date:** 19 April 1650
+- **Receiving policy established (19 April 1650):** Full count on delivery, every time. Deliverer countersigns. Gate staff matched to delivery type. Receiving sheet in gate house. Isalia present for first delivery of each supplier.
+- **Aldric delivery — first test (20 April 1650):** Clean. Three barrels, weights correct, manifest matching. Aldric cooperative and prepared — *ready, not worried.* Notebook has first policy entry. Pattern documented (two older discrepancies at 14 and 19 months, three-month escalation) but not escalated externally. Monitored.
+- **Next delivery: Farmers Guild, Mittwoch.** Isalia to be present.

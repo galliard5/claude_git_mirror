@@ -80,10 +80,14 @@ Daily Routine: Usually moving somewhere on the estate or nearby roads:
 - Trading information with travelers
 She rarely stays in one place for long.
 
-Current Date: [In-game date — update at the end of each session]
+Current Date: 20 April 1650
 
 Permanent Injuries & Alterations:
 - None recorded.
 
 Active Conditions:
-- None currently.
+- **Haan correspondence watch (20 April 1650):** Dietrich Haan, Mecklau facilitation operator, letter expected within fortnight (~4 May). Flagged on board above desk. All correspondence from Haan or Haan-adjacent parties goes directly to Isalia.
+- **Fenk gate protocol:** If Fenk (described: heavyset forties, good coat no house mark, good boots, clean-shaven) appears at the gate, Vogt walks him directly to Isalia. Not to the Apothecary.
+- **Mecklau intake flag (20 April 1650):** Any client giving a Mecklau address or southern court origin receives longer intake window. Kira pulls visitor record before consultation proceeds.
+- **Petra Ossel — verbatim transcript filed:** 12 April visit documented. *She was checking references, not gathering information.* File held.
+- **Molner deposit — Elias handling:** Erich Molner deposit (12 Crowns) flagged held pending. Hilde Molner has priority claim if she surfaces.

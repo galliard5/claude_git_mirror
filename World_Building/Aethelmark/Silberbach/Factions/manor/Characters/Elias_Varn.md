@@ -69,10 +69,13 @@ Memory / Interaction Log: **Records:**
 
 Trust Level (2 / 5): Neutral / Professional. Elias values practical assistance and reliability.
 
-Current Date: [In-game date — update at the end of each session]
+Current Date: 20 April 1650
 
 Permanent Injuries & Alterations:
 - None recorded.
 
 Active Conditions:
-- None currently.
+- **Intake protocol draft (20 April 1650):** Draft due Vesper today. Core provision: prospective client seen alone, provides unprompted account (not Q&A), account recorded. Harder to coach than question-answering. Applies to all intakes — referral or walk-in.
+- **Haan referral terms (in progress):** Full referral framework terms being built before Haan's letter arrives (~4 May). Key conditions: full intake no exceptions; failed intake reported to Haan immediately, no details; arrangement ends if Haan disputes a failed intake. Corvin situation to be communicated to Haan directly — what the estate does with situations like his.
+- **Molner deposit instruction (20 April 1650):** Internal instruction being drafted. Erich Molner deposit (12 Crowns) held pending — not operating revenue, not returned. Hilde Molner has priority claim on those funds if she surfaces. Mira to flag separately from accounts.
+- **Valerius petition:** Filed 19 April. Hearing before Deputy Justice Mohl, est. ~2 May. Seria's circuit documentation outstanding.

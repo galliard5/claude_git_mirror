@@ -84,10 +84,11 @@ Elowen takes bespoke orders from noble clients and houses for equipment beyond t
 
 Dr. Korr's input on anatomical fit is sometimes incorporated into commission specifications — Selene flagged a nasal strap issue on a previous piece that chafed raw, and Elowen takes such notes seriously even when the working relationship between the two is not without friction. The collaboration is practical rather than warm.
 
-Current Date: [In-game date — update at the end of each session]
+Current Date: 20 April 1650
 
 Permanent Injuries & Alterations:
 - None recorded.
 
 Active Conditions:
-- None currently.
+- **Crescent collar — active study (20 April 1650):** Removed from Corvin (guest, south corridor). Filed mark inside band, suppression mechanism: chemical leather treatment combined with enchantment layer — more persistent than either alone. Enchantment layer being mapped independently. Alric tomorrow for chemical component analysis. Goal: develop a clearing agent for future cases. *The craftsmanship is poor. The concept is sound. The concept is the more troubling part.*
+- **Corvin — sound sensitivity monitoring:** Estate standard collar fitted 20 April. Suppression from Crescent collar clearing on own timeline. Sound sensitivity active during clearing — loud metalwork, sharp sounds, raised voices. South corridor room assigned (away from smithing, per Elowen's recommendation). No further fitting action required unless suppression fails to clear.
