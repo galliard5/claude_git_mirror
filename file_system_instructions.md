@@ -528,6 +528,19 @@ Best Practice Process:
 4. This ensures edits are clean, successful, and prevent internal inconsistencies
 5. Especially critical during long work sessions where context drift is most likely
 
+TOOL SCHEMA VERIFICATION:
+filesystem tool parameter names must be verified via `tool_search` before first use each session — never called from memory alone.
+
+**Known correct schemas (verified 2026-03-29):**
+- `filesystem:write_file` — parameters: `content` (string), `path` (string). No other parameters exist.
+- `filesystem:edit_file` — parameters: `path`, `edits` (array of {oldText, newText}), `dryRun` (optional bool).
+- `filesystem:read_text_file` — parameters: `path`, `head` (optional int), `tail` (optional int).
+- `filesystem:read_multiple_files` — parameter: `paths` (array of strings).
+
+**Common failure mode:** Calling `write_file` with `description` and `file_text` instead of `content` and `path` — these are parameters from the computer-use `create_file` tool and do not exist in the filesystem tool. If a write call fails with unexpected parameter errors, run `tool_search` with "write file filesystem" immediately to reload the correct schema before retrying.
+
+**Prevention:** If write operations are expected during a session, call `tool_search` for write_file schema at session start alongside the memory/index check. Costs one tool call; eliminates mid-session schema failures.
+
 
 SECTION 4: ERROR HANDLING & RESILIENCE
 ======================================
