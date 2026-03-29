@@ -75,4 +75,7 @@ Permanent Injuries & Alterations:
 - Transformed: human → Kinsky horse. Vacation transformation, non-regressed.
 
 Active Conditions:
-- Pregnant: 8 months. Non-regressed. Onset: approx. August 1649. Due: approx. mid-April to early May 1650. Urgency: immediate — due within days to weeks of current date.
+- **Pregnant:** 8 months. Non-regressed. Onset: approx. August 1649. Due: approx. mid-April to early May 1650. Urgency: immediate — due within days of current date (19 April 1650).
+- **Conflict of interest:** Valerius Corvinus petition filed with his office 19 April. Kinsky resides on the estate that is party to the petition. Cannot touch it formally. Acknowledged this directly to Isalia. Deputy Justice Mohl is sitting.
+- **Mohl briefed (indirectly):** Gave Isalia his read on Mohl as a guest in conversation — not as counsel. Mohl clerked under the circuit magistrate, was present at the original tribunal, knows the paperwork was incomplete. Will want a clean path. Will take it if the language gives him no room to equivocate.
+- **Birth request:** Asked Isalia to be present when the foal comes — someone who won't require him to perform being fine. She agreed. Staff to send for her immediately when it begins.

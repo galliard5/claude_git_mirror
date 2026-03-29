@@ -129,7 +129,9 @@ Late teens to early twenties
 
 ## Active Conditions
 
-- Body adjustment phase: still learning the new form. Gait improving under Sable's supervision.
-- Work role undecided: brothel, breeding, and courier all open. Kael observing discreetly.
-- Fertility assessment pending: Alric to evaluate breeding viability. No suppressants administered.
-- Father clock: seminary letter to Lord Albrecht expected to trigger within days to weeks of transformation. Serya unaware of timeline. Urgency: low now, escalating.
+- **Body adjustment phase:** Still learning the new form. Gait improving under Sable's supervision. Instincts arriving ahead of instruction.
+- **Surrogate role active (19 April 1650):** Taking the three healthy pups from the Waldheim litter while Merra concentrates on the runt. Lactation potion administered by Alric, working within the hour. Settled with pups by evening — instinct ahead of instruction. Selene checking her at 48-hour mark.
+- **Work role:** Surrogate/kennel work is establishing as natural fit. Breeding interest confirmed. Brothel still open but less front-of-mind. Kael observing discreetly.
+- **Fertility assessment pending:** Alric to evaluate in a few weeks. Serya requested the real picture, not the careful version. Alric knows.
+- **Father clock:** Seminary letter to Lord Albrecht expected to trigger within days to weeks of transformation. Serya unaware of timeline. Urgency: low now, escalating.
+- **Session note (19 Apr):** *It's different when it actually happens.* Said to the pen when the potion worked. Not performing it.

@@ -85,4 +85,6 @@ Permanent Injuries & Alterations:
 - None recorded.
 
 Active Conditions:
-- None currently.
+- **New receiving policy (19 April 1650):** Full count on delivery, every time. Deliverer countersigns the count. Gate staff matched to delivery type (bulk/ale: gate guard; herbs/specialty: Alric's people; hay/feed/tack: Sable/stablehand). Receiving sheet posted in gate house. Isalia present for first delivery of each supplier.
+- **Barrel investigation active:** Three-month pattern documented (1 short, 2 short, 3 short, then clean last month). Mira pulling six-month logs. First test of new policy: Brewers Guild / Aldric, Thursday.
+- **Current Date:** 19 April 1650

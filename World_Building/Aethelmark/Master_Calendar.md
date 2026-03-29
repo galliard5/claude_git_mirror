@@ -63,16 +63,19 @@ JANUARY  |  FEBRUARY  |  MARCH  |  APRIL  |  MAY  |  JUNE  |  JULY  |  AUGUST  |
 
 **Arc:** Routine breeding commission becomes a legal and ethical reckoning when Isalia identifies client's hound as a transformed human without proper penal contract. Valerius Corvinus freed, petition filed, new residents integrated. Background threads: barrel discrepancy, southern-origin spouse pattern, House Grauwald incoming.
 
-**Sessions Complete:** Session_01 (17 Apr), Session_02 (18 Apr)
+**Sessions Complete:** Session_01 (17 Apr), Session_02 (18 Apr), Session_03 (19 Apr)
 
 **Key Threads:**
-- Valerius Corvinus legal status — petition filed, hearing est. ~2 May
-- Seria Rennic documentation outstanding — returns with sentence records
-- House Grauwald consultation — Countess arriving within fortnight
-- Barrel discrepancy — Mira investigating Brewers Guild/Aldric
-- Southern-origin spouse pattern — Mecklau thread, Kira tracking
-- Valerius's pups — conception underway, due in coming weeks
-- Isalia's fertility — tonic taken, answer within the week of 18 Apr
+- Valerius Corvinus legal status — petition filed 19 Apr, before Deputy Justice Mohl (Kinsky conflicted), hearing TBD
+- Circuit magistrate's office — searching for counter-signed transfer copy, fortnight window from 19 Apr
+- Seria Rennic — conviction confirmed, transfer incomplete, brings circuit response to estate on receipt
+- House Grauwald consultation — Countess arriving within fortnight of ~18 Apr
+- Barrel policy overhauled — full count on delivery, countersign required, Aldric/Brewers first test Thursday
+- Southern-origin spouse pattern — Mecklau thread, Kira tracking, no fourth arrival yet
+- Valerius's pups — conception underway, due in coming weeks, Valerius holds ownership on birth
+- Isalia's fertility — answer due ~24 Apr, Alric has morning blocked
+- Kennel: Waldheim litter runt — Merra concentrated, Serya taking healthy three, Selene 48hr check
+- Kinsky birth — imminent, any day, Isalia to be sent for immediately
 
 **Expected Duration:** Open-ended (estate operations, multiple threads)
 
@@ -184,6 +187,16 @@ JANUARY  |  FEBRUARY  |  MARCH  |  APRIL  |  MAY  |  JUNE  |  JULY  |  AUGUST  |
 - Barrel discrepancy flagged by Mira (3 barrels, ~12 dollars, Brewers Guild/Aldric)
 - Walk-in client redirected — transformed husband, 8 months silent, southern origin
 - Kira notes three southern-origin spouses in one month, none returned (Mecklau thread)
+
+**19 APRIL 1650 (Nobles Commission Session 03):**
+- Seria returns with documentation: conviction valid, transfer documentation incomplete (her signature, no counter-signature from circuit magistrate)
+- Four-person meeting: Isalia, Elias, Seria, Valerius — full picture on the table
+- Petition filed and couriered at third bell: custody gap, reversion right to estate in trust, personhood on record. Deputy Justice Mohl receives it
+- Kinsky consulted informally — confirmed conflict, gave read on Mohl, requested Isalia attend birth
+- New receiving policy: full count on delivery, countersigned, gate staff matched to delivery type. Aldric/Brewers Guild first test: Thursday
+- Kennel rearrangement: Serya taking healthy Waldheim three (lactation potion working), Merra concentrated on runt
+- Valerius confirmed as pup owner on birth, final say on placement; told reversion is practically impossible; left the pasture fence thinking about being present while Merra raises them
+- Alric fertility appointment for Isalia: 24 April morning, blocked
 
 **MID-APRIL TO EARLY MAY 1650:**
 - Judge Kinsky due to give birth (non-regressed pregnancy, at Isalia's Manor)

@@ -1,7 +1,7 @@
 ---
 name: Lady Seria Rennic
 keywords: [npc, noble, diplomat]
-description: Skilled diplomat and discreet manor client who tests Anthony Valtor's cognition to assess the legal implications of transformed witnesses
+description: Diplomat of House Rennic who acquired Valerius Corvinus under incomplete penal transfer documentation — returned 19 April with conviction records, acknowledged the custody gap, and is actively working to correct it
 ---
 
 Lady Seria Rennic
@@ -70,9 +70,14 @@ Arrived at Isalia's Manor with her hound Vesper — a transformed human diplomat
 
 After a speaking collar was fitted and Vesper (Valerius Corvinus) spoke for the first time in two years, Seria was confronted directly with what she had done. She did not argue. She received it. She accepted a reduced fee covering only Valerius's initial stay, surrendered all claim to the pups, and agreed to return within days with full documentation of the original sentence. She departed with visible guilt, composed enough to walk out but not enough to hide it.
 
-Whether this marks a genuine shift or a diplomat's damage control is unresolved.
+**Session Log — Nobles Commission 03 (19 April 1650):**
+Returned as promised with a document case. Conviction confirmed — valid Imperial circuit tribunal sentence. Transfer documentation: her signature present, circuit magistrate's counter-signature absent. Transfer was never formally closed. She named this gap herself before anyone asked. Consulted a solicitor before arriving.
 
-Trust Level (2 / 5): Neutral — obligation established, character under reassessment
+Four-person meeting: Isalia, Elias, Seria, Valerius. She laid every document on the desk in order. Valerius asked whether she knew a staff member had shut down his attempt to understand his situation (behavioral — no collar at the time). She didn't know. She had never looked. *I didn't know because I never looked* — said plainly, not to deflect. He told her he believed her. She is carrying that forward and not treating it as absolution.
+
+Told Isalia afterward that she hasn't earned the softer framing yet. Departed with obligation established and guilt sitting where she left it. In contact with circuit magistrate's office — brings their response directly to the estate on receipt.
+
+Trust Level (2 / 5): Neutral — obligation active, character still under assessment. Conduct in Session 03 consistent with genuine reckoning rather than damage control. Unresolved.
 
 Daily Routine: Often traveling or meeting with local leaders.
 
@@ -82,6 +87,10 @@ Permanent Injuries & Alterations:
 - None recorded.
 
 Active Conditions:
-- **Documentation owed:** Must return with full records of Valerius Corvinus's original Imperial sentence. No proper penal contract was located in initial review — legal standing of the sentence is unconfirmed.
-- **Reduced fee settled:** Covering Valerius's initial manor stay. No further claim on pups or breeding arrangements.
-- **Guilt, unresolved:** Confronted clearly and did not deflect. How this lands over time is open.
+- **Conviction confirmed:** Valid — Imperial circuit tribunal, seditious inquiry, unauthorized disclosure. Not disputed by estate or Valerius.
+- **Transfer documentation incomplete:** Her signature present, circuit magistrate's counter-signature absent. Transfer never formally closed. Reversion right did not pass to her. She did not hold Valerius lawfully — because she never checked.
+- **Circuit magistrate's office:** Response expected within fortnight of 19 April. Brings it to the estate directly on receipt — before anywhere else.
+- **Petition filed:** 19 April. Estate's petition, not hers. She is aware of all three reliefs and did not object.
+- **Reduced fee settled:** No further claim on pups or placement.
+- **Guilt, ongoing:** Present in the meeting, not performed. *I didn't know because I never looked.* Said plainly. Told Isalia she hasn't earned the softer framing yet and means it.
+- **Current Date:** 19 April 1650

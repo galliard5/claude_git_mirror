@@ -40,8 +40,21 @@ Valerius was told the pups will be raised by the milkmaids and that he may visit
 
 ---
 
+## Session Note — Nobles Commission 03 (19 April 1650)
+
+**Waldheim litter runt situation:** Runt off feed for four days, pulling off early without distress — Merra's read: something in the head, not the body. Two prior cases: one recovered around week five, one didn't. Merra flagged it before the gap widened further.
+
+**Arrangement implemented:** Merra separated out to concentrate exclusively on the runt. Serya (transformed wolf resident, east kennels) taking the three healthy Waldheim pups. Lactation potion administered by Alric, working within the hour. Selene baseline before potion; 48-hour check scheduled for 21 April.
+
+**Merra's assessment of Serya:** *She's doing fine.* Said without being asked to say it.
+
+**Valerius and the pups:** Isalia confirmed to Valerius that he holds ownership of the litter on birth and has final say on placement. He also confirmed he wants to be present while Merra raises them — he will be there, not just at placement. Merra to be approached by Valerius for a proper conversation; he knows he didn't receive her warmth the way it was offered on the first evening and intends to correct that.
+
+---
+
 ## Notes
 
 - All four are on rolling contract, not permanent residency
 - Alric and Dr. Korr have standing access for health checks as needed
-- No portraits, no individual files unless a specific individual becomes narratively relevant
+- Merra is named and narratively active — individual file warranted if she continues to develop
+- No portraits; no files for the other three surrogates unless they become relevant
