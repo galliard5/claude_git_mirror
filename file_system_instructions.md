@@ -44,10 +44,26 @@ D:\Claude_MCP_folder
 D:\Claude_MCP_folder/
 ├── World_Building/           (World building projects — primary content)
 │   ├── Aethelmark/          (16th century Central Europe setting — ACTIVE)
-│   │   ├── Scenarios/       (Campaign scenarios and sessions)
-│   │   ├── Session_Summaries/ (Completed session checkpoints)
-│   │   ├── Silberbach/      (Primary town: locations, factions, manor)
-│   │   └── Kennel_Hounds/   (Sapient hound programme worldbuilding)
+│   │   ├── Scenarios/       (Campaign scenarios and sessions by campaign)
+│   │   │   ├── Isalias_Estate/
+│   │   │   ├── Kennel_Hounds/
+│   │   │   │   ├── Maruvec_Campaign/
+│   │   │   │   ├── Vauclair_Campaign/
+│   │   │   │   └── Camp_Rochevaux/
+│   │   │   └── Viktor_Steinfeld/
+│   │   ├── Session_Summaries/ (Legacy dir — all sessions now in Scenarios/)
+│   │   ├── Silberbach/       (Town + region — BG/IWD model)
+│   │   │   ├── Town/         (Town locations and NPCs)
+│   │   │   │   ├── Characters/
+│   │   │   │   └── [locations: Market_Square, Crescent_House, etc.]
+│   │   │   └── Region/       (Factions, estates, institutions)
+│   │   │       ├── Factions/
+│   │   │       │   ├── Guilds/
+│   │   │       │   ├── noble_houses/
+│   │   │       │   ├── merchant_families/
+│   │   │       │   └── manor/ (Isalia's Manor)
+│   │   │       ├── Characters/
+│   │   │       └── unique_enchanted_items/
 │   ├── Dead_Terra/          (Alternate world — archive)
 │   ├── Little_spark/        (Alternate world — archive)
 │   ├── Neon_Fang/           (Alternate world — archive)
@@ -63,6 +79,13 @@ D:\Claude_MCP_folder/
 ├── .obsidian/               (Obsidian vault config — read-only, exempt from rules)
 └── file_system_instructions.md (This file — project source of truth)
 ```
+
+**KEY FILE PATHS (CORRECTED):**
+- **System/Project Rules:** `file_system_instructions.md` (at root)
+- **GM Rules:** `Core_Rules/core_rules.md`
+- **Scenario Extraction Rules:** `Core_Rules/Scenario_Extraction_Rules.md`
+- **Templates Directory:** `Core_Rules/Templates/`
+
 
 ---
 
@@ -84,7 +107,7 @@ D:\Claude_MCP_folder/
 ### 3a. Check for Existing Index in Memory
 
 1. Call `memory_user_edits` with command="view"
-2. Search for `Aethelmark_Index_Timestamped` entity
+2. Search for `Aethelmark_Directory_Index` entity
 3. If found, proceed to Step 3b. If not found, proceed to Step 4.
 
 ### 3b. Evaluate Index Status (If Index Exists)
@@ -115,34 +138,57 @@ Run this only if triggered by Step 3b:
 
 1. **Generate current timestamp** in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ
 
-2. **Scan root directory recursively:**
-   - Read YAML frontmatter (lines 1-4) from all `.md` files (except Stories/)
-   - Read Python remarks (lines 1-4) from all `.py` files
-   - Read meta tags (line 1) from all `.txt` files in Stories/
-   - Extract: name | keywords | description
+2. **Build hierarchical directory structure** (no filenames):
+   - Recursively traverse D:\Claude_MCP_folder using `filesystem:directory_tree`
+   - Capture complete directory structure with subdirectory names and nesting
+   - Include descriptive comments for major directories (from PROJECT DIRECTORY STRUCTURE diagram)
+   - Build a tree representation that shows where files *would* be placed based on semantic naming
 
-3. **Build indexed catalog** organized by:
-   - File type (.md, .txt, .py, .jpg, etc.)
-   - Directory location
-   - Content keywords
+3. **Directory structure organization** — Preserve semantic hierarchy:
+   ```
+   World_Building/
+   ├── Aethelmark/
+   │   ├── Scenarios/[Campaign_Name]/
+   │   ├── Session_Summaries/
+   │   ├── Silberbach/
+   │   │   ├── Characters/
+   │   │   ├── Factions/[Faction_Name]/
+   │   │   │   └── [Faction]/[Subfolder]/
+   │   │   └── [District]/
+   │   ├── Kennel_Hounds/
+   │   └── [Other Locations]/
+   ├── [Other_World]/
+   ├── Rogue_Trader/
+   └── Souls_Gem/
+   Core_Rules/
+   ├── Templates/
+   └── [Rules files]/
+   Stories/
+   Python/
+   [etc...]
+   ```
 
 4. **Compile metadata:**
    - SCAN_TIMESTAMP (ISO 8601)
-   - TOTAL_FILES (count)
-   - DIRECTORY_COUNT (count of subdirectories)
+   - DIRECTORY_STRUCTURE (hierarchical tree representation)
    - FRESHNESS_STATUS (FRESH | STALE)
+   - STRUCTURAL_NOTES: Brief reminders of semantic naming conventions (Scenarios/[Campaign], Characters/, Factions/, etc.)
 
-5. **Save to memory** as `Aethelmark_Index_Timestamped` entity
-   - This persists across conversations
+5. **Save to memory** as `Aethelmark_Directory_Index` entity:
+   - Stores complete hierarchical directory structure
+   - Includes timestamp for freshness checking
+   - Persists across conversations for use without `directory_tree` calls
    - Available for next conversation's index check
 
-6. **Flag warnings:**
-   - Alert if `.txt` files found OUTSIDE Stories/ directory
-   - Alert if naming convention violations detected
+6. **NO filename reading required**:
+   - Do NOT scan file metadata, YAML frontmatter, or file contents
+   - Do NOT build file catalogs
+   - Directory structure is the complete index
 
-7. **Keep index available** throughout conversation
-   - Load full file contents ON-DEMAND when user requests specific files
-   - Never load entire files during initial scan
+7. **Enable inference-based file placement**:
+   - Claude can deduce file locations from conversation context using the directory structure
+   - Semantic folder names (Characters/, Factions/, Scenarios/[Campaign]/, etc.) provide placement guidance
+   - Minimal additional filesystem queries needed (search only for existence verification)
 
 ---
 
@@ -151,33 +197,128 @@ Run this only if triggered by Step 3b:
 After index is loaded (Step 3b) or scan completes (Step 4), display brief summary:
 
 ```
-📋 Index loaded: 165+ files across 12 directories | Last scanned: 2026-03-20 12:30 UTC | <30 minutes old
+📁 Directory index loaded | Last scanned: 2026-03-20 12:30 UTC | FRESH | Ready for semantic-based file placement
 ```
 
 **Summary Components:**
-- Total file count (from TOTAL_FILES metadata)
-- Total directory count (from DIRECTORY_COUNT metadata)  
+- Confirmation that directory structure is loaded in memory
 - Last scan timestamp (human-readable: YYYY-MM-DD HH:MM UTC)
+- Freshness status: FRESH (<1 day) or STALE (≥1 day)
+- Reminder that structure enables inference-based file placement
 - Age calculation: (Current_Time - SCAN_TIMESTAMP) / 3600 = hours old
 
 **Example Outputs:**
 ```
-📋 Index loaded: 165+ files across 12 directories | Last scanned: 2026-03-20 12:30 UTC | <30 minutes old
-📋 Index loaded: 165+ files across 12 directories | Last scanned: 2026-03-19 10:00 UTC | ~26 hours old (STALE)
+📁 Directory index loaded | Last scanned: 2026-03-30 14:15 UTC | FRESH | Ready for semantic-based file placement
+📁 Directory index loaded | Last scanned: 2026-03-29 10:00 UTC | FRESH (18 hours old) | Ready for semantic-based file placement
+📁 Directory index STALE | Last scanned: 2026-03-28 10:00 UTC (40 hours old) | Rescanning...
 ```
 
 **Why this format:**
-- ✅ Confirms successful index load
-- ✅ Shows freshness at a glance
-- ✅ Minimal context footprint (~50 tokens)
-- ✅ Provides full transparency
+- ✅ Confirms directory structure is available
+- ✅ Shows freshness at a glance (no filename catalog needed)
+- ✅ Minimal context footprint (~200-500 tokens for full structure)
+- ✅ Enables semantic file placement without per-file metadata
 - ✅ Signals staleness when detected
+
+---
+
+## STEP 5a: SEMANTIC NAMING FOR INFERENCE-BASED FILE PLACEMENT
+
+The directory structure alone enables confident file placement through semantic naming conventions:
+
+**Campaign-based placement:**
+- Scenario files: `World_Building/Aethelmark/Scenarios/[Campaign_Name]/`
+- Session summaries: Now organized within campaigns (e.g., `Scenarios/Isalias_Estate/`, `Scenarios/Kennel_Hounds/[Campaign]/`)
+
+**Location-based placement (Silberbach — Town + Region model):**
+- Town characters: `World_Building/Aethelmark/Silberbach/Town/Characters/`
+- Town locations: `World_Building/Aethelmark/Silberbach/Town/[Location_Name]/` (Market_Square, The_Crescent_House, etc.)
+- Regional characters: `World_Building/Aethelmark/Silberbach/Region/Characters/` (regional NPCs, nobility)
+- Regional factions: `World_Building/Aethelmark/Silberbach/Region/Factions/[Faction_Name]/` (Guilds, noble_houses, merchant_families)
+- Estate files: `World_Building/Aethelmark/Silberbach/Region/Factions/manor/` (Isalia's Manor)
+- Enchanted items: `World_Building/Aethelmark/Silberbach/Region/unique_enchanted_items/`
+
+**Role-based placement:**
+- Character files: `[Location]/Characters/` or `[Campaign]/Characters/`
+- Faction files: `[Location]/Factions/[Faction_Name]/`
+- Location files: `[Parent_Directory]/[Location_Name]/`
+
+**Special directories:**
+- Rules: `Core_Rules/`
+- Templates: `Core_Rules/Templates/`
+- Stories/logs: `Stories/`
+- Scripts: `Python/`
+
+**Verification queries needed:**
+- File already exists? → `filesystem:search_files` with filename pattern
+- Exact path confirmation? → `filesystem:list_directory` for target folder
+- Otherwise, trust semantic structure for new file placement
 
 ---
 
 ## STEP 6: PROCEED WITH USER REQUEST
 
-Once index is loaded/fresh and summary is displayed, proceed to handle the user's request using the available index.
+Once index is loaded/fresh and summary is displayed, proceed to handle the user's request using the available directory index and semantic naming conventions to guide file placement decisions.
+
+---
+
+## STEP 7: FILE OPERATION WORKFLOW (Using the Loaded Index)
+
+When performing file operations during the session, Claude references the loaded directory index:
+
+### Reading Files
+1. **Determine file location** from context (campaign, location, character name, etc.)
+2. **Reference directory structure** from loaded index to construct full path
+3. **Use semantic naming** to guide path construction (Characters/, Factions/, Scenarios/, etc.)
+4. **Call filesystem tool** with constructed path: `filesystem:read_text_file` or `filesystem:read_multiple_files`
+5. If path uncertain: `filesystem:search_files` to verify before reading
+
+### Creating Files
+1. **Determine file category** from conversation context (character, location, session, scenario, etc.)
+2. **Reference directory structure** to identify correct parent directory
+3. **Apply semantic naming conventions** (STEP 5a) to select subdirectory
+4. **Verify path doesn't exist** (optional but recommended): `filesystem:search_files`
+5. **Create file** at deduced path: `filesystem:write_file`
+6. **Verify creation** immediately with `filesystem:read_text_file`
+
+### Example: Creating New Character File
+```
+Context: "New NPC for Silberbach town"
+→ Location = Silberbach/Town
+→ Type = Character
+→ Path = World_Building/Aethelmark/Silberbach/Town/Characters/[NPC_Name].md
+→ Write file
+→ Read to verify
+```
+
+Or for a regional NPC:
+```
+Context: "New regional noble for Silberbach"
+→ Location = Silberbach/Region
+→ Type = Character
+→ Path = World_Building/Aethelmark/Silberbach/Region/Characters/[NPC_Name].md
+→ Write file
+→ Read to verify
+```
+
+### Example: Finding Session Summary
+```
+Context: "Session 04 of Nobles Commission"
+→ Campaign = Nobles Commission
+→ Type = Session Summary
+→ Reference index: Sessions in Scenarios/Isalias_Estate/
+→ Path = World_Building/Aethelmark/Scenarios/Isalias_Estate/Nobles_Commission_Session_04.md
+→ Read file
+```
+
+### When to Query the Index
+- **Uncertain about location?** → `filesystem:search_files` with filename pattern
+- **Need to verify subdirectory name?** → `filesystem:list_directory` for target folder
+- **Checking if file exists before creating?** → `filesystem:search_files` with pattern
+- **Otherwise:** Trust semantic structure from loaded index
+
+**Key Principle:** The loaded directory structure is your map. Conversation context tells you what to find or create. Semantic naming tells you where it should be. Verify with filesystem queries only when uncertain.
 
 ---
 

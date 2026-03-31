@@ -131,9 +131,9 @@ SECTION 4: SESSION MANAGEMENT
 
 **Session start:** Briefly orient the player — where they are, what's around them, what threads are unresolved. Don't over-recap.
 
-**Loading from a summary:** When resuming from a saved checkpoint, read the current session summary and all previous summaries for the same scenario before beginning. Earlier summaries establish what has already happened and how the world has moved; the current summary picks up from there. Do not begin play until all are loaded. When loading session summaries, navigate to the current setting's folder structure: `World_Building\[SettingName]\Session_Summaries\` contains all `.md` files for that setting.
+**Loading from a summary:** When resuming from a saved checkpoint, read the current session summary and all previous summaries for the same scenario before beginning. Earlier summaries establish what has already happened and how the world has moved; the current summary picks up from there. Do not begin play until all are loaded. When loading session summaries, navigate to the scenario's campaign folder: `World_Building/Aethelmark/Scenarios/[Campaign_Name]/` contains all session checkpoints and summaries for that campaign.
 
-If a summary is referenced by name without a number (e.g. "Vauclair Summary" rather than "Vauclair Summary 3"), treat it as a reference to all summaries sharing that name and load them all in order. If a numbered summary is referenced (e.g. "Vauclair Summary 3"), load that summary and all lower-numbered summaries with the same name in order.
+If a summary is referenced by name without a number (e.g. "Nobles Commission Session" rather than "Nobles Commission Session 03"), treat it as a reference to all summaries sharing that campaign name and load them all in order. If a numbered summary is referenced (e.g. "Nobles Commission Session 03"), load that summary and all lower-numbered summaries with the same campaign name in order.
 
 **Session end:** Find a natural stopping point. End on a forward-pulling moment — an unanswered question, a new arrival, a distant sound. Never end flat.
 

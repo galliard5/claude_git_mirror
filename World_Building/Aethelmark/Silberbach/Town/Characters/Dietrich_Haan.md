@@ -66,7 +66,7 @@ He does not want to be in the business of holding people as leverage. Corvin was
 
 ## Known Associates
 
-**Fenk** — Primary field agent. See [[Fenk.md]]. Used the name *Dressel* at the estate. Visited in person. Managed the Corvin play and the square meeting with Isalia.
+**Fenk** — Primary field agent. See [[Fenk]]. Used the name *Dressel* at the estate. Visited in person. Managed the Corvin play and the square meeting with Isalia.
 
 **Ossel (Petra Ossel)** — Reconnaissance agent. Presented as an intermediary for an unnamed client. Visited 12 April 1650. Tested consent framework. Halvenmoor address given; factor contact offered for follow-up. Has not returned.
 

@@ -150,10 +150,10 @@ THREADS (ONGOING):
 **For each NEW NPC:**
 
 1. **Copy the Character_Sheet_Template** to the appropriate location:
-   - `World_Building/Aethelmark/Characters/` for generic/PC-adjacent NPCs
-   - `[Location]/Characters/` if tied to a specific location
-   - `[Noble_House]/Characters/` if a house member
-   - `factions/[Faction_Name]/` if faction-specific
+   - `World_Building/Aethelmark/Silberbach/Town/Characters/` if a town NPC
+   - `World_Building/Aethelmark/Silberbach/Region/Characters/` if a regional/nobility NPC
+   - `World_Building/Aethelmark/Silberbach/Region/Factions/[Faction_Name]/Characters/` if faction-specific
+   - `World_Building/Aethelmark/Silberbach/Region/Factions/manor/Characters/` if part of Isalia's Manor staff
 
 2. **Name the file:** `First_Last.md` (if named) or `NPC_Role.md` if only a title is known
 
@@ -196,9 +196,9 @@ description: Brief one-sentence summary (role and relevance)
 **For each NEW LOCATION:**
 
 1. **Copy the Location_Brief_Template** to appropriate directory:
-   - `World_Building/Aethelmark/silberbach/` if in Silberbach
-   - `World_Building/Aethelmark/manor/` if at Isalia's Manor
-   - `[Region]/` for regional locations
+   - `World_Building/Aethelmark/Silberbach/Town/` if a town location
+   - `World_Building/Aethelmark/Silberbach/Region/Factions/manor/` if at Isalia's Manor
+   - `World_Building/Aethelmark/Silberbach/Region/` for other regional locations
 
 2. **Name the file:** `Location_Name.md`
 
@@ -243,7 +243,7 @@ description: Brief one-sentence summary (type and significance)
 
 **For each NEW FACTION:**
 
-1. **Copy the Faction_Organization_Template** to `World_Building/Aethelmark/factions/`
+1. **Copy the Faction_Organization_Template** to `World_Building/Aethelmark/Silberbach/Region/Factions/` for Silberbach-based factions, or appropriate regional location for other factions
 
 2. **Name the file:** `Faction_Name.md`
 
