@@ -84,11 +84,12 @@ Elowen takes bespoke orders from noble clients and houses for equipment beyond t
 
 Dr. Korr's input on anatomical fit is sometimes incorporated into commission specifications — Selene flagged a nasal strap issue on a previous piece that chafed raw, and Elowen takes such notes seriously even when the working relationship between the two is not without friction. The collaboration is practical rather than warm.
 
-Current Date: 20 April 1650
+Current Date: 22 April 1650
 
 Permanent Injuries & Alterations:
 - None recorded.
 
 Active Conditions:
-- **Crescent collar — active study (20 April 1650):** Removed from Corvin (guest, south corridor). Filed mark inside band, suppression mechanism: chemical leather treatment combined with enchantment layer — more persistent than either alone. Enchantment layer being mapped independently. Alric tomorrow for chemical component analysis. Goal: develop a clearing agent for future cases. *The craftsmanship is poor. The concept is sound. The concept is the more troubling part.*
-- **Corvin — sound sensitivity monitoring:** Estate standard collar fitted 20 April. Suppression from Crescent collar clearing on own timeline. Sound sensitivity active during clearing — loud metalwork, sharp sounds, raised voices. South corridor room assigned (away from smithing, per Elowen's recommendation). No further fitting action required unless suppression fails to clear.
+- **Crescent collar — neutralization in progress:** Three-layer enchantment fully mapped. Layers: (1) general impulse dampening, (2) vocal/speech suppression, (3) behavioral suppression — reads distress indicators, auto-increases suppression load to make wearer appear calm to outside observers. Design is sophisticated, above Volke's usual construction quality. Likely commissioned through Volke by a third party. The enchanter who designed this is still working somewhere. Full design documented for future comparison.
+- **Collar neutralization timeline:** Chemical treatment (Alric's compound, sulfur/nightshade trace drawn from leather) — days 1–2 complete (21–22 April). Enchantment dismantling: 23 April, 2–3 hours. Chemical layer must clear first — dismantling out of order risks rebound effect.
+- **Corvin — suppression monitoring:** Sound sensitivity easing as of 22 April morning. Selene monitoring for deferred distress as clearing progresses — behavioral suppression layer may have masked distress for extended period. No further collar action required.

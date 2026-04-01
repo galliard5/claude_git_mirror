@@ -69,13 +69,17 @@ Memory / Interaction Log: **Records:**
 
 Trust Level (2 / 5): Neutral / Professional. Elias values practical assistance and reliability.
 
-Current Date: 20 April 1650
+Current Date: 22 April 1650
 
 Permanent Injuries & Alterations:
 - None recorded.
 
 Active Conditions:
-- **Intake protocol draft (20 April 1650):** Draft due Vesper today. Core provision: prospective client seen alone, provides unprompted account (not Q&A), account recorded. Harder to coach than question-answering. Applies to all intakes — referral or walk-in.
-- **Haan referral terms (in progress):** Full referral framework terms being built before Haan's letter arrives (~4 May). Key conditions: full intake no exceptions; failed intake reported to Haan immediately, no details; arrangement ends if Haan disputes a failed intake. Corvin situation to be communicated to Haan directly — what the estate does with situations like his.
-- **Molner deposit instruction (20 April 1650):** Internal instruction being drafted. Erich Molner deposit (12 Crowns) held pending — not operating revenue, not returned. Hilde Molner has priority claim on those funds if she surfaces. Mira to flag separately from accounts.
-- **Valerius petition:** Filed 19 April. Hearing before Deputy Justice Mohl, est. ~2 May. Seria's circuit documentation outstanding.
+- **Intake protocol — complete:** Drafted and approved 20 April. Core provision: client seen alone, unprompted account recorded. Referrals subject to same process without exception. Failed intake reported to referrer by outcome only, no details. Supplementary provision for pre-transformed arrivals (Corvin/Aldric situations) — principle identified, procedure deferred pending volume. To be raised at first weekly meeting as standing item.
+- **Haan referral terms — complete:** Full framework drafted 20 April. Key conditions: full intake no exceptions; failed intake reported immediately, no details; arrangement ends if disputed. Corvin situation to be communicated to Haan directly in first response. Letter expected ~4 May.
+- **Corvin documents — assessment in progress:** Marta's debt settlement papers under review. Three divergence points flagged (duration of obligation language vs. stated six-month term). Misrepresentation confirmed — deliberate construction, not documentation error. Full written assessment due Donnerstag 24 April. Marta to be present at delivery.
+- **Aldric Venn documents — assessment in progress:** Receipt has blank licensing column. Not accidental — flagged to Kira for Lenne charter enquiry. If Solt unlicensed, county court jurisdiction directly. Full written assessment due Donnerstag 24 April.
+- **Weekly staff meeting — established:** Montag mornings, Prim, mess hall. Standing heads present; all staff welcome. First meeting 27 April. Agenda format drafted and distributed. Three sections: open threads from last week, known pressures for coming week, department flags.
+- **In-house legal role — outline in progress:** Role scope, required specialisation (transformation law), salary range, accommodation. For reference when volume justifies the appointment. Transformation law requirement noted — narrows field considerably.
+- **Molner deposit instruction:** Erich Molner deposit (12 Crowns) held pending — not operating revenue, not returned. Hilde Molner has priority claim. Mira flagging separately.
+- **Valerius hearing — confirmed:** 3 May 1650, Deputy Justice Mohl. Seria appearing voluntarily, testimony supportive of petition. Voss and Kraemer preparing documentation. Isalia to appear in person on estate jurisdiction question.
