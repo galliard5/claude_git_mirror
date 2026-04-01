@@ -201,7 +201,8 @@ Present at four-person meeting with Seria, Isalia, Elias. Listened to Seria's do
 
 ## Active Conditions
 
-- **Legal petition in progress:** Filed 19 April 1650. Before Deputy Justice Mohl. Hearing est. ~2 May.
+- **Hearing confirmed:** 3 May 1650, Deputy Justice Mohl. Mohl accepted petition as properly filed. Isalia to appear in person on estate jurisdiction. Voss and Kraemer preparing documentation.
+- **Seria appearing voluntarily:** Not named as respondent. Testifying on custody transfer documentation. Position per solicitor: supportive of petition. Valerius informed 22 April. His response: his earlier *I don't mind either way* was not a precise statement. Message for Seria: he understands what it costs to choose to be in that room.
 - **Reversion right:** Not yet established in law. Petition seeks to place it on this estate in trust.
 - **Pups:** Conception underway from 17 April sessions. Due in coming weeks. His on birth — ownership confirmed by Isalia 19 April.
-- **Integration:** Patrol with Renn, establishing. First winter is the measure.
+- **Integration:** Patrol with Renn, establishing. Moving differently per Kael 22 April — smaller adjustments, less calculation. First winter is the measure.

@@ -158,7 +158,9 @@ To be established. South corridor room for now.
 
 ## Active Conditions
 
-- **Suppression clearing:** Crescent collar removed 20 April. Speech not yet restored — timeline unknown. Elowen and Alric developing clearing agent.
-- **Sound sensitivity:** Active during suppression clearing period. Loud metalwork, sharp sounds, raised voices cause visible flinching. Will pass.
-- **Nutritional recovery:** Thin on arrival. Marta's care has maintained him, but estate diet and stable conditions will support recovery.
-- **Current Date:** 20 April 1650
+- **Suppression clearing:** Chemical treatment (Alric's compound) running on Crescent collar — day 1 of 2 started 21 April. Elowen to dismantle enchantment layer 23 April. Corvin's suppression lifting on own timeline after collar fully neutralized. Speech not yet restored.
+- **Sound sensitivity:** Easing as of 22 April morning per Selene. Will continue to ease as collar neutralizes.
+- **Behavioral suppression noted:** Crescent collar had a third layer — reads distress indicators and increases suppression automatically. Designed to make wearer appear calm to outside observers. Selene monitoring for deferred distress as clearing progresses.
+- **Nutritional recovery:** Estate diet and conditions supporting recovery. Running in mornings now — joined Renn's kennel run 22 April unprompted.
+- **Documents with Elias:** Marta's debt settlement papers under review. Three divergence points flagged — misrepresentation confirmed, deliberate construction. Full written assessment Donnerstag 24 April. Marta to be present.
+- **Current Date:** 22 April 1650
