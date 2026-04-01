@@ -118,3 +118,18 @@ Isandar is asleep in a warm patch of sunlight on the anteroom floor. The full sq
 ## Next Session Hook
 
 Harness fitting, tomorrow morning. Maret is coming to see Perrin in his new form for the first time since the transformation. The fitting itself is practical — buckles, sizing, how the harness interfaces with the collar. The room will also contain whatever Perrin has been carrying since he walked back from her that night.
+
+---
+
+## Skill Tree — Pending
+
+System active for this campaign. Isandar's skill tree has not yet been formally written — needs doing before or at the start of Session 07.
+
+**Recommended starting nodes (pre-transformation background, no marks required):**
+- EDGE / Cunning I — dock-born improvisation, reading situations fast
+- EDGE / Survival I — warren and dockyard experience, functioned on the margins
+- BODY / Combat Form I — enough trained technique to have survived to 19 in Maruvec's docks
+
+**Essence tree:** Initializes at transformation. Name TBD collaboratively — likely something like *Brac-Form* or *Brac-Thread*. Tier 1 awarded at the moment of change. Branch directions will emerge from how Isandar navigates the new body during recovery week and harness fitting.
+
+Ref: `Core_Rules/Skill_Trees.md`

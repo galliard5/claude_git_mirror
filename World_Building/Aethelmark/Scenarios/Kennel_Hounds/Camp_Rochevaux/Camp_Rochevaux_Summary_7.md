@@ -175,5 +175,24 @@ description: Seventh session checkpoint — column rides back to Rochevaux, two 
 - The collar offer to the wolves is the first thing Rill extended beyond the operation's scope, on his own initiative, without being asked. Small. Worth watching.
 
 ---
+
+## Skill Tree — Status
+
+System active for this campaign. Rill has significant development across multiple sessions — tree should be written up before Act 3 begins.
+
+**Recommended foundation nodes (earned through play, no marks needed retroactively):**
+- EDGE / Stealth I–II — consistent use across all field operations
+- EDGE / Cunning I–II — improvised solutions throughout; the collar-drop and paddock-rail approach both qualify as gates
+- BODY / Combat Form I — functional; not the primary tool but present
+- MIND / Perception I–II — tracking environmental detail has been consistent and scene-changing
+- SOCIAL / Read I — reading Lenne, the buyer, the female wolf; reliably accurate
+
+**Essence tree:** Already initialized at transformation. Suggest: *Panther-Form* or *Feral-Set* as tree name. Body Integration branch is likely Tier 3 given how naturally the form is running. Projection not yet explored in-setting but latent. Programme Knowledge branch developing through operational experience.
+
+**Possible discovered tree:** The modified-collar theory and Lenne's directional-transmission work may seed a *Programme Mechanics* or *Collar-Work* discovered tree if Rill pursues it further in Act 3.
+
+Ref: `Core_Rules/Skill_Trees.md`
+
+---
 END CHECKPOINT
 ═══════════════════════════════════════════════════════════

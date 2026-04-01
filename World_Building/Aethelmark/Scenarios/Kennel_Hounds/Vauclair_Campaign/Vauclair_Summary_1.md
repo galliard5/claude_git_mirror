@@ -111,3 +111,18 @@ Midday: ate at the Silver Eel, near the market square. Warm, quiet, fire going. 
 | Corvel | Technical briefing, full disclosure | Professional neutral |
 | Morra | Chosen as donor | Mutual assessment complete |
 | Sekkel | Evening conversation, shared meal, disclosed family history | Strained but unbroken |
+
+---
+
+## Skill Tree — Pending
+
+System active for this campaign. Rill is pre-transformation — ideal moment to establish foundation nodes before the potion is taken.
+
+**Recommended starting nodes (background, no marks required):**
+- EDGE / Stealth I — warren upbringing, Rixek clan, moving quietly is baseline
+- EDGE / Cunning I — the systematic town-mapping on Day 1 was automatic; this is already active
+- MIND / Perception I — cataloguing chokepoints, gate patterns, warehouse understructure without deciding to; consistent throughout
+
+**Essence tree:** Initializes at transformation (Morra's donor template). Name TBD at that moment collaboratively. Tier 1 awarded immediately. Branch directions will emerge from how Rill settles into the new form and begins garrison work.
+
+Ref: `Core_Rules/Skill_Trees.md`

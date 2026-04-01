@@ -99,3 +99,17 @@ KEY NPCs INTRODUCED THIS SESSION
 - Oswin Brandt — former steward, confessed, cooperating
 - Aldus Corvel — money launderer, target of investigation
 - Constable Ferris — clean record, notified, acting
+
+---
+
+## Skill Tree — Partial Use
+
+Full six-archetype tree not warranted — Viktor arrived with deep prior experience and the campaign is driven by consequence and relationship, not capability development. However, specific situational branches are emerging from the active arcs.
+
+**Developing nodes (no marks required — already demonstrated in Session 01):**
+- CRAFT / Systems I — reading the ledgers, the fictitious contractor structure, and the laundering chain in a single working dinner; institutional machinery is a native language
+- SOCIAL / Connection I — Bruck alignment, Hannah's trust, Lukas's cooperation, Pell's judgment; Viktor builds reliable networks fast
+
+**Worth watching:** If the Corvel/Aldenberg investigation deepens, a SOCIAL / Read branch and a CRAFT / Systems II gate may both be in play by Session 03–04. The Oswin third-option angle (Isalia's manor) could generate a SOCIAL / Presence node if Viktor navigates it as a negotiation.
+
+Ref: `Core_Rules/Skill_Trees.md`
