@@ -67,6 +67,7 @@ D:\Claude_MCP_folder/
 - Minimize tool calls; batch reads with `filesystem:read_multiple_files`
 - Batch file writes into single operations
 - Estimate token cost before multi-file tasks
+- **Model selection:** For multi-file write tasks, consider Opus→Haiku handoff (see MODEL HANDOFF PROTOCOL). Opus plans with no MCP calls; Haiku writes at ~5x lower token cost.
 
 ## STEP 3: DIRECTORY INDEX
 
@@ -176,6 +177,59 @@ Process: Read → identify exact target text → edit with verified string.
 ## FILE CREATION VERIFICATION
 
 After every `filesystem:write_file`: read the file back immediately. Verify content matches and frontmatter is intact. `write_file` has returned false successes — never trust the return alone.
+
+## MODEL HANDOFF PROTOCOL (Opus → Haiku)
+
+Cost optimization: Opus handles reasoning and content generation with NO MCP tool calls. Haiku handles all filesystem writes at ~5x lower token cost.
+
+### Opus Phase (Chat Output Only — No Tool Calls)
+1. Do all reasoning, content generation, path planning
+2. Output a HANDOFF BLOCK in chat containing:
+   - Each file's destination path
+   - Each file's full content
+   - Pre-formatted git commit message
+3. User saves the handoff block to Project Files, or copies it directly
+
+**Opus must not call any filesystem or memory MCP tools during this phase.**
+The entire cost saving depends on Opus producing output tokens only.
+
+### Handoff Block Format
+```
+===HANDOFF START===
+COMMIT: "Category: Subject | Details | Date"
+
+---FILE 1---
+PATH: World_Building/Aethelmark/Silberbach/Town/Characters/New_NPC.md
+CONTENT:
+---
+name: NPC Name
+keywords: [keyword1, keyword2]
+description: One sentence
+---
+[file body here]
+---END FILE---
+
+---FILE 2---
+PATH: ...
+CONTENT:
+...
+---END FILE---
+
+===HANDOFF END===
+```
+
+### Haiku Phase (Execution)
+1. Receive handoff block (via Project File or paste)
+2. Parse each file entry
+3. `filesystem:write_file` to each destination path
+4. Verify each with `filesystem:read_text_file` (per FILE CREATION VERIFICATION)
+5. Propose git commit using the COMMIT line from the block
+6. Confirm: `[HANDOFF COMPLETE] X files written`
+
+### When to Use
+- Batch writes of 3+ files where Opus-quality planning matters
+- Session extractions, character creation batches, lore builds
+- NOT worth it for single quick edits (overhead exceeds savings)
 
 ---
 
