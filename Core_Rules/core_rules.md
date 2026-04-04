@@ -149,6 +149,22 @@ Do not wait until the conversation is critically short to flag this.
 
 ---
 
+## PC Progression & Skill Trees
+
+**Optional System:** The Emergent Skill Tree System is available for campaigns where character capability development is a core narrative element. It is not required for all campaigns.
+
+**When to use:** Character is genuinely new/blank slate, undergoes transformation or augmetic conversion, or campaign has capability development as central theme. Common in Kennel Hounds campaigns.
+
+**When to skip:** Established characters (Isalia Kreiger), primarily political/social campaigns (Nobles Commission), or fiction doesn't support meaningful distinction between capability tiers.
+
+**System overview:** Skills are not chosen—they are recognized by the GM after the fact as a description of what the character has demonstrably become through repeated action and meaningful experience. Six foundation archetypes (Body, Mind, Social, Craft, Edge, Essence) develop through use marks and narrative gates. Discovered trees unlock through fiction. Higher tiers don't add mechanical bonuses; they change what outcomes are *possible*, what information surfaces, and how NPCs respond.
+
+**For the complete system documentation, guidelines on when and how to apply it, and campaign-specific recommendations, see:** [[Skill_Trees]]
+
+**For the tracking template and character sheet integration, see:** [[Skill_Tree_Block]]
+
+---
+
 ## World Timeline & Continuity
 
 **Reference the Master Campaign Calendar to:** verify what major events have or haven't happened, check what time-sensitive deadlines are approaching, understand what NPCs would know about the broader world.
