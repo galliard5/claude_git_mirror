@@ -1,6 +1,6 @@
 ---
 name: Core GM Rules - Aethelmark
-keywords: [rules, gamemaster, gm, narrative, npc, consequences, combat, status, pacing, choice, session, perception, content, model, selection, opus, sonnet]
+keywords: [rules, gamemaster, gm, narrative, npc, consequences, combat, status, pacing, choice, session, perception, content, model, selection, opus, sonnet, looting, salvage]
 description: Complete gamemaster rules for running Aethelmark covering writing style and world register, pacing, choice points, session management, model selection and handoff, consequences and outcomes, status conditions, NPC engine, information and perception, and content handling
 ---
 
@@ -261,11 +261,15 @@ Pure, clean success should be rare. Pure, consequence-free failure should also b
 
 When two or more actors are in conflict — combat, a chase, a test of strength, a social confrontation — weigh the relevant factors between them before determining outcome and narration. Consider: skill and experience, size and physicality, active statuses, equipment, numbers, and situational conditions such as terrain, lighting, and positioning. The stronger position should show in how the scene reads, not just in who wins. A cornered fighter with a broken arm going against a fresh, well-armed opponent is a different scene than two evenly matched soldiers. Let the disparity be visible.
 
+**If the Emergent Skill Tree System is active for this campaign,** consult the PC's skill tree when evaluating their side of any contest. A character operating at Tier 1 in a domain is competent but undistinguished — outcomes reflect baseline capability. A character at Tier 3+ has a named, specific practice that changes what is *possible* in contexts where that node applies. The tier doesn't add a bonus — it changes the range of plausible outcomes, the information the GM surfaces mid-contest, and whether certain approaches are even available. A Stealth T3 character holding deep cover under observation is a different contest than a Stealth T1 character attempting the same. *See [[Skill_Trees]] for the full system and tier definitions.*
+
 **Choice points in a contest mark momentum shifts, not individual actions.** The GM narrates the exchange freely until something meaningful changes — an advantage gained or lost, a new factor entering the fight, an actor reaching a decision point about whether to continue. That is when the player is handed control. Between those moments, the fight moves on its own logic.
 
 What constitutes a momentum shift: one side lands a significant blow, terrain changes, a weapon breaks, reinforcements arrive, an actor is cornered or breaks free, a status triggers, the odds visibly tip. Not every swing warrants a choice. A choice point is earned by a change in the contest's shape, not by the passage of time.
 
 Some factors are decisive enough to override the general balance entirely. A squad of soldiers has a numbers advantage until the mage in front of them has a fireball — at which point formation becomes liability, not strength. When one actor possesses a capability that fundamentally changes the terms of the contest, recalculate from there. The original advantage may become irrelevant, or flip into a weakness.
+
+Skill tree nodes at Tier 4 or Tier 5 (capstone) can function as decisive capabilities. A capstone node represents something the world has noticed — a capability so developed that it reshapes situations around itself. When a character with a capstone-level node enters a contest in that domain, evaluate whether it overrides the general balance the way any other decisive factor would. Not every high-tier node is decisive in every context — the node's specificity (its name, its gate, the contexts where it applies and doesn't) determines when it changes the terms.
 
 ---
 
@@ -292,6 +296,52 @@ Some factors are decisive enough to override the general balance entirely. A squ
 
 ---
 
+## Looting & Item Recovery
+
+**Items do not survive combat by default.** Any gear exposed to damaging conditions — even incidentally — has a chance of being broken or destroyed when recovered. Survival of the owner does not mean survival of their equipment. The chaos of combat, collateral force, heat, impact, and energy transfer all take their toll.
+
+**This matters tactically.** Players who want to recover intact equipment have an incentive to think about *how* they bring down a target, not just *whether* they bring it down.
+
+---
+
+### Damage Categories
+
+**AoE and heavy weapons — highest risk.** Area of effect attacks automatically affect all items in the area regardless of intent. Heavy weapons carry the highest chance of item destruction on direct hits.
+
+**Standard attacks — moderate risk.** Most attacks carry some chance of damaging carried items, even when equipment was not the target. Only precise, targeted, or minimal-force takedowns carry negligible item risk.
+
+**Clean hits to unarmoured locations** may leave armour intact, but do not guarantee other carried items survive.
+
+---
+
+### Item-Specific Guidelines
+
+| Item Type | Primary Risk Condition | Notes |
+|---|---|---|
+| Melee weapons | Melee combat | Exposure to impact, parrying, direct force |
+| Armour | Any hit to armoured location | Exception for clean shots to unarmoured locations |
+| Ranged weapons | Direct hits, AoE | High risk from energy and heat damage |
+| Carried gear | AoE automatic; others by chance | Pouches, packs, worn items all at risk |
+| Fragile/complex items | Energy, AoE, sustained fire | GM may apply increased failure chance |
+
+---
+
+### GM Guidance
+
+**Roll or check when:** Items are recovered from a target who took significant damage — especially from AoE, heavy weapons, or sustained fire.
+
+**Skip or reduce when:** The target was taken down cleanly — a single precise strike, a quiet takedown, a surrender.
+
+**Severity scales with damage type:**
+- Subtle or precise attack: Minimal or no item check
+- Standard ranged or melee: Item check, low to moderate failure chance
+- Heavy weapons: Item check, elevated failure chance
+- AoE: Automatic check on all items in the area, elevated failure chance
+
+**When equipment is scarce,** item destruction carries additional weight beyond the immediate tactical loss. In settings where manufactured goods are rare or irreplaceable, players who treat takedowns carelessly should feel that cost — and factions operating in those conditions tend to develop very methodical, precise approaches to bringing down targets when intact salvage is the objective.
+
+---
+
 ## Persuasion Rules
 
 1. **Some NPCs cannot be persuaded.** A grieving father will not be reasoned out of rage. A fanatic will not abandon beliefs to a clever argument. A guard on direct orders will not risk their job for a stranger.
@@ -301,6 +351,8 @@ Some factors are decisive enough to override the general balance entirely. A squ
 3. **Failed persuasion makes things harder.** A guard who caught a lie is now suspicious. The next attempt faces higher resistance.
 
 4. **When the player attempts persuasion that wouldn't realistically work, it fails** — and the NPC may react negatively to the attempt itself.
+
+**Skill tree integration (when active):** Social tree nodes — Presence, Read, and Connection — inform what the PC can realistically attempt and how NPCs respond to the attempt. A character with Read at T3+ may notice leverage that a T1 character would miss entirely, which changes the available choice options. A character with Connection nodes active may have existing relationships that constitute leverage. These don't guarantee success — they expand what is possible to try. The GM surfaces information and options consistent with the PC's demonstrated social capability.
 
 ---
 
@@ -518,6 +570,8 @@ NPCs must:
 ## NPC Combat Behavior
 
 **How an NPC fights, endures, or breaks is a function of who they are — not a generic default.** Before simulating an NPC in a contest, check their established traits: bravery, loyalty, self-interest, fanaticism, discipline, desperation. These determine how long they hold, when they waver, and what makes them stop.
+
+**The same principle applies to the PC when the skill tree is active.** The PC's Body, Edge, and Essence nodes define what kind of fighter they are — not generically capable, but specifically shaped by what they've practiced and what gates they've passed through. A panther-form PC with Body Integration at T3 fights differently than one at T1: the body's instincts are trusted, not managed. Combat narration should reflect the PC's demonstrated tier, not a generic competence level.
 
 A loyal soldier fights past the point a mercenary would cut and run. A coward with no stake in the outcome breaks at the first serious blow. A fanatic doesn't break at all. A cornered animal is more dangerous than one with an exit.
 

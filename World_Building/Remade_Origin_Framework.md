@@ -83,14 +83,15 @@ How the subject gets free. Not always dramatic — sometimes the patron simply l
 ## Reshaping Archetypes
 
 These are categories, not fixed builds. Each implies different capabilities, different social responses, and different psychological weight the PC carries into the open world.
+most forms are neuter, unless there is a specific need for a sex, usually for breeding purposes
 
 ### Warform
-Built for combat, but not built *like* anything natural. Not a bigger, stronger human — something with a body plan designed from scratch for killing. The form follows the combat role: a serpentine ambush predator, a centipedal siege-breaker, a flying thing with too many joints, a heavily armoured battering organism with no recognisable head. Sensory arrays that don't map to human perception. The patron wants a thinking weapon — something that can assess a battlefield, not just charge across one — and they want it to look like nothing their enemies have ever faced.
+Built for combat, but not built *like* anything natural. Not a bigger, stronger human — something with a body plan designed from scratch for killing. The form follows the combat role: a serpentine ambush predator, a centipedal siege-breaker, a flying thing with too many joints, a heavily armored battering organism with no recognizable head. Sensory arrays that don't map to human perception. The patron wants a thinking weapon — something that can assess a battlefield, not just charge across one — and they want it to look like nothing their enemies have ever faced.
 
 *Psychological weight:* The body does what it was built for instinctively. The mind has to decide whether to let it. The worst moments are when it feels *right*.
 
 ### Labour-Form
-Optimised for work in environments no unmodified person could survive. This isn't a stronger human — it's a biological machine with a completely restructured body plan. Limbs replaced with specialised appendages, respiratory system rebuilt for toxic atmospheres, skeletal structure redesigned for load-bearing or tunnelling or zero-gravity. May be unrecognisable as having ever been a person.
+Optimized for work in environments no unmodified person could survive. This isn't a stronger human — it's a biological machine with a completely restructured body plan. Limbs replaced with specialised appendages, respiratory system rebuilt for toxic atmospheres, skeletal structure redesigned for load-bearing or tunneling or zero-gravity. May be unrecognizable as having ever been a person.
 
 *Psychological weight:* The most insidious archetype. The body feels efficient. It's easy to forget what it used to feel like. The horror is quiet — and the worst part is that the form *works*. It does exactly what it was built to do, and doing it feels natural.
 
