@@ -37,30 +37,19 @@ A separate entrance leads to stalls and pens for animal patients who don't fit i
 
 ## Available Procedures
 
-**Reversion & Medical Care**
-Reverting transformations, treating transformed-body medical conditions, surgical procedures including body modification and cosmetic alterations. Dr. Korr's dual veterinary-human expertise allows her to treat conditions that standard physicians will not touch. Covers the full spectrum from routine care to complex post-transformation surgery.
-- *Cosmetic & body modification:* Surgical alterations to form, features, or function. Handled case-by-case. Full consultation required. Reversibility discussed and documented prior to any procedure.
-- *Transformed-body medicine:* Infections, metabolic strain, joint failure, sensory overload, and other conditions specific to partially or fully transformed residents.
-- *Reversion:* Full or partial reversal of transformation. Requires Alric's involvement for the alchemical component. Success rate varies by time elapsed since original transformation and potion type used.
+*Full procedure definitions, consent requirements, and policy details: [[Estate_Services#Medical and Surgical Services]]*
 
-**Full Transformation Add-On: Mental Regression**
-An optional add-on available only alongside a full transformation procedure. Reduces the patient's mind to the cognitive and instinctual state of the animal form — appetite, impulse, and perception become those of the beast. Speech, complex memory, and self-reflection are lost permanently.
+**Reversion & Medical Care** → [[Estate_Services#Reversion Services]]
+Full and partial reversion of transformations. Routine care, transformed-body medicine (metabolic strain, sensory overload, joint failure, infection), and post-transformation recovery monitoring. Requires Alric's involvement for the alchemical component of reversion.
 
-*This procedure is one-way and irreversible. It cannot be undone by reversion elixir or any known alchemical means.*
+**Cosmetic & Body Modification** → [[Estate_Services#Medical and Surgical Services]]
+Surgical alterations to form, features, or function. Case-by-case; full consultation required. Reversibility documented prior to any procedure.
 
-Verification requirements before proceeding:
-- Minimum two separate consultations on different days, with a mandatory waiting period between them
-- Written consent signed in the presence of Isalia or Lyra as witness, in addition to Dr. Korr
-- Korr must be satisfied the patient is fully lucid and not acting under duress, coercion, or temporary emotional crisis
-- A second medical opinion is strongly preferred; Korr may refuse to proceed without one at her discretion
-- If there is any doubt about the patient's state of mind, the procedure is postponed, not denied — the distinction matters to how the manor handles it
+**Full Transformation Add-On: Mental Regression** → [[Estate_Services#Transformation Services]]
+Optional add-on alongside full transformation only. Permanent and irreversible; no reversion elixir can undo it. Two-consultation minimum, written consent witnessed by Isalia or Lyra, Korr satisfaction of full lucidity required. Doubt → postponed, not denied.
 
-Patients who complete this procedure are transitioned into the estate's animal care program. They are treated with the same dignity and quality of care as any resident.
-
-**Surgical Body Modification & Gender Affirming Procedures**
-Permanent anatomical alterations including castration, penectomy, clitorectomy, hysterectomy, gender nullification, and urethral rerouting. These procedures cannot be performed via transformation potion — potions operate on a species-template model and cannot selectively modify or remove anatomy within a single form. Surgical precision is required.
-
-*Consent & verification:* All procedures in this category are permanent and irreversible. A minimum of one full consultation is required prior to scheduling. Written consent must be signed in the presence of Dr. Korr and witnessed by Isalia or Lyra. If Dr. Korr has any concern about the patient's state of mind or the presence of external pressure, the procedure is postponed pending a second consultation — not denied outright.
+**Surgical Body Modification & Gender Affirming Procedures** → [[Estate_Services#Medical and Surgical Services]]
+Castration, penectomy, clitorectomy, hysterectomy, gender nullification, urethral rerouting, and related permanent anatomical alterations. Cannot be achieved via transformation potion. One consultation minimum; written consent witnessed by Isalia or Lyra. Concern about patient state of mind → postponed pending second consultation.
 
 ---
 

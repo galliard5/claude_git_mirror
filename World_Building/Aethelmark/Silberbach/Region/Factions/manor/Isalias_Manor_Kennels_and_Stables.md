@@ -9,7 +9,9 @@ Isalia's Manor Kennels & Stables
 
 A pastoral estate specializing in breeding, transformation services, and magical items.
 
-Description: A pastoral estate on the outskirts of a mid-sized river valley town. The manor specializes in breeding prized feral horses and canines, permanent animal transformations (mind preserved unless requested), surrogacy & whelping for high-status clients, erotic modification for slaves/servants, boarding for transformed individuals, and the sale of custom sexual magical items.
+Description: A pastoral estate on the outskirts of a mid-sized river valley town. For a full catalogue of services offered, see [[Estate_Services]].
+
+Services at a glance: breeding (feral horses and canines), permanent animal transformations (mind preserved unless requested), surrogacy & whelping, erotic modification for slaves/servants, boarding for transformed individuals, and the sale of custom sexual magical items.
 
 **Business Ethics:**
 - Only volunteers or certified slaves accepted

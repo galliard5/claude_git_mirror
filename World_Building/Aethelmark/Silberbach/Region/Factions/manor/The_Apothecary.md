@@ -27,25 +27,22 @@ At the room's far end, near the door to the intake corridor, a consultation alco
 
 ## Inventory
 
-Items in the cases are organized loosely by category, though the arrangement shifts when new stock arrives or an item sells.
+Items in the cases are organized loosely by category, though the arrangement shifts when new stock arrives or an item sells. For full service definitions, pricing tiers, and procedure details, see [[Estate_Services]].
 
 **Transformation Services** *(consultation required — not sold off-shelf)*
-Price list available at the counter. Three variants available: genital-only, partial, and full transformation. No inherent species restriction — any species Alric has studied can be produced. Current convenience stock covers wolfhound, destrier, doe, boar, and vixen in both sexes where applicable; anything outside that is commissioned directly with Alric. The reversion elixir is included in all standard contracts unless permanence is specified and signed for.
+Three variants: genital-only, partial, and full transformation. Genital-only and partial are form only — reproduction does not change unless the Reproductive Conversion Compound is also taken. Full transformation includes the compound automatically (health requirement). Convenience stock covers wolfhound, destrier, doe, boar, and vixen; custom species commissioned via Alric. Reversion elixir included in all standard contracts unless permanence is signed for. → [[Estate_Services#Transformation Services]]
 
 **Reversion Elixirs** *(available off-shelf, tiered pricing)*
-Stock kept behind the counter, not on display. Alric brews these on a standard rotation. Three grades: standard (covers all estate-produced transformations), partial (targeted system reversion — specialized, requires consultation), and emergency (accelerated dissolution, higher cost, higher physical toll). A client does not need a prior estate transformation to purchase — but Selene will ask questions.
+Three grades: standard, partial, and emergency. Kept behind the counter. Client need not have transformed here to purchase — but Selene will ask questions. → [[Estate_Services#Reversion Services]]
 
 **Enchanted Accessories**
-Speech-enchantment collars in several weights and materials — leather, worked steel, engraved brass. Each has an on/off toggle that the *staff* control, not the wearer. Sample collars are in the left-hand case. Restraint hardware (padded cuffs, leads, adjustment rings) shares the same case. Branded sigil kits — for marking, not for burning — are kept in a small cedar box on the counter shelf and shown by request.
-
-**Portal Devices**
-The [[Portal_Panties|Portal Panties]] system is the primary offering here. The sample board in the consultation alcove is available to examine. Fittings are not done in the store — clients are moved to the intake rooms once they're ready. Membranes are kept in a locked case near the counter, labeled only by size notation.
+Speech-enchantment collars (leather, worked steel, engraved brass; staff-toggled). Restraint hardware. Branded sigil kits on request. Portal Panties system — sample board in the consultation alcove; fittings in intake rooms. Dr. Everhorn's Clitoral Cages (import, off-shelf, sized by breed). → [[Estate_Services#Enchanted Items and Accessories]]
 
 **Medical Compounds** *(from Alric's lab)*
-Wound salves, recovery compounds, fever reducers, and a small selection of fertility aids. Also stocked: the estate's standard pain management preparations — used during and after procedures. These sit in a small dedicated case near the window, plainly labeled, with a card referencing Dr. Korr for anything requiring clinical guidance.
+Wound salves, recovery compounds, fever reducers, fertility aids, pain management preparations. Dedicated case near the window; card references Dr. Korr for clinical guidance. → [[Estate_Services#Alchemy and Medical Compounds]]
 
 **Specialty Items** *(Elowen's work and select imports)*
-The back half of the right-hand case holds Elowen's finished pieces — items that have come out of commission or been produced as speculative stock. Each one is unique. Elowen prices her own work. The imports sit beside them: items sourced through Isalia's guild contacts in Silberbach and beyond, typically once or twice a year when she makes the trip.
+Elowen's finished pieces — each unique, priced by her. Import stock via Isalia's guild contacts; arrives once or twice yearly. → [[Estate_Services#Enchanted Items and Accessories]]
 
 ---
 
