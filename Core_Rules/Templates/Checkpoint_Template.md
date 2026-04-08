@@ -137,6 +137,36 @@ PLOT THREADS & HOOKS (What's Unresolved)
 
 ---
 
+FILES TO LOAD ON RESUME
+
+(List every file the resuming model must read before beginning play.
+Use full paths relative to project root. Group by priority.)
+
+**Required (Load before play begins):**
+- [Core rules]: Core_Rules/core_rules.md
+- [Scenario]: World_Building/Aethelmark/Scenarios/[Campaign]/[Scenario_File].md
+- [Sonnet Briefing]: [path, if one exists for this scenario]
+- [PC Sheet]: [path to active character sheet]
+- [Prior Summaries]: [paths to all session summaries for this campaign, in order]
+
+**Contextual (Load if relevant to active threads):**
+- [NPC Sheet]: [path] — [reason: e.g., "Oswin interrogation pending"]
+- [Location Brief]: [path] — [reason: e.g., "PC returning here next morning"]
+- [Faction/Org]: [path] — [reason: e.g., "guild politics active"]
+- [Timeline]: [path] — [reason: e.g., "time-sensitive deadlines approaching"]
+
+**Optional (Reference if needed mid-session):**
+- [Item/Enchantment]: [path] — [when relevant]
+- [Skill Tree]: [path] — [if system is active for this campaign]
+- [Other crosslinked file]: [path] — [context]
+
+(Strip any files that are no longer relevant. Add any new files
+that became relevant during this session. The goal is a cold-start
+loading list — if the resuming model reads only these files plus
+this checkpoint, play should resume seamlessly.)
+
+---
+
 GM MEMORY NOTES (For AI Continuity)
 
 **NPC Voices to Maintain:**
@@ -237,6 +267,18 @@ Background continuity:
 **Pending:** Quests/favors NPCs asked for, mysteries to solve  
 **Complications:** Time bombs (what gets worse if ignored?)  
 **Opportunities:** Limited-time quests (what expires soon?)  
+
+### FILES TO LOAD ON RESUME
+
+**This is the cold-start checklist.** If a different model instance (or the same model in a new conversation) picks up this checkpoint, this list tells it exactly what to read before play begins. Nothing should be left to inference or memory.
+
+- **Required:** Always loaded. Core rules, the scenario doc, the PC sheet, all prior session summaries, and the Sonnet Briefing if one exists. Without these, the session cannot run accurately.
+- **Contextual:** Files tied to active plot threads. If an NPC interrogation is pending, their character sheet belongs here. If the PC is heading to a specific location next, that location brief belongs here. Update this list every checkpoint — drop files that are no longer relevant, add files that became relevant during the session.
+- **Optional:** Reference material that might be needed but doesn't need to be loaded upfront. Skill trees, item databases, enchantment lists — things the GM can pull mid-session if the scene calls for it.
+
+**The test:** Could a model with no prior context load this checkpoint plus every file in the Required and Contextual lists and run the next session without missing anything? If not, a file is missing from the list.
+
+---
 
 ### GM MEMORY NOTES
 
