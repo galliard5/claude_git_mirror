@@ -78,6 +78,34 @@ The temporal displacement is not predictable and is not controllable. It correla
 
 Most captains treat warp hurricanes as hazards to be avoided. A few — rogue traders, primarily, and the kind of captain who has more courage than remaining options — treat them as tools. The ones who survive the ride usually have stories that nobody entirely believes.
 
+### Warp Breaches
+
+At sufficient intensity, a warp hurricane does not merely churn through warpspace. It breaks through.
+
+The barrier between warpspace and realspace is not infinitely strong. Under normal conditions it holds effortlessly — the two dimensions coexist without interacting, separated by a boundary that neither side can casually breach. But a warp hurricane of sufficient force can rupture that boundary, tearing open a region of realspace where the warp floods through and the normal rules stop applying.
+
+In the void, this is rarely catastrophic. Space is vast and empty. A warp breach in open interstellar space produces a region of distorted reality that ships can detect and avoid — a navigational hazard, marked on charts, given a wide berth. The warp fauna that spill through the breach into realspace are dangerous but directionless, and in the absence of prey or arcane signatures to draw them, most drift or dissipate. The breach eventually seals as the hurricane passes and the barrier reasserts itself, leaving behind a patch of space where the residual warp radiation makes instruments behave strangely for years or decades.
+
+When a breach occurs near a planet, the consequences are catastrophic.
+
+A planetary warp breach cascades. Low-level ambient warp radiation washes over the surface — not the concentrated exposure of a Geller field failure, but a sustained environmental saturation that few structures and no unshielded populations can withstand. Mutations begin within hours. Not the gradual, architecture-following mutations of controlled exposure — rapid, disordered, driven by raw warp energy interacting with unprepared biology. Wildlife, livestock, vegetation, people — everything biological within the affected region begins to change. The warp fauna that emerge through the breach are no longer directionless — they have an entire biosphere of arcane-saturated organisms to interact with, and they do.
+
+If the breach is localised and short-lived, the damage may be contained to a region. Devastating for the people in that region, but survivable for the planet as a whole. If the breach is sustained — if the hurricane lingers, if the local warp topology holds the rupture open — the saturation spreads. The entire planet begins to change.
+
+When a warp breach envelops a planet entirely, what remains afterward is sometimes called a demon world. The term is inaccurate — there are no demons, only warp fauna and the wreckage of what was there before — but it captures the emotional truth of what these places become. Reality on a demon world does not follow normal rules. Geometry becomes non-euclidean — corridors that loop back on themselves, spaces that are larger inside than outside, distances that change depending on when you measure them. Time flows strangely — pockets where hours pass in minutes, others where minutes take days. The matter of the planet itself has been saturated with warp energy over sufficient duration that it has warped and changed into forms that have no natural analogue — stone that grows, metal that bleeds, structures that were not built by anything but exist nonetheless.
+
+Warp entities and mutated creatures wander the surface. Some were the planet's original inhabitants, transformed beyond recognition. Some are warp fauna that crossed through the breach and found a realspace environment saturated enough to sustain them. Some are things that defy classification — products of warp energy interacting with matter over time in ways that nobody predicted because nobody was around to observe the process.
+
+Demon worlds are not uninhabitable in an absolute sense. Expeditions have entered them and returned — not always intact, not always unchanged, but alive. The ruins on a demon world may contain pre-collapse technology preserved by the very warp saturation that makes the world dangerous, which makes them targets for archaeologists desperate or ambitious enough to attempt the recovery. The survival rate for such expeditions is not encouraging.
+
+The worst scenario is when a warp breach of sufficient magnitude envelops a star.
+
+A warp-saturated star does not go dark. It changes. The star itself begins to radiate warp energy alongside — or instead of — its normal output. The effect cascades through the entire system. Every planet, every moon, every body in orbit receives sustained warp radiation at a level that makes even a planetary breach look gentle. The saturation extends beyond the system itself — nearby systems, depending on proximity and stellar output, can experience elevated ambient warp radiation at levels sufficient to produce environmental effects over years and decades.
+
+A warp-saturated star system is, for practical purposes, lost. The planets become demon worlds. The space between them becomes navigationally treacherous — the elevated warp radiation interferes with Geller field operation and makes transit through or near the system significantly more dangerous. The system becomes a permanent hazard on navigational charts, avoided by everyone who can afford to take a longer route.
+
+These events are rare. They are not rare enough. The historical record contains enough confirmed instances to establish that they happen, and the navigational charts of every major polity contain enough exclusion zones to suggest that the historical record is incomplete.
+
 ### Navigators
 
 Navigators are individuals with an innate arcane sensitivity specifically oriented toward the warp — the ability to perceive its currents, its fauna, its topology in a way that can be translated into navigational decisions. This sensitivity is not common. It is not reliably hereditary, though certain bloodlines produce Navigators at higher rates than the general population. It cannot be trained into someone who lacks the underlying capacity. It can only be refined in someone who has it.
