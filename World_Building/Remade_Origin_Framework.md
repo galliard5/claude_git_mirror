@@ -1,13 +1,13 @@
 ---
 name: Remade Origin Framework
-keywords: [framework, origin, transformation, biomancer, cross-setting, campaign-start, rogue_trader, dead_terra, aethelmark]
-description: Modular origin framework for campaigns beginning with forced transformation — adaptable across settings
+keywords: [framework, origin, transformation, biomancer, cyberwright, cyberservitor, cross-setting, campaign-start, rogue_trader, dead_terra, aethelmark]
+description: Modular origin framework for campaigns beginning with forced transformation — adaptable across settings and methodologies
 ---
 
 # Remade Origin Framework
 
 **Type:** Cross-setting campaign origin framework
-**Compatible Settings:** Rogue Trader, Dead Terra, Aethelmark, any setting with biological reshaping
+**Compatible Settings:** Rogue Trader, Dead Terra, Aethelmark, any setting with biological reshaping or cybernetic augmentation
 **Campaign Style:** Open-world, long-form
 **Starting Point:** Post-capture, pre- or post-transformation
 
@@ -15,13 +15,13 @@ description: Modular origin framework for campaigns beginning with forced transf
 
 ## Core Premise
 
-Someone with no power has their rights purchased by someone with too much of it. They are handed to a specialist — biomancer, alchemist, hedgewitch — and remade into something inhuman. Not killed, not broken. *Reshaped.* Fully aware.
+Someone with no power has their rights purchased by someone with too much of it. They are handed to a specialist — biomancer, alchemist, hedgewitch, cyberwright — and remade into something inhuman. Not killed, not broken. *Reshaped.* Fully aware.
 
 The patron wants the subject's mind intact. The reasons vary. The specialist complies, but leaves a crack in the cage.
 
 The campaign begins when the crack widens enough to matter.
 
-**Degree of reshaping:** The patron has a taste for the extreme. These are not subtle modifications — not a person with claws or scales. The results are *completely inhuman*. Wrong body plans. Too many limbs, or not enough. Insectoid, vermiform, sessile, chimeric — forms that have no recognisable relationship to what the subject was before.
+**Degree of reshaping:** The patron has a taste for the extreme. These are not subtle modifications — not a person with claws or scales. The results are *completely inhuman*. Wrong body plans. Too many limbs, or not enough. Insectoid, vermiform, sessile, chimeric — forms that have no recognisable relationship to what the subject was before. In cybernetic cases: total conversion chassis with no external resemblance to a human form, sensor arrays where a face should be, industrial or combat hardware so extensive that the original body is gone entirely — brain in a capsule inside a machine that was built for a purpose, not for personhood.
 
 Even features one might consider fundamental are optional. Heads, faces, eyes, hands, bilateral symmetry — none of these are guaranteed. Senses may be replaced entirely: antennae or pits instead of eyes, vibration-sensing plates instead of ears, chemoreceptors instead of a nose. The subject still perceives the world — possibly more effectively than before — but through organs that bear no resemblance to what they had. For gameplay purposes, the player may still functionally "see" and "hear," but the *experience* of perception is alien. They feel the shape of a room through air currents, or taste the emotional state of someone nearby, or sense movement through substrate vibration.
 
@@ -140,7 +140,7 @@ The patron must be powerful enough that the specialist cannot meaningfully refus
 
 ## The Specialist
 
-A role, not a character. The specialist is whoever performs the reshaping — biomancer, alchemist, hedgewitch, gene-wright, flesh-sculptor. Their methods vary by setting but their structural position is the same: skilled enough to do the work, compromised enough to accept the commission, and professional enough to have opinions about how it should be done.
+A role, not a character. The specialist is whoever performs the reshaping — biomancer, alchemist, hedgewitch, gene-wright, flesh-sculptor, cyberwright. Their methods vary by setting but their structural position is the same: skilled enough to do the work, compromised enough to accept the commission, and professional enough to have opinions about how it should be done.
 
 ### The Specialist's Position
 
@@ -179,6 +179,20 @@ The crack in the cage. The thing the patron doesn't know about, or doesn't know 
 **Kill switch reversal** — The patron has a kill switch. The specialist wired it wrong, or wired it to do something other than kill. Activating it might free the subject, or hurt the patron, or simply do nothing.
 
 **Identity anchor** — The specialist preserved something the patron wanted erased — a memory, a sensory association, a name. It's buried deep, but it's a thread the subject can pull.
+
+### Cybernetic-Specific Flaws
+
+When the specialist is a cyberwright, the control mechanisms are mechanical rather than biological, and the flaws take corresponding forms:
+
+**Backdoor access** — The cyberwright built a maintenance port, interface channel, or command override that the patron doesn't know about. The subject may not know either — but the right signal, the right tool, or the right contact with a compatible system could trigger it. Discovery might come through accidental interface with external hardware.
+
+**Firmware drift** — The obedience architecture runs on software that the cyberwright designed to degrade without scheduled updates the patron doesn't know are necessary. The control erodes in the background, error by error, until it no longer holds. Functionally similar to degrading architecture but detectable by anyone who knows what to look for in a diagnostic readout.
+
+**Component loyalty** — The cyberwright installed components that respond to the subject's neural patterns rather than the patron's control signals. The hardware is technically the patron's property. It listens to the person inside it. This may manifest as augmentations that perform slightly differently than the patron expects — a weapon system with a fractional delay, a sensory array that occasionally shows the subject something the control layer should have filtered out.
+
+**Override conflict** — The patron's control system and the subject's own neural interface are running on architectures that are subtly incompatible. The cyberwright built the incompatibility in. Under stress, the control system and the subject's own will compete for priority, and the subject's will has home advantage — it's running on the original hardware.
+
+**Maintenance dependency** — The control mechanism requires periodic recalibration by the cyberwright. The patron knows this but considers it routine. The cyberwright has been making each recalibration slightly less effective, counting on the patron not noticing the incremental change. By the time the control fails, it looks like equipment wear rather than sabotage.
 
 ---
 
@@ -238,6 +252,16 @@ Others have come through this process. Not all kept their minds. Not all escaped
 - **Escaped population:** The too-clever fox in the woods. The herd animal that won't stay penned. The thing in the old mine that the locals tell stories about.
 - **Unique element:** In Aethelmark, institutional transformation (kennel hound programmes, Isalia's manor) exists as a *regulated* version of this. The Remade origin is the unregulated, black-market, no-oversight version — the thing the institutions exist partly to prevent or at least control.
 
+### Cyberservitor / Industrial Setting
+- **Specialist:** Cyberwright, rogue mechanicus chirugen, back-alley implanter
+- **Method:** Cybernetic augmentation through removal and replacement — organic tissue excised, mechanical and electronic components installed in its place. At the extreme end, total conversion: brain extracted, encased in life support, installed in a purpose-built chassis.
+- **Patron type:** Industrial magnate, warlord with a forge, station commander, cartel boss with access to a workshop
+- **Forms available:** Combat chassis, industrial platforms, sensor arrays, maintenance rigs, integrated infrastructure components. The cybernetic Remade origin produces forms that are visibly *built* rather than grown — metal, polymer, wiring, actuators. The subject is inside a machine, not inside a body.
+- **Escape environment:** Industrial zones, scrapyards, the infrastructure the subject was built to maintain, anywhere with enough technical detritus to scavenge replacement parts
+- **Escaped population:** Chassis-dwellers in the machine spaces, converted workers who outlived their usefulness, combat frames whose control locks degraded. Cybernetic escapees face a survival pressure biological ones do not: maintenance. Without access to parts and a competent technician, their bodies slowly fail.
+- **Unique element:** The road back is longer and harder than the biological equivalent. A biologically reshaped escapee needs a biomancer to reverse the work — difficult but structurally straightforward. A cybernetically converted escapee needs their original body *rebuilt from scratch* — which requires a biomancer or chirugen in addition to a cyberwright, compatible biological material, and a procedure that amounts to a second transformation rather than a reversal. Total conversion escapees carry the additional weight of knowing that what was done to them may be functionally permanent. The body they had is gone. What they inhabit now is what they are.
+- **Control mechanisms:** Tend toward the mechanical — command overrides, obedience firmware, remote shutdown capability, loyalty locks coded to the patron's biometrics or command codes. These are harder to sabotage subtly than biological controls (the patron can run a diagnostic) but the cyberwright who installed them knows the system better than the patron does, and that knowledge is the crack in the cage.
+
 ---
 
 ## Campaign Hooks (Post-Origin)
@@ -254,7 +278,7 @@ These are starting threads for open-world play after the origin sequence:
 
 **The Body Rebels** — The reshaped form has needs, instincts, or capabilities the PC is still discovering. Some are useful. Some are horrifying. Some are both.
 
-**Reversal** — Is it possible? At what cost? Who would do the work? Would the result even be "going back" or just another reshaping?
+**Reversal** — Is it possible? At what cost? Who would do the work? Would the result even be "going back" or just another reshaping? For cybernetic Remade, the question is sharper: the original body doesn't exist to go back to. Reversal means building a new one.
 
 **The Patron Falls** — Political change, death, bankruptcy. The patron's assets are redistributed — including their property. Including the PC, if anyone knows they exist.
 
