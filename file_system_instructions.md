@@ -61,6 +61,7 @@ D:\Claude_MCP_folder/
 - Extraction Rules: `Core_Rules/Scenario_Extraction_Rules.md`
 - Templates: `Core_Rules/Templates/`
 - Reference doc: `file_system_reference.md` (load when needed for templates, Python protocols, detailed format standards, scan process)
+- Perchance Prompts: Perchance_prompts/
 
 ## STEP 2: EFFICIENCY PRINCIPLE
 
