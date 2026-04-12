@@ -18,50 +18,24 @@ AVAILABLE TOOLS FOR CLAUDE
 STARTUP PROCEDURES — EXECUTE ON EVERY CONVERSATION START
 =========================================================
 
-## STEP 1: PROJECT ROOT & DIRECTORY STRUCTURE
+## STEP 1: PROJECT ROOT & TOP-LEVEL STRUCTURE
 
 **Root:** `D:\Claude_MCP_folder` — ALL file operations confined here. No exceptions.
 
-```
-D:\Claude_MCP_folder/
-├── World_Building/
-│   ├── Aethelmark/                    (Active setting)
-│   │   ├── Scenarios/                 (Campaigns + sessions by campaign)
-│   │   │   ├── Isalias_Estate/
-│   │   │   ├── Kennel_Hounds/
-│   │   │   │   ├── Maruvec_Campaign/
-│   │   │   │   ├── Vauclair_Campaign/
-│   │   │   │   └── Camp_Rochevaux/
-│   │   │   └── Viktor_Steinfeld/
-│   │   ├── Session_Summaries/         (Legacy — sessions now in Scenarios/)
-│   │   ├── Silberbach/
-│   │   │   ├── Town/
-│   │   │   │   ├── Characters/
-│   │   │   │   └── [locations: Market_Square, Crescent_House, etc.]
-│   │   │   └── Region/
-│   │   │       ├── Factions/ (Guilds/, noble_houses/, merchant_families/, manor/)
-│   │   │       ├── Characters/
-│   │   │       └── unique_enchanted_items/
-│   ├── Dead_Terra/  Little_spark/  Neon_Fang/  (Archives)
-│   ├── Rogue_Trader/
-│   └── Souls_Gem/
-├── Core_Rules/
-│   ├── core_rules.md                  (GM rules)
-│   ├── Scenario_Extraction_Rules.md
-│   └── Templates/                     (Reference only — never edit originals)
-├── Stories/                           (.txt only)
-├── Python/                            (Utility scripts)
-├── Trash/
-├── file_system_instructions.md        (This file)
-└── file_system_reference.md           (Supplementary — load on demand)
-```
+**Top-level directories:**
+- `World_Building/` — All setting content: Aethelmark (active), Gallihammer, archived projects
+- `Core_Rules/` — GM rules (`core_rules.md`), extraction rules, templates (never edit originals)
+- `Stories/` — Creative writing, `.txt` only
+- `Python/` — Utility scripts (naming validator, directory mapper, etc.)
+- `Perchance_prompts/` — Perchance generator prompts
+- `Trash/` — Soft-delete destination (no permanent deletes)
 
-**Key Paths:**
-- GM Rules: `Core_Rules/core_rules.md`
-- Extraction Rules: `Core_Rules/Scenario_Extraction_Rules.md`
-- Templates: `Core_Rules/Templates/`
-- Reference doc: `file_system_reference.md` (load when needed for templates, Python protocols, detailed format standards, scan process)
-- Perchance Prompts: Perchance_prompts/
+**Root files:**
+- `file_system_instructions.md` — This file (project rules)
+- `file_system_reference.md` — Supplementary reference (load on demand)
+- `directory_index.md` — Live directory map (see Step 3)
+
+Full directory structure is maintained in `directory_index.md` — do not duplicate here.
 
 ## STEP 2: EFFICIENCY PRINCIPLE
 
