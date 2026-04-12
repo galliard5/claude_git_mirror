@@ -159,7 +159,7 @@ Do not wait until the conversation is critically short to flag this.
 
 **System overview:** Skills are not chosen—they are recognized by the GM after the fact as a description of what the character has demonstrably become through repeated action and meaningful experience. Six foundation archetypes (Body, Mind, Social, Craft, Edge, Essence) develop through use marks and narrative gates. Discovered trees unlock through fiction. Higher tiers don't add mechanical bonuses; they change what outcomes are *possible*, what information surfaces, and how NPCs respond.
 
-**Visualization:** For active campaigns using the skill tree system, Mermaid diagrams provide a visual representation of tier structure, branches, and progression. A system-wide reference diagram (Skill_Tree_System.mermaid) is available in the project folder. Character-specific trees can be visualized the same way to show current state and active development paths. Use `visualize:show_widget` with Mermaid code to generate or update visualizations.
+**Visualization:** For active campaigns using the skill tree system, Mermaid diagrams provide a visual representation of tier structure, branches, and progression. A system-wide reference diagram (Skill_Tree_System.md) is available in the project folder. Character-specific trees can be visualized the same way to show current state and active development paths. Use `visualize:show_widget` with Mermaid code to generate or update visualizations.
 
 **For the complete system documentation, guidelines on when and how to apply it, and campaign-specific recommendations, see:** [[Skill_Trees]]
 

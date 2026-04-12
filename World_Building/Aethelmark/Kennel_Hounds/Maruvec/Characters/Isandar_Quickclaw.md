@@ -94,6 +94,8 @@ The new fear, not yet articulated: that the recovery period ends and the operati
 Skills & Notes
 --------------
 
+**Skill Tree:** See [[Isandar_Quickclaw_Skill_Tree]] for current development tracking
+
 Literacy: functional and self-taught beyond the parish school basics. Reads slowly relative to a formally educated person, reads carefully. Retains what he reads.
 
 Patrol experience: two months, basic competence. Dock district patrol, some tunnel inspection work, one incident involving a dockside altercation that was handled without injury.
