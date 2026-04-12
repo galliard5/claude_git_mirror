@@ -27,7 +27,7 @@ This combination is significant. A biologis who reshapes a subject into an insec
 
 This tells us something about the patron: they had Mechanicus connections deep enough to source the components and the expertise. And it tells us something about the purpose: whatever the patron wanted Si'ken for, it required a biological organism that could interface with Mechanicus systems natively.
 
-**Archetype:** Bespoke. The patron's specification was custom — not a standard warform, labour-form, or trophy commission. The insectoid body plan with integrated cybernetic utilities suggests a purpose that required:
+**Archetype:** Bespoke to the extreme.  The patron's specification was custom — not a standard warform, labour-form, or trophy commission. The insectoid body plan with integrated cybernetic utilities suggests a purpose that required:
 
 - Mobility in environments hostile to baseline organisms (the insectoid form's environmental tolerance)
 - Access to spaces too small, too unstable, or too dangerous for standard crew (the body's size and flexibility)
@@ -48,13 +48,13 @@ The specific purpose shapes the prologue — what the patron wanted determines w
 
 Si'ken's body is insectoid — an arthropod-derived body plan that has no relationship to the kobold original. This is not a kobold with chitin plates. It is an insect-form organism with a kobold's brain.
 
-**Scale:** Smaller than a baseline human. The exact dimensions depend on the specific insectoid architecture, but the body plan prioritises compactness — this is a form built to go where larger organisms cannot. The size is an asset for scouting: ducts, collapsed structures, narrow gaps between debris, the spaces inside walls and between floors that larger crew members cannot access.
+**Scale:** Very small. small enough to fit in a terrarium. The exact dimensions depend on the specific insectoid architecture, but the body plan prioritises compactness — this is a form built to go where larger organisms cannot. The size is an asset for scouting: ducts, collapsed structures, narrow gaps between debris, the spaces inside walls and between floors that larger crew members cannot access.
 
 **Exoskeleton:** Chitin-analogue plating covers the body — segmented, articulated, providing structural support and moderate environmental protection. The plating is organic, grown as part of the reshaping, and maintains itself biologically. Coloration is likely dark — browns, blacks, deep reds — the natural palette of the biological material, not deliberately chosen for aesthetics.
 
 **Limbs:** Multiple — the insectoid body plan provides more limbs than the kobold original, with specialisation by function. Locomotion limbs, manipulation limbs, and the integrated mechadendrite utilities occupy different positions on the body. The mechadendrites emerge from the thoracic segment alongside or between the organic limbs — cybernetic appendages rooted in biological tissue, their interface points where metal meets chitin visible as seams of polymer and surgical bonding.
 
-**Sensory organs:** Restructured. Si'ken does not see, hear, or smell the way a kobold does. The insectoid form carries sensory organs appropriate to its architecture — compound or multi-faceted visual organs, antennae or analogous structures for chemical and vibration sensing, possibly pressure-sensitive organs along the body for spatial awareness in enclosed spaces. The specifics emerge through play as Si'ken discovers what the new senses can do.
+**Sensory organs:** Restructured. The insectoid form carries sensory organs appropriate to its architecture — compound or multi-faceted visual organs, antennae or analogous structures for chemical and vibration sensing, possibly pressure-sensitive organs along the body for spatial awareness in enclosed spaces. The specifics emerge through play as Si'ken discovers what the new senses can do.
 
 **The NIJack:** Integrated into the head or upper thoracic segment — a Mechanicus neural interface jack wired into Si'ken's brain through the biological tissue of the reshaped body. It functions as standard: communication, personal tools, datasphere access when available, and the foundation for interfacing with compatible Mechanicus systems. The NIJack is the most visible piece of the cybernetic integration — a metal port set into chitin, the technological origin unmistakable against the organic architecture.
 

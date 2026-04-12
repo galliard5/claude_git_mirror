@@ -83,6 +83,8 @@ Within any tree, multiple branches can develop in parallel. A branch is a line o
      │           │                     │                     │
     T5 ──  [Capstone]            [Capstone]             [Capstone]
 
+**Visualization:** For a visual representation of tree structure, branches, and tiers, the Skill Tree System can be diagrammed using Mermaid. See Skill_Tree_System.mermaid in the project folder for a system overview diagram. To visualize a character's specific trees and branch structure, use `visualize:show_widget` with Mermaid code to display current tree state, active branches, and progression toward capstones.
+
 Branches within the same tree can connect. A node in Branch B might require a node from Branch A as a prerequisite — this happens when the fiction supports it. Cross-branch prerequisites are not designed in advance; they emerge when it is narratively true that one capability depends on another.
 
 Branch splitting occurs when the GM observes a character using a Tier 2 node in two consistently different ways across multiple sessions. That divergence is the signal. The GM proposes the split, the player confirms, and Branch B initializes at Tier 2 with use marks carrying over from how it's been developing.
@@ -232,7 +234,9 @@ TRACKING FORMAT
 
 The skill block is recorded in a dedicated section of the character sheet, or in a linked Skill_Tree_Block file for campaigns where tracking is more active. See Skill_Tree_Block.md in Templates/.
 
-Standard format:
+For visual tracking of a character's skill trees and branch progression, use `visualize:show_widget` with Mermaid code to display the character's current tree state, active branches, and progression toward capstones. A system-wide reference diagram is available at Skill_Tree_System.mermaid. Mermaid diagrams can be generated any time to reflect new tiers, branches, or discovered trees as they develop.
+
+Standard text format:
 
     ═══════════════════════════════════════════════════
     SKILLS — [CHARACTER NAME]

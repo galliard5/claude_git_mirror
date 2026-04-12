@@ -1,0 +1,164 @@
+digraph Skill_Tree_System {
+    rankdir=TB;
+    
+    // Node styling
+    node [shape=box, style=rounded, margin="0.3,0.2"];
+    
+    // Root
+    ROOT [label="Character\nSkill Development", shape=ellipse, style=filled, fillcolor=lightblue, penwidth=2];
+    
+    // Foundation Trees - Tier 0
+    BODY [label="BODY", style=filled, fillcolor=lightcoral, penwidth=2];
+    MIND [label="MIND", style=filled, fillcolor=lightgreen, penwidth=2];
+    SOCIAL [label="SOCIAL", style=filled, fillcolor=lightyellow, penwidth=2];
+    CRAFT [label="CRAFT", style=filled, fillcolor=lightcyan, penwidth=2];
+    EDGE [label="EDGE", style=filled, fillcolor=plum, penwidth=2];
+    ESSENCE [label="ESSENCE\n(Transformation)", style=filled, fillcolor=lightgray, penwidth=2];
+    
+    ROOT -> BODY;
+    ROOT -> MIND;
+    ROOT -> SOCIAL;
+    ROOT -> CRAFT;
+    ROOT -> EDGE_TREE;
+    ROOT -> ESSENCE;
+    
+    // BODY TREE
+    BODY -> BODY_T1 [label="Root"];
+    BODY_T1 [label="T1: Root\nCombat I / Conditioning I\nEndurance I"];
+    
+    BODY_T1 -> BODY_T2A [label="Branch A"];
+    BODY_T1 -> BODY_T2B [label="Branch B"];
+    BODY_T1 -> BODY_T2C [label="Branch C"];
+    
+    BODY_T2A [label="T2: Practiced"];
+    BODY_T2B [label="T2: Practiced"];
+    BODY_T2C [label="T2: Practiced"];
+    
+    BODY_T2A -> BODY_T3A [label="Minor Gate"];
+    BODY_T2B -> BODY_T3B [label="Minor Gate"];
+    BODY_T2C -> BODY_T3C [label="Minor Gate"];
+    
+    BODY_T3A [label="T3: Specialist\n(Named)"];
+    BODY_T3B [label="T3: Specialist\n(Named)"];
+    BODY_T3C [label="T3: Specialist\n(Named)"];
+    
+    BODY_T3A -> BODY_T4A [label="Significant\nGate"];
+    BODY_T3B -> BODY_T4B [label="Significant\nGate"];
+    BODY_T3C -> BODY_T4C [label="Significant\nGate"];
+    
+    BODY_T4A [label="T4: Defined\n(Named after gate)"];
+    BODY_T4B [label="T4: Defined\n(Named after gate)"];
+    BODY_T4C [label="T4: Defined\n(Named after gate)"];
+    
+    BODY_T4A -> BODY_T5A [label="Fiction\nOnly"];
+    BODY_T4B -> BODY_T5B [label="Fiction\nOnly"];
+    BODY_T4C -> BODY_T5C [label="Fiction\nOnly"];
+    
+    BODY_T5A [label="T5: Capstone\n(Recognized, not\nscheduled)"];
+    BODY_T5B [label="T5: Capstone"];
+    BODY_T5C [label="T5: Capstone"];
+    
+    // MIND TREE
+    MIND -> MIND_T1 [label="Root"];
+    MIND_T1 [label="T1: Root\nPerception I / Knowledge I\nFocus I"];
+    
+    MIND_T1 -> MIND_T2A [label="Branch A"];
+    MIND_T1 -> MIND_T2B [label="Branch B"];
+    
+    MIND_T2A [label="T2: Practiced"];
+    MIND_T2B [label="T2: Practiced"];
+    
+    MIND_T2A -> MIND_T3A;
+    MIND_T2B -> MIND_T3B;
+    
+    MIND_T3A [label="T3: Specialist"];
+    MIND_T3B [label="T3: Specialist"];
+    
+    MIND_T3A -> MIND_T4A;
+    MIND_T3B -> MIND_T4B;
+    
+    MIND_T4A [label="T4: Defined"];
+    MIND_T4B [label="T4: Defined"];
+    
+    MIND_T4A -> MIND_T5A;
+    MIND_T4B -> MIND_T5B;
+    
+    MIND_T5A [label="T5: Capstone"];
+    MIND_T5B [label="T5: Capstone"];
+    
+    // SOCIAL TREE
+    SOCIAL -> SOCIAL_T1 [label="Root"];
+    SOCIAL_T1 [label="T1: Root\nPresence I / Read I\nConnection I"];
+    
+    SOCIAL_T1 -> SOCIAL_T2A [label="Branch A"];
+    SOCIAL_T1 -> SOCIAL_T2B [label="Branch B"];
+    
+    SOCIAL_T2A [label="T2: Practiced"];
+    SOCIAL_T2B [label="T2: Practiced"];
+    
+    SOCIAL_T2A -> SOCIAL_T3A;
+    SOCIAL_T2B -> SOCIAL_T3B;
+    
+    SOCIAL_T3A [label="T3: Specialist"];
+    SOCIAL_T3B [label="T3: Specialist"];
+    
+    SOCIAL_T3A -> SOCIAL_T4A;
+    SOCIAL_T3B -> SOCIAL_T4B;
+    
+    SOCIAL_T4A [label="T4: Defined"];
+    SOCIAL_T4B [label="T4: Defined"];
+    
+    // CRAFT TREE
+    CRAFT -> CRAFT_T1 [label="Root"];
+    CRAFT_T1 [label="T1: Root\nMaking I / Formulation I\nSystems I"];
+    
+    CRAFT_T1 -> CRAFT_T2A [label="Branch A"];
+    CRAFT_T1 -> CRAFT_T2B [label="Branch B"];
+    
+    CRAFT_T2A [label="T2: Practiced"];
+    CRAFT_T2B [label="T2: Practiced"];
+    
+    CRAFT_T2A -> CRAFT_T3A;
+    CRAFT_T2B -> CRAFT_T3B;
+    
+    CRAFT_T3A [label="T3: Specialist"];
+    CRAFT_T3B [label="T3: Specialist"];
+    
+    // EDGE TREE
+    EDGE -> EDGE_T1 [label="Root"];
+    EDGE_T1 [label="T1: Root\nSurvival I / Cunning I\nStealth I"];
+    
+    EDGE_T1 -> EDGE_T2A [label="Branch A"];
+    EDGE_T1 -> EDGE_T2B [label="Branch B"];
+    
+    EDGE_T2A [label="T2: Practiced"];
+    EDGE_T2B [label="T2: Practiced"];
+    
+    EDGE_T2A -> EDGE_T3A;
+    EDGE_T2B -> EDGE_T3B;
+    
+    EDGE_T3A [label="T3: Specialist"];
+    EDGE_T3B [label="T3: Specialist"];
+    
+    // ESSENCE TREE (different)
+    ESSENCE -> ESSENCE_INIT [label="Transformation\n/ Augmetic\n/ Soul Event"];
+    ESSENCE_INIT [label="Tier 1 Awarded\nNo marks required\n(Discovery = Gate)"];
+    
+    ESSENCE_INIT -> ESSENCE_T1A [label="Example:\nHound Programme"];
+    ESSENCE_INIT -> ESSENCE_T1B [label="Example:\nSoul Gem"];
+    
+    ESSENCE_T1A [label="T1: Root\nBody Integration /\nSense Attunement /\nProgramme Knowledge"];
+    ESSENCE_T1B [label="T1: Root\nRing Geometry /\nProjection /\nLattice Integration"];
+    
+    // Legend
+    subgraph cluster_legend {
+        label = "Legend";
+        style = filled;
+        fillcolor = white;
+        
+        LEG1 [label="Foundation Tree\n(6 archetypes)", shape=box, style=filled, fillcolor=lightcoral];
+        LEG2 [label="Use Marks\n(3 required to advance)", shape=ellipse];
+        LEG3 [label="Narrative Gate\n(Minor/Significant/Major)", shape=diamond];
+        LEG4 [label="Branch\n(Multiple paths\nwithin tree)", shape=box, style=dashed];
+    }
+}
