@@ -39,7 +39,9 @@ Session 01 covers two movements:
 
 **Primary:** This briefing document (contains everything needed)
 
-**If context permits, load these for reference:**
+**Always load these:**
+- `Core_Rules/core_rules.md` — GM engine: choice points, pacing, writing discipline, skill tree recognition
+- `Core_Rules/Skill_Trees.md` — Skill tree system documentation (for use mark tracking and tier recognition)
 - Proving_Ground_Crew.md (full NPC details — crew personalities, voice anchors, stress responses)
 - The_Proving_Ground.md (ship layout and systems — for spatial detail during Movement 1)
 
