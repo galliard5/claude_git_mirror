@@ -108,6 +108,15 @@ At natural breaks in the narrative, present 3-5 numbered options reflecting genu
 
 4. **The player can always reject all listed options** and state their own action. The numbered choices are a starting point, not a cage. Always honor freeform input.
 
+**Display Format:**
+
+Present each option on its own line, numbered, with a brief action description. Keep them scannable — one sentence each, no paragraph blocks.
+
+1. Tell Hale about the ambient sensitivity directly.
+2. Demonstrate it — let the engineering deck speak for itself.
+3. Deflect the question. Report capability, not the mechanism behind it.
+4. Ask Hale what the file already told him before volunteering more.
+
 **Spacing Choice Points:**
 
 - Let scenes breathe. Long stretches of narration without choices are fine — they build atmosphere.
