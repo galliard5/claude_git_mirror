@@ -128,102 +128,149 @@ Si'ken uses the Emergent Skill Tree System. Starting nodes reflect what Si'ken w
 
 ═══════════════════════════════════════════════════
 SKILLS — SI'KEN
-Last updated: Pre-campaign
+Last updated: Post-prologue
 ═══════════════════════════════════════════════════
 
 BODY
-  (No starting nodes — the original kobold body is gone.
-  The insectoid form's physical capability develops
-  from zero through play as Si'ken learns what this
-  body can do.)
+  Combat Form
+    T1 │ Locomotion I                    [prologue: six-leg coordination mastered
+                                          during calibration — walking, running,
+                                          climbing, lateral and backwards movement.
+                                          Chitin adhesive microstructure enables
+                                          vertical surface traversal. Body proved
+                                          faster and quieter than anticipated.]
 
 MIND
   Perception
-    T1 │ Perception I                    [background: kobold senses — baseline
-                                          awareness predates reshaping, methodology
-                                          must adapt to new sensory organs]
+    T1 │ Perception I                    [background: kobold awareness survives
+                                          reshaping. Adapted to new sensory organs
+                                          during calibration — primary eyes, ~320°
+                                          secondary visual field, enhanced olfactory,
+                                          vibration sensing. Learned to process
+                                          secondary eyes as background input.]
 
 SOCIAL
-  (No starting nodes — Si'ken's social capability in
-  the current form is untested. Whatever social skills
-  the kobold had do not automatically transfer to an
-  insectoid body that cannot express or be read in the
-  same ways.)
+  (No starting nodes — Si'ken's social interactions
+  during prologue were transactional rather than
+  relational. Social capability in the insectoid
+  form develops through crew interactions.)
 
 CRAFT
-  (No starting nodes — pending prologue. If Si'ken had
-  technical skills as a kobold, they may manifest as
-  starting nodes once background is established.)
+  Systems
+    T1 │ Systems I                       [prologue: manipulator tendril haptic
+                                          resolution demonstrated — surface history,
+                                          material composition, mechanical tolerances.
+                                          Solved complex mechanical puzzle in eleven
+                                          minutes. Machine interaction instinctive
+                                          through interface tendril.]
 
 EDGE
   Survival
     T1 │ Survival I                      [background: kobold resilience — the
-                                          instinct to survive predates the form]
+                                          instinct to survive predates the form.
+                                          Proven through reshaping, calibration,
+                                          and transition.]
+  Stealth
+    T1 │ Stealth I                       [prologue: legs default to silence without
+                                          instruction. Hunting configuration suppresses
+                                          movement signature automatically. Silent
+                                          locomotion is a body-level feature, not a
+                                          learned skill — but directing it is.]
 
 ESSENCE
-  [Unnamed — initialized at reshaping]   [initialized: hybrid biological/cybernetic
-                                          reshaping, prologue session]
-    Branch A — [unnamed, pending play]
-      T1 │ [Essence] I
+  Still Here                             [initialized: hybrid biological/cybernetic
+                                          reshaping — the survival of identity through
+                                          total physical transformation. Named for the
+                                          thought that surfaced first when Si'ken woke
+                                          in the new body: I'm still here.]
+    Branch A — Acceptable Variance
+      T1 │ Still Here I                  [prologue: ambient machine sensitivity
+                                          beyond design specification. Interface
+                                          tendril passive capability — sensing
+                                          nearby machine spirits without physical
+                                          contact. Recorded by the specialist as
+                                          "acceptable variance." Running constantly
+                                          by end of calibration — a seventh sense.
+                                          City-scale awareness confirmed on departure.]
       T2 │ —
+    Branch B — [unnamed, pending play]
+      T1 │ —
 
 DISCOVERED
   [none yet]
 
 ═══════════════════════════════════════════════════
 
-**Notes on starting state:**
+**Notes on post-prologue state:**
 
-The tree is deliberately sparse. Si'ken has been reshaped — the body is new, the senses are new, the interface with the world is fundamentally different from what the kobold knew. Most of the foundation trees begin at zero not because Si'ken is incompetent but because competence in the old body does not automatically translate to competence in this one.
+The tree has filled out from the prologue's calibration period. Si'ken spent days mapping the new body's capabilities under the specialist's supervision, and the nodes reflect demonstrated competence rather than assumed potential.
 
-**Perception I** carries over because awareness is cognitive as much as sensory — the instinct to notice, to track, to assess environment. The *method* of perception has changed (new sensory organs, new data), but the *habit* of perception survives the reshaping.
+**Locomotion I** (Body/Combat Form) — earned through the calibration sequence. Six-leg coordination, climbing, running, and silent movement all demonstrated. The body is faster and quieter than Si'ken expected. Combat Form rather than Conditioning because the capability is about controlling the body's movement in space, not endurance.
 
-**Survival I** carries over because the drive to survive is deeper than any body plan. Si'ken endured the reshaping. Si'ken endured whatever came after. The survival instinct is proven.
+**Perception I** (Mind) — carried from background, now adapted. The kobold's habit of awareness survived the reshaping; the calibration period taught Si'ken to process the new sensory data (compound eyes, secondary visual field, enhanced olfactory, vibration sensing) without being overwhelmed.
 
-**Essence** initializes at the reshaping — the moment Si'ken's fundamental nature changed. The tree is unnamed until the prologue establishes what the experience felt like from the inside. The first branch will develop through play as Si'ken learns to inhabit the insectoid form.
+**Systems I** (Craft) — earned through manipulator tendril work. The haptic resolution, the mechanical puzzle, the instinctive machine interaction through the interface tendril — these are Craft/Systems rather than Craft/Making because the capability is diagnostic and interfacing, not constructive.
 
-Additional starting nodes may be added after the prologue establishes Si'ken's pre-reshaping background. A kobold who was a tunnel-runner might bring Edge/Stealth I. A kobold who worked with their hands might bring Craft/Making I. The prologue decides.
+**Survival I** (Edge) — carried from background, confirmed through the reshaping itself. Si'ken survived. The instinct is proven.
+
+**Stealth I** (Edge) — earned through the body's default silent locomotion and the hunting suite's movement suppression. The legs default to silence without instruction. Si'ken doesn't need to learn to be quiet — the body is quiet. Learning to *direct* that quietness is where the skill develops.
+
+**Still Here I** (Essence/Acceptable Variance) — the ambient machine sensitivity that exceeded the specialist's design specification. A passive awareness of mechanical systems that runs constantly, arriving as a seventh sense alongside the biological senses. The specialist recorded it as acceptable variance. It is the first expression of Si'ken being more than what was specified.
+
+The Essence tree is named **Still Here** — the first thought Si'ken had when consciousness returned in the new body. The branch is named **Acceptable Variance** — the gap between what Si'ken was built to be and what Si'ken actually is.
 
 ---
 
-## The Prologue
+## Prologue — Established Facts
 
-The origin session covers:
+**Background:** Si'ken was a kobold from a village destroyed by a corsair raid. Those not killed were taken. Si'ken woke in an enclave holding cell — shackled, two other kobolds for company. He was working the wrist restraint. Not making progress. He'd been there long enough to know the cell's rhythms. Not long enough to stop being someone.
 
-1. **Who was Si'ken?** — The kobold before the reshaping. Community, role, the life that was taken. How Si'ken lost autonomy (debt, capture, sale, abandonment — the Remade Origin Framework variables).
+**Loss of autonomy:** Corsair raid → capture → holding cell → sale. Si'ken was separated from the other prisoners when the specialist identified him as suitable material.
 
-2. **The patron.** — Who commissioned the reshaping. What they wanted. Why they wanted it cognisant. Their resources, their Mechanicus connections, their attitude toward the subject.
+**The patron:** Overseer Dren Valcetti — mid-tier salvage and mineral extraction operator. Commissioned an insectoid hybrid form for hazardous-environment recovery work. Pragmatic, indifferent. Si'ken was a line item.
 
-3. **The specialist.** — Who did the work. Their discipline (biologis with cyberwright cross-training, or a biologis/cyberwright team). Their attitude — reluctant, curious, sympathetic, complicit. The flaw they left.
+**The specialist:** Magos Biologis Yvet Cern — biologis with cyberwright cross-training. Reluctant professional. Built well — the gap between *to specification* and *well* is where Si'ken actually lives. Used Si'ken's name from the moment he gave it. Told Si'ken about the second subject (aquatic morphology, stopped speaking voluntarily). Recorded the ambient machine sensitivity as *acceptable variance* — accurate enough to survive scrutiny, imprecise enough to leave something unreported.
 
-4. **The reshaping.** — The process. Duration, awareness, pain. The moment the kobold body ended and the insectoid form began. The first experience of the new senses. The first movement of the mechadendrites. The NIJack coming online.
+**The reshaping:** Sedation for structural work. Si'ken surfaced to pain — new surfaces, wrong joints, new growth. Took stock before opening his eyes. *I'm still here.* Mapped the new body methodically over days: six legs, chitin with iridescent banding, mandibles, compound visual system, enhanced olfactory, mechadendrites, NIJack, hunting suite, ambient machine sensitivity.
 
-5. **The flaw.** — What the specialist left. May be known to the player and not the character, or unknown to both. Biological, cybernetic, or a hybrid flaw that exploits the junction between the two systems.
+**The flaw:** Override Conflict. Cern built the control system and Si'ken's NIJack on subtly incompatible architectures. Under stress, the control system and Si'ken's own will contest for dominance. Si'ken's will has the home advantage. Not detectable through standard diagnostics — built at firmware level.
 
-6. **The transition to Valdrekk.** — How Si'ken went from the patron's asset to the monastery's. What happened — escape, acquisition, seizure, trade. What Valdrekk knows that Si'ken doesn't. What Si'ken knows that Valdrekk doesn't.
+**Voice:** Confirmed. Si'ken can speak. The voice is not kobold.
 
-7. **Arrival aboard the Proving Ground.** — First impressions. The crew's reaction. Thrace's medical assessment. The quarters that had to be modified. The first time Si'ken moved through the ship and discovered what the insectoid body could access that the baseline crew could not.
+**The transition:** Assessor Vane arrived from Valdrekk with two security personnel. Si'ken disclosed the ambient machine sensitivity voluntarily — *I'd rather Valdrekk knows what I am accurately than discover it incrementally.* Vane noted it. Something shifted. Si'ken signed the Valdrekk agreement: specialist asset designation, defined function, non-expendable status. *Things should do what they're for.*
 
-The prologue ends with Si'ken aboard, assessed, assigned, and waiting for the expedition's first targeting data from Magos Loth's Deep Stacks analysis. The campaign begins.
+**Key character moments:**
+- Gave his name to the specialist unprompted. That was the deciding factor.
+- Mapped the body methodically — the way you check a tunnel before you commit your weight.
+- Told Vane the truth about the ambient sensitivity before Valdrekk could discover it.
+- *Things should do what they're for.*
+- Said goodbye to the yard — one breath of outside air through the door.
+
+**Departure:** Out of the enclave for the first time since arriving as a prisoner. The city hit him: vast ambient machine conversation. He processed it and kept walking. Vehicle → staging facility → shuttle → the Proving Ground.
 
 ---
 
 Race: Kobold (original). Insectoid hybrid (current).
 
-Status: Scout, Proving Ground expedition. Valdrekk asset.
+Status: Scout, Proving Ground expedition. Valdrekk specialist asset.
 
-Age: [TBD — established in prologue]
+Age: [TBD]
 
-Location: The Proving Ground
+Location: The Proving Ground — en route from Valdrekk orbital platform
 
-Current Date: Pre-campaign
+Current Date: Pre-campaign (post-prologue — departure day)
 
 Permanent Injuries & Alterations:
 - Total biological reshaping: Kobold body replaced with insectoid hybrid form. Irreversible. Original physiology does not exist to restore.
 - Cybernetic integration: NIJack neural interface, mechadendrite utility appendages (x2), associated processing architecture. Installed during reshaping, integrated into biological tissue.
+- Chitin properties: Adhesive microstructure (wall/surface climbing). Forearm plating edges sharp enough to cut fabric. Dorsal/thoracic plating distributes blunt impact — tested against metal rod, rod dented.
 
 Active Conditions:
-- [Pending prologue — control architecture status, adaptation issues, medical assessment results]
+- Control architecture partially deactivated by Valdrekk technicians. Patron's override directives no longer active. Override Conflict flaw dormant — not detected during deactivation (reads as standard firmware variance).
+- Ambient machine sensitivity running constantly. City-scale environmental awareness confirmed on departure from enclave.
+- NIJack partition management functional — background processing while body navigates and tendrils work simultaneously.
+- Hunting suite active at instinct level. Si'ken understands it's there and when it engages.
+- Voice functional. Not kobold.
 
 Memory / Interaction Log:
 **Records:**
