@@ -2,9 +2,9 @@
 name: Directory Index
 keywords: [index, directory, structure, map]
 description: Auto-generated directory tree snapshot
-scan_utc: 2026-04-12T15:57:27Z
-scan_local: 2026-04-12 09:57:27 Mountain Daylight Time
-claude_section_end: 120
+scan_utc: 2026-04-14T00:30:08Z
+scan_local: 2026-04-13 18:30:08 Mountain Daylight Time
+claude_section_end: 121
 ---
 Claude_MCP_folder
  Core_Rules
@@ -105,6 +105,7 @@ Claude_MCP_folder
    Dead_Terra
     Flaura_and_Fauna
     Scenarios
+   Equipment
    Rogue_Trader
     Characters
     Locations
@@ -121,7 +122,7 @@ Claude_MCP_folder
 
 # Human-Readable Directory Tree
 
-Scanned: 2026-04-12 09:57:27 Mountain Daylight Time (UTC: 2026-04-12T15:57:27Z)
+Scanned: 2026-04-13 18:30:08 Mountain Daylight Time (UTC: 2026-04-14T00:30:08Z)
 Excluded: .git, .obsidian, Trash, __pycache__, node_modules
 
 ```
@@ -224,6 +225,7 @@ Claude_MCP_folder/
     │   ├── Dead_Terra/
     │   │   ├── Flaura_and_Fauna/
     │   │   └── Scenarios/
+    │   ├── Equipment/
     │   └── Rogue_Trader/
     │       ├── Characters/
     │       ├── Locations/

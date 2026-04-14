@@ -23,6 +23,8 @@ description: Template for Opus-generated operational playbooks that give Sonnet 
 ## Files to Load by Scene
 
 **Opening Scene / Default Load:**
+- Core_Rules/core_rules.md — GM engine: NPC voice rules, consequences, status conditions, pacing, contests
+- Core_Rules/Skill_Trees.md — if the Emergent Skill Tree System is active for this campaign
 - [[PC_Character_Sheet]]
 - [[Primary_Location]]
 - [[NPC_1]], [[NPC_2]], [[NPC_3]]
