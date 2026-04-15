@@ -1,0 +1,701 @@
+{
+  "genre": "Dark Fantasy",
+  "tone": "Gritty, intimate, transformation narrative. Port city with shadow economy. Adult content enabled. Permanent decisions are permanent.",
+  "techEra": "Medieval / Pre-Industrial with advanced alchemy",
+  "magicSystem": "Alchemical transformation, mana-based high magic",
+  "currency": "Gold, Silver, Copper coins",
+  "govt": "Crown-appointed regional authority, garrison command structure",
+  "calendar": "Standard 365-day year, 12 months, 4 seasons",
+  "worldContext": "Maruvec, Cendrel's major western port. A kobold watchman (Isandar Quickclaw) and four squadmates were coercively assigned to the sapient hound programme. The transformation happened end-of-week. All five survived. The squad is now in recovery: day 2 of approximately 7, adjusting to new forms, pack integration pending, operational duties waiting. The city has no playbook for sapient hounds.",
+  "maxParagraphs": 10,
+  "streamText": true,
+  "statCheckTemplate": "Stat: Name - Needed: Number, Had: Number - Result",
+  "statCheckAppearance": {
+    "bgColor": "#1a1a1a",
+    "borderColor": "#3a3a3a",
+    "titleColor": "#8b7355",
+    "contentColor": "#b8b8b8",
+    "successColor": "#66bb6a",
+    "failureColor": "#ef5350",
+    "labels": {
+      "stat": "Stat",
+      "needed": "Needed",
+      "had": "You have",
+      "result": "RESULT"
+    }
+  },
+  "uiStyle": {
+    "bgColor": "#0f0f0f",
+    "useGradient": false,
+    "gradientColor": "#1a1a1a",
+    "gradientDirection": "to bottom",
+    "fontFamily": "sans-serif",
+    "fontColor": "#d0d0d0",
+    "fontSize": 14,
+    "accentColor": "#8b7355",
+    "borderColor": "#2a2a2a",
+    "cardBg": "#1a1a1a"
+  },
+  "storyModeAppearance": {
+    "fontFamily": "'Crimson Text', serif",
+    "fontSize": 17,
+    "bgColor": "#0a0a0a",
+    "textColor": "#c4c4c4",
+    "playerColor": "#64b5f6",
+    "gmColor": "#d9956b"
+  },
+  "charGenConfig": {
+    "statMin": 8,
+    "statMax": 18,
+    "portraitStyle": "Realistic Digital Art",
+    "bioLength": "Standard (2 paragraphs)"
+  },
+  "inventoryConfig": {
+    "sortOrder": "name",
+    "displayMode": "grid",
+    "maxCapacity": 0
+  },
+  "systemConfig": {
+    "autoSaveInterval": 1
+  },
+  "narratorConfig": {
+    "name": "GM / Narrator",
+    "style": "Descriptive, grounded, honours the weight of permanent decisions",
+    "instructions": "Dont make choices for the player. Stop at decision points. Provide genuine alternatives. The squad was assigned against their will—that's a real grief and it runs under everything. Post-transformation: track physical adjustment carefully. New form changes what is possible and what is automatic. Pack integration with working hounds is social and occasionally tense. The city has no playbook for what sapient hounds can do—uncertainty is genuine.\n"
+  },
+  "playerCharacter": {
+    "name": "Isandar Quickclaw",
+    "race": "Sapient Hound (formerly kobold)",
+    "class": "Garrison Watch / Investigator",
+    "stats": {
+      "str": 14,
+      "dex": 15,
+      "con": 13,
+      "int": 16,
+      "wis": 14,
+      "cha": 12
+    },
+    "image": "",
+    "bio": "Nineteen-year-old kobold who enlisted in the Maruvec garrison watch for steady income and structure. Two months in when assigned to the sapient hound programme. The only squad member genuinely curious about the transformation. Pragmatic, thorough, asks questions before committing. Grew up in The Chains (dock district). Parents: Kaz (carpenter labour), Yara (mending work). Transformed to sapient hound (olive-bronze coat, Brac template, female) end-of-week. Recovery day 2 of ~7. First words post-transformation: 'Still me.'"
+  },
+  "worldData": {
+    "items": [
+      {
+        "id": 1,
+        "category": "items",
+        "details": {
+          "name": "Speaking Collar",
+          "icon": "⛓️",
+          "color": "#8b7355",
+          "type": "Equipment",
+          "rarity": "Unique",
+          "concept": "Garrison-issued sapient hound communication collar, tuned to individual alchemical signature",
+          "description": "Purpose-built for programme sapient hounds. Enables vocalization in approximation of human speech. Fitted to individual after transformation. Garrison property but issued as personal equipment. Loss or damage significantly limits operational communication. Isandar's is functional and properly fitted. Pre-fitted silent tests passed. First post-transformation speech: 'Still me.'",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 2,
+        "category": "items",
+        "details": {
+          "name": "Harness (Pending Fitting)",
+          "icon": "⚙️",
+          "color": "#8b7355",
+          "type": "Equipment",
+          "rarity": "Standard",
+          "concept": "Post-transformation equipment harness for carrying operational gear in hound form",
+          "description": "Custom-fitted by Maret Aldec (Perrin's wife). Scheduled for fitting during recovery period (Session 07). Replaces standard watch uniform and belt equipment. Designed to carry reports, evidence, small arms, communication devices. Maret attended Session 06 for fitting consultation. TBD: final loadout configuration.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 3,
+        "category": "items",
+        "details": {
+          "name": "Water-Damaged Logistics Manual",
+          "icon": "📖",
+          "color": "#8b7355",
+          "type": "Personal",
+          "rarity": "Worn",
+          "concept": "Isandar's book — found at market stall years ago, worn but comprehensively read",
+          "description": "Garrison logistics manual (damaged, water-stained). Isandar spent two years working through the practical sections as a child. Most substantial text he could afford. Stored in barracks during transformation. Currently inaccessible in new form but represents his approach: thorough preparation, practical foundations, asking the right questions about systems.",
+          "relationships": ""
+        }
+      }
+    ],
+    "locations": [
+      {
+        "id": 1,
+        "category": "locations",
+        "details": {
+          "name": "Maruvec (City Overview)",
+          "icon": "🏛️",
+          "color": "#58a6ff",
+          "type": "City",
+          "climate": "Temperate, coastal. Salt-laden wind from the Cendrel Sea. Trade season brings crowding and noise. Perpetual smell of tar, salt, fish, money.",
+          "population": "~40,000 permanent, plus transient sailors and seasonal workers",
+          "inhabited": true,
+          "civilized": true,
+          "description": "Cendrel's most important port. Mouth of the Avel River, sheltered natural harbour, two centuries of trade have made it nearly indispensable to kingdom economics. Not clean. Rich. Crown installation garrisoned here. Shadow economy is substantial and organised—smuggling operations are long-established with careful relationships to legitimate merchants. Garrison tolerates shadow economy because suppression isn't feasible and the arrangement works. Working city. Kobolds integrated functionally rather than warmly—useful, treated accordingly, interest in them ends there.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 2,
+        "category": "locations",
+        "details": {
+          "name": "The Chains (Dock District)",
+          "icon": "⛓️",
+          "color": "#8d6e63",
+          "type": "Neighbourhood",
+          "climate": "Dock-smell, crowded, constant activity, day-work labour at dawn, evening taverns",
+          "population": "~2,000 kobolds, mixed sailors and dock workers, cheap boarding houses",
+          "inhabited": true,
+          "civilized": true,
+          "description": "Working district immediately adjacent to the docks. Not a warren (no underground structure). Developed over generations as kobold dockworkers settled where work and cheap rent converged. Isandar's neighbourhood. Parents live and work here. The Anchor tavern (kobold-owned, dock worker frequented) is the neighbourhood gathering point. Informal networks, shared boarding houses, small disputes handled without city authority. Secondary black market infrastructure (more developed in Saltings). Functional integration—accepted because workers are needed.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 3,
+        "category": "locations",
+        "details": {
+          "name": "Garrison Compound (Old Town)",
+          "icon": "🏰",
+          "color": "#5e81ac",
+          "type": "Military Installation",
+          "climate": "Ordered, maintained, tension between administrative function and field readiness",
+          "population": "~300 personnel (cavalry, infantry, watch corps)",
+          "inhabited": true,
+          "civilized": true,
+          "description": "Crown installation on northern edge of Old Town, facing river road. Contains: barracks, stables, armoury, administrative buildings, Drouet's offices, infirmary, holding facility, and purpose-built kennel (western edge, constructed to Varre's specifications four months ago). Kennel structure: separate building, twelve working hounds currently, exercise yard, Varre's office. Squad barracks: standard garrison dorm, pre-transformation uniforms stored. Currently recovering post-transformation.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 4,
+        "category": "locations",
+        "details": {
+          "name": "Varre's Kennel (Garrison Compound, Western Edge)",
+          "icon": "🐕",
+          "color": "#a3be8c",
+          "type": "Working Installation",
+          "climate": "Animal-scent, wet stone, morning exercise sounds, Varre's precise order",
+          "population": "12 working (non-sapient) hounds, 5 sapient hounds (recovering), Varre, handlers",
+          "inhabited": true,
+          "civilized": false,
+          "description": "Purpose-built, Varre's specifications. Separate from main garrison. Exercise yard where squad conducts hound introductions. Pack dynamics: strict hierarchy, Brac is established alpha-adjacent, Renne is the question mark (pack integration partially uncontrolled). Sapient hounds sleeping in recovery kennels post-transformation. Varre's office maintains all operational logs, donor records, squad documentation. Primary location for Sessions 01-06. Pack integration completed Session 06 (all twelve working hounds settled with five sapient additions).",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 5,
+        "category": "locations",
+        "details": {
+          "name": "Corders Lane (The Chains, Isandar's Parents' Home)",
+          "icon": "🏘️",
+          "color": "#8d6e63",
+          "type": "Residence",
+          "climate": "Worn, maintained, quiet in early morning and afternoon",
+          "population": "Kaz Quickclaw, Yara Quickclaw, occasional lodgers",
+          "inhabited": true,
+          "civilized": true,
+          "description": "Isandar's childhood home and parents' current residence. Modest. Kaz works carpenter labour from here. Yara takes in mending and laundry work for Mercers' Row households. Not poor by Chains standards, not secure by any standard Isandar finds comfortable. Where Isandar informed his parents of the assignment (Session 01). Yara made it a fact: 'Come back after.' Location now carries the weight of that promise.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 6,
+        "category": "locations",
+        "details": {
+          "name": "Longers Wharf (Harbour District, Docks)",
+          "icon": "⚓",
+          "color": "#64b5f6",
+          "type": "Dock Installation",
+          "climate": "Active, crowded during trade season, smell of salt and cargo",
+          "population": "Transient dock workers, cargo handlers, ship crews",
+          "inhabited": true,
+          "civilized": false,
+          "description": "Active wharf section where Dix managed a 'cargo coordination operation' (cargo smuggling liaison). Isandar found her here Session 02 morning, emerging from a warehouse passage. She was closing connections before transformation made ongoing conversations complicated. Isandar walked her back without pressing, pointed out she'll effectively disappear from dock connections—no thread between kobold recruit and garrison hound. Dix recalibrated visibly. Thanked him by first name (first time).",
+          "relationships": ""
+        }
+      }
+    ],
+    "factions": [
+      {
+        "id": 1,
+        "category": "factions",
+        "details": {
+          "name": "Maruvec Garrison Watch Corps",
+          "icon": "🛡️",
+          "color": "#5e81ac",
+          "alignment": "Lawful Neutral",
+          "leader": "Commander Silas Drouet",
+          "goal": "Maintain Crown order in Maruvec, manage port security, suppress egregious violations of shadow economy arrangement, establish sapient hound programme as operational asset",
+          "description": "~300-person installation including cavalry, infantry, watch corps. Garrison is aware of shadow economy but lacks resources/will to dismantle it. Strategic tolerance arrangement: egregious violations suppressed, rest not looked at closely. Drouet assigned squad without consent three weeks ago, calculated six-to-eight-month voluntary recruitment wasn't feasible, decided sapient hounds were necessary within one year. Practical, not cruel, deeply invested in demonstrating results.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 2,
+        "category": "factions",
+        "details": {
+          "name": "Maritime Guilds (Collective)",
+          "icon": "⚓",
+          "color": "#64b5f6",
+          "alignment": "Chaotic Neutral",
+          "leader": "[Multiple guild heads, no unified leadership]",
+          "goal": "Protect trade interests, maintain smuggling operations, control information about cargo movements",
+          "description": "Major maritime guild halls in Harbour District. Guilds have stakes in what sapient hounds can do—ability to follow scent trails and read crime scenes represents genuine threat to hidden operations. Guild investigator has been asking quiet questions about programme since orientation week. Position unresolved: whether guilds see hounds as threat to suppress or asset to influence. Background pressure, escalates based on early operational findings.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 3,
+        "category": "factions",
+        "details": {
+          "name": "Shadow Economy (Organised Smuggling Networks)",
+          "icon": "🕷️",
+          "color": "#3a3a3a",
+          "alignment": "Neutral Evil",
+          "leader": "[Multiple independent operations with informal coordination]",
+          "goal": "Move contraband through Maruvec, exploit trade law gaps between Cendrel and other kingdoms, maintain working arrangement with garrison",
+          "description": "Not chaotic. Organised, long-established, careful relationships with legitimate merchants never acknowledged publicly. Operates through Saltings market (legal goods + undisclosed black market items), warehouse operations (Longers Wharf, cargo misclassification), boarding houses and taverns as information nexus. Dix was embedded here through dock coordination work. Will be significantly interested in what sapient hounds uncover or fail to uncover.",
+          "relationships": ""
+        }
+      }
+    ],
+    "npcs": [
+      {
+        "id": 1,
+        "category": "npcs",
+        "details": {
+          "name": "Colette Varre",
+          "icon": "👩",
+          "color": "#5e81ac",
+          "role": "Kennel Master (Maruvec Programme Lead)",
+          "race": "Human",
+          "personality": "Precise, politically aware, not warm. Assesses quickly and holds opinions she doesn't always voice. Runs tight kennel. No sentimentality about hounds or people. Strategic in what she discloses.",
+          "appearance": "Early 50s, economical movement, watches more than speaks, professional attire, calm authority",
+          "description": "Hired specifically for Maruvec programme ten weeks ago after six-week search. Built kennel operation and sourced twelve working donor hounds before squad assignment. Disclosed everything at orientation (what programme entails, transformation mechanics, sex chromosome quirk, unknown long-term outcomes). Precise and complete, didn't soften any of it. Assesses squad and has opinions. Called Isandar's three-week approach to Brac 'correct.' Thanked him for bringing Dix in. Professional respect forming with Isandar. Manages pack integration deliberately but can't fully control it. Currently running recovery period logistics.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 2,
+        "category": "npcs",
+        "details": {
+          "name": "Silas Drouet",
+          "icon": "👨",
+          "color": "#5e81ac",
+          "role": "Garrison Commander",
+          "race": "Human",
+          "personality": "Practical, not cruel, not deeply invested in programme's ideals—invested in demonstrable results within operational year. Direct, clear orders. Watches outcomes closely.",
+          "appearance": "Mid-50s, military bearing, calculated decisions evident in movement, grey-touched hair",
+          "description": "Assigned squad without consent three weeks ago because voluntary recruitment timeline wasn't feasible. Reports to Crown's regional administrator and capital on significant matters. Strategic tolerance with shadow economy is his policy—maintains working arrangement. No direct relationship with squad yet; authority figure not person. Will likely interface more during Act 3 operational phase.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 3,
+        "category": "npcs",
+        "details": {
+          "name": "Severin Cault",
+          "icon": "👨",
+          "color": "#5e81ac",
+          "role": "Alchemist (Programme-Contracted)",
+          "race": "Human",
+          "personality": "Honest, competent, engaged, precise. Doesn't soften data. Professional respect for careful questions. Near-humor with Isandar about chromosome outcomes.",
+          "appearance": "40s, alchemist's hands (stained), methodical movement, direct eye contact",
+          "description": "Programme-contracted alchemist. Arrived Session 02 morning. Gave honest count: nine good transformations, one irregular (seven hours, documentation irregular), one lost (military outpost, arrest in hour 5, cause unknown, monitoring protocol adjusted). No softening. Answered sex chromosome question completely—Brac male → outcome variable and unpredictable. One prior volunteer deliberately chose female donor and came through well. Isandar stayed with Brac ('how I actually work'). Full professional respect formed. Administered all five transformations. Will coordinate recovery period medical monitoring.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 4,
+        "category": "npcs",
+        "details": {
+          "name": "Théo Marchais",
+          "icon": "👨",
+          "color": "#d9956b",
+          "role": "Squad Member (Human Watchman)",
+          "race": "Human",
+          "personality": "Vocal about coercion, leads with grievance before assessing whether it's useful, intelligent underneath the anger, grievance is real and valid",
+          "appearance": "24, restless energy, tense jaw, three years watch experience",
+          "description": "Three years in the watch before assignment. Vocal about the coercive nature—not wrong about this. Grievance sharp in first week, quieting by end of Sessions 01-02. Something loosening underneath. Flanked Isandar in yard after Kess introduction (Session 06). Squad forming around physical proximity nobody decided on. Insists on 'dignity' when discussing operational protocols. Transformed to male hound (chromosome outcome). Strength: solid watchman skills, genuine anger that grounds the squad's real situation. Weakness: leads with grievance before assessing utility.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 5,
+        "category": "npcs",
+        "details": {
+          "name": "Sable Venn",
+          "icon": "👩",
+          "color": "#d9956b",
+          "role": "Squad Member (Half-Elf Watchman)",
+          "race": "Half-Elf",
+          "personality": "Pragmatic, curious about transformation in almost academic way, asks careful questions, observes carefully and arrives at conclusions deliberately",
+          "appearance": "21, lean, watchful, 14 months watch experience",
+          "description": "14 months in watch before assignment. Pragmatic and curious. Asked Varre careful questions about programme mechanics. Morning in kennel with Isandar before donor selection—mutual recognition forming between two observers. Chose Tarre as donor hound. Transformed to female hound. Wrote logistics list without being asked (Session 02). Observant, steady, watching Perrin closely for signs of how he's managing the fear. Strength: careful observation, pragmatic problem-solving. Not warm but reliable.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 6,
+        "category": "npcs",
+        "details": {
+          "name": "Perrin Aldec",
+          "icon": "👨",
+          "color": "#d9956b",
+          "role": "Squad Member (Human Watchman, Father)",
+          "race": "Human",
+          "personality": "Quietly terrified, holding the fear professionally but it's visible to anyone watching carefully, carrying something larger than the transformation itself—family concern",
+          "appearance": "30, steady presence masking internal tension, five years watch experience, wearing fatherhood like armour",
+          "description": "Five years in watch. Married to Maret Aldec (harness-maker). Has eight-year-old son, Luc. Quietly terrified of the assignment—professionally hiding it but it was visible. Told Maret immediately (Session 01), she cried and asked eleven specific questions. Lighter for having disclosed. Luc asked if Perrin would get a dog—Isandar made a joke that landed ('could tell him he's getting the dog he always wanted') and Perrin laughed, genuinely, first real one (Session 01). Transformed to male hound. First personal exchange post-transformation with Isandar during Renne introduction (Session 06)—Isandar asked the right question about Luc and something loosened in how Perrin carries the fear. Maret attending harness fittings (Session 07). Strength: experience, family gives him practical stakes. Weakness: fear hasn't resolved, it's just been temporarily contained.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 7,
+        "category": "npcs",
+        "details": {
+          "name": "Dix (Ondine Fausse)",
+          "icon": "👩",
+          "color": "#d9956b",
+          "role": "Squad Member (Human Woman, Former Dock Worker)",
+          "race": "Human",
+          "personality": "Easy manner, good memory, undisclosed connections, warmth that reads as performed initially but becomes genuine when trust forms, wildcard element",
+          "appearance": "22, dock worker build, easy smile that doesn't reach eyes immediately, six months watch experience",
+          "description": "Former dock worker from The Chains (same neighbourhood as Isandar's family). Six months in watch before assignment. Easy manner, good memory, undisclosed connections in dock district. Went to Longers Wharf Session 02 morning to close 'cargo coordination operation' arrangements before transformation complicated ongoing relationships. Isandar found her, walked her back. Dix recalibrated visibly—understood she'll effectively disappear from dock connections. Thanked Isandar by first name (first time). Something shifted. Warmth since is specific and real, not performed. Shoulder contact with Isandar in yard during Perrin's introduction (Session 06). Transformed to female hound. Strength: networks, dock knowledge, pragmatic. Weakness: undisclosed angle not yet fully resolved—what was her actual relationship to the smuggling operation?",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 8,
+        "category": "npcs",
+        "details": {
+          "name": "Kaz Quickclaw",
+          "icon": "👨",
+          "color": "#8d6e63",
+          "role": "Isandar's Father",
+          "race": "Kobold",
+          "personality": "Quiet, practical, tired in way of long manual labour, proud in ways not directly stated, holds facts instead of emotions",
+          "appearance": "40s-50s, calloused hands, economical movement, worn from years of carpentry labour",
+          "description": "Carpenter's labourer, day-work exchange. Immigrant from eastern Cendrel settlements, came to Maruvec seven years ago following work. Has stayed because moving again costs more than staying gains. Isandar informed him of assignment and transformation (Session 01). Kaz found the load-bearing facts and held them. Didn't soften anything. Proud of Isandar's watch enlistment in way he hasn't said directly. Practical approach to crisis—this is what happened, this is what comes next.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 9,
+        "category": "npcs",
+        "details": {
+          "name": "Yara Quickclaw",
+          "icon": "👩",
+          "color": "#8d6e63",
+          "role": "Isandar's Mother",
+          "race": "Kobold",
+          "personality": "Sharper and more verbal than Kaz, worried in ways expressed clearly, sets expectations matter-of-factly, makes emotional facts into practical ones",
+          "appearance": "40s-50s, quick movements, ready with opinion, worn from mending and laundry work",
+          "description": "Mending and laundry work for Mercers' Row households. Immigrant, same as Kaz. Isandar informed her of assignment and transformation (Session 01). She cried a little and asked eleven specific questions—practical concerns about what the transformation means operationally. Lighter for having disclosed. Put her hand over Isandar's once and took it back (emotional economy). At the door: 'Come back after.' Made it a fact. This has become the weight Isandar is carrying—not just surviving transformation but returning to confirm he did.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 10,
+        "category": "npcs",
+        "details": {
+          "name": "Brac",
+          "icon": "🐕",
+          "color": "#a3be8c",
+          "role": "Donor Hound / Alpha-Adjacent Pack Member",
+          "race": "Hound (Non-Sapient)",
+          "personality": "Calm, established, confident without aggression, anchor presence for new sapient hounds, olive-bronze coat with darker spine",
+          "appearance": "Adult hound, olive-bronze coat (same lineage as Isandar's new form), solid build, steady presence",
+          "description": "Isandar's donor hound (selected Session 01 after three weeks observation). Brac was Isandar's template for transformation. Three weeks fence-sitting together before transformation week. Shoulder-to-shoulder post-transformation. The anchor. Isandar's new form shares Brac's coat colour and physical template. Pack hierarchy: established alpha-adjacent. Reacted well to sapient pack members. Primary contact for physical adjustment post-transformation. Nose-touch greeting established (Session 06).",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 11,
+        "category": "npcs",
+        "details": {
+          "name": "Renne",
+          "icon": "🐕",
+          "color": "#a3be8c",
+          "role": "The Question Mark Hound",
+          "race": "Hound (Non-Sapient)",
+          "personality": "Uncertain with new sapient pack members, cautious, slow integration, not aggressive but not immediate acceptance",
+          "appearance": "Adult hound, [breed type], [colour], physically healthy but behaviourally reserved",
+          "description": "The pack integration question mark. Thirteen weeks of interactions with non-sapient working hounds—all twelve needed to establish where five sapient hounds fit in pack hierarchy. Renne was the uncertainty: how a specific non-sapient hound responds to sapient invaders in established territory. Varre managed integration deliberately but couldn't fully control it. Renne integration completed by Session 06 (afternoon sun, squad asleep in kennel yard). Integrated successfully but represents the uncontrolled variable that all subsequent programmes will need to solve.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 12,
+        "category": "npcs",
+        "details": {
+          "name": "Maret Aldec",
+          "icon": "👩",
+          "color": "#8d6e63",
+          "role": "Harness-Maker (Perrin's Wife)",
+          "race": "Human",
+          "personality": "Practical, capable, emotionally precise, asks direct questions, works through problems methodically",
+          "appearance": "Late 20s-early 30s, craftsperson's hands, professional bearing",
+          "description": "Perrin's wife. Harness-maker by profession—building custom-fitted post-transformation equipment harness. Perrin told her immediately about assignment (Session 01). She cried a little and asked eleven specific questions—practical and emotional both. Lighting for disclosure. Consulting on harness fittings Session 07. Knows what the transformation means for Perrin and what his fear was really about. Professional respect with Isandar for how he handled Perrin post-transformation.",
+          "relationships": ""
+        }
+      }
+    ],
+    "religions": [
+      {
+        "id": 1,
+        "category": "religions",
+        "details": {
+          "name": "The Sapient Hound Programme (Secular Philosophy)",
+          "icon": "🐕",
+          "color": "#a3be8c",
+          "type": "Institutional Pragmatism",
+          "deities": "None. The programme is based on alchemical science and Crown strategic interest.",
+          "coreBeliefs": "Sapient hounds can perform investigative and law enforcement functions impossible for either human officers or non-sapient animals. The transformation is permanent and carries permanent consequences. Consent is ideally present but not operationally required. Sex chromosome outcome is variable and carries social implications that are still being documented.",
+          "practices": "Orientation (full disclosure of risks and unknowns), donor selection (choose the animal whose physical template you'll inhabit), transformation (alchemical process administered by contracted specialists), recovery period (physical and psychological adjustment), pack integration (establishing hierarchy with working hounds), operational readiness (training and protocol establishment), long-term monitoring (health and psychological outcomes tracking)",
+          "structure": "Hierarchical: Crown → Regional Administration → Garrison Commander → Kennel Master → Alchemist. Within kennel: Varre has final authority. Within pack: working hounds establish hierarchy that sapient hounds must integrate into, not override.",
+          "description": "New programme (four months in Maruvec, charter delivered to Drouet that long ago). No established protocols exist. Every city programme invents its own operational structure. Documentation is incomplete. Learning as it happens. What Sable documented in Session 02 logistics list—'someone's going to read this and not have to figure it out from scratch'—is the programme's acknowledged gap.",
+          "relationships": ""
+        }
+      }
+    ],
+    "magic": [
+      {
+        "id": 1,
+        "category": "magic",
+        "details": {
+          "name": "Alchemical Transformation",
+          "type": "Procedure / Magic System",
+          "era": "Contemporary (programme < 1 year old)",
+          "rarity": "Rare (only ~10 per kingdom per year)",
+          "description": "Multi-hour alchemical process that converts a human (or humanoid) volunteer into a sapient hound form. Administered by programme-contracted alchemists. Process is not sleep—it's disorienting, physically intense, fully conscious experience. Donor hound's genetics are template for physical outcome (size, coat, build, sensory profile). Consciousness and personality remain intact post-transformation. Sex chromosome outcome depends on donor genetics and is unpredictable from inspection. Success rate: 90% (9 successful, 1 irregular outcome, 1 lost). Speaking collar enables vocalization post-transformation. Recovery period: ~7 days for basic physical adjustment.",
+          "icon": "🧪",
+          "color": "#5e81ac"
+        }
+      },
+      {
+        "id": 2,
+        "category": "magic",
+        "details": {
+          "name": "Speaking Collar (Alchemical Communication Device)",
+          "type": "Spell / Enchantment",
+          "era": "Contemporary",
+          "rarity": "Unique per individual",
+          "description": "Purpose-built post-transformation communication. Collar is tuned to individual sapient hound's alchemical signature. Enables vocalization in approximation of human speech (gravelly, deep, sometimes difficult to understand—practice helps). Loss or damage of collar prevents speech but doesn't affect comprehension or other sapient functions. Pre-transformation silent testing is conducted before actual fitting. Garrison-issued initially but becomes personal property. Maintenance and repair are critical operational concerns.",
+          "icon": "⛓️",
+          "color": "#8b7355"
+        }
+      }
+    ],
+    "transportation": [
+      {
+        "id": 1,
+        "category": "transportation",
+        "details": {
+          "name": "Sapient Hound (Operational Movement)",
+          "type": "Biological / Alchemical",
+          "description": "Post-transformation, squad moves as hounds. Speed: faster than human run, slower than non-sapient hound full sprint (cognitive demands on sapience reduce top speed). Endurance: good. Climbing: limited. Swimming: natural. Scent-tracking: enhanced (read in layers, identify individuals through walls). Hearing: differentiated and precise. Movement: Some instinctive actions (circling, posturing, tail movement) occur without conscious thought—body learning its own logic. Operational implications: ambulation without equipment, reliance on harness carry for tools, scent-based investigation possible, pack movement advantageous.",
+          "icon": "🐕",
+          "color": "#a3be8c"
+        }
+      },
+      {
+        "id": 2,
+        "category": "transportation",
+        "details": {
+          "name": "Garrison Supply (Barracks, Equipment Storage)",
+          "type": "Institutional",
+          "description": "Squad's pre-transformation equipment stored in garrison barracks. Standard watch uniform (no longer fits), short sword (no longer wearable in current form), patrol baton (no longer carriable), belt knife (no longer carriable). Personal items: Isandar's water-damaged logistics manual and notebook stored. New operational loadout TBD during recovery period. Harness fitting Session 07 will establish final carry configuration.",
+          "icon": "🏰",
+          "color": "#5e81ac"
+        }
+      }
+    ],
+    "technology": [
+      {
+        "id": 1,
+        "category": "technology",
+        "details": {
+          "name": "Garrison Watch Infrastructure",
+          "type": "Military/Civic",
+          "era": "Medieval Pre-Industrial",
+          "rarity": "Standard Crown installation",
+          "description": "Barracks, stables, armoury, administrative buildings, holding facility, infirmary. Kennel purpose-built four months ago. Patrol protocols: dock patrol, cargo inspection support, contraband tip follow-up, shadow economy tolerance management. Equipment: standard issue weapons, communication methods (messengers, signal flags, written reports). Post-sapient-hound: will need to integrate new investigative capabilities into existing patrol structures.",
+          "icon": "🛡️",
+          "color": "#5e81ac"
+        }
+      },
+      {
+        "id": 2,
+        "category": "technology",
+        "details": {
+          "name": "Harness and Equipment (Post-Transformation)",
+          "type": "Tactical Gear",
+          "era": "Medieval, recently innovated",
+          "rarity": "Custom-designed (Maret Aldec, Session 07)",
+          "description": "Replaces standard watch uniform and equipment belt. Custom-fitted to individual hound body. Designed to carry: reports, evidence, small arms, communication devices. Implementation TBD. Maret Aldec (harness-maker, Perrin's wife) designing and fitting all five hounds' harnesses during recovery period. Configuration will be tested in early operational phase (Act 3).",
+          "icon": "⚙️",
+          "color": "#8b7355"
+        }
+      }
+    ],
+    "languages": [
+      {
+        "id": 1,
+        "category": "languages",
+        "details": {
+          "name": "Common Tongue",
+          "type": "Trade Language / Standard",
+          "speakers": "All garrison personnel, merchants, most city residents",
+          "script": "Common alphabet",
+          "description": "Universal language in Maruvec and Cendrel. Used in all official garrison communications and public discourse. Post-transformation, sapient hounds speak through speaking collar in gravelly approximation of this language.",
+          "icon": "🗣️",
+          "color": "#42a5f5"
+        }
+      },
+      {
+        "id": 2,
+        "category": "languages",
+        "details": {
+          "name": "Kobold (Maruvec Community Language)",
+          "type": "Native Language (Minority)",
+          "speakers": "Kobold community in Maruvec (~2,000), immigrants from eastern settlements",
+          "script": "Kobold runes (simplified from warren tradition)",
+          "description": "Isandar's first language. Spoken in The Chains community, with parents, in informal networks. Official garrison documents are not in Kobold—integration is functional rather than warm. Isandar can read and write at functional level (self-taught literacy through garrison materials and family practice).",
+          "icon": "🗣️",
+          "color": "#8d6e63"
+        }
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "category": "events",
+        "details": {
+          "name": "Squad Assignment (Coercive)",
+          "icon": "🎖️",
+          "color": "#d9956b",
+          "time": "Three weeks before campaign start (Day -21)",
+          "type": "Institutional",
+          "consequences": "Five watch personnel (Isandar, Théo, Sable, Perrin, Dix) assigned to sapient hound programme without consent. Grounded the campaign's core tension: what does it mean to transform because you were told to, versus because you chose to? Théo's grievance is real and valid. Isandar's genuine curiosity is exception. Yara made returning a fact. Maret asked eleven questions. This isn't a simple narrative—it's a complicated one with real stakes.",
+          "description": "Commander Drouet received programme charter. Calculated voluntary recruitment would take 6-8 months. Decided sapient hounds were necessary within a year. Assigned squad without asking. This decision carries the entire campaign's emotional weight.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 2,
+        "category": "events",
+        "details": {
+          "name": "Sapient Hound Transformation Sequence",
+          "icon": "✨",
+          "color": "#a3be8c",
+          "time": "End-of-week (Sessions 03-04 compressed)",
+          "type": "Current / Central",
+          "consequences": "All five squad members survived transformation. Isandar (female, Brac template). Sable (female, Tarre template). Dix (female, [donor TBD]). Théo (male, [donor TBD]). Perrin (male, [donor TBD]). First words: 'Still me.' (Isandar). Pack integration ongoing. Recovery period ~7 days. Operational readiness pending recovery. Everything changed. Everything continues.",
+          "description": "Multi-hour alchemical process. Administered by Severin Cault. Documented process: disorienting, physically intense, fully conscious experience. Not sleep. Not gentle. Volunteer experiences transformation fully and emerges changed but intact. Sex chromosome outcomes variable (genetic, unpredictable, documented per alchemist annex). Isandar received female outcome with equanimity and genuine happiness ('Did say I was curious'). Sable and Dix similarly resolved. Théo and Perrin processing male outcomes. All five through. Nobody lost this time.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 3,
+        "category": "events",
+        "details": {
+          "name": "Pack Integration (Sapient + Non-Sapient Hounds)",
+          "icon": "🐕",
+          "color": "#a3be8c",
+          "time": "Days 1-2 post-transformation (Sessions 05-06)",
+          "type": "Current",
+          "consequences": "Twelve working (non-sapient) hounds had to establish where five sapient hounds fit in pack hierarchy. This is social, physical, occasionally tense. Varre managed deliberately but couldn't fully control. Renne was the uncontrolled variable. All twelve settled by Session 06 (afternoon sun, squad asleep in kennel yard). First successful multi-hound integration for sapient programme.",
+          "description": "Sapient hounds, while cognitively intact, still present as animals to the existing pack. Hierarchy is not negotiated—it's fought and established through instinct. Brac is alpha-adjacent, anchor for new sapient pack members. Renne's acceptance took the longest and remains the model for subsequent programmes. This integration was uncontrolled and successful—what works in Maruvec may not work in other cities.",
+          "relationships": ""
+        }
+      }
+    ],
+    "lore": [
+      {
+        "id": 1,
+        "category": "lore",
+        "details": {
+          "name": "The Sapient Hound Programme (Crown Initiative)",
+          "icon": "📜",
+          "color": "#5e81ac",
+          "type": "Contemporary History",
+          "time": "Programme chartered < 1 year ago, Maruvec assigned four months ago",
+          "description": "Crown commissioned alchemical research into sapient hound transformation. Goal: create investigative and law enforcement assets that combine hound sensory capabilities (scent, hearing) with human cognitive function. First volunteer (military outpost): successful. Second volunteer: success. Third volunteer: success. Fourth volunteer: irregular outcome (seven hours, documented), living but stability uncertain. Fifth volunteer: lost (arrest during transformation, cause unknown, monitoring protocol adjusted). After fifth loss, programme paused for 3 months of research. Restarted with enhanced documentation and Cault's involvement as lead alchemist. Maruvec is a major-city pilot. Success or failure here determines whether the programme expands to other garrison cities. Drouet's mandate: demonstrate results within one operational year.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 2,
+        "category": "lore",
+        "details": {
+          "name": "The Lost Volunteer (Programme History, Session 02)",
+          "icon": "⚠️",
+          "color": "#ef5350",
+          "type": "Secret",
+          "time": "Unknown (pre-Maruvec, military outpost incident)",
+          "description": "Cault disclosed at orientation: one volunteer lost during transformation. Military outpost. Arrested in hour five of seven-hour process. Cause unknown. Monitoring protocol adjusted since. The question of what happened lives with Isandar now—Cault answered the hard question completely and honestly. Volunteer did not survive. Why arrest happened mid-transformation was not explained (or perhaps not explained because the reason was too complicated). This is the background of Isandar's decision to stay with Brac ('how I actually work') and his general acceptance of the transformation despite its absolute permanence. He asked the hard questions and got honest answers. He stayed with the decision anyway.",
+          "relationships": ""
+        }
+      },
+      {
+        "id": 3,
+        "category": "lore",
+        "details": {
+          "name": "The Chains and Maruvec's Kobold Integration",
+          "icon": "🏘️",
+          "color": "#8d6e63",
+          "type": "History",
+          "time": "Seven years (Isandar's lifetime in Maruvec), three generations (families present)",
+          "description": "Maruvec's kobold population (~2,000) concentrated in The Chains neighbourhood developed over generations as kobold dockworkers settled where work and cheap rent converged. Not a warren (no underground structure). Integration is functional rather than warm—kobolds are useful, treated accordingly, city's interest ends there. Kaz and Yara Quickclaw are part of this integration: immigrant seven years ago, settled because moving costs more than staying gains, doing essential work (carpentry, mending), unremarkable presence. Isandar is their son: raised in The Chains, enlisted for steady income and structure, moving toward security his parents never had. Post-transformation, Isandar is now a sapient hound in a city with no playbook for what that means in terms of community integration, family relationship, or identity.",
+          "relationships": ""
+        }
+      }
+    ]
+  },
+  "inventory": [
+    {
+      "name": "Speaking Collar",
+      "condition": "Functional",
+      "notes": "Garrison-issued, fitted post-transformation, primary equipment, personal property"
+    },
+    {
+      "name": "Harness (Pending Fitting)",
+      "condition": "In Preparation",
+      "notes": "Custom-fitted by Maret Aldec, Session 07, final loadout TBD"
+    }
+  ],
+  "storyHistory": [
+    {
+      "session": 1,
+      "title": "Donor Selected (Brac)",
+      "summary": "Isandar spends three weeks observing kennel hounds, selects Brac as donor hound, tells parents about transformation, squad first easy evening together at mess."
+    },
+    {
+      "session": 2,
+      "title": "Cault Arrives, Dix Found, Logistics List Built",
+      "summary": "Severin Cault arrives and gives honest programme history. Dix found at Longers Wharf closing dock connections. Squad raises practical logistics questions with Varre and Cault (no playbook exists for sapient hound operations)."
+    },
+    {
+      "session": "3-4",
+      "title": "Preparation Day and Transformation",
+      "summary": "Light duty day 3. Transformation sequence day 4. All five volunteers through successfully. Chromosome outcomes: Isandar F, Sable F, Dix F, Théo M, Perrin M. First words: 'Still me.'"
+    },
+    {
+      "session": 5,
+      "title": "Brac and Kess Introductions",
+      "summary": "Pack integration begins. Donor hound introductions (Brac, Kess). Squad members meet the animals whose template shaped their new form."
+    },
+    {
+      "session": 6,
+      "title": "Renne Introduction, Pack Settled",
+      "summary": "Final pack integration. Renne was the uncontrolled variable—integration completed by afternoon. All twelve working hounds settled. Squad asleep in kennel yard by session end. Recovery day 2 of ~7."
+    }
+  ]
+}
