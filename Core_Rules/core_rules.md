@@ -858,6 +858,31 @@ Scenario Complete
 
 ---
 
+## In-World Document Preservation
+
+When the fiction produces a document whose exact wording is authoritative — where paraphrasing would change its meaning — preserve it verbatim as a standalone file. This applies to **documents only**, not dialogue, conversation, or scene narration. Spoken words are summarized as normal unless a character in the fiction explicitly creates a written transcript (a court scribe recording proceedings, a clerk taking minutes, an NPC writing down what was said). The transcript then becomes a document and follows these rules.
+
+1. **Save the document as a standalone .md file** in the scenario's `Documents/` subdirectory: `Scenarios/[Campaign_Name]/Documents/`. Create the directory if it does not exist.
+2. **In the checkpoint, include a one-line summary** of what the document is and a reference link to the file.
+
+**Document types that qualify:**
+- Legal documents: contracts, writs, decrees, formal charges, court rulings, charters
+- Prophecies and oracles: any text the fiction treats as fixed and interpretable
+- Letters and formal correspondence: where tone, phrasing, or specific commitments matter
+- Oaths, vows, and binding agreements: written, where the exact terms are load-bearing
+- Official records: ledger entries, inventories, or logs where specific figures matter
+
+**The test:** if a player or NPC could later argue over what the text *actually said*, it gets its own file. If the gist is sufficient, summarize as normal.
+
+**Checkpoint format:**
+```
+- Writ of Formal Charges against Oswin Brandt → [[Viktor_Steinfeld/Documents/Writ_Brandt_Charges.md]]
+```
+
+**Naming convention:** descriptive name reflecting document type and subject.
+
+---
+
 ## Checkpoint Display Behavior
 
 **When a checkpoint is triggered:**
