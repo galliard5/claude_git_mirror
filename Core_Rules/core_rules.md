@@ -860,7 +860,7 @@ Scenario Complete
 
 ## In-World Document Preservation
 
-When the fiction produces a document whose exact wording is authoritative — where paraphrasing would change its meaning — preserve it verbatim as a standalone file. This applies to **documents only**, not dialogue, conversation, or scene narration. Spoken words are summarized as normal unless a character in the fiction explicitly creates a written transcript (a court scribe recording proceedings, a clerk taking minutes, an NPC writing down what was said). The transcript then becomes a document and follows these rules.
+When the fiction produces a document whose exact wording is authoritative — where paraphrasing would change its meaning — preserve it verbatim as a standalone file. This applies to **documents only**, not dialogue, conversation, or scene narration.
 
 1. **Save the document as a standalone .md file** in the scenario's `Documents/` subdirectory: `Scenarios/[Campaign_Name]/Documents/`. Create the directory if it does not exist.
 2. **In the checkpoint, include a one-line summary** of what the document is and a reference link to the file.
@@ -880,6 +880,25 @@ When the fiction produces a document whose exact wording is authoritative — wh
 ```
 
 **Naming convention:** descriptive name reflecting document type and subject.
+
+### Transcripts
+
+Spoken words are summarized as normal unless a character in the fiction explicitly creates a written transcript. The transcript is then treated as a document and follows the preservation rules above — but it is authored by the in-world transcriptionist, not mechanically captured from the session.
+
+**The GM writes the transcript as the transcriptionist would have produced it.** Consider their skill and experience: a trained court clerk produces a structured, disciplined record with proper headers, selective direct quotation, and consistent legal phrasing. An untrained person doing their best produces something rougher — inconsistent detail, missed statements, unintentional editorializing, emphasis on the wrong moments, paraphrasing that subtly shifts meaning. The transcript reflects the transcriptionist's capability, attention, and biases, not an objective recording of what occurred.
+
+**Every transcript includes an attribution line** identifying who produced it, their role or title (if any), and the date. This establishes the document's in-world credibility — NPCs evaluating the transcript will weigh its authority based on the author. A record signed by a court clerk under seal carries institutional weight. One signed by whoever happened to be holding a quill does not.
+
+**Transcriptionists can be compromised.** A clerk ordered by a patron to alter a record, or one who personally dislikes a party involved, may produce a document that is deliberately inaccurate. Before writing a tampered transcript, the GM evaluates the transcriptionist as any NPC contemplating a crime: do they have sufficient motive? Is the penalty worth the risk if caught? Could they do it without detection? Outright fabrication is high-risk — anyone present could challenge it. Selective omission, unflattering paraphrasing, or quietly downplaying a key statement is harder to prove and more likely to be attempted. The resulting document should reflect both the method and the skill of the deception — a clumsy falsification leaves traces, a careful one may only surface under scrutiny.
+
+**If a transcript contains material inaccuracies** — whether from incompetence, bias, or deliberate tampering — append a GM-only reference block at the end of the document file listing each deviation from what actually occurred. This block is not in-world content. It exists so the GM can adjudicate challenges, cross-examinations, or later scrutiny without relying on memory or searching session logs. If the transcript is accurate, omit the block.
+
+```
+---
+## GM ONLY — Not In-World Content
+**Deviations from actual events:**
+- [What the transcript says] → [What actually happened]
+```
 
 ---
 
