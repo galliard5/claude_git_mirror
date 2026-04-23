@@ -17,6 +17,9 @@ description: Epic-level silver dragon oracle/sorcerer gestalt with cosmic themes
 - **Height:** 36 in | **Weight:** 60 lb
 - **Eyes:** Black
 
+## True Name
+**Золото серебро медь латунь бронза** — written in Cyrillic as a stand-in for Draconic script. Translates as: *Gold, Silver, Copper, Brass, Bronze* — all five metallic dragon types, spoken simultaneously as a single name, as if by Tiamat. "Silver" is simply what everyone calls her. The true name implies something vast: she carries the essence of all five metallics compressed into one being, her Draconic name only fully pronounceable by a voice capable of speaking in multiple registers at once.
+
 ## Ability Scores (base / with items)
 | Stat | Base | With Items |
 |------|------|-----------|
@@ -93,8 +96,16 @@ Oracle 6/6/6/6/6/6/6/6/6/2 + Sorcerer 6/6/6/6/6/6/6/6/6/4. Spell DCs 22–31.
 ## Treasury (from accounting sheet)
 Approximately 5,945,232 gp equivalent across loot, equipment, and lair items. Lair includes: permanent phase door, gust of wind, wall of force, teleport circle (keyed), pool of scrying, secure cavern (permanent mind blank), wonderous absence (conceals magical auras), chamber of comfort, decanter of endless water, everful larder.
 
+## Lair
+An asteroid in the asteroid belt. She looked up one day, decided that rock was hers, and got there via Teleport Without Error. The permanent magical infrastructure listed above has since been installed inside it. The teleport circle (keyed) is presumably the standard method of receiving guests — or leaving in a hurry.
+
+## Active Project — The Stone Sphere
+At the time of the sheet, Silver was designing an **epic-level spell of tier 10 or 11** — beyond the standard cap of 9th-level magic. The spell was being scribed onto a stone sphere. The sphere has enough degrees of surface area to hold the complete notation of the spell — which requires **more than 360 degrees**, implying the object exists in higher-dimensional space or employs a non-Euclidean geometric framework. A standard sphere provides exactly 360 degrees in any given plane; a sphere capable of exceeding that as a writing surface is not a geometrically normal object. The spell itself is unfinished and its intended effect is unrecorded.
+
 ## Background Notes (from sheet)
 Family still alive. Dragon worked with giants at some point. Accumulated through extensive adventuring.
 
 ## Hooks & Notes
-An effectively invulnerable epic oracle/sorcerer who happens to also be a silver dragon. The Final Revelation makes her unkillable in conventional terms — she literally comes back as a star child. The starsoul/heavens theming gives her a cosmic grandeur appropriate to a near-deity-level entity. At level 26 she is clearly endgame content, best used as a BBAA (big beautiful ally ally), a recurring patron NPC, or the culmination of a very long campaign. The lair with its permanent magical infrastructure suggests she has a home base and complex interests.
+An effectively invulnerable epic oracle/sorcerer who happens to also be a silver dragon. The Final Revelation makes her unkillable in conventional terms — she literally comes back as a star child. The starsoul/heavens theming gives her a cosmic grandeur appropriate to a near-deity-level entity.
+
+At level 26 she is clearly endgame content, best used as a BBAA (big beautiful ally ally), a recurring patron NPC, or the culmination of a very long campaign. The asteroid lair is deliberately isolated — she chose it herself, which says something about her relationship to the wider world. The unfinished stone sphere and its level 10/11 working is an obvious adventure hook: whatever she was trying to do, it isn't done, and she's had the solitude of an asteroid to keep working on it.

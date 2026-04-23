@@ -1,12 +1,12 @@
 ---
 name: Kalysto
-keywords: [fallout, deathclaw, grey-deathclaw, domesticated, unarmed, stealth]
-description: A domesticated grey deathclaw with high Agility and Intelligence, surprisingly stealthy and lockpick-capable; Fallout tabletop.
+keywords: [fallout, deathclaw, grey-deathclaw, domesticated, unarmed, stealth, fallout-2-3-mechanics]
+description: A domesticated grey deathclaw — an intelligence-bred subspecies built on Fallout 2/3 SPECIAL mechanics — with high Agility and surprising skill at stealth and lockpicking.
 ---
 
 # Kalysto
 
-**System:** Fallout Tabletop RPG (likely Fallout PnP / fan system)
+**System:** Fallout tabletop RPG (fan/homebrew system based on Fallout 2/3 SPECIAL mechanics)
 **Original Campaign:** (unrecorded)
 **Player:** (unrecorded)
 
@@ -14,6 +14,9 @@ description: A domesticated grey deathclaw with high Agility and Intelligence, s
 - **Race:** Grey Deathclaw
 - **Level:** 1
 - **Traits:** Small Frame, Domesticated
+
+## Lore Note — Grey Deathclaw
+Grey deathclaws are an intelligence-bred subspecies, selectively developed for elevated cognition and science aptitude. The tradeoff for this enhancement is the **Small Frame** flaw — a smaller, lighter build than standard deathclaws. This is consistent with established Fallout canon (the Enclave developed intelligent deathclaws via FEV modification in Fallout 2, producing the talking deathclaws of Vault 13), but **"grey deathclaw" as a named subspecies does not appear in official game canon** — it is most likely a homebrew subspecies created for this tabletop system, grounded in but extending beyond canon lore. The "Domesticated" trait is separately applied on top of the racial template.
 
 ## S.P.E.C.I.A.L.
 | STR | PER | END | CHA | INT | AGI | LCK |
@@ -71,4 +74,8 @@ description: A domesticated grey deathclaw with high Agility and Intelligence, s
 | Strong Punch | Unarmed | — | — | details unrecorded |
 
 ## Hooks & Notes
-Kalysto is a fascinating concept: a deathclaw that's been domesticated, with an Intelligence of 7 (high enough for rudimentary thought and skill use in most Fallout systems) and inexplicably solid Lockpick and Sneak numbers. The "Small Frame" trait is unusual for a deathclaw, suggesting this may be a young or undersized specimen. The Domesticated trait is the character hook — how did she end up tamed, and by whom? The terrible Luck (1) means bad things happen to her with regularity, which could drive a lot of narrative. She has 0 perks taken yet at level 1, giving a lot of room for development. Unarmed 84 at level 1 is exceptional — she's already a melee specialist. The zero electricity resistance is a notable vulnerability.
+Kalysto is built on the grey deathclaw's core premise — bred for intelligence and science aptitude, smaller than a standard deathclaw as a result. INT 7 is enough for meaningful thought and skill use under Fallout 2/3 mechanics, and the tagged skills reflect a character designed to operate in the world rather than just smash through it: Sneak 58 and Lockpick 47 at level 1 mean she can actually get places without fighting. The Science skill investment reinforces the subspecies' breeding purpose.
+
+The Domesticated trait is the core character hook — she's been tamed somehow, raising questions about by whom and under what circumstances. Given that canon intelligent deathclaws (Fallout 2's Vault 13 community) were exterminated by the Enclave, a domesticated grey deathclaw operating in the wasteland would have a complicated relationship with factions that know what she is.
+
+Luck 1 means the dice will regularly punish her. Zero electricity resistance is a specific, exploitable vulnerability. She has no perks yet at level 1 — there's significant build space ahead. The Explosives skill at 44 is an unexpected bonus for a melee specialist.

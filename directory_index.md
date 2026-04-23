@@ -2,9 +2,9 @@
 name: Directory Index
 keywords: [index, directory, structure, map]
 description: Auto-generated directory tree snapshot
-scan_utc: 2026-04-16T17:33:28Z
-scan_local: 2026-04-16 11:33:28 Mountain Daylight Time
-claude_section_end: 122
+scan_utc: 2026-04-22T16:57:19Z
+scan_local: 2026-04-22 10:57:19 Mountain Daylight Time
+claude_section_end: 123
 ---
 Claude_MCP_folder
  Core_Rules
@@ -96,6 +96,7 @@ Claude_MCP_folder
      unique_enchanted_items
     Town
      Characters
+  Character_Pool
   Gallihammer
    Archaeos_Expedition
     Characters
@@ -123,7 +124,7 @@ Claude_MCP_folder
 
 # Human-Readable Directory Tree
 
-Scanned: 2026-04-16 11:33:28 Mountain Daylight Time (UTC: 2026-04-16T17:33:28Z)
+Scanned: 2026-04-22 10:57:19 Mountain Daylight Time (UTC: 2026-04-22T16:57:19Z)
 Excluded: .git, .obsidian, Trash, __pycache__, node_modules
 
 ```
@@ -217,6 +218,7 @@ Claude_MCP_folder/
     │       │   └── unique_enchanted_items/
     │       └── Town/
     │           └── Characters/
+    ├── Character_Pool/
     ├── Gallihammer/
     │   ├── Archaeos_Expedition/
     │   │   ├── Characters/

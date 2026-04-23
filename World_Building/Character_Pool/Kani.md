@@ -75,7 +75,7 @@ None worn — all defense through tattoos and magical AC.
 ## Other Equipment
 - Alchemist's Lab, Handy Haversack, Component pouch, Staff
 - Cauldron of Brewing
-- Droomm of Flying (9 hrs/day) (likely "broom of flying")
+- Broom of Flying (9 hrs/day)
 
 ## Feats
 Brew Potion, Craft Wondrous Item, Inscribe Tattoo, Immune to Poison (racial), Darkvision 60 ft
@@ -86,4 +86,8 @@ Brew Potion, Craft Wondrous Item, Inscribe Tattoo, Immune to Poison (racial), Da
 - Buccaneer's Blood: +1 Intimidate and Sailor; one-time +1 infamy/disrepute
 
 ## Hooks & Notes
-A wonderfully nasty little kobold who's inscribed her magic items directly onto her scales, leaving her lightly encumbered and hard to disarm. The sea viper familiar with its deliver-touch-spells ability makes her hexes highly mobile. The poison gas breath is an unusual kobold racial that pairs well with her witch alchemy theme. Lawful evil with a sailor background suggests a cold pragmatism — she earns her keep, does her job, doesn't make unnecessary enemies. Strong candidate for a nautical setting (Sea Dragons was her origin), or any dungeon with a kobold political angle. The bone dagger "carved from a human femur" tells you something about her.
+A wonderfully nasty little kobold who's inscribed her magic items directly onto her scales, leaving her lightly encumbered and hard to disarm. The sea viper familiar with its deliver-touch-spells ability makes her hexes highly mobile. The poison gas breath is an unusual kobold racial that pairs well with her witch alchemy theme.
+
+Lawful evil with a sailor background suggests a cold pragmatism — she earns her keep, does her job, doesn't make unnecessary enemies. It was not uncommon for people to end up in her Cauldron of Brewing. The bone dagger carved from a human femur and the cauldron together paint a consistent picture: Kani is the kind of witch the stories warn you about. The Cauldron of Brewing is a *brewing* cauldron in the most literal sense, and she used it accordingly.
+
+Strong candidate for a nautical setting (Sea Dragons was her origin), or any dungeon with a kobold political angle. The broom of flying gives her nine hours of aerial mobility per day, which is a significant tactical and escape asset for a small creature who otherwise has no movement options beyond foot speed.
