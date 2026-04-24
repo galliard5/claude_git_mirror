@@ -15,6 +15,15 @@ AVAILABLE TOOLS FOR CLAUDE
 
 ---
 
+WINDOWS FILESYSTEM ENVIRONMENT
+==============================
+
+**Windows paths only**: All paths use Windows format: `D:\Claude_MCP_folder\`
+**MCP filesystem tools only**: No bash/Linux tools available. Use filesystem MCP tools exclusively.
+**Root directory**: `D:\Claude_MCP_folder` — ALL operations confined here.
+
+---
+
 STARTUP PROCEDURES — EXECUTE ON EVERY CONVERSATION START
 =========================================================
 
@@ -150,18 +159,46 @@ git commit -m "Your commit message"
 
 Process: Read → identify exact target text → edit with verified string.
 
-## TOOL SCHEMA (verified 2026-03-29)
+## VERIFIED TOOL SCHEMAS (2026-04-24)
 
+- `filesystem:read_text_file` — params: `path`, `head` (optional), `tail` (optional)
+  ⚠ CRITICAL: Cannot use `head` and `tail` simultaneously  
 - `filesystem:write_file` — params: `content`, `path`
 - `filesystem:edit_file` — params: `path`, `edits` [{oldText, newText}], `dryRun` (optional)
-- `filesystem:read_text_file` — params: `path`, `head` (optional), `tail` (optional)
 - `filesystem:read_multiple_files` — param: `paths` (array)
+- `filesystem:list_directory` — param: `path`
+- `filesystem:search_files` — params: `path`, `pattern`, `excludePatterns` (optional)
+- `filesystem:list_allowed_directories` — no params
 
-⚠ Common failure: using `description`/`file_text` (those are `create_file` params, not `write_file`). If writes fail, run `tool_search` to reload schema.
+⚠ If operations fail, run `tool_search filesystem` to reload current schema.
+
+## WINDOWS PATH REQUIREMENTS
+
+**Correct format**: `D:\Claude_MCP_folder\World_Building\Gallihammer\Equipment\filename.md`
+**Case sensitivity**: Windows paths are case-insensitive but maintain consistency
+**Directory verification**: Use `filesystem:list_directory` to confirm paths
+**Search when uncertain**: `filesystem:search_files` with patterns like `*.md`
+
+**Common path errors**:
+- ✗ Forward slashes: `/World_Building/` 
+- ✗ Missing drive: `Claude_MCP_folder\`
+- ✓ Correct: `D:\Claude_MCP_folder\World_Building\`
 
 ## FILE CREATION VERIFICATION
 
-After every `filesystem:write_file`: read the file back immediately. Verify content matches and frontmatter is intact. `write_file` has returned false successes — never trust the return alone.
+After EVERY `filesystem:write_file`: 
+1. Immediately verify with `filesystem:read_text_file` (head=5, tail=5)
+2. Check file exists in directory: `filesystem:list_directory`
+3. Verify content matches expected structure (YAML frontmatter, etc.)
+
+**Common verification pattern**:
+```
+filesystem:write_file(content, path)
+filesystem:read_text_file(path, head=8)  // Verify frontmatter
+filesystem:read_text_file(path, tail=5)  // Verify completion
+```
+
+`write_file` can return success but fail silently — ALWAYS verify.
 
 ## MODEL HANDOFF PROTOCOL (Opus → Haiku)
 
@@ -224,3 +261,22 @@ ERROR HANDLING
 **3-Strike Rule:** If any filesystem command fails 3 times consecutively → HALT, display error details, await user guidance. No automatic retries past 3.
 
 **No Delete Function:** Use `filesystem:move_file` to `Trash/`. If filename exists in Trash/, search for `Filename*` and increment: `Filename_{n+1}.ext`.
+
+## FILESYSTEM ERROR RECOVERY
+
+**File not found**: 
+1. `filesystem:list_directory` to verify parent folder
+2. `filesystem:search_files` with filename pattern
+3. Check exact Windows path format
+
+**Tool parameter errors**:
+1. Verify schema with `tool_search filesystem` 
+2. Check `head`/`tail` not used together
+3. Confirm `oldText` exact match for edits
+
+**Write verification**:
+```
+filesystem:write_file(content, path)
+filesystem:read_text_file(path, head=5)  // Verify start
+filesystem:read_text_file(path, tail=3)  // Verify end
+```
