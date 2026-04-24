@@ -1,7 +1,7 @@
 ---
 name: Cendrel
-keywords: [location, country, lore, A rough-edged French-Burgundy inspired kingdom bordering wilder frontier lands]
-description: sharing the 16th-century setting and transformation laws of Aethelmark
+keywords: [location, country, lore, kingdom, frontier, burgundy, kennel-hounds]
+description: A rough-edged French-Burgundy inspired kingdom bordering wilder frontier lands, sharing the 16th-century setting and transformation laws of Aethelmark
 ---
 
 Cendrel

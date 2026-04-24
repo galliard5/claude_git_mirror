@@ -1,7 +1,7 @@
 ---
 name: Edouard Vellancourt
-keywords: [npc, noble, patron, Eccentric wealthy Cendrel comte who founded and funds the sapient hound programme with grand vision, genuine investment]
-description: and a persistent blind spot for operational detail
+keywords: [npc, noble, patron, comte, cendrel, kennel-hounds, programme-founder]
+description: Eccentric wealthy Cendrel comte who founded and funds the sapient hound programme with grand vision, genuine investment, and a persistent blind spot for operational detail
 ---
 
 Edouard Vellancourt

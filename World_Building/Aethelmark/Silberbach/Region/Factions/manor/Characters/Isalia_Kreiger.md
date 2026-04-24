@@ -290,5 +290,3 @@ Permanent Injuries & Alterations:
 
 Active Conditions:
 - None currently.
-
-[IMAGE] New Trait: [object Object]

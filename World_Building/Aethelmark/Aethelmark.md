@@ -9,19 +9,15 @@ Aethelmark
 
 16th Century Central Europe campaign setting with historical realism and integrated fantasy elements.
 
-World Foundation: **World Name:** Earth
-**Time Period:** 16th Century Europe (Holy Roman Empire)
-**Core Concept:** Historical realism with integrated fantasy elements
-**Geography:** Based on real-world Central Europe (Austria, Prussia, Bohemia)
-**Magic:** Present, regulated, studied academically
-**Races:** D&D races exist and are integrated into society
-**Key Themes:** Progress vs. Tradition, Autonomy, Power through Competence
+## World Foundation
 
-Time Period: 16th Century
-
-Region: Central Europe
-
-Key Themes: Progress vs. Tradition, Autonomy, Power through Competence
+- **World Name:** Earth
+- **Time Period:** 16th Century Europe (Holy Roman Empire)
+- **Core Concept:** Historical realism with integrated fantasy elements
+- **Geography:** Based on real-world Central Europe (Austria, Prussia, Bohemia)
+- **Magic:** Present, regulated, studied academically
+- **Races:** D&D races exist and are integrated into society
+- **Key Themes:** Progress vs. Tradition, Autonomy, Power through Competence
 
 Imperial Connection: House Kreiger holds imperial ties across two generations. Duke Romaine Kreiger adventured alongside the previous Emperor — Aldric's father — before his ascension. Isalia Kreiger served alongside Aldric himself during the campaigns of his youth, when he was still a prince, roughly forty years ago. The current Emperor knows her by name and by shared history.
 

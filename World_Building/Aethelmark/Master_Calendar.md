@@ -103,7 +103,7 @@ JANUARY  |  FEBRUARY  |  MARCH  |  APRIL  |  MAY  |  JUNE  |  JULY  |  AUGUST  |
 
 ---
 
-### 3. VAUCLAIR CAMPAIGN (KENNEL HOUNDS WORLD)
+### 4. VAUCLAIR CAMPAIGN (KENNEL HOUNDS WORLD)
 **World:** Cendrel / Kennel Hounds setting  
 **Start Date:** TBD — not yet assigned to Aethelmark timeline  
 **Location:** [[Vauclair|Vauclair]] — border town, Warren  
@@ -117,7 +117,7 @@ JANUARY  |  FEBRUARY  |  MARCH  |  APRIL  |  MAY  |  JUNE  |  JULY  |  AUGUST  |
 
 ---
 
-### 4. ROCHEVAUX CAMPAIGN (KENNEL HOUNDS WORLD)
+### 5. ROCHEVAUX CAMPAIGN (KENNEL HOUNDS WORLD)
 **World:** Cendrel / Kennel Hounds setting  
 **Start Date:** TBD — not yet assigned to Aethelmark timeline  
 **Location:** [[Camp_Rochevaux|Camp Rochevaux]] — eastern Cendrel frontier  

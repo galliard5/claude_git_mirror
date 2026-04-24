@@ -2,8 +2,8 @@
 name: Directory Index
 keywords: [index, directory, structure, map]
 description: Auto-generated directory tree snapshot
-scan_utc: 2026-04-22T16:57:19Z
-scan_local: 2026-04-22 10:57:19 Mountain Daylight Time
+scan_utc: 2026-04-24T11:28:50Z
+scan_local: 2026-04-24 05:28:50 Mountain Daylight Time
 claude_section_end: 123
 ---
 Claude_MCP_folder
@@ -11,7 +11,7 @@ Claude_MCP_folder
   Templates
  Perchance_prompts
  Python
- sheet_import
+ Sheet_import
  Stories
  World_Building
   Aethelmark
@@ -61,17 +61,17 @@ Claude_MCP_folder
         Characters
        Weavers_Guild
         Characters
-      manor
+      Manor
        Characters
         Clients
-      merchant_families
+      Merchant_Families
        House_Farrow
         Characters
        House_Vale
         Characters
        House_Welser
         Characters
-      noble_houses
+      Noble_Houses
        House_Aldenberg
         Characters
        House_Grauwald
@@ -93,7 +93,7 @@ Claude_MCP_folder
         Characters
        House_Waldheim
         Characters
-     unique_enchanted_items
+     Unique_Enchanted_Items
     Town
      Characters
   Character_Pool
@@ -124,7 +124,7 @@ Claude_MCP_folder
 
 # Human-Readable Directory Tree
 
-Scanned: 2026-04-22 10:57:19 Mountain Daylight Time (UTC: 2026-04-22T16:57:19Z)
+Scanned: 2026-04-24 05:28:50 Mountain Daylight Time (UTC: 2026-04-24T11:28:50Z)
 Excluded: .git, .obsidian, Trash, __pycache__, node_modules
 
 ```
@@ -133,7 +133,7 @@ Claude_MCP_folder/
 │   └── Templates/
 ├── Perchance_prompts/
 ├── Python/
-├── sheet_import/
+├── Sheet_import/
 ├── Stories/
 └── World_Building/
     ├── Aethelmark/
@@ -183,17 +183,17 @@ Claude_MCP_folder/
     │       │   │   │   │   └── Characters/
     │       │   │   │   └── Weavers_Guild/
     │       │   │   │       └── Characters/
-    │       │   │   ├── manor/
+    │       │   │   ├── Manor/
     │       │   │   │   └── Characters/
     │       │   │   │       └── Clients/
-    │       │   │   ├── merchant_families/
+    │       │   │   ├── Merchant_Families/
     │       │   │   │   ├── House_Farrow/
     │       │   │   │   │   └── Characters/
     │       │   │   │   ├── House_Vale/
     │       │   │   │   │   └── Characters/
     │       │   │   │   └── House_Welser/
     │       │   │   │       └── Characters/
-    │       │   │   └── noble_houses/
+    │       │   │   └── Noble_Houses/
     │       │   │       ├── House_Aldenberg/
     │       │   │       │   └── Characters/
     │       │   │       ├── House_Grauwald/
@@ -215,7 +215,7 @@ Claude_MCP_folder/
     │       │   │       │   └── Characters/
     │       │   │       └── House_Waldheim/
     │       │   │           └── Characters/
-    │       │   └── unique_enchanted_items/
+    │       │   └── Unique_Enchanted_Items/
     │       └── Town/
     │           └── Characters/
     ├── Character_Pool/
