@@ -27,22 +27,22 @@ At the room's far end, near the door to the intake corridor, a consultation alco
 
 ## Inventory
 
-Items in the cases are organized loosely by category, though the arrangement shifts when new stock arrives or an item sells. For full service definitions, pricing tiers, and procedure details, see [[Estate_Services]].
+Items in the cases are organized loosely by category, though the arrangement shifts when new stock arrives or an item sells. For full service definitions, pricing tiers, and procedure details, see [[Manor_Services]].
 
 **Transformation Services** *(consultation required — not sold off-shelf)*
-Three variants: genital-only, partial, and full transformation. Genital-only and partial are form only — reproduction does not change unless the Reproductive Conversion Compound is also taken. Full transformation includes the compound automatically (health requirement). Convenience stock covers wolfhound, destrier, doe, boar, and vixen; custom species commissioned via Alric. Reversion elixir included in all standard contracts unless permanence is signed for. → [[Estate_Services#Transformation Services]]
+Three variants: genital-only, partial, and full transformation. Genital-only and partial are form only — reproduction does not change unless the Reproductive Conversion Compound is also taken. Full transformation includes the compound automatically (health requirement). Convenience stock covers wolfhound, destrier, doe, boar, and vixen; custom species commissioned via Alric. Reversion elixir included in all standard contracts unless permanence is signed for. → [[Manor_Services#Transformation Services]]
 
 **Reversion Elixirs** *(available off-shelf, tiered pricing)*
-Three grades: standard, partial, and emergency. Kept behind the counter. Client need not have transformed here to purchase — but Selene will ask questions. → [[Estate_Services#Reversion Services]]
+Three grades: standard, partial, and emergency. Kept behind the counter. Client need not have transformed here to purchase — but Selene will ask questions. → [[Manor_Services#Reversion Services]]
 
 **Enchanted Accessories**
-Speech-enchantment collars (leather, worked steel, engraved brass; staff-toggled). Restraint hardware. Branded sigil kits on request. Portal Panties system — sample board in the consultation alcove; fittings in intake rooms. Dr. Everhorn's Clitoral Cages (import, off-shelf, sized by breed). → [[Estate_Services#Enchanted Items and Accessories]]
+Speech-enchantment collars (leather, worked steel, engraved brass; staff-toggled). Restraint hardware. Branded sigil kits on request. Portal Panties system — sample board in the consultation alcove; fittings in intake rooms. Dr. Everhorn's Clitoral Cages (import, off-shelf, sized by breed). → [[Manor_Services#Enchanted Items and Accessories]]
 
 **Medical Compounds** *(from Alric's lab)*
-Wound salves, recovery compounds, fever reducers, fertility aids, pain management preparations. Dedicated case near the window; card references Dr. Korr for clinical guidance. → [[Estate_Services#Alchemy and Medical Compounds]]
+Wound salves, recovery compounds, fever reducers, fertility aids, pain management preparations. Dedicated case near the window; card references Dr. Korr for clinical guidance. → [[Manor_Services#Alchemy and Medical Compounds]]
 
 **Specialty Items** *(Elowen's work and select imports)*
-Elowen's finished pieces — each unique, priced by her. Import stock via Isalia's guild contacts; arrives once or twice yearly. → [[Estate_Services#Enchanted Items and Accessories]]
+Elowen's finished pieces — each unique, priced by her. Import stock via Isalia's guild contacts; arrives once or twice yearly. → [[Manor_Services#Enchanted Items and Accessories]]
 
 ---
 

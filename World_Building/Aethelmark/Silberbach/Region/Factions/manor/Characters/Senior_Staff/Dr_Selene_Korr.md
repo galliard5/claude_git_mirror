@@ -37,7 +37,7 @@ Independent Goal: Force the regional medical guilds to recognize transformed-hum
 
 Fears: The credibility of the manor's infirmary. If the estate's medicine were dismissed as "degenerate experimentation," Selene would lose the one place where her work is respected.
 
-Location: Works at [[Isalias_Manor_Kennels_and_Stables]] in the [[Infirmary]]
+Location: Works at [[Isalias_Manor]] in the [[Infirmary]]
 
 Voice: **Default Conversational Move: Diagnose.** 
 Selene instinctively analyzes people and situations as if they were medical cases. She responds by identifying problems and symptoms rather than discussing feelings or speculation.

@@ -1,10 +1,10 @@
 ---
-name: Estate Services
+name: Manor Services
 keywords: [services, transformation, breeding, medical, enchantment, alchemy, boarding, catalogue, manor]
-description: Consolidated catalogue of all services offered by Isalias Manor covering transformation reversion breeding medical enchantment alchemy and boarding
+description: Consolidated catalogue of all services offered by Isalia's Manor covering transformation reversion breeding medical enchantment alchemy and boarding
 ---
 
-# Estate Services — Isalia's Manor
+# Manor Services — Isalia's Manor
 
 *This file is the single source of truth for what the manor offers. Individual facility files ([[The_Apothecary]], [[Infirmary]], [[Kennels_and_Stables]], [[Industrial_Shops]]) contain atmosphere, layout, staff, and operational detail — this file contains the service definitions.*
 
@@ -121,7 +121,7 @@ Supervised group sessions in the kennel play area. Portal board sessions may be 
 
 ## Boarding
 
-*Location: [[Kennels_and_Stables]] | Stable Master: [[Sable]]*
+*Location: [[Kennels_and_Stables]] | Stable Master: [[Sable_the_Mare|Sable]]*
 
 **Intake & Terms**
 All boarding clients are processed through Kira at the intake desk. Duration is set at booking — overnight, weekly, monthly, or open-ended. Open-ended contracts are billed monthly in arrears. A brief temperament assessment is conducted on arrival to determine pen or stall assignment, dietary needs, and any behavioural considerations. Clients arriving in a distressed state are seen by Dr. Korr before placement.
@@ -163,7 +163,7 @@ A subset of offsite boarding. Clients in equine or bovine forms may be placed fo
 
 ## Companionship & Intimate Services
 
-*Location: Onsite luxury apartments, plus [[Kennels_and_Stables]] facilities as appropriate | Coordinator: [[Kira]]*
+*Location: Onsite luxury apartments, plus [[Kennels_and_Stables]] facilities as appropriate | Coordinator: [[Kira_Lann|Kira]]*
 
 The manor maintains a small roster of contracted companions who offer intimate services to clients. All companions are independent contractors — they set their own boundaries, negotiate their own terms, and retain the right to decline any session for any reason.
 
@@ -259,7 +259,7 @@ Used during and after procedures; also available for general purchase. Clinical 
 
 ## Service Ethics & General Policy
 
-*Full statement: [[Isalias_Manor_Kennels_and_Stables]]*
+*Full statement: [[Isalias_Manor]]*
 
 - Volunteers and certified slaves only. No coerced intake.
 - No mental regression without explicit, verified consent.
@@ -271,4 +271,4 @@ Used during and after procedures; also available for general purchase. Clinical 
 
 ## Connections
 
-[[The_Apothecary|The Apothecary — Intake & Retail]] | [[Infirmary|Infirmary — Medical]] | [[Kennels_and_Stables|Kennels & Stables — Boarding & Breeding]] | [[Industrial_Shops|Industrial Shops — Production]] | [[Isalias_Manor_Kennels_and_Stables|Manor Overview]]
+[[The_Apothecary|The Apothecary — Intake & Retail]] | [[Infirmary|Infirmary — Medical]] | [[Kennels_and_Stables|Kennels & Stables — Boarding & Breeding]] | [[Industrial_Shops|Industrial Shops — Production]] | [[Isalias_Manor|Manor Overview]]

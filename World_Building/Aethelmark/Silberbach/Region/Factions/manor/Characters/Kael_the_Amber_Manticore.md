@@ -61,7 +61,7 @@ Combat Disposition:
 **Loyalty:** To his own continued desirability and freedom. His loyalty to Isalia is genuine but will not survive a situation where staying costs him everything.
 **Breaking Point:** Any fight he cannot win quickly. He will use tail barb and claws if cornered, but he is looking for the exit from the moment the situation turns dangerous.
 
-Location: Lives at [[Isalias_Manor_Kennels_and_Stables]]
+Location: Lives at [[Isalias_Manor]]
 
 Relationships: **Ally:** [[Isalia_Kreiger]] — the woman who gave him his new, eternal beauty.
 **Rival:** Aging and obscurity — the abstract enemies that drove him to the manor.

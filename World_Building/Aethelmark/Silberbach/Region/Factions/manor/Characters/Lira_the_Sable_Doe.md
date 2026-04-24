@@ -61,7 +61,7 @@ Combat Disposition:
 **Loyalty:** Entirely to her child. If her child were directly threatened, something older and less rational would override her gentleness. Do not test this.
 **Breaking Point:** Any situation not involving her child. She removes herself, stays close, and relies on Renn or Vogt.
 
-Location: Lives at [[Isalias_Manor_Kennels_and_Stables]]
+Location: Lives at [[Isalias_Manor]]
 
 Relationships: **Ally:** [[Isalia_Kreiger]] — the provider who offered her safety and a new purpose.
 **Rival:** None directly.

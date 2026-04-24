@@ -7,7 +7,7 @@ description: Messenger coordinator who built the manor's private courier network
 Kira Lann
 =========
 
-Messenger Coordinator of Isalia's Manor Kennels & Stables. Manages the estate's courier network, schedules deliveries, and maintains the flow of information.
+Messenger Coordinator of Isalia's Manor. Manages the estate's courier network, schedules deliveries, and maintains the flow of information.
 
 appearance: A young woman in her mid-twenties with a perpetually disheveled appearance — hair escaping from its tie, ink stains on her sleeves, a messenger's satchel always at her hip. She has a quick smile and sharp eyes that miss nothing. Moves with restless energy, as if standing still pains her.
 
@@ -59,7 +59,7 @@ Combat Disposition:
 **Loyalty:** To her messenger network and to Isalia. In that order, most of the time.
 **Breaking Point:** Direct physical threat. She runs. She is fast and knows the roads, and that is how she survives trouble.
 
-Location: Works at [[Isalias_Manor_Kennels_and_Stables]] as Messenger Coordinator
+Location: Works at [[Isalias_Manor]] as Messenger Coordinator
 
 Relationships: **Ally:** [[Isalia_Kreiger]] — respects her leadership and appreciates the freedom the manor provides.
 **Rival:** The River Traders' Guild leadership who tried to push her out after her father's death.

@@ -37,18 +37,18 @@ A separate entrance leads to stalls and pens for animal patients who don't fit i
 
 ## Available Procedures
 
-*Full procedure definitions, consent requirements, and policy details: [[Estate_Services#Medical and Surgical Services]]*
+*Full procedure definitions, consent requirements, and policy details: [[Manor_Services#Medical and Surgical Services]]*
 
-**Reversion & Medical Care** → [[Estate_Services#Reversion Services]]
+**Reversion & Medical Care** → [[Manor_Services#Reversion Services]]
 Full and partial reversion of transformations. Routine care, transformed-body medicine (metabolic strain, sensory overload, joint failure, infection), and post-transformation recovery monitoring. Requires Alric's involvement for the alchemical component of reversion.
 
-**Cosmetic & Body Modification** → [[Estate_Services#Medical and Surgical Services]]
+**Cosmetic & Body Modification** → [[Manor_Services#Medical and Surgical Services]]
 Surgical alterations to form, features, or function. Case-by-case; full consultation required. Reversibility documented prior to any procedure.
 
-**Full Transformation Add-On: Mental Regression** → [[Estate_Services#Transformation Services]]
+**Full Transformation Add-On: Mental Regression** → [[Manor_Services#Transformation Services]]
 Optional add-on alongside full transformation only. Permanent and irreversible; no reversion elixir can undo it. Two-consultation minimum, written consent witnessed by Isalia or Lyra, Korr satisfaction of full lucidity required. Doubt → postponed, not denied.
 
-**Surgical Body Modification & Gender Affirming Procedures** → [[Estate_Services#Medical and Surgical Services]]
+**Surgical Body Modification & Gender Affirming Procedures** → [[Manor_Services#Medical and Surgical Services]]
 Castration, penectomy, clitorectomy, hysterectomy, gender nullification, urethral rerouting, and related permanent anatomical alterations. Cannot be achieved via transformation potion. One consultation minimum; written consent witnessed by Isalia or Lyra. Concern about patient state of mind → postponed pending second consultation.
 
 ---

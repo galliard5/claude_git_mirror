@@ -7,7 +7,7 @@ description: Retired 20th-level kobold barbarian who runs a transformation and b
 Isalia Kreiger
 ==============
 
-Owner and operator of Isalia's Manor Kennels & Stables outside Silberbach. Retired 20th-level adventurer and daughter of Duke Romaine Kreiger and Duchess Iaxiandra Kreiger.
+Owner and operator of Isalia's Manor outside Silberbach. Retired 20th-level adventurer and daughter of Duke Romaine Kreiger and Duchess Iaxiandra Kreiger.
 
 appearance: Sleek blue scales, athletic build, typically unclothed. Dense and compact — the weight distributed like it was earned. Scales catch light like polished lapis, deepening toward near-black along the spine and lightening at the throat and underbelly. Ear ridges rather than external ears — expressive enough to read from across a room, tracking sound independently and twitching in response to things she hasn't visibly reacted to yet. Scales deepen further under heat and arousal, a draconic tell she is aware of and unconcerned by. Faint lines around the eyes and jaw that weren't there a decade ago. Old adventuring scars present as texture beneath the scales rather than visible marks — largely faded, not a feature of her appearance at any distance.
 
@@ -259,7 +259,7 @@ Combat Disposition:
 **Loyalty:** To the manor, its people, and what it represents. She will not fight to protect personal pride or political standing — she will fight to protect the institution she built.
 **Breaking Point:** There is no realistic breaking point in conventional combat. She will withdraw strategically if her presence escalates a situation that could be resolved without bloodshed — but not from fear.
 
-Location: Proprietor of [[Isalias_Manor_Kennels_and_Stables]]
+Location: Proprietor of [[Isalias_Manor]]
 
 Relationships: **Ally:** Duke Romaine Kreiger — her father in every sense that matters. He knows the full scope of what the manor does, helped develop the transformation potions through his mastery of *Awaken* and *True Polymorph*, and trusts her to run it without updates. When she needed help managing the unexpected consequences of her first litter, he provided it without judgment. His support has always been quiet, consistent, and unconditional. He was also the one who helped Isalia understand her own experience of transformation from a place of personal knowledge — not theory.
 **Rival:** Count Elias Valtor — distrusts the estate and fears its legal implications.

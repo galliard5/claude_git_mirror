@@ -28,18 +28,18 @@ Warm, bustling, smells of woodsmoke and leather. Constant low activity — hoofb
 **Transformed Residents — Contractors**
 
 *Breeding Program Contractors:*
-- [[Kael]] — Manticore stud (entertainment/breeding sessions)
-- [[Silas]] — Destrier stud (breeding coordinator, training)
-- [[Lira]] — Breeding logistics coordinator (doe form)
-- [[Nyssa]] — Training/general support contractor (vixen form)
+- [[Kael_the_Amber_Manticore|Kael]] — Manticore stud (entertainment/breeding sessions)
+- [[Silas_the_Obsidian_Stallion|Silas]] — Destrier stud (breeding coordinator, training)
+- [[Lira_the_Sable_Doe|Lira]] — Breeding logistics coordinator (doe form)
+- [[Nyssa_the_Moonlit_Vixen|Nyssa]] — Training/general support contractor (vixen form)
 
 *General Labor/Support Contractors:*
-- [[Vorik]] — Security/labor contractor (boar form)
+- [[Vorik_the_Iron_Boar|Vorik]] — Security/labor contractor (boar form)
 - [[Renn]] — General support contractor
 - [[Anthony_Valtor]] — Courier/administrative contractor (free retainer status)
 
 **Stable Operations**
-- [[Sable]] — Stable Master (transformed mare, employee or contractor per individual arrangement)
+- [[Sable_the_Mare|Sable]] — Stable Master (transformed mare, employee or contractor per individual arrangement)
 
 ---
 
@@ -71,22 +71,22 @@ Warm, bustling, smells of woodsmoke and leather. Constant low activity — hoofb
 - *During active transformations:* Monitors patients closely, may be unavailable for hours or days depending on procedure complexity.
 - *Personal time:* Spends quiet evenings in the infirmary library reviewing medical texts. Values her solitude here.
 
-**[[Kael|Kael]]** — Manticore Stud Contractor
+**[[Kael_the_Amber_Manticore|Kael]]** — Manticore Stud Contractor
 - *Typical:* Sunbathing in courtyards or main gardens where he can be seen and admired. Socializing with staff in early evening.
 - *During client sessions:* In private suites. Charming, performative, entirely focused on client experience.
 - *Downtime:* Often hums old songs to himself, melodies from his previous life. Subtle melancholy masked by charm.
 
-**[[Silas|Silas]]** — Destrier Stud Contractor & Training Coordinator
+**[[Silas_the_Obsidian_Stallion|Silas]]** — Destrier Stud Contractor & Training Coordinator
 - *Typical:* Training grounds or stables. Working with residents on coordination and breeding logistics. Disciplined and present.
 - *Breeding appointments:* Takes appointments seriously. Professional, controlled, focused entirely on the work.
 - *Quiet hours:* Early mornings before training. Sometimes stands alone in the pastures, reflecting.
 
-**[[Sable|Sable]]** — Stable Master
+**[[Sable_the_Mare|Sable]]** — Stable Master
 - *Typical:* Stables and kennels. Always working, always present. Knows every animal, every routine, every need.
 - *Crisis moments:* Becomes even more focused. Moves with practiced efficiency. The animals trust her absolutely.
 - *Never away:* The animals depend on her. Rarely takes time off beyond a few hours weekly.
 
-**[[Vorik|Vorik]]** — Boar Contractor
+**[[Vorik_the_Iron_Boar|Vorik]]** — Boar Contractor
 - *Typical:* Grounds maintenance, heavy lifting, general labor. Visible but quiet. Does the work without fuss.
 - *Security needs:* Takes gate duty and patrol responsibilities seriously. Calm but present.
 - *Socializing:* Often alone or with other residents. Not unfriendly, but prefers the work to conversation.
@@ -163,10 +163,14 @@ These characters don't need detailed sheets. One or two quirks and regular patte
 
 ## Current Situation
 
-Post-raid recovery and stability restoration. Morale is rebuilding. Extra guard rotations in place through next month. Supply deliveries back on normal schedule. Training programs resuming normal intensity. No active crises, but the household remains slightly more alert than usual.
+The estate is mid-arc on the Nobles Commission. Valerius Corvinus has been received as a free transformed resident following Lady Seria Rennic's 17 April visit; his legal status petition was filed 19 April before Deputy Justice Mohl. Judge Kinsky's pregnancy is approaching term (due mid-April to early May) and she remains in residence. Barrel discrepancies flagged by Mira have led to an overhauled receiving policy, first test with the Brewers Guild on Thursday. House Grauwald's Countess is expected within the fortnight for a sensitive consultation. Isalia's own fertility assessment is scheduled with Alric on 24 April.
 
 **Active Conditions:**
-- Heightened security posture: extra guard rotations, elevated alertness. Onset: post-raid. Urgency: gradual — fading as stability returns.
+- Isalia's fertility appointment: 24 April morning, blocked.
+- Kinsky birth: imminent, Isalia committed to attending.
+- Barrel receiving policy: full count on delivery, countersign required — first test Thursday.
+- Southern-origin spouse pattern: Kira tracking (Mecklau thread), no fourth arrival yet.
+- Circuit magistrate's office: fortnight window from 19 Apr for counter-signed transfer copy.
 
 ---
 
@@ -222,4 +226,4 @@ Post-raid recovery and stability restoration. Morale is rebuilding. Extra guard 
 
 ## Connections
 
-[[Isalias_Manor_Kennels_and_Stables|Main Estate]] | [[Silberbach_Town|Silberbach]] | [[Merchants_Guild|Guild Connections]] | [[House_Kreiger|Noble Family]] | [[Count_Elias_Valtor|Political Rivals]]
+[[Isalias_Manor|Main Manor]] | [[Silberbach|Silberbach]] | [[Merchants_Guild|Guild Connections]] | [[House_Kreiger|Noble Family]] | [[Count_Elias_Valtor|Political Rivals]]

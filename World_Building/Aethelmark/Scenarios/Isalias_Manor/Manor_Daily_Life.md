@@ -1,10 +1,10 @@
 ---
-name: Estate Daily Life
+name: Manor Daily Life
 keywords: [scenario, gm-toolkit, manor, factions, commerce, slice-of-life, repeatable]
 description: GM toolkit for running freeform days at Isalia's Manor — supply relationships, visitor types, daily event slots, NPC discovery protocol, and hook seeds for gradual faction population
 ---
 
-# Estate Daily Life — GM Toolkit
+# Manor Daily Life — GM Toolkit
 
 **Purpose:** This document is not a scripted scenario. It is the operating framework for running any ordinary day or two at the manor — the kind of session where nothing in particular happens and everything does. Its primary function is to give the GM a structured way to introduce faction contacts, fill out missing guild NPCs, and develop the estate's commercial relationships through natural play rather than exposition.
 
@@ -22,7 +22,7 @@ Load this file, the relevant guild stubs, and any character files specific to th
 **Stage 2 — Play Chat (lean, runs the actual session)**
 Load the Day Brief + 3–5 specific character files only. The full toolkit stays on disk. A play chat running on a Day Brief and a handful of character files should stay lean throughout the session.
 
-**Day Brief format:** See `Core_Rules/Templates/Day_Brief_Template.md`. The prep chat generates one Day Brief per session and commits it to `Scenarios/Isalias_Estate/Day_Briefs/` before the play chat opens.
+**Day Brief format:** See `Core_Rules/Templates/Day_Brief_Template.md`. The prep chat generates one Day Brief per session and commits it to `Scenarios/Isalias_Manor/Day_Briefs/` before the play chat opens.
 
 ---
 
@@ -425,4 +425,4 @@ After any session using this framework:
 
 ## Connections
 
-[[Manor_Reference|Manor Reference]] | [[The_Apothecary|The Apothecary]] | [[Isalia_Kreiger|Isalia Kreiger]] | [[Rennik_Tor|Rennik]] | [[Tob|Tob]] | [[Guilds|Silberbach Guilds]] | [[merchant_families|Merchant Families]] | [[Industrial_Shops|Industrial Shops]] | [[Silberbach|Silberbach Town]]
+[[Manor_Reference|Manor Reference]] | [[The_Apothecary|The Apothecary]] | [[Isalia_Kreiger|Isalia Kreiger]] | [[Rennik_Tor|Rennik]] | [[Tob|Tob]] | [[Guilds|Silberbach Guilds]] | [[Merchant_Families|Merchant Families]] | [[Industrial_Shops|Industrial Shops]] | [[Silberbach|Silberbach Town]]

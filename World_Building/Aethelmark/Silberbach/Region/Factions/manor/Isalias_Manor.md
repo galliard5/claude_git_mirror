@@ -1,15 +1,15 @@
 ---
-name: Isalias Manor Kennels and Stables
-keywords: [location, manor, estate]
-description: Full overview of Isalia's Manor including business services ethics staff policy garrison layout and atmosphere
+name: Isalia's Manor
+keywords: [location, manor, estate, isalia, silberbach, overview, master]
+description: Master overview of Isalia's Manor — business services, ethics, staff policy, garrison, layout, and atmosphere
 ---
 
-Isalia's Manor Kennels & Stables
-================================
+Isalia's Manor
+==============
 
 A pastoral estate specializing in breeding, transformation services, and magical items.
 
-Description: A pastoral estate on the outskirts of a mid-sized river valley town. For a full catalogue of services offered, see [[Estate_Services]].
+Description: A pastoral estate on the outskirts of a mid-sized river valley town. For a full catalogue of services offered, see [[Manor_Services]].
 
 Services at a glance: breeding (feral horses and canines), permanent animal transformations (mind preserved unless requested), surrogacy & whelping, erotic modification for slaves/servants, boarding for transformed individuals, and the sale of custom sexual magical items.
 

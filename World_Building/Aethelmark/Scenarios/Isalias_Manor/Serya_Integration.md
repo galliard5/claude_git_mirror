@@ -7,7 +7,7 @@ description: Serya adjusts to life in a wolf's body at Isalia's Manor over two w
 # Serya Integration
 
 **Campaign:** Isalia's Manor — Serya Arc
-**Setting:** [[Isalias_Manor_Kennels_and_Stables]]
+**Setting:** [[Isalias_Manor]]
 **PC:** Serya (formerly Sergovy Waldheim) — permanent female wolf, speaking collar, Kreiger brand
 **Estimated Duration:** 2–4 sessions
 **Tone:** Slice-of-life. Character-driven. No combat, no fail states. The tension is internal and interpersonal.
@@ -220,4 +220,4 @@ This scenario runs well as 2 sessions: one covering Phase 1 and the early part o
 
 ## Connections
 
-[[Serya|Serya (Sergovy Waldheim)]] | [[Sable_the_Mare|Sable]] | [[Dr_Selene_Korr|Dr. Korr]] | [[Kael_the_Amber_Manticore|Kael]] | [[Isalia_Kreiger|Isalia]] | [[Isalias_Manor_Kennels_and_Stables|The Manor]] | [[House_Waldheim|House Waldheim]]
+[[Serya|Serya (Sergovy Waldheim)]] | [[Sable_the_Mare|Sable]] | [[Dr_Selene_Korr|Dr. Korr]] | [[Kael_the_Amber_Manticore|Kael]] | [[Isalia_Kreiger|Isalia]] | [[Isalias_Manor|The Manor]] | [[House_Waldheim|House Waldheim]]

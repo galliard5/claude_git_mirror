@@ -63,7 +63,7 @@ Combat Disposition:
 **Loyalty:** To Isalia, absolutely.
 **Breaking Point:** Immediate — she de-escalates or removes herself from any physical situation and summons appropriate help.
 
-Location: Works at [[Isalias_Manor_Kennels_and_Stables]]
+Location: Works at [[Isalias_Manor]]
 
 Relationships: **Ally:** [[Isalia_Kreiger]] — deeply loyal.
 **Rival:** Disruptive guests or staff.

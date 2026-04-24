@@ -59,7 +59,7 @@ Combat Disposition:
 **Loyalty:** To Isalia, who treated him as an equal when most didn't. To the estate's people and their security.
 **Breaking Point:** When the numbers are genuinely impossible. Rennik retreats tactically, not fearfully — and he keeps a record of who made him do it.
 
-Location: Works at [[Isalias_Manor_Kennels_and_Stables]] as Quartermaster
+Location: Works at [[Isalias_Manor]] as Quartermaster
 
 Relationships: **Ally:** [[Isalia_Kreiger]] — trusts her fairness.
 **Rival:** Dishonest merchants.

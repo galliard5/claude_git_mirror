@@ -61,7 +61,7 @@ Combat Disposition:
 **Loyalty:** To the safety of the manor and its people. Not to authority or title — to the people inside those walls.
 **Breaking Point:** Only when retreat serves the mission better than holding. He will pull back to regroup and come at a threat from a better angle — but never because he is afraid.
 
-Location: Lives at [[Isalias_Manor_Kennels_and_Stables]]
+Location: Lives at [[Isalias_Manor]]
 
 Relationships: **Ally:** [[Isalia_Kreiger]] — the person who gave him a place to continue protecting others.
 **Rival:** Count Elias Valtor — the man responsible for hunting him and the architect of Anthony's attempted erasure.

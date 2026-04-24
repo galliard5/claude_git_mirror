@@ -7,7 +7,7 @@ description: Dwarf-turned-boar stud who chose his form deliberately after a life
 Vorik, the Iron Boar
 ====================
 
-Transformed boar stud and resident of Isalia's Manor Kennels & Stables. Assists in breeding programs and heavy labor around the estate.
+Transformed boar stud and resident of Isalia's Manor. Assists in breeding programs and heavy labor around the estate.
 
 appearance: A massive boar with bristling black-brown fur and tusks that curve upward like daggers. His shoulders are thick with muscle, his body built like a battering ram. Despite his intimidating form, his eyes hold a stubborn, almost stubborn dignity. Moves with surprising grace for his bulk, each step deliberate and sure-footed. A speech-collar is embedded in the fur around his neck, nearly invisible against the coarse hair.
 
@@ -64,7 +64,7 @@ Combat Disposition:
 **Loyalty:** To Isalia and to the principle that the manor's people are worth protecting. He has no patience for causes, only for people.
 **Breaking Point:** There is no conventional breaking point. Vorik will fight until it is physically impossible to continue. The closest thing to a limit is Isalia explicitly ordering him to stand down.
 
-Location: Lives at [[Isalias_Manor_Kennels_and_Stables]]
+Location: Lives at [[Isalias_Manor]]
 
 Relationships: **Ally:** [[Isalia_Kreiger]] — respects her because she treats everyone on the estate with dignity.
 **Rival:** Anyone who treats transformed residents like livestock instead of people.

@@ -7,7 +7,7 @@ description: Gnome head accountant with an instinct for spotting financial disho
 Mira Toren
 ==========
 
-Head Accountant of Isalia's Manor Kennels & Stables. Manages finances, contracts, and legal documentation.
+Head Accountant of Isalia's Manor. Manages finances, contracts, and legal documentation.
 
 appearance: A neat, compact gnome with wire-rimmed spectacles perpetually perched on her nose. Her salt-and-pepper hair is pulled back in a practical bun. She dresses in well-tailored but sensible clothing — quality without ostentation. Her fingers are often stained with ink, and she carries a small ledger tucked under one arm.
 
@@ -61,7 +61,7 @@ Combat Disposition:
 **Loyalty:** To the manor's financial integrity and to Isalia.
 **Breaking Point:** Immediate. She closes the ledger, locks the strongbox, and gets Vogt.
 
-Location: Works at [[Isalias_Manor_Kennels_and_Stables]] in administrative offices
+Location: Works at [[Isalias_Manor]] in administrative offices
 
 Relationships: **Ally:** [[Isalia_Kreiger]] — respects her leadership and protects the manor's financial independence.
 **Rival:** Corrupt merchant houses and officials who manipulate financial records.

@@ -63,7 +63,7 @@ Combat Disposition:
 **Loyalty:** To her daughter above everything. To Isalia as the person who made that proximity possible.
 **Breaking Point:** When her daughter's presence tips from safe to at risk. Until that point she is resourceful and harder to corner than she looks.
 
-Location: Lives at [[Isalias_Manor_Kennels_and_Stables]]
+Location: Lives at [[Isalias_Manor]]
 
 Relationships: **Ally:** [[Isalia_Kreiger]] — the woman who gave her refuge.
 **Rival:** The noble household that unknowingly keeps her daughter from her.

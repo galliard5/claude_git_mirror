@@ -7,7 +7,7 @@ description: Exiled elven enchanter who designs speech collars and magical equip
 Elowen Vale
 ===========
 
-Lead Enchanter of Isalia's Manor Kennels & Stables. Designs and maintains enchanted devices including speech collars and magical equipment.
+Lead Enchanter of Isalia's Manor. Designs and maintains enchanted devices including speech collars and magical equipment.
 
 appearance: An elegant elf with silver hair worn long, her fingers long and calloused from years of rune-carving. Her eyes are a pale grey, almost colorless in certain light. She dresses in simple but exquisitely tailored robes, preferring deep blues and greens. Always wears a thin silver bracelet etched with protective runes — her own work.
 
@@ -46,7 +46,7 @@ Elowen instinctively clarifies how magical systems function.
 (She glances up briefly.)
 "The enchantment is stable, but it does not appreciate interruptions."
 
-Location: Works at [[Isalias_Manor_Kennels_and_Stables]] in the [[Industrial_Shops]] (enchanting workshop)
+Location: Works at [[Isalias_Manor]] in the [[Industrial_Shops]] (enchanting workshop)
 
 Body Language: **Hands:** Steady and precise, constantly manipulating tools or components.
 **Eyes:** Focused intensely on objects she is working on.

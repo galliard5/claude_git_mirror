@@ -59,7 +59,7 @@ Combat Disposition:
 **Loyalty:** To the manor as an institution and to the dignity of everyone who chose this life. He will fight to protect both.
 **Breaking Point:** A fight where holding serves no one. A trained knight understands tactical retreat. He will withdraw when the situation demands it, but never before.
 
-Location: Lives at [[Isalias_Manor_Kennels_and_Stables]]
+Location: Lives at [[Isalias_Manor]]
 
 Relationships: **Ally:** [[Isalia_Kreiger]] — respects her leadership and fairness.
 **Rival:** Those who treat transformed residents as property.

@@ -9,7 +9,7 @@ Kennels & Stables
 
 Premium boarding for canine and equine clients.
 
-*Breeding and boarding service definitions: [[Estate_Services#Breeding and Stud Services]] | [[Estate_Services#Boarding]]*
+*Breeding and boarding service definitions: [[Manor_Services#Breeding and Stud Services]] | [[Manor_Services#Boarding]]*
 
 Description: **Overview:**
 The luxury boarding facilities for the manor's most valued residents — both paying clients and permanent transformed staff. Located near the main building for easy staff access, with separate entrances for canines and equines.

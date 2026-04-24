@@ -164,4 +164,4 @@ Coins: Copper Pence, Silver Dollar, Gold Crown, Platinum Throne.
 
 ## Connections
 
-[[Aethelmark|Aethelmark Overview]] | [[Silberbach|Silberbach Town]] | [[Laws_and_Framework|Laws and Framework]] | [[Master_Calendar|Master Calendar]] | [[Estate_Daily_Life|Estate Daily Life]]
+[[Aethelmark|Aethelmark Overview]] | [[Silberbach|Silberbach Town]] | [[Laws_and_Framework|Laws and Framework]] | [[Master_Calendar|Master Calendar]] | [[Manor_Daily_Life|Manor Daily Life]]
