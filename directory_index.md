@@ -2,8 +2,8 @@
 name: Directory Index
 keywords: [index, directory, structure, map]
 description: Auto-generated directory tree snapshot
-scan_utc: 2026-04-24T17:02:26Z
-scan_local: 2026-04-24 11:02:26 Mountain Daylight Time
+scan_utc: 2026-04-24T17:24:53Z
+scan_local: 2026-04-24 11:24:53 Mountain Daylight Time
 claude_section_end: 128
 ---
 Claude_MCP_folder
@@ -129,7 +129,7 @@ Claude_MCP_folder
 
 # Human-Readable Directory Tree
 
-Scanned: 2026-04-24 11:02:26 Mountain Daylight Time (UTC: 2026-04-24T17:02:26Z)
+Scanned: 2026-04-24 11:24:53 Mountain Daylight Time (UTC: 2026-04-24T17:24:53Z)
 Excluded: .git, .obsidian, Trash, __pycache__, node_modules
 
 ```

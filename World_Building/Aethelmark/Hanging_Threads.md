@@ -317,7 +317,6 @@ Items flagged during story extraction that need files or updates:
 | Clerks' annex | Add as named area in Main_Building.md | Low |
 | Ferrik Voss | Create brief character file under House_Aldenberg or Silberbach | Medium — active antagonist |
 | Lord Hestin | Create stub under House_Waldheim/Characters if Waldheim scenarios develop | Low |
-| Briar (in Clients) | Briar.md exists in both Clients and Steinfeld/Characters — confirm intended, or consolidate | Low |
 | Valtor's nephew | Unnamed antagonist — needs a name and at minimum a stub file | Medium |
 | Nyssa's daughter | No file. No name. Noble family she belongs to unnamed. Needs at minimum a note | Low |
 | Lira's child | No file. Two years old, signs of latent magic. Needs a name and brief entry | Medium |
