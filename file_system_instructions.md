@@ -209,18 +209,21 @@ git commit -m "Your commit message"
 
 Process: Read → identify exact target text → edit with verified string.
 
-## VERIFIED TOOL SCHEMAS (2026-04-24)
+## VERIFIED TOOL SCHEMAS (quickref)
 
-- `filesystem:read_text_file` — params: `path`, `head` (optional), `tail` (optional)
-  ⚠ CRITICAL: Cannot use `head` and `tail` simultaneously  
-- `filesystem:write_file` — params: `content`, `path`
-- `filesystem:edit_file` — params: `path`, `edits` [{oldText, newText}], `dryRun` (optional)
-- `filesystem:read_multiple_files` — param: `paths` (array)
-- `filesystem:list_directory` — param: `path`
-- `filesystem:search_files` — params: `path`, `pattern`, `excludePatterns` (optional)
+The most common tools, condensed. **Full schemas with examples for all 14 filesystem + 9 memory tools live in `file_system_reference.md` under TOOL SCHEMA REFERENCE.** Load that file when in doubt about parameters or for tools used less often.
+
+- `filesystem:read_text_file` — `path`, `head?`, `tail?` ⚠ head/tail mutually exclusive
+- `filesystem:read_multiple_files` — `paths` (array)
+- `filesystem:write_file` — `content`, `path`
+- `filesystem:edit_file` — `path`, `edits` [{oldText, newText}], `dryRun?`
+- `filesystem:create_directory` — `path`
+- `filesystem:move_file` — `source`, `destination`
+- `filesystem:list_directory` — `path`
+- `filesystem:search_files` — `path`, `pattern`, `excludePatterns?`
 - `filesystem:list_allowed_directories` — no params
 
-⚠ If operations fail, run `tool_search filesystem` to reload current schema.
+⚠ If a parameter error fires, run `tool_search` with a relevant keyword to load the live schema.
 
 ## WINDOWS PATH REQUIREMENTS
 
@@ -234,11 +237,13 @@ Process: Read → identify exact target text → edit with verified string.
 - ✗ Missing drive: `Claude_MCP_folder\`
 - ✓ Correct: `D:\Claude_MCP_folder\World_Building\`
 
+**Case-only renames are supported**: `filesystem:move_file` with source `kael.jpg` → destination `Kael_the_Amber_Manticore.jpg` works in a single call. Use this to standardize JPG filenames to match their .md counterparts.
+
 ## FILE CREATION VERIFICATION
 
 After EVERY `filesystem:write_file`: 
 1. Immediately verify with `filesystem:read_text_file` (head=5, tail=5)
-2. Check file exists in directory: `filesystem:list_directory`
+2. Check file exists in directory: `filesystem:list_directory` (only when in doubt — the head/tail read above is normally enough)
 3. Verify content matches expected structure (YAML frontmatter, etc.)
 
 **Common verification pattern**:
@@ -248,7 +253,7 @@ filesystem:read_text_file(path, head=8)  // Verify frontmatter
 filesystem:read_text_file(path, tail=5)  // Verify completion
 ```
 
-`write_file` can return success but fail silently — ALWAYS verify.
+`write_file` can return success but fail silently — ALWAYS verify. (This is the canonical write-verification pattern; ERROR HANDLING below references it rather than re-stating it.)
 
 ## MODEL HANDOFF PROTOCOL (Opus → Haiku)
 
@@ -320,13 +325,15 @@ ERROR HANDLING
 3. Check exact Windows path format
 
 **Tool parameter errors**:
-1. Verify schema with `tool_search filesystem` 
+1. Verify schema with `tool_search filesystem` (or load `file_system_reference.md`)
 2. Check `head`/`tail` not used together
 3. Confirm `oldText` exact match for edits
 
-**Write verification**:
-```
-filesystem:write_file(content, path)
-filesystem:read_text_file(path, head=5)  // Verify start
-filesystem:read_text_file(path, tail=3)  // Verify end
-```
+**Write verification**: see FILE CREATION VERIFICATION above — single canonical pattern.
+
+**Folder rename / move EPERM (Windows)**: `filesystem:move_file` on a folder occasionally fails with `EPERM: operation not permitted` even when the folder clearly exists and the destination is clear. This is Windows lock contention — typically Obsidian, an editor, antivirus, or a file watcher holding a handle on something inside the folder. **Workaround:**
+1. `filesystem:create_directory` for the new path
+2. `filesystem:move_file` each child (file or subfolder) individually into the new path
+3. `filesystem:move_file` the now-empty original to `Trash/`
+
+Do NOT count the EPERM failure against the 3-strike rule — it is a known environmental issue with a known workaround. If the workaround itself fails for the same folder, then 3-strike applies.
