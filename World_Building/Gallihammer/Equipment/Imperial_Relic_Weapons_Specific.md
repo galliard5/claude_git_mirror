@@ -1,6 +1,6 @@
 ---
 name: Imperial Relic Weapons — Specific Examples
-keywords: [imperial, relic, weapons, kasaba, C+, C++, mag-acc, FLOOFL, strange matter, string collapse, battle-shield, void, tank, infantry]
+keywords: [imperial, relic, weapons, kasaba, C+, C++, mag-acc, FLOOFL, strange matter, string collapse, battle-shield, void, tank, infantry, reshaping, cascade, biological]
 description: Documented examples of specific imperial-era weapons recovered or maintained in the post-collapse setting — their operating principles, maintenance traditions, and what their existence implies about the empire that built them
 ---
 
@@ -190,17 +190,45 @@ The arcanum teams that study the dead zones do not discuss their findings widely
 
 ---
 
+## Reshaping Cascade Weapons (Biological Catalyst Systems)
+
+**Classification:** Strategic biological weapon — area denial through biological restructuring  
+**Imperial tier:** Imperial relic (upper extreme)  
+**Availability:** Confirmed examples extremely rare; five distinct pattern-types documented; operational status unknown; detailed analysis relocated to separate documentation due to content complexity
+
+The reshaping cascade weapon represents perhaps the most disturbing example of imperial bioengineering capability. Recovered examples are handheld devices containing what Mechanicus biomantic teams describe as "impossible catalyst compounds" — biological agents that restructure organic matter at the cellular level through mechanisms that contemporary science cannot fully explain.
+
+What is known comes from fragmentary documentation and post-deployment site analysis. The weapons appear to have been issued to imperial forces as standard equipment, which raises questions about what the empire routinely faced that required such measures. The devices function through cascading biological processes that propagate through organic populations over a period of weeks, culminating in complete physiological restructuring of affected organisms.
+
+**The archaeological evidence:** Five distinct weapon variants have been identified, each apparently calibrated for different operational outcomes. The biological agents involved operate through principles that blend conventional bioengineering with what Mechanicus researchers describe as "arcane-sensitive organic chemistry" — techniques that involve warp-touched materials in ways that post-collapse science cannot reproduce.
+
+Surviving examples are mechanically intact but biologically inert. The catalyst compounds have long since degraded beyond any possibility of function. Attempts to synthesise replacement compounds have uniformly failed, often catastrophically. Several Mechanicus workshops that attempted to reconstruct the biological agents are no longer operational for reasons that those factions prefer not to discuss in detail.
+
+**What this implies:** The reshaping cascade weapons were not experimental. Logistics maintained stockpiles. Field commanders had deployment authority. The fragmentary records suggest they were used routinely in what imperial doctrine termed "infrastructure preservation operations" — circumstances where other weapons would have damaged valuable assets that the empire wished to preserve.
+
+The existence of these weapons as standard equipment raises the same questions as the other imperial relics: not what they could do, but what the empire faced that made them necessary. If mag-acc pistols were backup weapons, if Kasaba howitzers were standard tank armament, and if reshaping cascade weapons were routine deployment options, then what was the primary threat that required an empire to carry tools for fundamentally altering the biological identity of entire regions?
+
+**The current question:** That no post-collapse faction has successfully recreated these weapons is simultaneously reassuring and unsettling. Reassuring, because the techniques involved died with the empire. Unsettling, because their existence suggests that the empire had operational experience that required biological restructuring on a scale that no current military doctrine addresses. What does it mean about the empire's operational environment that they built weapons designed not to destroy populations, but to transform them into something else entirely?
+
+The Mechanicus does not speculate publicly about the implications. The weapons exist. They were standard. They were used. What they were used against, and why biological conversion was preferable to annihilation, remains a question that the archaelogical record does not answer.
+
+---
+
+*Note: Comprehensive technical analysis of reshaping cascade weapons has been relocated to `Reshaping_Cascade_Weapons_Detailed.md` due to content complexity and specialized research requirements.*
+
+---
+
 ## What These Weapons Together Imply
 
-A Kasaba howitzer fired nuclear weapons as primary tank armament. C+ cannons fired relativistic rounds through hyperspace as standard naval guns. Soldiers carried FLOOFL grenades with strange matter boost as infantry munitions. Mag-acc sidearms were secondary carry — backup weapons, pulled when the primary was unavailable.
+A Kasaba howitzer fired nuclear weapons as primary tank armament. C+ cannons fired relativistic rounds through hyperspace as standard naval guns. Soldiers carried FLOOFL grenades with strange matter boost as infantry munitions. Mag-acc sidearms were secondary carry — backup weapons, pulled when the primary was unavailable. Reshaping cascade weapons converted entire planetary populations into purpose-built worker castes as a routine alternative to conquest.
 
-What was the primary weapon? What were the tanks' Kasaba howitzers supplementing? What were the soldiers' primary arms, if the secondary was a magnetic accelerator sidearm at relativistic velocity? What were the C+ cannons supporting, if they were the standard and not the exceptional naval armament?
+What was the primary weapon? What were the tanks' Kasaba howitzers supplementing? What were the soldiers' primary arms, if the secondary was a magnetic accelerator sidearm at relativistic velocity? What were the C+ cannons supporting, if they were the standard and not the exceptional naval armament? What kind of opposition required routine population conversion rather than simple military occupation?
 
 The Mechanicus does not pursue these questions in any coordinated way. The questions are too large. The answer, if assembled from the fragments, suggests a scale of violence that the post-collapse world is not equipped to categorise, let alone replicate. The empire fought wars with these weapons, against something, and the something was either comparable to the empire in scale and capability — which means it no longer exists in recognisable form — or it was not, and the empire applied weapons of this category to threats that did not require them.
 
 Either possibility is uncomfortable for different reasons.
 
-The comfortable interpretation is that the empire was simply extravagant. That Kasaba howitzers were overkill against the threats they typically faced, and the empire built them because it could, and issued them because logistics preferred standardisation, and used them because soldiers use what they're given. That mag-acc sidearms were luxury equipment, and the empire's manufacturing capacity was sufficient that luxury became standard. That the C+ cannon was a prestige system that contributed to deterrence more than to actual combat effectiveness.
+The comfortable interpretation is that the empire was simply extravagant. That Kasaba howitzers were overkill against the threats they typically faced, and the empire built them because it could, and issued them because logistics preferred standardisation, and used them because soldiers use what they're given. That mag-acc sidearms were luxury equipment, and the empire's manufacturing capacity was sufficient that luxury became standard. That the C+ cannon was a prestige system that contributed to deterrence more than to actual combat effectiveness. That reshaping cascade weapons were deployed for efficiency rather than necessity.
 
 This interpretation requires explaining the string collapse weapons. String collapse weapons are not prestige. They are not deterrence in any sense that leaves the deterred party capable of being deterred. They are an answer to a question that is very difficult to ask without confronting what kind of question it is.
 
