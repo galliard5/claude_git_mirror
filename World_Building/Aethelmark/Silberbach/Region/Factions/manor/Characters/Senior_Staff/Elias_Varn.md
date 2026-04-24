@@ -7,7 +7,7 @@ description: Kobold estate steward who keeps the manor running smoothly through 
 Elias Varn
 ==========
 
-Estate Steward of Isalia's Manor Kennels & Stables. Elias oversees the manor's day-to-day administration, coordinating staff, schedules, and operational logistics to ensure the estate runs smoothly.
+Estate Steward of Isalia's Manor. Elias oversees the manor's day-to-day administration, coordinating staff, schedules, and operational logistics to ensure the estate runs smoothly.
 
 appearance: Kobold, male, dressed in practical and well-maintained administrative attire. He carries himself with a quiet, professional dignity.
 
@@ -55,7 +55,7 @@ Combat Disposition:
 **Loyalty:** To Isalia and the smooth functioning of the estate.
 **Breaking Point:** Any direct physical threat. He removes himself — this is not cowardice, it is appropriate role clarity.
 
-Location: Works at [[Isalias_Manor_Kennels_and_Stables]] in administrative offices
+Location: Works at [[Isalias_Manor]] in administrative offices
 
 Relationships: **Ally:** [[Lyra_Vex]] — works closely with her to coordinate staff and household operations.
 **Rival:** Administrative chaos — inefficient systems frustrate him more than people.

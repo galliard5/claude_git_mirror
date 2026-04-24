@@ -6,7 +6,7 @@ description: GM prep brief for Day 2 of Serya's integration — earlier start, f
 
 # Day Brief — Serya Integration — Day 02
 
-**Generated from:** Estate_Daily_Life.md + Day_01_Serya_Integration.md
+**Generated from:** Manor_Daily_Life.md + Day_01_Serya_Integration.md
 **Session type:** Estate daily life — integration
 **In-game date:** Dienstag, 15 April 1650
 **Real date created:** 2026-03-20

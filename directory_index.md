@@ -2,9 +2,9 @@
 name: Directory Index
 keywords: [index, directory, structure, map]
 description: Auto-generated directory tree snapshot
-scan_utc: 2026-04-24T11:28:50Z
-scan_local: 2026-04-24 05:28:50 Mountain Daylight Time
-claude_section_end: 123
+scan_utc: 2026-04-24T17:02:26Z
+scan_local: 2026-04-24 11:02:26 Mountain Daylight Time
+claude_section_end: 128
 ---
 Claude_MCP_folder
  Core_Rules
@@ -15,7 +15,7 @@ Claude_MCP_folder
  Stories
  World_Building
   Aethelmark
-   Kennel_Hounds
+   Cendrel
     Camp_Rochevaux
      Characters
     Characters
@@ -25,15 +25,14 @@ Claude_MCP_folder
      Characters
      Clans
    Scenarios
-    Isalias_Estate
-     Day_Briefs
-    Kennel_Hounds
-     Camp_Rochevaux
+    Cendrel
+     Camp_Rochevaux_Campaign
      Maruvec_Campaign
      Vauclair_Campaign
+    Isalias_Manor
+     Day_Briefs
     Scenario_prompts
     Viktor_Steinfeld
-   Session_Summaries
    Silberbach
     Region
      Characters
@@ -63,7 +62,13 @@ Claude_MCP_folder
         Characters
       Manor
        Characters
+        Animals
         Clients
+        Companions
+        Owner
+        Peripheral_Staff
+        Senior_Staff
+        Transformed_Residents
       Merchant_Families
        House_Farrow
         Characters
@@ -124,7 +129,7 @@ Claude_MCP_folder
 
 # Human-Readable Directory Tree
 
-Scanned: 2026-04-24 05:28:50 Mountain Daylight Time (UTC: 2026-04-24T11:28:50Z)
+Scanned: 2026-04-24 11:02:26 Mountain Daylight Time (UTC: 2026-04-24T17:02:26Z)
 Excluded: .git, .obsidian, Trash, __pycache__, node_modules
 
 ```
@@ -137,7 +142,7 @@ Claude_MCP_folder/
 ├── Stories/
 └── World_Building/
     ├── Aethelmark/
-    │   ├── Kennel_Hounds/
+    │   ├── Cendrel/
     │   │   ├── Camp_Rochevaux/
     │   │   │   └── Characters/
     │   │   ├── Characters/
@@ -147,15 +152,14 @@ Claude_MCP_folder/
     │   │       ├── Characters/
     │   │       └── Clans/
     │   ├── Scenarios/
-    │   │   ├── Isalias_Estate/
-    │   │   │   └── Day_Briefs/
-    │   │   ├── Kennel_Hounds/
-    │   │   │   ├── Camp_Rochevaux/
+    │   │   ├── Cendrel/
+    │   │   │   ├── Camp_Rochevaux_Campaign/
     │   │   │   ├── Maruvec_Campaign/
     │   │   │   └── Vauclair_Campaign/
+    │   │   ├── Isalias_Manor/
+    │   │   │   └── Day_Briefs/
     │   │   ├── Scenario_prompts/
     │   │   └── Viktor_Steinfeld/
-    │   ├── Session_Summaries/
     │   └── Silberbach/
     │       ├── Region/
     │       │   ├── Characters/
@@ -185,7 +189,13 @@ Claude_MCP_folder/
     │       │   │   │       └── Characters/
     │       │   │   ├── Manor/
     │       │   │   │   └── Characters/
-    │       │   │   │       └── Clients/
+    │       │   │   │       ├── Animals/
+    │       │   │   │       ├── Clients/
+    │       │   │   │       ├── Companions/
+    │       │   │   │       ├── Owner/
+    │       │   │   │       ├── Peripheral_Staff/
+    │       │   │   │       ├── Senior_Staff/
+    │       │   │   │       └── Transformed_Residents/
     │       │   │   ├── Merchant_Families/
     │       │   │   │   ├── House_Farrow/
     │       │   │   │   │   └── Characters/

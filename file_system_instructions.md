@@ -86,14 +86,64 @@ During the session, reference the loaded compressed tree + conversation context 
 
 ## STEP 4: SEMANTIC FILE PLACEMENT
 
-Directory naming conventions enable inference-based placement:
+Directory naming conventions enable inference-based placement.
 
-- **Scenarios/sessions:** `Scenarios/[Campaign_Name]/`
+### Naming convention
+
+**All files and folders use `Snake_Case_With_Capitals`** — underscores between words, leading capital on each significant word. Examples: `Manor`, `House_Steinfeld`, `Senior_Staff`, `Camp_Rochevaux`, `Isalia_Kreiger.md`. JPG filenames match their .md counterparts (`Isalia_Kreiger.jpg`, not `isalia_kreiger.jpg`).
+
+### Top-level placement (Aethelmark)
+
+- **Settings & overview files:** `World_Building/Aethelmark/` (root level — e.g. `Aethelmark.md`, `World_Standards.md`, `Hanging_Threads.md`, `Master_Calendar.md`)
+- **Silberbach region:** `World_Building/Aethelmark/Silberbach/`
+- **Cendrel region (Kennel Hounds setting):** `World_Building/Aethelmark/Cendrel/`
+- **Scenarios (sessions, day briefs, scenario design):** `World_Building/Aethelmark/Scenarios/[Campaign_or_Manor_Name]/`
+
+### Silberbach (the town and surrounding region)
+
 - **Town characters:** `Silberbach/Town/Characters/`
 - **Town locations:** `Silberbach/Town/[Location_Name]/`
 - **Regional characters:** `Silberbach/Region/Characters/`
 - **Regional factions:** `Silberbach/Region/Factions/[Faction_Name]/`
-- **Isalia's Manor:** `Silberbach/Region/Factions/manor/`
+  - **Guilds:** `Region/Factions/Guilds/[Guild_Name]/Characters/` (e.g. Brewers Guild contacts)
+  - **Noble Houses:** `Region/Factions/Noble_Houses/[House_Name]/Characters/`
+  - **Merchant Families:** `Region/Factions/Merchant_Families/[House_Name]/Characters/`
+  - **Isalia's Manor:** `Region/Factions/Manor/` — see *Manor character placement* below
+
+### Cendrel (the Kennel Hounds region)
+
+- **Regional characters:** `Cendrel/Characters/`
+- **Per-location:** `Cendrel/[Location_Name]/` (e.g. `Camp_Rochevaux`, `Maruvec`, `Vauclair`) — each with a `Characters/` subfolder for that location's NPCs
+- **Sessions:** `Scenarios/Cendrel/[Location_Name_Campaign]/` — sessions live separate from lore
+
+### Manor character placement
+
+Path: `Silberbach/Region/Factions/Manor/Characters/`
+
+Split by **role**, not by transformation status. Pick the best subfolder based on what the character does:
+
+- **Owner/** — Isalia and her direct biographical materials only
+- **Senior_Staff/** — department heads (alchemist, head physician, head accountant, security captain, lead enchanter, stable master, head steward, steward, quartermaster, messenger coordinator)
+- **Companions/** — breeding programme contractors and intimate-services contractors
+- **Transformed_Residents/** — transformed residents whose primary identity is "resident" with no work role assigned (or who are still in adjustment)
+- **Peripheral_Staff/** — lower-rank named staff (receptionists, couriers, surrogate group, kitchen assistants, support contractors)
+- **Animals/** — non-sapient kennel and stable beasts (mastiff studs, breeding mares, etc.)
+- **Clients/** — manor clients (one-off or recurring)
+
+**Sorting rule for transformed-and-working characters:** Sort by their JOB, not by their transformation status.
+
+Examples:
+- Vogt (transformed minotaur, Head of Security) → **Senior_Staff** (his job is department head)
+- Sable (transformed mare, Stable Master) → **Senior_Staff** (her job is department head)
+- Marek (transformed wolf, courier) → **Peripheral_Staff** (his job is courier)
+- Kael (manticore stud contractor) → **Companions** (his job is breeding contractor)
+- Goran (transformed percheron, no contract, no job) → **Transformed_Residents** (no job to sort by)
+- Vesna (8-month-old transformed wolf, still adjusting) → **Transformed_Residents** (no work role yet)
+
+If a character doesn't fit cleanly into any of these seven subfolders, **recommend a new subfolder (with a one-line rationale) before creating it** — don't force-fit and don't silently expand the structure.
+
+### Other top-level
+
 - **Rules:** `Core_Rules/` | **Templates:** `Core_Rules/Templates/`
 - **Stories/logs:** `Stories/` | **Scripts:** `Python/`
 
@@ -104,7 +154,7 @@ When uncertain: `filesystem:search_files` to verify. Otherwise trust the structu
 NAMING & METADATA
 =================
 
-**Naming:** Underscores for all files/folders. Default output: `.md`. Images: `.jpg` preferred. `.txt` reserved for Stories/ only.
+**Naming:** All files and folders use `Snake_Case_With_Capitals` — underscores between words, leading capital on each significant word. Examples: `Manor`, `House_Steinfeld`, `Isalia_Kreiger.md`, `Camp_Rochevaux`. JPG filenames match their .md counterparts (`Isalia_Kreiger.jpg`, not `isalia_kreiger.jpg`). Default output: `.md`. Images: `.jpg` preferred. `.txt` reserved for Stories/ only.
 
 **YAML frontmatter (all .md files, lines 1–4):**
 ```yaml
