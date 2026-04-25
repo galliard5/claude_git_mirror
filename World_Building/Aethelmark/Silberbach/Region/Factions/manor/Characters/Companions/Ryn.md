@@ -12,7 +12,7 @@ Anthro stag, partial transformation. Companion at the Garden Wing. He/him. Mascu
 
 ## Appearance
 
-Six feet at the shoulder when standing — six and a half if you count the antlers, which are present, modest, and sit clean against his skull like part of his bone structure rather than an addition. Muscular through the chest and shoulders, narrower at the hips, the build of a working stag rather than a show one. Coat: warm chestnut on the body, paler cream on the chest and inner thighs, dark socks on the lower legs. White flash on the muzzle.
+Six feet two inches standing — six feet eight to the antler tips, which are present, modest, and sit clean against his skull like part of his bone structure rather than an addition. Muscular through the chest and shoulders, narrower at the hips, the build of a working stag rather than a show one. Coat: warm chestnut on the body, paler cream on the chest and inner thighs, dark socks on the lower legs. White flash on the muzzle.
 
 The masculine read is immediate and stable. Voice is low. Stance is square. The shape of him in a doorway is the shape of him in a doorway. The biology underneath the transformation is female by his choice — he wanted both in his body, and he asked for both, and he received both.
 
