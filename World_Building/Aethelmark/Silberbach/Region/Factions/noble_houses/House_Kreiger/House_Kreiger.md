@@ -21,7 +21,7 @@ Holdings: **Primary Seat:** The Kreiger Principality — Romaine's duchy, within
 Key Members:
 - **Duke Romaine Kreiger** — Ruling Duke, retired 20th-level Archdruid, former adventuring companion of Emperor Aldric. Age 120, appears late 20s due to Timeless Body. Helped develop the transformation potions that form the basis of Isalia's manor services.
 - **Duchess Iaxiandra Kreiger, Countess of the Dino Forest** — Duchess Kreiger by marriage, Countess of the Dino Forest by the county Romaine created for their union. Blue dragon presented as a blue kobold; open about her true nature. The dominant partner privately. Biological father of Isalia — Romaine chose to carry the egg deliberately, at a point when he had full control over his own form.
-- **Isalia Kreiger** — Their daughter. Retired 20th-level Totem Warrior Barbarian. Owner and operator of [[Isalias_Manor_Kennels_and_Stables]] outside Silberbach.
+- **Isalia Kreiger** — Their daughter. Retired 20th-level Totem Warrior Barbarian. Owner and operator of [[Isalias_Manor]] outside Silberbach.
 
 Politics & Influence:
 **Imperial Connection:**
@@ -38,7 +38,7 @@ Romaine's position as Archdruid carries institutional religious authority across
 Duke Romaine is quietly sympathetic to House Kaelen's reform movement and progressive policies regarding transformed individuals. His support for Isalia's manor is absolute and understated — he trusts her to run it without requiring updates.
 
 **Current Situation:**
-Hannah Voss of the Steinfeld estate is en route to Isalia's manor carrying a verbal message regarding Aldus Corvel's money laundering network and the appearance of House Aldenberg on his client list. Given the regional and potentially imperial implications — Aldenberg supplies Valtor's weapons, Valtor is the most powerful house in the valley — this information is likely to reach Duke Romaine's attention through Isalia.
+The family is presently engaged in the ongoing political consequences of Anthony Valtor's imperial testimony — a matter that has gradually drawn Romaine's attention from his usual remote stance. Through Isalia and through the manor's growing intelligence reach (the Aldus Corvel investigation produced material that touched House Aldenberg, which the manor routed back to Edmund Aldenberg via Romaine's network), the Duke is now informally tracking developments in the river valley more closely than he has in some years. Iaxiandra has expressed amused approval of this. Romaine has not commented.
 
 Rivalries:
 - **Count Elias Valtor** — distrusts Isalia's estate, fears its legal implications, views the Kreiger influence as a check on his authority
@@ -50,4 +50,4 @@ Alliances:
 - **House Rennic** — marriage ties
 
 The Manor Connection:
-Isalia's Manor Kennels & Stables operates as a private institution, not a house asset — but the Kreiger name provides it with a protective shadow. Anyone moving against the manor moves against the daughter of a Duke with imperial connections and an Archdruid's authority. This has kept the estate's more controversial operations from facing serious legal challenge despite Count Valtor's hostility.
+Isalia's Manor operates as a private institution, not a house asset — but the Kreiger name provides it with a protective shadow. Anyone moving against the manor moves against the daughter of a Duke with imperial connections and an Archdruid's authority. This has kept the estate's more controversial operations from facing serious legal challenge despite Count Valtor's hostility.
