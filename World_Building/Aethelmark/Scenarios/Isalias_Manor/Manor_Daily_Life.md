@@ -38,7 +38,7 @@ The manor runs on scheduled supply relationships. Most deliveries arrive on pred
 
 | Supplier | What They Bring | Contact | Notes |
 |---|---|---|---|
-| **Bakers & Butchers Guild** | Bread (loaves, rolls), cured meat, fresh cuts when slaughter schedule allows | — | Morning delivery, early. Tob inspects personally. Short counts start arguments. |
+| **Bakers & Butchers Guild** | Bread (loaves, rolls), cured meat, fresh cuts when slaughter schedule allows | Apprentice from [[Master_Berten|Master Berten]]'s Market Square bakery (bread); Master Garven's operation on Butcher's Way (meat, less frequent) | Morning delivery, early. Tob inspects personally. Short counts start arguments. Berten is Master Yorik Halsten's father-in-law — family connection, not commercial. |
 
 *Tob is the primary estate interface for this relationship. Any new face at the bread delivery is a small event — he'll want to know why.*
 
@@ -50,7 +50,7 @@ The manor runs on scheduled supply relationships. Most deliveries arrive on pred
 
 | Supplier | What They Bring | Contact | Notes |
 |---|---|---|---|
-| **Brewers Guild** | Ale (barrels, small kegs), seasonal beer, mead on commission | — | Rennik signs off on barrel counts. Quality disputes go through him. |
+| **Brewers Guild** | Ale (barrels, small kegs), seasonal beer, mead on commission | [[Drest]] (regular journeyman; reports through [[Master_Heinrek_Vohlmann|Master Vohlmann]]) | Rennik signs off on barrel counts. Quality disputes go through him. Drest is the manor-side counter-signer under the revised receiving policy. |
 
 *The estate goes through ale at a steady rate — staff mess, client hospitality, and Isalia's personal preference for a decent evening pour. Watered barrels or unusual flavors will be noticed within a day.*
 
@@ -60,7 +60,7 @@ The manor runs on scheduled supply relationships. Most deliveries arrive on pred
 
 | Supplier | What They Bring | Contact | Notes |
 |---|---|---|---|
-| **Farmers Guild** | Seasonal produce, grain, eggs, hay (large quantities), straw bedding | — | Largest regular delivery by volume. Sable coordinates hay/straw; Tob takes produce. Two separate contacts may emerge. |
+| **Farmers Guild** | Seasonal produce, grain, eggs, hay (large quantities), straw bedding | Brandt (and nephew Tomas) on regular rotation; reports through [[Master_Henrick_Cael|Master Cael]] | Largest regular delivery by volume. Sable coordinates hay/straw; Tob takes produce. Two separate contacts may emerge. Brandt's leafy vegetable frost warning was the established Session 06 thread. |
 
 *The hay and straw volume is substantial — the stables and kennels consume it steadily. Shortage here causes immediate practical problems Sable will notice before anyone else.*
 
@@ -70,8 +70,8 @@ The manor runs on scheduled supply relationships. Most deliveries arrive on pred
 
 | Supplier | What They Bring | Contact | Notes |
 |---|---|---|---|
-| **Tanners & Leatherworkers Guild** | Tack repairs, leather goods, collar substrates (unfinished), harness components | — | Elowen has standing orders for finished leather as collar substrate. Sable handles tack repairs separately. May be two contacts. |
-| **Fullers & Dyers Guild** | Finished cloth, linens, dyed fabric for staff clothing and bedding | — | Steady-state replacement of worn linens and staff livery. Lyra manages this personally — she cares about the estate's presentation. The guild operates a fulling mill on the Angerap mill race. |
+| **Tanners & Leatherworkers Guild** | Tack repairs, leather goods, collar substrates (unfinished), harness components | [[Master_Yorik_Halsten|Master Halsten]] himself on collar substrate work (twelve-year contract); separate working contact for Sable's tack | Elowen has standing orders for finished leather as collar substrate — Halsten produces them in lots matched to Elowen's specifications. Sable handles tack repairs separately. May be two contacts. |
+| **Fullers & Dyers Guild** | Finished cloth, linens, dyed fabric for staff clothing and bedding | — (Master Halren the dyer's operation supplies premium dyed cloth; routine linen comes via the Weavers Guild commercial channel) | Steady-state replacement of worn linens and staff livery. Lyra manages this personally — she cares about the estate's presentation. The guild operates dye works on the south bank of the Angerap. |
 
 ---
 
@@ -79,10 +79,10 @@ The manor runs on scheduled supply relationships. Most deliveries arrive on pred
 
 | Supplier | What They Bring | Contact | Notes |
 |---|---|---|---|
-| **River Traders Guild** | Imported alchemical ingredients, specialty spices, foreign goods, occasional commission items | — | Alric's most important external relationship. He may correspond directly before delivery. Irregular schedule; arrivals sometimes require advance notice from Kira. |
-| **Merchants Guild** | General trade goods, luxury items, writing supplies, specialty requests | — | Acts as a clearinghouse. The estate's contact here likely has connections to multiple smaller suppliers. Note: the active Corvel/Vander fraud investigation touches guild-adjacent figures — handle Merchants Guild visitors with awareness. |
-| **Miners Guild** | Raw metals (iron, copper, silver), gemstones for enchanting, raw crystals | — | Elowen submits her materials list months in advance. High-value per delivery; infrequent. |
-| **Weavers Guild** | Bulk fabric (wool, linen, canvas), specialty thread for enchanting applications | — | Quarterly or on commission. Elowen uses enchanting-grade thread requiring specific dye processes — a specialist order within the standard relationship. |
+| **River Traders Guild** | Imported alchemical ingredients, specialty spices, foreign goods, occasional commission items | — (dock side coordinated through [[Senior_Dockmaster_Bero|Senior Dockmaster Bero]] for arrivals; specialty contracts via [[Master_Rolf_Vannholt|Master Vannholt]]) | Alric's most important external relationship. He may correspond directly before delivery. Irregular schedule; arrivals sometimes require advance notice from Kira. |
+| **Merchants Guild** | General trade goods, luxury items, writing supplies, specialty requests | Master Reibach handles courier-side logistics; routine commerce contacts vary; Ossel was an established but compromised factor (Session 06 conspiracy thread) | Acts as a clearinghouse. The estate's contact here likely has connections to multiple smaller suppliers. **Note:** the active Corvel/Vander fraud investigation touches guild-adjacent figures. The Solt/Henning operation's referral network now confirmed to use Ossel as a node — handle Merchants Guild visitors with awareness. |
+| **Miners Guild** | Raw metals (iron, copper, silver), gemstones for enchanting, raw crystals | — (operations administered through Aldenberg Hold by [[Master_Veska|Master Veska]]; flow downstream via Blacksmiths Guild and direct River Traders shipment) | Elowen submits her materials list months in advance. High-value per delivery; infrequent. |
+| **Weavers Guild** | Bulk fabric (wool, linen, canvas), specialty thread for enchanting applications | — (relationship operationally clean; Master Sorren on Corvel's client list and Hauss confirmed complicit — contracts under Mira's watchful review per Session 04 audit) | Quarterly or on commission. Elowen uses enchanting-grade thread requiring specific dye processes — a specialist order within the standard relationship. |
 
 ---
 
@@ -90,8 +90,8 @@ The manor runs on scheduled supply relationships. Most deliveries arrive on pred
 
 | Supplier | What They Bring | Contact | Notes |
 |---|---|---|---|
-| **Blacksmiths & Metalworkers Guild** | Custom hardware, collar fittings, restraint components, forge repairs, tools | — | Haldrek handles day-to-day metalwork. Guild contracts cover volume orders and specialist work beyond his capacity. |
-| **Carpenters & Masons Guild** | Building repairs, furniture, structural work | — | Infrequent. The estate maintains its own basic repair capacity; anything structural goes out. |
+| **Blacksmiths & Metalworkers Guild** | Custom hardware, collar fittings, restraint components, forge repairs, tools | [[Master_Hendrik_Vorn|Master Vorn]]'s forge handles the manor collar reinforcement contract (lots synchronised with Halsten's leather lots); Haldrek handles day-to-day in-house metalwork | Haldrek covers routine work; Vorn's forge produces the iron components mounted to Halsten's collar foundations, delivered to Elowen's enchanting workshop together with leather lots. Volume orders and specialist work beyond Haldrek's capacity flow through guild contracts. |
+| **Carpenters & Masons Guild** | Building repairs, furniture, structural work | [[Master_Joren_Vesker|Master Vesker]] on the seven-year manor account; coordinates with Rennik and Vogt | Infrequent for routine repairs (the estate maintains its own basic capacity). Anything structural goes out to Vesker's team. The kennel/stable/Garden Wing maintenance rotation runs quarterly. |
 
 ---
 
@@ -109,18 +109,20 @@ The manor runs on scheduled supply relationships. Most deliveries arrive on pred
 
 ### Currency
 
-Silberbach and the surrounding region use imperial coinage common across Central Europe. In everyday conversation people refer to coins by their metal — "five crown" rather than "five Gold Crowns," "ten pence" rather than "ten Copper Pence." Both forms are understood.
+Silberbach and the surrounding region use imperial coinage common across the Empire of Aethelmark. In everyday conversation people refer to coins by their metal — "five crown" rather than "five Gold Crowns," "ten pence" rather than "ten Copper Pence." Both forms are understood.
 
 | Coin | Common Name | Formal Name |
 |---|---|---|
 | Copper | Pence | Copper Pence |
-| Silver | Dollar | Silver Dollar |
+| Silver | Dollar | Silver Dollar (formally: imperial silver mark) |
 | Gold | Crown | Gold Crown |
 | Platinum | Throne | Platinum Throne |
 
 **Exchange Rate: 100 Pence = 10 Dollars = 1 Crown = 1/10 Throne**
 
 Mental arithmetic runs clean at these rates. Three Dollars and forty Pence is 340 Pence. A Crown is 1,000 Pence.
+
+**Cross-border note:** Cendrelais traders use *écu* (gold) and *denier* (silver) coinage; rate negotiated at point of exchange but typically running close to imperial parity for established trade routes. Eastern Kingdom traders use *zloty* and lesser denominations; less common at the manor but encountered occasionally via the River Traders' downstream connections. *(See [[The_March_of_Silberbach]] for cross-border context.)*
 
 **Electrum coins** circulate occasionally — older mints and distant kingdoms. Still accepted in most markets, but value is negotiated at point of exchange rather than fixed. Treated as curiosities rather than functional currency in day-to-day trade.
 

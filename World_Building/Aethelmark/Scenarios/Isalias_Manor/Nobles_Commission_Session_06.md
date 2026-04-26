@@ -117,7 +117,7 @@ KEY EVENTS — SESSION 06
 
 7. **Anneke Vross letter — appointment confirmed** — Came same afternoon. Presented full account: Pieter silent eight months, collar fitted by Solt during transformation, delivered and installed by "Henning." Referral source: Ossel, Merchants Guild factor.
 
-8. **Town visit — Pieter's collar removed** — Elowen, Alric, Isalia attended Weaver's Row. Collar removed cleanly. Enchantment signature confirmed matching Corvin's refined layer. Both collars now in Elowen's workshop for comparison documentation. Pieter and Anneke brought to estate.
+8. **Town visit — Pieter's collar removed** — Elowen, Alric, Isalia attended [[Weavers_Row]]. Collar removed cleanly. Enchantment signature confirmed matching Corvin's refined layer. Both collars now in Elowen's workshop for comparison documentation. Pieter and Anneke brought to estate.
 
 9. **Pregnancy confirmed — 24 April morning** — Alric. Wolfhound litter, Valerius father, due late June–early July. Told Valerius at pasture fence directly. He was expecting it without knowing he was.
 
