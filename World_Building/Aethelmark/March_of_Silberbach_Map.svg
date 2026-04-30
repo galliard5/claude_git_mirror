@@ -1,0 +1,154 @@
+<svg width="100%" viewBox="0 0 680 720" role="img">
+  <title>The March of Silberbach regional map</title>
+  <desc>A stylized map of the March of Silberbach showing terrain zones, settlements, the Angerap River, and major trade routes. The March spans roughly 40 miles east-west and 30 miles north-south.</desc>
+  
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <pattern id="mountains" patternUnits="userSpaceOnUse" width="20" height="20">
+      <polygon points="10,2 18,15 2,15" fill="var(--color-text-secondary)" opacity="0.08"/>
+    </pattern>
+    <pattern id="forest" patternUnits="userSpaceOnUse" width="16" height="16">
+      <circle cx="8" cy="8" r="3" fill="var(--color-text-secondary)" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- TERRAIN ZONES -->
+  
+  <!-- Northern Mountains -->
+  <rect x="80" y="40" width="520" height="120" fill="var(--color-background-secondary)" opacity="0.6"/>
+  <rect x="80" y="40" width="520" height="120" fill="url(#mountains)"/>
+  <text class="ts" x="340" y="85" text-anchor="middle" opacity="0.5">Northern Mountains (mining, silver ore)</text>
+  
+  <!-- Eastern Forest -->
+  <polygon points="520,160 600,160 600,480 520,480" fill="var(--color-background-secondary)" opacity="0.5"/>
+  <polygon points="520,160 600,160 600,480 520,480" fill="url(#forest)"/>
+  <text class="ts" x="560" y="320" text-anchor="middle" transform="rotate(-90 560 320)" opacity="0.5">Eastern Forest</text>
+  
+  <!-- Central Plains & Pastoral -->
+  <polygon points="140,280 520,200 520,480 320,600 140,480" fill="var(--color-background-secondary)" opacity="0.3"/>
+  
+  <!-- Western Plains -->
+  <polygon points="80,400 200,400 320,600 200,640 80,600" fill="var(--color-background-secondary)" opacity="0.4"/>
+  <text class="ts" x="140" y="540" text-anchor="middle" opacity="0.5">Pastoral hills</text>
+  
+  <!-- ANGERAP RIVER (prominent blue) -->
+  <path d="M 140 100 Q 180 120, 200 160 Q 250 180, 300 200 L 340 220 Q 380 240, 420 280 Q 460 320, 480 380 L 500 480 Q 520 550, 540 620" 
+        stroke="#4A90E2" stroke-width="8" fill="none" opacity="0.7"/>
+  <path d="M 140 100 Q 180 120, 200 160 Q 250 180, 300 200 L 340 220 Q 380 240, 420 280 Q 460 320, 480 380 L 500 480 Q 520 550, 540 620" 
+        stroke="#2E5DB8" stroke-width="3" fill="none"/>
+  
+  <!-- TRADE ROUTES (roads) -->
+  <line x1="100" y1="220" x2="500" y2="220" stroke="var(--color-text-secondary)" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.4"/>
+  <line x1="340" y1="100" x2="340" y2="620" stroke="var(--color-text-secondary)" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.4"/>
+  <line x1="480" y1="200" x2="280" y2="580" stroke="var(--color-text-secondary)" stroke-width="1" stroke-dasharray="3 2" opacity="0.3"/>
+  
+  <!-- SETTLEMENTS -->
+  
+  <!-- Silberbach (central hub) -->
+  <g class="node" onclick="sendPrompt('Tell me about Silberbach')">
+    <circle cx="340" cy="240" r="16" fill="var(--color-info)" stroke="var(--color-text-primary)" stroke-width="1.5"/>
+    <circle cx="340" cy="240" r="10" fill="none" stroke="var(--color-info)" stroke-width="1" opacity="0.5"/>
+    <text class="th" x="340" y="280" text-anchor="middle" fill="var(--color-text-primary)">Silberbach</text>
+    <text class="ts" x="340" y="298" text-anchor="middle" fill="var(--color-text-secondary)">5,000–6,000 (town hub)</text>
+  </g>
+  
+  <!-- Aldenberg Hold (north, mountains) -->
+  <g class="node" onclick="sendPrompt('Tell me about Aldenberg Hold')">
+    <polygon points="340,120 348,140 332,140" fill="var(--color-warning)" stroke="var(--color-text-primary)" stroke-width="1"/>
+    <text class="th" x="340" y="170" text-anchor="middle" fill="var(--color-text-primary)">Aldenberg Hold</text>
+    <text class="ts" x="340" y="188" text-anchor="middle" fill="var(--color-text-secondary)">Mining settlement</text>
+  </g>
+  
+  <!-- Waldheim Lodge (east, forest) -->
+  <g class="node" onclick="sendPrompt('Tell me about Waldheim Lodge')">
+    <circle cx="560" cy="280" r="12" fill="var(--color-success)" stroke="var(--color-text-primary)" stroke-width="1"/>
+    <text class="th" x="560" y="320" text-anchor="middle" fill="var(--color-text-primary)">Waldheim</text>
+    <text class="ts" x="560" y="338" text-anchor="middle" fill="var(--color-text-secondary)">Forest Lodge</text>
+  </g>
+  
+  <!-- Kaelen's Ford (south) -->
+  <g class="node" onclick="sendPrompt('Tell me about Kaelen\\'s Ford')">
+    <rect x="320" y="380" width="40" height="20" rx="4" fill="var(--color-warning)" stroke="var(--color-text-primary)" stroke-width="1"/>
+    <text class="th" x="340" y="395" text-anchor="middle" dominant-baseline="central" fill="var(--color-text-primary)">Ford</text>
+    <text class="ts" x="340" y="420" text-anchor="middle" fill="var(--color-text-secondary)">Kaelen's Ford</text>
+  </g>
+  
+  <!-- Graudorf (southwest) -->
+  <g class="node" onclick="sendPrompt('Tell me about Graudorf')">
+    <circle cx="220" cy="480" r="10" fill="var(--color-success)" stroke="var(--color-text-primary)" stroke-width="1"/>
+    <text class="th" x="220" y="520" text-anchor="middle" fill="var(--color-text-primary)">Graudorf</text>
+    <text class="ts" x="220" y="538" text-anchor="middle" fill="var(--color-text-secondary)">Pastoral village</text>
+  </g>
+  
+  <!-- Rothwyn Estate (west, valley) -->
+  <g class="node" onclick="sendPrompt('Tell me about Rothwyn Estate')">
+    <circle cx="160" cy="380" r="10" fill="var(--color-success)" stroke="var(--color-text-primary)" stroke-width="1"/>
+    <text class="th" x="160" y="420" text-anchor="middle" fill="var(--color-text-primary)">Rothwyn</text>
+    <text class="ts" x="160" y="438" text-anchor="middle" fill="var(--color-text-secondary)">Vineyard estate</text>
+  </g>
+  
+  <!-- Steinfeld Estate (south/southeast) -->
+  <g class="node" onclick="sendPrompt('Tell me about Steinfeld Estate')">
+    <circle cx="420" cy="420" r="10" fill="var(--color-success)" stroke="var(--color-text-primary)" stroke-width="1"/>
+    <text class="th" x="420" y="460" text-anchor="middle" fill="var(--color-text-primary)">Steinfeld</text>
+    <text class="ts" x="420" y="478" text-anchor="middle" fill="var(--color-text-secondary)">Pastoral estate</text>
+  </g>
+  
+  <!-- Halselund (upstream, northeast) -->
+  <g class="node" onclick="sendPrompt('Tell me about Halselund')">
+    <circle cx="280" cy="160" r="8" fill="var(--color-border-tertiary)" stroke="var(--color-text-secondary)" stroke-width="1"/>
+    <text class="ts" x="280" y="190" text-anchor="middle" fill="var(--color-text-secondary)">Halselund</text>
+  </g>
+  
+  <!-- Reinheim (further upstream) -->
+  <g class="node" onclick="sendPrompt('Tell me about Reinheim')">
+    <circle cx="220" cy="120" r="8" fill="var(--color-border-tertiary)" stroke="var(--color-text-secondary)" stroke-width="1"/>
+    <text class="ts" x="220" y="150" text-anchor="middle" fill="var(--color-text-secondary)">Reinheim</text>
+  </g>
+  
+  <!-- Westgate (border crossing, far west) -->
+  <g class="node" onclick="sendPrompt('Tell me about the Westgate')">
+    <line x1="60" y1="520" x2="100" y2="520" stroke="var(--color-text-secondary)" stroke-width="2" opacity="0.6"/>
+    <text class="ts" x="80" y="550" text-anchor="middle" fill="var(--color-text-secondary)">Westgate</text>
+    <text class="ts" x="80" y="568" text-anchor="middle" fill="var(--color-text-secondary)" opacity="0.6">(Cendrel border)</text>
+  </g>
+  
+  <!-- ISALIA'S MANOR (southeast of Silberbach) -->
+  <g class="node" onclick="sendPrompt('Tell me about Isalia\\'s Manor')">
+    <rect x="410" y="280" width="16" height="16" rx="3" fill="var(--color-danger)" stroke="var(--color-text-primary)" stroke-width="1"/>
+    <text class="th" x="440" y="297" fill="var(--color-text-primary)">Isalia's Manor</text>
+    <text class="ts" x="440" y="315" fill="var(--color-text-secondary)">(kennels & transformation)</text>
+  </g>
+  
+  <!-- LEGEND -->
+  <g opacity="0.7">
+    <rect x="40" y="640" width="600" height="70" rx="6" fill="var(--color-background-secondary)" stroke="var(--color-border-tertiary)" stroke-width="0.5"/>
+    
+    <text class="th" x="50" y="662" fill="var(--color-text-primary)">Legend</text>
+    
+    <circle cx="50" cy="690" r="6" fill="var(--color-info)"/>
+    <text class="ts" x="62" y="695" fill="var(--color-text-secondary)">Major city</text>
+    
+    <polygon points="130,684 136,694 124,694" fill="var(--color-warning)"/>
+    <text class="ts" x="142" y="695" fill="var(--color-text-secondary)">Mountain hold</text>
+    
+    <circle cx="260" cy="690" r="6" fill="var(--color-success)"/>
+    <text class="ts" x="272" y="695" fill="var(--color-text-secondary)">Settlements</text>
+    
+    <rect x="380" y="684" width="12" height="12" rx="2" fill="var(--color-danger)"/>
+    <text class="ts" x="398" y="695" fill="var(--color-text-secondary)">Point of interest</text>
+    
+    <line x1="520" y1="690" x2="540" y2="690" stroke="#4A90E2" stroke-width="3"/>
+    <text class="ts" x="552" y="695" fill="var(--color-text-secondary)">River (Angerap)</text>
+  </g>
+  
+  <!-- COMPASS & SCALE -->
+  <g opacity="0.5">
+    <text class="ts" x="630" y="60" text-anchor="middle" fill="var(--color-text-secondary)">N</text>
+    <line x1="630" y1="65" x2="630" y2="85" stroke="var(--color-text-secondary)" stroke-width="1.5"/>
+    <polygon points="630,65 627,72 633,72" fill="var(--color-text-secondary)"/>
+  </g>
+  
+</svg>

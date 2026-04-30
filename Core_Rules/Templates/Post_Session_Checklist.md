@@ -64,13 +64,21 @@ Only if a location's status changed — a building damaged, a condition applied 
 
 ---
 
-## Step 6: Verify Metadata
+## Step 6: Verify Metadata & Sheet Boundaries
 
 For every file updated, check that the YAML frontmatter is still accurate:
 
 - `name` still matches the file's subject
 - `keywords` reflect current state (add `injured`, `pregnant`, `investigated`, etc. where relevant)
 - `description` reflects current situation, not outdated context
+
+**For sheet+bio files (any file with `<sheet>...</sheet>` markers):** if you edited content inside the sheet section, the line count may have shifted. Verify the canonical marker `</sheet>` and update `sheet_end_line:` in the YAML to match the actual line number of the closing tag. The marker is the source of truth; the YAML field is an optimization that lets readers use `head=N` to load just the sheet portion. If the two disagree, the marker wins and the field must be corrected.
+
+Procedure:
+1. Locate the line containing `</sheet>` in the edited file
+2. Note its line number (the file starts at line 1 with `---` opening the YAML)
+3. Update `sheet_end_line:` in the frontmatter to that number
+4. If you only edited content *outside* the sheet section (e.g., in the bio prose), no line-count update is needed
 
 ---
 

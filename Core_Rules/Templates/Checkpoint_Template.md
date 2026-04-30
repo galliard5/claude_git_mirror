@@ -145,7 +145,7 @@ Use full paths relative to project root. Group by priority.)
 **Required (Load before play begins):**
 - [Core rules]: Core_Rules/core_rules.md
 - [Scenario]: World_Building/Aethelmark/Scenarios/[Campaign]/[Scenario_File].md
-- [Sonnet Briefing]: [path, if one exists for this scenario]
+- [Scenario Package]: [path, if one exists for this scenario]
 - [PC Sheet]: [path to active character sheet]
 - [Prior Summaries]: [paths to all session summaries for this campaign, in order]
 
@@ -272,7 +272,7 @@ Background continuity:
 
 **This is the cold-start checklist.** If a different model instance (or the same model in a new conversation) picks up this checkpoint, this list tells it exactly what to read before play begins. Nothing should be left to inference or memory.
 
-- **Required:** Always loaded. Core rules, the scenario doc, the PC sheet, all prior session summaries, and the Sonnet Briefing if one exists. Without these, the session cannot run accurately.
+- **Required:** Always loaded. Core rules, the scenario doc, the PC sheet, all prior session summaries, and the Scenario Package if one exists. Without these, the session cannot run accurately.
 - **Contextual:** Files tied to active plot threads. If an NPC interrogation is pending, their character sheet belongs here. If the PC is heading to a specific location next, that location brief belongs here. Update this list every checkpoint — drop files that are no longer relevant, add files that became relevant during the session.
 - **Optional:** Reference material that might be needed but doesn't need to be loaded upfront. Skill trees, item databases, enchantment lists — things the GM can pull mid-session if the scene calls for it.
 

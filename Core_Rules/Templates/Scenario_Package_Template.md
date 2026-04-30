@@ -1,16 +1,19 @@
 ---
-name: Sonnet Briefing Template
-keywords: [template, sonnet, briefing, scenario, operational, session-prep, handoff]
-description: Template for Opus-generated operational playbooks that give Sonnet explicit NPC logic, voice anchors, file references, and conditional responses for running sessions
+name: Scenario Package Template
+keywords: [template, scenario, package, operational, playbook, session-prep, handoff, runtime]
+description: Template for the operational playbook that pairs with a Scenario file — explicit NPC logic, voice anchors, file references, and conditional responses for the runtime GM model
 ---
 
-# Sonnet Briefing: [Scenario Name]
+# Scenario Package: [Scenario Name]
 
-**Scenario File:** [[Scenario_Name]]
+**Companion Scenario File:** [[Scenario_Name]] *(narrative design — what the story is)*
+**This File:** Operational playbook *(how to run it — paired with the Scenario file)*
+
 **Campaign:** [[Campaign_Name]]
 **Setting:** [[Location_Name]]
 **In-Game Date Range:** [Start Date] to [Estimated End Date]
-**Created By:** Opus | [Creation Date]
+**Created By:** [Designer model — typically the planning instance] | [Creation Date]
+**Runtime Target:** [Runtime model — typically the play instance]
 
 ---
 
@@ -39,13 +42,13 @@ description: Template for Opus-generated operational playbooks that give Sonnet 
 - [[Additional_Files]]
 - [Why: brief note]
 
-[Repeat for each major scene or location transition. The goal is that Sonnet never has to guess which files to read — the briefing tells it.]
+[Repeat for each major scene or location transition. The goal is that the runtime GM never has to guess which files to read — the package tells it.]
 
 ---
 
 ## NPC Operations Guide
 
-For each major NPC in the scenario, provide an operational profile that Sonnet can reference during play. This is NOT a replacement for the full character file — it's a quick-reference decision engine.
+For each major NPC in the scenario, provide an operational profile that the runtime GM can reference during play. This is NOT a replacement for the full character file — it's a quick-reference decision engine. Pair with the character's sheet (top of their character file, available via `read_text_file` with the file's `sheet_lines` value) for token-efficient runtime loading.
 
 ### [NPC Name] — [Role/Title]
 
@@ -70,7 +73,7 @@ For each major NPC in the scenario, provide an operational profile that Sonnet c
 - IF [player action/event] → [NPC reaction and reasoning]
 
 **Canon Traps:**
-[Things Sonnet might improvise that would contradict established lore. Be specific.]
+[Things the runtime GM might improvise that would contradict established lore. Be specific.]
 - ⚠️ [e.g., "This NPC does NOT know about the embezzlement — they weren't told"]
 - ⚠️ [e.g., "This NPC's relationship with X is hostile, not just tense — do not soften it"]
 - ⚠️ [e.g., "This location closes at sundown — no evening access without special arrangement"]
@@ -90,7 +93,7 @@ For each major NPC in the scenario, provide an operational profile that Sonnet c
 
 ## Plot Logic & Branching
 
-[Map the scenario's key decision points with explicit consequences. Sonnet should know what happens without needing to derive it.]
+[Map the scenario's key decision points with explicit consequences. The runtime GM should know what happens without needing to derive it.]
 
 ### Decision Point: [Description]
 
@@ -129,7 +132,7 @@ For each major NPC in the scenario, provide an operational profile that Sonnet c
 
 ## Tone & Atmosphere Notes
 
-[Guidance on the scenario's intended feel — helps Sonnet maintain consistency.]
+[Guidance on the scenario's intended feel — helps the runtime GM maintain consistency.]
 
 - **Overall tone:** [e.g., "Slow burn investigation with social tension — not action-driven"]
 - **Pacing guidance:** [e.g., "Let morning routines breathe. Don't rush to plot beats."]
@@ -140,7 +143,7 @@ For each major NPC in the scenario, provide an operational profile that Sonnet c
 
 ## Session Pacing Markers
 
-[Suggested session breakpoints — helps Sonnet recognize when to offer checkpoints.]
+[Suggested session breakpoints — helps the runtime GM recognize when to offer checkpoints.]
 
 - **Natural break after:** [Event or scene — e.g., "First full day at the estate concludes"]
 - **Natural break after:** [Event or scene — e.g., "The confrontation with NPC resolves"]
@@ -159,12 +162,23 @@ For each major NPC in the scenario, provide an operational profile that Sonnet c
 
 ---
 
-## Post-Session Notes (Sonnet fills this in)
+## Post-Session Notes (Runtime GM fills this in)
 
-[After each session, Sonnet adds brief notes here for continuity across sessions within the same scenario.]
+[After each session, the runtime GM adds brief notes here for continuity across sessions within the same scenario.]
 
 ### Session [XX] Notes:
 - **Deviations from expected plot:** [What the PC did that wasn't anticipated]
 - **NPC attitude shifts:** [Any relationships that changed]
 - **New threads opened:** [Anything the PC initiated that wasn't in the scenario]
-- **Canon established during play:** [Details Sonnet improvised that should now be treated as canon]
+- **Canon established during play:** [Details the runtime GM improvised that should now be treated as canon]
+
+---
+
+## Architecture Note
+
+This Scenario Package is the *operational* half of a paired set:
+
+- **`Scenario_Template.md`** describes WHAT the scenario is — narrative design, plot arcs, branches, themes. Authored by the planning model in collaboration with the human designer.
+- **`Scenario_Package_Template.md`** (this file) describes HOW to run it — voice anchors, file loads, canonical traps, conditional responses. Authored by the planning model after the Scenario file is settled. Consumed by the runtime model during play.
+
+The two files are designed to be loaded together at session prep, with the Package serving as the active reference during play.

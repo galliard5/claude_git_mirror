@@ -661,6 +661,47 @@ Relationships change through demonstrated player action only — never through n
 
 ---
 
+## Sheet + Bio Architecture
+
+**Character files (and Location, Noble House, and Faction files) follow a sheet + bio architecture in a single file.** The sheet is a token-light, data-dense reference for runtime use — the GM-table view, loaded at session prep. The bio is the narrative reference — background prose, extended relationships, deep personality, history — loaded only when worldbuilding context is needed.
+
+**File structure:**
+
+```yaml
+---
+name: [Name]
+keywords: [...]
+description: ...
+sheet_end_line: 95
+---
+
+<sheet>
+
+# [Name]
+
+[Sheet content — the GM-table view]
+
+</sheet>
+
+[Bio content — narrative reference]
+
+---
+
+## Connections
+[wiki links]
+```
+
+**Key conventions:**
+
+- The `<sheet>` and `</sheet>` tags are the canonical boundary markers. Lowercase. The `</sheet>` line marks where the sheet section ends.
+- The `sheet_end_line:` YAML field gives the line number where `</sheet>` appears (line 1 = the opening `---` of the YAML frontmatter). This lets a reader load just the sheet via `read_text_file(path, head=N)`.
+- **The marker is the source of truth; the YAML field is an optimization.** If they disagree, the marker wins and the field must be corrected.
+- When loading character/location/house/faction files for runtime reference, prefer `head=sheet_end_line` for token efficiency. Load the full file only when bio depth is needed.
+
+**Maintenance discipline:** Whenever the sheet section is edited (most commonly: Trust Level updates, Active Conditions, Memory/Interaction Log entries), the `</sheet>` marker may shift. Recount lines from file start through `</sheet>` and update `sheet_end_line:` to that number. Edits outside the sheet section (in the bio prose) require no line-count update. See [[Post_Session_Checklist]] Step 6 for the full procedure.
+
+---
+
 SECTION 8: INFORMATION & PERCEPTION
 ====================================
 
