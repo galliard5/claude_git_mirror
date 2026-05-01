@@ -183,29 +183,18 @@ CORE WORKFLOWS
 4. Execute batch write → verify each file with `filesystem:read_text_file`
 5. Propose git commit → execute on approval
 
-## GIT COMMIT FORMAT & MULTI-REMOTE PUSH
+## GIT COMMIT & PUSH TO GITHUB
 
 **Environment:** Windows CMD only. No bash. Provide copy-paste `cmd` blocks.
 
-Format: `[Category]: [Subject] | [Details] | [In-Game Date]`
+**Format:** `[Category]: [Subject] | [Details] | [In-Game Date]`
 
-Categories: `Session:` `Scenario Extraction:` `World Building:` `Character:` `Rules Update:` `Project Maintenance:` `Bulk:`
+**Categories:** `Session:` `Scenario Extraction:` `World Building:` `Character:` `Rules Update:` `Project Maintenance:` `Bulk:`
 
-Example:
+**Example:**
 ```
 Session: Maruvec Campaign 02 | Donor selection, squad briefing | Date: 8 March 1651
 ```
-
-### Standard Commit & Push (Single Remote)
-```cmd
-D:
-cd D:\Claude_MCP_folder
-git add .
-git commit -m "Your commit message"
-git push origin main
-```
-
-### Push to Multiple Remotes Simultaneously
 
 **Copy & Paste This Block:**
 ```cmd
@@ -214,34 +203,8 @@ cd D:\Claude_MCP_folder
 git add .
 git commit -m "Your commit message"
 git push origin main
-git push local main
 ```
-Replace `"Your commit message"` with your actual message. Select all, copy, paste into CMD.
-
-
-**Setup (one-time):** If you have a local remote, ensure it's configured:
-```cmd
-git remote -v
-```
-If `local` is missing, add it:
-```cmd
-git remote add local <your-local-repo-path>
-```
-
-### Automated Multi-Push (Optional - Advanced)
-
-To avoid typing both pushes every time, configure git to push to both remotes with a single `git push`:
-
-```cmd
-git remote set-url origin --push --add origin https://github.com/galliard5/claude_git_mirror.git
-git remote set-url origin --push --add local <your-local-repo-path>
-```
-
-Then you can use just:
-```cmd
-git push origin main
-```
-and it will push to both automatically.
+Replace `"Your commit message"` with your actual message. Select all, copy, paste into CMD. GitHub becomes your backup.
 
 ## FILE EDITING
 

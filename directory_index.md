@@ -2,15 +2,17 @@
 name: Directory Index
 keywords: [index, directory, structure, map]
 description: Auto-generated directory tree snapshot
-scan_utc: 2026-04-30T14:58:08Z
-scan_local: 2026-04-30 08:58:08 Mountain Daylight Time
-claude_section_end: 128
+scan_utc: 2026-05-01T14:56:53Z
+scan_local: 2026-05-01 08:56:53 Mountain Daylight Time
+claude_section_end: 130
 ---
 Claude_MCP_folder
  Core_Rules
   Templates
+ other_references
  Perchance_prompts
  Python
+  worldographer
  Sheet_import
  Stories
  World_Building
@@ -129,15 +131,17 @@ Claude_MCP_folder
 
 # Human-Readable Directory Tree
 
-Scanned: 2026-04-30 08:58:08 Mountain Daylight Time (UTC: 2026-04-30T14:58:08Z)
+Scanned: 2026-05-01 08:56:53 Mountain Daylight Time (UTC: 2026-05-01T14:56:53Z)
 Excluded: .git, .obsidian, Trash, __pycache__, node_modules
 
 ```
 Claude_MCP_folder/
 ├── Core_Rules/
 │   └── Templates/
+├── other_references/
 ├── Perchance_prompts/
 ├── Python/
+│   └── worldographer/
 ├── Sheet_import/
 ├── Stories/
 └── World_Building/
