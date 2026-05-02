@@ -1,0 +1,870 @@
+{
+  "export_date": "2026-05-02T00:27:10.739836",
+  "total_npcs": 48,
+  "npcs": [
+    {
+      "name": "Aldren",
+      "campaign": [
+        "Unaffiliated"
+      ],
+      "faction": [
+        "Unaffiliated"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "TBD",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Aldus Corvel",
+      "campaign": [
+        "Viktor Steinfeld"
+      ],
+      "faction": [
+        "Unaffiliated"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "TBD - Investigation related",
+      "description": "Related to Corvel money-laundering investigation. Silberbach connection to Steinfeld estate mystery.",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Aubert",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Brac",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Donor hound",
+      "description": "Donor hound for Isandar's transformation. Selected Day 1 of the trial. Non-sapient hound.",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Celine Daubray",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Colette Varre",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Kennel Master - oversees transformation trials and squad training",
+      "description": "Oversees transformation trials and squad training. Practical and grounding presence.",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Constable Ferris",
+      "campaign": [
+        "Nobles Commission"
+      ],
+      "faction": [
+        "Guilds"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "Constable",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Corvel",
+      "campaign": [
+        "Viktor Steinfeld"
+      ],
+      "faction": [
+        "Merchant Families"
+      ],
+      "location": [
+        "Vauclair"
+      ],
+      "role": "Money-launderer",
+      "description": "Money-laundering scheme connected to estate mystery. Character in Steinfeld investigation thread.",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Dietrich Haan",
+      "campaign": [
+        "Nobles Commission"
+      ],
+      "faction": [
+        "Unaffiliated"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "Town resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Dix",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Squad member - kennel hound",
+      "description": "Squad member in Maruvec Campaign. Transformed kennel hound, part of Isandar's training squad. Ambient presence during key scenes.",
+      "transformed_status": "Transformed",
+      "transformed_into": "Hound",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Duval",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Edouard Vellancourt",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Noble Houses"
+      ],
+      "location": [
+        "Cendrel"
+      ],
+      "role": "Comte patron - founder of Kennel Hounds Programme",
+      "description": "Eccentric wealthy Cendrel comte; founder/funder of Integrated Hound Sentinel Programme (Kennel Hounds).",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Elise Marenne",
+      "campaign": [
+        "Vauclair"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Vauclair"
+      ],
+      "role": "Town resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Emperor Aldric",
+      "campaign": [
+        "Nobles Commission"
+      ],
+      "faction": [
+        "Noble Houses"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "Fertility appointment (24 Apr)",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Fabron",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Fenk",
+      "campaign": [
+        "Nobles Commission"
+      ],
+      "faction": [
+        "Unaffiliated"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "Town resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Gate Man",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Gate keeper",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Gervais Tournon",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Gregor",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Grenn",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Halden Creuse",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Hannah Voss",
+      "campaign": [
+        "Viktor Steinfeld"
+      ],
+      "faction": [
+        "Noble Houses"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "Stablemaster at Steinfeld estate",
+      "description": "Stablemaster at Steinfeld estate. Human, manages the stables and handles day-to-day horse care.",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Isalia Kreiger",
+      "campaign": [
+        "Nobles Commission"
+      ],
+      "faction": [
+        "Manor Staff"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "Owner of Isalia's Manor - 70yo kobold barbarian, runs breeding and transformation programme",
+      "description": "70-year-old kobold barbarian. Owner of Isalia's Manor, runs breeding and transformation programme.",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Isandar Quickclaw",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "PC - Kobold dock-born, kennel hound transformation trial participant",
+      "description": "Dock-born kobold, PC in transformation trial. Quick-witted and resourceful.",
+      "transformed_status": "Transformed",
+      "transformed_into": "Hound",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Joren",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Judge Thomas Kinsky",
+      "campaign": [
+        "Nobles Commission"
+      ],
+      "faction": [
+        "Guilds"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "Judge - legal hearing (est. ~2 May)",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Kaz Quickclaw",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Quickclaw family",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Kess",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Maruvec staff",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Lenne Souchard",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Maret Aldec",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Emotional reunion with Sable during harness fitting",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Mathis Renard",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Perret",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Perrin Aldec",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Squad member - kennel hound, part of training squad",
+      "description": "Squad member in Maruvec Campaign. Transformed kennel hound, part of Isandar's training squad.",
+      "transformed_status": "Transformed",
+      "transformed_into": "Hound",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Pol",
+      "campaign": [
+        "Nobles Commission"
+      ],
+      "faction": [
+        "Unaffiliated"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "Town resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Renaud Bastier",
+      "campaign": [
+        "Vauclair"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Vauclair"
+      ],
+      "role": "Town resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Renne",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Maruvec staff",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Rill Sunclaw",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Sable Venn",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Squad member - transformed mare, Stable Master role, dock-adjacent",
+      "description": "Transformed mare, Stable Master role at Maruvec. Dock-adjacent, part of training squad. Emotional scene with Maret.",
+      "transformed_status": "Transformed",
+      "transformed_into": "Mare",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Sekkel",
+      "campaign": [
+        "Vauclair"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Vauclair"
+      ],
+      "role": "Town resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Severin Cault",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Alchemist",
+      "description": "Alchemist at Maruvec. Oversees the transformation alchemy. 9 successful transformations, 1 hard case, 1 lost (as of last tally).",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Silas Drouet",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Maruvec staff",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Tessier",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Camp resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "The Buyer",
+      "campaign": [
+        "Camp Rochevaux"
+      ],
+      "faction": [
+        "Merchant Families"
+      ],
+      "location": [
+        "Camp Rochevaux"
+      ],
+      "role": "Buyer - facility owner",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Th\u00e9o Marchais",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Squad member - kennel hound, part of Isandar's training group",
+      "description": "Squad member in Maruvec Campaign. Transformed kennel hound, part of Isandar's training squad.",
+      "transformed_status": "Transformed",
+      "transformed_into": "Hound",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Varne",
+      "campaign": [
+        "Vauclair"
+      ],
+      "faction": [
+        "Regional"
+      ],
+      "location": [
+        "Vauclair"
+      ],
+      "role": "Town resident",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Viktor Steinfeld",
+      "campaign": [
+        "Viktor Steinfeld"
+      ],
+      "faction": [
+        "Noble Houses"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "Pregnant mare (foal sire: Greymarch stallion, due late June-early July 1650)",
+      "description": "Pregnant mare (foal sire: Greymarch stallion, due late June-early July 1650). Active character in Viktor Steinfeld estate storyline.",
+      "transformed_status": "Transformed",
+      "transformed_into": "Mare",
+      "natural_race": true,
+      "has_all_fields": true
+    },
+    {
+      "name": "Voss and Kraemer",
+      "campaign": [
+        "Viktor Steinfeld"
+      ],
+      "faction": [
+        "Noble Houses"
+      ],
+      "location": [
+        "Silberbach"
+      ],
+      "role": "Estate staff",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    },
+    {
+      "name": "Yara Quickclaw",
+      "campaign": [
+        "Maruvec Campaign"
+      ],
+      "faction": [
+        "Kennel Hounds Program"
+      ],
+      "location": [
+        "Maruvec"
+      ],
+      "role": "Quickclaw family",
+      "description": "",
+      "transformed_status": "Not Transformed",
+      "transformed_into": "",
+      "natural_race": false,
+      "has_all_fields": true
+    }
+  ]
+}

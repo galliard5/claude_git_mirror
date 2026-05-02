@@ -1,0 +1,59 @@
+Aethelmark NPCs Export
+Exported: 2026-05-02T00:27:10.741138
+Total NPCs: 48
+================================================================================
+
+COMPLETE (48 NPCs):
+--------------------------------------------------------------------------------
+✓ Aldren
+✓ Aldus Corvel
+✓ Aubert
+✓ Brac
+✓ Celine Daubray
+✓ Colette Varre
+✓ Constable Ferris
+✓ Corvel
+✓ Dietrich Haan
+✓ Dix
+✓ Duval
+✓ Edouard Vellancourt
+✓ Elise Marenne
+✓ Emperor Aldric
+✓ Fabron
+✓ Fenk
+✓ Gate Man
+✓ Gervais Tournon
+✓ Gregor
+✓ Grenn
+✓ Halden Creuse
+✓ Hannah Voss
+✓ Isalia Kreiger
+✓ Isandar Quickclaw
+✓ Joren
+✓ Judge Thomas Kinsky
+✓ Kaz Quickclaw
+✓ Kess
+✓ Lenne Souchard
+✓ Maret Aldec
+✓ Mathis Renard
+✓ Perret
+✓ Perrin Aldec
+✓ Pol
+✓ Renaud Bastier
+✓ Renne
+✓ Rill Sunclaw
+✓ Sable Venn
+✓ Sekkel
+✓ Severin Cault
+✓ Silas Drouet
+✓ Tessier
+✓ The Buyer
+✓ Théo Marchais
+✓ Varne
+✓ Viktor Steinfeld
+✓ Voss and Kraemer
+✓ Yara Quickclaw
+
+
+INCOMPLETE (0 NPCs - missing fields):
+--------------------------------------------------------------------------------
