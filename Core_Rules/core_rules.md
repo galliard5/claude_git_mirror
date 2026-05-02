@@ -237,11 +237,11 @@ When in doubt, start with Sonnet. If NPCs flatten or canon contradictions appear
 
 ## Scenario Creation Requirement
 
-**Every scenario built by Opus must include a companion Sonnet Briefing** — a condensed operational document that gives Sonnet explicit NPC logic, voice anchors, conditional responses, file loading instructions, and canon traps.
+**Every scenario built by Opus must include a companion Scenario Package** — a condensed operational document that gives Sonnet explicit NPC logic, voice anchors, conditional responses, file loading instructions, and canon traps. The Scenario Package is the operational half of a paired set with the Scenario file (the narrative-design half).
 
 **For the complete Model Selection protocol, handoff procedures, and workflow details, see:** [[Model_Selection_Guide]]
 
-**For the Sonnet Briefing format, see:** [[Sonnet_Briefing_Template]]
+**For the Scenario Package format, see:** [[Scenario_Package_Template]]
 
 ---
 

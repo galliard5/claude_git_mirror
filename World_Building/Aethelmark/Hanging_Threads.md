@@ -8,13 +8,54 @@ description: Running reference of unresolved plot threads across all Aethelmark 
 
 **Purpose:** Single reference point for all unresolved threads, story seeds, and open questions across Aethelmark scenarios and fiction. Update when threads resolve, escalate, or connect to each other.
 
-Last updated: Session of 2026-03-18 (full character file review)
+Last updated: 2026-05-02 — post Session 06 (24 April 1650 night) and post region/houses/guilds buildout
 
 ---
 
 ## CRITICAL — Time-Sensitive
 
 These threads have active clocks or immediate consequences if unaddressed.
+
+---
+
+### Mohl Hearing — 3 May 1650
+**Source:** Nobles Commission Sessions 04-05
+**Status:** Imminent — within 9 days at Session 06
+**Detail:** [[Lady_Seria_Rennic]]'s legal case proceeds before Deputy Justice [[Judge_Thomas_Kinsky|Mohl]] on 3 May. Lady Seria is in residence at the manor pending the hearing and intends to appear voluntarily. [[Valerius_Corvinus]]'s status as free transformed resident under imperial privilege will also be argued at the hearing. The petition was filed 19 April; the counter-signed transfer copy was filed within the circuit magistrate's window.
+
+**Open questions:** Will Mohl rule favorably on Valerius's status? Does anyone connected to the conspiracy attempt to influence the hearing? Does Lady Seria face any unexpected challenges to her voluntary appearance? Does the hearing produce evidentiary discoveries that escalate the conspiracy investigation?
+
+---
+
+### Countess Grauwald Visit — 29 April 1650
+**Source:** Nobles Commission Session 06
+**Status:** Confirmed — within 5 days
+**Detail:** [[House_Grauwald|Countess Grauwald]]'s visit is confirmed for 29 April afternoon for a sensitive consultation. The nature is held closely by Isalia. Could be conspiracy-adjacent inquiry (House Grauwald may have its own information about the Solt network), transformation consultation, political escort question, or something else entirely.
+
+**Open questions:** What does Grauwald actually want? Does her visit connect to any of the active conspiracy threads? Does she arrive with information, a request, or a problem?
+
+---
+
+### Solt Collar Conspiracy
+**Source:** Nobles Commission Sessions 03-06
+**Status:** Active — deepening
+**Detail:** A collar-and-control operation distinct from but politically adjacent to the Corvel network. Targets vulnerable individuals — transformed runaways, isolated spouses, displaced craftspeople — and uses enchanted speech-suppression collars to hold them silent under the cover of legitimate-looking domestic arrangements. The operation has surfaced through the manor as victims arrive for collar removal.
+
+**Confirmed network nodes (as of Session 06):**
+- **Solt and Henning** — the operators. Behavioral suppression layer in their collars matches across multiple cases.
+- **Ossel** (Merchants Guild factor) — confirmed as a referral source. Names victims to Solt. Compromised commercial node.
+- **Felix** — informed (Session 06). His role and complicity-or-witness status is not yet definitively established.
+
+**Confirmed victims at the manor:**
+- [[Corvin]] — brought in by [[Marta_Sehn|Marta]] (Session 04). Collar removed. Now running freely in south paddock.
+- [[Aldric_Venn]] — located in Merchants Close (Session 05) and brought in. Collar removed.
+- **Pieter** (Anneke Vross's silent husband) — brought in (Session 06). Collar removed cleanly. Same enchantment signature as Corvin's refined layer.
+- **Anneke Vross** herself — now at the estate as a witness/protected party.
+- **[[Daan_Voss|Daan Voss]]** — near-term guest at the estate (Session 06). Status: under observation; relationship to the conspiracy not yet definitively classified.
+
+**Working theory:** The conspiracy operates through Merchants Guild referral channels (Ossel as proven node), uses purpose-built enchantment work (Elowen has identified the consistent signature), and the larger backing remains unidentified. The Solt operation may be a contractor-level service to a higher patron.
+
+**Open questions:** Who is the patron behind Solt and Henning? Does the conspiracy connect to the Corvel money-laundering operation, or are they parallel networks sharing political shelter? Does Ossel flee, double down, or get recalled by his patrons? How many more victims exist that haven't yet surfaced? Is Daan Voss a victim, a witness, or a plant?
 
 ---
 
@@ -34,11 +75,13 @@ These threads have active clocks or immediate consequences if unaddressed.
 ---
 
 ### House Aldenberg Connection
-**Source:** Viktor Steinfeld Session 01
-**Status:** Referred upward — no response yet
-**Detail:** Aldenberg is Corvel's largest client by a significant margin. Aldenberg also supplies House Valtor's weapons — making them the most politically sensitive thread in the network. Viktor and Lukas agreed this was too large for a local constable and sent Hannah Voss to Isalia's Manor carrying a verbal message for Duke Romaine Kreiger through Isalia as a trusted channel.
+**Source:** Viktor Steinfeld Session 01; Manor 24 April 1650 state
+**Status:** Message delivered — awaiting Duke Romaine's response
+**Detail:** Aldenberg is Corvel's largest client by a significant margin. Aldenberg also supplies House Valtor's weapons — making them the most politically sensitive thread in the network. Viktor and Lukas agreed this was too large for a local constable and sent [[Hannah_Voss]] to Isalia's Manor carrying a verbal message for [[Duke_Romaine_Kreiger|Duke Romaine Kreiger]] through Isalia as a trusted channel.
 
-**Open questions:** Has Hannah arrived at the manor? Has Isalia passed the message to Romaine? What is Aldenberg's exposure — and how will they respond if they learn Viktor has it?
+**Status update (Manor timeline, 24 April 1650):** Hannah Voss has been at the manor on extended Steinfeld business since shortly after Viktor's Session 01. The verbal message was passed to Isalia and routed onward to Duke Romaine. No response from Duke Romaine has yet arrived. Hannah has also collected Storm (Mira von Aldenberg) and obtained the provenance letter for the Greymarch pair. Her presence at the manor is transient but sustained.
+
+**Open questions:** Does Duke Romaine respond, and through what channel? What is Aldenberg's exposure if the investigation surfaces — and how will they respond if they learn Viktor (or Duke Romaine) has the information? Does Aldenberg's guard's continued inquiries near the manor's western pastures (Mira von Aldenberg situation) connect to awareness that Viktor's investigation has reached Duke Romaine?
 
 ---
 
@@ -67,14 +110,37 @@ These threads have active clocks or immediate consequences if unaddressed.
 
 ---
 
-### Sergovy Waldheim — Pending Scenario
-**Scenario:** Sergovy Waldheim at Isalia's Manor
-**Status:** Approaching — not yet started
-**Projected start:** Mid-to-late April 1650
+### Sergovy Waldheim — Resolved
+**Scenario:** [[Sergovy_Waldheim]] (Serya) at Isalia's Manor
+**Status:** RESOLVED — transformation completed; Serya integration arc now active
+**Detail:** [[Sergovy_Waldheim|Sergovy]] arrived at the manor in mid-April 1650. The cover story (traveling to Brennmark seminary) held just long enough to reach the manor; Isalia recognized the Waldheim livery. Sergovy committed to the transformation, signed contracts, and emerged as **Serya** — permanent female wolf, speaking collar, Kreiger brand, east kennels. As of 24 April 1650 night, Serya is at Day 02+ of her integration arc under [[Sable_the_Mare|Sable]]'s supervision.
 
-- **Cover story:** Traveling to Brennmark to reflect on a religious vocation. Will not survive a direct question about which seminary. Isalia will recognize the Waldheim name within minutes of arrival.
-- **Lord Albrecht's clock:** Sergovy's father believes he is in Brennmark. The longer the scenario runs, the closer the moment when Albrecht realizes he isn't — and begins asking questions of the right people.
-- **Waldheim collar system connection:** House Waldheim coordinates with the manor on the transformed ranger collar system. Isalia knows the house. Sergovy's arrival will be flagged.
+**Threads that have moved with this resolution:**
+- The Sergovy approach is closed (he arrived, transformed, and is now Serya).
+- Serya integration arc is now its own active scenario — see [[Serya_Integration]] and [[Day_01_Serya_Integration]] / [[Day_02_Serya_Integration]] in the Day_Briefs folder.
+- [[Lord_Albrecht_Waldheim|Lord Albrecht]]'s clock continues to run — he believes Sergovy is in Brennmark. The longer the period before he learns otherwise, the more the eventual revelation costs.
+- A seminary letter from Brennmark is now in transit or delivered to Waldheim Lodge (referenced in Day 02 brief). This is the trigger that begins Albrecht's discovery.
+- Marek's recognition of Waldheim livery (Day 02 hook) connects this thread to the manor's broader integration of Serya.
+
+**Open questions for the Serya integration arc:** When does Lord Albrecht discover his son is not at Brennmark? How does Serya's relationship with the manor staff develop — particularly with Marek, Sable, and Korr? Does House Waldheim's broader collar-system relationship with the manor become relevant? Does Serya ever reach out to her father, and if so, when?
+
+---
+
+### Isalia's Pregnancy — Confirmed 24 April 1650
+**Source:** Nobles Commission Session 06
+**Status:** Active — newly confirmed, internal manor knowledge only
+**Detail:** [[Isalia_Kreiger|Isalia]]'s pregnancy was confirmed at her 24 April fertility appointment with [[Alric_Dain|Alric]]. The fertility assessment had been on the calendar since Session 03's planning. Internal staff knowledge only at this stage — not yet known outside the manor or to House Kreiger.
+
+**Open questions:** Who is the sire? When and how does the pregnancy become known outside the manor? What are the political and inheritance implications for House Kreiger? Does the timing collide with the Mohl hearing (3 May), the Grauwald visit (29 April), or the Kinsky birth (imminent)?
+
+---
+
+### Lady Seria Rennic — In Residence
+**Source:** Nobles Commission Sessions 03-06
+**Status:** Active — awaiting Mohl hearing
+**Detail:** [[Lady_Seria_Rennic]] is in residence at the manor pending the Mohl hearing on 3 May 1650. She intends to appear voluntarily. Her case connects to [[Valerius_Corvinus]] (recovered from her escort party) and to the broader integrity of [[House_Rennic]]'s diplomatic-intermediary tradition.
+
+**Open questions:** What argument does her counsel intend to make at the hearing? Does any of her family (Lord Edric, Sir Gareth, Lord Tomas) arrive at the manor in support? Does the conspiracy attempt to interfere with her or her case? Does the hearing's outcome ripple back to House Rennic's broader political position?
 
 ---
 
@@ -282,6 +348,18 @@ He did not arrive at the seminary within the story. Whether the procedures gave 
 
 ## WORLD-LEVEL — Political Threads
 
+### Political and Geographic Frame (canonical reference)
+
+**The territorial unit is [[The_March_of_Silberbach]]** — a margraviate / borderland march on Aethelmark's western frontier with [[Cendrel]]. [[Count_Elias_Valtor|Marquess Elias Valtor]] is the formal title; *Count* is informal speech (both are correct; the choice between them registers political stance).
+
+**Cendrel** is an independent sovereign realm (the Kingdom of Cendrel — Burgundy-equivalent), reached principally via the [[Westgate]] crossing three days west of Silberbach.
+
+**The Eastern Kingdom** (Kingdom of the Eastern Plains; Poland-equivalent in the project's framing) is a separate sovereign realm bordering Aethelmark on the east. Long peace via the Treaty of the Eastern Plains. Working diplomatic relations pass through [[Rennic_Hall]]; [[Lord_Edric_Rennic]]'s Eastern counterpart maintains the working intermediary tradition on the Eastern side.
+
+**Coinage:** Imperial silver mark / Crown / Pence (Aethelmark, formal); écu / denier (Cendrel); zloty (Eastern Kingdom). Cross-border trade negotiates exchange at the customs frame.
+
+---
+
 ### House Aldenberg — Weapons Supplier and Corvel Client
 **Connected threads:** Corvel investigation, Elspeth Voss case
 **Detail:** Aldenberg supplies House Valtor's weapons, making them the most powerful single house in the valley's political calculus. Their connection to Corvel's money-laundering network — the largest line item in his client ledger — makes them the most dangerous thread in the Viktor investigation. Duke Romaine has been alerted via Isalia, but no response has come back yet.
@@ -311,24 +389,35 @@ He did not arrive at the seminary within the story. Whether the procedures gave 
 
 Items flagged during story extraction that need files or updates:
 
-| Item | Action | Priority |
-|------|---------|----------|
-| Silas — Kreiger brand | Add to Permanent Injuries & Alterations in character file | Low |
-| Clerks' annex | Add as named area in Main_Building.md | Low |
-| Ferrik Voss | Create brief character file under House_Aldenberg or Silberbach | Medium — active antagonist |
-| Lord Hestin | Create stub under House_Waldheim/Characters if Waldheim scenarios develop | Low |
-| Valtor's nephew | Unnamed antagonist — needs a name and at minimum a stub file | Medium |
-| Nyssa's daughter | No file. No name. Noble family she belongs to unnamed. Needs at minimum a note | Low |
-| Lira's child | No file. Two years old, signs of latent magic. Needs a name and brief entry | Medium |
-| Goran | No backstory documented. Minimal file. Deliberate — but worth confirming how much to develop | Low |
-| Baroness Elfriede von Aldenberg | Mira's mother. No file. Named in Mira's character sheet | Low |
-| Mira's sister | Suffered at Valtor's nephew's hands. Unnamed. No file | Low — seed only |
+| Item | Action | Priority | Status |
+|------|---------|----------|--------|
+| Silas — Kreiger brand | Add to Permanent Injuries & Alterations in character file | Low | Pending |
+| Clerks' annex | Add as named area in Main_Building.md | Low | Pending |
+| Ferrik Voss | Create brief character file under House_Aldenberg or Silberbach | Medium — active antagonist | Pending |
+| Lord Hestin | Create stub under House_Waldheim/Characters if Waldheim scenarios develop | Low | Pending |
+| Valtor's nephew | Unnamed antagonist — needs a name and at minimum a stub file | Medium | Pending |
+| Nyssa's daughter | No file. No name. Noble family she belongs to unnamed. Needs at minimum a note | Low | Pending |
+| Lira's child | No file. Two years old, signs of latent magic. Needs a name and brief entry | Medium | Pending |
+| Goran | Stub file exists in Transformed_Residents. Backstory deliberately opaque — confirmed | Low | Resolved (deliberate) |
+| Baroness Elfriede von Aldenberg | Mira's mother. No file. Named in Mira's character sheet | Low | Pending |
+| Mira's sister | Suffered at Valtor's nephew's hands. Unnamed. No file | Low — seed only | Pending |
+| Solt | Conspiracy operator. No file. Needs at minimum a stub | Medium — active antagonist | Pending |
+| Henning | Conspiracy operator. No file. Needs at minimum a stub | Medium — active antagonist | Pending |
+| Ossel | Confirmed referral node. No file yet. Needs a stub | Medium — active conspiracy figure | Pending |
+| Felix | Informed (Session 06). Status unclear. Needs at minimum a stub | Medium | Pending |
+| Anneke Vross | At estate as witness. No file. Needs a stub | Low — may become recurring | Pending |
+| Pieter (Anneke's husband) | At estate post-collar-removal. No file. Needs a stub | Low | Pending |
+| Daan Voss | Near-term guest at estate. Status unclear. Needs at minimum a stub | Medium | Pending |
+| Countess Grauwald | Visit confirmed for 29 April. Some context in [[House_Grauwald]] but no character file | Medium | Pending |
+| Lord Albrecht Waldheim | Sergovy's father. Some context in [[House_Waldheim]] but no character file | Medium | Pending |
+| Brandt's nephew Tomas | Farmers Guild delivery contact (Session 06). No file | Low | Pending |
 
 ---
 
 ## RESOLVED (Archive)
 
-*Nothing resolved yet — list will populate as threads close.*
+### Sergovy Waldheim approach — Resolved early-mid April 1650
+Sergovy arrived at the manor under cover story (Brennmark seminary), committed to permanent wolf transformation, and emerged as Serya. The approach thread is closed; the Serya integration arc is now its own active scenario. See active entry above and [[Serya_Integration]] for ongoing developments.
 
 ---
 
