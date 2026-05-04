@@ -2,10 +2,26 @@
 name: Directory Index with Files
 keywords: [index, directory, structure, map, files]
 description: Auto-generated directory tree snapshot including files
-scan_utc: 2026-05-02T15:25:26Z
-scan_local: 2026-05-02 09:25:26 Mountain Daylight Time
-claude_section_end: 606
+scan_utc: 2026-05-02T20:23:00Z
+scan_local: 2026-05-02 14:23:00 Mountain Daylight Time
+claude_section_end: 622
 ---
+## STARTUP PROCEDURE FOR CLAUDE
+
+CHECK 1: Is directory_index.md loaded in this session?
+  - NO: Skip remaining checks. Use this file normally.
+  - YES: Proceed to CHECK 2.
+
+CHECK 2: Compare scan_utc timestamps (YAML header).
+  - This file NEWER: Discard directory_index.md. Use this file only.
+  - directory_index.md NEWER: Proceed to CHECK 3.
+
+CHECK 3: Compare compressed sections for structural differences.
+  - IDENTICAL directories: Discard directory_index.md. Use this file only.
+  - DIFFERENT directories: Keep both loaded.
+    ⚠️ Directory structures may be inconsistent (one file is stale).
+    ACTION: Recommend user run: python D:\Claude_MCP_folder\Python\map_directory_with_files.py
+
 Claude_MCP_folder
  Core_Rules/
   Templates/
@@ -600,6 +616,7 @@ Claude_MCP_folder
    Reshaping_Trap_Tables.md
   .gitignore
   directory_index.md
+  directory_index_with_files.md
   file_system_instructions.md
   file_system_reference.md
   Isandar_Quickclaw_Skill_Tree.md

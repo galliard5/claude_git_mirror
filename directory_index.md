@@ -2,9 +2,9 @@
 name: Directory Index
 keywords: [index, directory, structure, map]
 description: Auto-generated directory tree snapshot
-scan_utc: 2026-05-02T15:27:13Z
-scan_local: 2026-05-02 09:27:13 Mountain Daylight Time
-claude_section_end: 129
+scan_utc: 2026-05-02T20:22:46Z
+scan_local: 2026-05-02 14:22:46 Mountain Daylight Time
+claude_section_end: 133
 ---
 Claude_MCP_folder
  Core_Rules
@@ -128,9 +128,14 @@ Claude_MCP_folder
    Scenarios
    Session_Summaries
 
+---
+NOTE: For filesystem-intensive sessions, use `directory_index_with_files.md` which lists all files.
+Run: python D:\Claude_MCP_folder\Python\map_directory_with_files.py
+---
+
 # Human-Readable Directory Tree
 
-Scanned: 2026-05-02 09:27:13 Mountain Daylight Time (UTC: 2026-05-02T15:27:13Z)
+Scanned: 2026-05-02 14:22:46 Mountain Daylight Time (UTC: 2026-05-02T20:22:46Z)
 Excluded: .git, .obsidian, Trash, __pycache__, node_modules
 
 ```

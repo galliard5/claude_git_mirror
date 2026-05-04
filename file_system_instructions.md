@@ -46,6 +46,11 @@ STARTUP PROCEDURES — EXECUTE ON EVERY CONVERSATION START
 
 Full directory structure is maintained in `directory_index.md` — do not duplicate here.
 
+**GitHub/Codespaces auto-generated files** (created when using GitHub Codespaces for collaborative editing):
+- `.vscode/` — VS Code workspace settings; leave alone (regenerated on each Codespaces session)
+- `README.md` — Repository overview; can edit for onboarding collaborators, but non-essential
+- `.github/pull_request_template` — PR template for collaborators; safe to ignore or customize
+
 ## STEP 2: EFFICIENCY PRINCIPLE
 
 - Minimize tool calls; batch reads with `filesystem:read_multiple_files`

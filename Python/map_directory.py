@@ -110,20 +110,23 @@ class DirectoryMapper:
 
 def build_output(root_name: str, compressed: List[str], readable: List[str]) -> str:
     """
-    Assemble the final file with YAML header, compressed section, and readable section.
+    Assemble the final file with YAML header, compressed section, note, and readable section.
 
     File layout:
-        Lines 1-N:   YAML frontmatter (includes claude_section_end)
-        Lines N+1-M: Compressed Claude-only tree
-        Lines M+1-?: Human-readable tree
+        Lines 1-N:    YAML frontmatter (includes claude_section_end)
+        Lines N+1-M:  Compressed Claude-only tree
+        Lines M+1-K:  Note about directory_index_with_files.md
+        Lines K+1-?: Human-readable tree
     """
     now_utc = datetime.now(timezone.utc)
     now_local = datetime.now().astimezone()
 
     # YAML is 8 lines (--- through ---)
     # Compressed section starts at line 9
+    # Note is ~4 lines
     yaml_lines = 8
-    claude_end = yaml_lines + len(compressed)
+    note_lines = 4
+    claude_end = yaml_lines + len(compressed) + note_lines
 
     yaml_block = (
         "---\n"
@@ -138,6 +141,14 @@ def build_output(root_name: str, compressed: List[str], readable: List[str]) -> 
 
     compressed_block = "\n".join(compressed) + "\n"
 
+    note_block = (
+        "\n"
+        "---\n"
+        "NOTE: For filesystem-intensive sessions, use `directory_index_with_files.md` which lists all files.\n"
+        "Run: python D:\\Claude_MCP_folder\\Python\\map_directory_with_files.py\n"
+        "---\n"
+    )
+
     readable_block = (
         "\n"
         "# Human-Readable Directory Tree\n"
@@ -151,7 +162,7 @@ def build_output(root_name: str, compressed: List[str], readable: List[str]) -> 
         + "\n```\n"
     )
 
-    return yaml_block + compressed_block + readable_block
+    return yaml_block + compressed_block + note_block + readable_block
 
 
 # --- CLI ---
@@ -213,7 +224,8 @@ def main():
     now_utc = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     now_local = datetime.now().astimezone().strftime('%Y-%m-%d %H:%M:%S %Z')
     yaml_lines = 8
-    claude_end = yaml_lines + len(compressed)
+    note_lines = 4
+    claude_end = yaml_lines + len(compressed) + note_lines
 
     print()
     print("=" * 50)
