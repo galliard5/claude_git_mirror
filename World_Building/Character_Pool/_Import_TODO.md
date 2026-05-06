@@ -41,7 +41,7 @@ Uploaded separately → Gallibot, Tom_pLUM, Allia_Meinwitz
 - [ ] `kais fantasy game.gcs` — Kai, fantasy setting
 - [ ] `Kais new new new legion game Armadillo Medic.gcs` — Kai, Legion setting, armadillo medic
 - [ ] `Kais quick fantasy.gcs` — Kai, quick/one-shot fantasy character
-- [ ] `Kais rebooted space pirate dolphin.gcs` — NOTE: may be a revised Icarus, or a different dolphin pirate; compare to imported Icarus before importing
+- [x] `Kais rebooted space pirate dolphin.gcs` — **DONE** → Icasus.md (separate character, TL8 female dolphin, social/ESP build; NOT a revision of Icarus)
 - [ ] `Kitcat ucsc bug.gcs` — "ucsc bug" — unknown context
 - [ ] `vikars space sheet.gcs` — Vikar's character, space setting
 - [ ] `Yu Piselli.gcs` — unknown campaign

@@ -137,6 +137,9 @@ Biological telepathy power (specific abilities unrecorded).
 ## The Drone Interface
 Icarus has No Manipulators and cannot function on land or in space without assistance. His Machine Telepathy closes this gap: he controls the **Icarus Drone** (filed separately) as a remote body — a four-legged combat platform he can operate through his psionic link. Together the two form a complete character: Icarus is the mind, the drone is the hands.
 
+## Related Character
+See `Icasus.md` — Kai's second uplift dolphin character, created four months later for a different (TL8) campaign. Same species template and Machine Telepathy psionic, but a completely distinct character: female, smaller, social-focused, lightsail pilot.
+
 ## Hooks & Notes
 An 18-year-old uplift dolphin who has somehow become Wealthy and accumulated the tactical, economic, and technical skills of a seasoned operator. The combination of Leadership 13, Merchant 13, Strategy 12, and Finance 12 with ship-scale weapon skills paints a picture of a young pirate captain running a crew — doing the trading, the planning, and the shooting all through an intermediary body (the drone) since he has no arms.
 
