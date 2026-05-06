@@ -22,7 +22,7 @@ Uploaded separately → Gallibot, Tom_pLUM, Allia_Meinwitz
 
 ## PENDING — FROM ORIGINAL INDEX (missed first pass)
 
-- [ ] `Sheet_import/G'lith.pdf` — unknown character, was in original index
+- [x] `Sheet_import/G'lith.pdf` — **DONE** → G_lith_Race_SWN.md (SWN race doc, filed in World_Building/ not Character_Pool)
 - [ ] `Sheet_import/KaiSF Writeup.docx` — unknown, likely a writeup/background doc rather than sheet
 - [ ] `Sheet_import/dragons3.xls.xlsx` — unknown contents; multiple dragons?
 
@@ -35,20 +35,22 @@ Uploaded separately → Gallibot, Tom_pLUM, Allia_Meinwitz
 - [ ] `Galli- rics legion empire scientist.gcs` — Galliard, Rick's legion empire, scientist
 
 ### gcs Characters/
-- [ ] `Arlie Mcgonigle.gcs` — unknown campaign
+- [x] `Arlie Mcgonigle.gcs` — **DONE** → Arlie_Mcgonigle.md (TL5 chocobo steampunk engineer-brawler)
 - [x] `David Schalow.gcs` — **DONE** → David_Schalow.md
-- [x] `Gia Schalow.gcs` — **DONE** → Gia_Schalow_400.md (400pt, separate higher-powered Legion campaign)
-- [ ] `kais fantasy game.gcs` — Kai, fantasy setting
-- [ ] `Kais new new new legion game Armadillo Medic.gcs` — Kai, Legion setting, armadillo medic
-- [ ] `Kais quick fantasy.gcs` — Kai, quick/one-shot fantasy character
-- [x] `Kais rebooted space pirate dolphin.gcs` — **DONE** → Icasus.md (separate character, TL8 female dolphin, social/ESP build; NOT a revision of Icarus)
-- [ ] `Kitcat ucsc bug.gcs` — "ucsc bug" — unknown context
-- [ ] `vikars space sheet.gcs` — Vikar's character, space setting
-- [ ] `Yu Piselli.gcs` — unknown campaign
+- [x] `Gia Schalow.gcs` — **DONE** → Gia_Schalow_400.md
+- [x] `kais fantasy game.gcs` — **DONE** → Ia_skel.md (TL4 kobold elemental mage)
+- [x] `Kais new new new legion game Armadillo Medic.gcs` — **DONE** → Antoine_Blumberg.md (TL10 armadillo combat medic)
+- [x] `Kais quick fantasy.gcs` — **DONE** → Skrakle.md (TL4 raptor hunter, 73pts)
+- [x] `Kais rebooted space pirate dolphin.gcs` — **DONE** → Icasus.md
+- [x] `Kitcat ucsc bug.gcs` — **DONE** → Riktiki.md (TL9 R'skezi navigator, scythe claws, ultrasonic, hyperspace specialist)
+- [x] `vikars space sheet.gcs` — **DONE** → Scarlett_Dilallo.md (TL10 Rikbin, 4 arms, agoraphobia, no skills filed)
+- [x] `Yu Piselli.gcs` — **DONE** → Yu_Piselli.md (TL8 Deinonichus space strategist)
 
 ---
 
-## PENDING — PDF SHEETS
+## PENDING — FROM ROOT Sheet_import/
+- [x] `galli - ricks empire recon.gcs` — **DONE** → Recon_Captain.md (TL11 Mijerii, EW 17, Gunner 17, unnamed)
+- [x] `Galli- rics legion empire scientist.gcs` — **DONE** → Shpni_Schallow.md (TL9 mouse, stub, 5th Schalow family member)
 
 ### Root Sheet_import/
 - [x] `Garlic Eater.pdf` — **DONE** → Iskandai.md (dragon sheet, worg mode active, CR 60)
@@ -83,9 +85,13 @@ May need bash extraction to read (they are zip-compressed XML).
 - [ ] `Irooni's shadowrun.por` — Irooni, Shadowrun
 - [ ] `Iskandai.por` — Iskandai base form (cf. Iskandai_Dragon.pdf, Iskandai_Worg.pdf)
 - [ ] `James shadowrun.por` — James, Shadowrun (cf. James shadowrun.pdf)
-- [x] `Ms Scales Cit.por` — **DONE** → Ms_Scales.md
-- [x] `Ms Scales Mich.por` — **DONE** → Ms_Scales.md (same file; differences noted)
-- [x] `Ms Scales.pdf` — **SKIP** — likely a print export of one of the above
+- [x] `Galli.por` — **DONE** → Galli_MnM.md (MnM3e PL20 dragon, gravity powers, Dragonstar campaign)
+- [x] `Cits MnM dragonstar game.por` — **DONE** → Cits_Dragon_MnM.md (MnM2e PL5 unnamed dragon, Cit's PC)
+- [x] `Irooni's shadowrun.por` — **DONE** → Ms_Scales.md updated (Irooni's GM version, 450 BP, third entry)
+- [x] `Iskandai.por` — **DONE** → covered by PDF imports
+- [x] `James shadowrun.por` — **DONE** → Incognito.md (SR5 hermetic mage, water bane, infiltrator)
+- [x] `scales test.por` — **SKIP** — draft of Ms Scales, covered
+- [x] `Scales.por` — **SKIP** — draft of Ms Scales, covered
 
 ---
 

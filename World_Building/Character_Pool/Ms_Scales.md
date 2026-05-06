@@ -11,17 +11,22 @@ description: A short heavily-SURGE'd physical adept infiltrator/saboteur — sca
 **Player:** Galliard
 **Build:** Human Adept, 400 BP
 
-## Two GMs, One Character
-Ms Scales is the same character concept built under two different GMs — Cit and Mich — with identical stats, qualities, skills, adept powers, and nearly identical gear. The two versions reflect how the character was ported between campaigns rather than rebuilt.
+## Three GMs, One Character
+Ms Scales appears in three Hero Lab files under three different GMs — Cit, Mich, and Irooni. All three have the same race, SURGE profile, adept powers, and core concept. This is the same character ported between campaigns.
 
 **Differences between versions:**
-| Feature | Cit's version | Mich's version |
-|---------|--------------|----------------|
-| Essence | 5.2 | 5.1 |
-| Cyberware | Data Lock, Datajack, Image Link, Sound Link, Commlink | Same + **Touch Link** |
-| Weapons | Ares Predator IV (pistol) | Predator IV + **HK-227X SMG** (suppressed, flechette + explosive rounds) |
+| Feature | Cit (400 BP, SR4) | Mich (400 BP, SR4) | Irooni (450 BP, SR4) |
+|---------|------------------|-------------------|---------------------|
+| BP | 400 | 400 | **450** |
+| Essence | 5.2 | 5.1 | 5.05 |
+| Cyberware | Data Lock, Datajack, Image Link, Sound Link, Commlink | Same + Touch Link | Same + **Cyberears 1** (Damper, Recording, Sensitivity, Sound Link) + **Cybereyes 1** (Recording, Image Link, Low-Light, Thermographic) |
+| Weapons | Ares Predator IV (silenced, smartgun) | Same + HK-227X SMG (suppressed, flechette + explosive) | Ares Predator IV (silenced, skinlink, smartgun) + Grapple Gun + Cougar Fineblade Knife |
+| Gear notable | Chameleon Suit, TD 4 | Same | Chameleon Suit + Biofabrics + Hardening + Skinlink (TD 3), Gecko Tape Gloves, Tag Eraser, Glasscutter |
+| Qualities diff | Hunted 2, Records on File | Same as Cit | **Hung Out to Dry** (instead of Hunted) |
+| Languages | Ten + English | Same | Adds **Romanian** |
+| Lifestyle/SINs | Two identities | Same | One identity (DocWagon Gold, Fake 4) |
 
-Everything else is identical. Mich's version reflects a slightly more developed load-out — an extra cyberware piece and a second weapon.
+Irooni's version is the most developed — 50 more BP, more cyberware, more gear. The Hung Out to Dry quality in place of Hunted 2 is a significant narrative difference: instead of being actively chased, someone abandoned her and left her exposed. The Erased/Records paradox remains in all versions.
 
 ---
 
