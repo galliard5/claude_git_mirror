@@ -1,0 +1,281 @@
+Name:       Faralia
+Race:       Kobold
+Player:      
+Classes:    Sorcerer9
+Hit Points: 72
+Experience: 78000 / 91000
+Alignment:  Lawful Evil
+Vision:     Darkvision (60 ft.)
+Speed:      Walk 30 ft.
+Languages:  Common, Draconic, Undercommon
+Stat    Score   Mod
+STR      10      (+0)
+DEX      17      (+3)
+CON      *       (+0)
+INT      17      (+3)
+WIS      17      (+3)
+CHA      24      (+7)
+-------------------------- Skills --------------------------
+Skill                   Total   Rnk     Stat    Msc
+Appraise                 3        0.0      3        0
+Balance                  3        0.0      3        0
+Bluff                    19       12.0     7        0
+Climb                    0        0.0      0        0
+Concentration            19       12.0     0        7
+Craft (Alchemy)          4        1.0      3        0
+Craft (Untrained)        3        0.0      3        0
+Diplomacy                9        0.0      7        2
+Disguise                 7        0.0      7        0
+Disguise (Act in character)  9        1.0      7        1
+Escape Artist            3        0.0      3        0
+Forgery                  3        0.0      3        0
+Gather Information       7        0.0      7        0
+Heal                     3        0.0      3        0
+Hide                     15       0.0      3        12
+Intimidate               9        0.0      7        2
+Jump                     0        0.0      0        0
+Knowledge (Arcana)       15       12.0     3        0
+Listen                   13       0.0      3        10
+Move Silently            11       0.0      3        8
+Ride                     3        0.0      3        0
+Search                   11       0.0      3        8
+Sense Motive             11       0.0      3        8
+Spellcraft               17       12.0     3        2
+Spot                     13       0.0      3        10
+Survival                 3        0.0      3        0
+Swim                     0        0.0      0        0
+Use Rope                 3        0.0      3        0
+                                                    
+-------------------------- Feats ---------------------------
+Positive Energy Resistance
+	+10 DR for positive energy
+  
+Silent Spell
+  A silent spell can be cast with no verbal components. Spells without verbal components are not affected. A silent spell uses up a spell slot one level higher than the spell's actual level.
+  
+Spell Penetration
+  You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's spell resistance.
+  
+Subdual Substitution
+Simple Weapon Proficiency
+Alertness
+-------------------- Special Abilities ---------------------
+
+------------------------ Templates -------------------------
+Lich
+-------------------------- Combat --------------------------
+    Total / Touch / Flat Footed
+AC: 21    / 14    / 18
+Initiative:   +3
+BAB:          +4
+Melee tohit:  +5
+Ranged tohit: +8
+Fortitude:    +8
+Reflex:       +9
+Will:         +12
+Unarmed attack:
+to hit:       +5
+damage:       1d2
+critical:     20/x2
+Adamantine Dagger (Small):
+to hit:       +6
+damage:       1d3
+critical:     19-20/x2
+special properties: Weapon=ignore 20 hardness;Armor=40hp/inch and 20 hardness
+Adamantine Dagger (Small/Thrown):
+to hit:       +9
+damage:       1d3
+critical:     19-20/x2
+range:        10 ft.
+special properties: Weapon=ignore 20 hardness;Armor=40hp/inch and 20 hardness
+--------------------- Special Abilities --------------------
+ 
+------------------------- Equipment ------------------------
+Name                                            QTY	LBS
+Witches hat of good looks (Hat of Disguise, Ability Bonus (Enhancement)CHA +4)  1	0lbs	Special: (Hat of Disguise ( Ability Bonus (Enhancement)CHA +4)), Enhancement bonus to ability CHA|+4
+Adamantine Dagger (Small)                        1	0lbs	Special: Weapon=ignore 20 hardness;Armor=40hp/inch and 20 hardness
+Bracers of Armor +2                              1	1lbs
+Cloak of Resistance +3                           1	1lbs
+Robe of Bones                                    1	1lbs
+Slippers of Spider Climbing                      1	0lbs
+Coin (Gold)                                      248	4lbs
+Staff (Fire)                                     1	5lbs
+Backpack (Small) (5.5 lbs.)
+   Staff (Charming)                              1	5lbs
+Total weight carried: 
+Current load:         Light
+Encumbrance
+Light:  25   
+Medium: 50   
+Heavy:  75
+--------------------------- Magic --------------------------
+
+
+Sorcerer Spells
+
+SPELLBOOKNAME0
+ 
+Level 0
+Acid Splash (Conjuration)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: Instantaneous	Range: Close (45 ft.)	Components: V, S
+SR: No	Effect: Orb deals 1d3 acid damage.	Target: One missile of acid
+DESC: Orb deals 1d3 acid damage.
+DESC 2:  Orb deals 1d3 acid damage.
+Arcane Mark (Universal)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: Permanent	Range: 0 ft.	Components: V, S
+SR: No	Effect: Inscribes a personal rune [visible or invisible].	Target: One personal rune or mark, all of which must fit within 1 sq. ft.
+DESC: Inscribes a personal rune (visible or invisible).
+DESC 2:  Inscribes a personal rune [visible or invisible].
+Detect Magic (Divination)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: Concentration, up to 9 minutes [D]	Range: 60 ft.	Components: V, S
+SR: No	Effect: Detects spells and magic items within 60 ft.	Target: Cone-shaped emanation
+DESC: Detects spells and magic items within 60 ft.
+DESC 2:  Detects spells and magic items within 60 ft.
+Ghost Sound (Illusion)
+Saves: Will disbelief (if interacted with)	DC: 17	Casting: 1 standard action
+Duration: 9 rounds [D]	Range: Close (45 ft.)	Components: V, S, M
+SR: No	Effect: Figment sounds.	Target: Illusory sounds
+DESC: Figment sounds.
+DESC 2:  Figment sounds.
+Mending (Transmutation)
+Saves: Will negates (harmless, object)	DC: 17	Casting: 1 standard action
+Duration: Instantaneous	Range: 10 ft.	Components: V, S
+SR: Yes (harmless, object)	Effect: Makes minor repairs on an object.	Target: One object of up to 1 lb.
+DESC: Makes minor repairs on an object.
+DESC 2:  Makes minor repairs on an object.
+Open/Close (Transmutation)
+Saves: Will negates (object)	DC: 17	Casting: 1 standard action
+Duration: Instantaneous	Range: Close (45 ft.)	Components: V, S, F
+SR: Yes  (object)	Effect: Opens or closes small or light things.	Target: Object weighing up to 30 lb. or portal that can be opened or closed
+DESC: Opens or closes small or light things.
+DESC 2:  Opens or closes small or light things.
+Prestidigitation (Universal)
+Saves: See text	DC: 17	Casting: 1 standard action
+Duration: 1 hour	Range: 10 ft.	Components: V, S
+SR: No	Effect: Performs minor tricks.	Target: See text
+DESC: Performs minor tricks.
+DESC 2:  Performs minor tricks.
+Read Magic (Divination)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: 90 minutes	Range: Personal	Components: V, S, F
+SR: No	Effect: Read scrolls and spellbooks.	Target: You
+DESC: Read scrolls and spellbooks.
+DESC 2:  Read scrolls and spellbooks.
+ 
+ 
+Level 1
+Grease (Conjuration)
+Saves: See text	DC: 18	Casting: 1 standard action
+Duration: 9 rounds [D]	Range: Close (45 ft.)	Components: V, S, M
+SR: No	Effect: Makes 10-ft. square or one object slippery.	Target: One object or a 10-ft. square
+DESC: Makes 10-ft. square or one object slippery.
+DESC 2:  Makes 10-ft. square or one object slippery.
+Magic Missile (Evocation)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: Instantaneous	Range: Medium (190 ft.)	Components: V, S
+SR: Yes	Effect: 5 missiles that do 1d4+1 damage each.	Target: Up to five creatures, no two of which can be more than 15 ft. apart
+DESC: (min((CASTERLEVEL+1)/2,5)) missiles that do 1d4+1 damage each.
+DESC 2:  5 missiles that do 1d4+1 damage each.
+Protection from Good (Abjuration)
+Saves: Will negates (harmless)	DC: 18	Casting: 1 standard action
+Duration: 9 minutes [D]	Range: Touch	Components: V, S, M/DF
+SR: No; see text	Effect: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.	Target: Creature touched
+DESC: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
+DESC 2:  +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
+Shield (Abjuration)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: 9 minutes [D]	Range: Personal	Components: V, S
+SR: No	Effect: Invisible disc gives +4 to AC, blocks magic missiles.	Target: You
+DESC: Invisible disc gives +4 to AC, blocks magic missiles.
+DESC 2:  Invisible disc gives +4 to AC, blocks magic missiles.
+Unseen Servant (Conjuration)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: 9 hours	Range: Close (45 ft.)	Components: V, S, M
+SR: No	Effect: Invisible force obeys your commands.	Target: One invisible, mindless, shapeless servant
+DESC: Invisible force obeys your commands.
+DESC 2:  Invisible force obeys your commands.
+ 
+ 
+Level 2
+Hypnotic Pattern (Illusion)
+Saves: Will negates	DC: 19	Casting: 1 standard action
+Duration: Concentration + 2 rounds	Range: Medium (190 ft.)	Components: V (Brd only), S, M; see text
+SR: Yes	Effect: Fascinates [2d4 + level] HD of creatures.	Target: Colorful lights in a 10-ft.-radius spread
+DESC: Fascinates (2d4 + level) HD of creatures.
+DESC 2:  Fascinates [2d4 + level] HD of creatures.
+Scorching Ray (Evocation)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: Instantaneous	Range: Close (45 ft.)	Components: V, S
+SR: Yes	Effect: 2 rays, ranged touch attack deals 4d6 fire damage.	Target: 2 rays
+DESC: (1+min((CASTERLEVEL-3)/4,2)) rays, ranged touch attack deals 4d6 fire damage.
+DESC 2:  2 rays, ranged touch attack deals 4d6 fire damage.
+Spectral Hand (Necromancy)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: 9 minutes [D]	Range: Medium (190 ft.)	Components: V, S
+SR: No	Effect: Creates disembodied glowing hand to deliver touch attacks.	Target: One spectral hand
+DESC: Creates disembodied glowing hand to deliver touch attacks.
+DESC 2:  Creates disembodied glowing hand to deliver touch attacks.
+Summon Swarm (Conjuration)
+Saves: None	DC: 	Casting: 1 round
+Duration: Concentration + 2 rounds	Range: Close (45 ft.)	Components: V, S, M/DF
+SR: No	Effect: Summons swarm of bats, rats, or spiders.	Target: One swarm of bats, rats, or spiders
+DESC: Summons swarm of bats, rats, or spiders.
+DESC 2:  Summons swarm of bats, rats, or spiders.
+ 
+ 
+Level 3
+Fireball (Evocation)
+Saves: Reflex half	DC: 20	Casting: 1 standard action
+Duration: Instantaneous	Range: Long (760 ft.)	Components: V, S, M
+SR: Yes	Effect: 9d6 fire damage, 20-ft. radius.	Target: 20-ft.-radius spread
+DESC: (min(CASTERLEVEL,10))d6 fire damage, 20-ft. radius.
+DESC 2:  9d6 fire damage, 20-ft. radius.
+Sepia Snake Sigil (Conjuration)
+Saves: Reflex negates	DC: 20	Casting: 10 minutes
+Duration: Permanent or until discharged; until released or 1d4 days + one day/level; see text	Range: Touch	Components: V, S, M
+SR: No	Effect: Creates text symbol that immobilizes reader.	Target: One touched book or written work
+DESC: Creates text symbol that immobilizes reader.
+DESC 2:  Creates text symbol that immobilizes reader.
+Vampiric Touch (Necromancy)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: Instantaneous/1 hour; see text	Range: Touch	Components: V, S
+SR: Yes	Effect: Touch deals 4d6 damage; caster gains damage as hp.	Target: Living creature touched
+DESC: Touch deals (min(CASTERLEVEL/2,10))d6 damage; caster gains damage as hp.
+DESC 2:  Touch deals 4d6 damage; caster gains damage as hp.
+ 
+ 
+Level 4
+Black Tentacles (Conjuration)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: 9 rounds [D]	Range: Medium (190 ft.)	Components: V, S, M
+SR: No	Effect: Tentacles grapple all within 15 ft. spread.	Target: 20-ft.-radius spread
+DESC: Tentacles grapple all within 15 ft. spread.
+DESC 2:  Tentacles grapple all within 15 ft. spread.
+Enervation (Necromancy)
+Saves: None	DC: 	Casting: 1 standard action
+Duration: Instantaneous	Range: Close (45 ft.)	Components: V, S
+SR: Yes	Effect: Subject gains 1d4 negative levels.	Target: Ray of negative energy
+DESC: Subject gains 1d4 negative levels.
+DESC 2:  Subject gains 1d4 negative levels.
+ 
+  
+  
+  
+  
+  
+ 
+                     
+
+      
+------------------------ Description -----------------------
+Height: 0' 0"             Weight: 0 lbs.                  Gender: Female	
+Eyes:                Hair: ,                        Skin: 
+Dominant Hand: Right      Quirks: , 	
+Speech style:        Quotable: 
+Full Description
+
+Background
+

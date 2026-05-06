@@ -2,13 +2,16 @@
 name: Directory Index
 keywords: [index, directory, structure, map]
 description: Auto-generated directory tree snapshot
-scan_utc: 2026-05-02T15:27:13Z
-scan_local: 2026-05-02 09:27:13 Mountain Daylight Time
-claude_section_end: 129
+scan_utc: 2026-05-06T02:19:14Z
+scan_local: 2026-05-05 20:19:14 Mountain Daylight Time
+claude_section_end: 136
 ---
 Claude_MCP_folder
+ .github
+ .vscode
  Core_Rules
   Templates
+ Miscelanious_RPG_material
  other_references
  Perchance_prompts
  Python
@@ -128,15 +131,23 @@ Claude_MCP_folder
    Scenarios
    Session_Summaries
 
+---
+NOTE: For filesystem-intensive sessions, use `directory_index_with_files.md` which lists all files.
+Run: python D:\Claude_MCP_folder\Python\map_directory_with_files.py
+---
+
 # Human-Readable Directory Tree
 
-Scanned: 2026-05-02 09:27:13 Mountain Daylight Time (UTC: 2026-05-02T15:27:13Z)
+Scanned: 2026-05-05 20:19:14 Mountain Daylight Time (UTC: 2026-05-06T02:19:14Z)
 Excluded: .git, .obsidian, Trash, __pycache__, node_modules
 
 ```
 Claude_MCP_folder/
+├── .github/
+├── .vscode/
 ├── Core_Rules/
 │   └── Templates/
+├── Miscelanious_RPG_material/
 ├── other_references/
 ├── Perchance_prompts/
 ├── Python/

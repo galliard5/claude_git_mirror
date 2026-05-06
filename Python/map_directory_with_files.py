@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Enhanced directory tree mapper for the Aethelmark project.
-Generates compressed directory index with FILES listed.
-Output: compressed Claude-only section (single-space indent, files indented under dirs).
+Generates compressed directory index with FILES listed, includes Claude startup procedure.
+Output: YAML + startup logic + compressed Claude-only section (single-space indent, files indented under dirs).
 
 YAML frontmatter includes claude_section_end so Claude can read
 only the compressed section via head= parameter.
@@ -103,19 +103,22 @@ class DirectoryMapperWithFiles:
 
 def build_output(root_name: str, compressed: List[str]) -> str:
     """
-    Assemble the final file with YAML header and compressed section only.
+    Assemble the final file with YAML header, startup logic, and compressed section.
 
     File layout:
-        Lines 1-N:   YAML frontmatter (includes claude_section_end)
-        Lines N+1-M: Compressed Claude-only tree with files
+        Lines 1-8:   YAML frontmatter (includes claude_section_end)
+        Lines 9-23:  Claude startup procedure
+        Lines 24+:   Compressed Claude-only tree with files
     """
     now_utc = datetime.now(timezone.utc)
     now_local = datetime.now().astimezone()
 
     # YAML is 8 lines (--- through ---)
-    # Compressed section starts at line 9
+    # Startup procedure is ~15 lines
     yaml_lines = 8
-    claude_end = yaml_lines + len(compressed)
+    startup_lines = 15
+    claude_start = yaml_lines + startup_lines
+    claude_end = claude_start + len(compressed)
 
     yaml_block = (
         "---\n"
@@ -128,9 +131,28 @@ def build_output(root_name: str, compressed: List[str]) -> str:
         "---\n"
     )
 
+    startup_block = (
+        "## STARTUP PROCEDURE FOR CLAUDE\n"
+        "\n"
+        "CHECK 1: Is directory_index.md loaded in this session?\n"
+        "  - NO: Skip remaining checks. Use this file normally.\n"
+        "  - YES: Proceed to CHECK 2.\n"
+        "\n"
+        "CHECK 2: Compare scan_utc timestamps (YAML header).\n"
+        "  - This file NEWER: Discard directory_index.md. Use this file only.\n"
+        "  - directory_index.md NEWER: Proceed to CHECK 3.\n"
+        "\n"
+        "CHECK 3: Compare compressed sections for structural differences.\n"
+        "  - IDENTICAL directories: Discard directory_index.md. Use this file only.\n"
+        "  - DIFFERENT directories: Keep both loaded.\n"
+        "    ⚠️ Directory structures may be inconsistent (one file is stale).\n"
+        "    ACTION: Recommend user run: python D:\\Claude_MCP_folder\\Python\\map_directory_with_files.py\n"
+        "\n"
+    )
+
     compressed_block = "\n".join(compressed) + "\n"
 
-    return yaml_block + compressed_block
+    return yaml_block + startup_block + compressed_block
 
 
 # --- CLI ---
@@ -189,7 +211,9 @@ def main():
     now_utc = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     now_local = datetime.now().astimezone().strftime('%Y-%m-%d %H:%M:%S %Z')
     yaml_lines = 8
-    claude_end = yaml_lines + len(compressed)
+    startup_lines = 15
+    claude_start = yaml_lines + startup_lines
+    claude_end = claude_start + len(compressed)
 
     print()
     print("=" * 50)
@@ -198,7 +222,9 @@ def main():
     print(f"  Root:             {args.root}")
     print(f"  Directories:      {dir_count}")
     print(f"  Files:            {file_count}")
-    print(f"  Claude section:   lines 1–{claude_end}")
+    print(f"  YAML lines:       1-{yaml_lines}")
+    print(f"  Startup proc:     {yaml_lines + 1}-{yaml_lines + startup_lines}")
+    print(f"  Compressed tree:  {claude_start}-{claude_end}")
     if args.depth is not None:
         print(f"  Depth limit:      {args.depth}")
     if args.exclude:

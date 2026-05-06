@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is GURPS Character Sheet.
+   -
+   - The Initial Developer of the Original Code is Richard A. Wilkes.
+   - Portions created by the Initial Developer are Copyright (C) 1998-2002,
+   - 2005-2011 the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - ***** END LICENSE BLOCK ***** -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Antoine Blumberg</title>
+        <style type="text/css" title="text/css">
+        	/* <![CDATA[ */
+        	body
+        	{
+        		color: black;
+        		background-color: white;
+        		font: normal 7pt/9pt 'Lucida Sans','Arial',sans-serif;
+        		margin: 4pt;
+        	}
+        	
+        	table, tbody, tr, td
+        	{
+        		margin: 0;
+        		border-spacing: 0;
+        		border-collapse: collapse;
+        		font: normal 7pt/9pt 'Lucida Sans','Arial',sans-serif;
+        	}
+        	
+        	table, tbody, tr { padding: 0; }
+        	
+        	td
+        	{
+        		padding: 1pt 1pt 0 1pt;
+        		vertical-align: top;
+        		white-space: nowrap;
+        	}
+        	
+        	.note
+        	{
+        		font: normal 6pt/8pt 'Lucida Sans','Arial',sans-serif;
+        		color: gray;
+        		display: block-inline;
+        		white-space: normal;
+        	}
+        	
+        	.secondary { display: block; }
+        	.top_info { margin: 0; }
+        	.list, .info { margin: 2pt 0 0 0; }
+        	
+        	.list, .info, .top_info
+        	{
+        		width: 100%;
+        		border: 1pt solid black;
+        	}
+        	
+        	#advantages { width: 270pt; }
+        	#skills { width: 269pt; }
+        	#spells, #melee_weapons, #ranged_weapons, #equipment, #notes, #copyright { width: 540pt; }
+        	
+        	.list td { border: 1pt solid black; }
+        	.odd { background-color: #FFF; }
+        	.even { background-color: #E8FFE8; }
+        	#encumbrance_move_dodge td, #hit_location td, #description td.label { border-left: 1pt solid black; }
+        	#copyright {
+        		color: gray;
+         		font: italic 7pt/9pt 'Lucida Sans','Arial',sans-serif;
+         		text-align: center;
+         		white-space: normal;
+         		margin: 4pt;
+        	}
+        	.top_border { border-top: 1pt solid black; }
+        	
+        	.title
+        	{
+        		border: 1pt solid black;
+        		background-color: silver;
+        		color: black;
+        		text-align: center;
+        	}
+        	
+        	.description, .value, .rvalue, .natural_damage { width: 100%; }
+        	.quantity, .cost, .weight, .cost_summary, .weight_summary, .ref, .level, .accuracy, .damage, .range, .rof, .shots, .bulk, .recoil, .strength, .block, .reach, .points, .spell_level, .relative_spell_level, .skill_level, .relative_skill_level, .rvalue { text-align: right; }
+        	.state, .parry, .natural_damage { text-align: center; }
+        	
+        	.wrapper
+        	{
+        		width: 540pt;
+        		border: none;
+        	}
+        	
+        	.wrapper > tbody > tr > td { padding: 0; }
+        	.spacer { width: 2pt; }
+        	.rowspacer1 { padding: 1pt 0 0 0; }
+        	.rowspacer2 { padding: 2pt 0 0 0; }
+        	.rowspacer3 { padding: 3pt 0 0 0; }
+        	.rowspacer4 { padding: 4pt 0 0 0; }
+        	.rowspacer5 { padding: 5pt 0 0 0; }
+        	
+        	.clabel { text-align: center; }
+        	.label { text-align: right; }
+        	
+        	.label, .clabel
+        	{
+        		color: gray;
+        		background-color: inherit;
+        	}
+        	
+        	.encumbrance
+        	{
+        		background-color: #FCF2C4;
+        		color: inherit;
+        	}
+        	
+        	#portrait
+        	{
+        		width: 60pt;
+        		height: 80pt;
+        	}
+        	
+        	td.portrait { width: 60pt; }
+        	
+        	td.portrait_cell
+        	{
+        		padding: 0;
+        		background-color: black;
+        	}
+        	
+        	/* ]]> */
+</style>
+    </head>
+    <body>
+		<table class="wrapper">
+			<tr>
+				<td class="portrait" rowspan="2">
+					<table class="top_info">
+						<tr>
+							<td class="title">Portrait</td>
+						</tr>
+						<tr>
+							<td class="portrait_cell"><img id="portrait" src="Antoine%20Blumberg.png" alt="Portrait"/></td>
+						</tr>
+					</table>
+				</td>
+				<td class="spacer" rowspan="2"></td>
+				<td>
+					<table id="identity" class="top_info">
+						<tr>
+							<td class="title" colspan="2">Identity</td>
+						</tr>
+						<tr>
+							<td class="label">Name:</td>
+							<td class="value">Antoine Blumberg</td>
+						</tr>
+						<tr>
+							<td class="label">Title:</td>
+							<td class="value"></td>
+						</tr>
+						<tr>
+							<td class="label">Religion:</td>
+							<td class="value"></td>
+						</tr>
+					</table>
+				</td>
+				<td class="spacer"></td>
+				<td>
+					<table id="player_info" class="top_info">
+						<tr>
+							<td class="title" colspan="2">Player Information</td>
+						</tr>
+						<tr>
+							<td class="label">Player:</td>
+							<td class="value">Galliard</td>
+						</tr>
+						<tr>
+							<td class="label">Campaign:</td>
+							<td class="value"></td>
+						</tr>
+						<tr>
+							<td class="label">Created On:</td>
+							<td class="value">Mar 3, 2012</td>
+						</tr>
+					</table>
+				</td>
+				<td class="spacer" rowspan="2"></td>
+				<td rowspan="2">
+					<table id="points" class="top_info">
+						<tr>
+							<td class="title" colspan="2">120 Points</td>
+						</tr>
+						<tr>
+							<td class="label">Attributes:</td>
+							<td class="rvalue">85</td>
+						</tr>
+						<tr>
+							<td class="label">Advantages:</td>
+							<td class="rvalue">4</td>
+						</tr>
+						<tr>
+							<td class="label">Disadvantages:</td>
+							<td class="rvalue">-20</td>
+						</tr>
+						<tr>
+							<td class="label">Quirks:</td>
+							<td class="rvalue">0</td>
+						</tr>
+						<tr>
+							<td class="label">Skills:</td>
+							<td class="rvalue">51</td>
+						</tr>
+						<tr>
+							<td class="label">Spells:</td>
+							<td class="rvalue">0</td>
+						</tr>
+						<tr>
+							<td class="label">Race:</td>
+							<td class="rvalue">0</td>
+						</tr>
+						<tr>
+							<td class="rowspacer2" colspan=2></td>
+						</tr>
+						<tr class="top_border">
+							<td class="rowspacer1" colspan=2></td>
+						</tr>
+						<tr>
+							<td class="label">Earned:</td>
+							<td class="rvalue">0</td>
+						</tr>
+						<tr>
+							<td class="rowspacer1" colspan=2></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<table id="description" class="info">
+						<tr>
+							<td class="title" colspan="6">Description</td>
+						</tr>
+						<tr>
+							<td class="label">Race:</td>
+							<td class="value">Armadillo</td>
+							<td class="label">Height:</td>
+							<td class="value">5' 8"</td>
+							<td class="label">Hair:</td>
+							<td class="value">none</td>
+						</tr>
+						<tr>
+							<td class="label">Gender:</td>
+							<td class="value">Male</td>
+							<td class="label">Weight:</td>
+							<td class="value">200 lb</td>
+							<td class="label">Eyes:</td>
+							<td class="value">Brown</td>
+						</tr>
+						<tr>
+							<td class="label">Age:</td>
+							<td class="value">25</td>
+							<td class="label">Size:</td>
+							<td class="value">+0</td>
+							<td class="label">Skin:</td>
+							<td class="value">Grey</td>
+						</tr>
+						<tr>
+							<td class="label">Birthday:</td>
+							<td class="value">May 5</td>
+							<td class="label">TL:</td>
+							<td class="value">10</td>
+							<td class="label">Hand:</td>
+							<td class="value">Left</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table class="wrapper">
+			<tr>
+				<td rowspan="2">
+					<table id="attributes" class="info">
+						<tr>
+							<td class="title" colspan="2">Attributes</td>
+						</tr>
+						<tr>
+							<td class="label">Strength (ST):</td>
+							<td class="rvalue">16</td>
+						</tr>
+						<tr>
+							<td class="label">Dexterity (DX):</td>
+							<td class="rvalue">10</td>
+						</tr>
+						<tr>
+							<td class="label">Intelligence (IQ):</td>
+							<td class="rvalue">13</td>
+						</tr>
+						<tr>
+							<td class="label">Health (HT):</td>
+							<td class="rvalue">11</td>
+						</tr>
+						<tr class="top_border">
+							<td class="label">Will:</td>
+							<td class="rvalue">14</td>
+						</tr>
+						<tr>
+							<td class="label">Fright Check:</td>
+							<td class="rvalue">14</td>
+						</tr>
+						<tr class="top_border">
+							<td class="label">Basic Speed:</td>
+							<td class="rvalue">5.25</td>
+						</tr>
+						<tr>
+							<td class="label">Basic Move:</td>
+							<td class="rvalue">5</td>
+						</tr>
+						<tr class="top_border">
+							<td class="label">Perception:</td>
+							<td class="rvalue">15</td>
+						</tr>
+						<tr>
+							<td class="label">Vision:</td>
+							<td class="rvalue">15</td>
+						</tr>
+						<tr>
+							<td class="label">Hearing:</td>
+							<td class="rvalue">15</td>
+						</tr>
+						<tr>
+							<td class="label">Taste &amp; Smell:</td>
+							<td class="rvalue">15</td>
+						</tr>
+						<tr>
+							<td class="label">Touch:</td>
+							<td class="rvalue">15</td>
+						</tr>
+						<tr class="top_border">
+							<td class="natural_damage" colspan="2"><span class="label">thr: </span>1d+1<span class="label">, sw: </span>2d+2</td>
+						</tr>
+						<tr>
+							<td class="rowspacer2" colspan="2"></td>
+						</tr>
+					</table>
+				</td>
+				<td class="spacer" rowspan="2"></td>
+				<td>
+					<table id="encumbrance_move_dodge" class="info">
+						<tr>
+							<td class="title" colspan="4">Encumbrance, Move &amp; Dodge</td>
+						</tr>
+						<tr>
+							<td class="title">Level</td>
+							<td class="title">Max Load</td>
+							<td class="title">Move</td>
+							<td class="title">Dodge</td>
+						</tr>
+						
+						<tr  class="encumbrance" >
+							<td class="label">&#8226; None (0)</td>
+							<td class="rvalue">51 lb</td>
+							<td class="rvalue">5</td>
+							<td class="rvalue">9</td>
+						</tr>
+						
+						<tr >
+							<td class="label">Light (1)</td>
+							<td class="rvalue">102 lb</td>
+							<td class="rvalue">4</td>
+							<td class="rvalue">8</td>
+						</tr>
+						
+						<tr >
+							<td class="label">Medium (2)</td>
+							<td class="rvalue">153 lb</td>
+							<td class="rvalue">3</td>
+							<td class="rvalue">7</td>
+						</tr>
+						
+						<tr >
+							<td class="label">Heavy (3)</td>
+							<td class="rvalue">306 lb</td>
+							<td class="rvalue">2</td>
+							<td class="rvalue">6</td>
+						</tr>
+						
+						<tr >
+							<td class="label">X-Heavy (4)</td>
+							<td class="rvalue">510 lb</td>
+							<td class="rvalue">1</td>
+							<td class="rvalue">5</td>
+						</tr>
+						
+					</table>
+				</td>
+				<td class="spacer" rowspan="2"></td>
+				<td rowspan="2">
+					<table id="hit_location" class="info">
+						<tr>
+							<td class="title" colspan="4">Hit Location</td>
+						</tr>
+						<tr>
+							<td class="title">Roll</td>
+							<td class="title">Where</td>
+							<td class="title">-</td>
+							<td class="title">DR</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">-</td>
+							<td class="clabel">Eye</td>
+							<td class="label">-9</td>
+							<td class="rvalue">29</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">3-4</td>
+							<td class="clabel">Skull</td>
+							<td class="label">-7</td>
+							<td class="rvalue">41</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">5</td>
+							<td class="clabel">Face</td>
+							<td class="label">-5</td>
+							<td class="rvalue">29</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">6-7</td>
+							<td class="clabel">R. Leg</td>
+							<td class="label">-2</td>
+							<td class="rvalue">59</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">8</td>
+							<td class="clabel">R. Arm</td>
+							<td class="label">-2</td>
+							<td class="rvalue">59</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">9-10</td>
+							<td class="clabel">Torso</td>
+							<td class="label">0</td>
+							<td class="rvalue">79</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">11</td>
+							<td class="clabel">Groin</td>
+							<td class="label">-3</td>
+							<td class="rvalue">29</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">12</td>
+							<td class="clabel">L. Arm</td>
+							<td class="label">-2</td>
+							<td class="rvalue">59</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">13-14</td>
+							<td class="clabel">L. Leg</td>
+							<td class="label">-2</td>
+							<td class="rvalue">59</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">15</td>
+							<td class="clabel">Hand</td>
+							<td class="label">-4</td>
+							<td class="rvalue">29</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">16</td>
+							<td class="clabel">Foot</td>
+							<td class="label">-4</td>
+							<td class="rvalue">29</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">17-18</td>
+							<td class="clabel">Neck</td>
+							<td class="label">-5</td>
+							<td class="rvalue">29</td>
+						</tr>
+						
+						<tr>
+							<td class="clabel">-</td>
+							<td class="clabel">Vitals</td>
+							<td class="label">-3</td>
+							<td class="rvalue">79</td>
+						</tr>
+						
+						<tr>
+							<td class="rowspacer4"></td>
+							<td class="rowspacer4"></td>
+							<td class="rowspacer4"></td>
+							<td class="rowspacer4"></td>
+						</tr>
+					</table>
+				</td>
+				<td class="spacer" rowspan="2"></td>
+				<td rowspan="2">
+					<table id="fp_hp" class="info">
+						<tr>
+							<td class="title" colspan="2">Fatigue/Hit Points</td>
+						</tr>
+						<tr>
+							<td class="label">Current FP:</td>
+							<td class="rvalue"></td>
+						</tr>
+						<tr>
+							<td class="label">Basic FP:</td>
+							<td class="rvalue">11</td>
+						</tr>
+						<tr>
+							<td class="rowspacer1" colspan=2></td>
+						</tr>
+						<tr class="top_border">
+							<td class="label">Tired:</td>
+							<td class="rvalue">3</td>
+						</tr>
+						<tr>
+							<td class="label">Collapse:</td>
+							<td class="rvalue">0</td>
+						</tr>
+						<tr>
+							<td class="label">Unconscious:</td>
+							<td class="rvalue">-11</td>
+						</tr>
+						<tr>
+							<td class="rowspacer1" colspan=2></td>
+						</tr>
+						<tr class="top_border">
+							<td class="label">Current HP:</td>
+							<td class="rvalue"></td>
+						</tr>
+						<tr>
+							<td class="label">Basic HP:</td>
+							<td class="rvalue">16</td>
+						</tr>
+						<tr>
+							<td class="rowspacer1" colspan=2></td>
+						</tr>
+						<tr class="top_border">
+							<td class="label">Reeling:</td>
+							<td class="rvalue">5</td>
+						</tr>
+						<tr>
+							<td class="label">Collapse:</td>
+							<td class="rvalue">0</td>
+						</tr>
+						<tr>
+							<td class="label">Check #1:</td>
+							<td class="rvalue">-16</td>
+						</tr>
+						<tr>
+							<td class="label">Check #2:</td>
+							<td class="rvalue">-32</td>
+						</tr>
+						<tr>
+							<td class="label">Check #3:</td>
+							<td class="rvalue">-48</td>
+						</tr>
+						<tr>
+							<td class="label">Check #4:</td>
+							<td class="rvalue">-64</td>
+						</tr>
+						<tr>
+							<td class="label">Dead:</td>
+							<td class="rvalue">-80</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table id="lifting" class="info">
+						<tr>
+							<td class="title" colspan="2">Lifting &amp; Moving Things</td>
+						</tr>
+						<tr>
+							<td class="label">Basic Lift:</td>
+							<td class="rvalue">51 lb</td>
+						</tr>
+						<tr>
+							<td class="label">One-Handed Lift:</td>
+							<td class="rvalue">102 lb</td>
+						</tr>
+						<tr>
+							<td class="label">Two-Handed Lift:</td>
+							<td class="rvalue">408 lb</td>
+						</tr>
+						<tr>
+							<td class="label">Shove &amp; Knock Over:</td>
+							<td class="rvalue">612 lb</td>
+						</tr>
+						<tr>
+							<td class="label">Running Shove &amp; Knock Over:</td>
+							<td class="rvalue">1,224 lb</td>
+						</tr>
+						<tr>
+							<td class="label">Carry On Back:</td>
+							<td class="rvalue">765 lb</td>
+						</tr>
+						<tr>
+							<td class="label">Shift Slightly:</td>
+							<td class="rvalue">2,550 lb</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table class="wrapper">
+			<tr>
+				<td>
+					<table id="advantages" class="list">
+						<tr>
+							<td class="title">Advantages &amp; Disadvantages</td>
+							<td class="title">Pts</td>
+							<td class="title">Ref</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description" >Damage Resistance 4<div class="note">Directional (Back), -40%; Limited (piercing/slashing), -40%.</div></td>
+							<td class="points">4</td>
+							<td class="ref">B47</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description" >Truthfulness<div class="note">CR: 12 (Quite Often).</div></td>
+							<td class="points">-5</td>
+							<td class="ref">B159</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description" >Weirdness Magnet</td>
+							<td class="points">-15</td>
+							<td class="ref">B161</td>
+						</tr>
+						
+					</table>
+				</td>
+				<td class="spacer"></td>
+				<td>
+					<table id="skills" class="list">
+						<tr>
+							<td class="title">Skills</td>
+							<td class="title">SL</td>
+							<td class="title">RSL</td>
+							<td class="title">Pts</td>
+							<td class="title">Ref</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description" >Combat</td>
+							<td class="skill_level"></td>
+							<td class="relative_skill_level"></td>
+							<td class="points"></td>
+							<td class="ref"></td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Brawling</td>
+							<td class="skill_level">11</td>
+							<td class="relative_skill_level">DX+1</td>
+							<td class="points">2</td>
+							<td class="ref">B182</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description"  style="padding-left: 12px;" >Guns/TL10 (Light Machine Gun)</td>
+							<td class="skill_level">12</td>
+							<td class="relative_skill_level">DX+2</td>
+							<td class="points">4</td>
+							<td class="ref">B198</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Guns/TL10 (Submachine Gun)</td>
+							<td class="skill_level">11</td>
+							<td class="relative_skill_level">DX+1</td>
+							<td class="points">2</td>
+							<td class="ref">B198</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description"  style="padding-left: 12px;" >Tactics</td>
+							<td class="skill_level">11</td>
+							<td class="relative_skill_level">IQ-2</td>
+							<td class="points">1</td>
+							<td class="ref">B224</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Battle Suit/TL10</td>
+							<td class="skill_level">10</td>
+							<td class="relative_skill_level">DX+0</td>
+							<td class="points">2</td>
+							<td class="ref">B192</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description" >General</td>
+							<td class="skill_level"></td>
+							<td class="relative_skill_level"></td>
+							<td class="points"></td>
+							<td class="ref"></td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Armoury/TL10 (Heavy Weapons)</td>
+							<td class="skill_level">13</td>
+							<td class="relative_skill_level">IQ+0</td>
+							<td class="points">2</td>
+							<td class="ref">B178</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description"  style="padding-left: 12px;" >Artist (Woodworking)</td>
+							<td class="skill_level">11</td>
+							<td class="relative_skill_level">IQ-2</td>
+							<td class="points">1</td>
+							<td class="ref">B179</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Computer Operation/TL10</td>
+							<td class="skill_level">14</td>
+							<td class="relative_skill_level">IQ+1</td>
+							<td class="points">2</td>
+							<td class="ref">B184</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description"  style="padding-left: 12px;" >Cooking (BBQ)</td>
+							<td class="skill_level">15</td>
+							<td class="relative_skill_level">IQ+2</td>
+							<td class="points">4</td>
+							<td class="ref">B185</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Cooking (Hooch!)</td>
+							<td class="skill_level">14</td>
+							<td class="relative_skill_level">IQ+1</td>
+							<td class="points">2</td>
+							<td class="ref">B185</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description"  style="padding-left: 12px;" >Electronics Repair/TL10 (Medical)</td>
+							<td class="skill_level">12</td>
+							<td class="relative_skill_level">IQ-1</td>
+							<td class="points">1</td>
+							<td class="ref">B190</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Gambling</td>
+							<td class="skill_level">13</td>
+							<td class="relative_skill_level">IQ+0</td>
+							<td class="points">2</td>
+							<td class="ref">B197</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description"  style="padding-left: 12px;" >Survival (Desert)</td>
+							<td class="skill_level">15</td>
+							<td class="relative_skill_level">Per+0</td>
+							<td class="points">2</td>
+							<td class="ref">B223</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description" >Medical</td>
+							<td class="skill_level"></td>
+							<td class="relative_skill_level"></td>
+							<td class="points"></td>
+							<td class="ref"></td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description"  style="padding-left: 12px;" >Electronics Operation/TL10 (Medical)</td>
+							<td class="skill_level">14</td>
+							<td class="relative_skill_level">IQ+1</td>
+							<td class="points">4</td>
+							<td class="ref">B189</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Expert Skill (Xenology)</td>
+							<td class="skill_level">11</td>
+							<td class="relative_skill_level">IQ-2</td>
+							<td class="points">1</td>
+							<td class="ref">B193</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description"  style="padding-left: 12px;" >First Aid/TL10</td>
+							<td class="skill_level">15</td>
+							<td class="relative_skill_level">IQ+2</td>
+							<td class="points">4</td>
+							<td class="ref">B195</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Physician/TL10</td>
+							<td class="skill_level">13</td>
+							<td class="relative_skill_level">IQ+0</td>
+							<td class="points">4</td>
+							<td class="ref">B213</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description"  style="padding-left: 12px;" >Physiology/TL10 (Xeno)</td>
+							<td class="skill_level">13</td>
+							<td class="relative_skill_level">IQ+0</td>
+							<td class="points">4</td>
+							<td class="ref">B213</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Pressure Points</td>
+							<td class="skill_level">12</td>
+							<td class="relative_skill_level">IQ-1</td>
+							<td class="points">2</td>
+							<td class="ref">B215</td>
+						</tr>
+						
+						<tr class="odd">
+							<td class="description"  style="padding-left: 12px;" >Surgery/TL10</td>
+							<td class="skill_level">12</td>
+							<td class="relative_skill_level">IQ-1</td>
+							<td class="points">4</td>
+							<td class="ref">B223</td>
+						</tr>
+						
+						<tr class="even">
+							<td class="description"  style="padding-left: 12px;" >Esoteric Medicine</td>
+							<td class="skill_level">13</td>
+							<td class="relative_skill_level">Per-2</td>
+							<td class="points">1</td>
+							<td class="ref">B192</td>
+						</tr>
+						
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="spells" class="list">
+            <tr>
+                <td class="title">Spells</td>
+                <td class="title">Class</td>
+                <td class="title">Mana Cost</td>
+                <td class="title">Time</td>
+                <td class="title">SL</td>
+                <td class="title">RSL</td>
+                <td class="title">Pts</td>
+                <td class="title">Ref</td>
+            </tr>
+            
+        </table>
+        <table id="melee_weapons" class="list">
+            <tr>
+                <td class="title">Melee Weapons</td>
+                <td class="title">Usage</td>
+                <td class="title">Lvl</td>
+                <td class="title">Parry</td>
+                <td class="title">Block</td>
+                <td class="title">Damage</td>
+                <td class="title">Reach</td>
+                <td class="title">ST</td>
+            </tr>
+            
+            <tr class="odd">
+                <td class="description">Natural</td>
+                <td class="usage">Kick</td>
+                <td class="level">9</td>
+                <td class="parry">No</td>
+                <td class="block"></td>
+                <td class="damage">1d+1 cr</td>
+                <td class="reach">C,1</td>
+                <td class="strength"></td>
+            </tr>
+            
+            <tr class="even">
+                <td class="description">Natural</td>
+                <td class="usage">Kick w/Boots</td>
+                <td class="level">9</td>
+                <td class="parry">No</td>
+                <td class="block"></td>
+                <td class="damage">1d+2 cr</td>
+                <td class="reach">C,1</td>
+                <td class="strength"></td>
+            </tr>
+            
+            <tr class="odd">
+                <td class="description">Natural</td>
+                <td class="usage">Punch</td>
+                <td class="level">11</td>
+                <td class="parry">8</td>
+                <td class="block"></td>
+                <td class="damage">1d cr</td>
+                <td class="reach">C</td>
+                <td class="strength"></td>
+            </tr>
+            
+            <tr class="even">
+                <td class="description">Neural Inhibitor<div class="note">First Aid +1 (quality) to treat shock.</div></td>
+                <td class="usage">Paralyze</td>
+                <td class="level">11</td>
+                <td class="parry">No</td>
+                <td class="block">No</td>
+                <td class="damage">HT-6 aff</td>
+                <td class="reach">C</td>
+                <td class="strength">-</td>
+            </tr>
+            
+        </table>
+        <table id="ranged_weapons" class="list">
+            <tr>
+                <td class="title">Ranged Weapons</td>
+                <td class="title">Usage</td>
+                <td class="title">Lvl</td>
+                <td class="title">Acc</td>
+                <td class="title">Damage</td>
+                <td class="title">Range</td>
+                <td class="title">RoF</td>
+                <td class="title">Shots</td>
+                <td class="title">Bulk</td>
+                <td class="title">Rcl</td>
+                <td class="title">ST</td>
+            </tr>
+            
+            <tr class="odd">
+                <td class="description">Gauss LSW, 4mm<div class="note">C/300 shots.</div></td>
+                <td class="usage"></td>
+                <td class="level">12</td>
+                <td class="accuracy">7+2</td>
+                <td class="damage">6d+2(3) pi- +5</td>
+                <td class="range">1,200/4,800</td>
+                <td class="rof">20</td>
+                <td class="shots">300(5)</td>
+                <td class="bulk">-5</td>
+                <td class="recoil">2</td>
+                <td class="strength">12B&#8224;</td>
+            </tr>
+            
+            <tr class="even">
+                <td class="description">Gauss PDW, 4mm</td>
+                <td class="usage"></td>
+                <td class="level">11</td>
+                <td class="accuracy">6+1</td>
+                <td class="damage">4d(3) pi- +5</td>
+                <td class="range">700/2900</td>
+                <td class="rof">16</td>
+                <td class="shots">80(3)</td>
+                <td class="bulk">-3</td>
+                <td class="recoil">2</td>
+                <td class="strength">9&#8224;</td>
+            </tr>
+            
+        </table>
+        <table id="equipment" class="list">
+            <tr>
+                <td class="title">Equipment (45.7 lb; $23,050)</td>
+                <td class="title">&radic;</td>
+                <td class="title">#</td>
+                <td class="title">$</td>
+                <td class="title">W</td>
+                <td class="title">&sum; $</td>
+                <td class="title">&sum; W</td>
+                <td class="title">Ref</td>
+            </tr>
+            
+            <tr class="odd">
+				<td class="description" >Medical</td>
+                <td class="state">E</td>
+                <td class="quantity">1</td>
+                <td class="cost">0</td>
+                <td class="weight">0 lb</td>
+                <td class="cost_summary">6,450</td>
+                <td class="weight_summary">15.1 lb</td>
+                <td class="ref"></td>
+            </tr>
+            
+            <tr class="even">
+				<td class="description"  style="padding-left: 12px;" >Neural Inhibitor<div class="note">First Aid +1 (quality) to treat shock.</div></td>
+                <td class="state">E</td>
+                <td class="quantity">1</td>
+                <td class="cost">200</td>
+                <td class="weight">0.1 lb</td>
+                <td class="cost_summary">200</td>
+                <td class="weight_summary">0.1 lb</td>
+                <td class="ref">UT201</td>
+            </tr>
+            
+            <tr class="odd">
+				<td class="description"  style="padding-left: 12px;" >Pocket Medic<div class="note">First Aid-13. B/10hr.</div></td>
+                <td class="state">E</td>
+                <td class="quantity">1</td>
+                <td class="cost">1,200</td>
+                <td class="weight">2 lb</td>
+                <td class="cost_summary">1,200</td>
+                <td class="weight_summary">2 lb</td>
+                <td class="ref">UT200</td>
+            </tr>
+            
+            <tr class="even">
+				<td class="description"  style="padding-left: 12px;" >Diagnostic Smart Bandage Spray<div class="note">One application.</div></td>
+                <td class="state">E</td>
+                <td class="quantity">10</td>
+                <td class="cost">5</td>
+                <td class="weight">0.1 lb</td>
+                <td class="cost_summary">50</td>
+                <td class="weight_summary">1 lb</td>
+                <td class="ref">UT199</td>
+            </tr>
+            
+            <tr class="odd">
+				<td class="description"  style="padding-left: 12px;" >Suitcase ESU<div class="note">Roll daily for trauma maintenance. D/50hr.</div></td>
+                <td class="state">E</td>
+                <td class="quantity">1</td>
+                <td class="cost">5,000</td>
+                <td class="weight">12 lb</td>
+                <td class="cost_summary">5,000</td>
+                <td class="weight_summary">12 lb</td>
+                <td class="ref">UT198</td>
+            </tr>
+            
+            <tr class="even">
+				<td class="description" >Armor/Weapons</td>
+                <td class="state">E</td>
+                <td class="quantity">1</td>
+                <td class="cost">0</td>
+                <td class="weight">0 lb</td>
+                <td class="cost_summary">16,600</td>
+                <td class="weight_summary">30.6 lb</td>
+                <td class="ref"></td>
+            </tr>
+            
+            <tr class="odd">
+				<td class="description"  style="padding-left: 12px;" >ESSA VX-77b 'Guard' Armor<div class="note">Virtual Hud, Motion Detector, Life Support, Comm system, Optical Sensors, Shield Generator, Spotlight, Environmental</div></td>
+                <td class="state">E</td>
+                <td class="quantity">1</td>
+                <td class="cost">0</td>
+                <td class="weight">6 lb</td>
+                <td class="cost_summary">0</td>
+                <td class="weight_summary">6 lb</td>
+                <td class="ref">B284</td>
+            </tr>
+            
+            <tr class="even">
+				<td class="description"  style="padding-left: 12px;" >Gauss PDW, 4mm</td>
+                <td class="state">E</td>
+                <td class="quantity">1</td>
+                <td class="cost">3,600</td>
+                <td class="weight">4.6 lb</td>
+                <td class="cost_summary">3,600</td>
+                <td class="weight_summary">4.6 lb</td>
+                <td class="ref">B278</td>
+            </tr>
+            
+            <tr class="odd">
+				<td class="description"  style="padding-left: 12px;" >Gauss LSW, 4mm<div class="note">C/300 shots.</div></td>
+                <td class="state">E</td>
+                <td class="quantity">1</td>
+                <td class="cost">13,000</td>
+                <td class="weight">20 lb</td>
+                <td class="cost_summary">13,000</td>
+                <td class="weight_summary">20 lb</td>
+                <td class="ref">UT142</td>
+            </tr>
+            
+        </table>
+        <table id="notes" class="list">
+            <tr>
+                <td class="title">Notes</td>
+            </tr>
+            <tr>
+                <td class="description"></td>
+            </tr>
+        </table>
+        <div id="copyright">Modified at 1:22 PM on Apr 24, 2012.<br>GURPS Character Sheet is copyright &copy; 1998-2002, 2005-2011 by Richard A. Wilkes &mdash; All rights reserved worldwide.</div>
+    </body>
+</html>

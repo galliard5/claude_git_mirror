@@ -1,0 +1,342 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:MSRD - Arcana|CAMPAIGN:MSRD - Basics|CAMPAIGN:MSRD - Future|CAMPAIGN:MSRD - Menaces
+VERSION:5.16.1
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+POOLPOINTS:75
+POOLPOINTSAVAIL:-1
+GAMEMODE:Modern
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:New1
+TABNAME:
+PLAYERNAME:
+HEIGHT:68
+WEIGHT:170
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:8
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:10
+STAT:INT|SCORE:15
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:12
+RACE:Human
+
+# Character Class(es)
+CLASS:Smart|SUBCLASS:Smart Hero|LEVEL:1|SKILLPOOL:0
+CLASSABILITIESLEVEL:Smart=1|HITPOINTS:6|SPECIALABILITIES:[SA::-1]|SKILLSGAINED:44
+
+# Character Experience
+EXPERIENCE:0
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Occupation|CHOSENTEMPLATE:[NAME:SmartSkills]]
+TEMPLATESAPPLIED:[NAME:SmartSkills]
+
+# Character Region
+
+# Character Skills
+SKILL:Balance|OUTPUTORDER:1|
+SKILL:Bluff|OUTPUTORDER:2|
+SKILL:Climb|OUTPUTORDER:3|
+SKILL:Computer Use|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Craft (Electronic)|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Structural)|OUTPUTORDER:7|
+SKILL:Craft (Visual Art)|OUTPUTORDER:8|
+SKILL:Craft (Writing)|OUTPUTORDER:9|
+SKILL:Diplomacy|OUTPUTORDER:10|
+SKILL:Disable Device|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:12|
+SKILL:Drive|OUTPUTORDER:13|
+SKILL:Escape Artist|OUTPUTORDER:14|
+SKILL:Forgery|OUTPUTORDER:15|
+SKILL:Gamble|OUTPUTORDER:16|
+SKILL:Gather Information|OUTPUTORDER:17|
+SKILL:Hide|OUTPUTORDER:18|
+SKILL:Intimidate|OUTPUTORDER:19|
+SKILL:Investigate|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:21|
+SKILL:Knowledge (Physical Sciences)|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Technology)|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:24|
+SKILL:Move Silently|OUTPUTORDER:25|
+SKILL:Navigate|OUTPUTORDER:26|
+SKILL:Perform (Act)|OUTPUTORDER:27|
+SKILL:Perform (Dance)|OUTPUTORDER:28|
+SKILL:Perform (Keyboards)|OUTPUTORDER:29|
+SKILL:Perform (Percussion Instruments)|OUTPUTORDER:30|
+SKILL:Perform (Sing)|OUTPUTORDER:31|
+SKILL:Perform (Stand-Up)|OUTPUTORDER:32|
+SKILL:Perform (Stringed Instruments)|OUTPUTORDER:33|
+SKILL:Perform (Wind Instruments)|OUTPUTORDER:34|
+SKILL:Profession|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Read/Write Language|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Repair|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Research|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:39|
+SKILL:Search|OUTPUTORDER:40|
+SKILL:Sense Motive|OUTPUTORDER:41|
+SKILL:Speak Language|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Smart|RANKS:4.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Spanish|ASSOCIATEDDATA:German|ASSOCIATEDDATA:Cantonese|ASSOCIATEDDATA:Latin
+SKILL:Spot|OUTPUTORDER:43|
+SKILL:Survival|OUTPUTORDER:44|
+SKILL:Swim|OUTPUTORDER:45|
+SKILL:Treat Injury|OUTPUTORDER:46|
+
+# Character Languages
+LANGUAGE:Cantonese|LANGUAGE:English|LANGUAGE:German|LANGUAGE:Latin|LANGUAGE:Spanish
+
+# Character Feats
+FEATPOOL:-2.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Educated|APPLIEDTO:Knowledge (Physical Sciences),Knowledge (Technology)|TYPE:Acolyte.Mage.Telepath.General.Dedicated.Smart.FieldScientist.Techie.FieldMedic.Investigator.Personality.Negotiator.Ambassador.Explorer.Heir.Swindler.Xenophile.ArcaneArranger.Mystic.Shadowjack.TechnoMage.ShadowkindHuman.ShadowScholar.Apothecary|DESC:Pick two Knowledge skills. The character gets a +2 bonus on all checks with those skills
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Gearhead|TYPE:General.Smart.FieldScientist.Techie.Dogfighter.Engineer.SpaceMonkey.Technosavant.MechaJockey.ArcaneArranger.Shadowjack.SpeedDemon.TechnoMage.ShadowkindHuman|DESC:The character gets a +2 bonus on all Computer Use checks and Repair checks
+USERPOOL:FEAT|POOLPOINTS:0.0
+USERPOOL:Internal|POOLPOINTS:0.0
+USERPOOL:Mutation|POOLPOINTS:0.0
+USERPOOL:Talent|POOLPOINTS:0.0
+USERPOOL:Special Ability|POOLPOINTS:0.0
+USERPOOL:Starting Occupation|POOLPOINTS:0.0
+USERPOOL:Wealth|POOLPOINTS:0.0
+ABILITY:Wealth Roll|TYPE:NORMAL|CATEGORY:Wealth|KEY:Wealth Roll ~ 8|TYPE:Wealth.WealthRoll
+USERPOOL:Wealth Roll|POOLPOINTS:0.0
+ABILITY:Occupation|TYPE:NORMAL|CATEGORY:Starting Occupation|KEY:Technician|TYPE:Occupation|DESC:Scientists and engineers of all types fit within the scope of this starting occupation.
+USERPOOL:Occupation|POOLPOINTS:0.0
+USERPOOL:Strong Feat|POOLPOINTS:0.0
+USERPOOL:Fast Feat|POOLPOINTS:0.0
+USERPOOL:Tough Feat|POOLPOINTS:0.0
+USERPOOL:Smart Feat|POOLPOINTS:0.0
+USERPOOL:Dedicated Feat|POOLPOINTS:0.0
+USERPOOL:Charismatic Feat|POOLPOINTS:0.0
+USERPOOL:Academic Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Adventurer Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Athlete Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Blue Collar Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Celebrity Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Creative Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Criminal Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Dilettante Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Doctor Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Emergency Services Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Entrepreneur Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Investigative Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Law Enforcement Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Military Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Religious Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Rural Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Student Occupation Skills|POOLPOINTS:0.0
+ABILITY:Technician Occupation Skills|TYPE:NORMAL|CATEGORY:Starting Occupation|KEY:Craft (Electronic - +1 to skill)|TYPE:Occupation_Skill.Blue_Collar_Skills.Technician_Skills.Astronaut_Trainee_Skills.Colonist_Skills
+ABILITY:Technician Occupation Skills|TYPE:NORMAL|CATEGORY:Starting Occupation|KEY:Computer Use(+1 to skill)|TYPE:Occupation_Skill.Academic_Skills.Creative_Skills.Doctor_Skills.Emergency_Services_Skills.Investigative_Skills.Student_Skills.Technician_Skills.White_Collar_Skills.Astronaut_Trainee_Skills.Colonist_Skills
+ABILITY:Technician Occupation Skills|TYPE:NORMAL|CATEGORY:Starting Occupation|KEY:Research(+1 to skill)|TYPE:Occupation_Skill.Academic_Skills.Investigative_Skills.Student_Skills.Technician_Skills.White_Collar_Skills.Shadow_Scholar_Skills.Hedge_Wizard_Skills.Apothecary_Skills
+USERPOOL:Technician Occupation Skills|POOLPOINTS:0.0
+USERPOOL:White Collar Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Adventurer Feat|POOLPOINTS:0.0
+USERPOOL:Athlete Feat|POOLPOINTS:0.0
+USERPOOL:Criminal Feat|POOLPOINTS:0.0
+USERPOOL:Investigative Feat|POOLPOINTS:0.0
+USERPOOL:Law Enforcement Feat|POOLPOINTS:0.0
+USERPOOL:Military Feat|POOLPOINTS:0.0
+USERPOOL:Rural Feat|POOLPOINTS:0.0
+USERPOOL:Soldier Feat|POOLPOINTS:0.0
+USERPOOL:Martial Artist Feat|POOLPOINTS:0.0
+USERPOOL:Gunslinger Feat|POOLPOINTS:0.0
+USERPOOL:Infiltrator Feat|POOLPOINTS:0.0
+USERPOOL:Daredevil Feat|POOLPOINTS:0.0
+USERPOOL:Bodyguard Feat|POOLPOINTS:0.0
+USERPOOL:Field Scientist Feat|POOLPOINTS:0.0
+USERPOOL:Techie Feat|POOLPOINTS:0.0
+USERPOOL:Field Medic Feat|POOLPOINTS:0.0
+USERPOOL:Investigator Feat|POOLPOINTS:0.0
+USERPOOL:Personality Feat|POOLPOINTS:0.0
+USERPOOL:Negotiator Feat|POOLPOINTS:0.0
+USERPOOL:Techie Mastercraft|POOLPOINTS:0.0
+USERPOOL:Weapon Focus|POOLPOINTS:0.0
+USERPOOL:Greater Weapon Focus|POOLPOINTS:0.0
+USERPOOL:Weapon Specialization|POOLPOINTS:0.0
+USERPOOL:Greater Weapon Specialization|POOLPOINTS:0.0
+USERPOOL:Improved Critical|POOLPOINTS:0.0
+USERPOOL:Spell Mastery|POOLPOINTS:0.0
+USERPOOL:Builder|POOLPOINTS:0.0
+USERPOOL:Strong Talent|POOLPOINTS:0.0
+USERPOOL:Fast Talent|POOLPOINTS:0.0
+USERPOOL:Tough Talent|POOLPOINTS:0.0
+ABILITY:Smart Talent|TYPE:NORMAL|CATEGORY:Talent|KEY:Linguist|TYPE:Talent.SmartTalent.Research.SmartPlus
+USERPOOL:Smart Talent|POOLPOINTS:0.0
+USERPOOL:Dedicated Talent|POOLPOINTS:0.0
+USERPOOL:Charismatic Talent|POOLPOINTS:0.0
+USERPOOL:Aberration Proficiency|POOLPOINTS:0.0
+USERPOOL:Fey Proficiency|POOLPOINTS:0.0
+USERPOOL:Giant Proficiency|POOLPOINTS:0.0
+USERPOOL:Humanoid Proficiency|POOLPOINTS:0.0
+USERPOOL:Monstrous Humanoid Proficiency|POOLPOINTS:0.0
+USERPOOL:Outsider Proficiency|POOLPOINTS:0.0
+USERPOOL:Undead Proficiency|POOLPOINTS:0.0
+USERPOOL:High Fiend Knowledge|POOLPOINTS:0.0
+USERPOOL:Low Fiend Knowledge|POOLPOINTS:0.0
+USERPOOL:Fiend Immunity|POOLPOINTS:0.0
+USERPOOL:Fiend Resistance|POOLPOINTS:0.0
+USERPOOL:Fiend Damage Reduction|POOLPOINTS:0.0
+USERPOOL:Fiend Land Movement|POOLPOINTS:0.0
+USERPOOL:Fiend Swim Movement|POOLPOINTS:0.0
+USERPOOL:Fiend Climbing Movement|POOLPOINTS:0.0
+USERPOOL:Fiend Burrow Movement|POOLPOINTS:0.0
+USERPOOL:Fiend Fly Movement|POOLPOINTS:0.0
+USERPOOL:Shadow Slayer Feat|POOLPOINTS:0.0
+USERPOOL:Occultist Feat|POOLPOINTS:0.0
+USERPOOL:Telepath Feat|POOLPOINTS:0.0
+USERPOOL:Battlemind Feat|POOLPOINTS:0.0
+USERPOOL:Mage Feat|POOLPOINTS:0.0
+USERPOOL:Acolyte Feat|POOLPOINTS:0.0
+USERPOOL:Shadow Slayer Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Strong Plus Talent|POOLPOINTS:0.0
+USERPOOL:Fast Plus Talent|POOLPOINTS:0.0
+USERPOOL:Tough Plus Talent|POOLPOINTS:0.0
+USERPOOL:Smart Plus Talent|POOLPOINTS:0.0
+USERPOOL:Dedicated Plus Talent|POOLPOINTS:0.0
+USERPOOL:Charismatic Plus Talent|POOLPOINTS:0.0
+USERPOOL:Astronaut Trainee Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Colonist Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Drifter Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Gladiator Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Heir Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Outcast Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Scavenger Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Transporter Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Astronaut Trainee Feat|POOLPOINTS:0.0
+USERPOOL:Colonist Feat|POOLPOINTS:0.0
+USERPOOL:Gladiator Feat|POOLPOINTS:0.0
+USERPOOL:Outcast Feat|POOLPOINTS:0.0
+USERPOOL:Transporter Feat|POOLPOINTS:0.0
+USERPOOL:Ambassador Feat|POOLPOINTS:0.0
+USERPOOL:Dogfighter Feat|POOLPOINTS:0.0
+USERPOOL:Dreadnought Feat|POOLPOINTS:0.0
+USERPOOL:Engineer Feat|POOLPOINTS:0.0
+USERPOOL:Explorer Feat|POOLPOINTS:0.0
+USERPOOL:FieldOfficer Feat|POOLPOINTS:0.0
+USERPOOL:HelixWarrior Feat|POOLPOINTS:0.0
+USERPOOL:SpaceMonkey Feat|POOLPOINTS:0.0
+USERPOOL:Swindler Feat|POOLPOINTS:0.0
+USERPOOL:Technosavant Feat|POOLPOINTS:0.0
+USERPOOL:Tracer Feat|POOLPOINTS:0.0
+USERPOOL:Xenophile Feat|POOLPOINTS:0.0
+USERPOOL:Xenotype|POOLPOINTS:0.0
+USERPOOL:Xenotype Bonus|POOLPOINTS:0.0
+USERPOOL:Mecha Jockey Feat|POOLPOINTS:0.0
+USERPOOL:Drawbacks|POOLPOINTS:0.0
+USERPOOL:Cosmetic Mutations|POOLPOINTS:0.0
+USERPOOL:Mutations|POOLPOINTS:0.0
+USERPOOL:Revenant Special Vulnerability|POOLPOINTS:0.0
+USERPOOL:Apothecary Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Hedge Wizard Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Novitiate Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Psychic Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Shadow Scholar Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Squire Occupation Skills|POOLPOINTS:0.0
+USERPOOL:Apothecary Feat|POOLPOINTS:0.0
+USERPOOL:Hedge Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Novitiate Feat|POOLPOINTS:0.0
+USERPOOL:Psychic Feat|POOLPOINTS:0.0
+USERPOOL:Shadow Scholar Feat|POOLPOINTS:0.0
+USERPOOL:Squire Feat|POOLPOINTS:0.0
+USERPOOL:Arcane Arranger Feat|POOLPOINTS:0.0
+USERPOOL:Archaic Weaponmaster Feat|POOLPOINTS:0.0
+USERPOOL:Glamourist Feat|POOLPOINTS:0.0
+USERPOOL:Mystic Feat|POOLPOINTS:0.0
+USERPOOL:Shadow Hunter Feat|POOLPOINTS:0.0
+USERPOOL:Shadowjack Feat|POOLPOINTS:0.0
+USERPOOL:Speed Demon Feat|POOLPOINTS:0.0
+USERPOOL:Street Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Swashbuckler Feat|POOLPOINTS:0.0
+USERPOOL:Techno Mage Feat|POOLPOINTS:0.0
+USERPOOL:Thrasher Feat|POOLPOINTS:0.0
+USERPOOL:Wildlord Feat|POOLPOINTS:0.0
+USERPOOL:Craft Artifice|POOLPOINTS:0.0
+USERPOOL:Artificer Feat|POOLPOINTS:0.0
+USERPOOL:Techno Mage Spontaneous Casting|POOLPOINTS:0.0
+USERPOOL:Wildlord Skill Mastery|POOLPOINTS:0.0
+USERPOOL:Shadowkind Human Feat|POOLPOINTS:0.0
+USERPOOL:Dragon Spelllike Ability ~ Young|POOLPOINTS:0.0
+USERPOOL:Dragon Spelllike Ability ~ Juvenile|POOLPOINTS:0.0
+USERPOOL:Dragon Spelllike Ability ~ Young Adult|POOLPOINTS:0.0
+USERPOOL:Dragon Spelllike Ability ~ Adult|POOLPOINTS:0.0
+USERPOOL:Dragon Spelllike Ability ~ Mature|POOLPOINTS:0.0
+USERPOOL:Dragon Spelllike Ability ~ Old|POOLPOINTS:0.0
+USERPOOL:Dragon Spelllike Ability ~ Very Old|POOLPOINTS:0.0
+USERPOOL:Dragon Spelllike Ability ~ Ancient|POOLPOINTS:0.0
+USERPOOL:Dragon Spelllike Ability ~ King|POOLPOINTS:0.0
+USERPOOL:Dragon Spelllike Ability ~ Emperor|POOLPOINTS:0.0
+USERPOOL:Vivilor A Ability|POOLPOINTS:0.0
+USERPOOL:Vivilor B Ability|POOLPOINTS:0.0
+USERPOOL:Vivilor Ability Swap|POOLPOINTS:0.0
+USERPOOL:Psionic Agent Feat|POOLPOINTS:0.0
+USERPOOL:Psionic Focus|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Air Pistol|WEAPON:Air Rifle|WEAPON:Beam Sword|WEAPON:Blowgun|WEAPON:Brass Knuckles|WEAPON:Cleaver|WEAPON:Club|WEAPON:Concussion Rod|WEAPON:Crossbow|WEAPON:Flamethrower]
+WEAPONPROF:[WEAPON:Flare Gun|WEAPON:Gauntlet|WEAPON:Heavy Mace|WEAPON:High Frequency Sword|WEAPON:Javelin|WEAPON:Ketch-all Pole|WEAPON:Knife|WEAPON:Laser Optics|WEAPON:Light Mace|WEAPON:Metal Baton]
+WEAPONPROF:[WEAPON:Paint Ball Gun|WEAPON:Pepper Spray|WEAPON:Pistol Whip|WEAPON:Punching Dagger|WEAPON:Quarterstaff|WEAPON:Rifle Butt|WEAPON:Sap|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Slingshot]
+WEAPONPROF:[WEAPON:Speargun|WEAPON:Spiked Club|WEAPON:Sticky Foam Sprayer|WEAPON:Stun Baton|WEAPON:Stun Gun|WEAPON:Super Watergun|WEAPON:Taser|WEAPON:Tonfa|WEAPON:Unarmed Strike|WEAPON:Water Cannon]
+WEAPONPROF:[WEAPON:Whip]
+
+# Character Equipment
+MONEY:0
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0

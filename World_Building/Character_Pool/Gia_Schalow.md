@@ -85,3 +85,9 @@ The full explosives suite (Demolition, EOD, Nuclear Ordnance Disposal, Underwate
 Left-handed, grey-haired at 24 — the grey fur is presumably racial for mouse, not age. The Eye for Distance perk pairs naturally with both the Precision Aiming technique and the Forward Observer skill, implying she does her own spotting. The Erotic Art skill alongside the soldier build is a small but noted detail.
 
 The Vacc Suit (Battlesuit) at default suggests she's expected to operate in one but hasn't formally trained yet. At TL11, that's a meaningful gap for a combat soldier.
+
+## Later Career
+
+After Legion War Stories, Gia retired from active service and joined local civilian law enforcement ("EA police" — presumably within the Legion's administrative sphere). She worked as a police officer, picking up forensics, criminology, surveillance, detect lies, and a full Judo suite in the process. Her Explosives (Demolition) skill deepened from IQ+1 to IQ+4 over that time.
+
+When a second war started, she was recalled to active duty. The **400pt version** of this character (`Gia_Schalow_400.md`) represents her at that recall point — same soldier, considerably more dangerous, carrying a cop's investigative toolkit alongside the demolitions mastery. She also has a daily medical Dependency by then, likely from an injury or condition picked up in the first war.

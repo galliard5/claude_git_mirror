@@ -43,8 +43,14 @@ STARTUP PROCEDURES — EXECUTE ON EVERY CONVERSATION START
 - `file_system_instructions.md` — This file (project rules)
 - `file_system_reference.md` — Supplementary reference (load on demand)
 - `directory_index.md` — Live directory map (see Step 3)
+- `directory_index_with_files.md` — Live directory map with full file list. Use only if expecting heavy filesystem operations.
 
 Full directory structure is maintained in `directory_index.md` — do not duplicate here.
+
+**GitHub/Codespaces auto-generated files** (created when using GitHub Codespaces for collaborative editing):
+- `.vscode/` — VS Code workspace settings; leave alone (regenerated on each Codespaces session)
+- `README.md` — Repository overview; can edit for onboarding collaborators, but non-essential
+- `.github/pull_request_template` — PR template for collaborators; safe to ignore or customize
 
 ## STEP 2: EFFICIENCY PRINCIPLE
 
