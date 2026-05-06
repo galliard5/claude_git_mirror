@@ -106,7 +106,7 @@ Basic Speed 5.25 | Basic Move 5
 
 ## Hooks & Notes
 
-The Low Ceiling 10' Flight limitation is the most characterful mechanical detail — she can fly, but only barely. In a TL8 setting built around ships, docks, and stations, a 10-foot ceiling covers most interior spaces. She skims along corridors and decks rather than soaring. It's exactly the kind of limitation that makes sense for a dolphin operating in built environments rather than open water or space.
+**Setting:** Fantasy-inflected space adventure in the vein of *Treasure Planet* — sailing ships in space, wooden decks and rigging alongside solar sails, the aesthetics of the age of sail transposed to the cosmos. The Piloting (Lightsail) TL8 skill is the dead giveaway. Everything else follows: the social suite of a ship's bar, the wine connoisseurship, the force sword, the tarot reading. The Low Ceiling 10' Flight limitation fits perfectly — she skims along ship decks and dockside catwalks rather than soaring. The ESP spell suite (Seeker, Trace, History, Telepathy) gives her a navigator's and investigator's toolkit appropriate to a setting built on exploration and intrigue.
 
 The social skill suite is extensive for a 79-point character — bartending, connoisseurship (literature and wine), public speaking, politics, carousing, body language. She's been in rooms where things are decided, listening and talking. Given that dolphins Cannot Speak (Disturbing Voice to air-breathers), all of this social investment implies she communicates through alternative means: the telepathy spells, a text interface, a translation system, or simply through Charisma 1 and body language that reads across species lines.
 

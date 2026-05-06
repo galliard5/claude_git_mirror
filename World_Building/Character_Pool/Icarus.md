@@ -134,7 +134,7 @@ Biological telepathy power (specific abilities unrecorded).
 | Heavy Chaingun 15mmCL | 15d Pi+ | 6 | 2,000/9,000 | 12 | 50(5) shots |
 | Close Assault Weapon 18.5mmPC | 4d+4 pi++ | 3 | 100/500 | 10 | 10+1(3) |
 
-## The Drone Interface
+**Setting:** Hard sci-fi in the vein of *The Expanse* — realistic physics, no FTL, real ships with reaction drives and orbital mechanics. The TL10 chassis, drone-body-as-manipulators, ship-scale weapons, Economics/Navigation/Strategy skill investment, and Wealthy status all fit a setting where trade routes, cargo, and fuel costs are real concerns. The uplift dolphin as a space pirate captain operating through a remote body is a natural fit for a hard sci-fi environment where biology doesn't conveniently adapt to vacuum.
 Icarus has No Manipulators and cannot function on land or in space without assistance. His Machine Telepathy closes this gap: he controls the **Icarus Drone** (filed separately) as a remote body — a four-legged combat platform he can operate through his psionic link. Together the two form a complete character: Icarus is the mind, the drone is the hands.
 
 ## Related Character

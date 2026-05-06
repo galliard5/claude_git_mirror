@@ -83,10 +83,9 @@ May need bash extraction to read (they are zip-compressed XML).
 - [ ] `Irooni's shadowrun.por` — Irooni, Shadowrun
 - [ ] `Iskandai.por` — Iskandai base form (cf. Iskandai_Dragon.pdf, Iskandai_Worg.pdf)
 - [ ] `James shadowrun.por` — James, Shadowrun (cf. James shadowrun.pdf)
-- [ ] `Ms Scales Cit.por` — Ms Scales, Cit's version
-- [ ] `Ms Scales Mich.por` — Ms Scales, Mich's version (same character, different owner/version?)
-- [ ] `scales test.por` — likely test/draft sheet
-- [ ] `Scales.por` — may be related to Ms Scales or a separate character
+- [x] `Ms Scales Cit.por` — **DONE** → Ms_Scales.md
+- [x] `Ms Scales Mich.por` — **DONE** → Ms_Scales.md (same file; differences noted)
+- [x] `Ms Scales.pdf` — **SKIP** — likely a print export of one of the above
 
 ---
 
