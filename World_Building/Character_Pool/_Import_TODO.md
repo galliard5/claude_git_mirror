@@ -59,7 +59,7 @@ Uploaded separately → Gallibot, Tom_pLUM, Allia_Meinwitz
 - [x] `Iskandai_Dragon.pdf` — **DONE** → Iskandai.md (same as DRAGON sheet)
 - [x] `Iskandai_Worg.pdf` — **DONE** → Iskandai.md (worg form, CR 16, earlier campaign)
 - [ ] `James shadowrun.pdf` — James, Shadowrun system
-- [ ] `James-marvel-werewolf_detective.pdf` — James, Marvel/FASERIP?, werewolf detective
+- [x] `James-marvel-werewolf_detective.pdf` — **DONE** → Brian_Hitchens.md (FASERIP Marvel, werewolf police detective, Galli's player)
 - [ ] `Ms Scales.pdf` — unknown character
 - [ ] `Sinani.pdf` — unknown character
 - [ ] `Galli's shadowrun.pdf` — Galliard, Shadowrun
