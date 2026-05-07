@@ -15,14 +15,17 @@ description: Galliard's kobold lich sorcerer 9. LE, CHA 18. Lich + Undead templa
 - **Templates:** Lich, Undead
 - **XP:** 78,000
 
-## Attributes (level 9 version)
-STR 14 | DEX 15 | CON 13 | INT 15 | WIS 15 | **CHA 18**
+## Attributes (level 9 version, Lich template fully applied)
+STR 14 | **DEX 17** | **CON \*** | **INT 17** | **WIS 17** | **CHA 24**
+
+CON \* = no Constitution score — she is Undead. The Lich template transforms her entirely: she no longer needs to breathe, eat, or sleep, is immune to poison/sleep/paralysis/stunning/disease/death effects, and is healed by negative energy. Positive Energy (healing spells) damages her instead.
 
 ## Class
 Sorcerer 9 | Spellbase: CHA | Slots: 6/6/6/6/4
 
 ## Feats
 Silent Spell | Spell Penetration | Point Blank Shot | Subdual Substitution
+**Alertness** (Lich bonus) | **Positive Energy Resistance** (Lich bonus) — +10 DR vs. positive energy (healing spells deal 10 less damage to her)
 
 ## Spells Known
 **4th:** Black Tentacles, Enervation

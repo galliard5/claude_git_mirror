@@ -1,81 +1,83 @@
 ---
 name: Kalysto
-keywords: [fallout, deathclaw, grey-deathclaw, domesticated, unarmed, stealth, fallout-2-3-mechanics]
-description: A domesticated grey deathclaw — an intelligence-bred subspecies built on Fallout 2/3 SPECIAL mechanics — with high Agility and surprising skill at stealth and lockpicking.
+keywords: [fallout, deathclaw, grey, domesticated, small-frame, unarmed, sneak, kalysto]
+description: Kalysto, a Fallout TTRPG grey deathclaw. Level 1. Traits: Small Frame, Domesticated. AGI 11, INT 7, END 8. Skills: Unarmed 84, Sneak 58, Lockpick 47, Melee 54. Attacks: Claw swing (3d8+MD), Claw Stab (2d10+MD), Gore (2d8+MD, 75% knockdown). Named character from this group — received lore correction earlier in import.
 ---
 
 # Kalysto
 
-**System:** Fallout tabletop RPG (fan/homebrew system based on Fallout 2/3 SPECIAL mechanics)
-**Original Campaign:** (unrecorded)
-**Player:** (unrecorded)
+**System:** Fallout TTRPG (Palladium-style stat layout)
+**File:** `fallout deathclaw - Sheet1.csv`
 
 ## Identity
+- **Name:** Kalysto
 - **Race:** Grey Deathclaw
 - **Level:** 1
-- **Traits:** Small Frame, Domesticated
+- **Traits:** Small Frame | Domesticated
 
-## Lore Note — Grey Deathclaw
-Grey deathclaws are an intelligence-bred subspecies, selectively developed for elevated cognition and science aptitude. The tradeoff for this enhancement is the **Small Frame** flaw — a smaller, lighter build than standard deathclaws. This is consistent with established Fallout canon (the Enclave developed intelligent deathclaws via FEV modification in Fallout 2, producing the talking deathclaws of Vault 13), but **"grey deathclaw" as a named subspecies does not appear in official game canon** — it is most likely a homebrew subspecies created for this tabletop system, grounded in but extending beyond canon lore. The "Domesticated" trait is separately applied on top of the racial template.
+The Domesticated trait is the key character hook — Kalysto is a tamed deathclaw, not a wild one. Small Frame means lower carry weight but potentially other modifiers.
 
-## S.P.E.C.I.A.L.
-| STR | PER | END | CHA | INT | AGI | LCK |
-|-----|-----|-----|-----|-----|-----|-----|
-| 6 | 6 | 8 | 3 | 7 | 11 | 1 |
+## Attributes
+| Attr | Score |
+|------|-------|
+| STR | 6 |
+| PER | 6 |
+| END | 8 |
+| CHA | 3 |
+| INT | 7 |
+| **AGI** | **11** |
+| LCK | 1 |
 
-## Combat Stats
-- **HP:** 39 | **Armor Class:** 11 | **AP:** 10
-- **Sequence:** 12 | **Carry Weight:** 115 lb
-- **Melee Damage Bonus:** +4 | **Critical Chance:** +1
+AGI 11 is extremely high — she's fast and dexterous for a deathclaw. LCK 1 means she is actively unlucky. INT 7 is above the typical deathclaw baseline (they're not known for intelligence).
 
-## Resistances
-| Type | Resistance | Threshold |
-|------|-----------|-----------|
-| Poison | 40% | — |
-| Radiation | 16% | — |
-| Gas, Inhaled | 0% | — |
-| Gas, Contact | 40% | — |
-| Electricity | 0% | — |
-| Damage | 40% | 4 |
-| Fire | 40% | 4 |
-| Explosive | 40% | 4 |
+## Stats
+HP: 39 | Armor Class: 11 | AP: 10 | Sequence: 12 | Melee Damage: 4 | Carry Weight: 115
 
-## Tagged Skills
+## Resistances (starting)
+| Type | DR | Threshold |
+|------|----|----|
+| Poison | 40 | — |
+| Radiation | 16 | — |
+| Damage | 40 | 4 |
+| Fire | 40 | 4 |
+| Explosive | 40 | 4 |
+| Gas (Contact) | 40 | — |
+| Electricity | 0 | — |
+| Gas (Inhaled) | 0 | — |
+
+## Skills
 | Skill | % | Notes |
 |-------|---|-------|
-| Unarmed | 84 | ★ Tagged |
-| Sneak | 58 | ★ Tagged |
-| Lockpick | 47 | ★ Tagged |
+| **Unarmed** | **84** | Primary offense |
+| **Sneak** | **58** | Stealth |
+| **Lockpick** | **47** | Utility |
+| **Melee** | **54** | Backup |
+| Explosives | 44 | |
+| Drive | 34 | — yes, she can drive |
+| Science | 28 | |
+| Guns | 27 | |
+| Survival | 30 | |
+| Energy Weapons | 22 | |
+| Medicine | 18 | |
+| Barter | 12 | |
+| Speech | 15 | |
 
-## All Skills
-| Skill | % |
-|-------|---|
-| Unarmed | 84 |
-| Melee Weapons | 54 |
-| Sneak | 58 |
-| Lockpick | 47 |
-| Explosives | 44 |
-| Science | 28 |
-| Guns | 27 |
-| Survival | 30 |
-| Energy Weapons | 22 |
-| Repair | 21 |
-| Medicine | 18 |
-| Speech | 15 |
-| Barter | 12 |
-| Drive | 34 |
+The Drive skill on a deathclaw is striking. Kalysto can operate a vehicle. The Lockpick 47 and Sneak 58 alongside Drive and Speech (15) suggest a domesticated deathclaw who participates in normal civilization to a degree — opening doors, moving quietly, driving somewhere.
 
-## Natural Attacks
-| Attack | Skill | Damage | AP Cost | Notes |
-|--------|-------|--------|---------|-------|
-| Claw Swing | Unarmed | 3d8+MD | 3 (S) | |
-| Claw Stab | Unarmed | 2d10+MD | 3 (S) / 4 (T) | |
-| Gore | Unarmed | 2d8+MD | 4 (S) | 75% chance knockdown |
-| Strong Punch | Unarmed | — | — | details unrecorded |
+## Attacks
+| Attack | Type | Damage | Notes |
+|--------|------|--------|-------|
+| **Claw Swing** | Unarmed | 3d8+MD | AP S: 3 |
+| **Claw Stab** | Unarmed | 2d10+MD | AP S: 3, T: 4 |
+| **Gore** | Unarmed | 2d8+MD | AP S: 4; **75% chance of knockdown** |
+| Strong Punch | Unarmed | — | Not detailed |
 
-## Hooks & Notes
-Kalysto is built on the grey deathclaw's core premise — bred for intelligence and science aptitude, smaller than a standard deathclaw as a result. INT 7 is enough for meaningful thought and skill use under Fallout 2/3 mechanics, and the tagged skills reflect a character designed to operate in the world rather than just smash through it: Sneak 58 and Lockpick 47 at level 1 mean she can actually get places without fighting. The Science skill investment reinforces the subspecies' breeding purpose.
+The Gore attack with 75% knockdown chance is the most tactically distinctive — she can charge and knock almost anything prone, then follow with Claw Stab while it's down.
 
-The Domesticated trait is the core character hook — she's been tamed somehow, raising questions about by whom and under what circumstances. Given that canon intelligent deathclaws (Fallout 2's Vault 13 community) were exterminated by the Enclave, a domesticated grey deathclaw operating in the wasteland would have a complicated relationship with factions that know what she is.
+## Notes
 
-Luck 1 means the dice will regularly punish her. Zero electricity resistance is a specific, exploitable vulnerability. She has no perks yet at level 1 — there's significant build space ahead. The Explosives skill at 44 is an unexpected bonus for a melee specialist.
+Kalysto appears in the session summary as a character who received a lore correction during the import process, confirming she's an established character in this group rather than a one-shot. 
+
+A grey deathclaw specifically (not the standard brown/grey-green) suggests either albinism or a distinct regional subspecies. The Domesticated trait combined with Drive, Lockpick, and Speech skills paints a picture of a deathclaw who grew up around people — probably raised from an egg or hatchling by someone in the wasteland.
+
+LCK 1 means every system that uses luck rolls will work against her. This is the lowest luck value in the scale and represents active unluckiness rather than just neutral chance. For a deathclaw who can drive a car, pick locks, and has INT 7 (sapient), the persistent bad luck is probably a significant ongoing narrative element.

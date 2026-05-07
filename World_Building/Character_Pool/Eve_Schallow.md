@@ -1,49 +1,97 @@
 ---
 name: Eve_Schallow
-keywords: [gurps, tl11, legion-empire, intelligence, spacer, sci-fi, kais-game]
-description: Competent TL11 intelligence/spacer operative with broad military and technical skills; from Kai's Legion Empire campaign.
+keywords: [gurps, tl11, legion, mouse, intelligence, cryptography, ew, galliard, kai-legion-empire, schalow-family]
+description: Galliard's 205-point TL11 GURPS mouse in Kai's Legion Empire campaign. IQ 13, PER 14. Spacer 15, EW 14, Cryptography/Code Design/Cryptanalysis 14, Leadership 14, Explosives (Demo) 14, Gunner (Starship) 13. Quirks: Weirdness Magnet + Xenophilia. Honest Face perk. First of the confirmed Schalow family members.
 ---
 
 # Eve Schallow
 
-**System:** GURPS 4e, TL11
-**Original Campaign:** Legion Empire (Kai's game)
+**System:** GURPS 4e, TL11 (web character sheet JSON)
 **Player:** Galliard
-**Point Total:** 205 (5 unspent)
+**File:** `Kais legion empire.json`
+**Campaign:** Kai's Legion Empire
+
+## Identity
+- **Race:** Mouse | **Name:** Eve Schallow
+- **Point Total:** 205 | **Unspent:** 5
+- **TL:** 11
 
 ## Attributes
-ST 9 | DX 12 | IQ 13 | HT 10 | HP 9 | Will 13 | Per 14 | FP 10
-Basic Speed 5.5 | Basic Move 5 | Basic Lift 16 lb | Dodge 8
-Damage: Swing 1d-1, Thrust 1d-2
+ST 9 | DX 12 | **IQ 13** | HT 10
+**Per 14** (+1) | Will 13 | FP 10
 
-## Advantages & Disadvantages
-**Ads:** Acute Vision 1 (2 pts), Acute Hearing 1 (2 pts), Fit (5 pts), Honest Face (1 pt)
-**Disads:** Weirdness Magnet (-15 pts), Xenophilia (-10 pts)
+## Key Advantages
+| Trait | Notes |
+|-------|-------|
+| **Acute Vision 1** | +1 vision |
+| **Acute Hearing 1** | +1 hearing |
+| **Fit** | +1 HT rolls; double FP recovery |
+| **Honest Face** | Looks trustworthy; +1 on sincerity-dependent rolls |
+
+## Key Disadvantages
+| Trait | Points | Notes |
+|-------|--------|-------|
+| **Weirdness Magnet** | -15 | Unexplained events cluster around her |
+| **Xenophilia** | -10 | Compulsively drawn to alien species |
 
 ## Skills
 
-### Intelligence & Computing
-Computer Op IQ+1=14 | Computer Programming IQ-2=11 | Computer Hacking IQ-2=11
-Cryptography IQ+0=13 | Cryptography (Code Design) IQ+1=14 | Cryptography (Cryptanalysis) IQ+1=14
-Intelligence Analysis IQ+0=13
+### Intelligence / EW
+| Skill | Level | Relative |
+|-------|-------|---------|
+| **Electronics Op (EW)** | **14** | IQ+1 |
+| **Cryptography** | 13 | IQ+0 |
+| **Cryptography (Code Design)** | **14** | IQ+1 |
+| **Cryptography (Cryptanalysis)** | **14** | IQ+1 |
+| Intelligence Analysis | 13 | IQ+0 |
+| Computer Op | 14 | IQ+1 |
+| Computer Programming | 11 | IQ-2 |
+| Computer Hacking | 11 | IQ-2 |
 
-### Starship Operations
-Spacer IQ+2=15 | Engineer (Starships) IQ-1=12 | Navigation (Hyperspace) IQ+1=14
-Ship Handling (Starship) IQ+0=13 | Electronics Op (Sensors) IQ+1=14 | Electronics Op (EW) IQ+1=14
-Gunner (Starship) DX+1=13 | Piloting (Fighter) DX-1=11
+### Starship
+| Skill | Level | Relative |
+|-------|-------|---------|
+| **Spacer** | **15** | IQ+2 |
+| Navigation (Hyperspace) | 14 | IQ+1 |
+| Ship Handling (Starship) | 13 | IQ+0 |
+| Engineer (Starships) | 12 | IQ-1 |
+| Electronics Op (Sensors) | 14 | IQ+1 |
+| **Gunner (Starship)** | **13** | DX+1 |
+| Piloting (Fighter) | 11 | DX-1 |
 
-### Ground & Combat
-Soldier IQ+1=14 | Guns (Ballistic) DX+2=14 | Guns (Pistol) DX+1=13
-Karate DX+0=12 | Knife DX+2=14 | Explosives (Demolition) IQ+1=14
+### Command / Ground
+| Skill | Level | Relative |
+|-------|-------|---------|
+| **Leadership** | **14** | IQ+1 |
+| Armoury (Small Arms) | 13 | IQ+0 |
+| **Explosives (Demo)** | **14** | IQ+1 |
+| Guns (Ballistic) | 14 | DX+2 |
+| Guns (Pistol) | 13 | DX+1 |
+| Karate | 12 | DX+0 |
+| Knife | 14 | DX+2 |
+| Throwing | 12 | DX+0 |
 
-### Field & Survival
-Stealth DX+1=13 | Tracking Per+1=15 | Survival Per+1=15 | Observation Per+1=15
-Navigation (Land) IQ+0=13 | Running HT+1=11 | Swimming HT+1=11 | Scuba IQ+1=14
-Parachuting DX+1=13 | Vac Suit DX+1=13 | Leadership IQ+1=14
+### General
+Cooking 13 | First Aid 14 | Lockpicking 13 | Mathematics (Applied) 12 | Observation 15 | Parachuting 13 | Prospecting 13 | Running 11 | Scuba 14 | Soldier 14 | Stealth 13 | Survival 15 | Swimming 11 | Tracking 15 | Vacc Suit 13
 
-### Misc
-Armoury (Small Arms) IQ+0=13 | First Aid IQ+1=14 | Lockpicking IQ+0=13
-Mathematics (Applied) IQ-1=12 | Prospecting IQ+0=13 | Cooking IQ+0=13
+## Schalow Family — Eve's Position
 
-## Hooks & Notes
-A well-rounded TL11 operative: intelligence work, starship crew, and ground combat all covered. Weirdness Magnet is a ready-made adventure hook generator. Xenophilia means she leans toward unusual alliances rather than hostility. Per 14 + Observation/Tracking 15 makes her a capable field investigator. Natural fit for Gallihammer sci-fi settings — particularly the Archaeos Expedition or Neon Fang as an independent operative type. The Legion Empire campaign name suggests large-scale military/political stakes.
+Eve is the first confirmed Schalow family member. The full family across all found sheets:
+
+| Name | Role | System | TL | Player |
+|------|------|--------|----|--------|
+| **Eve Schallow** | EW / Intel operative | GURPS | 11 | Galliard (Kai's Legion Empire) |
+| Gia Schalow (LWS) | Demolitions soldier | GURPS | 11 | Galliard |
+| Gia Schalow (400) | Police → recalled soldier | GURPS | 11 | Galliard |
+| David Schalow | Honor Guard | GURPS | 11 | Galliard |
+| Shpni Schallow | Head Researcher (stub) | GURPS | 9 | Galliard |
+
+## Notes
+
+The Weirdness Magnet (-15) and Xenophilia (-10) together make Eve someone around whom strange things happen and who consistently gets fascinated by alien contacts. The Honest Face perk means she looks trustworthy — which is an asset in intelligence work as long as nobody realizes she's lying.
+
+Cryptography at all three levels (general, Code Design, Cryptanalysis) at IQ+0/+1 is a comprehensive investment: she can encrypt, create new ciphers, and break existing ones. Paired with EW 14 and Intelligence Analysis 13, she's a signals-and-codes specialist.
+
+The Gunner (Starship) and Leadership at 13/14 alongside the ground combat skills (Explosives 14, Karate 12, Knife 14) make her capable of operating across ship-to-ship and ground engagements — closer to the GCS Recon Captain file than to a pure analyst.
+
+Cooking is the personal touch: IQ+0, taken for no obvious tactical reason. She cooks.

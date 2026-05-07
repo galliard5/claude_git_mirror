@@ -1,68 +1,72 @@
 ---
 name: Astraea
-keywords: [ratfolk, oracle, dark-tapestry, pathfinder, level-10, mags-game]
-description: Small ratfolk oracle of the Dark Tapestry with void magic and exceptional social skills.
+keywords: [pathfinder, pf1e, ratfolk, oracle, dark-tapestry-mystery, tongues-curse, galliard, mags-game]
+description: Galliard's PF1e Ratfolk Oracle 10 named Astraea. Female, small. CHA 18 (20 temp), WIS 14. Oracle Mystery: Dark Tapestry. Curse: Tongues (speaks Celestial or Abyssal when using magic). Gift of Madness 7/day. Mithral Chain +3 glamered. Staff of the Master (Necromancy). Languages: Common, Infernal. From Mags's campaign.
 ---
 
 # Astraea
 
-**System:** Pathfinder 1e (Myth-Weavers AutoTransfer)
-**Original Campaign:** Mag's game
+**System:** Pathfinder 1e (web character sheet JSON)
 **Player:** Galliard
+**File:** `AutoTransfer Mags game.json`
+**Campaign:** Mags's game
 
 ## Identity
-- **Race:** Ratfolk | **Gender:** Female
-- **Class:** Oracle 10 | **Alignment:** (unrecorded)
-- **Size:** Small | **Speed:** 20 ft
+- **Race:** Ratfolk | **Gender:** Female | **Size:** Small
+- **Class:** Oracle 10
+- **Alignment:** Unspecified
+- **XP:** 105,000 (approaching level 11)
 - **Languages:** Common, Infernal
 
-## Ability Scores
-| STR | DEX | CON | INT | WIS | CHA |
-|-----|-----|-----|-----|-----|-----|
-| 8 (-1) | 12 (+1) | 14 (+2) | 12 (+1) | 14 (+2) | 18 (+4) / temp 20 (+5) |
+## Attributes
+STR 8 | DEX 12 | CON 14 | INT 12 | WIS 14 | **CHA 18** (temp 20)
 
-## Combat
-- **HP:** 75 (d8+2) | **AC:** 22 (touch 11, flat 22) | **Init:** +1
-- **Fort:** +7 | **Ref:** +6 | **Will:** +11
-- **BAB:** +7/+2 (melee +5 / ranged +9 with size)
-- **XP:** 105,000 / 155,000
+## Class Specifics
+- **Mystery:** Dark Tapestry — the void between stars; alien entities; madness
+- **Curse:** Tongues — when using magic, can only speak Celestial or Abyssal; at 5th level understands (but cannot speak) any language; at 10th level speaks any language normally
+- **Tinkerer** (trait) — ratfolk racial mechanic affinity
 
-## Mystery & Curse
-- **Mystery:** Dark Tapestry
-- **Curse:** Tongues (speaks Celestial/Abyssal in combat)
+## Key Revelations (from class features)
+| Revelation | Effect |
+|------------|--------|
+| **Gift of Madness** | 3+CHA/day = **7/day**; target within 30 ft confused 1 round (Will DC 13 negates); at 7th level lasts rounds = oracle level |
+| **Cloak of Darkness** | +4 armor bonus and +2 Stealth; at 7th +6/+4; usable 10 hours/day |
+| **Pierce the Veil** | Darkvision 60 ft; at 11th, see perfectly in all darkness |
 
-### Revelations
-- **Gift of Madness** (Su): 3+Cha/day, target confused for 1 round (Will DC 13); at 7th level, lasts rounds = oracle level.
-- **Cloak of Darkness** (Su): +4 armor bonus, +2 Stealth; scales +2 per 4 levels. 1 hour/day/level.
-- **Pierce the Veil** (Su): Darkvision 60 ft; at 11th level, perfect darkvision of any kind.
+## Racial Abilities (Ratfolk)
+- **Darkvision 60 ft** | **Scent**
+- **Tinkerer** — +2 to Craft checks and Profession (Engineer) equivalent
+
+## Feats
+Gift of Madness (confirmation hex-like use) | Disruptive Spell | **Heighten Spell** | **Craft Wondrous Item** | Combat Casting | Improved Counterspell
 
 ## Key Skills
-| Skill | Modifier |
-|-------|----------|
-| Diplomacy | +18 |
-| Heal | +15 |
-| Spellcraft | +14 |
-| Knowledge (Planes) | +14 |
-| Knowledge (Religion) | +14 |
-
-## Spells per Day
-| Level | 1st | 2nd | 3rd | 4th | 5th |
-|-------|-----|-----|-----|-----|-----|
-| Slots | 6 | 6 | 6 | 5 | 3 |
-| Known | 5 | 4 | 3 | 2 | 1 |
-
-**Spell DCs:** 14 (0th) through 18 (5th)
-
-### Notable Spells
-Murderous command, entropic field, undetectable alignment, cure serious, protection from energy, sending, terrible remorse, curse of magic negation, dust of twilight, black tentacles, feeblemind, tongues
+Diplomacy +18 | Heal +15 | Knowledge (Planes) +14 | Knowledge (Religion) +14 | Spellcraft +14 | Bluff +5
 
 ## Equipment
-- Mithral chain +3, glamered (light, AC +9)
-- Staff of the Master (Necromancy)
-- Headband of Charisma +2
-- Cloak of Resistance +2
-- Amulet of Natural Armor +2
-- ~123,700 gp in equipment total
+| Item | Notes |
+|------|-------|
+| **Staff of the Master (Necromancy)** | Grants free Necromancy metamagic once/day; boosts Necromancy save DCs |
+| **Mithral Chain +3 Glamered** | Appears as normal clothing when desired; light armor penalty 0 |
+| **Headband of Charisma +2** | |
+| **Cloak of Resistance +2** | |
+| **Amulet of Natural Armor +2** | |
+| ~105 gp remaining | Equipment bought-down |
 
-## Hooks & Notes
-High-Charisma oracle with a deeply unsettling void/madness thematic. Excellent diplomatic and healing capabilities alongside crowd-control and mind-affecting spells. The Tongues curse adds roleplay texture. Ratfolk + small size gives her an unassuming physical presence that contrasts with her influence at the table. Strong candidate for a political/social campaign or any setting that rewards oracle mystery play. Could slide into Gallihammer or any urban-intrigue setting.
+## Spells Known (selected)
+**5th:** Curse of Magic Negation, Feeblemind *(Dark Tapestry)*
+**4th:** Sending, Terrible Remorse, Black Tentacles *(Dark Tapestry)*
+**3rd:** Cure Serious Wounds, Protection from Energy, Searing Light, Tongues *(Dark Tapestry)*
+**2nd:** Undetectable Alignment, Dust of Twilight *(Dark Tapestry)*
+**1st:** Murderous Command, Cure Light Wounds (1d8+1), Entropic Field *(Dark Tapestry)*
+**0:** Spark, Detect Magic, Read Magic, Create Water
+
+## Notes
+
+The Dark Tapestry mystery connects to Lovecraftian cosmic horror in PF1 — alien entities from the void between stars, madness, and things that shouldn't exist. Gift of Madness (7/day at level 10) means she can make targets confused almost every round. The Staff of the Master (Necromancy) is an unusual item for a CG-adjacent healer, but Dark Tapestry oracles often occupy a liminal space between divine care and disturbing void-knowledge.
+
+Mithral Chain Glamered means she can walk around looking like she's in normal clothes while being in effective light armor. Combined with the Tongues curse (speaks alien languages when using magic), she's a ratfolk who appears ordinary until she opens her mouth and starts speaking Celestial or Abyssal while casting.
+
+Infernal as a language alongside Common suggests specific social contacts or a background in devil-touched areas. In Mags's campaign context, this may mean more.
+
+The cure-focused spell selection (Cure Light, Cure Serious) alongside the Dark Tapestry patron spells creates the same Healing+Death domain tension that appears in several characters from this group — she heals allies and afflicts enemies with cosmic madness from the same divine source.

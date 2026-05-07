@@ -20,7 +20,44 @@ Uploaded separately → Gallibot, Tom_pLUM, Allia_Meinwitz
 
 ---
 
-## PENDING — FROM ORIGINAL INDEX (missed first pass)
+## MISC FILES — Sheet_import root
+
+### Text / URL Files
+- [x] `TenariGuide.txt` — **DONE** → Tenari_Guide.md (Star League alien species guide, filed in World_Building/)
+- [x] `Sinani_Umbral_Dragon.pdf.url` — **NOTED** — Discord link to Umbral Dragon variant of Sinani; URL: https://cdn.discordapp.com/attachments/155731171299426306/925176880250900520/Sinani_Umbral_Dragon.pdf
+
+### PCGen Text Exports (redundant)
+- [x] `pcgen characters/Faralia.TXT` — **DONE** → Faralia.md updated with Lich template stats (CHA 24, CON *, Alertness, Positive Energy Resistance)
+- [x] `pcgen characters/ravy's evil kobold.txt` — **REDUNDANT** — confirms level 1 NE version; covered in Faralia.md
+
+### JSON Character Sheets
+- [x] `AutoTransfer Mabs wolf ranger Alina.json` — **DONE** → Allina.md (3.5e wolf ranger, Deity Alpha, bite+trip)
+- [x] `Jasons dragon game - Witch.json` — **DONE** → Kani.md (PF1e kobold witch 5, Sea Dragons campaign, femur dagger, tattoo magic)
+- [x] `James Kitsune Oracle.json` — **DONE** → Jagaima.md (PF1e Kitsune Oracle, nine-tailed mystic, CHA 20, STR 4)
+- [x] `James Dragon.json` — **DONE** → Saphira.md (PF1e copper dragon Draconic Exemplar 6)
+- [x] `Kais legion empire.json` — **DONE** → Eve_Schallow.md (GURPS TL11 Legion, 205pts, confirmed stats)
+- [x] `Tempest rising Evil witch.json` — **DONE** → Shami.md (PF1e kobold witch 10, NE, Plague patron, Animate Dead)
+- [x] `AutoTransfer randoms wyrmling gestalt.json` — **DONE** → Silver.md (PF1e silver dragon gestalt Oracle 22//Sorc 19, level 26, AC 57)
+- [x] `AutoTransfer randoms hi level gestalt.json` — **DONE** → Honi.md (PF1e feycat Sorc/Rogue 20, CHA 31, sneak +10d6, GI at will)
+- [x] `AutoTransfer Mags game.json` — **DONE** → Astraea.md (PF1e ratfolk Oracle 10, Dark Tapestry, Mags's game)
+
+### CSV Character Sheets
+- [x] `GalliChar - Data.csv` — **SKIP** — M&M 2e system powers/feats reference table, not a character
+- [x] `Kai's HU game, Dragon bussiness tycoon - Heroes Unlimited.csv` — **DONE** → Anthony_Wilmington.md (HU mutant dragon businessman)
+- [x] `Mags HU catbot - Sheet1.csv` — **SKIP** — Robot construction purchase sheet (cat combat bot for Mags), not a character sheet
+- [x] `Kaisens rifts game - Sheet1.csv` — **DONE** → Daniel_Sanchez.md (RIFTS dogboy retriever, Kaisen's character)
+- [x] `Cits hi-powered rifts game - SDC Char Sheet.csv` — **DONE** → Royal_Frilled_Dragon_Hatchling.md (RIFTS dragon hatchling, 4 days old, Galli's PC)
+- [x] `fallout deathclaw - Sheet1.csv` — **DONE** → Kalysto.md (Fallout deathclaw, Domesticated, lore correction applied earlier)
+
+### Unreadable (xlsx / rptok) — need upload or skip
+- [x] `dragons3.xls.xlsx` — **DONE** — D&D 3.5e dragon progression reference spreadsheet (all 12 types, Wyrmling–Twilight, ECL/HD/saves/SA); NOT a character, a GM reference tool. No import needed.
+- [x] `kagi's ep game.xlsx` — **DONE** → Aranaea.md (EP1e Arachnoid synthmorph, 1000 CP, Outer Colonial/Terran, Kagi's game)
+- [x] `spell list and inventory accounting for silver.xlsx` — **DONE** — Silver's PF1e spell list (Sorc+Oracle by level, bloodline+mystery spells) and inventory/gold-tracker; supplements Silver.md, no new character.
+- [x] `Heskan.rptok` — **SKIP** — MapTool token (binary); Heskan is a character name noted but no readable content extractable without the VTT
+- [x] `Madila.rptok` — **NOTED** — MapTool token for Madila; confirmed she was used in VTT play
+
+### KaiSF Writeup.docx
+- [x] `KaiSF Writeup.docx` — **DONE** → KaiSF_Tauran_Vega.md (complete sci-fi campaign setting; GURPS TL9; 13-planet system; Eurasian Axis/Federation/Pirates; Uplifted/Augmented species; 519 AP; Xyleon Artifacts; filed in World_Building/)
 
 - [x] `Sheet_import/G'lith.pdf` — **DONE** → G_lith_Race_SWN.md (SWN race doc, filed in World_Building/ not Character_Pool)
 - [ ] `Sheet_import/KaiSF Writeup.docx` — unknown, likely a writeup/background doc rather than sheet

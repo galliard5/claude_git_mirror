@@ -1,82 +1,89 @@
 ---
 name: Honi
-keywords: [feycat, sorcerer, rogue, gestalt, pathfinder, level-20, chaotic-good, fey-bloodline]
-description: Epic feycat sorcerer/rogue gestalt with extreme stealth, fey magic, and terrifying sneak-attack capability.
+keywords: [pathfinder, pf1e, feycat, sorcerer, rogue, gestalt, cg, sneak-attack, greater-invisibility, galliard]
+description: Galliard's PF1e Feycat Sorc/Rogue 20 gestalt named Honi. CG female. CHA 31, DEX 26. AC 38, Reflex +27. Sneak attack +10d6. Greater Invisibility at will for 20 rounds/day. Terrain mastery (forest) + hide in plain sight. Adamantine ghost-touch punch dagger +5. Cash 200,000 gp.
 ---
 
 # Honi
 
-**System:** Pathfinder 1e (Myth-Weavers AutoTransfer)
-**Original Campaign:** Randoms / hi-level gestalt
+**System:** Pathfinder 1e (web character sheet JSON)
 **Player:** Galliard
+**File:** `AutoTransfer randoms hi level gestalt.json`
 
 ## Identity
 - **Race:** Feycat | **Gender:** Female
-- **Class:** Sorcerer/Rogue (Gestalt) 20 | **Alignment:** CG
-- **Size:** Small | **Speed:** 40 ft / fly 80 ft (extraordinary)
+- **Class:** Sorcerer/Rogue 20 (gestalt)
+- **Alignment:** Chaotic Good | **Size:** Small
+- **Level:** 20 | **XP:** 4,156,000
 
-## Ability Scores
-| STR | DEX | CON | INT | WIS | CHA |
-|-----|-----|-----|-----|-----|-----|
-| 20 (+5) | 26 (+8) | 18 (+4) | 18 (+4) | 15 (+2) | 31 (+10) |
+## Attributes
+STR 20 | **DEX 26** | CON 18 | **INT 18** | WIS 15 | **CHA 31**
 
-## Combat
-- **HP:** 240 (35 subdual) | **AC:** 38 (touch 25, flat 29) | **Init:** +12
-- **Fort:** +15 | **Ref:** +27 | **Will:** +19
-- **BAB:** +15/+10/+5 (melee +21 / ranged +24)
-- **SR:** 31 | **DR:** 10/cold iron | **CMD:** 46
-- **XP:** 4,156,000
+CHA 31 (+10) is the signature stat. All sorcerer DCs, many social checks, and the fey-type abilities flow from here.
 
-## Class Abilities
+## Defense
+**AC 38** (touch 25, flat 29) | **SR 31** | **DR 10/cold iron**
+Fort +15 | Ref **+27** | Will +19 | **HP 240** (35 current in file)
+Speed: 40 / Fly 80 (extraordinary)
 
-### Rogue Talents
-- Sneak Attack +10d6
-- Trap Sense +6
-- Improved Uncanny Dodge, Evasion
-- Hunter's Surprise (1 round/day, all attacks deal sneak attack damage)
-- Hide in Plain Sight (in favored terrain: forest)
-- Terrain Mastery (forest) — as ranger
-- Fast Stealth, Offensive Defense (+1 AC when sneak attacking)
-- Canny Observer (+4 Perception), Finesse Rogue
-- Slow Reactions (sneak-attacked enemies can't AoO)
-- Master Strike (sleep/paralyze/slain, Fort DC 24)
+## Rogue Talents and Abilities
+- **Sneak Attack +10d6** — 10 full sneak attack dice
+- **Trap Sense +6** | **Evasion** | **Improved Uncanny Dodge**
+- **Master Strike** — sneak attack can cause sleep, paralysis, or death (Fort DC 24)
+- Canny Observer (+4 Perception) | Fast Stealth | Finesse Rogue | Slow Reactions | Fast Tumble | Hunter's Surprise (1 round/day all attacks add sneak attack) | Offensive Defense (+1 AC when sneak attacking) | Fast Picks
 
-### Sorcerer — Fey Bloodline
-- Laughing Touch (su)
-- Woodland Stride
-- Fleeting Glance (greater invisibility at will, 20 rounds/day)
-- Fey Magic (reroll any spell resistance check once)
-- Soul of the Fey (poison immune)
+## Sorcerer / Fey Abilities
+- **Laughing Touch** — touch causes target to fall prone laughing (Will negates)
+- **Woodland Stride** — unimpeded movement through natural terrain
+- **Fleeting Glance** — **Greater Invisibility at will for 20 rounds/day**
+- **Fey Magic** — reroll any spell resistance check once
+- **Soul of the Fey** — **poison immune**; animals won't attack her unprovoked
 
-## Key Skills (rank 23 in primaries)
-| Skill | Modifier |
-|-------|----------|
-| Stealth | +39 |
-| Acrobatics | +36 |
-| Bluff | +36 |
-| Diplomacy | +36 |
-| Fly | +36 |
-| Perception | +32 |
-| Sleight of Hand | +34 |
-| Escape Artist | +34 |
-| Disable Device | +34 |
-
-## Spells per Day & DCs
-Full 20th-level sorcerer progression (6/9/9/8/8/8/8/7/7/7). Spell DCs 20–29.
-Caster Level 20.
-
-### Notable Spells
-Cantrips: read magic, drench, dancing lights, spark, haunted fey aspect | 1st: touch of gracelessness, ray of enfeeblement, vanish, magic missile | 2nd: bull's strength, animal aspect, mirror image, scorching ray | 3rd: excruciating deformation, water breathing, dispel magic, tiny hut | 4th: black tentacles, aura of unremarkable, confusion, improved invisibility | 5th: dismissal, permanency, baleful polymorph, teleport | 6th: undeath to death, acid fog, chain lightning | 7th: planar adaptation (mass), project image, hungry darkness | 8th: frightful aspect, polar ray, trap the soul | 9th: mass icy prison, hideous laughter [dc 29], gate | Fey bloodline spells: entangle, hideous laughter, deep slumber, poison, tree stride, mislead, phase door, irresistible dance, shapechange
-
-## Equipment
-- Cloak of Resistance +5 | Ring of Protection +5 | Amulet of Natural Armor +5
-- Belt of Physical Perfection +6 | Bracers of Armor +8 | Sash of Charisma +6
-- Cloak of Elvenkind | Ring of Mind Blank
-- +4 Keen Throwing Dagger
-- ~200,000 gp
+## Movement and Stealth Special
+- **Terrain Mastery (Forest)** — as ranger terrain bonus in forests
+- **Hide in Plain Sight** — can hide in favored terrain (forest) even while observed
 
 ## Feats
-Acrobatic, Agile Maneuvers, Arcane Armor Training, Combat Reflexes, Dodge, Mobility, Wind Stance, Lightning Stance, Go Unnoticed, Gang Up, Improved Initiative, Lightning Reflexes, Eschew Materials, Fast Tumble (no penalty tumbling past enemies), Fast Picks, Heighten Spell, Disruptive Spell
+Acrobatic | Agile Maneuvers | Arcane Armor Training | Combat Reflexes | Dodge | Wind Stance | **Lightning Stance** | Go Unnoticed | Gang Up | Mobility | Lightning Reflexes | Improved Initiative | Eschew Materials
 
-## Hooks & Notes
-One of the most capable stealth operatives possible in PF1e. At-will greater invisibility, master strike, sneak attack +10d6, Stealth +39, and a full 20th-level sorcerer spell list on top of it. Fey theming makes her otherworldly rather than grimdark. The combination of social skills (Bluff/Diplomacy +36) and lethality means she can handle encounters in almost any mode. Note on the original sheet: "had a good idea" — presumably referencing a specific tactic or build choice that was never documented. Perfect fit for a high-powered sandbox or as a recurring significant NPC.
+## Weapons
+**Adamantine Punch Dagger +5 (Ghost Touch)** | Attack +30/+25/+20 | Damage 1d3+10 | Crit ×3
+**+4 Keen Throwing Dagger** (in gear)
+
+## Skills
+Acrobatics +36 | Bluff +36 | Diplomacy +36 | Disable Device +34 | Escape Artist +34 | Fly +36 | Knowledge (Arcana) +30 | Knowledge (Nature) +17 | Knowledge (Planes) +20 | Perception +32 | Sense Motive +15 | Sleight of Hand +34 | Spellcraft +27 | **Stealth +39**
+
+## Spells Known (selected)
+**Level 9:** Icy Prison (Mass), Gate, Irresistible Dance
+**Level 7:** Planar Adaption (Mass), Project Image, Hungry Darkness
+**Level 5:** Dismissal, Permanency, Baleful Polymorph, Teleport
+**Level 3:** Dispel Magic, Tiny Hut, Water Breathing, Excruciating Deformation
+**Level 1:** Touch of Gracelessness, Ray of Enfeeblement, Vanish, Magic Missile, Comprehend Languages, Entangle
+**Level 0:** Read Magic, Drench, Dancing Lights, Spark, Haunted Fey Aspect
+
+Fey spell list (gained from Feycat class features): Entangle, Hideous Laughter, Deep Slumber, Poison, Tree Stride, Mislead, Phase Door, Irresistible Dance, Shapechange
+
+## Equipment
+| Item | Notes |
+|------|-------|
+| **Sash of Charisma +6** | |
+| Belt of Physical Perfection +6 | STR/DEX/CON +6 |
+| Cloak of Resistance +5 | |
+| Ring of Protection +5 | |
+| Amulet of Natural Armor +5 | |
+| Bracers of Armor +8 | |
+| **Ring of Mind Blank** | Immune to divination and mind-reading |
+| Cloak of Elvenkind | +5 Stealth |
+| **+4 Keen Throwing Dagger** | Ranged sneak-attack delivery |
+| **Adamantine Punch Dagger +5 Ghost Touch** | Primary melee; bypasses incorporeal |
+| **200,000 gp** cash | |
+
+## Notes
+
+Feycat is a custom race — a cat-type fey creature. The DR 10/cold iron, poison immunity, and fey spell list are the racial features; the extraordinary fly speed (80 ft.) and 40-ft. movement suggest a naturally mobile creature.
+
+Greater Invisibility at will (20 rounds/day at level 20 = nearly every combat) combined with Sneak Attack +10d6 and Stealth +39 is the core combat identity: she is functionally invisible for any combat she chooses, and every attack while invisible is a sneak attack. Master Strike means any sneak attack can alternatively force a Fort DC 24 vs. paralysis, sleep, or death.
+
+CHA 31 makes her socially devastating: Bluff, Diplomacy, and Perform all at +36, backed by Soul of the Fey making animals refuse to attack her.
+
+Hide in Plain Sight in forest terrain + Terrain Mastery (Forest) means she operates at full effectiveness in her native environment — in a forest, Honi is essentially unhittable, invisible at will, and striking for +10d6 damage.

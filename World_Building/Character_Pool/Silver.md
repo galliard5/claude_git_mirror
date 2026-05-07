@@ -1,111 +1,85 @@
 ---
 name: Silver
-keywords: [silver-dragon, oracle, sorcerer, gestalt, pathfinder, level-26, epic, neutral-good, heavens-mystery, starsoul-bloodline]
-description: Epic-level silver dragon oracle/sorcerer gestalt with cosmic themes, nearly-invulnerable defenses, and a full epic spell list.
+keywords: [pathfinder, pf1e, silver-dragon, gestalt, oracle, sorcerer, heavens-mystery, starsoul-bloodline, galliard, wyrmling-gestalt]
+description: Galliard's PF1e Silver Dragon gestalt Oracle 22//Sorcerer 19/Dragon 3, level 26. NG female. AC 57, Will +46, 500 HP, Heal +41, Fly +36. Oracle Heavens mystery + Starsoul sorcerer bloodline. Linnwyrm armor. DR 5/slashing, immune to fire. Cold cone + paralysis cone breath. Family still alive; worked with giants.
 ---
 
-# Silver ("Золото серебро медь латунь бронза")
+# Silver
 
-**System:** Pathfinder 1e (Myth-Weavers AutoTransfer + companion spell/inventory sheets)
-**Original Campaign:** Randoms / wyrmling gestalt
-**Player:** (unrecorded)
+**System:** Pathfinder 1e (web character sheet JSON)
+**Player:** Galliard (implied)
+**File:** `AutoTransfer randoms wyrmling gestalt.json`
+**Campaign:** Unknown (high-power gestalt game)
 
 ## Identity
 - **Race:** Silver Dragon | **Gender:** Female | **Age:** Young
-- **Class:** Oracle 22 // Sorcerer 19 / Dragon 3 (Gestalt) — Effective Level 26
-- **Alignment:** NG | **Size:** Small | **Speed:** 30 ft / 150 ft (good) fly, hover
-- **Height:** 36 in | **Weight:** 60 lb
-- **Eyes:** Black
-
-## True Name
-**Золото серебро медь латунь бронза** — written in Cyrillic as a stand-in for Draconic script. Translates as: *Gold, Silver, Copper, Brass, Bronze* — all five metallic dragon types, spoken simultaneously as a single name, as if by Tiamat. "Silver" is simply what everyone calls her. The true name implies something vast: she carries the essence of all five metallics compressed into one being, her Draconic name only fully pronounceable by a voice capable of speaking in multiple registers at once.
-
-## Ability Scores (base / with items)
-| Stat | Base | With Items |
-|------|------|-----------|
-| STR | 18 (+4) | 24 (+7) |
-| DEX | 18 (+4) | 24 (+7) |
-| CON | 24 (+7) | 30 (+10) |
-| INT | 20 (+5) | 26 (+8) |
-| WIS | 28 (+9) | 34 (+12) |
-| CHA | 28 (+9) | 34 (+12) |
-
-## Combat
-- **HP:** 500 | **AC:** 57 (touch 35, flat 50) | **Init:** +7
-- **Fort:** +40 | **Ref:** +37 | **Will:** +46
-- **BAB:** +19/+14/+9/+4 | **CMD:** 59
-- **DR:** 5/slashing + immune to fire | **MR:** 1
+- **Name:** "Золото серебро медь латунь бронза. 'silver'" — Cyrillic text meaning "Gold silver copper brass bronze" with 'silver' in quotes; her name is Silver.
+- **Class:** Oracle 22 // Sorcerer 19 / Dragon 3 (gestalt)
+- **Level:** 26 | **Size:** Small
+- **Alignment:** Neutral Good
 - **XP:** 10,411,100
 
-### Natural Attacks
-| Attack | Bonus | Damage | Notes |
-|--------|-------|--------|-------|
-| Bite | +23 | 1d6+4 | |
-| Claw | +23 | 1d4+4 | |
-| Breath (cold cone) | Ref DC 26 | 2d8 | 20 ft cone |
-| Breath (paralysis) | Fort DC 26 | — | 1d6+1 rounds |
+## Attributes (base / temp buffed)
+STR 18/24 | DEX 18/24 | CON 24/30 | INT 20/26 | WIS 28/34 | **CHA 28/34**
 
-## Mystery & Class Features
+Headband of Mental Superiority +6 and Belt of Physical Perfection +6 boost most stats. WIS and CHA at 28/34 are extraordinary.
 
-### Oracle — Heavens Mystery
-- **Curse:** Tongues (speaks Celestial/Abyssal in combat)
+## Defense
+**AC 57** (touch 35, flat 50) | **DR 5/slashing; immune to fire** | SR 31
+Fort +40 | Ref +37 | **Will +46** | **HP 500** | Speed: 30/fly 150 (good)
+
+## Oracle Abilities
+- **Mystery:** Heavens
+- **Curse:** Tongues — can only speak Celestial or Abyssal when using magic; speaks and understands any language (from Final Revelation at 20th level)
+- **Final Revelation:** saves bonus equal to CHA modifier; immune to fear; auto-confirm crits; if killed, reborn in 3 days as a star child
 - **Revelations:** Awesome Display, Coat of Many Stars (+12 AC), Guiding Star, Interstellar Void, Star Chart, Dweller in Darkness
-- **Final Revelation (20th):** Bonus on all saves = Cha modifier; auto-stabilize below 0 HP; immune to fear; auto-confirm all crits; reborn as star child 3 days after death.
-- Speaks/understands any language (Hyper Linguist equivalent via Tongues curse)
 
-### Sorcerer — Starsoul Bloodline
-- Whenever casting an evocation spell, failed-save targets are dazzled for 1 round/spell level.
-- Minute Meteor, Aurora Borealis, Breaching the Gulf, Voidwalker
+## Sorcerer Abilities
+- **Bloodline:** Starsoul — whenever she casts an evocation spell, failed-save targets are dazzled for 1 round/spell level
 
-### Dragon (Silver)
-- Cold/acid immunity; cloudwalking; polymorph 3/day
+## Dragon Abilities
+- **20' cone of cold** — 2d8, Reflex DC 22+CON
+- **20' cone of paralysis** — Fort DC 22+CON, 1d6+1 rounds
+- **Immune: acid, cold, paralysis, sleep**
+- **+4 vs trip**
+- **Polymorph 3/day**
 
 ## Key Skills
-| Skill | Modifier |
-|-------|----------|
-| Fly | +36 |
-| Heal | +41 |
-| Knowledge (Arcana/Planes/Religion) | +37 |
-| Spellcraft | +37 |
-| Survival/Sense Motive | +27 |
-| Knowledge (Astronomy/Cartography) | +20 |
-| Use Magic Device | +24 |
-| Craft (stone) | +26 |
+Fly +36 | Heal **+41** | Knowledge (Arcana/Planes/Religion) **+37** | Spellcraft +37 | Perception +27 | Sense Motive +27 | Knowledge (Astronomy) +20 | Knowledge (Cartography) +20 | Survival +27
 
-## Feats
-Shape Breath, Clinging Breath, Combat Casting, Scribe Scroll, Spell Penetration (×2), Arcane Armor Training/Mastery, Hover, Improved Maneuverability, Merciful Spell, Piercing Spell (+5 vs SR), Blind Fight, Improved Counterspell, Quicken Spell, Epic Level Spellcasting, Immune (acid, cold, paralysis, sleep)
-
-## Spell Lists (from companion sheet)
-**Sorcerer (Levels 0–9):** Full progression. Highlights: hydraulic push, enlarge person, mirror image, twisted space, sepia snake sigil, call the void, blacklight, remove curse, charm monster, ice storm, prismatic wall, baleful polymorph, permanency, cloak of dreams, disintegrate, wall of iron, statue, delayed blast fireball, stormbolts, scintillating pattern, wall of lava, clashing rocks, teleportation circle. Bloodline: unseen servant, glitterdust, blink, call lightning storm, overland flight, repulsion, reverse gravity, greater prying eyes, Meteor Swarm.
-
-**Oracle (Levels 0–9):** Highlights: shield of faith, command, sanctuary, lesser restoration, resist energy, grace, stone shape, dispel magic, protection from energy, dismissal, dimensional anchor, death ward, true seeing, spell resistance, serenity, word of recall, dust form, banishment, control weather, repulsion, destruction, holy aura, divine vessel, antimagic field, mass heal, interplanetary teleport, gate. Mystery: color spray, hypnotic pattern, daylight, rainbow pattern, overland flight, chain lightning, prismatic spray, sunburst, meteor swarm.
-
-## Spell Slots
-Oracle 6/6/6/6/6/6/6/6/6/2 + Sorcerer 6/6/6/6/6/6/6/6/6/4. Spell DCs 22–31.
+## Key Feats
+Shape Breath | Clinging Breath | Merciful Spell (+0 level, make damage nonlethal) | Piercing Spell (+5 SR, +1 level) | Blind Fight | Improved Counterspell | **Quicken Spell** | Hover | Improved Maneuverability | Combat Casting | Scribe Scroll | Spell Penetration (+Greater) | Arcane Armor Training/Mastery | Epic Level Spellcasting | Minute Meteor | Voidwalker | **Aurora Borealis** | Breaching the Gulf
 
 ## Equipment
-- Linnwyrm armor +5 (Freedom, fire immune, mirrored, ghost touch) — AC +10
-- Headband of Mental Superiority +6
-- Tome of Understanding +5 / Tome of Leadership +5 / Manual of Gainful Exercise +5
-- Belt of Physical Perfection +6 | Cloak of Resistance +5
-- Amulet of Natural Armor +6 | Ring of Protection +5
-- Deathward Ring | Greater Metamagic Rod of Empowerment
-- Bracers of Catalyst Casting
-- Dusty Rose Ion Stone (+5 AC)
+| Item | Notes |
+|------|-------|
+| **Linnwyrm Armor** | +10 armor, freedom of movement, fire immunity (stacks), ghost touch; custom named |
+| Headband of Mental Superiority +6 | INT/WIS/CHA all +6 |
+| Belt of Physical Perfection +6 | STR/DEX/CON all +6 |
+| Ring of Protection +5 | |
+| Amulet of Natural Armor +6 | |
+| Cloak of Resistance +5 | |
+| Deathward Ring | Permanent death ward effect |
+| Greater Metamagic Rod of Empowerment | |
+| Tome of Understanding +5 | WIS permanently +5 (already applied) |
+| Tome of Leadership +5 | CHA permanently +5 (already applied) |
+| Manual of Gainful Exercise +5 | STR permanently +5 (already applied) |
+| Bracers of Catalyst Casting | Reduce metamagic level cost by 1 |
 
-## Treasury (from accounting sheet)
-Approximately 5,945,232 gp equivalent across loot, equipment, and lair items. Lair includes: permanent phase door, gust of wind, wall of force, teleport circle (keyed), pool of scrying, secure cavern (permanent mind blank), wonderous absence (conceals magical auras), chamber of comfort, decanter of endless water, everful larder.
+## Character Notes (from file)
+"family still alive" | "dragon worked with giants"
 
-## Lair
-An asteroid in the asteroid belt. She looked up one day, decided that rock was hers, and got there via Teleport Without Error. The permanent magical infrastructure listed above has since been installed inside it. The teleport circle (keyed) is presumably the standard method of receiving guests — or leaving in a hurry.
+These two notes represent the entire character backstory recorded in the file — concise but significant. A silver dragon who is young, has living family, and has a history of cooperation with giants. In PF1 context, silver dragons are known for interacting with humanoids; giants are more unusual allies.
 
-## Active Project — The Stone Sphere
-At the time of the sheet, Silver was designing an **epic-level spell of tier 10 or 11** — beyond the standard cap of 9th-level magic. The spell was being scribed onto a stone sphere. The sphere has enough degrees of surface area to hold the complete notation of the spell — which requires **more than 360 degrees**, implying the object exists in higher-dimensional space or employs a non-Euclidean geometric framework. A standard sphere provides exactly 360 degrees in any given plane; a sphere capable of exceeding that as a writing surface is not a geometrically normal object. The spell itself is unfinished and its intended effect is unrecorded.
+## Spell List
+Stored in a linked Google Docs spreadsheet (not locally). Slots available: 6/slot across all 10 levels for oracle; 6/slot for sorcerer.
 
-## Background Notes (from sheet)
-Family still alive. Dragon worked with giants at some point. Accumulated through extensive adventuring.
+## Notes
 
-## Hooks & Notes
-An effectively invulnerable epic oracle/sorcerer who happens to also be a silver dragon. The Final Revelation makes her unkillable in conventional terms — she literally comes back as a star child. The starsoul/heavens theming gives her a cosmic grandeur appropriate to a near-deity-level entity.
+The name is written in Cyrillic as a list of precious metals — Gold, Silver, Copper, Brass, Bronze — followed by "'silver'" in quotes, suggesting she's specifically the "Silver" in a group of metallic dragon characters named for their type.
 
-At level 26 she is clearly endgame content, best used as a BBAA (big beautiful ally ally), a recurring patron NPC, or the culmination of a very long campaign. The asteroid lair is deliberately isolated — she chose it herself, which says something about her relationship to the wider world. The unfinished stone sphere and its level 10/11 working is an obvious adventure hook: whatever she was trying to do, it isn't done, and she's had the solitude of an asteroid to keep working on it.
+Will +46 is the most striking defensive stat — essentially unaffected by almost any mental effect in the game. The Final Revelation at oracle 20 means she auto-confirms critical hits, is immune to fear, and reincarnates if killed.
+
+The Linnwyrm Armor combines fire immunity (matching silver dragon's cold immunity to round out elemental coverage) with ghost touch and freedom of movement — this is bespoke equipment for a specific character rather than standard gear.
+
+At XP 10.4 million and level 26, this is a very long-running or very fast-advancing campaign.

@@ -1,90 +1,82 @@
 ---
 name: Daniel_Sanchez
-keywords: [rifts, dogboy, retriever, level-5, underwater-armor, tracking, kaisens-game]
-description: Rifts Level 5 Dogboy (Retriever) with exceptional tracking and aquatic capabilities; from Kaisen's game.
+keywords: [rifts, dogboy, retriever, kaisen-game, demolitions, underwater, scuba, galliard-gm]
+description: Daniel Sanchez, a RIFTS Dogboy Retriever level 5 from Kaisen's RIFTS game. IQ 18, PS 19, PP 21. Demolitions, first aid, Intel, scuba, swimming 99%. Baracuda underwater armor. Sense psy/magic 50 ft, sense supernatural 100 ft/level, smell tracking. Player: Kaisen (Galliard likely GM).
 ---
 
 # Daniel Sanchez
 
-**System:** Rifts (Palladium Books)
-**Original Campaign:** Kaisen's Rifts game
-**Player:** (unrecorded)
+**System:** RIFTS (Palladium)
+**Player:** Kaisen (this is Kaisen's character — Galliard is presumed to be GM)
+**File:** `Kaisens rifts game - Sheet1.csv`
 
 ## Identity
-- **Race:** Dogboy — Retriever | **Level:** 5
-- **Alignment:** (unrecorded)
-- **Languages:** American 90%, Draconic 90%
+- **Name:** Daniel Sanchez
+- **Race:** Dogboy Retriever
+- **Level:** 5
+- **Alignment:** Unspecified
+- **IQ:** 18 | **Languages:** American (90%), Draconic (90%)
 
 ## Attributes
-| IQ | M.E. | M.A. | P.S. | P.P. | P.E. | P.B. | Spd |
-|----|------|------|------|------|------|------|-----|
-| 18 (+4) | 12 | 13 | 19 (+4) | 21 (+3) | 16 | 14 | 43 |
+| Attr | Score | Bonus |
+|------|-------|-------|
+| IQ | 18 | +4 |
+| ME | 12 | — |
+| MA | 13 | — |
+| **PS** | 19 | +4 |
+| **PP** | 21 | +3 |
+| PE | 16 | — |
+| PB | 14 | — |
+| Spd | 43 | Run 860 yds/min |
 
-- **HP:** 16 | **SDC:** 45
-- **Run:** 860 yds/min (~29 mph) | **Swim:** 228 yds/min
+Spd 43 = 860 yards/minute, which is approximately 29 mph — fast for a ground combatant.
 
-## Combat — H2H Basic
-| Modifier | Bonus |
-|----------|-------|
-| Strike | +4 |
-| Parry | +5 |
-| Dodge | +5 |
-| Roll w/Impact | +6 |
-| Damage | +4 |
-| Initiative | +2 |
-| Attacks per Melee | 2 (base) |
+## Combat
+Strike +4 | Parry +5 | Dodge +5 | Roll +6 | Damage +4 | Initiative +2 | Attacks 2
+H2H: Basic
 
-## Armor — Barracuda Underwater Armor
+## Armor: Baracuda Underwater Armor
 | Location | MDC |
 |----------|-----|
 | Head | 55 |
-| Left Arm | 22 |
-| Right Arm | 22 |
 | Chest | 55 |
-| Left Leg | 40 |
-| Right Leg | 40 |
+| L/R Arm | 22 each |
+| L/R Leg | 40 each |
 
-## Special / Natural Abilities
-- **Sense Psychic/Magic Energy:** 50 feet
-- **Sense Supernatural:** 100 feet per level
-- **Sense of Smell:** General (id common odors 83%, id specific odors 64% at 25 ft/level, track by smell 61%)
+Underwater-specialized armor suggests an aquatic campaign.
 
-## Saving Throws
-- Psionics: +1 (roll 9)
-- All others baseline (no bonuses recorded beyond attribute modifiers)
+## HP / SDC
+HP: 16 | SDC: 45
 
-## Skills
-| Source | Skill | % |
-|--------|-------|---|
-| Racial | Sense Psy/Magic | 18% (+2/lvl) |
-| Racial | Sense Supernatural | 72% (+2/lvl) |
-| Racial | ID Common Odors | 83% (+3/lvl) |
-| Racial | ID Specific Odors | 64% (+2/lvl) |
-| Racial | Track by Smell | 61% (+4/lvl) |
-| Racial | Swimming | 99% |
-| OCC | Archaeology | 39% (+5/lvl) |
-| OCC | Auto Mechanic | 49% (+5/lvl) |
-| OCC | Back Flip (gym) | 94% (+5/lvl) |
-| OCC | Climb Rope (gym) | 85% (+2/lvl) |
-| OCC | Climbing | 69% (+5/lvl) |
-| OCC | Cooking | 54% (+5/lvl) |
-| OCC | Demolitions | 78% (+3/lvl) |
-| OCC | First Aid | 69% (+5/lvl) |
-| OCC | Intelligence | 54% (+4/lvl) |
-| OCC | Lit: American | 49% (+5/lvl) |
-| OCC | Lit: Draconic | 49% (+5/lvl) |
-| OCC | Math: Advanced | 64% (+5/lvl) |
-| OCC | Math: Basic | 69% (+5/lvl) |
-| OCC | Parallel Bars (gym) | 78% (+3/lvl) |
-| OCC | Pilot: Automobile | 80% (+2/lvl) |
-| OCC | Prowl | 51% (+5/lvl) |
-| OCC | Radio: Basic | 74% (+5/lvl) |
-| OCC | Radio Scrambler | 54% (+5/lvl) |
-| OCC | SCUBA | 69% |
-| OCC | Sense of Balance (gym) | 74% (+5/lvl) |
-| OCC | Wild Survival | 64% (+5/lvl) |
+## Racial Abilities (Dogboy Retriever)
+| Ability | Range | Notes |
+|---------|-------|-------|
+| **Sense Psychic/Magic Energy** | 50 feet | — |
+| **Sense Supernatural Creatures** | 100 ft/level | At level 5 = 500 ft |
+| **Sense of Smell (common odors)** | 100 ft/level | ID odors at 500 ft |
+| **ID specific odors** | 25 ft/level | 125 ft at level 5 |
+| **Track by Smell** | — | 61% base |
+| **Swimming** | — | 99% (racial maximum) |
 
-(Several skills noted on sheet at base level with further advancement unrecorded: Hunting 4%, Land Navigation 14%, Read Sensor 14%, Weapon Systems 14%)
+## Key Skills
+| Skill | % |
+|-------|---|
+| Swimming | 99 |
+| Back Flip (gym) | 94 |
+| Demolitions | 78 |
+| Pilot: Auto | 80 |
+| Radio: Basic | 74 |
+| Wild Survival | 64 |
+| Intel | 54 |
+| Scuba | 69 |
+| Prowl | 51 |
 
-## Hooks & Notes
-A Retriever-breed Dogboy is a natural tracker and aquatic operative — the Barracuda underwater armor and maxed-out Swimming confirm he's built for amphibious work. Demolitions 78% at level 5 is notable; combined with the intelligence and survival skills, he reads like a reconnaissance and demolitions specialist rather than a front-line combatant. The Draconic language (spoken and literate) at level 5 is unusual for a dogboy and suggests significant experience in the field dealing with supernatural entities. The sense abilities (psy/magic detection, supernatural detection, scent tracking) make him a living early-warning system. P.P. 21 means excellent physical reflexes. Solid candidate for any Rifts game needing an aquatic tracker/demo specialist, or could find a home in the Gallihammer setting as a field operative with a sci-fi skin.
+## Notes
+
+A Dogboy Retriever in RIFTS is a genetically engineered dog-human hybrid created by the Coalition States as military support troops. Retrievers specifically are bred for tracking and retrieval — hence the exceptional swimming and scent abilities. Daniel has defected, joined an independent team, or is being played in a less Coalition-focused campaign.
+
+The combination of Demolitions 78%, Scuba 69%, and Baracuda underwater armor paints a specific tactical role: underwater demolitions specialist. The supernatural sensing abilities (psychic/magic at 50 ft, supernatural at 500 ft by level 5) make him invaluable as an early-warning system.
+
+Draconic at 90% alongside American is unusual for a Coalition-designed Dogboy — Coalition units typically only speak American. He's either defected, been educated beyond standard military programming, or this is a more cosmopolitan campaign.
+
+IQ 18 and the full skill suite (Archaeology, Auto Mechanic, Demolitions, First Aid, Intel, Scuba) point to a Dogboy who has developed far past basic military conditioning.

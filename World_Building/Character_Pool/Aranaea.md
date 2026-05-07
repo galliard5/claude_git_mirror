@@ -1,118 +1,111 @@
 ---
 name: Aranaea
-keywords: [eclipse-phase, arachnoid, terran, outer-colonial, archaeologist, demolitions, sundered-galaxy, kagis-game]
-description: Battle-hardened arachnoid archaeologist with alien language skills, cyberclaws, and demolitions expertise; from Kagi's Sundered Galaxy Eclipse Phase game.
+keywords: [eclipse-phase, ep1e, arachnoid, synthmorph, kagi-game, outer-colonial, terran, galliard]
+description: Eclipse Phase 1e character for Kagi's EP game. Name: Aranaea. Arachnoid synthmorph. 1000 CP. Outer Colonial background, Terran faction. Motivation: +Exploration. Traits: Tough (+5 Dur, +1 wound). Gear includes chameleon armor, fractal digits, pneumatic limbs, 360 vision, eelware, lidar, structural enhancement. Reputation mixed (Terran Acclaim -50, Peoples' Acclaim +55).
 ---
 
 # Aranaea
 
-**System:** Eclipse Phase 1e (Fantasy Phase / Sundered Galaxy custom setting)
-**Original Campaign:** Kagi's Eclipse Phase / The Sundered Galaxy (TSG)
-**Player:** (unrecorded — likely Kagi's character)
-**Faction:** Terran | **Background:** Outer Colonial
-**Morph:** Arachnoid (synthetic spider body)
+**System:** Eclipse Phase 1e (custom spreadsheet character sheet)
+**File:** `kagi's ep game.xlsx`
+**Campaign:** Kagi's EP game
+**Player:** Galliard (inferred from file context)
 
-## Motivations
-- +Exploration
-- (additional motivations unrecorded)
+## Identity
+- **Name:** Aranaea
+- **Background:** Outer Colonial
+- **Faction:** Terran
+- **Morph:** Arachnoid (synthmorph)
+- **Character Points:** 1,000
+- **Motivation:** + Exploration
 
-## Aptitudes
-| COG | COO | INT | REF | SAV | SOM | WIL |
-|-----|-----|-----|-----|-----|-----|-----|
-| 20 | 25 | 20 | 15 | 5 | 30 | 10 |
+## Morph: Arachnoid
+Arachnoids are spider-like synthmorphs — eight limbs (typically 4 locomotion legs + 4 manipulator arms or variant), no biological components. The sheet's augmentation list reflects significant hardware additions beyond the base morph.
 
-## Vital Statistics
-- **Moxie:** 2 | **Initiative:** 7 | **Speed:** 1 | **DB:** 6 (SOM/10)
-- **Lucidity:** 20/40 | **TT:** 4 | **IR:** 40
-- **Wound Threshold:** 11 | **Durability:** 55 (base) +10 from Structural Enhancement = 65 effective
-- **Death Rating:** 83 (normal: DUR ×1.5; synthmorph: DUR ×2.0)
-- **Wound/Trauma penalty:** 0 (undamaged)
-- **Armor Penalty Mitigator:** 3
+**Base Morph Stats:**
+- SOM 10 | WILL 10 (base aptitudes)
+- Durability 30 + Tough trait bonus = **35** | Wound Threshold 7 (+1 from Tough) = **8**
 
-## Armor
-Light Combat Armor 14/12 (Energy/Kinetic)
-Mods: Chameleon Coating (+30 visual stealth), Fireproofing (+2/+0, +10 vs fire), Self-Healing, Shock Proof (+10 vs shocks), Thermal Dampening (+30 against thermal spotting)
-
-## Weapons & Combat
-| Weapon | Skill | DV | AP | Modes |
-|--------|-------|----|----|-------|
-| Cyberclaws | Unarmed | 2d10+3+(SOM/10) | -2 | SA |
-| (secondary weapon unspecified) | — | — | — | — |
-
-Implanted nanotoxin: Necrosis
-
-## Morph — Base Arachnoid
-Access Jacks, Basic Mesh Inserts, Cortical Stack, Cyberbrain, Enhanced Vision, Extra Limbs (10), Lidar, Mnemonic Augmentation, Pneumatic Limbs (free; +20 Freerunning, +1d10 melee damage), Radar
-
-## Additional Implants
-- Fractal Digits (+20 COO for fine manipulation)
-- Hidden Compartment
-- Magnetic System (+30 when holding onto magnetic surfaces)
-- Structural Enhancement (+10 DUR, +2 Wound Threshold)
-- Chemical Sniffer
-- Nanoscopic Vision
-- 360 Vision
-- Traction Pads
-- X-ray Emitter (T-ray)
-- Direction Sense, Echolocation, Enhanced Hearing, Enhanced Smell
-- Math Boost
-- Eelware (shock melee)
-- Laser/Microwave Link, Radio Booster
-- Fiber Eye
+## Traits
+| Trait | Notes |
+|-------|-------|
+| **Tough** | +5 Durability, +1 Wound Threshold |
 
 ## Reputation
-Starting credits: 9,150 (after ~19,850 spent on equipment); Liquidity: 9,150
+| Rep | Score | Notes |
+|-----|-------|-------|
+| Terran Acclaim | **-50** | Negative reputation with Terran/Corp sphere |
+| c-rep (unknown) | 45 | |
+| Street Cred | 10 | |
+| Peoples' Acclaim | **+55** | Strong positive reputation with autonomist/general public sphere |
 
-## Trait
-**Positive:** Tough (+5 durability, +1 wound threshold)
+The negative Terran rep alongside high Peoples' rep suggests a character who operates against corporate interests — not unusual for an Outer Colonial background (the outer system tends toward autonomist/anarchist factions).
 
-## Key Skills
-| Skill | Total | Notes |
-|-------|-------|-------|
-| Scrounging | 60 | +10 ruins specialization |
-| Archaeology | 60 | Knowledge skill |
-| Xeno-Archaeology | 60 | Knowledge skill |
-| Blades | 50 | |
-| Unarmed Combat | 50 | Cyberclaws |
-| Demolitions | 50 | |
-| Kinetic Weapons | 45 | |
-| Infiltration | 45 | |
-| Fray | 45 | |
-| Freerunning | 68 | Includes morph bonuses |
-| Climbing | 50 | |
-| Perception | 60 | +20 from morph enhancements |
-| Infosec | 40 | |
-| Research | 40 | |
-| Flight | 45 | Thrust vector movement |
-| Investigation | 40 | |
-| Kinesics | 30 | |
-| Programming | 35 | |
-| Hardware (Electronics/Robotics) | 40 | |
+## Gear (Equipped Augmentations and Armor)
 
-### Knowledge Skills
-| Skill | Total |
-|-------|-------|
-| Xeno-Linguistics | 40 |
-| Geology | 40 |
-| Academics (Engineering) | 40 |
-| Academics (Architecture) | 50 |
-| Academics (Math/Physics) | 30 |
-| Art (Fireworks/Sculpture) | 40 |
-| Interest (Alien Trinket Collection) | 50 |
-| Interest (D&D) | 40 |
+### Combat Armor
+**Light Combat Armor** with modifications:
+- Chameleon Coating — +30 to visual stealth
+- Fireproofing — +2/+0 armor vs fire, +10 vs fire effects
+- Self-Healing — repairs damage over time
+- Shock Proof — +10 vs shock effects
+- Thermal Dampening — +30 against thermal spotting
 
-### Languages
-| Language | Level |
-|----------|-------|
-| English (native) | 90 |
-| Summerian | 40 |
-| Low-Kiirutani | 40 |
+### Arachnoid Augmentations (Morph Hardware)
+| Augmentation | Effect |
+|-------------|--------|
+| Access Jacks | Standard meshed connection ports |
+| Basic Mesh Inserts | Built-in mesh access |
+| Cortical Stack | Memory backup |
+| Cyberbrain | Digital mind; allows resleeving |
+| Enhanced Vision | Visual spectrum upgrades |
+| Extra Limbs (10) | 10-limb configuration |
+| Lidar | 3D laser ranging sensor |
+| Mnemonic Augmentation | Perfect memory of experiences |
+| Pneumatic Limbs | +20 Freerunning; +1d10 melee damage |
+| Radar | Range detection |
 
-## Hooks & Notes
-Aranaea is a field archaeologist who's turned herself into a combat-capable excavator. The alien language skills (Summerian, Low-Kiirutani) are not canon EP languages — they belong to the Sundered Galaxy custom setting, where alien civilizations have been encountered. This immediately establishes her as someone who works in deep xenoarchaeological territory. Demolitions 50 + Archaeology 60 + Scrounging 60 (+ruins specialization) is the toolkit of someone who opens sites by force when necessary.
+### Additional Purchases
+| Item | Effect | Cost |
+|------|--------|------|
+| **Fractal Digits** | +20 COO for fine manipulation tasks | — |
+| **Hidden Compartment** | Concealed storage space | 250 |
+| **Magnetic System** | +30 when holding onto magnetic surfaces | 5,000 |
+| **Structural Enhancement** | +10 Durability, +2 Wound Threshold | 250 |
+| **Weapon Mount (articulated)** | Concealed articulated weapon mount | 250 |
+| **360 Vision** | Full spherical visual coverage | 1,000 |
+| **Chemical Sniffer** | Detects chemical compounds | 1,250 |
+| **Nanoscopic Vision** | See at nanoscale | — |
+| **Math Boost** | Enhanced mathematics processing | — |
+| **Eelware** | Electrical discharge capability | — |
+| **Laser/Microwave Link** | Long-range directional comms | — |
+| **Radio Booster** | Extended radio range | — |
 
-The Outer Colonial background suggests she grew up in the far reaches of human space — explaining the xenophiliac skill investments and the high SOM/physical resilience orientation. The Terran faction affiliation in a far-out setting may indicate political alignment rather than physical origin.
+## Skills (selected, from front page skill list)
+| Skill | Value | Apt |
+|-------|-------|-----|
+| Beam Weapons | 60 | COO |
+| Perception | 60 | INT |
+| Kinetic Weapons | 45 | COO |
+| Infiltration | 45 | COO |
+| Infosec | 40 | COG |
+| Investigation | 40 | COG |
+| Palming | 40 | COO |
+| Freerunning | (COO-based, level not read) | |
+| Medicine: First Aid | 40 | COG |
+| Medicine: Field | 20 | COG |
+| Networking: Archaeology | 15 | SAV |
 
-The implanted necrosis nanotoxin is a significant detail — she carries a lethal payload in her own body, which raises obvious questions about what she's prepared to do. Combined with eelware and pneumatic limbs, she's not just a scholar; she's dangerous up close.
+**Weapons listed:**
+- Primary Weapon (value 401 — likely a beam or kinetic weapon)
+- Secondary Weapon (value 110)
 
-Natural fit for the Gallihammer Archaeos Expedition setting given the xenoarchaeological focus. Could also work in any Eclipse Phase or sci-fi campaign that encounters non-human ruins.
+## Notes
+
+The Terran Acclaim -50 is a significant negative reputation — it means corporate and government-aligned NPCs react poorly to Aranaea as a known entity. The +55 Peoples' Acclaim is the offset: she's trusted by civilian, underground, and autonomist communities.
+
+The Outer Colonial background combined with an Arachnoid morph (which is a robotic spider-body typically used in industrial/engineering contexts) and a skill set heavy in perception, infiltration, and beam weapons suggests a character built for remote operations — someone used to working in dangerous vacuum or hostile environments where you need to see everything, move fast, and shoot accurately.
+
+The Pneumatic Limbs (+1d10 melee, +20 Freerunning) combined with 10 extra limbs creates formidable close-combat capability for what is otherwise an infiltration/sensor-focused build. The spider-body can run and hit harder than most expect.
+
+Filed here as a Character Pool entry. The spell/inventory sheet is separate from the character.
