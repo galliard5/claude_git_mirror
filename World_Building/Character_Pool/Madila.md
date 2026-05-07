@@ -62,8 +62,53 @@ Claw (Primary) × 2 | Bite (Secondary) | Flurry of Blows (Monk)
 
 The Flurry of Blows is listed as an equipment item ("Flurry of Blows," quantity 0) — a PCGen artifact for the monk's full-attack mode.
 
-## MapTool Token
-`Madila.rptok` exists in the import folder alongside `Heskan.rptok` — both are MapTool virtual tabletop tokens, meaning this character was actively used in a VTT game at some point.
+## MapTool Token — Advanced Version
+`Madila.rptok` confirms she was actively played in VTT. The token represents a **significantly higher-level** version of Madila than the PCGen sheet (level 4), showing substantial development:
+
+### VTT Skill Bonuses
+| Skill | Total |
+|-------|-------|
+| Move Silently | **+22** |
+| Tumble | **+22** |
+| Climb | **+25** (+5 from Diana staff) |
+| Spot | +15 |
+| Hide | +11 |
+| Balance | +9 |
+| Search | +3 |
+
+### VTT Attack Bonuses
+Quarterstaff: **+20** standard / **+24+10** when flanking (the +10 is from the Chameleon Cloak). This implies BAB well into double digits — likely level 12+.
+
+Standard monk unarmed damage: **2d6+2+STRbonus** — for a Small creature on the monk damage table, 2d6 is approximately monk level 16+.
+
+### Additional Powers (VTT only, not in PCGen sheet)
+| Power | Notes |
+|-------|-------|
+| **Werebear** | Werebear Off toggle macro — she acquired lycanthropy |
+| **Spellreaving Fist** | Dispels magic on hit; uses level+6 modifier |
+| **Dayburst Fist** | Special strike |
+| **Fiery Fists** | Fire-damage unarmed attacks (Half-Dragon synergy) |
+| **Eviscerating Strike** | Called precision strike |
+| **Eye Gouge** | Called shot to the eye |
+| **Nerve Strike** | Targeted strike |
+| **refresh chakra** | Chi/energy recovery ability |
+
+### Full Equipment (VTT)
+| Item | Notes |
+|------|-------|
+| **+2 Axiomatic Ki Strike quarterstaff "Diana"** | Also a +2 Returning Ki Strike javelin when thrown. Axiomatic: 2d6 vs chaotic. Can grow/shrink 1 inch to 20 feet (standard action). +5 Jump. Free trip attempt on any hit. Marked with the name Diana. |
+| **+1 Sling of Undead Bane** | "Holy sling" in VTT |
+| **+5 Leather Armor** | |
+| **+1 Bracers of Armor** | |
+| **Chameleon Cloak** | +10 to attack bonus when flanking |
+| Ring of Featherfall | Same as PCGen |
+| Ring of Force Shield | New — not on PCGen sheet |
+| Wand of Invisibility | |
+| **Wand of Cure Moderate Wounds** | 45 charges, 2d8+3 |
+| **Marvelous Pigments** | Creates objects from painted surfaces |
+
+### Werebear Note
+The Werebear lycanthropy is the most significant addition beyond the PCGen sheet. As a werebear, Madila gains a powerful hybrid/animal form with bear natural weapons and STR bonuses. Combined with her monk unarmed attacks and Half-Dragon breath, she has three distinct physical combat modes: monk strikes, dragonborn breath, and bear form. The "Werebear Off" macro label suggests she can toggle between forms in the VTT interface.
 
 ## Notes
 "Starscream saturday morning kobold monk" as a filename is the most evocative filename in the entire batch. It suggests a campaign called Starscream, played on Saturday mornings, involving a kobold monk. The "saturday morning" framing implies a lighter, more fun tone — a deliberate aesthetic choice, like a children's cartoon premise taken seriously.
