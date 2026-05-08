@@ -5,19 +5,18 @@ description: Supplementary procedures, tool schemas, and standards — load on d
 ---
 
 This file supplements `file_system_instructions.md`. Load when needed for:
-- Complete tool schemas with examples (every filesystem and memory tool)
+- Complete tool schemas with examples (filesystem, memory, corpus-search)
 - Template usage
-- Full scan process
+- Index refresh tooling and conventions
 - Python script protocols
 - Detailed file format standards
-- Memory recovery
 
 ---
 
 TOOL SCHEMA REFERENCE
 =====================
 
-Complete schemas for all filesystem and memory tools, captured by direct introspection via `tool_search`. If a schema appears wrong or a tool returns an unexpected error, re-verify with `tool_search` and update this section.
+Complete schemas for all filesystem, memory, and corpus-search tools, captured by direct introspection via `tool_search`. If a schema appears wrong or a tool returns an unexpected error, re-verify with `tool_search` and update this section.
 
 ## Filesystem Read Tools (4)
 
@@ -99,6 +98,8 @@ oldText="| Line above the target |\n| Target line to remove |"
 newText="| Line above the target |"
 ```
 
+**Tip:** Use `dryRun=true` first when applying many edits to a file in a single batch. The returned diff lets you verify the full result before committing.
+
 ### `filesystem:create_directory`
 Create a directory. Silently succeeds if directory already exists. Can create nested paths in one call.
 ```
@@ -154,7 +155,7 @@ params:
   path: string (required)
   excludePatterns?: array[string]   — default []
 ```
-**Use case:** Generating directory_index.md (the Python script does this); rare in normal Claude work because output gets large fast.
+**Use case:** Full structural snapshots when working on a specific subtree (e.g. confirming the layout under `Cendrel/` before adding new content). The `Python\map_directory.py` script uses this internally; in Claude work it's most useful for verifying complex multi-level structures at once rather than repeated `list_directory` calls.
 
 ### `filesystem:search_files`
 Recursive search by glob pattern. Returns full paths.
@@ -169,7 +170,7 @@ params:
 - `path="D:\Claude_MCP_folder", pattern="Briar*"` — every file starting with Briar
 - `path="D:\...\Manor", pattern="*.md", excludePatterns=["Trash"]` — with exclusion
 
-**⚠ Note:** Pattern is glob-style (`*.ext`, `**/*.ext`), NOT regex.
+**⚠ Note:** Pattern is glob-style (`*.ext`, `**/*.ext`), NOT regex. Matches against filenames only — for body-content search, use `corpus-search:search_corpus` instead.
 
 ### `filesystem:list_allowed_directories`
 Returns the list of directories this server can access. No params.
@@ -234,6 +235,43 @@ params:
   relations: array[{from: string, to: string, relationType: string}] (required)
 ```
 
+## Corpus Search Tools (2)
+
+Custom MCP server exposing FTS5 ranked search over the corpus. See the CORPUS SEARCH section in `file_system_instructions.md` for the high-level when-to-use guidance. Schemas:
+
+### `corpus-search:search_corpus`
+Full-text ranked search across name, keywords, description, category, and content. Returns formatted output: ranked path list with snippets showing matched context (terms wrapped in `**`).
+```
+params:
+  query: string (required)         — FTS5 expression
+  limit?: integer                  — default 10
+  category_filter?: string|null    — optional path-segment filter
+```
+**FTS5 query syntax:**
+- `Vogt` — single term (porter stem matches Vogt, Vogts, etc.)
+- `Vogt security` — both words present (implicit AND)
+- `Vogt OR Sable` — either term
+- `"Reshaping Cascade"` — exact phrase (escape inner quotes by doubling: `""`)
+- `petition NOT rejected` — boolean exclusion
+- `transform*` — prefix match (matches transformed, transformation)
+
+**`category_filter` examples:**
+- `"Aethelmark"` — restrict to Aethelmark subtree
+- `"Manor"` — restrict to manor-related content
+- `"Senior_Staff"` — restrict to that specific subfolder
+
+**BM25 ranking weights:** name (10×), keywords (5×), description (3×), content (1×). Higher score magnitude = better match. Hits in name and frontmatter rise above pure body matches automatically.
+
+**Common pitfalls:**
+- Apostrophes are tokenizer separators: `Isalia's` indexes as `["isalia", "s"]`. Search `Isalia` to match.
+- Special characters can produce FTS5 syntax errors — wrap problem terms in double quotes or use prefix matching.
+- Files without YAML frontmatter still get indexed (filename is used as name) but lose the high-weight metadata fields.
+
+### `corpus-search:index_status`
+Returns the database path, total indexed file count, and last-built timestamp. No params.
+
+**Use case:** Before relying on a search result for time-sensitive work, confirm the index is fresh. If `index_status` shows the build is older than a recent corpus change, prompt the user to refresh.
+
 ## Schema verification command
 
 If any schema above appears wrong or a tool returns an unexpected parameter error:
@@ -244,26 +282,35 @@ This loads the live tool definition from the MCP server and shows the current sc
 
 ---
 
-SCAN PROCESS (When Index is Stale or Missing)
-=============================================
+INDEX REFRESH TOOLING
+=====================
 
-**⚠ STALE SECTION below — describes the old `memory_user_edits` index approach. Current approach: the directory index lives in `D:\Claude_MCP_folder\directory_index.md`, generated by `Python\map_directory.py`. See `file_system_instructions.md` Step 3 for the live procedure. The text below is preserved for historical context only.**
+Three derived files are rebuilt from the corpus on demand. All three are gitignored.
 
-1. Run `filesystem:directory_tree` on `D:\Claude_MCP_folder` recursively
-2. Capture directory structure only — no filenames, no file metadata, no YAML reading
-3. Generate timestamp (ISO 8601: YYYY-MM-DDTHH:MM:SSZ)
-4. Remove any existing `Aethelmark_Directory_Index` entries from `memory_user_edits` before saving
-5. Save to `memory_user_edits` as `Aethelmark_Directory_Index`:
-   - Include `SCAN_TIMESTAMP=` prefix
-   - Include the full directory tree (directories only)
-   - This is the live map Claude references for file placement
-6. Display: `📁 Directory index loaded | Last scanned: [date] | FRESH | Ready`
+| File | Built by | Purpose |
+|------|----------|---------|
+| `directory_index.md` | `Python/map_directory.py` | Compressed directory tree (loaded at session start) |
+| `directory_index_with_files.md` | `Python/map_directory_with_files.py` | Directory tree with full file list (load on demand) |
+| `Python/search_index.db` | `Python/build_search_index.py` | SQLite FTS5 index for `corpus-search` MCP server |
 
-**Format example:**
+## `refresh_indexes.bat` (canonical refresh path)
+
+`Python/refresh_indexes.bat` runs all three rebuild scripts in sequence with errorlevel chaining. Sub-second total runtime. Double-click from Explorer or invoke from CMD.
+
+**Sequence:** `map_directory.py → map_directory_with_files.py → build_search_index.py`. If any step fails (non-zero exit), the chain halts at that step with a `[FAIL]` message and pauses for inspection.
+
+## `--no-pause` flag
+
+All three rebuild scripts accept `--no-pause` to skip the "Press Enter to exit" prompt. The bat file uses this flag so the orchestrated chain runs unattended. When run individually (e.g. double-clicked from Explorer), scripts pause at the end so output stays visible.
+
+```cmd
+python build_search_index.py            # interactive: pauses for Enter
+python build_search_index.py --no-pause # automated: exits immediately
 ```
-Aethelmark_Directory_Index: SCAN_TIMESTAMP=2026-03-30T00:00:00Z | World_Building/(Aethelmark/(Scenarios/(Isalias_Estate/, Kennel_Hounds/(Maruvec_Campaign/, ...), ...), Silberbach/(Town/(Characters/, ...), Region/(Factions/(manor/, ...), Characters/, ...)), ...), Core_Rules/(Templates/), Stories/, Python/, Trash/)
-```
-Compact notation keeps token cost low while preserving full structure.
+
+## Runtime stats
+
+Each rebuild script prints a `Runtime:` line in its summary block (e.g. `0.063s`). This is display-only — never written to the index files themselves — and exists for sanity-checking that nothing has gotten unexpectedly slow.
 
 ---
 
@@ -296,9 +343,8 @@ FILE FORMAT STANDARDS
 - Character files: `First_Last.md` (portrait: `First_Last.jpg`)
 
 **.txt files (Stories/ only):**
-- Line 1: `<meta>name, keywords, description</meta>`
-- Line 2: blank
-- Line 3+: content
+- No required header. The legacy `<meta>...</meta>` pseudo-XML tag from early in the project is deprecated; new `.txt` files don't need it.
+- `.md` is also acceptable in `Stories/` and is the preferred format for new creative work.
 
 **.py files (Python/ only):**
 ```python
@@ -309,8 +355,8 @@ FILE FORMAT STANDARDS
 # Human-readable top-level description
 #
 # Command line arguments:
-#   --dry-run: Preview without executing
-#   --fix: Apply corrections
+#   --dry-run: Preview without executing (modification scripts only)
+#   --no-pause: Skip end-of-run pause (rebuild scripts only)
 ```
 
 ---
@@ -318,29 +364,44 @@ FILE FORMAT STANDARDS
 PYTHON SCRIPTS PROTOCOL
 ========================
 
-- Last verified python version: 3.14.3
-- Built and saved in `D:\Claude_MCP_folder\Python\`
+- Last verified Python version: 3.14.3
+- All scripts live in `D:\Claude_MCP_folder\Python\`
 - Scope: recursively affect project root unless specified otherwise
-- Must preview all changes and require user confirmation before modifying files
-- Support `--dry-run` flag
 - Execution environment: Windows CMD
 
 ```cmd
 python D:\Claude_MCP_folder\Python\script_name.py [options]
 ```
 
-**Naming Validation:**
+## Two script categories with different conventions
+
+**Modification scripts** — write to or rename corpus files. Examples: `validate_naming.py`, `cleanup_legacy_tags.py`, `convert_to_markdown.py`, `process_session_summary.py`.
+
+- Must support `--dry-run` flag for preview
+- Must require user confirmation before modifying files
+- Must preview all proposed changes before applying
+
+**Rebuild / read-only scripts** — generate derived artifacts (indexes, exports), never modify corpus files. Examples: `map_directory.py`, `map_directory_with_files.py`, `build_search_index.py`.
+
+- No `--dry-run` needed (no destructive action on corpus)
+- Run freely from CMD or via `refresh_indexes.bat`
+- Support `--no-pause` for unattended execution from the bat file
+
+## Naming validation
+
 ```cmd
 python D:\Claude_MCP_folder\Python\validate_naming.py
 ```
-Scans for naming violations (spaces, ampersands, apostrophes), previews fixes, requires approval.
+Scans for naming violations (spaces, ampersands, apostrophes), previews fixes, requires approval. Modification script — supports `--dry-run`.
 
 ---
 
 METADATA MAINTENANCE
 ====================
 
-After significant work on a file, re-read and re-evaluate its metadata (YAML frontmatter for .md, meta tags for .txt, remarks for .py). Update keywords and description to reflect current content. Keeps the catalog reliable.
+After significant work on a file, re-read and re-evaluate its metadata (YAML frontmatter for .md files, header comments for .py files). Update keywords and description to reflect current content. Keeps the corpus search index reliable, since name/keywords/description are weighted highest in BM25 ranking.
+
+When a file's metadata changes, the next `refresh_indexes.bat` run picks up the new values automatically — no manual reindex step needed.
 
 ---
 
@@ -353,16 +414,3 @@ git branch experimental/[short-description]
 git checkout experimental/[short-description]
 ```
 Work, test, then keep or discard. Optional for solo work.
-
----
-
-MEMORY RECOVERY PROTOCOL
-=========================
-
-If memory is cleared or lost:
-1. Read `file_system_instructions.md` as source of truth
-2. Rebuild core memory entities from documented sections
-3. Notify user: "Memory recovered from instructions. All systems restored."
-4. Resume normal operation
-
-Automatic and transparent — no user action required.

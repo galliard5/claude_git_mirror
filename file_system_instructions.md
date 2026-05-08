@@ -11,7 +11,9 @@ AVAILABLE TOOLS FOR CLAUDE
 - Write: filesystem:write_file, filesystem:edit_file, filesystem:create_directory, filesystem:move_file
 - Query: filesystem:list_directory, filesystem:list_directory_with_sizes, filesystem:get_file_info, filesystem:directory_tree, filesystem:search_files, filesystem:list_allowed_directories
 
-**Memory Tools:** memory:read_graph, memory:create_entities, memory:add_observations, memory:delete_entities, memory:delete_observations, memory:create_relations, memory:delete_relations, memory:open_nodes, memory:search_nodes
+**Memory Tools (9):** memory:read_graph, memory:create_entities, memory:add_observations, memory:delete_entities, memory:delete_observations, memory:create_relations, memory:delete_relations, memory:open_nodes, memory:search_nodes
+
+**Corpus Search Tools (2):** corpus-search:search_corpus, corpus-search:index_status (custom MCP server — see CORPUS SEARCH below)
 
 ---
 
@@ -34,17 +36,20 @@ STARTUP PROCEDURES — EXECUTE ON EVERY CONVERSATION START
 **Top-level directories:**
 - `World_Building/` — All setting content: Aethelmark (active), Gallihammer, archived projects
 - `Core_Rules/` — GM rules (`core_rules.md`), extraction rules, templates (never edit originals)
-- `Stories/` — Creative writing, `.txt` only
-- `Python/` — Utility scripts (naming validator, directory mapper, etc.)
+- `Stories/` — Creative writing (gitignored). Originally `.txt`-only; `.md` is fine now.
+- `Python/` — Utility scripts and the corpus-search MCP server (see CORPUS SEARCH below)
 - `Perchance_prompts/` — Perchance generator prompts
+- `Sheet_Import/` — Ingest folder for older/found character sheets pulled from archives. Raw drops at the top level; processed files move to `Sheet_Import/processed/`. Gitignored. Excluded from corpus search index.
 - `Trash/` — Soft-delete destination (no permanent deletes)
-- Miscelanious_RPG_material/ contains RPG books (DMG/Players handbook etc.)
+- `Miscelanious_RPG_material/` — RPG rulebooks in PDF (often image-based, not text-extractable). Gitignored. Excluded from corpus search index.
+- `.github/` — GitHub Codespaces auto-generated; leave alone
 
 **Root files:**
 - `file_system_instructions.md` — This file (project rules)
 - `file_system_reference.md` — Supplementary reference (load on demand)
-- `directory_index.md` — Live directory map (see Step 3)
-- `directory_index_with_files.md` — Live directory map with full file list. Use only if expecting heavy filesystem operations.
+- `directory_index.md` — Live directory map (gitignored, see DIRECTORY INDEX below)
+- `directory_index_with_files.md` — Directory map with full file list (gitignored, load only for heavy filesystem operations)
+- `.gitignore` — Excludes derived artifacts, ingest folders, and personal content from version control
 
 Full directory structure is maintained in `directory_index.md` — do not duplicate here.
 
@@ -73,25 +78,56 @@ The directory index lives at `D:\Claude_MCP_folder\directory_index.md`, generate
    - Age < 1 day → FRESH
    - Age ≥ 1 day → STALE
 3. If FRESH: read Claude section using `head=` with the `claude_section_end` value from YAML. Load into context.
-4. If STALE or file not found: prompt user to rescan:
+4. If STALE or file not found: prompt user to refresh:
 
 ```
-📁 Directory index is STALE (last scan: [date]) — please run:
+📁 Directory index is STALE (last scan: [date]) — please double-click:
 ```
-```cmd
-D:
-cd D:\Claude_MCP_folder\Python
-python map_directory.py
+```
+D:\Claude_MCP_folder\Python\refresh_indexes.bat
+```
+```
+This rebuilds directory_index.md, directory_index_with_files.md, and search_index.db in sequence (~0.5s total).
 ```
 
 5. Display: `📁 Directory index loaded | Scanned: [date] | [FRESH/STALE] | Ready`
 
 **Using the index:**
-During the session, reference the loaded compressed tree + conversation context to predict file locations. Use predicted paths as starting points — verify with `filesystem:search_files` only when uncertain.
+During the session, reference the loaded compressed tree + conversation context to predict file locations. Use predicted paths as starting points — verify with `filesystem:search_files` or `corpus-search:search_corpus` only when uncertain.
 
-**Mid-session reload:** If the user rescans and asks Claude to reload the index, disregard the previously loaded tree entirely — it is stale. Re-read the file using the same startup procedure (head=8 → parse → head=claude_section_end). Only the most recent read is authoritative.
+**Mid-session reload:** If the user refreshes and asks Claude to reload the index, disregard the previously loaded tree entirely — it is stale. Re-read the file using the same startup procedure (head=8 → parse → head=claude_section_end). Only the most recent read is authoritative.
 
-## STEP 4: SEMANTIC FILE PLACEMENT
+## STEP 4: CORPUS SEARCH
+
+A custom MCP server (`Python/search_mcp_server.py`) exposes full-text ranked search over the corpus via SQLite FTS5. Two tools:
+
+- **`corpus-search:search_corpus(query, limit=10, category_filter=None)`** — BM25-ranked search across name, keywords, description, category, and content. Returns ranked paths with snippets showing matched context. Higher scores = better matches.
+- **`corpus-search:index_status()`** — Returns file count and last-built timestamp. Use to check freshness before relying on results.
+
+**FTS5 query syntax:**
+- `Vogt` — single term (porter stem matches Vogt, Vogts, etc.)
+- `Vogt security` — both words present (implicit AND)
+- `Vogt OR Sable` — either term
+- `"Reshaping Cascade"` — exact phrase
+- `petition NOT rejected` — boolean exclusion
+- `transform*` — prefix match (matches transformed, transformation)
+
+**When to reach for it:**
+- Cross-reference questions: "where else is X mentioned" — filesystem search only matches filenames; corpus search matches body content
+- Grounding before drafting: pulling all prior references to a character/location before writing session content
+- Ambiguous file location: faster than guessing paths when the directory index doesn't make placement obvious
+- Session prep: confirming established lore on factions, items, or events that may have been touched in earlier sessions
+
+**When NOT to use it:**
+- You already know the path → read the file directly
+- Looking for a filename pattern → `filesystem:search_files` is the right tool
+- Listing everything in a folder → `filesystem:list_directory`
+
+**Index scope:** Indexes all `.md` files under `D:\Claude_MCP_folder` except: `Trash/`, `Python/`, `Perchance_prompts/`, `Sheet_Import/`, `Miscelanious_rpg_material/`, and hidden/build dirs. The index is a binary SQLite file at `Python/search_index.db` — gitignored, rebuilt on demand.
+
+**Refreshing the index:** Same staleness model as `directory_index.md`. Either run `refresh_indexes.bat` (rebuilds all three indexes) or `python build_search_index.py` directly. Sub-second runtime. Call `corpus-search:index_status` if you need to confirm freshness mid-session.
+
+## STEP 5: SEMANTIC FILE PLACEMENT
 
 Directory naming conventions enable inference-based placement.
 
@@ -117,11 +153,15 @@ Directory naming conventions enable inference-based placement.
   - **Merchant Families:** `Region/Factions/Merchant_Families/[House_Name]/Characters/`
   - **Isalia's Manor:** `Region/Factions/Manor/` — see *Manor character placement* below
 
-### Cendrel (the Kennel Hounds region)
+### Cendrel (the Kennel Hounds region — separate campaign from Silberbach)
 
-- **Regional characters:** `Cendrel/Characters/`
-- **Per-location:** `Cendrel/[Location_Name]/` (e.g. `Camp_Rochevaux`, `Maruvec`, `Vauclair`) — each with a `Characters/` subfolder for that location's NPCs
-- **Sessions:** `Scenarios/Cendrel/[Location_Name_Campaign]/` — sessions live separate from lore
+Cendrel is a related-but-separate region running in parallel with Silberbach (think *Tales of the Sword Coast* alongside *Neverwinter Nights*). Lore lives in `Cendrel/`; sessions live in `Scenarios/Kennel_Hounds/`.
+
+- **Regional patron / overarching figures:** `Cendrel/Characters/` (e.g. Comte Edouard Vellancourt)
+- **Setting overview:** `Cendrel/Cendrel.md`, `Cendrel/Kennel_Hounds_Setting.md`, `Cendrel/Timeline_Kennel_Hounds.md`
+- **Per-location:** `Cendrel/[Location_Name]/` — currently `Camp_Rochevaux`, `Maruvec`, `Vauclair`. Each has its own `Characters/` subfolder for that location's NPCs.
+- **Vauclair-specific:** also has `Vauclair/Clans/` for the three kobold warren clans (Rixek, Sezzin, Veth)
+- **Sessions:** `Scenarios/Kennel_Hounds/[Campaign_Name]/` — sessions live separate from lore, named e.g. `Maruvec_Campaign/`, `Vauclair_Campaign/`, `Camp_Rochevaux_Sessions/`
 
 ### Manor character placement
 
@@ -161,7 +201,7 @@ When uncertain: `filesystem:search_files` to verify. Otherwise trust the structu
 NAMING & METADATA
 =================
 
-**Naming:** All files and folders use `Snake_Case_With_Capitals` — underscores between words, leading capital on each significant word. Examples: `Manor`, `House_Steinfeld`, `Isalia_Kreiger.md`, `Camp_Rochevaux`. JPG filenames match their .md counterparts (`Isalia_Kreiger.jpg`, not `isalia_kreiger.jpg`). Default output: `.md`. Images: `.jpg` preferred. `.txt` reserved for Stories/ only.
+**Naming:** All files and folders use `Snake_Case_With_Capitals` — underscores between words, leading capital on each significant word. Examples: `Manor`, `House_Steinfeld`, `Isalia_Kreiger.md`, `Camp_Rochevaux`. JPG filenames match their .md counterparts (`Isalia_Kreiger.jpg`, not `isalia_kreiger.jpg`). Default output: `.md`. Images: `.jpg` preferred. `.txt` is acceptable in `Stories/`.
 
 **YAML frontmatter (all .md files, lines 1–4):**
 ```yaml
@@ -172,10 +212,7 @@ description: One sentence description
 ---
 ```
 
-**.txt meta tag (Stories/ only, line 1):**
-```
-<meta>name, keyword1, keyword2, brief description</meta>
-```
+*Note:* The legacy `<meta>` pseudo-XML tag format (a single-line tag at the top of `.txt` files) is deprecated. New `.txt` files in `Stories/` don't need it; old files that have it can be left alone or migrated to YAML opportunistically.
 
 ---
 
@@ -221,7 +258,7 @@ Process: Read → identify exact target text → edit with verified string.
 
 ## VERIFIED TOOL SCHEMAS (quickref)
 
-The most common tools, condensed. **Full schemas with examples for all 14 filesystem + 9 memory tools live in `file_system_reference.md` under TOOL SCHEMA REFERENCE.** Load that file when in doubt about parameters or for tools used less often.
+The most common tools, condensed. **Full schemas with examples for all 14 filesystem + 9 memory + 2 corpus-search tools live in `file_system_reference.md` under TOOL SCHEMA REFERENCE.** Load that file when in doubt about parameters or for tools used less often.
 
 - `filesystem:read_text_file` — `path`, `head?`, `tail?` ⚠ head/tail mutually exclusive
 - `filesystem:read_multiple_files` — `paths` (array)
@@ -232,6 +269,8 @@ The most common tools, condensed. **Full schemas with examples for all 14 filesy
 - `filesystem:list_directory` — `path`
 - `filesystem:search_files` — `path`, `pattern`, `excludePatterns?`
 - `filesystem:list_allowed_directories` — no params
+- `corpus-search:search_corpus` — `query`, `limit?`, `category_filter?`
+- `corpus-search:index_status` — no params
 
 ⚠ If a parameter error fires, run `tool_search` with a relevant keyword to load the live schema.
 
