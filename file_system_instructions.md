@@ -38,6 +38,7 @@ STARTUP PROCEDURES — EXECUTE ON EVERY CONVERSATION START
 - `Python/` — Utility scripts (naming validator, directory mapper, etc.)
 - `Perchance_prompts/` — Perchance generator prompts
 - `Trash/` — Soft-delete destination (no permanent deletes)
+- Miscelanious_RPG_material/ contains RPG books (DMG/Players handbook etc.)
 
 **Root files:**
 - `file_system_instructions.md` — This file (project rules)

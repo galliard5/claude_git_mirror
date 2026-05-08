@@ -2,9 +2,9 @@
 name: Directory Index
 keywords: [index, directory, structure, map]
 description: Auto-generated directory tree snapshot
-scan_utc: 2026-05-06T02:19:14Z
-scan_local: 2026-05-05 20:19:14 Mountain Daylight Time
-claude_section_end: 136
+scan_utc: 2026-05-08T05:01:37Z
+scan_local: 2026-05-07 23:01:37 Mountain Daylight Time
+claude_section_end: 147
 ---
 Claude_MCP_folder
  .github
@@ -12,11 +12,22 @@ Claude_MCP_folder
  Core_Rules
   Templates
  Miscelanious_RPG_material
+  Game_Masters_apprentice
+  rpg books
+   cypher
+   DnD 5e
+   EP
+    hack pack
+   Ironclaw
+   Star Wars FFG
  other_references
  Perchance_prompts
  Python
   worldographer
  Sheet_import
+  Processed
+   gcs Characters
+   pcgen characters
  World_Building
   Aethelmark
    Cendrel
@@ -138,7 +149,7 @@ Run: python D:\Claude_MCP_folder\Python\map_directory_with_files.py
 
 # Human-Readable Directory Tree
 
-Scanned: 2026-05-05 20:19:14 Mountain Daylight Time (UTC: 2026-05-06T02:19:14Z)
+Scanned: 2026-05-07 23:01:37 Mountain Daylight Time (UTC: 2026-05-08T05:01:37Z)
 Excluded: .git, .obsidian, Trash, __pycache__, node_modules
 
 ```
@@ -148,11 +159,22 @@ Claude_MCP_folder/
 ├── Core_Rules/
 │   └── Templates/
 ├── Miscelanious_RPG_material/
+│   ├── Game_Masters_apprentice/
+│   └── rpg books/
+│       ├── cypher/
+│       ├── DnD 5e/
+│       ├── EP/
+│       │   └── hack pack/
+│       ├── Ironclaw/
+│       └── Star Wars FFG/
 ├── other_references/
 ├── Perchance_prompts/
 ├── Python/
 │   └── worldographer/
 ├── Sheet_import/
+│   └── Processed/
+│       ├── gcs Characters/
+│       └── pcgen characters/
 └── World_Building/
     ├── Aethelmark/
     │   ├── Cendrel/

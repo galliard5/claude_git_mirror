@@ -318,6 +318,7 @@ FILE FORMAT STANDARDS
 PYTHON SCRIPTS PROTOCOL
 ========================
 
+- Last verified python version: 3.14.3
 - Built and saved in `D:\Claude_MCP_folder\Python\`
 - Scope: recursively affect project root unless specified otherwise
 - Must preview all changes and require user confirmation before modifying files

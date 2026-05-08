@@ -2,9 +2,9 @@
 name: Directory Index with Files
 keywords: [index, directory, structure, map, files]
 description: Auto-generated directory tree snapshot including files
-scan_utc: 2026-05-06T02:19:16Z
-scan_local: 2026-05-05 20:19:16 Mountain Daylight Time
-claude_section_end: 632
+scan_utc: 2026-05-08T05:01:32Z
+scan_local: 2026-05-07 23:01:32 Mountain Daylight Time
+claude_section_end: 869
 ---
 ## STARTUP PROCEDURE FOR CLAUDE
 
@@ -53,9 +53,92 @@ Claude_MCP_folder
    Scenario_Extraction_Rules.md
    Skill_Trees.md
  Miscelanious_RPG_material/
-   GMA2e_Base_2025_5_3_PnP_Color.pdf
-   GMA2e_Base_VTT.zip
-   GMA2e_Instructions_2025_05_04.pdf
+  Game_Masters_apprentice/
+    GMA2e_Base_2025_5_3_PnP_Color.pdf
+    GMA2e_Base_Deck.json
+    GMA2e_Base_VTT.zip
+    GMA2e_Complete_Reference.md
+    GMA2e_Instructions_2025_05_04.pdf
+  rpg books/
+   cypher/
+     Cypher Shorts.pdf
+     Cypher System - Revised Edition.pdf
+     The Stars Are Fire (Hyperlinked-and-Bookmarked) [2019-10-17].pdf
+   DnD 5e/
+     Dungeon Master's Guide.pdf
+     Elemental Evil Player's Companion.pdf
+     Monster Manual.pdf
+     Player's Handbook.pdf
+     Spell Lists.pdf
+     Sword Coast Adventurer's Guide.pdf
+   EP/
+    hack pack/
+      Chapter Opens.zip
+      character_and_dice.psd
+      Characters and Morphs.zip
+      eclipsephase_cover.psd
+      Gear.zip
+      Logos.zip
+     Eclipse Phase-AnInfiniteHorizon.epub
+     EclipsePhase_ElDestinoVerde.epub
+     EclipsePhase_IntoTheWhite.epub
+     EclipsePhase_Lack.epub
+     EclipsePhase_Melt.epub
+     PS+10000_Degenesis_Flat_Lowres.pdf
+     PS+21000_EclipsePhase_3rdPrinting.pdf
+     PS+21101_EP_Panopticon.pdf
+     PS+21200_EP_Sunward.pdf
+     PS+21201_EP_Gatecrashing.pdf
+     PS+21806_TheStarsOurDestination_portrait.pdf
+   Ironclaw/
+     dtrpg-2012-07-01_07-50pm.zip
+     IRONCLAW_blank_character_sheet.pdf
+     IRONCLAW_Book_of_Jade.pdf
+     Ironclaw_sample_characters.pdf
+     SGP1101_Ironclaw_Omnibus_-_Cover.pdf
+     SGP1101_Ironclaw_Omnibus_-_Interior.pdf
+     SGP1103_Ironclaw_Players_Book_-_Cover.pdf
+     SGP1104_Ironclaw_Hosts_Book_-_Cover.pdf
+   Star Wars FFG/
+     Age Of Rebellion - Core Rulebook.pdf
+     Edge of the Empire - Core Rulebook.pdf
+     Force & Destiny - Core Rulebook.pdf
+    1379792074.thenomeking_virile_insticts_-_a_deer_transformation_novella.pdf
+    3EG601-AMPYearOne.pdf
+    5E Player's Handbook.pdf
+    AMP-Sheet2.pdf
+    AMP_Year_Two_(7643525).pdf
+    Black Crusade - Tome of Decay.pdf
+    Cypher Shorts.pdf
+    Cypher System - Revised Edition.pdf
+    DSPG.doc
+    Epyllion_20160714.pdf
+    fallout_pnp_2_0.pdf
+    In_the_Company_of_Dragons.pdf
+    In_the_Company_of_Dragons_PFRPG_v2.pdf
+    Noble_Wild__lo-res_12-11-08.pdf
+    OCC-RCC NetBook.doc
+    Only War - Hammer of The Emperor.pdf
+    Playbooks_20160714.pdf
+    Ponyfinder_-_Campaign_Setting_-_Dawn_of_the_Fifth_Age.pdf
+    Races.txt
+    Roan_-_Role_Playing_Game.pdf
+    Shard RPG Basic Compendium.pdf
+    Ships.txt
+    Skyward Steel.pdf
+    Star Trek Rpg - Decipher - Book 1 - Players Guide.pdf
+    Starfinder CRB.pdf
+    Starmada.pdf
+    Stars Without Number - Core Edition.pdf
+    StarsWithoutNumberRevised-FreeEdition-122917.pdf
+    The Metamorphica.pdf
+    The Quintessential Kobold.pdf
+    The Stars Are Fire (Hyperlinked-and-Bookmarked) [2019-10-17].pdf
+    Triten_Gaming_System.pdf
+    Updates.txt
+    World Tree RPG.pdf
+    Worlds.txt
+   Legion_ Sevhani's Tale.md
  other_references/
    sample horizontal.png
    sample horizontal.wxx
@@ -86,27 +169,132 @@ Claude_MCP_folder
    query_notion_npcs.py
    validate_naming.py
  Sheet_import/
-   AutoTransfer Mabs wolf ranger Alina.json
-   AutoTransfer Mags game.json
-   AutoTransfer randoms hi level gestalt.json
-   AutoTransfer randoms wyrmling gestalt.json
-   Cits hi-powered rifts game - SDC Char Sheet.csv
-   dragons3.xls.xlsx
-   fallout deathclaw - Sheet1.csv
-   G'lith.pdf
-   Galli's Eclipse Phase Game.pdf
-   GalliChar - Data.csv
-   James Dragon.json
-   James Kitsune Oracle.json
-   Jasons dragon game - Witch.json
-   kagi's ep game.xlsx
-   Kai's HU game, Dragon bussiness tycoon - Heroes Unlimited.csv
-   Kais legion empire.json
-   Kaisens rifts game - Sheet1.csv
-   KaiSF Writeup.docx
-   Mags HU catbot - Sheet1.csv
-   spell list and inventory accounting for silver.xlsx
-   Tempest rising Evil witch.json
+  Processed/
+   gcs Characters/
+     Antoine Blumberg.png
+     Antoine.pdf
+     Arlie Mcgonigle.gcs
+     CoC_0.6.2e.swf
+     David Schalow.gcs
+     David Schalow2.pdf
+     Gia Schalow - Legion War Stories.gcs
+     Gia Schalow - Legion War Stories.pdf
+     Gia Schalow.gcs
+     icarus Drone.gcs
+     kais fantasy game.gcs
+     Kais new new new legion game Armadillo Medic.gcs
+     kais pirate space dolphin.gcs
+     Kais quick fantasy.gcs
+     Kais razor bug.gcs
+     Kais rebooted space pirate dolphin.gcs
+     Kitcat ucsc bug.gcs
+     vikars space sheet.gcs
+     Yu Piselli.gcs
+     ~~Antoine Blumberg.html
+   pcgen characters/
+     Arezoli.pcg
+     dndtf game.pcg
+     Dragus kobold druid companion.pcg
+     Dragus kobold druid.pcg
+     Drogon fast robot.pcg
+     Drogon fast robot.pcg.bak
+     Drogon stroing robot.pcg
+     Drogon stroing robot.pcg.bak
+     Endrin of Hornwood.pcg
+     Faralia's familiar.pcg
+     Faralia.pcg
+     Faralia.pcg.bak
+     Faralia.TXT
+     Fiarre.pcg
+     gradea pseudodragon.pcg
+     Isidora.pcg
+     Jenney.pcg
+     Jil.pcg
+     Kai dnd game.pcg
+     Leiane.pcg
+     Mab rat mage.pcg
+     mabs friend snake cleric.pcg
+     magnus.pcg
+     Marcos.pcg
+     Miria.pcg
+     Mourgram Uthelienn 2.Id_38268.pcg
+     Mourgram Uthelienn.pcg
+     New_design_of_wolf__s_armour_by_Okami_Kodokuna (for Tina).jpg
+     Night.pcg
+     Psicrysta 2l.Id_38273.pcg
+     Psicrystal.pcg
+     Ras Ben.pcg
+     RasBen.pcg
+     RasBenFamiliar.pcg
+     ravy's evil kobold
+     ravy's evil kobold.pcg
+     ravy's evil kobold.pcg.bak
+     ravy's evil kobold.txt
+     Rosuto Mokuteki.pcg
+     Roulin.pcg
+     ryans level 20 druid.pcg
+     Ryans level 21 mouse sorc.pcg
+     Ryans level 21 mouse sorc.pcg.bak
+     Sarashdar.pcg
+     Sarashdardoc.pcg
+     Seresha.pcg
+     Sickles game.pcg
+     Snuffles.pcg
+     Soloni.pcg
+     Starscream saturday morning kobold monk.pcg
+     Tina.pcg
+     Tina.pcg.bak
+     turtles quick game.pcg
+     visceroth.pcg
+    AutoTransfer Mabs wolf ranger Alina.json
+    AutoTransfer Mags game.json
+    AutoTransfer randoms hi level gestalt.json
+    AutoTransfer randoms wyrmling gestalt.json
+    Cits hi-powered rifts game - SDC Char Sheet.csv
+    Cits MnM dragonstar game.por
+    dragons3.xls.xlsx
+    fallout deathclaw - Sheet1.csv
+    G'lith.pdf
+    galli - ricks empire recon.gcs
+    galli -rics legion recon.pdf
+    Galli's Eclipse Phase Game.pdf
+    Galli's shadowrun.pdf
+    Galli- rics legion empire scientist.gcs
+    Galli.por
+    GalliChar - Data.csv
+    Garlic Eater DRAGON.pdf
+    Garlic Eater.pdf
+    Garlic_Eater.pdf
+    Heskan.rptok
+    heskan_content.xml
+    Irooni's shadowrun.por
+    Iskandai.por
+    Iskandai_Dragon.pdf
+    Iskandai_Worg.pdf
+    James Dragon.json
+    James Kitsune Oracle.json
+    James shadowrun.pdf
+    James shadowrun.por
+    James-marvel-werewolf_detective.pdf
+    Jasons dragon game - Witch.json
+    kagi's ep game.xlsx
+    Kai's HU game, Dragon bussiness tycoon - Heroes Unlimited.csv
+    Kais legion empire.json
+    Kaisens rifts game - Sheet1.csv
+    KaiSF Writeup.docx
+    Madila.rptok
+    madila_content.xml
+    Mags HU catbot - Sheet1.csv
+    Ms Scales Cit.por
+    Ms Scales Mich.por
+    Ms Scales.pdf
+    scales test.por
+    Scales.por
+    Sinani.pdf
+    Sinani_Umbral_Dragon.pdf.url
+    spell list and inventory accounting for silver.xlsx
+    Tempest rising Evil witch.json
+    TenariGuide.txt
  World_Building/
   Aethelmark/
    Cendrel/
@@ -478,29 +666,75 @@ Claude_MCP_folder
     World_Standards.md
   Character_Pool/
     _GalliChar_MM_Reference.md
+    _Import_TODO.md
     Allia_Meinwitz.md
     Allina.md
     Anthony_Wilmington.md
+    Antoine_Blumberg.md
     Aranaea.md
+    Arlie_Mcgonigle.md
     Astraea.md
+    Brian_Hitchens.md
     Catbot.md
     Charlote.md
+    Cits_Dragon_MnM.md
     Daniel_Sanchez.md
+    David_Schalow.md
+    DNDTF_Smart_Hero.md
     Dragon_Hatchling_Rifts.md
     Eve_Schallow.md
+    Faralia.md
+    Galli_MnM.md
     Gallibot.md
     Gia_Schalow.md
+    Gia_Schalow_400.md
+    Heskan.md
     Honi.md
+    Ia_skel.md
     Icarus.md
     Icarus_Drone.md
+    Icasus.md
+    Incognito.md
+    Isidora.md
+    Iskandai.md
     Jagaima.md
+    Jenney.md
+    Jil.md
     Kalysto.md
     Kani.md
+    Kelly.md
+    Lash.md
+    Leiane.md
+    Madila.md
+    Marcos.md
+    Miria.md
     Mist_in_the_Wind.md
+    Mourgram_Uthelienn.md
+    Ms_Scales.md
+    Night.md
+    Ras_Ben_Gnoll_Cleric.md
+    Ras_Ben_Kobold_Wizard.md
+    Recon_Captain.md
+    Riktiki.md
+    Rosuto_Mokuteki.md
+    Roulin.md
+    Royal_Frilled_Dragon_Hatchling.md
     Saphira.md
+    Sarashdar.md
+    Scales_Galliard.md
+    Scarlett_Dilallo.md
+    Seresha.md
     Shami.md
+    Shpni_Schallow.md
+    Sickles_Cleric.md
     Silver.md
+    Sinani.md
+    Skrakle.md
+    Soloni.md
+    Tina.md
     Tom_pLUM.md
+    Visceroth.md
+    Yu_Piselli.md
   Gallihammer/
    Archaeos_Expedition/
     Characters/
@@ -621,8 +855,11 @@ Claude_MCP_folder
      Soul_Gem_Scenario.md
      Soul_Gem_Story_So_Far.md
    Session_Summaries/
+   G_lith_Race_SWN.md
+   KaiSF_Tauran_Vega.md
    Remade_Origin_Framework.md
    Reshaping_Trap_Tables.md
+   Tenari_Guide.md
   .gitignore
   directory_index.md
   directory_index_with_files.md
