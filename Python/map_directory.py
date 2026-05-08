@@ -246,8 +246,6 @@ def main():
         print("  Output:           console only (no file written)")
     print("=" * 50)
 
-    input("\nPress Enter to exit...")
-
 
 if __name__ == "__main__":
     main()
