@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+"""
+index_tools_mcp_server.py - MCP server exposing index rebuild tooling.
+
+Provides one tool:
+    rebuild_indexes(load=None | "directory" | "with_files" | "search_status")
+        -> formatted summary of the rebuild, optionally with the freshly-built
+           content embedded based on the load parameter.
+
+The rebuild scripts and all index/db paths are hardcoded. The server has no
+parameters that accept paths from the caller. The only thing reachable
+through this interface is running the two known build scripts and reading
+back the known output files.
+
+We invoke the Python build scripts directly rather than going through
+refresh_indexes.bat because the bat ends with `pause`, which would hang the
+subprocess waiting for a keypress. The bat remains available for human use
+(double-click from Explorer); this server is the automated path.
+
+Launched by Claude Desktop as a stdio subprocess via claude_desktop_config.json.
+Not intended to be run manually.
+"""
+
+import datetime
+import re
+import sqlite3
+import subprocess
+import sys
+from pathlib import Path
+
+from mcp.server.fastmcp import FastMCP
+
+# --- Hardcoded paths (no caller-controlled paths anywhere) ---
+
+ROOT = Path(r"D:\Claude_MCP_folder")
+PYTHON_DIR = ROOT / "Python"
+DIR_BUILDER = PYTHON_DIR / "build_directory_indexes.py"
+SEARCH_BUILDER = PYTHON_DIR / "build_search_index.py"
+DIRECTORY_INDEX = ROOT / "directory_index.md"
+DIRECTORY_INDEX_WITH_FILES = ROOT / "directory_index_with_files.md"
+SEARCH_DB = PYTHON_DIR / "search_index.db"
+
+VALID_LOAD_VALUES = {None, "directory", "with_files", "search_status"}
+
+mcp = FastMCP("index-tools")
+
+
+def _read_claude_section(path: Path) -> str:
+    """Read the file's YAML header + Claude section (lines 1 through claude_section_end).
+
+    Returns the joined content, or an error string prefixed with [!] if the file
+    is missing, the YAML header is malformed, or claude_section_end can't be parsed.
+    """
+    if not path.exists():
+        return f"[!] Index file not found: {path}"
+
+    try:
+        text = path.read_text(encoding="utf-8")
+    except Exception as e:
+        return f"[!] Could not read {path}: {e}"
+
+    # claude_section_end lives in the YAML header (lines 1-8); parse it
+    match = re.search(r"^claude_section_end:\s*(\d+)\s*$", text, re.MULTILINE)
+    if not match:
+        return f"[!] Could not find claude_section_end in YAML header of {path.name}"
+
+    end_line = int(match.group(1))
+    lines = text.splitlines()
+    if end_line > len(lines):
+        end_line = len(lines)
+
+    return "\n".join(lines[:end_line])
+
+
+def _search_status_block() -> str:
+    """Return a status block summarizing the corpus search index. Used for
+    load='search_status' on rebuild_indexes."""
+    if not SEARCH_DB.exists():
+        return f"[!] Search index DB not found at {SEARCH_DB}"
+
+    try:
+        uri = f"{SEARCH_DB.as_uri()}?mode=ro"
+        conn = sqlite3.connect(uri, uri=True)
+        cur = conn.cursor()
+        cur.execute("SELECT COUNT(*) FROM corpus_fts")
+        count = cur.fetchone()[0]
+        conn.close()
+    except Exception as e:
+        return f"[!] Could not read search index: {e}"
+
+    mtime = datetime.datetime.fromtimestamp(SEARCH_DB.stat().st_mtime)
+    age = datetime.datetime.now() - mtime
+    if age.days >= 1:
+        age_str = f"{age.days}d ago"
+    elif age.seconds >= 3600:
+        age_str = f"{age.seconds // 3600}h ago"
+    else:
+        age_str = f"{age.seconds // 60}m ago"
+
+    return (
+        "Search index status:\n"
+        f"  Path: {SEARCH_DB}\n"
+        f"  Files indexed: {count}\n"
+        f"  Last built: {mtime.strftime('%Y-%m-%d %H:%M:%S')} ({age_str})"
+    )
+
+
+@mcp.tool()
+def rebuild_indexes(load: str | None = None) -> str:
+    """Rebuild the on-disk corpus indexes by running the build scripts directly.
+
+    Two artifacts get rebuilt, in order:
+      1. directory_index.md and directory_index_with_files.md (from a single
+         tree walk, via build_directory_indexes.py --no-pause)
+      2. Python/search_index.db (FTS5 full-text index, via
+         build_search_index.py --no-pause)
+
+    By default, returns a summary of the rebuild. The optional `load` parameter
+    additionally returns the freshly-built content of one specific index, so
+    rebuild + load happens in one tool call without a follow-up read.
+
+    Args:
+        load: Which artifact to load into the response. One of:
+            None (default)     - rebuild only; return summary
+            "directory"        - return directory_index.md Claude section
+            "with_files"       - return directory_index_with_files.md Claude section
+            "search_status"    - return corpus search index_status output
+
+    When to use each `load` value:
+        None              - Just refreshing things proactively, no immediate need
+                            to read content (e.g. after the user mentions
+                            structural changes mid-session).
+        "directory"       - Predicted a path that didn't exist; need fresh
+                            directory tree to re-orient.
+        "with_files"      - About to do filesystem-intensive work and want
+                            the fresh complete file listing.
+        "search_status"   - corpus-search returned empty for content that
+                            should obviously exist; want to confirm the search
+                            index rebuilt cleanly before re-running queries.
+
+    Returns:
+        Formatted text starting with a rebuild status block. On success, if
+        `load` is non-None, the requested content is appended below a
+        separator. On failure, returns which step failed and its output for
+        diagnosis.
+    """
+    if load not in VALID_LOAD_VALUES:
+        return (
+            f"[!] Invalid load value: {load!r}\n"
+            f'Valid values: None, "directory", "with_files", "search_status"'
+        )
+
+    # Verify both build scripts exist before starting
+    for script in (DIR_BUILDER, SEARCH_BUILDER):
+        if not script.exists():
+            return f"[!] Build script not found: {script}"
+
+    # Use the same Python interpreter that's running this server
+    py = sys.executable
+
+    # Run each build script directly. --no-pause guarantees no input() prompt;
+    # stdin redirect to DEVNULL is a belt-and-braces guard so any rogue read()
+    # would EOF immediately rather than block the subprocess.
+    steps = [
+        ("Directory indexes", [py, str(DIR_BUILDER), "--no-pause"]),
+        ("Search index",      [py, str(SEARCH_BUILDER), "--no-pause"]),
+    ]
+
+    outputs: list[tuple[str, str]] = []
+    for label, cmd in steps:
+        try:
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=30,
+                cwd=str(PYTHON_DIR),
+                stdin=subprocess.DEVNULL,
+            )
+        except subprocess.TimeoutExpired:
+            return (
+                f"[!] {label} step timed out after 30 seconds.\n"
+                f"Run refresh_indexes.bat manually from {PYTHON_DIR} to investigate."
+            )
+        except Exception as e:
+            return f"[!] Failed to launch {label} step: {e}"
+
+        if result.returncode != 0:
+            return (
+                f"[!] {label} step FAILED (exit code {result.returncode})\n\n"
+                f"--- STDOUT ---\n{result.stdout or '(empty)'}\n\n"
+                f"--- STDERR ---\n{result.stderr or '(empty)'}"
+            )
+        outputs.append((label, result.stdout.rstrip() or "(no stdout)"))
+
+    # Success - build the summary from both steps' outputs
+    summary_parts = ["[OK] Indexes rebuilt successfully.", ""]
+    for label, stdout in outputs:
+        summary_parts.append(f"--- {label} ---")
+        summary_parts.append(stdout)
+        summary_parts.append("")
+    summary = "\n".join(summary_parts).rstrip()
+
+    if load is None:
+        return summary
+
+    # Append loaded content based on the load parameter
+    if load == "directory":
+        content = _read_claude_section(DIRECTORY_INDEX)
+        section_title = "directory_index.md (fresh)"
+    elif load == "with_files":
+        content = _read_claude_section(DIRECTORY_INDEX_WITH_FILES)
+        section_title = "directory_index_with_files.md (fresh)"
+    elif load == "search_status":
+        content = _search_status_block()
+        section_title = "Search index status (fresh)"
+    else:
+        # Defensive; should be unreachable due to VALID_LOAD_VALUES check above
+        return summary
+
+    separator = "=" * 60
+    return (
+        f"{summary}\n"
+        f"\n{separator}\n"
+        f"--- {section_title} ---\n"
+        f"{content}"
+    )
+
+
+if __name__ == "__main__":
+    mcp.run()

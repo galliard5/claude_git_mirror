@@ -5,7 +5,7 @@ description: Supplementary procedures, tool schemas, and standards — load on d
 ---
 
 This file supplements `file_system_instructions.md`. Load when needed for:
-- Complete tool schemas with examples (filesystem, memory, corpus-search)
+- Complete tool schemas with examples (filesystem, memory, corpus-search, index-tools)
 - Template usage
 - Index refresh tooling and conventions
 - Python script protocols
@@ -16,7 +16,7 @@ This file supplements `file_system_instructions.md`. Load when needed for:
 TOOL SCHEMA REFERENCE
 =====================
 
-Complete schemas for all filesystem, memory, and corpus-search tools, captured by direct introspection via `tool_search`. If a schema appears wrong or a tool returns an unexpected error, re-verify with `tool_search` and update this section.
+Complete schemas for all filesystem, memory, corpus-search, and index-tools tools, captured by direct introspection via `tool_search`. If a schema appears wrong or a tool returns an unexpected error, re-verify with `tool_search` and update this section.
 
 ## Filesystem Read Tools (4)
 
@@ -155,7 +155,7 @@ params:
   path: string (required)
   excludePatterns?: array[string]   — default []
 ```
-**Use case:** Full structural snapshots when working on a specific subtree (e.g. confirming the layout under `Cendrel/` before adding new content). The `Python\map_directory.py` script uses this internally; in Claude work it's most useful for verifying complex multi-level structures at once rather than repeated `list_directory` calls.
+**Use case:** Full structural snapshots when working on a specific subtree (e.g. confirming the layout under `Cendrel/` before adding new content). The `Python\build_directory_indexes.py` script uses this internally; in Claude work it's most useful for verifying complex multi-level structures at once rather than repeated `list_directory` calls.
 
 ### `filesystem:search_files`
 Recursive search by glob pattern. Returns full paths.
@@ -272,6 +272,35 @@ Returns the database path, total indexed file count, and last-built timestamp. N
 
 **Use case:** Before relying on a search result for time-sensitive work, confirm the index is fresh. If `index_status` shows the build is older than a recent corpus change, prompt the user to refresh.
 
+## Index Tools (1)
+
+Custom MCP server for refreshing the on-disk indexes. See the INDEX REBUILD section in `file_system_instructions.md` for when-to-use guidance.
+
+### `index-tools:rebuild_indexes`
+Runs both `build_directory_indexes.py` and `build_search_index.py` directly via subprocess (not the bat — the bat ends with `pause` and would hang). Optionally returns fresh content based on the `load` parameter.
+```
+params:
+  load?: string|null   — None | "directory" | "with_files" | "search_status"
+```
+
+**`load` values:**
+- `None` (default) — rebuild only; return summary of both build steps
+- `"directory"` — summary + fresh `directory_index.md` Claude section
+- `"with_files"` — summary + fresh `directory_index_with_files.md` Claude section
+- `"search_status"` — summary + corpus search index_status output (file count + timestamp)
+
+**Returns:** Formatted text starting with `[OK] Indexes rebuilt successfully.` followed by both build step outputs (Directory indexes, Search index). If `load` is non-None, requested content is appended below a `=` separator. On failure, returns which step failed (Directory indexes / Search index) and its stdout/stderr for diagnosis.
+
+**Hardcoded paths:** The tool can only run the known build scripts and only read the known index files. No parameter accepts a path from the caller. The corpus-search server's database is read-only here as well — the rebuild path goes through the build script, not the server.
+
+**Timeout:** 30 seconds per step. Sub-second runtime in practice (rebuild typically ~0.5s total).
+
+**Use cases by `load` value:**
+- `"directory"` — predicted path failed; need fresh tree
+- `"with_files"` — about to do filesystem-intensive work
+- `"search_status"` — corpus-search returned empty; confirm index rebuilt
+- `None` — user mentioned structural changes; refresh proactively without immediate read
+
 ## Schema verification command
 
 If any schema above appears wrong or a tool returns an unexpected parameter error:
@@ -285,32 +314,37 @@ This loads the live tool definition from the MCP server and shows the current sc
 INDEX REFRESH TOOLING
 =====================
 
-Three derived files are rebuilt from the corpus on demand. All three are gitignored.
+Two build scripts produce three derived files. All three are gitignored.
 
 | File | Built by | Purpose |
 |------|----------|---------|
-| `directory_index.md` | `Python/map_directory.py` | Compressed directory tree (loaded at session start) |
-| `directory_index_with_files.md` | `Python/map_directory_with_files.py` | Directory tree with full file list (load on demand) |
+| `directory_index.md` | `Python/build_directory_indexes.py` | Compressed directory tree, dirs only (loaded at session start) |
+| `directory_index_with_files.md` | `Python/build_directory_indexes.py` | Directory tree with full file list (load on demand) |
 | `Python/search_index.db` | `Python/build_search_index.py` | SQLite FTS5 index for `corpus-search` MCP server |
 
-## `refresh_indexes.bat` (canonical refresh path)
+`build_directory_indexes.py` produces both directory index files from a single tree walk. It replaced the previous separate `map_directory.py` and `map_directory_with_files.py` scripts (consolidation 2026-05). The legacy scripts live in `Trash/` if needed for reference.
 
-`Python/refresh_indexes.bat` runs all three rebuild scripts in sequence with errorlevel chaining. Sub-second total runtime. Double-click from Explorer or invoke from CMD.
+## Three ways to refresh
 
-**Sequence:** `map_directory.py → map_directory_with_files.py → build_search_index.py`. If any step fails (non-zero exit), the chain halts at that step with a `[FAIL]` message and pauses for inspection.
+**`index-tools:rebuild_indexes` (preferred for in-session refreshes)** — Claude calls this directly. Runs both build scripts via subprocess, optionally returns fresh content. See TOOL SCHEMA REFERENCE > Index Tools above.
+
+**`Python/refresh_indexes.bat` (preferred for manual user refreshes)** — Double-click from Explorer. Runs both build scripts in sequence with errorlevel chaining and end-of-run pause so the window stays open. **Cannot be called from the MCP server** — the trailing `pause` would hang any subprocess invocation.
+
+**Direct script invocation (rare):**
+```cmd
+python build_directory_indexes.py            # interactive: pauses for Enter
+python build_directory_indexes.py --no-pause # automated
+python build_search_index.py                 # interactive
+python build_search_index.py --no-pause      # automated
+```
 
 ## `--no-pause` flag
 
-All three rebuild scripts accept `--no-pause` to skip the "Press Enter to exit" prompt. The bat file uses this flag so the orchestrated chain runs unattended. When run individually (e.g. double-clicked from Explorer), scripts pause at the end so output stays visible.
-
-```cmd
-python build_search_index.py            # interactive: pauses for Enter
-python build_search_index.py --no-pause # automated: exits immediately
-```
+Both build scripts accept `--no-pause` to skip the "Press Enter to exit" prompt. The bat file passes this flag for unattended execution. The MCP server passes this flag plus `stdin=subprocess.DEVNULL` as defense-in-depth so any rogue read would EOF immediately.
 
 ## Runtime stats
 
-Each rebuild script prints a `Runtime:` line in its summary block (e.g. `0.063s`). This is display-only — never written to the index files themselves — and exists for sanity-checking that nothing has gotten unexpectedly slow.
+Each build script prints a `Runtime:` line in its summary block (e.g. `0.063s`). Display-only — never written to the index files themselves — for sanity-checking that nothing has gotten unexpectedly slow.
 
 ---
 
@@ -381,11 +415,11 @@ python D:\Claude_MCP_folder\Python\script_name.py [options]
 - Must require user confirmation before modifying files
 - Must preview all proposed changes before applying
 
-**Rebuild / read-only scripts** — generate derived artifacts (indexes, exports), never modify corpus files. Examples: `map_directory.py`, `map_directory_with_files.py`, `build_search_index.py`.
+**Rebuild / read-only scripts** — generate derived artifacts (indexes, exports), never modify corpus files. Examples: `build_directory_indexes.py`, `build_search_index.py`.
 
 - No `--dry-run` needed (no destructive action on corpus)
-- Run freely from CMD or via `refresh_indexes.bat`
-- Support `--no-pause` for unattended execution from the bat file
+- Run freely from CMD or via `refresh_indexes.bat` or `index-tools:rebuild_indexes`
+- Support `--no-pause` for unattended execution from automation paths
 
 ## Naming validation
 
@@ -401,7 +435,7 @@ METADATA MAINTENANCE
 
 After significant work on a file, re-read and re-evaluate its metadata (YAML frontmatter for .md files, header comments for .py files). Update keywords and description to reflect current content. Keeps the corpus search index reliable, since name/keywords/description are weighted highest in BM25 ranking.
 
-When a file's metadata changes, the next `refresh_indexes.bat` run picks up the new values automatically — no manual reindex step needed.
+When a file's metadata changes, the next index rebuild picks up the new values automatically — no manual reindex step needed. Trigger via `index-tools:rebuild_indexes` (Claude-driven) or `refresh_indexes.bat` (manual).
 
 ---
 

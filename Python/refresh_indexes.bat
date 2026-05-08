@@ -7,27 +7,17 @@ setlocal
 cd /d "%~dp0"
 
 echo.
-echo === [1/3] Mapping directory (compressed)...
-python map_directory.py --no-pause
+echo === [1/2] Building directory indexes (both files from one walk)...
+python build_directory_indexes.py --no-pause
 if errorlevel 1 (
     echo.
-    echo [FAIL] map_directory.py exited with errors.
+    echo [FAIL] build_directory_indexes.py exited with errors.
     pause
     exit /b 1
 )
 
 echo.
-echo === [2/3] Mapping directory (with files)...
-python map_directory_with_files.py --no-pause
-if errorlevel 1 (
-    echo.
-    echo [FAIL] map_directory_with_files.py exited with errors.
-    pause
-    exit /b 1
-)
-
-echo.
-echo === [3/3] Building search index...
+echo === [2/2] Building search index...
 python build_search_index.py --no-pause
 if errorlevel 1 (
     echo.
