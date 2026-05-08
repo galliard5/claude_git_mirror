@@ -8,7 +8,7 @@ cd /d "%~dp0"
 
 echo.
 echo === [1/3] Mapping directory (compressed)...
-python map_directory.py
+python map_directory.py --no-pause
 if errorlevel 1 (
     echo.
     echo [FAIL] map_directory.py exited with errors.
@@ -18,7 +18,7 @@ if errorlevel 1 (
 
 echo.
 echo === [2/3] Mapping directory (with files)...
-python map_directory_with_files.py
+python map_directory_with_files.py --no-pause
 if errorlevel 1 (
     echo.
     echo [FAIL] map_directory_with_files.py exited with errors.
@@ -28,7 +28,7 @@ if errorlevel 1 (
 
 echo.
 echo === [3/3] Building search index...
-python build_search_index.py
+python build_search_index.py --no-pause
 if errorlevel 1 (
     echo.
     echo [FAIL] build_search_index.py exited with errors.

@@ -18,6 +18,7 @@ Usage:
 """
 
 import argparse
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Set, Optional
@@ -181,11 +182,16 @@ def parse_args() -> argparse.Namespace:
         "--exclude", type=str, nargs="*", default=None,
         help=f"Additional dirs to exclude (always excludes: {', '.join(sorted(EXCLUDED_DIRS))})"
     )
+    parser.add_argument(
+        "--no-pause", action="store_true",
+        help="Skip the 'Press Enter to exit' prompt at the end (used by refresh_indexes.bat)"
+    )
     return parser.parse_args()
 
 
 def main():
     args = parse_args()
+    start = time.perf_counter()
 
     excluded = set(EXCLUDED_DIRS)
     if args.exclude:
@@ -235,7 +241,11 @@ def main():
         print(f"  Output:           {output_path}")
     else:
         print("  Output:           console only (no file written)")
+    print(f"  Runtime:          {time.perf_counter() - start:.3f}s")
     print("=" * 50)
+
+    if not args.no_pause:
+        input("\nPress Enter to exit...")
 
 
 if __name__ == "__main__":

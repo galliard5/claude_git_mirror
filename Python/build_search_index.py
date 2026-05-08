@@ -13,8 +13,10 @@ Usage:
     python build_search_index.py
 """
 
+import argparse
 import sqlite3
 import sys
+import time
 from pathlib import Path
 
 import yaml
@@ -93,8 +95,9 @@ def keywords_to_string(kw) -> str:
     return ""
 
 
-def build_index() -> None:
-    """Drop and rebuild the FTS5 index from scratch."""
+def build_index() -> tuple[int, int, list[tuple[str, str]]]:
+    """Drop and rebuild the FTS5 index from scratch.
+    Returns (indexed_count, skipped_count, errors_list)."""
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     conn = sqlite3.connect(DB_PATH)
@@ -157,17 +160,50 @@ def build_index() -> None:
     conn.commit()
     conn.close()
 
-    print(f"\n[OK] Indexed {indexed} files")
+    return indexed, skipped, errors
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Build an FTS5 search index over the Aethelmark/Gallihammer corpus."
+    )
+    parser.add_argument(
+        "--no-pause", action="store_true",
+        help="Skip the 'Press Enter to exit' prompt at the end (used by refresh_indexes.bat)"
+    )
+    return parser.parse_args()
+
+
+def main() -> int:
+    args = parse_args()
+    start = time.perf_counter()
+
+    try:
+        indexed, skipped, errors = build_index()
+    except Exception as e:
+        print(f"FATAL: {e}", file=sys.stderr)
+        if not args.no_pause:
+            input("\nPress Enter to exit...")
+        return 1
+
+    print()
+    print("=" * 50)
+    print("  SEARCH INDEX BUILD COMPLETE")
+    print("=" * 50)
+    print(f"  Database:         {DB_PATH}")
+    print(f"  Files indexed:    {indexed}")
     if skipped:
-        print(f"[!]  Skipped {skipped} files due to errors:")
+        print(f"  Files skipped:    {skipped}")
         for path, err in errors:
             print(f"     {path}: {err}")
-    print(f"\nDatabase: {DB_PATH}")
+    print(f"  Runtime:          {time.perf_counter() - start:.3f}s")
+    print("=" * 50)
+
+    if not args.no_pause:
+        input("\nPress Enter to exit...")
+
+    return 0
 
 
 if __name__ == "__main__":
-    try:
-        build_index()
-    except Exception as e:
-        print(f"FATAL: {e}", file=sys.stderr)
-        sys.exit(1)
+    sys.exit(main())
