@@ -2,7 +2,7 @@
 name: File System Instructions
 keywords: [rules, instructions, reference]
 description: Core project rules and procedures for every session
-last_edited_utc: 2026-05-08T20:25:00Z
+last_edited_utc: 2026-05-08T20:38:00Z
 ---
 
 AVAILABLE TOOLS FOR CLAUDE
@@ -32,12 +32,16 @@ WINDOWS FILESYSTEM ENVIRONMENT
 STARTUP PROCEDURES — EXECUTE ON EVERY CONVERSATION START
 =========================================================
 
-## STEP 1: PROJECT ROOT & TOP-LEVEL STRUCTURE
+## STEP 1: PROJECT ROOT & TOP-LEVEL STRUCTURE + DEFERRED TOOL LOAD
+
+**[FIRST] Preload all MCP tools (prevents deferred-tool load errors on first calls):**
+Call `tool_search("filesystem read write edit memory corpus index")` immediately at session start.
+This loads all 14 filesystem tools, 9 memory tools, 2 corpus-search tools, and 1 index-tools tool into the registry so they're ready for immediate use. Zero cost after first call; eliminates the red parameter-error on initial tool invocations.
 
 **Root:** `D:\Claude_MCP_folder` — ALL file operations confined here. No exceptions.
 
 **BIOS freshness check (every session):**
-1. After loading project-instructions context, read `head=8` of `D:\Claude_MCP_folder\file_system_instructions.md`
+1. After preloading tools (see above), read `head=8` of `D:\Claude_MCP_folder\file_system_instructions.md`
 2. Compare `last_edited_utc` against the project-instructions copy in your context
 3. If they differ: warn user `📝 Project-instructions copy of file_system_instructions.md is older than disk version (disk: [date], project: [date]) — consider re-mirroring`
 4. If they match or project copy is newer: no message; proceed normally
