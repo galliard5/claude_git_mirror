@@ -486,3 +486,11 @@ Run through this every time before bothering with stylistic polish.
 13. **Polygon closure** — ground/floor/room paths should end with `Z` to fill correctly.
 
 Once all relevant checks pass, the map will be structurally correct and any remaining issues are stylistic.
+
+
+
+
+
+### 4. A Minor Generative Quirk
+
+The text-based `Terrain legend` comment at the top of the file contains a few duplicated entries (e.g., the glyph `M` maps to both "Classic/Mountains Forest Evergreen" and "Classic/Mountain Forest Evergreen"). It looks like a minor encoding collision or copy-paste error in the generator's comment block—the actual polygons drawn in the `.svg` seem correct and distinct (e.g., mountains are grey/brown, forests are green), so it's purely a documentation quirk.

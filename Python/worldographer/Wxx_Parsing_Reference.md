@@ -531,3 +531,17 @@ Run through this every time before bothering with stylistic polish.
 13. **Polygon closure** — ground/floor/room paths should end with `Z` to fill correctly.
 
 Once all relevant checks pass, the map will be structurally correct and any remaining issues are stylistic.
+
+---
+
+## 11. Output format: see `Wxx_Map_Format_Spec.md`
+
+Everything above this section concerns **reading** Worldographer `.wxx` files — schema discovery, geometry quirks, edge cases in the source format. This document is the *input* side of the renderer pipeline.
+
+The *output* side — the structure of the rendered `.svg` file, the embedded description block format, the annotation file schema, inheritance rules for road/river paths, the icon vocabulary, and project-vs-default styling — is defined in a separate canonical spec:
+
+**`D:\Claude_MCP_folder\Core_Rules\Wxx_Map_Format_Spec.md`**
+
+That document is the source of truth for v2 `.svg` outputs. The renderer (`wxx_to_svg.py`), the description parser (`wxx_to_claude.py`), and the annotation tooling (`wxx_annotations.py`) all conform to what it specifies. When this parsing reference and the format spec disagree, the format spec wins for output-related questions and this document wins for input-parsing questions.
+
+Existing `.svg` files in the project may be `schema_version: 1` (the simpler pre-spec format that doesn't carry an annotation file or path inheritance). They render fine in browsers but should be regenerated under the v2 renderer when annotation work begins. Migration is non-automatic — see Format Spec §20 for details.
