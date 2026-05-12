@@ -10,13 +10,13 @@ Full-text ranked search over the worldbuilding corpus, exposed to Claude via a c
 
 ## Files
 
-- build_indexes.py` — Walks the corpus and (re)builds `search_index.db` from scratch
+- `build_indexes.py` — Single walk that (re)builds `directory_index.md`, `directory_index_with_files.md`, and `search_index.db`
 - `search_mcp_server.py` — MCP server exposing `search_corpus` and `index_status` tools to Claude
 - `search_index.db` — SQLite database with FTS5 virtual table (auto-generated, gitignored recommended)
 
 ## Indexed scope
 
-Walks `D:\Claude_MCP_folder` recursively for `.md` files. Excludes:
+Walks `/corpus` (the Docker container path for `D:\claude\filesystem\`) recursively. Excludes:
 
 - `Trash/`
 - `Python/`
@@ -44,13 +44,17 @@ BM25 ranking weights: name (10×), keywords (5×), description (3×), content (1
 
 Run after corpus drift (new files, edits, moves):
 
+**Via MCP tool (preferred):** `index-tools:rebuild_indexes`
+
+**Via bat file:** Double-click `refresh_indexes.bat` from Explorer
+
+**Direct CMD:**
 ```cmd
-D:
-cd D:\Claude\filesystem\Python
-python build_search_index.py
+cd D:\claude\filesystem\Python
+python build_indexes.py
 ```
 
-Takes ~1 second for ~200 files. Drops and recreates the table — no migration logic.
+Takes ~0.4 seconds. Drops and recreates all three outputs.
 
 ## MCP tools (used through Claude)
 
@@ -74,7 +78,7 @@ Query syntax follows FTS5 standard: `term`, `term1 term2` (AND), `term1 OR term2
 - If `python` isn't on Claude Desktop's PATH, edit the config to use the absolute path to `python.exe`. Find it with `where python` in CMD.
 
 **Search returns "Index not found"**
-- Run `python build_search_index.py` from `D:\Claude_MCP_folder\Python\`
+- Run `python build_indexes.py` from `D:\claude\filesystem\Python\`
 
 **Search returns FTS5 syntax errors**
 - The query likely contains a special character. Wrap problem terms in double quotes or use prefix matching.
