@@ -10,7 +10,7 @@ Full-text ranked search over the worldbuilding corpus, exposed to Claude via a c
 
 ## Files
 
-- `build_search_index.py` — Walks the corpus and (re)builds `search_index.db` from scratch
+- build_indexes.py` — Walks the corpus and (re)builds `search_index.db` from scratch
 - `search_mcp_server.py` — MCP server exposing `search_corpus` and `index_status` tools to Claude
 - `search_index.db` — SQLite database with FTS5 virtual table (auto-generated, gitignored recommended)
 

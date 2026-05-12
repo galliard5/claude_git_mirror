@@ -8,7 +8,7 @@ cd /d "%~dp0"
 
 echo.
 echo === Building directory and search indexes (all files from one walk)...
-python D:\Claude_MCP_folder\Python\build_indexes.py --no-pause
+python D:\Claude\filesystem\Python\build_indexes.py --no-pause
 if errorlevel 1 (
     echo.
     echo [FAIL] build_indexes.py exited with errors.
