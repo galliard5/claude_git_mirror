@@ -46,7 +46,7 @@ Run after corpus drift (new files, edits, moves):
 
 ```cmd
 D:
-cd D:\Claude_MCP_folder\Python
+cd D:\Claude\filesystem\Python
 python build_search_index.py
 ```
 

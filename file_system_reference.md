@@ -31,9 +31,9 @@ params:
 **⚠ CRITICAL:** Cannot use `head` and `tail` simultaneously — they are mutually exclusive.
 
 **Examples:**
-- `path="D:\Claude_MCP_folder\directory_index.md", head=8` — read YAML header only
-- `path="D:\...\character.md", tail=10` — verify file completion
-- `path="D:\...\file.md"` — read entire file
+- `path="/corpus/directory_index.md", head=8` — read YAML header only
+- `path="/corpus/.../character.md", tail=10` — verify file completion
+- `path="/corpus/.../file.md"` — read entire file
 
 ### `filesystem:read_multiple_files`
 Read multiple files in one call. More efficient than sequential reads. Failed reads for individual files don't stop the operation.
@@ -41,7 +41,7 @@ Read multiple files in one call. More efficient than sequential reads. Failed re
 params:
   paths: array[string] (required, minItems: 1)
 ```
-**Example:** `paths=["D:\...\file1.md", "D:\...\file2.md", "D:\...\file3.md"]`
+**Example:** `paths=["/corpus/.../file1.md", "/corpus/.../file2.md", "/corpus/.../file3.md"]`
 
 **⚠ Caveat:** Many large files in one call can produce oversized payloads. If timing out, fall back to sequential `read_text_file` calls.
 
@@ -51,7 +51,7 @@ Read an image or audio file. Returns base64 data + MIME type.
 params:
   path: string (required)
 ```
-**Example:** `path="D:\...\Characters\Owner\Isalia_Kreiger.jpg"`
+**Example:** `path="/corpus/.../Characters/Owner/Isalia_Kreiger.jpg"`
 
 ### `filesystem:read_file` *(DEPRECATED)*
 Legacy alias for `read_text_file`. Same params. Do not use in new code.
@@ -65,7 +65,7 @@ params:
   content: string (required)
   path: string (required)
 ```
-**Example:** `content="---\nname: New File\n---\n\nBody", path="D:\...\NewFile.md"`
+**Example:** `content="---\nname: New File\n---\n\nBody", path="/corpus/.../NewFile.md"`
 
 **Verification pattern (always do this):**
 ```
@@ -106,7 +106,7 @@ Create a directory. Silently succeeds if directory already exists. Can create ne
 params:
   path: string (required)
 ```
-**Example:** `path="D:\Claude_MCP_folder\World_Building\New_Setting\Characters"`
+**Example:** `path="/corpus/World_Building/New_Setting/Characters"`
 
 ### `filesystem:move_file`
 Move or rename files and directories. Single operation handles both. **Fails if destination already exists.**
@@ -116,10 +116,10 @@ params:
   destination: string (required)
 ```
 **Examples:**
-- Rename in place: `source="D:\...\Old_Name.md", destination="D:\...\New_Name.md"`
-- Move to subfolder: `source="D:\...\Characters\X.md", destination="D:\...\Characters\Senior_Staff\X.md"`
-- Soft delete: `source="D:\...\Bad_File.md", destination="D:\Claude_MCP_folder\Trash\Bad_File.md"`
-- Case-only rename (Windows-supported): `source="D:\...\kael.jpg", destination="D:\...\Kael_the_Amber_Manticore.jpg"`
+- Rename in place: `source="/corpus/.../Old_Name.md", destination="/corpus/.../New_Name.md"`
+- Move to subfolder: `source="/corpus/.../Characters/X.md", destination="/corpus/.../Characters/Senior_Staff/X.md"`
+- Soft delete: `source="/corpus/.../Bad_File.md", destination="/corpus/Trash/Bad_File.md"`
+- Case-only rename (supported): `source="/corpus/.../kael.jpg", destination="/corpus/.../Kael_the_Amber_Manticore.jpg"`
 
 ## Filesystem Query Tools (6)
 
@@ -138,7 +138,7 @@ params:
   path: string (required)
   sortBy?: string   — "name" (default) or "size"
 ```
-**Example:** `path="D:\...\Manor", sortBy="size"` — list manor files largest first
+**Example:** `path="/corpus/.../Manor", sortBy="size"` — list manor files largest first
 
 ### `filesystem:get_file_info`
 File/directory metadata: size, created/modified/accessed timestamps, permissions, isDirectory, isFile.
@@ -155,7 +155,7 @@ params:
   path: string (required)
   excludePatterns?: array[string]   — default []
 ```
-**Use case:** Full structural snapshots when working on a specific subtree (e.g. confirming the layout under `Cendrel/` before adding new content). The `Python\build_directory_indexes.py` script uses this internally; in Claude work it's most useful for verifying complex multi-level structures at once rather than repeated `list_directory` calls.
+**Use case:** Full structural snapshots when working on a specific subtree (e.g. confirming the layout under `Cendrel/` before adding new content). The `Python/build_indexes.py` script uses `os.walk` internally; in Claude work it's most useful for verifying complex multi-level structures at once rather than repeated `list_directory` calls.
 
 ### `filesystem:search_files`
 Recursive search by glob pattern. Returns full paths.
@@ -166,9 +166,9 @@ params:
   excludePatterns?: array[string]   — default []
 ```
 **Examples:**
-- `path="D:\...\Aethelmark", pattern="*.md"` — every .md in Aethelmark and subdirs
-- `path="D:\Claude_MCP_folder", pattern="Briar*"` — every file starting with Briar
-- `path="D:\...\Manor", pattern="*.md", excludePatterns=["Trash"]` — with exclusion
+- `path="/corpus/World_Building/Aethelmark", pattern="*.md"` — every .md in Aethelmark and subdirs
+- `path="/corpus", pattern="Briar*"` — every file starting with Briar
+- `path="/corpus/.../Manor", pattern="*.md", excludePatterns=["Trash"]` — with exclusion
 
 **⚠ Note:** Pattern is glob-style (`*.ext`, `**/*.ext`), NOT regex. Matches against filenames only — for body-content search, use `corpus-search:search_corpus` instead.
 
@@ -277,7 +277,7 @@ Returns the database path, total indexed file count, and last-built timestamp. N
 Custom MCP server for refreshing the on-disk indexes. See the INDEX REBUILD section in `file_system_instructions.md` for when-to-use guidance.
 
 ### `index-tools:rebuild_indexes`
-Runs both `build_directory_indexes.py` and `build_search_index.py` directly via subprocess (not the bat — the bat ends with `pause` and would hang). Optionally returns fresh content based on the `load` parameter.
+Runs `build_indexes.py` directly via subprocess (not the bat — the bat ends with `pause` and would hang). Optionally returns fresh content based on the `load` parameter.
 ```
 params:
   load?: string|null   — None | "directory" | "with_files" | "search_status"
@@ -289,7 +289,7 @@ params:
 - `"with_files"` — summary + fresh `directory_index_with_files.md` Claude section
 - `"search_status"` — summary + corpus search index_status output (file count + timestamp)
 
-**Returns:** Formatted text starting with `[OK] Indexes rebuilt successfully.` followed by both build step outputs (Directory indexes, Search index). If `load` is non-None, requested content is appended below a `=` separator. On failure, returns which step failed (Directory indexes / Search index) and its stdout/stderr for diagnosis.
+**Returns:** Formatted text starting with `[OK] Indexes rebuilt successfully.` followed by the build output. If `load` is non-None, requested content is appended below a `=` separator. On failure, returns stdout/stderr for diagnosis.
 
 **Hardcoded paths:** The tool can only run the known build scripts and only read the known index files. No parameter accepts a path from the caller. The corpus-search server's database is read-only here as well — the rebuild path goes through the build script, not the server.
 
@@ -314,33 +314,32 @@ This loads the live tool definition from the MCP server and shows the current sc
 INDEX REFRESH TOOLING
 =====================
 
-Two build scripts produce three derived files. All three are gitignored.
+One build script produces three derived files. All three are gitignored.
 
 | File | Built by | Purpose |
 |------|----------|---------|
-| `directory_index.md` | `Python/build_directory_indexes.py` | Compressed directory tree, dirs only (loaded at session start) |
-| `directory_index_with_files.md` | `Python/build_directory_indexes.py` | Directory tree with full file list (load on demand) |
-| `Python/search_index.db` | `Python/build_search_index.py` | SQLite FTS5 index for `corpus-search` MCP server |
+| `directory_index.md` | `Python/build_indexes.py` | Compressed directory tree, dirs only (loaded at session start) |
+| `directory_index_with_files.md` | `Python/build_indexes.py` | Directory tree with full file list (load on demand) |
+| `Python/search_index.db` | `Python/build_indexes.py` | SQLite FTS5 index for `corpus-search` MCP server |
 
-`build_directory_indexes.py` produces both directory index files from a single tree walk. It replaced the previous separate `map_directory.py` and `map_directory_with_files.py` scripts (consolidation 2026-05). The legacy scripts live in `Trash/` if needed for reference.
+`build_indexes.py` produces all three outputs from a single `os.walk` pass, replacing `build_directory_indexes.py` and `build_search_index.py` (unified 2026-05). The old scripts are in `Trash/` if needed for reference.
 
 ## Three ways to refresh
 
-**`index-tools:rebuild_indexes` (preferred for in-session refreshes)** — Claude calls this directly. Runs both build scripts via subprocess, optionally returns fresh content. See TOOL SCHEMA REFERENCE > Index Tools above.
+**`index-tools:rebuild_indexes` (preferred for in-session refreshes)** — Claude calls this directly. Runs `build_indexes.py` via subprocess, optionally returns fresh content. See TOOL SCHEMA REFERENCE > Index Tools above.
 
-**`Python/refresh_indexes.bat` (preferred for manual user refreshes)** — Double-click from Explorer. Runs both build scripts in sequence with errorlevel chaining and end-of-run pause so the window stays open. **Cannot be called from the MCP server** — the trailing `pause` would hang any subprocess invocation.
+**`Python/refresh_indexes.bat` (preferred for manual user refreshes)** — Double-click from Explorer. Runs `build_indexes.py` with errorlevel chaining and end-of-run pause. **Cannot be called from the MCP server** — the trailing `pause` would hang any subprocess invocation.
 
 **Direct script invocation (rare):**
 ```cmd
-python build_directory_indexes.py            # interactive: pauses for Enter
-python build_directory_indexes.py --no-pause # automated
-python build_search_index.py                 # interactive
-python build_search_index.py --no-pause      # automated
+cd D:\claude\filesystem\Python
+python build_indexes.py            # interactive: pauses for Enter
+python build_indexes.py --no-pause # automated
 ```
 
 ## `--no-pause` flag
 
-Both build scripts accept `--no-pause` to skip the "Press Enter to exit" prompt. The bat file passes this flag for unattended execution. The MCP server passes this flag plus `stdin=subprocess.DEVNULL` as defense-in-depth so any rogue read would EOF immediately.
+The build script accepts `--no-pause` to skip the "Press Enter to exit" prompt. The bat file passes this flag for unattended execution. The MCP server passes this flag plus `stdin=subprocess.DEVNULL` as defense-in-depth so any rogue read would EOF immediately.
 
 ## Runtime stats
 
@@ -399,13 +398,8 @@ PYTHON SCRIPTS PROTOCOL
 ========================
 
 - Last verified Python version: 3.14.3
-- All scripts live in `D:\Claude_MCP_folder\Python\`
-- Scope: recursively affect project root unless specified otherwise
-- Execution environment: Windows CMD
-
-```cmd
-python D:\Claude_MCP_folder\Python\script_name.py [options]
-```
+- All scripts live in `D:\claude\filesystem\Python\` (Windows host path)
+- To run from CMD: `cd D:\claude\filesystem\Python && python script_name.py [options]`
 
 ## Two script categories with different conventions
 
@@ -415,7 +409,7 @@ python D:\Claude_MCP_folder\Python\script_name.py [options]
 - Must require user confirmation before modifying files
 - Must preview all proposed changes before applying
 
-**Rebuild / read-only scripts** — generate derived artifacts (indexes, exports), never modify corpus files. Examples: `build_directory_indexes.py`, `build_search_index.py`.
+**Rebuild / read-only scripts** — generate derived artifacts (indexes, exports), never modify corpus files. Example: `build_indexes.py`.
 
 - No `--dry-run` needed (no destructive action on corpus)
 - Run freely from CMD or via `refresh_indexes.bat` or `index-tools:rebuild_indexes`
@@ -424,7 +418,7 @@ python D:\Claude_MCP_folder\Python\script_name.py [options]
 ## Naming validation
 
 ```cmd
-python D:\Claude_MCP_folder\Python\validate_naming.py
+python D:\claude\filesystem\Python\validate_naming.py
 ```
 Scans for naming violations (spaces, ampersands, apostrophes), previews fixes, requires approval. Modification script — supports `--dry-run`.
 
