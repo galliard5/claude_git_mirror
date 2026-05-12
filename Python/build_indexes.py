@@ -55,15 +55,26 @@ DB_REL_PATH = Path("Python") / "search_index.db"
 
 def resolve_paths(cfg: dict) -> tuple[Path, Path]:
     """
-    Extract root and index_dir from [paths].
+    Determine root and index_dir.
 
-    index_directory resolution:
+    Priority for root:
+        1. CORPUS_ROOT env var — allows Docker to override without editing cfg
+        2. root_directory in [paths] cfg section
+
+    index_directory resolution (always relative to root):
         blank              -> root_directory (current behaviour)
         starts with / or \ -> root-relative  (/index/ -> root/index/)
         anything else      -> treat as absolute path
     """
-    settings = cfg.get("paths", {}).get("settings", {})
+    # 1. Env var override
+    env_root = os.environ.get("CORPUS_ROOT", "").strip()
+    if env_root:
+        root      = Path(env_root)
+        index_dir = root   # when running via env var, index output goes to root
+        return root, index_dir
 
+    # 2. cfg fallback
+    settings = cfg.get("paths", {}).get("settings", {})
     raw_root = str(settings.get("root_directory", "")).strip()
     if not raw_root:
         raise ValueError("[paths] root_directory is required but not set in cfg")

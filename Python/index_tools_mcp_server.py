@@ -22,6 +22,7 @@ Not intended to be run manually.
 """
 
 import datetime
+import os
 import re
 import sqlite3
 import subprocess
@@ -30,18 +31,24 @@ from pathlib import Path
 
 from mcp.server.fastmcp import FastMCP
 
-# --- Hardcoded paths (no caller-controlled paths anywhere) ---
+# --- Paths ---
+# CORPUS_ROOT env var allows Docker to override without editing this file.
+# Falls back to the local Windows path when not set.
 
-ROOT = Path(r"D:\Claude_MCP_folder")
+ROOT       = Path(os.environ.get("CORPUS_ROOT", r"D:\Claude_MCP_folder"))
 PYTHON_DIR = ROOT / "Python"
-BUILDER = PYTHON_DIR / "build_indexes.py"
-DIRECTORY_INDEX = ROOT / "directory_index.md"
+BUILDER    = PYTHON_DIR / "build_indexes.py"
+DIRECTORY_INDEX            = ROOT / "directory_index.md"
 DIRECTORY_INDEX_WITH_FILES = ROOT / "directory_index_with_files.md"
-SEARCH_DB = PYTHON_DIR / "search_index.db"
+SEARCH_DB  = PYTHON_DIR / "search_index.db"
 
 VALID_LOAD_VALUES = {None, "directory", "with_files", "search_status"}
 
-mcp = FastMCP("index-tools")
+mcp = FastMCP(
+    "index-tools",
+    host=os.environ.get("MCP_HOST", "127.0.0.1"),
+    port=int(os.environ.get("MCP_PORT", "8000")),
+)
 
 
 def _read_claude_section(path: Path) -> str:
@@ -211,4 +218,4 @@ def rebuild_indexes(load: str | None = None) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport=os.environ.get("MCP_TRANSPORT", "stdio"))

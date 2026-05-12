@@ -1,0 +1,16 @@
+# Requirements for the custom Python MCP servers:
+#   search_mcp_server.py
+#   index_tools_mcp_server.py
+#   build_indexes.py (called as a subprocess by index_tools_mcp_server.py)
+#
+# Direct dependencies only — transitive deps are resolved by pip at install time.
+#
+# Note: mcp lists pywin32 as a dependency, but it is a conditional Windows-only
+# package (sys_platform == "win32"). pip on Linux skips it automatically.
+# No action needed, but don't be surprised if you see it mentioned during builds.
+
+# MCP Python SDK — provides FastMCP, stdio and HTTP transports
+mcp==1.27.0
+
+# YAML parser — used by build_indexes.py for frontmatter extraction
+PyYAML==6.0.3

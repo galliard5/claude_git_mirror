@@ -15,14 +15,22 @@ Not intended to be run manually.
 """
 
 import datetime
+import os
 import sqlite3
 from pathlib import Path
 
 from mcp.server.fastmcp import FastMCP
 
-DB_PATH = Path(r"D:\Claude_MCP_folder\Python\search_index.db")
+# CORPUS_ROOT env var allows Docker to override the path without editing this file.
+# Falls back to the local Windows path when not set.
+_CORPUS_ROOT = Path(os.environ.get("CORPUS_ROOT", r"D:\Claude_MCP_folder"))
+DB_PATH = _CORPUS_ROOT / "Python" / "search_index.db"
 
-mcp = FastMCP("corpus-search")
+mcp = FastMCP(
+    "corpus-search",
+    host=os.environ.get("MCP_HOST", "127.0.0.1"),
+    port=int(os.environ.get("MCP_PORT", "8000")),
+)
 
 
 def _open_readonly() -> sqlite3.Connection:
@@ -182,4 +190,4 @@ def index_status() -> str:
 
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport=os.environ.get("MCP_TRANSPORT", "stdio"))
