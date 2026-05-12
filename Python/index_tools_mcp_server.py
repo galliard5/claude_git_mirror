@@ -34,8 +34,7 @@ from mcp.server.fastmcp import FastMCP
 
 ROOT = Path(r"D:\Claude_MCP_folder")
 PYTHON_DIR = ROOT / "Python"
-DIR_BUILDER = PYTHON_DIR / "build_directory_indexes.py"
-SEARCH_BUILDER = PYTHON_DIR / "build_search_index.py"
+BUILDER = PYTHON_DIR / "build_indexes.py"
 DIRECTORY_INDEX = ROOT / "directory_index.md"
 DIRECTORY_INDEX_WITH_FILES = ROOT / "directory_index_with_files.md"
 SEARCH_DB = PYTHON_DIR / "search_index.db"
@@ -109,11 +108,10 @@ def _search_status_block() -> str:
 def rebuild_indexes(load: str | None = None) -> str:
     """Rebuild the on-disk corpus indexes by running the build scripts directly.
 
-    Two artifacts get rebuilt, in order:
-      1. directory_index.md and directory_index_with_files.md (from a single
-         tree walk, via build_directory_indexes.py --no-pause)
-      2. Python/search_index.db (FTS5 full-text index, via
-         build_search_index.py --no-pause)
+    All three artifacts are rebuilt in a single pass via build_indexes.py:
+      - directory_index.md
+      - directory_index_with_files.md
+      - Python/search_index.db (FTS5 full-text index)
 
     By default, returns a summary of the rebuild. The optional `load` parameter
     additionally returns the freshly-built content of one specific index, so
@@ -150,56 +148,41 @@ def rebuild_indexes(load: str | None = None) -> str:
             f'Valid values: None, "directory", "with_files", "search_status"'
         )
 
-    # Verify both build scripts exist before starting
-    for script in (DIR_BUILDER, SEARCH_BUILDER):
-        if not script.exists():
-            return f"[!] Build script not found: {script}"
+    # Verify build script exists before starting
+    if not BUILDER.exists():
+        return f"[!] Build script not found: {BUILDER}"
 
     # Use the same Python interpreter that's running this server
     py = sys.executable
 
-    # Run each build script directly. --no-pause guarantees no input() prompt;
+    # Run build_indexes.py directly. --no-pause guarantees no input() prompt;
     # stdin redirect to DEVNULL is a belt-and-braces guard so any rogue read()
     # would EOF immediately rather than block the subprocess.
-    steps = [
-        ("Directory indexes", [py, str(DIR_BUILDER), "--no-pause"]),
-        ("Search index",      [py, str(SEARCH_BUILDER), "--no-pause"]),
-    ]
+    try:
+        result = subprocess.run(
+            [py, str(BUILDER), "--no-pause"],
+            capture_output=True,
+            text=True,
+            timeout=30,
+            cwd=str(PYTHON_DIR),
+            stdin=subprocess.DEVNULL,
+        )
+    except subprocess.TimeoutExpired:
+        return (
+            "[!] Index build timed out after 30 seconds.\n"
+            f"Run refresh_indexes.bat manually from {PYTHON_DIR} to investigate."
+        )
+    except Exception as e:
+        return f"[!] Failed to launch build_indexes.py: {e}"
 
-    outputs: list[tuple[str, str]] = []
-    for label, cmd in steps:
-        try:
-            result = subprocess.run(
-                cmd,
-                capture_output=True,
-                text=True,
-                timeout=30,
-                cwd=str(PYTHON_DIR),
-                stdin=subprocess.DEVNULL,
-            )
-        except subprocess.TimeoutExpired:
-            return (
-                f"[!] {label} step timed out after 30 seconds.\n"
-                f"Run refresh_indexes.bat manually from {PYTHON_DIR} to investigate."
-            )
-        except Exception as e:
-            return f"[!] Failed to launch {label} step: {e}"
+    if result.returncode != 0:
+        return (
+            f"[!] build_indexes.py FAILED (exit code {result.returncode})\n\n"
+            f"--- STDOUT ---\n{result.stdout or '(empty)'}\n\n"
+            f"--- STDERR ---\n{result.stderr or '(empty)'}"
+        )
 
-        if result.returncode != 0:
-            return (
-                f"[!] {label} step FAILED (exit code {result.returncode})\n\n"
-                f"--- STDOUT ---\n{result.stdout or '(empty)'}\n\n"
-                f"--- STDERR ---\n{result.stderr or '(empty)'}"
-            )
-        outputs.append((label, result.stdout.rstrip() or "(no stdout)"))
-
-    # Success - build the summary from both steps' outputs
-    summary_parts = ["[OK] Indexes rebuilt successfully.", ""]
-    for label, stdout in outputs:
-        summary_parts.append(f"--- {label} ---")
-        summary_parts.append(stdout)
-        summary_parts.append("")
-    summary = "\n".join(summary_parts).rstrip()
+    summary = "[OK] Indexes rebuilt successfully.\n\n" + (result.stdout.rstrip() or "(no stdout)")
 
     if load is None:
         return summary

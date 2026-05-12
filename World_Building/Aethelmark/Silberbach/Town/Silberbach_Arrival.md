@@ -16,7 +16,7 @@ This is not a location file. It is a *transition* file — what the town feels l
 
 Most travelers come in by water. The Angerap is the spine of regional commerce, and barges from the larger downstream cities arrive daily with goods and passengers.
 
-**The first sight:** The bend itself. Coming upstream from the west, the river straightens for half a mile, then turns hard to the northeast — and as the barge rounds that turn, Silberbach opens up on the inner curve, all at once. The Old Town's grey stone walls along the high ground, the bristling line of dock pylons along the harbor, the spread of New Town roofs climbing inland. On a clear day the northern mountains show behind the town as a faint ridge.
+**The first sight:** The bend itself. Coming upstream from the south, the river straightens for half a mile, then turns hard to the northwest — and as the barge rounds that turn, Silberbach opens up on the inner curve, all at once. The Old Town's grey stone walls along the high ground, the bristling line of dock pylons along the harbor, the spread of New Town roofs climbing inland. On a clear day the northern mountains show behind the town as a faint ridge.
 
 **What you smell:** River water first — silty, weed-cool, fish. Then woodsmoke from the New Town hearths. As the barge nears the docks: tar from the boat-builders' yards, hemp from the rope-walks, the dye works' pungent eye-watering register if the wind is from the south. By the docks proper: sweat, fish gutting, hot pitch, ale.
 

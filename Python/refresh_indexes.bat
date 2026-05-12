@@ -7,21 +7,11 @@ setlocal
 cd /d "%~dp0"
 
 echo.
-echo === [1/2] Building directory indexes (both files from one walk)...
-python build_directory_indexes.py --no-pause
+echo === Building directory and search indexes (all files from one walk)...
+python D:\Claude_MCP_folder\Python\build_indexes.py --no-pause
 if errorlevel 1 (
     echo.
-    echo [FAIL] build_directory_indexes.py exited with errors.
-    pause
-    exit /b 1
-)
-
-echo.
-echo === [2/2] Building search index...
-python build_search_index.py --no-pause
-if errorlevel 1 (
-    echo.
-    echo [FAIL] build_search_index.py exited with errors.
+    echo [FAIL] build_indexes.py exited with errors.
     pause
     exit /b 1
 )

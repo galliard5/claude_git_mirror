@@ -9,7 +9,7 @@ Silberbach
 
 A mid-sized river valley town of 5,000-6,000 souls, built on the bend of the Angerap River. Agricultural and textile hub with mining interests.
 
-Overview: Silberbach ("Silver Stream") sits at a sharp bend in the Angerap River, where the water turns from northeast to west. The town began as a fortified settlement within the river's protective curve, its old stone walls now enclosing only the administrative heart — the Count's Keep, the Mayor's Mansion, and the Old Temple. Over centuries, the town spilled beyond those walls like water over a dam, spreading along the riverbank and into the pastoral valley beyond.
+Overview: Silberbach ("Silver Stream") sits at a sharp bend in the Angerap River, where the water turns from northwest to south. The town began as a fortified settlement within the river's protective curve, its old stone walls now enclosing only the administrative heart — the Count's Keep, the Mayor's Mansion, and the Old Temple. Over centuries, the town spilled beyond those walls like water over a dam, spreading along the riverbank and into the pastoral valley beyond.
 
 Today, Silberbach is a thriving market town of 5,000-6,000 souls, its wealth built on grain, wool, and the silver that gives the town its name. Barges crowd the natural harbor; market stalls fill the New Town squares; and the distant mountains to the north still yield their mineral treasures.
 
@@ -26,7 +26,7 @@ Population: 5,000 - 6,000
 
 Region: River Valley
 
-Geography: **Location:** Built on a pronounced bend of the Angerap River, which flows from the northeast before turning sharply west.
+Geography: **Location:** Built on a pronounced bend of the Angerap River, which flows from the northwest before turning sharply south.
 
 **Surroundings:**
 - **North:** Distant mountains (half-day's ride) — source of silver, iron, and gemstones
