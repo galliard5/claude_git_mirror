@@ -110,18 +110,25 @@ def search_corpus(
     conditions.append(_wrap_query(query))
     match_expr = " AND ".join(conditions)
 
-    # SQL WHERE extensions for structured field filters
-    sql_filters: list[str] = []
-    sql_params: list = []
+    # SQL WHERE extensions for structured field filters — use IN subqueries
+    # against corpus_meta rather than JOIN conditions, to avoid FTS5's known
+    # quirk of silently ignoring non-MATCH WHERE clauses on joined tables.
+    subquery_filters: list[str] = []
+    subquery_params: list = []
     if type_filter:
-        sql_filters.append("m.doc_type = ?")
-        sql_params.append(type_filter.strip())
+        subquery_filters.append(
+            "f.path IN (SELECT path FROM corpus_meta WHERE doc_type = ?)"
+        )
+        subquery_params.append(type_filter.strip())
     if missing_filter:
-        sql_filters.append(f"m.missing_{missing_filter.lower().strip()} = 1")
+        field = missing_filter.lower().strip()
+        subquery_filters.append(
+            f"f.path IN (SELECT path FROM corpus_meta WHERE missing_{field} = 1)"
+        )
 
     where_clause = "WHERE corpus_fts MATCH ?"
-    if sql_filters:
-        where_clause += "\n  AND " + "\n  AND ".join(sql_filters)
+    if subquery_filters:
+        where_clause += "\n  AND " + "\n  AND ".join(subquery_filters)
 
     try:
         conn = _open_readonly()
@@ -147,7 +154,7 @@ def search_corpus(
             ORDER BY rank
             LIMIT ?
             """,
-            [match_expr] + sql_params + [limit],
+            [match_expr] + subquery_params + [limit],
         )
         rows = cur.fetchall()
         conn.close()
