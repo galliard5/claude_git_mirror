@@ -43,10 +43,12 @@ from cfg_loader import load_cfg
 DEFAULT_CFG     = Path(__file__).parent / "indexer.cfg"
 OUTPUT_DIRS_ONLY  = "directory_index.md"
 OUTPUT_WITH_FILES = "directory_index_with_files.md"
+DB_FILENAME       = "search_index.db"
 
-# search_index.db lives in Python/ alongside the MCP server that reads it.
-# Update search_mcp_server.py if this path changes.
-DB_REL_PATH = Path("Python") / "search_index.db"
+# All three outputs (the two .md indexes and search_index.db) are written
+# to the same directory, controlled by [paths] index_directory in indexer.cfg.
+# The MCP servers (search_mcp_server.py, index_tools_mcp_server.py) hardcode
+# their copy of this path — update them in lockstep if the layout changes.
 
 
 # ---------------------------------------------------------------------------
@@ -602,7 +604,7 @@ def main() -> int:
     file_mode, file_patterns              = parse_file_types(cfg)
     context_default, context_limits       = parse_context_limits(cfg)
 
-    db_path = root / DB_REL_PATH
+    db_path = index_dir / DB_FILENAME
 
     # --- Walk (single pass) ---
     dir_entries, search_files = walk_and_collect(

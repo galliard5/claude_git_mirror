@@ -34,13 +34,15 @@ from mcp.server.fastmcp import FastMCP
 # --- Paths ---
 # CORPUS_ROOT env var allows Docker to override without editing this file.
 # Falls back to the local Windows path when not set.
+# INDEX_DIR must stay in lockstep with build_indexes.py and indexer.cfg index_directory.
 
-ROOT       = Path(os.environ.get("CORPUS_ROOT", r"D:\Claude_MCP_folder"))
+ROOT       = Path(os.environ.get("CORPUS_ROOT", r"D:\claude\filesystem"))
 PYTHON_DIR = ROOT / "Python"
+INDEX_DIR  = ROOT / "index"
 BUILDER    = PYTHON_DIR / "build_indexes.py"
-DIRECTORY_INDEX            = ROOT / "directory_index.md"
-DIRECTORY_INDEX_WITH_FILES = ROOT / "directory_index_with_files.md"
-SEARCH_DB  = PYTHON_DIR / "search_index.db"
+DIRECTORY_INDEX            = INDEX_DIR / "directory_index.md"
+DIRECTORY_INDEX_WITH_FILES = INDEX_DIR / "directory_index_with_files.md"
+SEARCH_DB  = INDEX_DIR / "search_index.db"
 
 VALID_LOAD_VALUES = {None, "directory", "with_files", "search_status"}
 

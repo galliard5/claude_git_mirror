@@ -23,8 +23,9 @@ from mcp.server.fastmcp import FastMCP
 
 # CORPUS_ROOT env var allows Docker to override the path without editing this file.
 # Falls back to the local Windows path when not set.
-_CORPUS_ROOT = Path(os.environ.get("CORPUS_ROOT", r"D:\Claude_MCP_folder"))
-DB_PATH = _CORPUS_ROOT / "Python" / "search_index.db"
+# DB_PATH must stay in lockstep with build_indexes.py and indexer.cfg index_directory.
+_CORPUS_ROOT = Path(os.environ.get("CORPUS_ROOT", r"D:\claude\filesystem"))
+DB_PATH = _CORPUS_ROOT / "index" / "search_index.db"
 
 mcp = FastMCP(
     "corpus-search",
