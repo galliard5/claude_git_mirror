@@ -51,33 +51,39 @@ def search_corpus(
     query: str,
     limit: int = 10,
     category_filter: str | None = None,
+    type_filter: str | None = None,
+    missing_filter: str | None = None,
 ) -> str:
     """Full-text ranked search over the worldbuilding corpus.
 
-    Searches markdown content, frontmatter (name, keywords, description),
-    and path-derived category across all indexed files. Results are ranked
-    by BM25 with name and keywords weighted highest.
+    FTS5 handles full-text ranking. Structured field filters (type, missing)
+    use SQL equality against a companion table joined at query time, so
+    hyphenated type values like 'setting-document' work correctly.
 
     Query syntax (FTS5):
-        Vogt                       - single term (matches Vogt, Vogts, etc via porter stem)
+        Vogt                       - single term (porter stem: Vogt, Vogts, etc)
         Vogt security              - both words present (implicit AND)
         Vogt OR Sable              - either term
         "Reshaping Cascade"        - exact phrase (escape inner quotes by doubling)
         petition NOT rejected      - boolean exclusion
-        transform*                 - prefix match (matches transformed, transformation, etc)
+        transform*                 - prefix match (transformed, transformation, etc)
 
     Args:
         query: FTS5 search expression. Multi-word queries default to AND.
         limit: Max results to return. Default 10.
-        category_filter: Optional path-segment filter (e.g. "Aethelmark",
-            "Manor", "Cendrel", "Senior_Staff"). Matches against the indexed
-            category column derived from the file's directory path.
+        category_filter: Path-segment filter (e.g. "Manor", "Cendrel",
+            "Senior_Staff"). Matched against the directory portion of the
+            file path via FTS5 column filter.
+        type_filter: Exact match against the type: frontmatter field
+            (e.g. "setting-document", "character", "session"). SQL equality —
+            hyphenated values work correctly here.
+        missing_filter: Find files where a frontmatter field is absent or empty.
+            One of: name, keywords, description, type.
 
     Returns:
-        Formatted ranked results: each entry shows score, relative path, name,
-        keywords, description, and a snippet showing the matched context with
-        ** ** marks around hit terms. Returns a "no results" message if the
-        query matches nothing, or an error message if the query is malformed.
+        Formatted ranked results: path, name, keywords, description, type,
+        missing fields, and a snippet with ** ** around matched terms.
+        Returns a 'no results' message or error string on failure.
     """
     if not DB_PATH.exists():
         rebuild_path = DB_PATH.parent / "build_search_index.py"
@@ -86,31 +92,62 @@ def search_corpus(
             f"Run: python {rebuild_path}"
         )
 
+    # Validate missing_filter before touching the DB
+    _valid_missing = {"name", "keywords", "description", "type"}
+    if missing_filter:
+        _field = missing_filter.lower().strip()
+        if _field not in _valid_missing:
+            return (
+                f"[!] Invalid missing_filter: '{missing_filter}'. "
+                f"Valid values: {', '.join(sorted(_valid_missing))}"
+            )
+
+    # FTS5 MATCH expression — category stays here; type/missing use SQL below
+    conditions = []
     if category_filter:
         cat_clean = category_filter.strip().replace('"', '""')
-        match_expr = f'category:"{cat_clean}" AND {_wrap_query(query)}'
-    else:
-        match_expr = _wrap_query(query)
+        conditions.append(f'category:"{cat_clean}"')
+    conditions.append(_wrap_query(query))
+    match_expr = " AND ".join(conditions)
+
+    # SQL WHERE extensions for structured field filters
+    sql_filters: list[str] = []
+    sql_params: list = []
+    if type_filter:
+        sql_filters.append("m.doc_type = ?")
+        sql_params.append(type_filter.strip())
+    if missing_filter:
+        sql_filters.append(f"m.missing_{missing_filter.lower().strip()} = 1")
+
+    where_clause = "WHERE corpus_fts MATCH ?"
+    if sql_filters:
+        where_clause += "\n  AND " + "\n  AND ".join(sql_filters)
 
     try:
         conn = _open_readonly()
         cur = conn.cursor()
         cur.execute(
-            """
+            f"""
             SELECT
-                path,
-                name,
-                keywords,
-                description,
-                category,
+                f.path,
+                f.name,
+                f.keywords,
+                f.description,
+                f.category,
+                COALESCE(m.doc_type, '') AS doc_type,
+                COALESCE(m.missing_name, 0) AS missing_name,
+                COALESCE(m.missing_keywords, 0) AS missing_keywords,
+                COALESCE(m.missing_description, 0) AS missing_description,
+                COALESCE(m.missing_type, 0) AS missing_type,
                 snippet(corpus_fts, 5, '**', '**', '...', 24) AS preview,
                 bm25(corpus_fts, 0.0, 10.0, 5.0, 3.0, 0.0, 1.0) AS rank
-            FROM corpus_fts
-            WHERE corpus_fts MATCH ?
+            FROM corpus_fts f
+            LEFT JOIN corpus_meta m ON f.path = m.path
+            {where_clause}
             ORDER BY rank
             LIMIT ?
             """,
-            (match_expr, limit),
+            [match_expr] + sql_params + [limit],
         )
         rows = cur.fetchall()
         conn.close()
@@ -124,17 +161,31 @@ def search_corpus(
         return f"[!] Unexpected error: {e}"
 
     if not rows:
-        suffix = f" [filter: {category_filter}]" if category_filter else ""
+        suffixes = []
+        if category_filter:
+            suffixes.append(f"category: {category_filter}")
+        if type_filter:
+            suffixes.append(f"type: {type_filter}")
+        if missing_filter:
+            suffixes.append(f"missing: {missing_filter}")
+        suffix = f" [{', '.join(suffixes)}]" if suffixes else ""
         return f"No results for: {query}{suffix}"
 
     lines = [f"Found {len(rows)} result(s) for: {query}"]
     if category_filter:
-        lines[0] += f" [filter: {category_filter}]"
+        lines[0] += f" [category: {category_filter}]"
+    if type_filter:
+        lines[0] += f" [type: {type_filter}]"
+    if missing_filter:
+        lines[0] += f" [missing: {missing_filter}]"
     lines.append("")
 
-    for i, (path, name, keywords, description, category, preview, rank) in enumerate(rows, 1):
-        # bm25 returns negative values; magnitude indicates relevance
-        score = abs(rank)
+    for i, (
+        path, name, keywords, description, category,
+        doc_type, miss_name, miss_kw, miss_desc, miss_type,
+        preview, rank,
+    ) in enumerate(rows, 1):
+        score = abs(rank)  # bm25 returns negative; magnitude = relevance
         lines.append(f"{i}. [score: {score:.2f}] {path}")
         if name:
             lines.append(f"   Name: {name}")
@@ -142,9 +193,17 @@ def search_corpus(
             lines.append(f"   Keywords: {keywords}")
         if description:
             lines.append(f"   Description: {description}")
+        if doc_type:
+            lines.append(f"   Type: {doc_type}")
+        missing_parts = []
+        if miss_name: missing_parts.append("name")
+        if miss_kw:   missing_parts.append("keywords")
+        if miss_desc: missing_parts.append("description")
+        if miss_type: missing_parts.append("type")
+        if missing_parts:
+            lines.append(f"   Missing: {', '.join(missing_parts)}")
         if preview:
-            preview_clean = " ".join(preview.split())
-            lines.append(f"   Match: {preview_clean}")
+            lines.append(f"   Match: {' '.join(preview.split())}")
         lines.append("")
 
     return "\n".join(lines)

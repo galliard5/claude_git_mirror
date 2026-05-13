@@ -467,6 +467,19 @@ def build_search_db(
     conn = sqlite3.connect(db_path)
     cur  = conn.cursor()
 
+    cur.execute("DROP TABLE IF EXISTS corpus_meta")
+    cur.execute(
+        """
+        CREATE TABLE corpus_meta (
+            path                TEXT    PRIMARY KEY,
+            doc_type            TEXT    NOT NULL DEFAULT '',
+            missing_name        INTEGER NOT NULL DEFAULT 0,
+            missing_keywords    INTEGER NOT NULL DEFAULT 0,
+            missing_description INTEGER NOT NULL DEFAULT 0,
+            missing_type        INTEGER NOT NULL DEFAULT 0
+        )
+        """
+    )
     cur.execute("DROP TABLE IF EXISTS corpus_fts")
     cur.execute(
         """
@@ -514,7 +527,19 @@ def build_search_db(
         category    = "/".join(rel_path.parts[:-1])
         path_str    = str(rel_path).replace("\\", "/")
 
+        is_md            = full_path.suffix.lower() == ".md"
+        doc_type         = str(meta.get("type") or "") if is_md else ""
+        missing_name     = int(is_md and not meta.get("name"))
+        missing_keywords = int(is_md and not meta.get("keywords"))
+        missing_desc     = int(is_md and not meta.get("description"))
+        missing_type     = int(is_md and not meta.get("type"))
+
         try:
+            cur.execute(
+                "INSERT INTO corpus_meta(path, doc_type, missing_name, missing_keywords, missing_description, missing_type) "
+                "VALUES (?, ?, ?, ?, ?, ?)",
+                (path_str, doc_type, missing_name, missing_keywords, missing_desc, missing_type),
+            )
             cur.execute(
                 "INSERT INTO corpus_fts(path, name, keywords, description, category, content) "
                 "VALUES (?, ?, ?, ?, ?, ?)",
