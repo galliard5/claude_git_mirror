@@ -1,6 +1,6 @@
 ---
-type: setting-document
 name: Tenari_Guide
+type: setting-document
 keywords: [star-league, sci-fi, alien-race, tenari, narimera, psionic, hospitality, entertainment]
 description: A lore guide to the Tenari — a charming, psionic, hospitality-focused alien species from the planet Narimera in the Star League setting. Three subraces (Tenari, Kynari, Lanari). Sequential hermaphrodites (female to male with age). Technology: near-starfaring. Culture: entertainment, philosophy, libertine values. Relevant to any Star League campaign.
 ---

@@ -238,14 +238,21 @@ NAMING & METADATA
 
 **Naming:** All files and folders use `Snake_Case_With_Capitals` — underscores between words, leading capital on each significant word. Examples: `Manor`, `House_Steinfeld`, `Isalia_Kreiger.md`, `Camp_Rochevaux`. JPG filenames match their .md counterparts (`Isalia_Kreiger.jpg`, not `isalia_kreiger.jpg`). Default output: `.md`. Images: `.jpg` preferred. `.txt` is acceptable in `Stories/`.
 
-**YAML frontmatter (all .md files, lines 1–4):**
+**YAML frontmatter (all .md files, lines 1–5):**
 ```yaml
 ---
 name: Name
+type: [optional document category]
 keywords: [keyword1, keyword2]
 description: One sentence description
 ---
 ```
+
+**Field guide:**
+- `name` — Document title (required). Use `Snake_Case_With_Capitals`.
+- `type` — (optional) Document category for meta-organization. Examples: `setting-document`, `race-document`, `character-sheet`, `scenario`, `rules-reference`. No spaces; use hyphens. Omit if not applicable.
+- `keywords` — (required) Comma-separated tags for searchability and discovery.
+- `description` — (required) One-sentence summary of document purpose and scope.
 
 *Note:* The legacy `<meta>` pseudo-XML tag format (a single-line tag at the top of `.txt` files) is deprecated. New `.txt` files in `Stories/` don't need it; old files that have it can be left alone or migrated to YAML opportunistically.
 

@@ -1,6 +1,6 @@
 ---
-type: setting-document
 name: KaiSF_Tauran_Vega
+type: setting-document
 keywords: [gurps, tl9, sci-fi, kai-sf, tauran-vega, pirates, eurasian-axis, federation, uplifted, augmented, xyleon-artifacts, setting]
 description: Complete setting writeup for Kai's SF campaign — the Tauran Vega system. GURPS TL9. Three factions: Eurasian Axis (Communist superstate), Federation (democracy), Pirate Clans (Tortuga on Vega 9). Three species: Humanity, Uplifted (humanoid animal clones), Augmented (cybernetic clones, 100,000 total). 13 planets. Resource War 449-514 AP. Xyleon Artifacts (alien technology). Current year: 519 AP.
 ---

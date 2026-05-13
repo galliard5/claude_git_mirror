@@ -1,6 +1,6 @@
 ---
-type: race-document
 name: G'lith
+type: race-document
 keywords: [swn, stars-without-number, alien-race, technocracy, sequential-hermaphrodite, engineering, cybernetics, setting]
 description: SWN race and civilization writeup for the G'lith — a spacefaring sequential-hermaphrodite reptilian species with a technology-worship religion and a colonial technocratic government. Includes portrait art.
 ---
