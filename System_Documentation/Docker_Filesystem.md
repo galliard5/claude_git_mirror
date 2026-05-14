@@ -108,6 +108,16 @@ docker compose build
 docker compose up -d
 ```
 
+### Forced rebuild (after editing .py files COPY'd into the image)
+```cmd
+docker compose build --no-cache
+docker compose up -d
+```
+
+The `--no-cache` flag is necessary because Docker caches `COPY` layers based on the upstream `RUN pip install` step. If `requirements.txt` hasn't changed, a regular `docker compose build` will reuse the cached layer and your edited `.py` files will not be copied in. Symptoms: rebuild appears to succeed but the live server still reports old paths or behaviors. `--no-cache` forces every layer to rebuild and is the only reliable way to pick up source edits.
+
+**Exception:** `build_indexes.py` is invoked by the `index-tools` server as a subprocess against the bind-mounted host file at `/corpus/Python/build_indexes.py`. Edits to it take effect immediately, no rebuild needed. The server scripts themselves (`search_mcp_server.py`, `index_tools_mcp_server.py`) are the ones loaded from `/app/` inside the image and require the rebuild.
+
 ## Troubleshooting
 
 **"Permission denied" on file write inside container**

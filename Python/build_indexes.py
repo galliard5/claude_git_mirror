@@ -55,42 +55,48 @@ DB_FILENAME       = "search_index.db"
 # Cfg interpretation
 # ---------------------------------------------------------------------------
 
+def _resolve_index_dir(root: Path, raw_index: str) -> Path:
+    r"""
+    Apply [paths] index_directory resolution rules against a given root.
+        blank              -> root  (legacy default)
+        starts with / or \ -> root-relative
+        anything else      -> absolute path
+    """
+    raw_index = raw_index.strip()
+    if not raw_index:
+        return root
+    if raw_index[0] in ("/", "\\"):
+        return root / raw_index.lstrip("/\\")
+    return Path(raw_index)
+
+
 def resolve_paths(cfg: dict) -> tuple[Path, Path]:
     """
     Determine root and index_dir.
 
-    Priority for root:
+    Root resolution:
         1. CORPUS_ROOT env var — allows Docker to override without editing cfg
         2. root_directory in [paths] cfg section
 
-    index_directory resolution (always relative to root):
-        blank              -> root_directory (current behaviour)
-        starts with / or \ -> root-relative  (/index/ -> root/index/)
-        anything else      -> treat as absolute path
+    index_dir resolution always reads [paths] index_directory from cfg, regardless
+    of whether root came from env var or cfg. The env var only controls where the
+    corpus is mounted; the cfg controls layout inside it.
     """
-    # 1. Env var override
+    settings = cfg.get("paths", {}).get("settings", {})
+    raw_index = str(settings.get("index_directory", ""))
+
+    # 1. Env var override for root
     env_root = os.environ.get("CORPUS_ROOT", "").strip()
     if env_root:
-        root      = Path(env_root)
-        index_dir = root   # when running via env var, index output goes to root
-        return root, index_dir
+        root = Path(env_root)
+        return root, _resolve_index_dir(root, raw_index)
 
-    # 2. cfg fallback
-    settings = cfg.get("paths", {}).get("settings", {})
+    # 2. Pure cfg path
     raw_root = str(settings.get("root_directory", "")).strip()
     if not raw_root:
         raise ValueError("[paths] root_directory is required but not set in cfg")
     root = Path(raw_root)
-
-    raw_index = str(settings.get("index_directory", "")).strip()
-    if not raw_index:
-        index_dir = root
-    elif raw_index[0] in ("/", "\\"):
-        index_dir = root / raw_index.lstrip("/\\")
-    else:
-        index_dir = Path(raw_index)
-
-    return root, index_dir
+    return root, _resolve_index_dir(root, raw_index)
 
 
 def parse_dir_patterns(cfg: dict) -> tuple[str, set, set]:
