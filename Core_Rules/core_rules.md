@@ -219,7 +219,7 @@ SECTION 4A: MODEL SELECTION
 
 **Sonnet — Session Runner:** Running active play sessions within established parameters, routine session play, checkpoint generation, file maintenance, standard extraction. Fast and responsive when the groundwork is laid.
 
-**Haiku — Not Recommended:** Lacks context depth for reliable canon adherence. If used, apply the caution protocol from Scenario_Extraction_Rules.md.
+**Haiku — Templated Support:** Not for primary GM duties — lacks context depth for canon adherence in active play. Legitimate role in templated/mechanical support work via handoff: session summary formatting from beat lists, batch peripheral NPC creation, format conversions. See MODEL TIERS & HANDOFF PROTOCOL in `file_system_instructions.md` for the per-task handoff framework.
 
 ---
 

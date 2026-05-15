@@ -2,7 +2,7 @@
 name: File System Instructions
 keywords: [rules, instructions, reference]
 description: Core project rules and procedures for every session
-last_edited_utc: 2026-05-13T20:00:00Z
+last_edited_utc: 2026-05-14T17:00:00Z
 ---
 
 AVAILABLE TOOLS FOR CLAUDE
@@ -85,7 +85,7 @@ Full directory structure is maintained in `index/directory_index.md` — do not 
 - Minimize tool calls; batch reads with `filesystem:read_multiple_files`
 - Batch file writes into single operations
 - Estimate token cost before multi-file tasks
-- **Model selection:** For multi-file write tasks, consider Opus→Haiku handoff (see MODEL HANDOFF PROTOCOL). Opus plans with no MCP calls; Haiku writes at ~5x lower token cost.
+- **Model selection:** Three tiers — Opus for judgment-heavy work, Sonnet for session running and day-to-day creative execution, Haiku for templated or mechanical execution. See MODEL TIERS & HANDOFF PROTOCOL for tier guidance and handoff format.
 
 ## STEP 3: DIRECTORY INDEX
 
@@ -382,58 +382,132 @@ filesystem:read_text_file(path, tail=5)  // Verify completion
 
 `write_file` can return success but fail silently — ALWAYS verify. (This is the canonical write-verification pattern; ERROR HANDLING below references it rather than re-stating it.)
 
-## MODEL HANDOFF PROTOCOL (Opus → Haiku)
+## MODEL TIERS & HANDOFF PROTOCOL
 
-Cost optimization: Opus handles reasoning and content generation with NO MCP tool calls. Haiku handles all filesystem writes at ~5x lower token cost.
+Three tiers, each with a different sweet spot. Pick by what the work actually needs, not by reflex.
 
-### Opus Phase (Chat Output Only — No Tool Calls)
-1. Do all reasoning, content generation, path planning
-2. Output a HANDOFF BLOCK in chat containing:
-   - Each file's destination path
-   - Each file's full content
-   - Pre-formatted git commit message
-3. User saves the handoff block to Project Files, or copies it directly
+### The three tiers
 
-**Opus must not call any filesystem or memory MCP tools during this phase.**
-The entire cost saving depends on Opus producing output tokens only.
+**Opus** — world-shaping decisions, central character development, lore architecture, multi-step worldbuilding consistency, deep math, anything where per-sentence judgment carries weight. Use where its ceiling matters; expensive elsewhere.
 
-### Handoff Block Format
+**Sonnet** — session running (canonical use case), NPC dialogue in-play, mechanical resolution with voice, scene execution from a prepped brief, mid-tier creative work. The cost/quality curve bends most usefully here. Sonnet often matches Opus on subjective session quality because GM execution is templated once setup is done — Opus's advantage is in *preparation*, not *execution*.
+
+**Haiku** — templated expansion from clear specs, mechanical transforms, format conversions, batch metadata, filling slots in a known structure. Loses voice and grounding when asked to make judgment calls.
+
+### When each model is the source
+
+- **Opus direct** — central work where Opus's judgment IS the deliverable (main session prep, central character creation, lore architecture)
+- **Sonnet direct** — session running, mid-tier NPCs, scene execution, day-to-day creative work
+- **Haiku direct** — mechanical execution from a clear spec already in hand
+
+### Handoff trigger phrases
+
+When the user's request matches one of these shapes, **propose a handoff before starting work** (don't auto-invoke — confirm first):
+
+- "Create N [peripheral entities]" where N ≥ 3 — Mode A candidate
+- "Format / convert / normalize these files" — Mode B candidate
+- "Apply this template to..." — Mode A candidate
+- "Clean up / standardize / batch update..." — Mode B candidate (or Python script — check `Python/` first)
+- "Generate summaries for sessions X through Y" — Mode A candidate
+- End-of-session: "wrap up / write the summary" — Mode A handoff to Haiku from Sonnet
+
+If unsure whether the work qualifies, ask: *"This looks like it could be a Mode A/B handoff — want me to structure it that way, or execute on this model?"*
+
+### When to hand off
+
+Handoff splits work between a judgment model (Opus or Sonnet) and an execution model (Haiku) by emitting instructions for Haiku to execute in a separate session. **Cost savings only materialize when the source model's output volume drops meaningfully** — i.e. when it emits a compact spec that Haiku expands, or compact instructions Haiku applies mechanically. Handoff of full file content (source generates the actual file text, Haiku just writes it) is NOT cheaper — the content gets emitted twice and the second emission is pure overhead.
+
+Use handoff when:
+- The output is templated or mechanical — filling slots, applying transforms, format conversion
+- The spec fits in a paragraph and any competent assistant could execute it from the brief
+- You'd accept Haiku-quality output without wanting to rewrite
+
+Keep on source when:
+- Voice, tone, or per-sentence judgment matters
+- The content depends on grounding in prior canon
+- Math, multi-step logic, or worldbuilding consistency is central
+- You'd second-guess the output if Haiku produced it
+
+**Test:** If I wrote the prompt for this as a brief, would a competent assistant produce roughly the same output? If yes → handoff. If no → keep on source.
+
+### Source model for handoffs
+
+- **Opus → Haiku** — when the spec itself needs Opus-grade decisions (peripheral content for central characters, lore-sensitive batch work)
+- **Sonnet → Haiku** — when the spec is routine creative work (session summary formatting after a Sonnet-run session, batch peripheral NPCs from established templates, mid-session mechanical transforms). This is the common case; Sonnet writes specs fine.
+
+### Two handoff modes
+
+**Mode A — Templated Expansion**
+Source emits compact specs (~200 tokens). Haiku expands each using a known template.
+Good for: peripheral NPCs, filler location descriptions, batch background characters, session summary formatting from beat lists.
+
+**Mode B — Mechanical Transformation**
+Source identifies what to change. Haiku executes mechanical edits.
+Good for: format conversions, case-normalizing filenames, batch metadata updates, applying a structural change to many files.
+*Often, a Python script is the right tool here instead — see `Python/` for existing utilities.*
+
+### Source Phase
+
+Output a HANDOFF BLOCK with:
+- MODE and pre-formatted git commit message
+- Per-file: path + spec (Mode A) or path + operation + params (Mode B)
+
+**Source must not call filesystem or memory MCP tools during this phase.** Tool calls during handoff defeat the purpose.
+
+### Handoff Block Format — Mode A (Templated Expansion)
+
 ```
 ===HANDOFF START===
+MODE: templated_expansion
 COMMIT: "Category: Subject | Details | Date"
+TEMPLATE: Core_Rules/Templates/[Template_Name].md
 
 ---FILE 1---
-PATH: World_Building/Aethelmark/Silberbach/Town/Characters/New_NPC.md
-CONTENT:
----
-name: NPC Name
-keywords: [keyword1, keyword2]
-description: One sentence
----
-[file body here]
+PATH: World_Building/.../New_NPC.md
+SPEC:
+  name: Hans Wolfheim
+  role: town watch sergeant
+  cultural_context: Silberbach standard
+  notable_trait: limp from old wound
+  voice_note: gruff but fair
 ---END FILE---
 
----FILE 2---
-PATH: ...
-CONTENT:
-...
----END FILE---
-
+[additional files...]
 ===HANDOFF END===
 ```
 
-### Haiku Phase (Execution)
-1. Receive handoff block (via Project File or paste)
-2. Parse each file entry
-3. `filesystem:write_file` to each destination path
-4. Verify each with `filesystem:read_text_file` (per FILE CREATION VERIFICATION)
-5. Propose git commit using the COMMIT line from the block
-6. Confirm: `[HANDOFF COMPLETE] X files written`
+### Handoff Block Format — Mode B (Mechanical Transformation)
 
-### When to Use
-- Batch writes of 3+ files where Opus-quality planning matters
-- Session extractions, character creation batches, lore builds
-- NOT worth it for single quick edits (overhead exceeds savings)
+```
+===HANDOFF START===
+MODE: mechanical_transform
+COMMIT: "Category: Subject | Details | Date"
+
+---FILE 1---
+PATH: Stories/old_session.txt
+OPERATION: replace_meta_with_yaml
+PARAMS:
+  yaml_frontmatter:
+    name: Maruvec_Session_03
+    keywords: [session, maruvec]
+    description: Pre-transformation phase complete
+---END FILE---
+
+[additional files...]
+===HANDOFF END===
+```
+
+### Haiku Phase
+
+1. Receive handoff block
+2. For each entry: apply template (Mode A) or execute operation (Mode B) with `filesystem:write_file` or `filesystem:edit_file`
+3. Verify each per FILE CREATION VERIFICATION
+4. Propose git commit using COMMIT line
+5. Confirm: `[HANDOFF COMPLETE] X files written`
+
+### Quality check
+
+Spot-check 1-2 files visually before committing. If output quality is off, redo on source — handoff is false economy if it triggers a rewrite.
 
 ---
 

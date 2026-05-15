@@ -14,6 +14,13 @@ description: Complete protocol for model selection, scenario creation workflow, 
 
 ## MODEL ROLES — DETAILED
 
+**Two kinds of "handoff" exist in this project, and they are different things:**
+
+- **Scenario handoff (Opus → Sonnet):** Opus builds a scenario + Sonnet Briefing, hands the pair to Sonnet for session play. Covered in this document.
+- **Per-task handoff (Source → Haiku):** Source model (Opus or Sonnet) emits a compact spec or operation, Haiku executes mechanically. Covered in `file_system_instructions.md` under MODEL TIERS & HANDOFF PROTOCOL.
+
+Both are valid and serve different purposes. Don't conflate them.
+
 ### Opus — Scenario Architect
 
 Use Opus for tasks that require deep cross-referencing, synthesis across multiple canon files, and complex narrative design:
@@ -35,16 +42,24 @@ Use Sonnet for tasks that require fast, responsive, in-character execution withi
 - **File maintenance** — metadata updates, batch edits, organization tasks
 - **Scenario extraction** — standard-complexity scenarios (under 8 checkpoints)
 
-### Haiku — Not Recommended
+### Haiku — Templated Support
 
-Haiku lacks the context depth for reliable canon adherence across long sessions. Specific risks:
+Haiku is not recommended for primary GM duties — it lacks the context depth for reliable canon adherence in active play. Specific risks when used for GMing:
 
 - NPC voice drift within a single scene
 - Missing cross-references between files
 - Improvising details that contradict established lore
 - Struggling with scenarios involving more than 3-4 active NPCs
 
-If Haiku must be used, apply the caution protocol from Scenario_Extraction_Rules.md: pause, warn, and require explicit user confirmation before proceeding.
+However, Haiku has a legitimate role in **templated/mechanical support work** via the project-wide handoff protocol:
+
+- Session summary formatting from a beat list provided by Sonnet
+- Batch creation of peripheral NPCs from compact specs
+- Format conversions and metadata updates across many files
+
+If Haiku is used for primary GM work, apply the caution protocol from Scenario_Extraction_Rules.md: pause, warn, and require explicit user confirmation before proceeding.
+
+For the per-task handoff framework (when to send work to Haiku, the block format, and the trigger phrases), see **MODEL TIERS & HANDOFF PROTOCOL** in `file_system_instructions.md`.
 
 ---
 
