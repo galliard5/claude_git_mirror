@@ -1,5 +1,6 @@
 ---
 name: Imperial Relic Weapons — Specific Examples
+type: rules-reference
 keywords: [imperial, relic, weapons, kasaba, C+, C++, mag-acc, FLOOFL, strange matter, string collapse, battle-shield, void, tank, infantry, reshaping, cascade, biological]
 description: Documented examples of specific imperial-era weapons recovered or maintained in the post-collapse setting — their operating principles, maintenance traditions, and what their existence implies about the empire that built them
 ---

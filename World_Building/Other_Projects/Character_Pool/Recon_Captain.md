@@ -1,5 +1,6 @@
 ---
 name: Recon_Captain
+type: character
 keywords: [gurps, tl11, legion, mijerii, recon, electronic-warfare, cryptography, intelligence, weirdness-magnet, galliard]
 description: Galliard's 240-point TL11 Legion recon captain — Electronic Warfare 17, Gunner (Starship) 17, full cryptography suite, Intelligence Analysis 15, Leadership 16. Weirdness Magnet. Xenophile. Honest Face. From Rick's Legion Empire campaign.
 ---

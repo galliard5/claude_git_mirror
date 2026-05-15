@@ -1,5 +1,6 @@
 ---
 name: Parasitic Fungal Colonies
+type: setting-document
 keywords: [fungal-colonies, parasitic, infectious, spores, host-control, behavior-modification, terra-native, biohazard]
 description: Infectious fungal organisms spreading via airborne spores, infecting hosts (animals or plants), altering behavior or consuming from within, capable of rapid ecosystem takeover
 ---

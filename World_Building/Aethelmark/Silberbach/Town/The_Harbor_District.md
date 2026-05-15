@@ -1,5 +1,6 @@
 ---
 name: The Harbor District
+type: location
 keywords: [location, silberbach, trade]
 description: The natural harbor formed by the Angerap's river bend serving as the center of Silberbach's river trade with docks warehouses and the River Traders Guild hall
 ---

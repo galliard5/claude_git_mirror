@@ -1,5 +1,6 @@
 ---
 name: Manor Daily Life
+type: scenario
 keywords: [scenario, gm-toolkit, manor, factions, commerce, slice-of-life, repeatable]
 description: GM toolkit for running freeform days at Isalia's Manor — supply relationships, visitor types, daily event slots, NPC discovery protocol, and hook seeds for gradual faction population
 ---

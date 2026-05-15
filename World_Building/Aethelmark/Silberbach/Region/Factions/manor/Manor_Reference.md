@@ -1,5 +1,6 @@
 ---
 name: Isalias Manor Reference
+type: location
 keywords: [location, reference, manor, npc, brief, scene]
 description: Quick reference for populating scenes at Isalias Manor with staffing levels NPC presence variants and background details
 ---

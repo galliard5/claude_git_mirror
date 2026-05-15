@@ -1,5 +1,6 @@
 ---
 name: Talax System - War Moons of Talax
+type: setting-document
 keywords: [location, system, hive-world, forge-world, death-world, chaos, khorne-analog, rogue-trader, kerberos-homeworld]
 description: The Talax system — a multi-world Khorne-analog chaos culture built around warrior ideals, blood debts, and noble clan politics, anchored by the hive capital Ju'ukto
 ---

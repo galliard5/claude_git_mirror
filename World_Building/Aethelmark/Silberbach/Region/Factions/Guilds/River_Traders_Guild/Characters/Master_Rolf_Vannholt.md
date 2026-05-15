@@ -1,5 +1,6 @@
 ---
 name: Master Rolf Vannholt
+type: character
 keywords: [npc, river-traders-guild, master, human, silberbach, river-trade, harbor-accommodation]
 description: Master of the River Traders Guild — former barge captain, pragmatic authority over the dock infrastructure, two years deep into postponing a decision about the harbor accommodation with the Crescent House
 ---

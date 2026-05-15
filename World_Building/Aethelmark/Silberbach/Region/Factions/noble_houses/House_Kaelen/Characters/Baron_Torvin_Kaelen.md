@@ -1,5 +1,6 @@
 ---
 name: Baron Torvin Kaelen
+type: character
 keywords: [npc, noble, reformist]
 description: Reform-minded Baron who advocates for transformed individuals' rights and clashes with Count Valtor's conservative rule
 ---

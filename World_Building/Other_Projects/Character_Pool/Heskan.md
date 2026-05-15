@@ -1,5 +1,6 @@
 ---
 name: Heskan
+type: character
 keywords: [dnd4e, dragonborn, fighter, maptool, vtt, galliard, dragon-breath, dragonborn-fury]
 description: Galliard's D&D 4e Dragonborn Fighter played via MapTool VTT. AC 20, Fort 17, Will 11. Powers include Dragon Breath, Cleave, Knockdown Assault, Passing Attack, Sweeping Blow. Bloodied On macro triggers Dragonborn Fury (+1 attack bonus). Surge value 11, action points tracked.
 ---

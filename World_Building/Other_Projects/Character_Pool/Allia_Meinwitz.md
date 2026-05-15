@@ -1,5 +1,6 @@
 ---
 name: Allia_Meinwitz
+type: character
 keywords: [hero-system, hero-6e, dragon, lawyer, shapeshifter, wealthy, galliard, james-game]
 description: A wealthy dragon-form superhero lawyer. Professionally polished in human form; 4m, 800kg, fire-breathing in dragon form. Accidental Change on injury creates tactical chaos. Hero System 6e. Galliard's character.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Gemszi Session 01 Checkpoint
+type: scenario
 keywords: [checkpoint, session, rogue-trader, gemszi, conversion, geld-maw, livestock, isu]
 description: End-of-session checkpoint for Gemszi Livestock Conversion Session 01 — conversion complete, Isu initialized, Gemszi resting in hold
 ---

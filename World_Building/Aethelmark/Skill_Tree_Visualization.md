@@ -1,5 +1,6 @@
 ---
 name: Skill Tree System Visualization
+type: setting-document
 keywords: [skills, trees, progression, visualization, mermaid, character development]
 description: Visual representation of the Emergent Skill Tree System showing all six foundation archetypes, tier progression, branches, and gates
 ---

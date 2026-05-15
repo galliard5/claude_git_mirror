@@ -1,5 +1,6 @@
 ---
 name: Bioservitor
+type: setting-document
 keywords: [bioservitor, transformation, biomancer, servitor, dead-terra, ethics]
 description: Organisms or transformed individuals shaped by biomantic work for specific purposes, ranging from simple created creatures to modified sapients
 ---

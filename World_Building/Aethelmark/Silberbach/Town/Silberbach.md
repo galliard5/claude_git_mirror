@@ -1,5 +1,6 @@
 ---
 name: Silberbach
+type: location
 keywords: [location, city, trade hub]
 description: Mid-sized river valley town of 5000-6000 built on the Angerap River bend serving as an agricultural textile and mining hub under Count Valtor's rule
 ---

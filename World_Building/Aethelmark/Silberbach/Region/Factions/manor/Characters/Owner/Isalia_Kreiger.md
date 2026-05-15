@@ -1,5 +1,6 @@
 ---
 name: Isalia Kreiger
+type: character
 keywords: [npc, noble, estate owner]
 description: Retired 20th-level kobold barbarian who runs a transformation and breeding estate with a strict consent-based ethics framework born from adventuring experience
 ---

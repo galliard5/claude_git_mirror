@@ -1,5 +1,6 @@
 ---
 name: Ambush Reptiles
+type: setting-document
 keywords: [reptiles, crocodilian, ambush-predator, aquatic, camouflage, death-roll, terra-native, apex-predator]
 description: Semi-aquatic apex predators with near-perfect stillness and camouflage, explosive burst speed, crushing bite force, and death-roll tactics in water
 ---

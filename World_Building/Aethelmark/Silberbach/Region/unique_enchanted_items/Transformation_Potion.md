@@ -1,5 +1,6 @@
 ---
 name: Transformation Potion
+type: location
 keywords: [item, potion, alchemy, transformation, alric, manor, standard product]
 description: Alric's transformation potion line — three related formulas covering genital-only, partial, and full-body transformation, all brewed to species and sex specification at brew time
 ---

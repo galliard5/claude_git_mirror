@@ -1,5 +1,6 @@
 ---
 name: Sable
+type: character
 keywords: [npc, transformed, stablemaster, contractor]
 description: Former stableboy permanently transformed into a mare who serves as Stablemaster at Isalia's Manor, maintaining a clear human interior while using her animal nature to work more effectively with residents
 ---

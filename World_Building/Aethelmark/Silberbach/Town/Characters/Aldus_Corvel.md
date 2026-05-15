@@ -1,5 +1,6 @@
 ---
 name: Aldus Corvel
+type: character
 keywords: [npc, criminal, financier]
 description: Silberbach money launderer who runs a fraud network through fictitious contractors and maintains incriminating records on all clients as leverage against cooperation with authorities
 ---

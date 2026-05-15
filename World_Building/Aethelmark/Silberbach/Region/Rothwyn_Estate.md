@@ -1,5 +1,6 @@
 ---
 name: Rothwyn Estate
+type: location
 keywords: [location, village, vineyard, wine, rothwyn, march-of-silberbach, harvest-festival]
 description: The vineyard estate village of Rothwyn — population around 320, the working community that produces the regional wine trade and stages the annual Harvest Festival that anchors the regional social calendar
 ---

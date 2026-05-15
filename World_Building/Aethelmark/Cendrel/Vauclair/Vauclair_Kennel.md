@@ -1,5 +1,6 @@
 ---
 name: Vauclair Kennel
+type: location
 keywords: [location, kennel, garrison]
 description: Generative reference for Bastier's small working hound pack including breed suggestions and GM guidance for creating donor candidates on demand
 ---

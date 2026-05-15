@@ -1,5 +1,6 @@
 ---
 name: Buyer's Facility
+type: location
 keywords: [location, facility, transformation, antagonist, supply-chain, frontier, kennel-hounds, secured]
 description: Isolated private transformation facility east of Camp Rochevaux — repurposed animal-work building with active alchemical operation, secured by squad during Session 6
 ---

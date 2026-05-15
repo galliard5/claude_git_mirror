@@ -1,5 +1,6 @@
 ---
 name: Aldren
+type: character
 keywords: [npc, solicitor, Silberbach]
 description: Long-serving Steinfeld estate solicitor whose loyalty to the previous Baron may have caused him to overlook falsified contractor records now under review by independent solicitors
 ---

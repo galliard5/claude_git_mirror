@@ -1,5 +1,6 @@
 ---
 name: Cassian Elsin
+type: character
 keywords: [npc, antagonist, founder, elsin, elite, caldera, neon-fang]
 description: Founder of Elsin Curated Companions — a former wealth manager who identified a market, built a firm to serve it, and has never lost a night's sleep over what the firm produces
 ---

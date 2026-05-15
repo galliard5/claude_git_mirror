@@ -1,5 +1,6 @@
 ---
 name: Kalysto
+type: character
 keywords: [fallout, deathclaw, grey, domesticated, small-frame, unarmed, sneak, kalysto]
 description: Kalysto, a Fallout TTRPG grey deathclaw. Level 1. Traits: Small Frame, Domesticated. AGI 11, INT 7, END 8. Skills: Unarmed 84, Sneak 58, Lockpick 47, Melee 54. Attacks: Claw swing (3d8+MD), Claw Stab (2d10+MD), Gore (2d8+MD, 75% knockdown). Named character from this group — received lore correction earlier in import.
 ---

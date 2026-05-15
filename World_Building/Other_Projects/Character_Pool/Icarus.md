@@ -1,5 +1,6 @@
 ---
 name: Icarus
+type: character
 keywords: [gurps, tl10, kai-pirate-game, uplift-dolphin, psionics, machine-telepathy, wealthy, pirate, electrokinesis]
 description: An uplift dolphin pirate with machine telepathy, electrokinesis, and exceptional tactical/economic skills; operates via a drone body. From Kai's pirate game.
 ---

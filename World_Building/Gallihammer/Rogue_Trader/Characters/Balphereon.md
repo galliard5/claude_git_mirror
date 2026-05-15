@@ -1,5 +1,6 @@
 ---
 name: Balphereon
+type: character
 keywords: [pc, sergeant, squad-lead, ground-team, mutant, warp-gifted, rogue-trader, fates-cast]
 description: Mutated squad sergeant and ground forces lead aboard the Fates Cast — warp-gifted over years of service, command-focused, the operational backbone of the ship's combat capability
 ---

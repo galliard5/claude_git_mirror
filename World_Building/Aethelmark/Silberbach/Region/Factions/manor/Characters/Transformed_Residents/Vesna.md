@@ -1,5 +1,6 @@
 ---
 name: Vesna
+type: character
 keywords: [npc, manor, transformed, wolf, kennels, young, settling, transformed-resident, slow-burn]
 description: Eight-month-old pale grey transformed wolf in east kennels run 5 — silent, watchful, a slow-burn relationship arc; her history is hers and the staff have been told to leave it alone
 ---

@@ -1,5 +1,6 @@
 ---
 name: Manor Services
+type: location
 keywords: [services, transformation, breeding, medical, enchantment, alchemy, boarding, catalogue, manor]
 description: Consolidated catalogue of all services offered by Isalia's Manor covering transformation reversion breeding medical enchantment alchemy and boarding
 ---

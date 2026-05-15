@@ -1,5 +1,6 @@
 ---
 name: Kennel Hounds Experiment
+type: scenario
 keywords: [scenario, prompt, kobold]
 description: Scenario concept for a kobold guard volunteer transformed into a hound with inventory tracking and a dark fantasy tone
 ---

@@ -1,5 +1,6 @@
 ---
 name: Gemszi Session 03 Checkpoint
+type: scenario
 keywords: [checkpoint, session, rogue-trader, gemszi, erdfall, haldren, farm, fieldwork, dairy, treeline]
 description: End-of-session checkpoint for Gemszi Livestock Conversion Session 03 — first full day of fieldwork, east field completed, south quarter begun, treeline noted, Maren accumulating
 ---

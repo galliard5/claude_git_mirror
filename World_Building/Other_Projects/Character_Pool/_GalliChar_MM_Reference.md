@@ -1,5 +1,6 @@
 ---
 name: _GalliChar_MM_Reference
+type: character
 keywords: [mutants-and-masterminds, reference, powers, feats, m&m-2e, gallichar]
 description: Mutants & Masterminds 2e comprehensive reference spreadsheet with embedded 150-point character shell; NOT a complete character.
 ---

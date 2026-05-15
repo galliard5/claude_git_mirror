@@ -1,5 +1,6 @@
 ---
 name: Psihound
+type: character
 keywords: [npc, experiment, psyker, cyber-mastiff, damien, ship-crew, rogue-trader, fates-cast]
 description: A low-level psyker volunteer converted into a cyber-mastiff chassis by Damien aboard the Fates Cast — an ongoing experiment with unexpected and complicated results
 ---

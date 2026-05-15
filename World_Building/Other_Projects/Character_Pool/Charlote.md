@@ -1,5 +1,6 @@
 ---
 name: Charlote
+type: character
 keywords: [eclipse-phase, arachnoid, titanian, engineer, hacker, original-space-colonist]
 description: Titanian arachnoid engineer/hacker with extensive combat mods and strong autonomist ideology; Galliard's Eclipse Phase character.
 ---

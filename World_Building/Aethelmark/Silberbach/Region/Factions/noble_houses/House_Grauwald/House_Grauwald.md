@@ -1,5 +1,6 @@
 ---
 name: House Grauwald
+type: location
 keywords: [faction, noble house, barony, wool, sheep, struggling, marriage]
 description: Financially strained wool-producing barony in the southern hill country whose Countess is currently approaching Isalia's Manor for a sensitive consultation
 ---

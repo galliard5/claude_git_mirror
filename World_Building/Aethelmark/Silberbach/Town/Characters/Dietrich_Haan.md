@@ -1,5 +1,6 @@
 ---
 name: Dietrich Haan
+type: character
 keywords: [npc, external, mecklau, facilitation, court-adjacent, referral, southern-courts]
 description: Mecklau-based facilitation operator running court-adjacent transformation arrangements for nine years — sent reconnaissance to Isalia's estate before proposing a referral relationship, letter incoming within fortnight of 20 April 1650
 ---

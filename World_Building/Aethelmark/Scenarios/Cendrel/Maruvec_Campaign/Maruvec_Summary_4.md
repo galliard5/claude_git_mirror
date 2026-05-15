@@ -1,5 +1,6 @@
 ---
 name: Maruvec Campaign Summary 4
+type: location
 keywords: [session, summary, maruvec, kennel hounds, checkpoint, transformation]
 description: Session summary for Maruvec Campaign Session 04 — transformation complete, all five squad members through, recovery begins
 ---

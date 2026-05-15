@@ -1,5 +1,6 @@
 ---
 name: Gervais Tournon
+type: character
 keywords: [npc, captain, commander, rochevaux, kennel-hounds, frontier]
 description: Career frontier officer commanding Camp Rochevaux, sees the unit-transformation trial as his opportunity to escape obscurity and is pushing to use seized exotic animals as donors
 ---

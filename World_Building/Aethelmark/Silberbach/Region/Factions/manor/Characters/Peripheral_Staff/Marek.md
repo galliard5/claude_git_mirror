@@ -1,5 +1,6 @@
 ---
 name: Marek
+type: character
 keywords: [npc, transformed, wolf, courier, east-kennels, resident]
 description: Permanent male wolf and east kennels resident at Isalia's Manor, four years in, courier work on the eastern forest routes, settled and practically minded
 ---

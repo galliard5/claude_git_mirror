@@ -1,5 +1,6 @@
 ---
 name: Oswin Brandt
+type: character
 keywords: [npc, steward, criminal]
 description: Former trusted Steinfeld steward who embezzled 51 gold over three years through fictitious contractors connected to financier Aldus Corvel and is now cooperating fully
 ---

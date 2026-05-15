@@ -1,5 +1,6 @@
 ---
 name: Laws and Framework
+type: setting-document
 keywords: [rules, lore, law, hierarchy, courts, guilds, transformation, civic]
 description: Legal and political framework governing Aethelmark — authority hierarchy, courts and escalation, slavery, necromancy, transformation law, penal transformation, civic positions, and alchemical ingredients
 ---

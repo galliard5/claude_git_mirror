@@ -1,5 +1,6 @@
 ---
 name: Ship Combat Forces
+type: setting-document
 keywords: [military, crew, combat, forces, rogue-trader, ship, fates-cast]
 description: Combat personnel complement aboard the Fates Cast — troop numbers by tier, role, and specialisation
 ---

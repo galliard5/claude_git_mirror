@@ -1,5 +1,6 @@
 ---
 name: Vorik the Iron Boar
+type: character
 keywords: [npc, transformed, stud]
 description: Dwarf-turned-boar stud who chose his form deliberately after a lifetime of being undervalued and now lives with unapologetic strength and dignity
 ---

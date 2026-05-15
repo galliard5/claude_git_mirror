@@ -1,5 +1,6 @@
 ---
 name: Serya (Sergovy Waldheim)
+type: character
 keywords: [npc, noble, transformed, wolf, resident]
 description: Former Waldheim scion permanently transformed into a female wolf at Isalia's Manor, registered under the name Serya as an independent client with records sealed
 ---

@@ -1,5 +1,6 @@
 ---
 name: Duke Romaine Kreiger
+type: character
 keywords: [npc, noble, archdruid]
 description: Retired 20th-level adventurer Archdruid and kobold Duke who is Isalia's father and co-developer of the manor's transformation potions
 ---

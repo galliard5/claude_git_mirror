@@ -1,5 +1,6 @@
 ---
 name: Honi
+type: character
 keywords: [pathfinder, pf1e, feycat, sorcerer, rogue, gestalt, cg, sneak-attack, greater-invisibility, galliard]
 description: Galliard's PF1e Feycat Sorc/Rogue 20 gestalt named Honi. CG female. CHA 31, DEX 26. AC 38, Reflex +27. Sneak attack +10d6. Greater Invisibility at will for 20 rounds/day. Terrain mastery (forest) + hide in plain sight. Adamantine ghost-touch punch dagger +5. Cash 200,000 gp.
 ---

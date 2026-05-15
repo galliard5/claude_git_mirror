@@ -1,5 +1,6 @@
 ---
 name: Ras_Ben_Gnoll_Cleric
+type: character
 keywords: [dnd35, gnoll, cleric, healing, death-domain, turtles-quick-game, unnamed-player]
 description: A gnoll cleric 1 + Humanoid 2 named "Ras Ben" from "turtles quick game." NG. WIS 16, CHA 16. Domains: Death + Healing. Combat Casting + Extra Turning. Banded mail + heavy mace. Completely separate from the kobold wizard Ras Ben. The "Ras Ben" name reused in a different campaign.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Mrs Aldenmarch
+type: character
 keywords: [npc, housekeeper, estate staff]
 description: Steinfeld estate housekeeper who kept the house running through the transition and prepared practical accommodations for Viktor before arrival
 ---

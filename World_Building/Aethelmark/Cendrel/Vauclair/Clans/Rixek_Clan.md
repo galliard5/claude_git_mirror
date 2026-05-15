@@ -1,5 +1,6 @@
 ---
 name: Rixek Clan
+type: location
 keywords: [faction, warren clan, kobold, The oldest and most established clan in the Vauclair warren]
 description: conservative proud and religiously observant with deniable black market tunnel access
 ---

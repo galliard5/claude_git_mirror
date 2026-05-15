@@ -1,5 +1,6 @@
 ---
 name: Iskandai
+type: character
 keywords: [pathfinder, pf1e, taninim, draconic-exemplar, monk, gestalt, shapeshifter, worg, dragon, galliard, apsu]
 description: Galliard's gestalt dragon-monk who passes as a winged worg. True form is a Colossal taninim; shapeshifted form is a half-dragon worg. Deity Apsu. Goes by "Garlic Eater." Three sheets across two campaign periods.
 ---

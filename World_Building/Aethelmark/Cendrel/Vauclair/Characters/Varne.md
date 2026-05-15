@@ -1,5 +1,6 @@
 ---
 name: Varne
+type: character
 keywords: [npc, black market, operator]
 description: Vauclair's deliberately unplaceable smuggling network operator who views the new sapient hound as a threat to assess and manage before it becomes a problem
 ---

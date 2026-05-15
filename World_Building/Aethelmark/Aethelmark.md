@@ -1,5 +1,6 @@
 ---
 name: Aethelmark
+type: setting-document
 keywords: [location, world, lore]
 description: A 16th century Central European campaign setting with historical realism and integrated fantasy elements
 ---

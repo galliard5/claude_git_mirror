@@ -1,5 +1,6 @@
 ---
 name: Nobles Commission Session 05
+type: scenario
 keywords: [session, checkpoint, isalias estate, aldric, venn, tortoise, corvin, marta, valerius, hearing, collar, lenne]
 description: Three-day session — Aldric Venn located and brought in from Merchants Close, collar behavioral suppression layer identified by Elowen, Mohl hearing confirmed 3 May, Seria intending to appear voluntarily, weekly staff meeting established, Corvin running freely in south paddock
 ---

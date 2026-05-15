@@ -1,5 +1,6 @@
 ---
 name: Humans
+type: setting-document
 keywords: [human, terran-baseline, endurance-predator, tool-use, intelligence, adaptability, psychological-warfare, terra-native-predator]
 description: Omnivorous endurance predators with tool use, intelligence, extreme adaptability, and psychological warfare tendencies; critically, one of Terra's native apex predators
 ---

@@ -1,5 +1,6 @@
 ---
 name: Sable Venn
+type: character
 keywords: [npc, squad, hound programme, maruvec, half-elf]
 description: A pragmatic half-elf watchwoman assigned to the hound programme squad who approaches the transformation with genuine curiosity and a lifetime's experience of navigating ambiguous identity
 ---

@@ -1,5 +1,6 @@
 ---
 name: Dead Terra - World Geography
+type: setting-document
 keywords: [geography, regions, world-building, dead-terra, post-collapse, locations, landmarks]
 description: Major geographic regions, landmarks, and physical overview of post-collapse Earth thirty to forty thousand years after the stellar empire's fall
 ---

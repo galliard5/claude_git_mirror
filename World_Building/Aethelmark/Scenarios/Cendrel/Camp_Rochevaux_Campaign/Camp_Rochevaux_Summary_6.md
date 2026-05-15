@@ -1,5 +1,6 @@
 ---
 name: Camp Rochevaux Session 6 Checkpoint
+type: location
 keywords: [session, checkpoint, camp-rochevaux, kennel-hounds, rill-sunclaw, facility-raid, buyer-captured, lenne-souchard, supply-chain]
 description: Sixth session checkpoint — facility secured, buyer and alchemist contained, prisoner Lenne Souchard (magistrate's aide) freed, supply chain operation partially exposed, second unknown site identified
 ---

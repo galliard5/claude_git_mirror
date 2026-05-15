@@ -1,5 +1,6 @@
 ---
 name: Viktor Steinfeld Estate Scenario Timeline
+type: scenario
 keywords: [timeline, calendar, session, events, tracking, viktor, steinfeld]
 description: Day-by-day timeline for Viktor Steinfeld estate scenario. References Master Campaign Calendar for world context.
 ---

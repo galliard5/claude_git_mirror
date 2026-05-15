@@ -1,5 +1,6 @@
 ---
 name: Elias Varn
+type: character
 keywords: [npc, steward, manor staff]
 description: Kobold estate steward who keeps the manor running smoothly through discreet behind-the-scenes administration
 ---

@@ -1,5 +1,6 @@
 ---
 name: Cyberservitor
+type: setting-document
 keywords: [cyberservitor, cybernetics, cyberwright, implants, prosthetics, augmentation, ethics]
 description: Individuals or constructs fitted with cybernetic components for specific purposes, ranging from simple automated units to heavily augmented sapients
 ---

@@ -1,5 +1,6 @@
 ---
 name: Duval
+type: character
 keywords: [npc, scout, tracker, rochevaux, kennel-hounds]
 description: The squad's best tracker and the member most knowledgeable about wild animals, cautious about using predator donors
 ---

@@ -1,5 +1,6 @@
 ---
 name: Rogue Trader - Setting Overview
+type: setting-document
 keywords: [setting, overview, lore, space, rogue-trader, dead-terra, horror]
 description: Space-based companion setting to Dead Terra covering post-collapse interstellar travel, ship culture, and the dangers of deep space
 ---

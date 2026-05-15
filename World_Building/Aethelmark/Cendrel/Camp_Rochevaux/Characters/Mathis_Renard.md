@@ -1,5 +1,6 @@
 ---
 name: Mathis Renard
+type: character
 keywords: [npc, scout, sergeant, squad leader, rochevaux, kennel-hounds]
 description: Sergeant leading the six-person scout squad selected for the Rochevaux unit-transformation trial, protective of his team's cohesion above all else
 ---

@@ -1,5 +1,6 @@
 ---
 name: Captain Albrecht Vogt
+type: character
 keywords: [npc, transformed, security]
 description: Transformed minotaur who commands the manor's garrison with rigid military discipline
 ---

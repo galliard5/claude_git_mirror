@@ -1,5 +1,6 @@
 ---
 name: Anthony_Wilmington
+type: character
 keywords: [heroes-unlimited, hu, mutant-animal, dragon, business, kai-game, bend-light, electrical]
 description: A Heroes Unlimited mutant dragon named Anthony Wilmington from Kai's HU game. PS 34, PB 25. Powers: Bend Light, Energy Expulsion (electrical field), Super Vision (advanced sight), Exceptional PB. Multilingual businessman (Chinese, German, Russian, English, Draconic). H2H Expert. Raptor flight, heavy claws, medium armor.
 ---

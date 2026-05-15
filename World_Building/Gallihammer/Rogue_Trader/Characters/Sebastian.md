@@ -1,5 +1,6 @@
 ---
 name: Sebastian
+type: character
 keywords: [pc, captain, rogue-trader, human, command, diplomacy, ship-master]
 description: Young human captain of the Fates Cast — carries the rogue trader air without the aristocratic contempt, trusted by a crew that knows what they are and chose to follow him anyway
 ---

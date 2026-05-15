@@ -1,5 +1,6 @@
 ---
 name: House Waldheim
+type: location
 keywords: [faction, noble house, barony, forest, timber, rangers, transformed, hunting]
 description: Eastern forest barony controlling timber and hunting whose transformed rangers are unparalleled trackers — currently in dispute with House Steinfeld over hunting rights and with active scenarios pending around the Sergovy line and a recent litter
 ---

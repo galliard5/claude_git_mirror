@@ -1,5 +1,6 @@
 ---
 name: Eve_Schallow
+type: character
 keywords: [gurps, tl11, legion, mouse, intelligence, cryptography, ew, galliard, kai-legion-empire, schalow-family]
 description: Galliard's 205-point TL11 GURPS mouse in Kai's Legion Empire campaign. IQ 13, PER 14. Spacer 15, EW 14, Cryptography/Code Design/Cryptanalysis 14, Leadership 14, Explosives (Demo) 14, Gunner (Starship) 13. Quirks: Weirdness Magnet + Xenophilia. Honest Face perk. First of the confirmed Schalow family members.
 ---

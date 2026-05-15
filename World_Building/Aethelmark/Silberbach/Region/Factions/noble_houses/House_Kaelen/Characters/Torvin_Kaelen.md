@@ -1,5 +1,6 @@
 ---
 name: Baron Torvin Kaelen
+type: character
 keywords: [npc, noble, baron, kaelen, ford, reformist, vassal, vassal-of-valtor]
 description: Baron of the Ford and head of House Kaelen — reform-minded, ideologically opposed to Count Valtor, walking the constant line between vassal duty and political conscience while building a coalition for transformed-rights legislation
 ---

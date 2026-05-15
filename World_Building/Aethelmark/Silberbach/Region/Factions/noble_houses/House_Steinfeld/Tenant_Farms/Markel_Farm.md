@@ -1,5 +1,6 @@
 ---
 name: Markel Farm
+type: location
 keywords: [location, tenant farm, Steinfeld estate]
 description: Grain farmer Markel's farm south of the mill road whose cracking well casing has forced him to haul water two miles from the stream for an unknown period
 ---

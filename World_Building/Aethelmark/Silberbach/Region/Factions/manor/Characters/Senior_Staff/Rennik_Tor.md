@@ -1,5 +1,6 @@
 ---
 name: Rennik Tor
+type: character
 keywords: [npc, quartermaster, manor staff]
 description: Orc quartermaster who runs the estate's logistics with dependable precision after a lifetime of being treated as disposable muscle in mercenary work
 ---

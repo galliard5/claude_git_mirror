@@ -1,5 +1,6 @@
 ---
 name: House Aldenberg
+type: location
 keywords: [faction, noble house, barony, mountain, mining, steel, neutral]
 description: Mountain barony controlling the northern passes and the region's premier steel forges — historically tied to Valtor by a long-faded marriage but presently neutral, currently under quiet pressure from the Corvel investigation
 ---

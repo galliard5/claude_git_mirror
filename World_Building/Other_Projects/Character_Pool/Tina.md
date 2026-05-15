@@ -1,5 +1,6 @@
 ---
 name: Tina
+type: character
 keywords: [dnd35, wolf, fighter, bastard-sword, mabs-wolf, galliard, noble-wild, epic-gear]
 description: Galliard's wolf Fighter 8 + Animal 2 named Tina. NG. STR 18, WIS 14. Bastard sword specialist (Weapon Focus, Greater Weapon Focus, Weapon Specialization, Improved Critical, Power Attack, Great Cleave). Mithral keen bastard sword. Epic natural armor tailring (+6). Has a portrait file: "New_design_of_wolf__s_armour_by_Okami_Kodokuna.jpg."
 ---

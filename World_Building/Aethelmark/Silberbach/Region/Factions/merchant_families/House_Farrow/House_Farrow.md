@@ -1,5 +1,6 @@
 ---
 name: House Farrow
+type: location
 keywords: [faction, merchant family, agriculture]
 description: Major merchant house dealing in agriculture grain and livestock whose patriarch Jonas Farrow is a former soldier known for using transformed labor
 ---

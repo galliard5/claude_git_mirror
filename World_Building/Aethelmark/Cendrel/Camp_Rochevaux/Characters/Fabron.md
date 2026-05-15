@@ -1,5 +1,6 @@
 ---
 name: Fabron
+type: character
 keywords: [npc, les-granges, mill-owner, cendrel, kennel-hounds, supply-chain, stub]
 description: Mill owner at Les Granges near Camp Rochevaux — supplies grain to the camp and likely tied to the supply chain investigation that surfaced during the Rochevaux campaign
 ---

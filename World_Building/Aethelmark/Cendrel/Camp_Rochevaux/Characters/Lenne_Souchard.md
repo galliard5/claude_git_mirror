@@ -1,5 +1,6 @@
 ---
 name: Lenne Souchard
+type: character
 keywords: [npc, investigator, magistrate, aide, varel, kennel-hounds, supply-chain, law]
 description: Inspector's aide from the regional magistrate's office in Varel, freed from buyer's facility after five days captive — the other end of the procurement chain investigation
 ---

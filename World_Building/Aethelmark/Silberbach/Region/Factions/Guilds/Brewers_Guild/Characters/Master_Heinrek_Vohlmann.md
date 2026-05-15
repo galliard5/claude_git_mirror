@@ -1,5 +1,6 @@
 ---
 name: Master Heinrek Vohlmann
+type: character
 keywords: [npc, brewers-guild, master, dwarven, silberbach, brewing]
 description: Dwarven Master Brewer of the Silberbach Brewers Guild — fourteen years in office, runs the guild as an operation rather than a political theatre, brews Brask Gernholm's reserve himself
 ---

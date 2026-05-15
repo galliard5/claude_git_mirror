@@ -1,5 +1,6 @@
 ---
 name: Kaz Quickclaw
+type: character
 keywords: [npc, minor, kobold, family, the chains, maruvec]
 description: Isandar's father, a quiet carpenter's labourer in The Chains who holds onto practical facts because that is how he processes difficult news
 ---

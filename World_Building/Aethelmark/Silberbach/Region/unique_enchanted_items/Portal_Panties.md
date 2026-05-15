@@ -1,5 +1,6 @@
 ---
 name: Portal Panties
+type: location
 keywords: [item, enchanted, unique, portal, service, manor, transformation, kennels]
 description: A two-part portal enchantment that physically relocates the wearer's intimate anatomy to a board at the estate — the parts are gone from the body, held at the board, and remain biologically continuous with the wearer through the open portal
 ---

@@ -1,5 +1,6 @@
 ---
 name: Steinfeld Estate
+type: location
 keywords: [location, estate, noble house]
 description: The Steinfeld family seat south of Silberbach featuring cavalry horse breeding stock and now under active renovation and legal investigation following Viktor's return
 ---

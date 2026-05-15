@@ -1,5 +1,6 @@
 ---
 name: Tantalus Tease
+type: location
 keywords: [item, enchanted, unique, fey, isalia, permanent, orgasm denial]
 description: A steel clitoral band of Fey origin that permanently fuses to its wearer — permitting the full range of pleasure and arousal but blocking orgasm entirely, currently worn by Isalia Kreiger
 ---

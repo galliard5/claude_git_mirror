@@ -1,5 +1,6 @@
 ---
 name: Yara Quickclaw
+type: character
 keywords: [npc, minor, kobold, family, the chains, maruvec]
 description: Isandar's mother, a sharp and verbal woman who takes in mending work and who made her son's return from the transformation a stated fact rather than a hope
 ---

@@ -1,5 +1,6 @@
 ---
 name: Iaxiandra Kreiger
+type: character
 keywords: [npc, noble, dragon]
 description: Blue dragon Duchess and Countess of the Dino Forest who rules her county openly as dragon or kobold and is Isalia's biological father and Romaine's wife
 ---

@@ -1,5 +1,6 @@
 ---
 name: Rill Sunclaw Skill Tree
+type: character
 keywords: [skills, progression, pc, rill-sunclaw, rochevaux, panther]
 description: Emergent skill tree for Rill Sunclaw built from demonstrated capability across Camp Rochevaux Sessions 1-7
 ---

@@ -1,5 +1,6 @@
 ---
 name: Camp Rochevaux Session 5 Checkpoint
+type: location
 keywords: [session, checkpoint, camp-rochevaux, kennel-hounds, rill-sunclaw, buyer, alchemist, destination-reached]
 description: Fifth session checkpoint — Rill arrives at buyer's facility in the cage, collar removed and passed to Grenn, alchemist intends a blood draw this afternoon, Duval in the treeline with eyes on the back of the property
 ---

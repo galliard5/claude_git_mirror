@@ -1,5 +1,6 @@
 ---
 name: Viktor Steinfeld
+type: character
 keywords: [npc, noble, transformed, Minor Steinfeld heir who permanently transformed into a silver-grey mare, is confirmed pregnant]
 description: and has returned to manage the family estate
 ---

@@ -1,5 +1,6 @@
 ---
 name: Marcos
+type: character
 keywords: [d20-modern, wolf, tough-hero, military, blood-hunger, fangs, galliard, magnus-campaign]
 description: Galliard's d20 Modern wolf Tough Hero 3 named Marcos. Military background. Blood Hunger drawback. Subcutaneous radio implant, identity chip, anti-shock implant. Twin thunder machine gun + laser SMG. Demolitions. Grey fur, yellow eyes.
 ---

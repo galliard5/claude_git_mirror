@@ -1,5 +1,6 @@
 ---
 name: Dena
+type: character
 keywords: [npc, manor, infirmary, medical-assistant, peripheral-staff, human, half-elf]
 description: Half-elf infirmary assistant under Dr. Selene Korr — clinically precise, emotionally even, the steadying presence in the room when a patient is having a hard day
 ---

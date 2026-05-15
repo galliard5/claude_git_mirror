@@ -1,5 +1,6 @@
 ---
 name: House Vale
+type: location
 keywords: [faction, merchant family, mining]
 description: Major merchant house dealing in mining metalwork and enchanted tools whose gnome patriarch Dain Vale collaborates with Isalia's alchemist
 ---

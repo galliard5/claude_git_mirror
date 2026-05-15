@@ -1,5 +1,6 @@
 ---
 name: Kani
+type: character
 keywords: [pathfinder, pf1e, kobold, witch, sea-dragons, jason-game, le, poison, tattoo-magic, galliard]
 description: Galliard's LE kobold witch 5 from "Sea Dragons" campaign (Jason's game). INT 20. Feats: Brew Potion, Craft Wondrous Item, Inscribe Tattoo. Familiar: sea viper. Dagger carved from human femur. Tattoo-based magic items. Poison gas breath weapon. Languages include Aquan and Elf.
 ---

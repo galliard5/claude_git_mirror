@@ -1,5 +1,6 @@
 ---
 name: Soul Gem Story So Far
+type: scenario
 keywords: [summary, resumption, checkpoint, story, arc, soul_gem]
 description: Comprehensive narrative summary of the Soul Gem campaign from sacrifice to capital arrival — designed as a resumption document for continuing play
 ---

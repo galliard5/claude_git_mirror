@@ -1,5 +1,6 @@
 ---
 name: Pol
+type: character
 keywords: [npc, merchant, criminal]
 description: Silberbach dye import merchant who absorbs laundered funds for Corvel through inflated invoices and was used to process Hartwell Works payments
 ---

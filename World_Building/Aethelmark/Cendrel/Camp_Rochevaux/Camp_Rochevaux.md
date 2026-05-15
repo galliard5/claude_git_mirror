@@ -1,5 +1,6 @@
 ---
 name: Camp Rochevaux
+type: location
 keywords: [location, outpost, frontier, military, cendrel, kennel-hounds, scouts]
 description: A frontier encampment on Cendrel's eastern border, positioned at a ridgeline river crossing to protect nearby settlements and the trade road
 ---

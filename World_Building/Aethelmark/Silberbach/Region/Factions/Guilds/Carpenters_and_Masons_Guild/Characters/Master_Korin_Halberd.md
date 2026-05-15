@@ -1,5 +1,6 @@
 ---
 name: Master Korin Halberd
+type: character
 keywords: [npc, carpenters-guild, master, human, silberbach, carpenter]
 description: Master of the Carpenters and Masons Guild — steady, deliberate, the corrective to his more politically active predecessor; quietly resists confrontation on internal standards issues
 ---

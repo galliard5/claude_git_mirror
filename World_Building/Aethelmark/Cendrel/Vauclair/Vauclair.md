@@ -1,5 +1,6 @@
 ---
 name: Vauclair
+type: location
 keywords: [location, border town, frontier, A worn Cendrel border town built over a kobold warren]
 description: policed by a joint garrison and plagued by a thriving smuggling underworld
 ---

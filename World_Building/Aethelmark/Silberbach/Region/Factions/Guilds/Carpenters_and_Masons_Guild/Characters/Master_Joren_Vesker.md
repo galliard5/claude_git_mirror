@@ -1,5 +1,6 @@
 ---
 name: Master Joren Vesker
+type: character
 keywords: [npc, carpenters-guild, master, human, silberbach, manor-account]
 description: Senior carpenter master who runs the manor's ongoing maintenance and construction account — seven years on the manor team, friend to Rennik, knows every building on the manor compound
 ---

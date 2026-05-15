@@ -1,5 +1,6 @@
 ---
 name: Leiane
+type: character
 keywords: [dnd35, kobold, bard, wind-instruments, charm, galliard, cg]
 description: A kobold bard 3. CG. CHA 16, DEX 16. Extra Music feat (bards the bardic music). MW rapier, Chain Shirt +1, MW pan pipes. Spells include Charm Person, Comprehend Languages, Lullaby, Unseen Servant.
 ---

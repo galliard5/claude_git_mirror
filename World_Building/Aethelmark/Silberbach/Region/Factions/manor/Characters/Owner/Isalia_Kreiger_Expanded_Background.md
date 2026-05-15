@@ -1,5 +1,6 @@
 ---
 name: Isalia Kreiger Expanded Background
+type: character
 keywords: [background, description, lore]
 description: Comprehensive expanded biography of Isalia Kreiger covering her origins adventuring career fey curse and the founding of her estate
 ---

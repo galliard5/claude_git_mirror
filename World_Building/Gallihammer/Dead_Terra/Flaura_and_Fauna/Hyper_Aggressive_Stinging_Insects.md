@@ -1,5 +1,6 @@
 ---
 name: Hyper-Aggressive Stinging Insects
+type: setting-document
 keywords: [insects, stinging, wasps, territorial, venom, flying-predator, terra-native, swarm]
 description: Fast, swarm-capable flying insect predators with territorial behavior and venom ranging from paralytic to lethal; function like biological interceptor drones
 ---

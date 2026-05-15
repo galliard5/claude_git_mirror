@@ -1,5 +1,6 @@
 ---
 name: Anthony Valtor
+type: character
 keywords: [npc, transformed, imperial witness]
 description: Transformed chestnut gelding and Imperial Witness whose testimony exposed his father's embezzlement of imperial funds
 ---

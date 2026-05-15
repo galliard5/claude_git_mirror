@@ -1,5 +1,6 @@
 ---
 name: Roulin
+type: character
 keywords: [dnd35, gnoll, zombie-paladin, undead, paladin, power-attack, galliard, snuffles]
 description: Galliard's gnoll paladin 6 with the "pc zombie" template applied — Undead type, Slam natural attack, decaying appearance. LG. Adamantine shock bastard sword. Has a warhorse named Snuffles in full banded barding. Wand of Inflict Light Wounds. Only speaks Gnoll.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Reinheim
+type: location
 keywords: [location, village, riverside, half-elven, march-of-silberbach, reinhart-dena-halrana]
 description: The riverside settlement further upstream of Halselund — population around 480, notably half-elven in character, the upriver community that sent Master Reinhart to Silberbach as a tanning apprentice and Dena to the manor as Korr's clinical hand
 ---

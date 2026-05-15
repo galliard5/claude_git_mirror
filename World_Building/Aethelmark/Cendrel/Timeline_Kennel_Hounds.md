@@ -1,5 +1,6 @@
 ---
 name: Kennel Hounds Timeline
+type: location
 keywords: [timeline, calendar, session, events, tracking, kennel hounds, vauclair]
 description: Running calendar and event log for the Kennel Hounds setting tracking current date, session events, and ongoing threads
 ---

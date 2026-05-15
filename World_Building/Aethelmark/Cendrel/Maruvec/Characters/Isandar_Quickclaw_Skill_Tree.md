@@ -1,5 +1,6 @@
 ---
 name: Isandar Quickclaw Skill Tree
+type: character
 keywords: [isandar, maruvec, skills, progression, hound, essence, visualization]
 description: Character-specific skill tree showing current tier development, branches, and gates for Isandar post-transformation (Session 06)
 ---

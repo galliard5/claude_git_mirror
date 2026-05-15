@@ -1,5 +1,6 @@
 ---
 name: Tomis Bruck
+type: character
 keywords: [npc, tenant farmer, Steinfeld estate]
 description: Edric Bruck's quiet capable son who works the Bruck farm and offered his own labor for the drainage repair
 ---

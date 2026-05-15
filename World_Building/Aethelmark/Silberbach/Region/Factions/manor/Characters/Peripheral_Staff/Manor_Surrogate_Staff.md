@@ -1,5 +1,6 @@
 ---
 name: Manor Surrogate Staff
+type: character
 keywords: [npc, transformed, contract staff, milkmaid, surrogate, canine, equine, kennel support]
 description: A small group of transformed residents kept on rolling contract at Isalia's Manor to serve as surrogate mothers and milkmaids for pups and foals that require a nursing parent — two canines and two mares, all unnamed, all trained in raising feral young
 ---

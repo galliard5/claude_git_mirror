@@ -1,5 +1,6 @@
 ---
 name: Carpenters and Masons Guild
+type: location
 keywords: [faction, guild, carpenters, masons, construction, silberbach]
 description: The Carpenters and Masons Guild of Silberbach — combined construction guild handling timber and stone work for the town, the noble houses, and the manor's ongoing kennel and stable maintenance contracts
 ---

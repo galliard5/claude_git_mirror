@@ -1,5 +1,6 @@
 ---
 name: Camp Rochevaux Session 2 Checkpoint
+type: location
 keywords: [session, checkpoint, camp-rochevaux, kennel-hounds, rill-sunclaw, transformation, panther]
 description: Second session checkpoint — transformation day, Rill completes panther transformation, first evening post-transformation with squad
 ---

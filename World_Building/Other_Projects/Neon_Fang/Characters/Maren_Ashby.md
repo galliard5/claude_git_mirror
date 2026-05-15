@@ -1,5 +1,6 @@
 ---
 name: Dr. Maren Ashby
+type: character
 keywords: [npc, founder, verity, medical, ethics, caldera, neon-fang, ally]
 description: Founder of Verity Biomedical — a dual-doctorate clinician who built the only genuinely ethical transformation practice in Caldera and is methodically working to bring down Elsin while holding the line against everyone else
 ---

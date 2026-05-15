@@ -1,5 +1,6 @@
 ---
 name: Jenney
+type: character
 keywords: [dnd35, human, paladin, adamantine, power-attack, cleave, galliard]
 description: Galliard's human paladin 9. Gold skin and eyes, no hair. LG. WIS 18 and CHA 18. Power Attack + Cleave + Great Cleave chain. Adamantine sword, mithral shield, adamantine half-plate. Ring of Sustenance.
 ---

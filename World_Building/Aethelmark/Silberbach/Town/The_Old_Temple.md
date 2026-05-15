@@ -1,5 +1,6 @@
 ---
 name: The Old Temple
+type: location
 keywords: [location, silberbach, religion, history, catacombs, sealed, cult]
 description: The oldest religious site in Silberbach — a mixed-faith sanctuary built over sealed catacombs and the remnants of a pre-town cult whose altar still stands beneath the east wing
 ---

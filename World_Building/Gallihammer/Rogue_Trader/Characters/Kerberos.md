@@ -1,5 +1,6 @@
 ---
 name: Kerberos
+type: character
 keywords: [pc, ancient-warrior, komodo-anthro, warp-survivor, night-lords, ground-team, rogue-trader, fates-cast]
 description: A komodo dragon anthro super-soldier from the empire's pre-collapse Night Lords program, warp-stranded for millennia and bearing the mutations of survival — now serving aboard the Fates Cast
 ---

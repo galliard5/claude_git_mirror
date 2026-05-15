@@ -1,5 +1,6 @@
 ---
 name: Kelly
+type: character
 keywords: [d20-modern, human, fast-hero, criminal, infiltrator, silenced-weapons, galliard, magnus-campaign]
 description: Galliard's d20 Modern Fast Hero 4 named Kelly. Criminal background. Silenced Glock 17 + silenced HK MP5K. Evasion, Uncanny Dodge, Defensive Martial Arts. PDA used as a spellbook. Russian and Farsi speaker.
 ---

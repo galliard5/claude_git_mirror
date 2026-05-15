@@ -1,5 +1,6 @@
 ---
 name: Market Square
+type: location
 keywords: [location, silberbach, commerce, market, fountain, town-crier]
 description: The bustling commercial heart of Silberbach's New Town — permanent stalls clustered around a stone fountain, weekly markets drawing the surrounding countryside, daily commerce at three rhythms across the day
 ---

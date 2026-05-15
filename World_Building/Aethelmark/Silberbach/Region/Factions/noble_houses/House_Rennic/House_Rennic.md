@@ -1,5 +1,6 @@
 ---
 name: House Rennic
+type: location
 keywords: [faction, noble house, diplomat]
 description: Eastern Marches lords who serve as quiet imperial intermediaries with discreet ties to Isalia's manor through Lady Seria Rennic's visits and intelligence gathering
 ---

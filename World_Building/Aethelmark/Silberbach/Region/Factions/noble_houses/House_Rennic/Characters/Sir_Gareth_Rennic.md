@@ -1,5 +1,6 @@
 ---
 name: Sir Gareth Rennic
+type: character
 keywords: [npc, noble, knight, rennic, military-commander, eastern-marches, marches]
 description: Military commander of the Eastern Marches and younger brother to Lord Edric Rennic — practical, blunt, the operational counterweight to his diplomat brother
 ---

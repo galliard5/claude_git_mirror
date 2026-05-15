@@ -1,5 +1,6 @@
 ---
 name: Madila
+type: character
 keywords: [dnd35, kobold, half-dragon-gold, monk, starscream-campaign, galliard, saturday-morning, lg]
 description: Galliard's kobold Half-Dragon (Gold) monk 4 named Madila. LG, ambidextrous, red scales, yellow eyes. Weapon Finesse + Improved Natural Armor. Monk bonus feats: Improved Grapple + Combat Reflexes. Has a MapTool token (Madila.rptok) also in the import folder.
 ---

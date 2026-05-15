@@ -1,5 +1,6 @@
 ---
 name: Antoine_Blumberg
+type: character
 keywords: [gurps, tl10, legion, armadillo, medic, combat-medic, weirdness-magnet, truthfulness, galliard]
 description: A 120-point Legion armadillo combat medic — master-level surgery, Physician, and Xeno-Physiology, heavy powered armor, gauss support weapon, DR 4 natural shell on back. Weirdness Magnet. Can't lie. Makes great BBQ and hooch.
 ---

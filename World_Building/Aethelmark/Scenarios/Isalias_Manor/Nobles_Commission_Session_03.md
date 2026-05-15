@@ -1,5 +1,6 @@
 ---
 name: Nobles Commission Session 03
+type: scenario
 keywords: [session, checkpoint, isalias estate, valerius, petition, seria, mohl, kinsky, barrel, serya, runt, surrogate]
 description: Seria returns with partial documentation — conviction valid, transfer incomplete — four-person meeting held, petition filed, barrel policy overhauled, kennel rearrangement for runt, Kinsky consulted, Valerius finds new ground at the pasture fence
 ---

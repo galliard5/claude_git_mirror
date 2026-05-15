@@ -1,5 +1,6 @@
 ---
 name: Farmers Guild
+type: location
 keywords: [faction, guild, farming, agriculture, feed, market, silberbach, river-valley]
 description: The Farmers Guild of Silberbach — coordinates the river valley's pastoral and grain operations, supplies the town's foodstuffs and the manor's feed contracts, runs the market stalls and the seasonal harvests
 ---

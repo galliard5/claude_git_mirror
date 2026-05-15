@@ -1,5 +1,6 @@
 ---
 name: The Silver Eel
+type: location
 keywords: [location, silberbach, tavern, market-square, retired-captain, river-traders]
 description: A reputable New Town tavern run by a retired river captain — walls full of river memorabilia, regulars from his old crew, the place where merchant deals are made over ale and where Silberbach's daytime news circulates
 ---

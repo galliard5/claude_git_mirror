@@ -1,5 +1,6 @@
 ---
 name: Saphira
+type: character
 keywords: [pathfinder, pf1e, dragon, draconic-exemplar, copper-dragon, james, cg, frightful-presence]
 description: James's PF1e Dragon Draconic Exemplar 6 named Saphira. CG female. STR 20, INT 18, CON 18, CHA 17. Copper dragon lineage (acid/wit). Draconic Essence: Witty. Frightful Presence 4/day. DR 5/magic. Hardened Scales, Animal Form. Fly 60, Glide. From a Myth-Weavers campaign.
 ---

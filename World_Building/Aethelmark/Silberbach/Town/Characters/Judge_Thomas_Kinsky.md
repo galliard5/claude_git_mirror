@@ -1,5 +1,6 @@
 ---
 name: Judge Thomas Kinsky
+type: character
 keywords: [npc, judge, transformed]
 description: Chief Justice on vacation residing at the manor as a pregnant Kinsky horse who provides emergency legal counsel
 ---

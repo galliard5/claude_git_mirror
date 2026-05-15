@@ -1,5 +1,6 @@
 ---
 name: Tob
+type: character
 keywords: [npc, manor, kitchen, cook, halfling, peripheral-staff, military-cook, weighted-feed]
 description: Halfling head cook of Isalia's Manor — former military cook for war hound units, runs the kitchen with practiced economy and feeds canine residents the way his old units fed their dogs
 ---

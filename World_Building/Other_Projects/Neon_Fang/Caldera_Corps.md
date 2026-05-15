@@ -1,5 +1,6 @@
 ---
 name: Caldera Corps
+type: setting-document
 keywords: [lore, corporations, factions, clients, caldera, neon-fang, nexagen, politics]
 description: The major and mid-tier corporations operating in Caldera — their industries, politics, and relationship to Nexagen's Integrated Assets division
 ---

@@ -1,5 +1,6 @@
 ---
 name: Sarashdar
+type: character
 keywords: [dnd35, kobold, sorcerer, fire, divination, crystal-ball, galliard, crafter]
 description: Galliard's kobold sorcerer 6 named Sarashdar. NG. CHA 16. Fire-focused spells (Fireball, Flaming Sphere). Carries a Big Crystal Ball (72 lbs!) and Ring of Sustenance. Craft (Gemcutting) and Craft (Leatherworking). Ironwood quarterstaff. Variant: Sarashdardoc.pcg.
 ---

@@ -1,5 +1,6 @@
 ---
 name: The Crawl
+type: scenario
 keywords: [scenario, dead_terra, remade_origin, infiltration, arthropod, bioservitor, transformation, espionage, domaric, kast, graumark, laut, europan_reaches]
 description: A convicted anthro assassin chooses biomantic transformation over execution, becoming an arthropod infiltration form for the warlord who burned him
 ---

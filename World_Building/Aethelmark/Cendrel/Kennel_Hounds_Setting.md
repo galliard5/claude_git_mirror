@@ -1,5 +1,6 @@
 ---
 name: Kennel Hounds Setting
+type: location
 keywords: [lore, setting, overview, kennel-hounds, programme, cendrel, transformation]
 description: A Cendrel-based setting framework built around a noble-funded programme to trial sapient transformed hounds across military outposts, border towns, and major cities
 ---

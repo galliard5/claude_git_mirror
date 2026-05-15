@@ -1,5 +1,6 @@
 ---
 name: Maruvec Summary 3 — MISSING
+type: location
 keywords: [session-summary, maruvec, kennel-hounds, missing, placeholder]
 description: Placeholder for missing Session 3 summary — context preserved from adjacent sessions until original can be reconstructed or extracted from chat history
 ---

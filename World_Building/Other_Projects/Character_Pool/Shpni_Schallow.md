@@ -1,5 +1,6 @@
 ---
 name: Shpni_Schallow
+type: character
 keywords: [gurps, tl9, legion, mouse, scientist, schalow-family, stub, galliard]
 description: A 100-point TL9 mouse head researcher — profile only, no skills or traits filed. Fifth confirmed Schalow/Schallow family member in the Legion setting.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Meerhold
+type: location
 keywords: [location, town, coastal, salt, meerhold, march-of-silberbach]
 description: The coastal salt town and seat of House Meerhold — population around 800, three days hard ride southwest of Silberbach, the salt-evaporation operation that supplies both Aethelmark and licensed Cendrel export
 ---

@@ -1,5 +1,6 @@
 ---
 name: Lord Tomas R. Rennic
+type: character
 keywords: [npc, noble, heir, rennic, page, imperial-court, eastern-marches, sixteen]
 description: Sixteen-year-old heir to House Rennic currently serving as a page at the Emperor's court — being trained for the diplomatic role his father holds, observed by the imperial intelligencers, ten years away from his real political career
 ---

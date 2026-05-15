@@ -1,5 +1,6 @@
 ---
 name: Dead Terra - Factions and Warlords
+type: faction
 keywords: [factions, warlords, politics, power, dead-terra, world-building, organisations]
 description: Major power blocs, warlords, and political factions across post-collapse Earth, organised by region and type
 ---

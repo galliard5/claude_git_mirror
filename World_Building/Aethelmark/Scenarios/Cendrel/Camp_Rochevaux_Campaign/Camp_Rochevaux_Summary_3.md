@@ -1,5 +1,6 @@
 ---
 name: Camp Rochevaux Session 3 Checkpoint
+type: location
 keywords: [session, checkpoint, camp-rochevaux, kennel-hounds, rill-sunclaw, transformation, squad, feral-forms]
 description: Third session checkpoint — transformation day for the full squad, all five complete, first evening assembled together as transformed unit
 ---

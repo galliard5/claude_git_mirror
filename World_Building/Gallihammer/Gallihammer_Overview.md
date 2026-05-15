@@ -1,5 +1,6 @@
 ---
 name: Gallihammer - Combined Setting Overview
+type: setting-document
 keywords: [setting, overview, lore, dead-terra, rogue-trader, gallihammer, peoples, warp, mechanicus, biomancer, selenar, communication, post-collapse, horror]
 description: Unified overview of the Gallihammer setting — the peoples, the warp, the institutions, and the collapse seen from the ground and from the void
 ---

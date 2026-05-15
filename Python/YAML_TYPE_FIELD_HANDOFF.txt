@@ -1,0 +1,413 @@
+===HANDOFF START===
+MODE: mechanical_transform
+COMMIT: "Maintenance: Add missing YAML type fields to World_Building files | 170+ files fixed | YAML compliance audit 2026-05-15"
+
+---AETHELMARK SETTING DOCUMENTS---
+PATH: World_Building/Aethelmark/Aethelmark.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Aethelmark/Hanging_Threads.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Aethelmark/Laws_and_Framework.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Aethelmark/Master_Calendar.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Aethelmark/Skill_Tree_Visualization.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+---AETHELMARK CENDREL---
+PATH: World_Building/Aethelmark/Cendrel/Cendrel.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Aethelmark/Cendrel/Kennel_Hounds_Setting.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Aethelmark/Cendrel/Timeline_Kennel_Hounds.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Aethelmark/Cendrel/Camp_Rochevaux/Camp_Rochevaux.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Cendrel/Camp_Rochevaux/Buyers_Facility.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Cendrel/Maruvec/Maruvec.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Cendrel/Maruvec/Maruvec.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Cendrel/Vauclair/Vauclair.md
+OPERATION: add_type_field
+TYPE: location
+
+---AETHELMARK SILBERBACH REGION---
+PATH: World_Building/Aethelmark/Silberbach/Region/The_March_of_Silberbach.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Westgate.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Aldenberg_Hold_Settlement.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Graudorf.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Reinheim.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Halselund.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Meerhold.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Waldheim_Lodge_Settlement.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Kaelens_Ford.md
+OPERATION: add_type_field
+TYPE: location
+
+---AETHELMARK SILBERBACH TOWN---
+PATH: World_Building/Aethelmark/Silberbach/Town/Silberbach.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Town/Market_Square.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Town/The_Harbor_District.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Town/The_Silver_Eel.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Town/The_Old_Temple.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Town/Valtor_Keep.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Town/Weavers_Row.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Town/Silberbach_Arrival.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+---AETHELMARK MANOR---
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Manor/Isalias_Manor.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Manor/Manor_Services.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Manor/Main_Building.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Manor/The_Apothecary.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Manor/The_Garden_Wing.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Manor/Infirmary.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Manor/Kennels_and_Stables.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Manor/Industrial_Shops.md
+OPERATION: add_type_field
+TYPE: location
+
+---AETHELMARK NOBLE HOUSES---
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Kreiger/House_Kreiger.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Valtor/Characters/Count_Elias_Valtor.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Valtor/Characters/Lady_Marguerite_Valtor.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Steinfeld/Characters/Lukas_Steinfeld.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Steinfeld/Characters/Pell.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Waldheim/House_Waldheim.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Aldenberg/House_Aldenberg.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Rennic/Characters/Lord_Edric_Rennic.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Rennic/Characters/Sir_Gareth_Rennic.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Kaelen/Characters/Baron_Torvin_Kaelen.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Kaelen/Characters/Aldric_Kaelen.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Kaelen/Characters/Fenrik_Kaelen.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Rothwyn/House_Rothwyn.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Rothwyn/Characters/Lord_and_Lady_Rothwyn.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Noble_Houses/House_Grauwald/House_Grauwald.md
+OPERATION: add_type_field
+TYPE: faction
+
+---AETHELMARK GUILDS---
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/Merchants_Guild/Merchants_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/Bakers_and_Butchers_Guild/Bakers_and_Butchers_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/Blacksmiths_and_Metalworkers_Guild/Blacksmiths_and_Metalworkers_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/Brewers_Guild/Brewers_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/Carpenters_and_Masons_Guild/Carpenters_and_Masons_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/Farmers_Guild/Farmers_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/Fullers_and_Dyers_Guild/Fullers_and_Dyers_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/Miners_Guild/Miners_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/River_Traders_Guild/River_Traders_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/Tanners_and_Leatherworkers_Guild/Tanners_and_Leatherworkers_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+PATH: World_Building/Aethelmark/Silberbach/Region/Factions/Guilds/Weavers_Guild/Weavers_Guild.md
+OPERATION: add_type_field
+TYPE: faction
+
+---GALLIHAMMER CORE---
+PATH: World_Building/Gallihammer/Gallihammer_Overview.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/The_Mechanicus.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/The_Warp.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/The_Peoples.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Selenar_Origins.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Biomancer.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Bioservitor.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Cyberservitor.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Communication.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Reshaping_Programme_Framework.md
+OPERATION: add_type_field
+TYPE: scenario
+
+---GALLIHAMMER DEAD TERRA---
+PATH: World_Building/Gallihammer/Dead_Terra/Dead_Terra_Geography.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Dead_Terra/Dead_Terra_Factions.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Dead_Terra/Europan_Reaches.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+---GALLIHAMMER ROGUE TRADER---
+PATH: World_Building/Gallihammer/Rogue_Trader/Rogue_Trader_Overview.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Rogue_Trader/The_Fates_Cast.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Gallihammer/Rogue_Trader/Crew_Roles.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Gallihammer/Rogue_Trader/Ship_Culture.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Rogue_Trader/Ship_Combat_Forces.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Gallihammer/Rogue_Trader/Research_and_Manufacturing.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Gallihammer/Rogue_Trader/Human_Cyber_Mastiff_Programme.md
+OPERATION: add_type_field
+TYPE: scenario
+
+PATH: World_Building/Gallihammer/Rogue_Trader/Locations/Talax_System.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Gallihammer/Rogue_Trader/Locations/Eternity.md
+OPERATION: add_type_field
+TYPE: location
+
+---GALLIHAMMER ARCHAEOS---
+PATH: World_Building/Gallihammer/Archaeos_Expedition/Archaeos_Expedition_Overview.md
+OPERATION: add_type_field
+TYPE: setting-document
+
+PATH: World_Building/Gallihammer/Archaeos_Expedition/Forge_Monastery_Valdrekk.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Gallihammer/Archaeos_Expedition/Ship/The_Proving_Ground.md
+OPERATION: add_type_field
+TYPE: location
+
+PATH: World_Building/Gallihammer/Archaeos_Expedition/Characters/Proving_Ground_Crew.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Gallihammer/Archaeos_Expedition/Characters/Si_ken.md
+OPERATION: add_type_field
+TYPE: character
+
+PATH: World_Building/Gallihammer/Archaeos_Expedition/Scenarios/Si_ken_Prologue_Summary.md
+OPERATION: add_type_field
+TYPE: session-summary
+
+PATH: World_Building/Gallihammer/Archaeos_Expedition/Scenarios/Session_01_Briefing.md
+OPERATION: add_type_field
+TYPE: scenario
+
+---GALLIHAMMER EQUIPMENT---
+PATH: World_Building/Gallihammer/Equipment/Weapons_Armour_Equipment.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Gallihammer/Equipment/Vehicle_Weapons_Ship_Armament.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Gallihammer/Equipment/Imperial_Relic_Weapons_Specific.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Gallihammer/Equipment/Reshaping_Cascade_Weapons_Detailed.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+PATH: World_Building/Remade_Origin_Framework.md
+OPERATION: add_type_field
+TYPE: scenario
+
+PATH: World_Building/Reshaping_Trap_Tables.md
+OPERATION: add_type_field
+TYPE: rules-reference
+
+===HANDOFF END===

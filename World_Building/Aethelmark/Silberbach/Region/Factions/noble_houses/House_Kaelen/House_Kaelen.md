@@ -1,5 +1,6 @@
 ---
 name: House Kaelen
+type: location
 keywords: [faction, noble house, barony]
 description: Reform-minded barons of the river ford quietly building a coalition for transformed rights legislation while maintaining economic ties to progressive allies
 ---

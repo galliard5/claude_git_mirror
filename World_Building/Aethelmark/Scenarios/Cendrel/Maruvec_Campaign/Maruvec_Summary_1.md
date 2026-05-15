@@ -1,5 +1,6 @@
 ---
 name: Maruvec Campaign Summary 1
+type: location
 keywords: [session, summary, maruvec, kennel hounds, checkpoint]
 description: Session summary for Maruvec Campaign Session 01 — donor hound selected, parents informed, squad first evening together
 ---

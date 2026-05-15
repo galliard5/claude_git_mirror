@@ -1,5 +1,6 @@
 ---
 name: Vorro
+type: character
 keywords: [npc, manor, kennels, mastiff, stud, animal, breeding, working-dog]
 description: Brindled mastiff stud — six-year-old non-sapient breeding animal, central stud in the manor's canine programme, handled primarily by Renn with kennels coordination through Sable
 ---

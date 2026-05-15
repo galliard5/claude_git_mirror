@@ -1,5 +1,6 @@
 ---
 name: Corvel
+type: character
 keywords: [npc, alchemist, vauclair]
 description: Vauclair's established licensed alchemist who administers the transformation potion under programme documentation with professional precision and ambiguous ties to the black market
 ---

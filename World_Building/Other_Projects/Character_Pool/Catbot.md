@@ -1,5 +1,6 @@
 ---
 name: Catbot
+type: character
 keywords: [heroes-unlimited, palladium, robot, android, cat, mags-game, bio-realistic, thief]
 description: A $10M bio-realistic cat robot with safecracking, electrical discharge, and near-perfect organic disguise; built for Mag's HU game.
 ---

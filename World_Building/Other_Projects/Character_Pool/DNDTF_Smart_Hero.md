@@ -1,5 +1,6 @@
 ---
 name: DNDTF_Smart_Hero
+type: character
 keywords: [d20-modern, human, smart-hero, linguist, technician, dndtf, unnamed]
 description: An unnamed d20 Modern Smart Hero 1 from "dndtf game." Occupation: Technician. Linguist talent. Speaks Spanish, German, Cantonese, Latin. Gearhead + Educated feats. Computer Use, Craft (Electronic), Disable Device, Repair, Research. No equipment filed. Name never assigned.
 ---

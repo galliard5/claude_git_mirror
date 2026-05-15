@@ -1,5 +1,6 @@
 ---
 name: Silver
+type: character
 keywords: [pathfinder, pf1e, silver-dragon, gestalt, oracle, sorcerer, heavens-mystery, starsoul-bloodline, galliard, wyrmling-gestalt]
 description: Galliard's PF1e Silver Dragon gestalt Oracle 22//Sorcerer 19/Dragon 3, level 26. NG female. AC 57, Will +46, 500 HP, Heal +41, Fly +36. Oracle Heavens mystery + Starsoul sorcerer bloodline. Linnwyrm armor. DR 5/slashing, immune to fire. Cold cone + paralysis cone breath. Family still alive; worked with giants.
 ---

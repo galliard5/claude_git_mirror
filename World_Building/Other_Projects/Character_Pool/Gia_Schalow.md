@@ -1,5 +1,6 @@
 ---
 name: Gia_Schalow
+type: character
 keywords: [gurps, tl11, legion-war-stories, mouse, soldier, demolitions, stealth, smg]
 description: A 100-point mouse soldier specialized in CQB, demolitions, and camouflage; from the Legion War Stories campaign. Shares the Schalow surname with Eve Schallow.
 ---

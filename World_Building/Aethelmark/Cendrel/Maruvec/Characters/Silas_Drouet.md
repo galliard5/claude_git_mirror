@@ -1,5 +1,6 @@
 ---
 name: Silas Drouet
+type: character
 keywords: [npc, garrison commander, maruvec, authority]
 description: Maruvec's garrison commander, a practical career officer who assigned the hound programme squad by directive rather than waiting for volunteers, and is watching to see if it produces results
 ---

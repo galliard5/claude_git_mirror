@@ -1,5 +1,6 @@
 ---
 name: Venomous Serpents
+type: setting-document
 keywords: [serpents, snakes, venom, stealth-predator, neurotoxin, hemotoxin, terra-native, camouflage]
 description: Stealth reptile predators using camouflage to near-invisibility, employing neurotoxic or hemotoxic venoms, striking faster than most reactions; silent until attack
 ---

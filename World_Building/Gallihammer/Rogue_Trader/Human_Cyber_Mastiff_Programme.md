@@ -1,5 +1,6 @@
 ---
 name: Human Cyber-Mastiff Conversion Programme
+type: setting-document
 keywords: [research, biological, cyber-mastiff, damien, conversion, volunteers, ship-security, ground-combat, rogue-trader, fates-cast]
 description: Damien's programme aboard the Fates Cast for converting human volunteers into fully cognisant cyber-mastiff chassis operators — development history, technical process, and operational deployment
 ---

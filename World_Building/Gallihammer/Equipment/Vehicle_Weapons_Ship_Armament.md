@@ -1,5 +1,6 @@
 ---
 name: Vehicle Weapons and Ship Armament
+type: rules-reference
 keywords: [vehicles, tanks, walkers, ships, naval, weapons, artillery, void, mechanicus, bolo, imperial]
 description: Crew-served, vehicle-mounted, and naval armament across the Gallihammer setting — from tank guns and walker systems to void ship broadsides and incomprehensible imperial weapons of mass engagement
 ---

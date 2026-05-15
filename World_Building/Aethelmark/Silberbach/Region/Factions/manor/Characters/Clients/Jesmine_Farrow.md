@@ -1,5 +1,6 @@
 ---
 name: Jesmine Farrow
+type: character
 keywords: [npc, client, sanctuary, abuse, legal]
 description: Merchant's wife granted sanctuary at Isalia's Manor after discovering her husband forged a transformation contract in her name; currently giving testimony toward a felony forgery charge
 ---

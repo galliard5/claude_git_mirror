@@ -1,5 +1,6 @@
 ---
 name: Gia_Schalow_400
+type: character
 keywords: [gurps, tl11, legion, mouse, soldier, demolitions, sniper, beam-weapons, schalow-family, telesending, dependency]
 description: The 400-point version of Gia Schalow from a higher-powered Legion campaign. Same character concept as Gia_Schalow (LWS) but built out fully — master demolitions specialist, laser sniper, Judo suite, daily medical dependency, and Telesending (hypercomm). Earlier file than the LWS version.
 ---

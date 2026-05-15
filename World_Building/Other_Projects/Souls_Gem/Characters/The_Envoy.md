@@ -1,5 +1,6 @@
 ---
 name: The Envoy
+type: character
 keywords: [npc, envoy, templar, divine, investigator, church, dangerous]
 description: Unnamed divine order investigator and necromancy hunter — carries the gem unknowingly and represents the greatest threat to the PC's concealment
 ---

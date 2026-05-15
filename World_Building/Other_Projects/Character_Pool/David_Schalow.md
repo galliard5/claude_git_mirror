@@ -1,5 +1,6 @@
 ---
 name: David_Schalow
+type: character
 keywords: [gurps, tl11, legion, mouse, soldier, honor-guard, stealth, schalow-family]
 description: A 100-point Legion Honor Guard mouse soldier with woodland survival, communications, and a tarot-reading habit. Younger member of the Schalow family.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Gemszi Session 01
+type: scenario
 keywords: [session, rogue-trader, gemszi, conversion, geld-maw, livestock, kobold]
 description: Gemszi is caught stealing rations aboard the Geld Maw, sentenced to conversion, and remade into draught livestock
 ---

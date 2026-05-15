@@ -1,5 +1,6 @@
 ---
 name: Si'ken Prologue Session Summary
+type: scenario
 keywords: [session, summary, prologue, si'ken, remade, kobold, insectoid, specialist, valdrekk, proving-ground]
 description: Summary of Si'ken's Remade origin prologue — from kobold prisoner to reshaped hybrid to Valdrekk specialist asset departing for the Proving Ground
 ---

@@ -1,5 +1,6 @@
 ---
 name: Terran Microbial Life
+type: setting-document
 keywords: [microbes, bacteria, virus, ecosystem, mutation, cross-species-infection, competitive, terra-native, biohazard]
 description: Rapidly mutating bacteria and virus ecosystems that are highly competitive and aggressive; capable of cross-species infection; drives extreme immune system adaptation in Terrans
 ---

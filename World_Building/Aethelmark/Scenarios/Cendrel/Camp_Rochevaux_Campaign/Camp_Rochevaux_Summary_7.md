@@ -1,5 +1,6 @@
 ---
 name: Camp Rochevaux Session 7 Checkpoint
+type: location
 keywords: [session, checkpoint, camp-rochevaux, kennel-hounds, rill-sunclaw, lenne-souchard, vassard, wild-wolves, debrief]
 description: Seventh session checkpoint — column rides back to Rochevaux, two wild wolves retrieved, Lenne debriefs Tournon on Vassard lead and modified collar, Rill sleeps
 ---

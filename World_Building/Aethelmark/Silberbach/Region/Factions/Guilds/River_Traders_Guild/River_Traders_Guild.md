@@ -1,5 +1,6 @@
 ---
 name: River Traders Guild
+type: location
 keywords: [faction, guild, river-trade, docks, harbor, silberbach, angerap]
 description: The River Traders Guild of Silberbach — operates the Angerap dock infrastructure, regulates river commerce, vets every barge that arrives, and maintains the informal arrangement with the Crescent House that lets certain trades pass quietly
 ---

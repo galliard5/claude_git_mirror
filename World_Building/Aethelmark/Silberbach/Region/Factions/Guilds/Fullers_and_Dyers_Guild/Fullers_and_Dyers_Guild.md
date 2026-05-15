@@ -1,5 +1,6 @@
 ---
 name: Fullers and Dyers Guild
+type: location
 keywords: [faction, guild, fullers, dyers, textiles, silberbach]
 description: The Fullers and Dyers Guild of Silberbach — operates the dye works on the south bank, takes raw cloth from the Weavers and finishes it for the regional textile trade, source of the persistent dye-smell that travelers notice on arrival
 ---

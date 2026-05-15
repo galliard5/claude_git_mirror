@@ -1,5 +1,6 @@
 ---
 name: Valeriana Servilia
+type: character
 keywords: [npc, talax, occisor, soldier, augmetic, swordmaster, talax-npc]
 description: House Occisor's finest soldier — heavily augmented after near-fatal injuries, a swordmaster and bolter specialist of unknown origin devoted to protecting the people of Talax
 ---

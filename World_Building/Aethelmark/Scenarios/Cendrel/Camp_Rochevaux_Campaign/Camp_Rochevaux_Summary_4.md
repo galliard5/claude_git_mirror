@@ -1,5 +1,6 @@
 ---
 name: Camp Rochevaux Session 4 Checkpoint
+type: location
 keywords: [session, checkpoint, camp-rochevaux, kennel-hounds, rill-sunclaw, infiltration, cage-swap, buyer]
 description: Fourth session checkpoint — squad fully transformed, cage swap executed, Rill in the enclosure in place of the panther, operation launched
 ---

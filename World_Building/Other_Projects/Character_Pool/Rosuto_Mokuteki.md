@@ -1,5 +1,6 @@
 ---
 name: Rosuto_Mokuteki
+type: character
 keywords: [dnd35, human, ranger, japanese-themed, ne, galliard, katana, wakizashi, guide-to-demons]
 description: Galliard's human ranger 1 named Rosuto Mokuteki. NE, 17 years old, gender Other. STR 16, DEX 18, CHA 17. Katana + Wakizashi (MW longsword + short sword). Pan pipes. A book called "Guide to Demons" used as a spellbook container. Favored Enemy: Humans.
 ---

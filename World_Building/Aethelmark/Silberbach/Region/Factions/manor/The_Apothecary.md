@@ -1,5 +1,6 @@
 ---
 name: The Apothecary
+type: location
 keywords: [location, manor, shop, store, potions, enchanted items, consultation, service]
 description: The manor's ground-floor retail and consultation space where clients browse services review price lists and begin the intake process for transformation and enchantment work
 ---

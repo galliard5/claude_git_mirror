@@ -1,5 +1,6 @@
 ---
 name: Edric Bruck
+type: character
 keywords: [npc, tenant farmer, Steinfeld estate]
 description: Sixty-three year old sheep farmer and unofficial voice of the Steinfeld tenants who opened his gate to Viktor after seeing him in person
 ---

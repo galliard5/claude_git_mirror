@@ -1,5 +1,6 @@
 ---
 name: Senior Dockmaster Bero
+type: character
 keywords: [npc, river-traders-guild, dockmaster, half-elven, silberbach, harbor-accommodation]
 description: Senior Dockmaster of Silberbach's docks under the River Traders Guild — the visible face of dock authority, executor of the harbor accommodation with the Crescent House, nine years into a position that is wearing him thin
 ---

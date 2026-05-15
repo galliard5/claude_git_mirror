@@ -1,5 +1,6 @@
 ---
 name: Rogue Trader - Crew Roles
+type: setting-document
 keywords: [crew, roles, ship, rogue-trader, campaign, fates-cast]
 description: Key personnel roles and ship culture for the Fates Cast
 ---

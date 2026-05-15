@@ -1,5 +1,6 @@
 ---
 name: Si'ken
+type: character
 keywords: [pc, scout, remade, kobold, insectoid, hybrid, mechanicus, expedition, proving-ground]
 description: Remade kobold reshaped into an insectoid hybrid form with integrated Mechanicus cybernetics — assigned to the Proving Ground as Valdrekk's specialist scout asset
 ---

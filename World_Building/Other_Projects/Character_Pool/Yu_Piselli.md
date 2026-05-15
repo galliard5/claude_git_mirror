@@ -1,5 +1,6 @@
 ---
 name: Yu_Piselli
+type: character
 keywords: [gurps, tl8, deinonichus, raptor, space-commander, strategy, leadership, navigator, galliard]
 description: A 100-point TL8 Deinonichus space strategist and commander — Strategy (Space) 14, Leadership 15, hyperspace navigation, and a sickle-claw toeclaw attack. Sculptor in her spare time.
 ---

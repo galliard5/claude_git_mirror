@@ -1,5 +1,6 @@
 ---
 name: Sekkel
+type: character
 keywords: [npc, warren contact, mentor]
 description: An established warren elder who mentored the player character and now opposes their transformation decision based on personal history with a kin who left the warren and was lost to the surface
 ---

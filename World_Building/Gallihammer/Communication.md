@@ -1,5 +1,6 @@
 ---
 name: Communication
+type: setting-document
 keywords: [communication, astropath, courier, warp, psyker, choir, AI, interstellar]
 description: How information moves across interstellar distances in the post-collapse setting — couriers, astropaths, and the constraints that prevent anything faster
 ---

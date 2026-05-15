@@ -1,5 +1,6 @@
 ---
 name: Valerius Corvinus
+type: character
 keywords: [npc, transformed, resident, diplomat, hound, legal, imperial]
 description: Former Imperial Third Attaché permanently transformed as a penal sentence, now a free resident at Isalia's Manor — legally sharp, diplomatically precise, learning to inhabit a life that has nothing to return to
 ---

@@ -1,5 +1,6 @@
 ---
 name: Miners Guild
+type: location
 keywords: [faction, guild, miners, mountain, mining, silver, iron, gemstones, silberbach]
 description: The Miners Guild — labor-side of the northern mountain mining operations under Aldenberg's authority and imperial concession; coordinates working conditions, mutual aid, and the small surface-level commercial trade in raw ore
 ---

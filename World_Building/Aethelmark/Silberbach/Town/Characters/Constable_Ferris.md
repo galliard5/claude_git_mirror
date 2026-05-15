@@ -1,5 +1,6 @@
 ---
 name: Constable Ferris
+type: character
 keywords: [npc, constable, law enforcement]
 description: Silberbach constable with a clean record and no guild connections who has been notified of the Corvel fraud network and asked to move on Vanders Currency Exchange
 ---

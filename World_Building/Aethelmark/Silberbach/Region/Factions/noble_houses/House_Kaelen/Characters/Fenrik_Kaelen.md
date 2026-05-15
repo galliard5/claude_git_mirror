@@ -1,5 +1,6 @@
 ---
 name: Fenrik Kaelen
+type: character
 keywords: [npc, noble, baron, werewolf, kaelen, aldenberg, mira, silver]
 description: Cousin to Baron Torvin Kaelen and holder of his own barony — a werewolf who came to Isalia's manor to secure his sister Mira's safety after her transformation and disappearance
 ---

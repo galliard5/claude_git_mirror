@@ -1,5 +1,6 @@
 ---
 name: Decanter of Endless Horse Semen
+type: location
 keywords: [item, enchanted, unique, isalia, personal, novelty]
 description: A novelty decanter that produces an endless supply of equine semen — tested early in the estate's history and determined to be sterile, now kept by Isalia as a personal item
 ---

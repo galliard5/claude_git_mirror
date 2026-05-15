@@ -1,5 +1,6 @@
 ---
 name: Isalia's Manor
+type: location
 keywords: [location, manor, estate, isalia, silberbach, overview, master]
 description: Master overview of Isalia's Manor — business services, ethics, staff policy, garrison, layout, and atmosphere
 ---

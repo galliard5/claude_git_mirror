@@ -1,5 +1,6 @@
 ---
 name: Renn
+type: character
 keywords: [npc, transformed, woodward]
 description: Former ranger transformed into a direwolf who patrols the manor's grounds after fleeing Count Valtor for witnessing the conspiracy against Anthony
 ---

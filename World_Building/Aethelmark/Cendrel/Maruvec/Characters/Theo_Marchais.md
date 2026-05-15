@@ -1,5 +1,6 @@
 ---
 name: Théo Marchais
+type: character
 keywords: [npc, squad, hound programme, maruvec, resentful]
 description: A three-year watch veteran assigned to the hound programme squad without being asked, who is vocal about the coercive nature of the assignment and not wrong about it
 ---

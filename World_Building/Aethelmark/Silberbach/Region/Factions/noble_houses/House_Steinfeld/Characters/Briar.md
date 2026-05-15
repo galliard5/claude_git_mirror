@@ -1,5 +1,6 @@
 ---
 name: Briar
+type: character
 keywords: [npc, judicial, transformed, canine, steinfeld, penal]
 description: A deserter sentenced to judicial lupine transformation under Count Valtor's decree who chose female form and now serves in House Steinfeld's kennels
 ---

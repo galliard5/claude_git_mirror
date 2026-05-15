@@ -1,5 +1,6 @@
 ---
 name: Megafauna Omnivores
+type: setting-document
 keywords: [megafauna, omnivore, bear, strength, durability, intelligence, memory, terra-native, apex-predator]
 description: Massive mammalian apex omnivores with extraordinary strength and durability, high intelligence, opportunistic feeding (predator and scavenger), capable of sudden aggression
 ---

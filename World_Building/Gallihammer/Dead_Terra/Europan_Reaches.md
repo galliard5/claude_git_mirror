@@ -1,5 +1,6 @@
 ---
 name: Dead Terra - The Europan Reaches
+type: setting-document
 keywords: [europe, europan-reaches, regions, city-cores, warlords, dead-terra, locations, political-map]
 description: Detailed regional guide to the Europan Reaches — sub-regions, city-cores, political factions, named locations, and the Basin wall zone
 ---

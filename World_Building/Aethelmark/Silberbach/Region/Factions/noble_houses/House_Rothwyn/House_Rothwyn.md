@@ -1,5 +1,6 @@
 ---
 name: House Rothwyn
+type: location
 keywords: [faction, noble house, barony]
 description: Wealthy wine-producing barony that hosts the annual Harvest Festival serving as neutral ground for noble and merchant political negotiations
 ---

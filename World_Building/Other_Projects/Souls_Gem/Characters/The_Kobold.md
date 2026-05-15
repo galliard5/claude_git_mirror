@@ -1,5 +1,6 @@
 ---
 name: The Kobold (PC)
+type: character
 keywords: [pc, kobold, soul, gem, entity, transformation, protagonist]
 description: Unnamed young kobold whose soul was bound into a gem by a witch — now a distributed awareness growing in power and understanding
 ---

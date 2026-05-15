@@ -1,5 +1,6 @@
 ---
 name: House Valtor
+type: location
 keywords: [faction, noble house, county]
 description: Stern ruling family of the River Valley whose Count's embezzlement and attempted erasure of his own son Anthony make them the primary political antagonist
 ---

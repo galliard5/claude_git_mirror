@@ -1,5 +1,6 @@
 ---
 name: Gregor
+type: character
 keywords: [npc, alchemist, facility, antagonist, transformation, supply-chain, kennel-hounds]
 description: Contracted alchemist at the buyer's facility — lean, precise, professional, claimed he believed subjects were volunteers, cooperating minimally
 ---

@@ -1,5 +1,6 @@
 ---
 name: Dr Selene Korr
+type: character
 keywords: [npc, physician, manor staff]
 description: Manor head of health who combines human and veterinary medicine with clinical precision and a fierce drive for professional recognition
 ---

@@ -1,5 +1,6 @@
 ---
 name: Rael
+type: character
 keywords: [pc, unit, feline, leopard, fresh, military, integrated-assets, neon-fang]
 description: Player character — fresh Nexagen Unit, female leopard, former private security, still adjusting to the form and the contract
 ---

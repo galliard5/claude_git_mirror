@@ -1,5 +1,6 @@
 ---
 name: Bruck Farm
+type: location
 keywords: [location, tenant farm, Steinfeld estate]
 description: Forty-year sheep and grain tenancy run by Edric Bruck south of the Steinfeld estate with a chronic north pasture drainage problem now authorized for repair
 ---

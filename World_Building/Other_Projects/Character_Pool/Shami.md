@@ -1,5 +1,6 @@
 ---
 name: Shami
+type: character
 keywords: [pathfinder, pf1e, kobold, witch, ne, plague-patron, animate-dead, inscribe-tattoo, tempest-rising, galliard]
 description: Galliard's NE kobold witch 10 from "Tempest Rising" campaign. INT 18. Patron: Plague. Feats: Brew Potion, Inscribe Magical Tattoo, Combat Casting, Lingering Spell, Spell Hex (mudball), Darkvision, Light Sensitivity. Spells: Animate Dead, Contagion, Command Undead, Giant Vermin. XP 71,000.
 ---

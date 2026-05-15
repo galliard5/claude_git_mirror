@@ -1,5 +1,6 @@
 ---
 name: The Selenar — Origins of the Biomancer Tradition
+type: setting-document
 keywords: [selenar, biomancer, origins, gene-cult, archetype, resurrection, biologis, mechanicus, history, luna, pre-collapse]
 description: The ancient gene-cults of Luna and their fragmentation into the biomancer traditions and Mechanicus biologis order — thirty thousand years of divergence from a single root
 ---

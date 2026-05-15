@@ -1,5 +1,6 @@
 ---
 name: House Steinfeld
+type: location
 keywords: [faction, noble house, barony]
 description: Southern horse-breeding barony that secretly contracts transformed individuals from Isalia's manor to improve their warhorse lines creating political leverage if discovered
 ---

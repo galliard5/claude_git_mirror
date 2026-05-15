@@ -1,5 +1,6 @@
 ---
 name: Kern Farm
+type: location
 keywords: [location, tenant farm, Steinfeld estate]
 description: Widow Kern's farm east of the Bruck farm with a roof in poor repair for three consecutive winters now being addressed with stablehand labor pending a thatcher
 ---

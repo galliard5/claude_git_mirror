@@ -1,5 +1,6 @@
 ---
 name: Tessier
+type: character
 keywords: [npc, camp-rochevaux, quartermaster, cendrel, kennel-hounds, stub]
 description: Quartermaster at Camp Rochevaux — handles supply chains, stores, requisitions, and the daily logistics of a kennel hound forward operation
 ---

@@ -1,5 +1,6 @@
 ---
 name: Arlie_Mcgonigle
+type: character
 keywords: [gurps, tl5, steampunk, chocobo, engineer, brawler, galliard]
 description: A 200-point TL5 chocobo engineer-brawler. Prosthetic hands, mechanical voice translator, heavy Brawling and Steamtech Engineering investment. Wears plate armor and fights with feet and beak.
 ---

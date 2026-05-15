@@ -1,5 +1,6 @@
 ---
 name: Sinani
+type: character
 keywords: [pathfinder, pf1e, kobold, cleric, apsu, artifice, dragon, healer, galliard]
 description: A level 7 PF1e blessed dragon kobold cleric of Apsu — Domains Artifice and Dragon. WIS 18, Channel 4d6 (7/day), Dragonbreath 1/day, Venomous Stare. Craft (traps), Heal, Spellcraft all 9-11. Deity Apsu connects her to Iskandai.
 ---

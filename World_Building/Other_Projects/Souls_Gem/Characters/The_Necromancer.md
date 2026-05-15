@@ -1,5 +1,6 @@
 ---
 name: The Necromancer
+type: character
 keywords: [npc, necromancer, dead, tower, antagonist, lore]
 description: Unnamed necromancer who operated from the ruined tower — killed by the witch during the tower battle, but his book and research remain important
 ---

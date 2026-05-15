@@ -1,5 +1,6 @@
 ---
 name: The Warp
+type: setting-document
 keywords: [warp, arcane, mutation, travel, dimension, elementals, horror, corruption]
 description: The parallel dimension used for FTL travel and the source of arcane power — an ocean of uncontrolled arcane force inhabited by non-sapient entities
 ---

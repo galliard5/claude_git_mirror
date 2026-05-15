@@ -1,5 +1,6 @@
 ---
 name: Elowen Vale
+type: character
 keywords: [npc, enchanter, manor staff]
 description: Exiled elven enchanter who designs speech collars and magical equipment with meticulous precision after being cast out for working with transformed individuals
 ---

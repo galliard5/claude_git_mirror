@@ -1,5 +1,6 @@
 ---
 name: Damien
+type: character
 keywords: [pc, chief-engineer, medicae, heritek, mouse-anthro, occult, rogue-trader, fates-cast]
 description: Mouse anthro chief engineer, ship's medicae and lead researcher aboard the Fates Cast — a former mechanicus biologis turned heritek who gene-edited himself and dabbles in the occult
 ---

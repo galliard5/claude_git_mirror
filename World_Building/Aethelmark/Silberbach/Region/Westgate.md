@@ -1,3 +1,10 @@
+---
+name: Westgate
+type: location
+keywords: [location, border-crossing, fort, tolls, silberbach, cendrel]
+description: Border toll fort marking the formal frontier between Silberbach and Cendrel with joint garrison control and standardized merchant inspection
+---
+
 # Westgate
 
 A timber-and-stone toll fort perched in the rolling hills of the western March, marking the formal border between Silberbach territory and the realm of Cendrel. The structure is modest but defensible—squat towers at its corners, a gatehouse straddling the main road, administrative quarters attached.

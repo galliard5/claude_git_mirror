@@ -1,5 +1,6 @@
 ---
 name: Brandt
+type: character
 keywords: [npc, farmers guild, carter, delivery, silberbach]
 description: Farmers Guild carter who has run the estate's delivery route for twelve years — reliable count, practical manner, passes useful information along as a matter of course
 ---

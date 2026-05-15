@@ -1,5 +1,6 @@
 ---
 name: Valtor Keep
+type: location
 keywords: [location, silberbach, noble, valtor, keep, count, fortress, old-town, petitions]
 description: The fortified seat of House Valtor inside the Old Town walls — the Count's great hall, treasury, garrison, and dungeons; Count Elias holds petitions weekly and remains active and present despite the political damage from his son's testimony
 ---

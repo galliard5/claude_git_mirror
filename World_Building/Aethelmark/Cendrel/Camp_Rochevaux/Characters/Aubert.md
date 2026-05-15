@@ -1,5 +1,6 @@
 ---
 name: Aubert
+type: character
 keywords: [npc, scout, heavy, rochevaux, kennel-hounds]
 description: The squad's largest and steadiest member, practical-minded and unconcerned with politics, focused entirely on whether the transformation makes the unit more effective
 ---

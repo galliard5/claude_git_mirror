@@ -1,5 +1,6 @@
 ---
 name: Dix (Ondine Fausse)
+type: character
 keywords: [npc, squad, hound programme, maruvec, dock district, wildcard]
 description: A former dock worker six months into the Maruvec watch, assigned to the hound programme squad, whose easy manner conceals a careful attention to detail and undisclosed connections in the dock district
 ---

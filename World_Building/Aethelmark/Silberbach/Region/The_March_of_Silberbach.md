@@ -1,5 +1,6 @@
 ---
 name: The March of Silberbach
+type: location
 keywords: [region, geography, march, border, holy-roman-empire-equivalent, marquisate]
 description: The March of Silberbach — borderland march on the western frontier of the Empire of Aethelmark, ruled by Marquess Elias Valtor (Count Valtor in informal speech), facing the independent Kingdom of Cendrel across its western border
 ---

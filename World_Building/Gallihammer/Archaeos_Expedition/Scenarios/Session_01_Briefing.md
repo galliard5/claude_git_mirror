@@ -1,5 +1,6 @@
 ---
 name: Sonnet Briefing - Session 01 - First Deployment
+type: scenario
 keywords: [briefing, sonnet, session, si'ken, proving-ground, shakedown, keth, monitoring-post, first-deployment]
 description: Operational playbook for Sonnet to run Session 01 — Si'ken's first days aboard the Proving Ground, meeting the crew, and the expedition's shakedown deployment to Monitoring Post Keth-4-7
 ---

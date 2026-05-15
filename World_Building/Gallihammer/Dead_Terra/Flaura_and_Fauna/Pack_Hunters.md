@@ -1,5 +1,6 @@
 ---
 name: Pack Hunters
+type: setting-document
 keywords: [pack-hunters, canids, wolves, persistence-predation, coordination, stamina, terra-native, predator]
 description: Mammalian persistence predators that employ coordinated pack tactics, pursue prey over long distances targeting exhaustion rather than immediate kill, show adaptive strategy
 ---

@@ -1,5 +1,6 @@
 ---
 name: Visceroth
+type: character
 keywords: [dnd35, black-dragon, warlock, ce, eldritch-blast, wyrmling, unnamed, gradea]
 description: An unnamed CE Black Dragon Wyrmling 4 + Warlock 13 — 17 total HD. No name on the sheet. INT 15 base, raised by 4 over levels. Maximize Spell-Like Ability + Hover feats. Pure natural weapon + eldritch blast combat. No equipment.
 ---

@@ -1,5 +1,6 @@
 ---
 name: The Drowned Rat
+type: location
 keywords: [location, silberbach, tavern]
 description: A rough harbor-district tavern favored by rivermen dockworkers and those seeking discretion with a cellar that sees more use than the proprietor admits
 ---

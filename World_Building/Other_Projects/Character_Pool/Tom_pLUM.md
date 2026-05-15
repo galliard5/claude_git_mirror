@@ -1,5 +1,6 @@
 ---
 name: Tom_pLUM
+type: character
 keywords: [hero-system, hero-6e, pony, transformed, teenager, telekinesis, magic, james-game]
 description: A teenage boy transformed into a pink pony by a stray magic bolt, now operating as a superhero with telekinesis and an energy blast. Hero System 6e. From James's game.
 ---

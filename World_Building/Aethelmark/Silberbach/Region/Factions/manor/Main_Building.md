@@ -1,5 +1,6 @@
 ---
 name: Main Building
+type: location
 keywords: [location, manor, establishment]
 description: The manor's public-facing two-floor main building housing reception the store client intake administrative offices and Isalia's private quarters
 ---

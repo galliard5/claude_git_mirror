@@ -1,5 +1,6 @@
 ---
 name: Mourgram_Uthelienn
+type: character
 keywords: [dnd35, human, psion, egoist, psicrystal, chondathan, hrod, not-galliard]
 description: Human Psion 1 (Egoist/Psychometabolism) played by Hrod — the only non-Galliard player in the PCGen batch. From Chondath. Languages include Worg and Xeph. Psicrystal (Single-Minded personality). Powers: Thicken Skin, Mind Thrust, Detect Psionics. Overchannel + Psionic Body feats.
 ---

@@ -1,5 +1,6 @@
 ---
 name: The Shrine Town
+type: location
 keywords: [location, town, shrine, roadside, divine, waypoint]
 description: Small roadside town with a shrine where the escort stopped overnight — the PC studied divine ward architecture here
 ---

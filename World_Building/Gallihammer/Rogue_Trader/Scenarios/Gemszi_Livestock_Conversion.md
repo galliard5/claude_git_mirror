@@ -1,5 +1,6 @@
 ---
 name: Gemszi — Livestock Conversion
+type: scenario
 keywords: [scenario, rogue-trader, bioservitor, conversion, livestock, kobold, frontier, agri-world, coercion, identity]
 description: A kobold ship prisoner is converted into draught livestock and sold to a frontier agri-world, retaining full cognizance throughout
 ---

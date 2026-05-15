@@ -1,5 +1,6 @@
 ---
 name: Scales_Galliard
+type: character
 keywords: [shadowrun, sr5, adept, infiltrator, galliard, unarmed, shark-mentor, assassins-creed, kobold-maybe]
 description: Galliard's own SR5 version of the Scales concept — male, no SURGE, Mentor Spirit Shark, Assassin's Creed code of honor, unarmed-focused. Runs the identity "Ms Scales (rating 4)" as a fake persona. Distinctive Style listed as "is kobold (maybe)."
 ---

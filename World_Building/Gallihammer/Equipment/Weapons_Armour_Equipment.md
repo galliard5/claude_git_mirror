@@ -1,5 +1,6 @@
 ---
 name: Weapons, Armour, and Equipment
+type: rules-reference
 keywords: [weapons, armour, equipment, firearms, melee, protection, technology, military, void, dead-terra]
 description: Personal and crew-served weapons, personal protection, and field equipment across the Gallihammer setting — from scavenged primitive arms to incomprehensible imperial relics
 ---

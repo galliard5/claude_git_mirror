@@ -1,5 +1,6 @@
 ---
 name: Goran
+type: character
 keywords: [npc, manor, transformed, percheron, feral, bachelor stalls, sentinel]
 description: A massive scarred Percheron in the bachelor stalls — transformed from a mercenary past, no collar, self-appointed perimeter sentinel, and the only horse the unnamed feral defers to
 ---

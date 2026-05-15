@@ -1,5 +1,6 @@
 ---
 name: Steinfeld Estate Village
+type: location
 keywords: [location, village, pastoral, steinfeld, march-of-silberbach]
 description: The village of Steindorf at the foot of the Steinfeld estate's lands — population around 220, primarily tenant farmers and estate-staff families, located in the broad valley south of Silberbach
 ---

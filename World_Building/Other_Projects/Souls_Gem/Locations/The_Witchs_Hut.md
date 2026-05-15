@@ -1,5 +1,6 @@
 ---
 name: The Witchs Hut
+type: setting-document
 keywords: [location, hut, forest, witch, skull, anchor, bone_hill]
 description: Remote forest hut where the witch lived and the PC was sacrificed — contains the skull anchor and sits above a secondary lattice seam
 ---

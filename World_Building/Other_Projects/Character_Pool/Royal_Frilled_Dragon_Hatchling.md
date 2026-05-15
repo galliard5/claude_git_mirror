@@ -1,5 +1,6 @@
 ---
 name: Royal_Frilled_Dragon_Hatchling
+type: character
 keywords: [rifts, dragon, hatchling, galliard, cit-game, mdc, psi, ppe, blue-scales]
 description: Galli's character in Cit's high-powered RIFTS game — a Royal Frilled Dragon Hatchling, 4 days old. IQ 22, PB 26. MDC 500, PPE 80, ISP 120. Languages: Dragon (98%), American (73%). Blue skin color. Skills: Basic Math, Basic Mechanics, Basic Electronics. A newborn dragon PC.
 ---

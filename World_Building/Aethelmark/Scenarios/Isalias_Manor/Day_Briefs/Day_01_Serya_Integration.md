@@ -1,5 +1,6 @@
 ---
 name: Day 01 Serya Integration Session Record
+type: scenario
 keywords: [session-record, day-brief, manor, serya, integration, wolf]
 description: Session record for Day 1 of Serya's integration at Isalia's Manor — east pasture training, mess hall introduction, kennel rounds with Sable
 ---

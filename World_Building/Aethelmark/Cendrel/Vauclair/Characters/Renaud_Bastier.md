@@ -1,5 +1,6 @@
 ---
 name: Renaud Bastier
+type: character
 keywords: [npc, kennel master, garrison]
 description: Vauclair's gruff veteran kennel master who devised and sponsors the sapient hound experiment as his last significant contribution before retirement
 ---

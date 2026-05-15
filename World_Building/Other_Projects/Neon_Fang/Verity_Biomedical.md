@@ -1,5 +1,6 @@
 ---
 name: Verity Biomedical
+type: setting-document
 keywords: [corporation, boutique, medical, pharmaceutical, transformation, ethics, caldera, neon-fang, isalia-analog]
 description: A small independent biomedical firm offering consensual feral integration services with genuine welfare standards — privately founded, fiercely independent, and under constant pressure from every direction
 ---

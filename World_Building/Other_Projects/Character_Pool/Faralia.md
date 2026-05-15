@@ -1,5 +1,6 @@
 ---
 name: Faralia
+type: character
 keywords: [dnd35, pf1e, kobold, lich, sorcerer, undead, galliard, faralia]
 description: Galliard's kobold lich sorcerer 9. LE, CHA 18. Lich + Undead templates. Spells include Black Tentacles, Enervation, Vampiric Touch, Sepia Snake Sigil. Has a rat familiar and a hat of disguise called "Witches hat of good looks." Two files exist — this one at level 9 LE, and "ravy's evil kobold" at level 1 NE (early draft or earlier version with different stats).
 ---

@@ -1,5 +1,6 @@
 ---
 name: Tomas K. Rennic
+type: character
 keywords: [npc, noble, rennic, seminary, distant-cousin, stub]
 description: Distant cousin in the Rennic family, currently seminary-bound — stub file referenced in House_Rennic.md but with limited established detail
 ---

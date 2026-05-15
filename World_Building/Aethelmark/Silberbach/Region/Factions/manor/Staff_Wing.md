@@ -1,5 +1,6 @@
 ---
 name: Staff Wing
+type: location
 keywords: [location, manor, establishment]
 description: The manor's staff living area containing the kitchen mess hall communal baths and dormitory quarters that reflect Isalia's philosophy of treating staff as equals
 ---

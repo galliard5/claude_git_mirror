@@ -1,5 +1,6 @@
 ---
 name: Lord and Lady Rothwyn
+type: character
 keywords: [npc, noble, baron, baroness, rothwyn, harvest-festival, vineyards, parents-of-florian]
 description: The current Baron and Baroness of House Rothwyn — keepers of the family's hospitality tradition, hosts of the annual Harvest Festival, parents of Florian, currently maintaining the appearance of unbroken prosperity that the family's accumulating debts have begun to threaten
 ---

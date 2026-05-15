@@ -1,5 +1,6 @@
 ---
 name: Petra
+type: character
 keywords: [npc, manor, scheduling, administrative, peripheral-staff, halfling, calendar]
 description: Halfling scheduling assistant at Isalia's Manor — owns the appointment calendars and visitor logistics, runs them with militant precision, and protects the senior staff's time without anyone having to ask
 ---

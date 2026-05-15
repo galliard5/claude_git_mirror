@@ -1,5 +1,6 @@
 ---
 name: Waldheim Lodge Settlement
+type: location
 keywords: [location, village, forest, timber, rangers, waldheim, march-of-silberbach]
 description: The forest settlement around Waldheim Lodge — population around 280, loggers and ranger-affiliated families, the human-and-half-elven heart of the eastern forest's working economy
 ---

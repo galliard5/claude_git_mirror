@@ -1,5 +1,6 @@
 ---
 name: Soul Gem Campaign
+type: scenario
 keywords: [scenario, campaign, soul, gem, kobold, witch, lattice, transformation, entity]
 description: A sacrificed kobold child persists as a soul entity inside a gem, secretly growing in power while being carried unknowingly toward the kingdom's capital
 ---

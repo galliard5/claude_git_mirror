@@ -1,5 +1,6 @@
 ---
 name: The Necromancers Tower
+type: setting-document
 keywords: [location, tower, ruin, necromancer, lattice, fracture, reservoir]
 description: Ruined tower north of the forest that sits above the largest fracture point in the ancient lattice — site of the necromancer battle and the ancient reservoir
 ---

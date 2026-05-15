@@ -1,5 +1,6 @@
 ---
 name: Remade Origin Framework
+type: setting-document
 keywords: [framework, origin, transformation, biomancer, cyberwright, cyberservitor, cross-setting, campaign-start, rogue_trader, dead_terra, aethelmark]
 description: Modular origin framework for campaigns beginning with forced transformation — adaptable across settings and methodologies
 ---

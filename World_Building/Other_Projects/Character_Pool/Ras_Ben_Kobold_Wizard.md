@@ -1,5 +1,6 @@
 ---
 name: Ras_Ben_Kobold_Wizard
+type: character
 keywords: [dnd35, kobold, wizard, investigator, archaeology, galliard, early-career]
 description: Galliard's kobold wizard 1 named Ras Ben. TN, INT 18, WIS 16. Investigator feat. Knowledge skills: Arcana, Dungeoneering, History. Carries archaeology tools, a wagon, and a heavy horse. 14 scrolls prepared at level 1. Separate from the Gnoll "Ras Ben" in turtles quick game.
 ---

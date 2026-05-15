@@ -1,5 +1,6 @@
 ---
 name: Jil
+type: character
 keywords: [dnd35, hare, ranger, animal-kingdom, galliard, astalin, quick-game]
 description: A 15-year-old hare ranger 1 from Astalin. Tan and black fur, blue eyes. Favored Enemy: Animals (an unusual choice for an animal-race ranger). Bastard sword + composite longbow. Plays a flute.
 ---

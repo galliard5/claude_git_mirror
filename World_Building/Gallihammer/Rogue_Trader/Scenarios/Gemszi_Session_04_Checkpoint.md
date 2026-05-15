@@ -1,5 +1,6 @@
 ---
 name: Gemszi Session 04 Checkpoint
+type: scenario
 keywords: [checkpoint, session, rogue-trader, gemszi, erdfall, haldren, farm, fieldwork, dairy, treeline, boundary-rows]
 description: End-of-session checkpoint for Gemszi Livestock Conversion Session 04 — second full working day, south quarter near-complete, treeline encountered at fence post, boundary rows deferred
 ---

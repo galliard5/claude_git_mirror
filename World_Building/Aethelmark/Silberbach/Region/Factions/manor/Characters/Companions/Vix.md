@@ -1,5 +1,6 @@
 ---
 name: Vix
+type: character
 keywords: [npc, manor, companion, fox, transformed, courtesan, senior, garden-wing]
 description: Anthro fox-transformed senior courtesan of the Garden Wing — confident, sharp-toothed, with amber eyes and a long memory; chose this work and chose this form, and is settled in both
 ---

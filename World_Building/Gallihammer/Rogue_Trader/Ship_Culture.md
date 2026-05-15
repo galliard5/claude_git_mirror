@@ -1,5 +1,6 @@
 ---
 name: Rogue Trader - Ship Culture
+type: setting-document
 keywords: [ship, culture, cult, chaos, undivided, rogue-trader, campaign, fates-cast]
 description: The cultural and spiritual drift of the Fates Cast and her crew away from mainstream empire-worship toward something older and stranger
 ---

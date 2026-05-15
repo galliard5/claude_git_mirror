@@ -1,5 +1,6 @@
 ---
 name: Pell
+type: character
 keywords: [npc, groom, runner, Viktor's personal groom and estate runner]
 description: a sharp seventeen-year-old stable hand selected by Hannah Voss who volunteered critical intelligence about Oswin and Corvel
 ---

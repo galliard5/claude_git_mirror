@@ -1,5 +1,6 @@
 ---
 name: Dead Terra Flora and Fauna Compendium - Master Index
+type: setting-document
 keywords: [index, compendium, flora, fauna, dead-terra, organism-catalogue, survival-guide, ecosystem]
 description: Comprehensive master index of all documented Dead Terra lifeforms, organized by category, threat level, biome, and ecological role
 ---

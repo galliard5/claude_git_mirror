@@ -1,5 +1,6 @@
 ---
 name: Sonnet Briefing - Si'ken Prologue
+type: scenario
 keywords: [briefing, sonnet, prologue, si'ken, remade, origin, kobold, insectoid, mechanicus, proving-ground]
 description: Operational playbook for Sonnet to run Si'ken's Remade origin prologue — from kobold to insectoid hybrid to Valdrekk asset to Proving Ground crew
 ---

@@ -1,5 +1,6 @@
 ---
 name: Industrial Shops
+type: location
 keywords: [location, manor, workshop]
 description: Cluster of workshop buildings housing the smithy alchemy lab and enchanting workshop that support the manor's transformation and crafting operations
 ---

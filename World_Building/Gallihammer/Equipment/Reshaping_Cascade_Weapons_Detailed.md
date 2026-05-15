@@ -1,5 +1,6 @@
 ---
 name: Reshaping Cascade Weapons — Detailed Technical Analysis
+type: rules-reference
 keywords: [reshaping, cascade, biological, conversion, imperial, relic, bioservitors, population, catalyst]
 description: Comprehensive technical analysis of Imperial-era population conversion weapons — detailed operating principles and deployment doctrine
 opus_filter_warning: This document contains detailed descriptions of fictional biological weapons that may trigger content filters in Claude Opus due to population conversion themes

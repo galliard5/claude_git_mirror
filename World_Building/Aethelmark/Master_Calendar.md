@@ -1,5 +1,6 @@
 ---
 name: Master Campaign Calendar - Aethelmark
+type: setting-document
 keywords: [calendar, timeline, campaigns, scenarios, master, reference, dates]
 description: Master timeline for all Aethelmark campaigns and scenarios. Use this to track when different scenarios occur and what major events have/haven't happened yet.
 ---

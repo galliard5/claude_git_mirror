@@ -1,5 +1,6 @@
 ---
 name: Gemszi
+type: character
 keywords: [pc, kobold, bioservitor, livestock, conversion, coerced, frontier, rogue-trader, geld-maw, erdfall]
 description: A kobold galley worker aboard the Geld Maw, converted into draught livestock as punishment for stealing rations and sold to a frontier agri-world
 ---

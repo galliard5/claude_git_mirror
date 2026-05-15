@@ -1,5 +1,6 @@
 ---
 name: Brac
+type: character
 keywords: [hound, kennel, donor, maruvec, pack]
 description: Isandar's donor hound — an olive-bronze working hound who accepted the transformed Isandar fully after three weeks of fence-side relationship building
 ---

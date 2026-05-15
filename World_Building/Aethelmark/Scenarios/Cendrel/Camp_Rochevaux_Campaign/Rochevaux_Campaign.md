@@ -1,5 +1,6 @@
 ---
 name: Rochevaux Campaign
+type: location
 keywords: [scenario, campaign, frontier, military, outpost, scouts, kennel-hounds, transformation, wolves, direwolves, panther, facility, supply-chain, investigation]
 description: First unit-transformation trial using exotic donors — squad fully transformed, buyer's private transformation facility raided, supply chain partially exposed, second unknown site identified
 ---

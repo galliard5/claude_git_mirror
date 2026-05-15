@@ -1,5 +1,6 @@
 ---
 name: Incognito
+type: character
 keywords: [shadowrun, sr5, hermetic-mage, adept-combo, james, demolitions, infiltrator, water-bane]
 description: James's SR5 hermetic magician — Incognito. Analytical Mind, Astral Chameleon, Spirit Bane (Water), allergic to pure water, prejudiced against water spirits. Demolitions and locksmith infiltrator with invisibility and silence spells. Multiple fake SINs.
 ---

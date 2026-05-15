@@ -1,5 +1,6 @@
 ---
 name: Fenk
+type: character
 keywords: [npc, external, mecklau, agent, haan, dressel, field-agent]
 description: Dietrich Haan's primary field agent — used the name Dressel at Isalia's estate, managed the Corvin play and the square meeting, measured and unhurried with a long-game player's honesty about weak hands
 ---

@@ -1,5 +1,6 @@
 ---
 name: Gallibot
+type: character
 keywords: [star-wars, ffg, edge-of-the-empire, droid, bounty-hunter, assassin, separatist, clone-wars-survivor, galliard]
 description: A Separatist battle droid who survived the Clone Wars, avoided every system wipe, picked up a leather jacket, became a bounty hunter, and secretly built a training saber while watching his Force-sensitive crewmates.
 ---

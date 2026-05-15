@@ -1,5 +1,6 @@
 ---
 name: Cits_Dragon_MnM
+type: character
 keywords: [mutants-masterminds, mm2e, pl5, dragon, magic, dragonstar, cit, unnamed]
 description: Cit's unnamed PL5 dragon PC from the Dragonstar MnM game. Magic 10, paralyzing breath, winged flight, impervious protection, cold/acid immunity with fire weakness. Dragon Nobility background.
 ---

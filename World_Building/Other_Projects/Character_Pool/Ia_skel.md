@@ -1,5 +1,6 @@
 ---
 name: Ia_skel
+type: character
 keywords: [gurps, tl4, fantasy, kobold, mage, elemental, necromancy, kai-fantasy-game, galliard]
 description: A 100-point TL4 kobold elemental mage with Magery 2, covering Air/Earth/Fire/Water plus healing, necromancy, and knowledge spells. Scholar-explorer with Short Attention Span. From Kai's fantasy game.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Reshaping Trap Tables
+type: setting-document
 keywords: [trap, tables, reshaping, transformation, dungeon, random, bioservitor, labour, cross-setting]
 description: Dice-rollable trap architecture tables for cumulative transformation — setting-agnostic, usable in any dungeon crawl where the environment itself reshapes whoever walks through it
 ---

@@ -1,5 +1,6 @@
 ---
 name: Maruvec Campaign Summary 6
+type: location
 keywords: [session, summary, maruvec, kennel hounds, checkpoint, recovery, renne, pack introduction]
 description: Session summary for Maruvec Campaign Session 06 — Renne introduction complete, all twelve working hounds settled, squad sleeping after midday food
 ---

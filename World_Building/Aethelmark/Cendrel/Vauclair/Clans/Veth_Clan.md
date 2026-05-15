@@ -1,5 +1,6 @@
 ---
 name: Veth Clan
+type: location
 keywords: [faction, warren clan, kobold, The smallest and newest clan in the Vauclair warren]
 description: pragmatic and risk-tolerant with fragmented religious practice and the most direct operational ties to the black market
 ---

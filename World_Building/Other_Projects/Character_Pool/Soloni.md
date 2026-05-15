@@ -1,5 +1,6 @@
 ---
 name: Soloni
+type: character
 keywords: [dnd35, gnoll, paladin, lg, bastard-sword, galliard, only-speaks-gnoll]
 description: Galliard's gnoll paladin 2 named Soloni. LG, 20 years old. CHA 16. Bastard sword + banded mail + heavy wooden shield. Only speaks Gnoll. Portrait referenced at old desktop path. 3,050 XP.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Isidora
+type: character
 keywords: [dnd35, kobold, rogue, thief, galliard, early-career]
 description: An 18-year-old kobold rogue 2. Tan/green skin, yellow eyes. Weapon Finesse + Stealthy. Full skill investment in classic rogue suite. Standard thief loadout with 400+ platinum pieces of starting wealth — well-funded for a level 2 character.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Proving Ground Crew Roster
+type: character
 keywords: [crew, npc, expedition, proving-ground, mechanicus, command, field-team]
 description: Key personnel aboard the Proving Ground — command staff, field team leads, and specialist crew
 ---

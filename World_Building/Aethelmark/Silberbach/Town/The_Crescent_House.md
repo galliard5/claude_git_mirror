@@ -1,5 +1,6 @@
 ---
 name: The Crescent House
+type: location
 keywords: [location, silberbach, harbor, brothel, cult, transformation, illegal, hooks]
 description: A licensed entertainment house in the outer Harbor District operating a covert illegal transformation trade beneath its legitimate surface, connected by sealed tunnel to the Old Temple catacombs
 ---

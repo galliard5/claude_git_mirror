@@ -1,5 +1,6 @@
 ---
 name: Celine Daubray
+type: character
 keywords: [npc, alchemist, programme, rochevaux, kennel-hounds, transformation]
 description: Young programme alchemist on her first solo assignment, competent with standard hound transformations but untested with exotic predator donors
 ---

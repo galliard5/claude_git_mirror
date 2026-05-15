@@ -1,5 +1,6 @@
 ---
 name: The Captain
+type: character
 keywords: [npc, captain, garrison, town, military, minor]
 description: Garrison captain of the town where the witch was first held — practical military authority who deferred to the envoy
 ---

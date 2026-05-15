@@ -1,5 +1,6 @@
 ---
 name: Astraea
+type: character
 keywords: [pathfinder, pf1e, ratfolk, oracle, dark-tapestry-mystery, tongues-curse, galliard, mags-game]
 description: Galliard's PF1e Ratfolk Oracle 10 named Astraea. Female, small. CHA 18 (20 temp), WIS 14. Oracle Mystery: Dark Tapestry. Curse: Tongues (speaks Celestial or Abyssal when using magic). Gift of Madness 7/day. Mithral Chain +3 glamered. Staff of the Master (Necromancy). Languages: Common, Infernal. From Mags's campaign.
 ---

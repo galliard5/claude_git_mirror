@@ -1,5 +1,6 @@
 ---
 name: Looting Rules - Item Survivability
+type: setting-document
 keywords: [rules, looting, combat, items, salvage, rogue-trader]
 description: Rules governing item survivability after combat and the chance of gear being damaged or destroyed during recovery
 ---

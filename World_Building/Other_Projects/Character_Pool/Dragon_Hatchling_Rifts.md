@@ -1,5 +1,6 @@
 ---
 name: Dragon_Hatchling_Rifts
+type: character
 keywords: [rifts, dragon, frilled-dragon, hatchling, palladium, cits-game]
 description: Four-day-old Royal Frilled Dragon hatchling in a Rifts high-powered SDC game; mostly blank sheet suggesting very early creation.
 ---

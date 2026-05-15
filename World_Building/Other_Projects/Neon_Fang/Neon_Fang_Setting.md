@@ -1,5 +1,6 @@
 ---
 name: Neon Fang Setting
+type: setting-document
 keywords: [lore, setting, overview, neon-fang, cyberpunk, unit-programme, fenrix, nexagen, transformation, corpo]
 description: A cyberpunk megacity setting built around two competing corporate biotech programmes — Nexagen's sanctioned Unit Programme and Fenrix's illegal feral integration experiments — and the sapient transformed individuals caught between them
 ---

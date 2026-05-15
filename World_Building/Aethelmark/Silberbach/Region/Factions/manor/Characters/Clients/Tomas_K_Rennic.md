@@ -1,5 +1,6 @@
 ---
 name: Tomas K. Rennic
+type: character
 keywords: [npc, client, transformed, seminary, rabbit]
 description: Young seminary-bound man who visited Isalia's Manor for a partial rabbit transformation and irreversible surgical procedure, driven by religious shame and unresolved desire
 ---

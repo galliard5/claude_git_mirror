@@ -1,5 +1,6 @@
 ---
 name: Florian Rothwyn
+type: character
 keywords: [npc, noble, baronet, client, house rothwyn, portal panties, transformed]
 description: Young Rothwyn heir with mounting debts and a year-long breeding contract at Isalia's estate, currently traveling abroad with his intimate anatomy left behind on the kennel board
 ---

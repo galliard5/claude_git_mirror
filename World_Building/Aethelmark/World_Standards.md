@@ -1,5 +1,6 @@
 ---
 name: World Standards
+type: rules-reference
 keywords: [reference, standards, calendar, timekeeping, weights, measures, lore]
 description: Canonical reference for Aethelmark world standards — calendar, days of the week, timekeeping, weights and measures, and common expressions of time and distance
 ---

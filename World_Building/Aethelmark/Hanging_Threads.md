@@ -1,5 +1,6 @@
 ---
 name: Hanging Threads — Aethelmark
+type: setting-document
 keywords: [reference, threads, plot, investigation, worldbuilding, continuity]
 description: Running reference of unresolved plot threads across all Aethelmark scenarios and stories, organized by location and urgency
 ---

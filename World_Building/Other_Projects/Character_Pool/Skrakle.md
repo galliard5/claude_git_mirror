@@ -1,5 +1,6 @@
 ---
 name: Skrakle
+type: character
 keywords: [gurps, tl4, fantasy, raptor, hunter, natural-weapons, stealth, kai-quick-fantasy, galliard]
 description: A 73-point TL4 raptor hunter with armor-piercing natural weapons (talons and hand claws), DR 3 natural scales, woodland survival, and pounce/biting grapple combat techniques. Sheet saved mid-session with 3 HP remaining.
 ---

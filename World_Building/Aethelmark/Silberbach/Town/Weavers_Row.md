@@ -1,5 +1,6 @@
 ---
 name: Weavers Row
+type: location
 keywords: [location, street, Silberbach]
 description: Commercial textile district street where merchant Hauss operates the business used to launder funds for Aldus Corvel and where Weavers Guild master Sorren holds influence
 ---

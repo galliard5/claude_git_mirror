@@ -1,5 +1,6 @@
 ---
 name: Brewers Guild
+type: location
 keywords: [faction, guild, brewing, ale, beer, trade, silberbach]
 description: The Brewers Guild of Silberbach — produces and supplies ale, beer, and small beer for the town, the river trade, and the surrounding countryside; recently first counterparty to the manor's revised barrel receiving policy
 ---

@@ -1,5 +1,6 @@
 ---
 name: Joren
+type: character
 keywords: [npc, keeper, minor, facility, kennel-hounds]
 description: On-site animal keeper at buyer's facility — older, decades of animal work, functional and cooperative after facility was taken
 ---

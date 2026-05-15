@@ -1,5 +1,6 @@
 ---
 name: Rennic Hall
+type: location
 keywords: [location, town, eastern-marches, border, rennic, march-of-silberbach, eastern-empire]
 description: The border seat of House Rennic in the Eastern Marches — population around 600, the easternmost substantial settlement in the March of Silberbach, facing the Kingdom of the East across a long, mostly-peaceful frontier
 ---

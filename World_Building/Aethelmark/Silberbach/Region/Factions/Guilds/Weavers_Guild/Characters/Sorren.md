@@ -1,5 +1,6 @@
 ---
 name: Sorren
+type: character
 keywords: [npc, guild master, criminal]
 description: Master of the Weavers Guild in Silberbach whose name appeared on Aldus Corvel's client list suggesting involvement in the money laundering network
 ---

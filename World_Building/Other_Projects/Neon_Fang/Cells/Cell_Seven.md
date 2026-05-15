@@ -1,5 +1,6 @@
 ---
 name: Cell Seven
+type: setting-document
 keywords: [cell, unit, handler, integrated-assets, neon-fang, nexagen, active]
 description: Nexagen Integrated Assets deployment cell — three Units, one handler, based out of a Mid-Deck maintenance facility in Caldera's Fourth District
 ---

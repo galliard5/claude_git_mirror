@@ -1,5 +1,6 @@
 ---
 name: Lady Seria Rennic
+type: character
 keywords: [npc, noble, diplomat]
 description: Diplomat of House Rennic who acquired Valerius Corvinus under incomplete penal transfer documentation — returned 19 April with conviction records, acknowledged the custody gap, and is actively working to correct it
 ---

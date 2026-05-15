@@ -1,5 +1,6 @@
 ---
 name: Garvin Farrow
+type: character
 keywords: [npc, antagonist, merchant, abuser, legal]
 description: Merchant operator of Farrow & Co. Mercantile who forged his wife Jesmine's signature on a transformation contract and is now the subject of a felony forgery charge
 ---

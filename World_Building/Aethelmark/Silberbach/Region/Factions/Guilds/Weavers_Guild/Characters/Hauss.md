@@ -1,5 +1,6 @@
 ---
 name: Hauss
+type: character
 keywords: [npc, merchant, criminal]
 description: Weaver's Row textile merchant who absorbs laundered funds for Corvel through inflated invoices and received Oswin Brandt's embezzled money
 ---

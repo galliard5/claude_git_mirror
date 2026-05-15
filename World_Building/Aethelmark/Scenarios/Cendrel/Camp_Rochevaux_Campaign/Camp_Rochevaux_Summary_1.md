@@ -1,5 +1,6 @@
 ---
 name: Camp Rochevaux Session 1 Checkpoint
+type: location
 keywords: [session, checkpoint, camp-rochevaux, kennel-hounds, rill-sunclaw, transformation]
 description: First session checkpoint for Camp Rochevaux — donor briefing, Rill volunteers for panther transformation, first contact with panther established
 ---

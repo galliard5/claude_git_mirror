@@ -1,5 +1,6 @@
 ---
 name: Reshaping Programme Scenario Framework
+type: setting-document
 keywords: [framework, scenario, transformation, programme, institutional, labour, warform, utility, recon, gallihammer, cross-setting]
 description: Setting-agnostic institutional reshaping programme template for Gallihammer — any commissioning body that needs specialised biological workers
 ---

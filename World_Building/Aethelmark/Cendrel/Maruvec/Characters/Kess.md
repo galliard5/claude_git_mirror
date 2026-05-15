@@ -1,5 +1,6 @@
 ---
 name: Kess
+type: character
 keywords: [hound, kennel, pack anchor, maruvec]
 description: The pack anchor of the Maruvec garrison kennel — a deliberate and authoritative hound whose acceptance of the five transformed squad members set the tone for the entire pack
 ---

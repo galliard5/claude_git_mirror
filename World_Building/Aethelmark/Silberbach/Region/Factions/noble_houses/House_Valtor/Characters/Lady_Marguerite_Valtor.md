@@ -1,5 +1,6 @@
 ---
 name: Lady Marguerite Valtor
+type: character
 keywords: [npc, noble, lady, valtor, countess, complicit, mother-of-anthony]
 description: Wife of Count Elias Valtor and mother of Anthony — quietly complicit in her husband's schemes through choices made over decades, currently navigating the political and personal consequences of her son's imperial testimony in the only register she has trained for
 ---

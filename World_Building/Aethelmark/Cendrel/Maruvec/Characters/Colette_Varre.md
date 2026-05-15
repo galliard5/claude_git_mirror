@@ -1,5 +1,6 @@
 ---
 name: Colette Varre
+type: character
 keywords: [npc, kennel master, maruvec, hound programme]
 description: Maruvec's hired kennel master, a precise and politically aware professional who came from estate kennel work and runs the city programme as a tight operation with no patience for sloppiness
 ---

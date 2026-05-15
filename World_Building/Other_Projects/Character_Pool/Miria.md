@@ -1,5 +1,6 @@
 ---
 name: Miria
+type: character
 keywords: [dnd35, wemic, ranger, archery, lionfolk, galliard, large]
 description: Galliard's wemic ranger 5. Large cat-bodied leonine centauroid. Black fur, blue eyes. Archery style, Favored Enemies: Animals and Undead. Shock composite longbow (+5 STR) + bastard sword. Ring of Sustenance, Rope of Climbing, Hand of the Mage.
 ---

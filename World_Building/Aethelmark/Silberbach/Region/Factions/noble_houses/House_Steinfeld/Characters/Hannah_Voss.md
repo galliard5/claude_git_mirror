@@ -1,5 +1,6 @@
 ---
 name: Hannah Voss
+type: character
 keywords: [npc, stablemaster, estate staff]
 description: Long-serving Steinfeld stablemaster who rode to Isalia's manor to escort Viktor home and manages the breeding lines with practical authority
 ---

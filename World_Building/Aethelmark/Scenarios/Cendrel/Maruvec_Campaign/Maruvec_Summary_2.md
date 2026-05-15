@@ -1,5 +1,6 @@
 ---
 name: Maruvec Campaign Summary 2
+type: location
 keywords: [session, summary, maruvec, kennel hounds, checkpoint]
 description: Session summary for Maruvec Campaign Session 02 — Cault arrives, Dix found in The Chains, practical logistics list built
 ---

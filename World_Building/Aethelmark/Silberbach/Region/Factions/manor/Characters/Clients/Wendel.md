@@ -1,5 +1,6 @@
 ---
 name: Wendel
+type: character
 keywords: [npc, client, transformed, equine, waldheim, vassal]
 description: Teenage son of a Waldheim vassal falcon breeder who arrived with pegasus sketches and left with a hybrid mare-destrier transformation contract and a truth he had never spoken aloud before
 ---

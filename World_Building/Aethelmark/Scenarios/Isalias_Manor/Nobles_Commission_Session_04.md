@@ -1,5 +1,6 @@
 ---
 name: Nobles Commission Session 04
+type: scenario
 keywords: [session, checkpoint, isalias estate, corvin, marta, haan, fenk, crescent, mecklau, intake, referral]
 description: Full day — Aldric delivery clean under new policy, Mecklau reconnaissance pattern identified, Corvin and Marta brought to estate, Crescent collar removed, Haan referral meeting proposed, intake protocol and referral terms drafted
 ---

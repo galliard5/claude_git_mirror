@@ -1,5 +1,6 @@
 ---
 name: Drest
+type: character
 keywords: [npc, brewers-guild, manor-contact, supply, silberbach, journeyman]
 description: Halfling journeyman brewer at the Silberbach Brewers Guild — handles the manor account directly, longstanding working relationship with Mira and Tob, recently first counterparty under the manor's revised barrel receiving policy
 ---

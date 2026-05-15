@@ -1,5 +1,6 @@
 ---
 name: Kael the Amber Manticore
+type: character
 keywords: [npc, transformed, stud]
 description: Former half-elf bard who chose a miniature manticore form to escape aging and irrelevance driven by a deep need to remain desirable
 ---

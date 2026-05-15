@@ -1,5 +1,6 @@
 ---
 name: Terran Megafauna Worms
+type: setting-document
 keywords: [worms, subterranean, ambush-predator, burrowing, seismic-detection, terra-native, environmental-hazard]
 description: Subterranean ambush predators that detect prey via vibration and seismic sensitivity, burst from ground to consume or drag prey below; can destabilize terrain
 ---

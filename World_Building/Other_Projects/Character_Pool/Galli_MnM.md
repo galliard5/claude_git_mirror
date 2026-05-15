@@ -1,5 +1,6 @@
 ---
 name: Galli_MnM
+type: character
 keywords: [mutants-masterminds, mm3e, pl20, dragon, gravity, galliard, dragonstar]
 description: Galliard's own MnM3e character — a PL 20 dragon with gravity manipulation, regeneration, impervious scales, and a removable plasma pistol. 218 PP spent. Capoeira fighting style. Complications: Enemy, Reputation.
 ---

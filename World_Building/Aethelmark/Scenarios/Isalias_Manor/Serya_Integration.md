@@ -1,5 +1,6 @@
 ---
 name: Serya Integration
+type: scenario
 keywords: [scenario, slice-of-life, manor, transformation, integration, wolf, Waldheim]
 description: Serya adjusts to life in a wolf's body at Isalia's Manor over two weeks — learning the form under Sable, enduring Korr's evaluations, and working out her future with Isalia, while her father's clock ticks unknowingly in the background
 ---

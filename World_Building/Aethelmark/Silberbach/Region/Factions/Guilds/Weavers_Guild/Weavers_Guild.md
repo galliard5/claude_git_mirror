@@ -1,5 +1,6 @@
 ---
 name: Weavers Guild
+type: location
 keywords: [faction, guild, weaving, textiles, silberbach, corvel-investigation]
 description: The Weavers Guild of Silberbach — substantial textile guild with regional reach, currently shadowed by the Corvel investigation through its Master and one of its established merchant counterparties
 ---

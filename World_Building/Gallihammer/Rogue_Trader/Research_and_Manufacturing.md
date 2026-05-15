@@ -1,5 +1,6 @@
 ---
 name: Ship Research and Manufacturing
+type: setting-document
 keywords: [rules, research, manufacturing, equipment, progression, biological, xenological, arcane, rogue-trader, fates-cast]
 description: Framework for the Fates Cast's onboard research and manufacturing capability — XCOM-style progression across technical, biological, xenological, and arcane branches
 ---

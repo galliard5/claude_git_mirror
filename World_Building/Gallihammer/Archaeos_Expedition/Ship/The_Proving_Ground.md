@@ -1,5 +1,6 @@
 ---
 name: The Proving Ground
+type: setting-document
 keywords: [ship, mechanicus, expedition, archaeology, vessel, proving-ground, valdrekk]
 description: The expedition's dedicated archaeological recovery vessel — a purpose-converted Mechanicus explorer operating under Valdrekk's charter
 ---

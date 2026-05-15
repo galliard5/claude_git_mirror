@@ -1,5 +1,6 @@
 ---
 name: Kaelen's Ford
+type: location
 keywords: [location, town, ford, river-crossing, kaelen, march-of-silberbach]
 description: The town at the river crossing — second-largest settlement in the March, seat of House Kaelen, controls the principal land toll point outside Silberbach
 ---

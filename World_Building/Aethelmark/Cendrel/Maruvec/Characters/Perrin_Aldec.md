@@ -1,5 +1,6 @@
 ---
 name: Perrin Aldec
+type: character
 keywords: [npc, squad, hound programme, maruvec, veteran]
 description: The most experienced member of the hound programme squad, a five-year watchman with a wife and young son who is quietly terrified about the transformation and professionally hiding it
 ---

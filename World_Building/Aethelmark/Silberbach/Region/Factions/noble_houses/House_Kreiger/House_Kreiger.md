@@ -1,5 +1,6 @@
 ---
 name: House Kreiger
+type: location
 keywords: [faction, noble house, duchy]
 description: Ducal house of a blue kobold Archdruid and his blue dragon Duchess wife whose adventuring legacy and imperial friendship make them among the most powerful and quietly influential nobles in the region
 ---

@@ -1,5 +1,6 @@
 ---
 name: Aldenberg Hold Settlement
+type: location
 keywords: [location, town, mountain, mining, forge, aldenberg, march-of-silberbach]
 description: The mountain town that has grown around Aldenberg Hold — third-largest settlement in the March, dominated by the working forges and the seven-mine concession network, half a day's ride north of Silberbach
 ---

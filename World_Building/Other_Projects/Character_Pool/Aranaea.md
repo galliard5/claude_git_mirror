@@ -1,5 +1,6 @@
 ---
 name: Aranaea
+type: character
 keywords: [eclipse-phase, ep1e, arachnoid, synthmorph, kagi-game, outer-colonial, terran, galliard]
 description: Eclipse Phase 1e character for Kagi's EP game. Name: Aranaea. Arachnoid synthmorph. 1000 CP. Outer Colonial background, Terran faction. Motivation: +Exploration. Traits: Tough (+5 Dur, +1 wound). Gear includes chameleon armor, fractal digits, pneumatic limbs, 360 vision, eelware, lidar, structural enhancement. Reputation mixed (Terran Acclaim -50, Peoples' Acclaim +55).
 ---

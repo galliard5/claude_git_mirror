@@ -1,5 +1,6 @@
 ---
 name: Ms_Scales
+type: character
 keywords: [shadowrun, sr4, adept, surge, infiltrator, saboteur, demolitions, physical-adept, galliard]
 description: A short heavily-SURGE'd physical adept infiltrator/saboteur — scales, prehensile tail, satyr legs, 150% movement speed, ghost-level stealth, and foam explosives. Same character built under two different GMs (Cit and Mich) with near-identical results.
 ---

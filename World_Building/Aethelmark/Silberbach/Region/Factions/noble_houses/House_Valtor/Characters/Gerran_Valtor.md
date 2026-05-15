@@ -1,5 +1,6 @@
 ---
 name: Gerran Valtor
+type: character
 keywords: [npc, criminal, steward]
 description: Former steward to Count Valtor and Anthony's father arrested for embezzlement and falsifying imperial charters
 ---

@@ -1,5 +1,6 @@
 ---
 name: Silas the Obsidian Stallion
+type: character
 keywords: [npc, transformed, stud]
 description: Former minor noble's third son who chose transformation into a destrier stallion to escape an arranged marriage and build a life of purpose and dignity
 ---

@@ -1,5 +1,6 @@
 ---
 name: Bakers and Butchers Guild
+type: location
 keywords: [faction, guild, bakers, butchers, food, silberbach]
 description: Combined Bakers and Butchers Guild of Silberbach — supplies the town's daily bread and meat through bakeries, butcheries, market stalls, and standing contracts including the manor's daily bread delivery
 ---

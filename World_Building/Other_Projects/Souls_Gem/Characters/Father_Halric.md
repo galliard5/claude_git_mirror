@@ -1,5 +1,6 @@
 ---
 name: Father Halric
+type: character
 keywords: [npc, priest, divine, ritual, church, moral]
 description: Parish priest and ritual specialist who examined the gem and interrogated the witch — moral compass of the investigation party
 ---

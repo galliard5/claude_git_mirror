@@ -1,5 +1,6 @@
 ---
 name: Forge-Monastery Valdrekk
+type: setting-document
 keywords: [mechanicus, forge, monastery, archaeos, expedition, parent, faction, institution]
 description: Planet-based Mechanicus forge-monastery and parent institution of the Archaeos Expedition — specialists in deep-ruin archaeology and imperial data recovery
 ---

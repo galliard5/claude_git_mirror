@@ -1,5 +1,6 @@
 ---
 name: Carnivorous Flora
+type: setting-document
 keywords: [carnivorous-plants, flora, active-predator, trigger-based-capture, digestive-enzymes, lures, terra-native, plant]
 description: Plants that actively capture and consume prey using trigger-based mechanisms, digestive enzymes for biomass breakdown, scent/pheromone lures; can grow rapidly in nutrient-rich zones
 ---

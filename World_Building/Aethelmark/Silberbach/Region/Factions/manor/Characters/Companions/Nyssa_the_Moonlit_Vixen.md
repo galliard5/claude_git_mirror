@@ -1,5 +1,6 @@
 ---
 name: Nyssa the Moonlit Vixen
+type: character
 keywords: [npc, transformed, breeder]
 description: Transformed silver fox who fled a noble household and now lives at the manor watching her daughter grow up nearby without ever being able to reveal herself
 ---

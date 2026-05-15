@@ -1,5 +1,6 @@
 ---
 name: Elsin Curated Companions
+type: setting-document
 keywords: [corporation, boutique, luxury, transformation, non-consensual, elite, caldera, neon-fang, antagonist]
 description: A high-end boutique firm producing transformed individuals as luxury companions for Caldera's ultra-wealthy — operating behind immaculate branding and deliberately ambiguous consent architecture
 ---

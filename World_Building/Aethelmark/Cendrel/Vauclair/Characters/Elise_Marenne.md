@@ -1,5 +1,6 @@
 ---
 name: Elise Marenne
+type: character
 keywords: [npc, garrison commander, captain]
 description: Vauclair's competent and politically careful garrison captain who approved the sapient hound experiment on her own terms and is quietly evaluating its results
 ---

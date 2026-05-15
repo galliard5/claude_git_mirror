@@ -1,5 +1,6 @@
 ---
 name: Aldric Kaelen the Younger
+type: character
 keywords: [npc, noble, heir, kaelen, ford, law-student, reformist, imperial-capital]
 description: Heir to House Kaelen and the next generation of the reform coalition — currently in the imperial capital studying law, producing the legal scholarship that will become the basis for transformed-rights legislation
 ---

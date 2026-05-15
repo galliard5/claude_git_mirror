@@ -1,5 +1,6 @@
 ---
 name: Viktor Steinfeld Session 01
+type: session-summary
 keywords: [session, summary, Steinfeld estate, Viktor returns to the Steinfeld estate as a confirmed-pregnant mare, conducts tenant visits on the road]
 description: and uncovers a three-year embezzlement scheme on his first day home
 ---

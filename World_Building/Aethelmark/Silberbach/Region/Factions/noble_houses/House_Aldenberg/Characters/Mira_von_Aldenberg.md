@@ -1,5 +1,6 @@
 ---
 name: Mira von Aldenberg / Storm
+type: character
 keywords: [npc, noble, transformed, aldenberg, steinfeld, meerhold, stallion, fugitive]
 description: Youngest daughter of House Aldenberg who contracted a full stallion transformation at Isalia's manor to escape a forced betrothal to Count Valtor's nephew — now registered as Storm, a Meerhold-line dapple-gray stallion placed with House Steinfeld
 ---

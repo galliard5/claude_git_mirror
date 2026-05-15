@@ -1,5 +1,6 @@
 ---
 name: Graudorf
+type: location
 keywords: [location, village, pastoral, sheep, wool, grauwald, march-of-silberbach]
 description: The village at the foot of Grauwald Manor's road — population around 350, primarily shepherding families and the staff who serve the manor; the pastoral heart of House Grauwald's territory
 ---

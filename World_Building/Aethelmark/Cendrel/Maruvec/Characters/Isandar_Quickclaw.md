@@ -1,5 +1,6 @@
 ---
 name: Isandar Quickclaw
+type: character
 keywords: [pc, kobold, hound programme, maruvec, guard]
 description: Player character — a young kobold male two months into the Maruvec garrison watch, recently assigned to the sapient hound programme squad
 ---

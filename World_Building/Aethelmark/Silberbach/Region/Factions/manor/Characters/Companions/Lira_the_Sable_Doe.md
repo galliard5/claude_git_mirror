@@ -1,5 +1,6 @@
 ---
 name: Lira the Sable Doe
+type: character
 keywords: [npc, transformed, breeder]
 description: Former elven fertility priestess cast out after religious reforms who now lives as a fallow doe at the manor raising a magically gifted child
 ---

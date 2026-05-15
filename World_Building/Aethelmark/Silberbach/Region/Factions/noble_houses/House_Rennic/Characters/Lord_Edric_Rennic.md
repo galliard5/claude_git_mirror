@@ -1,5 +1,6 @@
 ---
 name: Lord Edric Rennic
+type: character
 keywords: [npc, noble, lord, rennic, diplomat, eastern-marches, aging, imperial-intermediary]
 description: Aging head of House Rennic and senior diplomatic figure in the river valley — values discretion above all, has spent forty years as quiet imperial intermediary, currently navigating the political fallout of his daughter's professional reckoning at Isalia's manor
 ---

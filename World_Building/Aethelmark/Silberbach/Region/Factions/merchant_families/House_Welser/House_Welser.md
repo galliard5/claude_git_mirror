@@ -1,5 +1,6 @@
 ---
 name: House Welser
+type: location
 keywords: [faction, merchant family, textile]
 description: Major merchant house dealing in textiles alchemical dyes and river shipping whose matriarch Marta Welser supplies enchanted wool to the manor
 ---

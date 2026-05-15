@@ -1,5 +1,6 @@
 ---
 name: Emperor Aldric
+type: character
 keywords: [npc, noble, emperor]
 description: The Empire's ruler and former adventuring companion of Duke Romaine who enforces imperial law and upheld Anthony Valtor's witness status
 ---

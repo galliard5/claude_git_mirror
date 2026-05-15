@@ -1,5 +1,6 @@
 ---
 name: Gemszi Session 02 Checkpoint
+type: scenario
 keywords: [checkpoint, session, rogue-trader, gemszi, erdfall, haldren, farm, arrival, dairy]
 description: End-of-session checkpoint for Gemszi Livestock Conversion Session 02 — Erdfall arrival, sale to Oskar Haldren, first dairy cycle, first night in the barn
 ---

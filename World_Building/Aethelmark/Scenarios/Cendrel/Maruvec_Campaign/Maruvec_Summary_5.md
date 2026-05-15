@@ -1,5 +1,6 @@
 ---
 name: Maruvec Campaign Summary 5
+type: location
 keywords: [session, summary, maruvec, kennel hounds, checkpoint, recovery, pack introduction]
 description: Session summary for Maruvec Campaign Session 05 — first morning post-transformation, Brac and Kess introductions complete for all five squad members
 ---

@@ -1,5 +1,6 @@
 ---
 name: The Capital
+type: setting-document
 keywords: [location, capital, city, cathedral, lattice, major, active]
 description: The kingdom's capital city — massive walled city with a great cathedral built atop a major lattice node, currently being entered by the escort
 ---

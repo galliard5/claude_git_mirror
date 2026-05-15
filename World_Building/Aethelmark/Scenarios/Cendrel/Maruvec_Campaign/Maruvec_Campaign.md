@@ -1,5 +1,6 @@
 ---
 name: Maruvec Campaign
+type: location
 keywords: [scenario, campaign, port city, hound programme, maruvec, squad, transformation]
 description: City-scale sapient hound programme campaign set in the port city of Maruvec, following a squad of five assigned watchmen through pre-transformation orientation, the transformation itself, and their first operational duties in a city with a thriving shadow economy
 ---

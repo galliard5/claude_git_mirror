@@ -1,5 +1,6 @@
 ---
 name: The Peoples
+type: setting-document
 keywords: [races, species, peoples, humans, elves, dwarves, orcs, halflings, anthros, mutation, divergence, post-collapse]
 description: The divergent strains of humanity that emerged from thirty thousand years of environmental pressure, radiation, toxicity, and the lingering effects of imperial bioengineering
 ---

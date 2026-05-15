@@ -1,5 +1,6 @@
 ---
 name: Daniel_Sanchez
+type: character
 keywords: [rifts, dogboy, retriever, kaisen-game, demolitions, underwater, scuba, galliard-gm]
 description: Daniel Sanchez, a RIFTS Dogboy Retriever level 5 from Kaisen's RIFTS game. IQ 18, PS 19, PP 21. Demolitions, first aid, Intel, scuba, swimming 99%. Baracuda underwater armor. Sense psy/magic 50 ft, sense supernatural 100 ft/level, smell tracking. Player: Kaisen (Galliard likely GM).
 ---

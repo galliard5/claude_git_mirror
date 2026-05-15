@@ -1,5 +1,6 @@
 ---
 name: Reshaping Trap Tables
+type: setting-document
 keywords: [traps, transformation, reshaping, bioservitor, tables, dungeon, cross-setting, gallihammer, aethelmark]
 description: Dungeon-crawl table system for cumulative environmental reshaping — traps that progressively transform the character
 ---

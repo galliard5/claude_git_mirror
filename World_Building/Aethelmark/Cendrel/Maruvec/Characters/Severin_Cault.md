@@ -1,5 +1,6 @@
 ---
 name: Severin Cault
+type: character
 keywords: [npc, alchemist, hound programme, maruvec, transformation]
 description: The programme-contracted alchemist assigned to the Maruvec pilot site, precise and honest about his record, who administered the squad's transformations and carries the weight of his one lost case
 ---

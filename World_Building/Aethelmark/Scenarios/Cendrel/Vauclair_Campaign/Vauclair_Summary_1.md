@@ -1,5 +1,6 @@
 ---
 name: Vauclair Session 1 Summary
+type: location
 keywords: [session, summary, vauclair, kennel_hounds, rill_duskscale]
 description: First Vauclair session covering Rill Duskscale's recruitment, briefing, kennel visit, warren farewell to Sekkel, and first day walking the town
 ---

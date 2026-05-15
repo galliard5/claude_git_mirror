@@ -1,5 +1,6 @@
 ---
 name: Halselund
+type: location
 keywords: [location, hamlet, riverside, fishing, marta-halse, march-of-silberbach]
 description: The riverside hamlet six miles upstream of Silberbach — fifteen households of fisherfolk and small-holders along the Angerap, home to Marta Halse who works the manor kitchen
 ---

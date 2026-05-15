@@ -1,5 +1,6 @@
 ---
 name: Dead Terra - World Overview
+type: setting-document
 keywords: [setting, overview, lore, world-building, dead-terra, horror]
 description: World overview for Dead Terra, a post-collapse Earth setting 30-40k years in the future
 ---

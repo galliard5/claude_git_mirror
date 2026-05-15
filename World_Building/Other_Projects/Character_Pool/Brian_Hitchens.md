@@ -1,5 +1,6 @@
 ---
 name: Brian_Hitchens
+type: character
 keywords: [marvel-faserip, marvel-super-heroes, werewolf, detective, mutant, james, hero-task-force, galliard]
 description: James's Marvel Super Heroes (FASERIP) character played by Galli — Brian Hitchens, a 30-year-old mutant police detective and werewolf. Two-form sheet: normal detective form with high Reason/Psyche, werewolf form with Monstrous Fighting and Berserker. Hero Task Force.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Merchants Guild
+type: location
 keywords: [faction, guild, merchants, trade, transformed-couriers, silberbach]
 description: The Merchants Guild of Silberbach — regional trade coordination, market regulation, and the sponsor of the region's distinctive transformed-courier messenger network through a standing arrangement with Isalia's Manor
 ---

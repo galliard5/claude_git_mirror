@@ -1,5 +1,6 @@
 ---
 name: The Witch
+type: character
 keywords: [npc, witch, antagonist, captor, prisoner, arcane, soul-binding]
 description: Unnamed hedge witch who sacrificed the kobold PC and bound their soul — now a prisoner being transported to the capital for judgment
 ---

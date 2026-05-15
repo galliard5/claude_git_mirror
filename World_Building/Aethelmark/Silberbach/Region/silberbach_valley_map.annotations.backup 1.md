@@ -1,5 +1,6 @@
 ---
 name: silberbach valley map Annotations
+type: location
 keywords: [map, annotations]
 description: Authorial overlay for silberbach valley map.wxx.
 generated: 2026-05-10

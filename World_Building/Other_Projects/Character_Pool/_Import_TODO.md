@@ -1,5 +1,6 @@
 ---
 name: Character_Pool_Import_TODO
+type: character
 keywords: [todo, import, character-pool, sheet-import]
 description: To-do list of unimported character sheet files found in Sheet_import vs Character Pool — generated 2026-05-05
 ---

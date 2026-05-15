@@ -1,5 +1,6 @@
 ---
 name: Lyra Vex
+type: character
 keywords: [npc, chamberlain, manor staff]
 description: Kobold chamberlain who manages household staff with quiet efficiency while secretly compiling a private memoir of Isalia and the manor
 ---

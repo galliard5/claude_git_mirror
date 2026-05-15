@@ -1,5 +1,6 @@
 ---
 name: Halden Creuse
+type: character
 keywords: [npc, poacher, smuggler, prisoner, rochevaux, kennel-hounds, frontier]
 description: Frontier trapper and animal middleman detained at Camp Rochevaux, uncooperative about the buyer who commissioned the exotic animals he was transporting
 ---

@@ -1,5 +1,6 @@
 ---
 name: Toxic and Chemical-Warfare Plants
+type: setting-document
 keywords: [toxic-plants, chemical-warfare, contact-toxin, aerosolized-compounds, neurotoxins, mimic, defensive, terra-native]
 description: Plants that release toxins on contact or damage, aerosolize irritants or neurotoxins, mimic safe flora to lure interaction, capable of creating no-go zones through chemical atmosphere
 ---

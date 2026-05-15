@@ -1,5 +1,6 @@
 ---
 name: Voss and Kraemer
+type: character
 keywords: [faction, solicitors, Silberbach]
 description: Independent regional law firm specializing in estate fraud and property law summoned by Viktor to review the Steinfeld embezzlement case and assess Aldren's position
 ---

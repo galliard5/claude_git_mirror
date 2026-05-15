@@ -1,5 +1,6 @@
 ---
 name: Wilderness Garrison Scouts
+type: scenario
 keywords: [scenario-prompt, kennel-hounds, programme, garrison, scouts, unauthorized, exotic-donors]
 description: A remote wilderness garrison uses confiscated exotic animals as transformation donors instead of standard hounds
 ---

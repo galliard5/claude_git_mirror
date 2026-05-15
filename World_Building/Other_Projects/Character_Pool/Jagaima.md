@@ -1,5 +1,6 @@
 ---
 name: Jagaima
+type: character
 keywords: [pathfinder, pf1e, kitsune, oracle, heavens-mystery, nine-tailed-mystic, galliard, james-game, child-curse]
 description: Galliard's PF1e Kitsune Voidken Oracle (nine-tailed mystic) level 3. CG, small. STR 4 (extremely weak). CHA 20, WIS 15. Oracle Curse: Child. Mystery: Heavens. Gains a tail for every mystery spell known. Change shape, natural bite 1d4. Prophetic Visionary feat.
 ---

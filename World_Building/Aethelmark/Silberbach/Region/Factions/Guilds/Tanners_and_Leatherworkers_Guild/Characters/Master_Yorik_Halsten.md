@@ -1,5 +1,6 @@
 ---
 name: Master Yorik Halsten
+type: character
 keywords: [npc, tanners-guild, leatherworker, master, silberbach, manor-collars]
 description: Senior leatherworker master at the Tanners and Leatherworkers Guild — runs the manor's collar foundation contract through twelve years of direct technical partnership with Elowen, considers the work the highest expression of his shop's craft
 ---

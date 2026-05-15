@@ -1,5 +1,6 @@
 ---
 name: Icarus_Drone
+type: character
 keywords: [gurps, tl9, kai-pirate-game, drone, machine, combat-platform, four-legged, heavy-weapons, linked-character]
 description: The remote combat body of Icarus the uplift dolphin — a four-legged heavy weapons platform with extraordinary perception, operated via Machine Telepathy.
 ---

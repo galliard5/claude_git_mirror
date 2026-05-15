@@ -1,5 +1,6 @@
 ---
 name: Nobles Commission Session 06
+type: scenario
 keywords: [session, checkpoint, isalias estate, daan, felix, pieter, anneke, solt, ossel, henning, collar, conspiracy, pregnancy, valerius]
 description: Full day on 23-24 April — Daan Voss near-term guest, Felix informed, Solt conspiracy deepening, Anneke Vross brings silent husband Pieter in for collar removal, Elowen confirms same enchantment signature, Ossel named as referral source, pregnancy confirmed
 ---

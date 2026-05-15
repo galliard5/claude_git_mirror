@@ -1,5 +1,6 @@
 ---
 name: The Mechanicus
+type: setting-document
 keywords: [mechanicus, tech-cult, institution, knowledge, engineering, faction, imperial-tech]
 description: The post-collapse inheritors of imperial technical knowledge — a fractured but recognisable institution united by shared symbology and a common obsession with the empire's lost engineering
 ---

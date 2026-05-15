@@ -1,5 +1,6 @@
 ---
 name: Master Henrick Cael
+type: character
 keywords: [npc, farmers-guild, master, freehold, silberbach, mediator]
 description: Master of the Farmers Guild — freehold farmer from the southwestern hills, nine years in office, the steady mediator who coordinates disputes among bonded farmers and noble landlords without forcing structural reform
 ---

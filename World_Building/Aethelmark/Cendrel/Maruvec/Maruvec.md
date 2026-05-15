@@ -1,5 +1,6 @@
 ---
 name: Maruvec
+type: location
 keywords: [location, city, port, cendrel, garrison, kobold]
 description: Cendrel's primary western port city at the mouth of the Avel River, a wealthy trade hub with a thriving shadow economy and a mixed kobold population concentrated in the dock district
 ---

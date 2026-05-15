@@ -1,5 +1,6 @@
 ---
 name: Sezzin Clan
+type: location
 keywords: [faction, warren clan, kobold, The merchant clan of the Vauclair warren]
 description: surface-integrated and commercially pragmatic with moderate religious observance and an information-focused black market relationship
 ---

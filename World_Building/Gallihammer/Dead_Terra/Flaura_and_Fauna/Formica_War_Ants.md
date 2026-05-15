@@ -1,5 +1,6 @@
 ---
 name: Formica War Ants
+type: setting-document
 keywords: [formica, ants, eusocial, colony, predator, ecosystem, terra-native, swarm, supercolony]
 description: Continent-spanning eusocial insect colonies that treat all biomass as resources; operate via pheromone coordination with near-hive-mind behavior
 ---

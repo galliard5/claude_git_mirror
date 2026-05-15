@@ -1,5 +1,6 @@
 ---
 name: Ryn
+type: character
 keywords: [npc, manor, companion, stag, transformed, partial-transformation, gentle-authority, garden-wing]
 description: Anthro stag-form companion at the Garden Wing — partial transformation that kept his masculine identity alongside female biology, muscular and quiet, with a presence that fills a room without filling it loudly
 ---

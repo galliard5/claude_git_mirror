@@ -1,5 +1,6 @@
 ---
 name: Day 02 Serya Integration Day Brief
+type: scenario
 keywords: [day-brief, manor, serya, integration, wolf, session-prep]
 description: GM prep brief for Day 2 of Serya's integration — earlier start, front-left resolved, Vesna may come further, Day 3 evaluation tomorrow
 ---

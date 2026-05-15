@@ -1,5 +1,6 @@
 ---
 name: Tanners and Leatherworkers Guild
+type: location
 keywords: [faction, guild, leather, tanning, harness, collars, silberbach]
 description: The Tanners and Leatherworkers Guild of Silberbach — produces hides, leather goods, harness, restraint hardware, and the foundational leather components for the manor's enchanted collar work
 ---

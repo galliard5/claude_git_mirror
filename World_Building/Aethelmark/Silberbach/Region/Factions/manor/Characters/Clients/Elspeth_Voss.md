@@ -1,5 +1,6 @@
 ---
 name: Elspeth Voss
+type: character
 keywords: [npc, client, transformed, feline, aldenberg, debt contract, legal]
 description: Merchant's daughter from Aldenberg who arrived under a forged debt contract, identified the forgery herself, and left with a Barbary lioness transformation and an active legal case against her father
 ---

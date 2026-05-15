@@ -1,5 +1,6 @@
 ---
 name: Archaeos Expedition Campaign Framework
+type: setting-document
 keywords: [campaign, mechanicus, archaeology, exploration, expedition, ship, episodic, xcom, scout, remade]
 description: Campaign framework for a Mechanicus archaeological expedition team operating from a dedicated explorer ship, running episodic recovery missions to pre-collapse relic sites
 ---

@@ -1,5 +1,6 @@
 ---
 name: Biomancer
+type: setting-document
 keywords: [biomancer, arcane, biotech, practitioner, transformation, dead-terra]
 description: Practitioners who fuse imperial bioengineering knowledge with arcane ability to reshape living organisms
 ---

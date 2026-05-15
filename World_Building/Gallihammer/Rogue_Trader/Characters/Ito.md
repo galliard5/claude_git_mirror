@@ -1,5 +1,6 @@
 ---
 name: Ito
+type: character
 keywords: [pc, scout, sniper, lxotl-anthro, rogue-trader, ground-team, fates-cast]
 description: Lxotl lizard anthro scout and sniper specialist aboard the Fates Cast, typically detached to ground teams in a support role
 ---

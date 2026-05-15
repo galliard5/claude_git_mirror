@@ -1,5 +1,6 @@
 ---
 name: Sickles_Cleric
+type: character
 keywords: [dnd35, halfling, cleric, healing, death-domain, maximize-spell, galliard, unnamed]
 description: An unnamed halfling cleric 3 from "Sickles game." NG. WIS 17, CHA 16. Domains: Healing + Death. Maximize Spell + Improved Turning. Shock morningstar. Half-plate armor. Character filed under CHARACTERNAME "New2" — name never assigned.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Gate Man
+type: character
 keywords: [npc, guard, minor, facility, unnamed, kennel-hounds]
 description: Unnamed armed guard at buyer's facility gate — carried travel papers and the list of seven names, cooperative after squad arrival
 ---

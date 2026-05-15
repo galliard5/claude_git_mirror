@@ -1,5 +1,6 @@
 ---
 name: Lukas Steinfeld
+type: character
 keywords: [npc, noble, administrator]
 description: Viktor's methodical cousin who managed the estate through the transition and uncovered Oswin's embezzlement through careful ledger review
 ---

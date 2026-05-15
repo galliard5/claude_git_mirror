@@ -1,5 +1,6 @@
 ---
 name: Silberbach Arrival
+type: location
 keywords: [reference, gm-toolkit, town, first-impressions, entry, approach, scene-running]
 description: GM reference for arrival in Silberbach — what travelers see, hear, and smell as they approach by road or river, gate procedures, first encounters, and how to ground a new arrival in the town's particular character
 ---

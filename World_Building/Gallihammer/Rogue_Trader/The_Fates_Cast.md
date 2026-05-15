@@ -1,5 +1,6 @@
 ---
 name: The Fates Cast
+type: setting-document
 keywords: [ship, fates-cast, rogue-trader, vessel, sebastian, imperial-hull]
 description: The ship itself — an imperial-era hull between light cruiser and cruiser displacement, stripped of most original systems, crewed by roughly 2,500 combat personnel and several thousand more besides
 ---

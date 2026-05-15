@@ -1,5 +1,6 @@
 ---
 name: Count Elias Valtor
+type: character
 keywords: [npc, noble, antagonist]
 description: Authoritarian Count of the River Valley whose embezzlement and attempt to erase his own son Anthony make him a dangerous political enemy
 ---

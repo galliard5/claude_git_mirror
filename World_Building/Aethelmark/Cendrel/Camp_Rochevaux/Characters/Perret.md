@@ -1,5 +1,6 @@
 ---
 name: Perret
+type: character
 keywords: [npc, scout, youngest, rochevaux, kennel-hounds]
 description: The youngest member of the scout squad, eager to prove himself and vulnerable to group pressure around the transformation decision
 ---

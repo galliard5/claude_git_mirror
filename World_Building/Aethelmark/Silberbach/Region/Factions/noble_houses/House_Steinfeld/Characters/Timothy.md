@@ -1,5 +1,6 @@
 ---
 name: Timothy
+type: character
 keywords: [npc, contractor, transformed, equine, steinfeld, manor]
 description: Steinfeld-contracted stallion currently at Isalia's Manor for a difficult breech foaling, whose testimony contradicted Briar's claims about mistreatment of the breeding mares
 ---

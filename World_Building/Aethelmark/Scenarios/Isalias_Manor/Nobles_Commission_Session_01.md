@@ -1,5 +1,6 @@
 ---
 name: Nobles Commission Session 01
+type: scenario
 keywords: [session, summary, isalias estate, transformation, consent, speaking collar, new resident, Seria Rennic, Valerius Corvinus]
 description: Lady Seria Rennic arrives with her hound Vesper — revealed as a transformed human diplomat sentenced two years prior — who receives a speaking collar, confronts his owner, and chooses to stay at the manor as a free resident
 ---

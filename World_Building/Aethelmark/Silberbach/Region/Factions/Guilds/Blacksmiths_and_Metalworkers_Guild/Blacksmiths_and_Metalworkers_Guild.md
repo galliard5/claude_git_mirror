@@ -1,5 +1,6 @@
 ---
 name: Blacksmiths and Metalworkers Guild
+type: location
 keywords: [faction, guild, blacksmiths, metalworkers, ironwork, silberbach]
 description: The Blacksmiths and Metalworkers Guild of Silberbach — handles iron, copper, and tin work for the town and the noble houses; downstream of Aldenberg's premium steel; supplies the manor's collar reinforcements and the keep's daily metalwork
 ---

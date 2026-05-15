@@ -1,5 +1,6 @@
 ---
 name: Jaskin
+type: character
 keywords: [npc, manor, staff, receptionist, transformed, half-lynx]
 description: Transformed half-lynx who staffs the manor's reception desk through the night shift — silent, observant, and completely unbothered by the estate's nocturnal activity
 ---

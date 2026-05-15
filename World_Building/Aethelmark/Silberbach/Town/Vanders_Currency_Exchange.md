@@ -1,5 +1,6 @@
 ---
 name: Vanders Currency Exchange
+type: location
 keywords: [location, business, Silberbach]
 description: Currency exchange on Merchants Close that serves as the base of operations for money launderer Aldus Corvel who keeps his client ledger strongbox on the premises
 ---

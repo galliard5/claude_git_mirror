@@ -1,5 +1,6 @@
 ---
 name: Isalia's Steel Plug
+type: location
 keywords: [item, enchanted, unique, isalia, personal]
 description: A steel anal plug with a locking mechanism and a self-cleaning enchantment — Isalia's personal item, worn nightly as part of her private routine
 ---

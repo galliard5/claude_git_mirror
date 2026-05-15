@@ -1,5 +1,6 @@
 ---
 name: The Garden Wing
+type: location
 keywords: [location, manor, companion-apartments, intimate-services, garden-wing]
 description: The manor's companion residence and client-facing intimate-services location — three apartments, a common room, a private herb garden, three companions in residence, and a particular daily rhythm
 ---

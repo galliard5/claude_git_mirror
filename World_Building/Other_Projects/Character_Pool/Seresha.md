@@ -1,5 +1,6 @@
 ---
 name: Seresha
+type: character
 keywords: [dnd35, kobold, rogue, galliard, collar-and-leash, young]
 description: A 13-year-old kobold rogue 3. NG. Stealthy + Agile feats. Standard urban thief skill spread. Equipment includes a "collar and leash" item — a collar worn as a back slot item, the nature and significance of which is not explained.
 ---

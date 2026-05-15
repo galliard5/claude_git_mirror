@@ -1,5 +1,6 @@
 ---
 name: Mist_in_the_Wind
+type: character
 keywords: [gurps, tl10, kais-bug-game, razor, insectoid, giant, chameleon, chaingun, mecha, galliard]
 description: A 500-point giant armored insectoid (Race: Razor) — 12ft, 2,100 lb, DR 200 torso, Chameleon 4 thermal+visual, Storm Chaingun, weapon-mount arms, and a mech to pilot. From Kai's bug game.
 ---

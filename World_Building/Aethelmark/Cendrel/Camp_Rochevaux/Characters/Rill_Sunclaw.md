@@ -1,5 +1,6 @@
 ---
 name: Rill Sunclaw
+type: character
 keywords: [pc, scout, kobold, panther, transformed, rochevaux, kennel-hounds]
 description: Kobold scout at Camp Rochevaux, first person in the Kennel Hounds programme to undergo panther transformation — methodical, observant, and quietly brave
 ---

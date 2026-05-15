@@ -1,5 +1,6 @@
 ---
 name: Allina
+type: character
 keywords: [dnd35, wolf, ranger, noble-wild, mabs-wolf, deity-alpha, galliard]
 description: Galliard's wolf ranger 1 named Allina. Female, age 14, grey hair, blue eyes. DEX 18, CON 19, WIS 17. Deity: Alpha. Bite (free trip) + longsword. Studded leather barding. Healer, tracker, natural skills. From the same Mabs wolf race as Tina.
 ---

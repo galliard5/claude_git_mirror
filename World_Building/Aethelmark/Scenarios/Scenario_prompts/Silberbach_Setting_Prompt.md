@@ -1,5 +1,6 @@
 ---
 name: Silberbach Setting Prompt
+type: scenario
 keywords: [scenario-prompt, setting, silberbach, march, region, story-generator, initial-prompt]
 description: Information-dense setting prompt for the March of Silberbach and its seat-city, intended as an initial prompt for a story generator
 ---

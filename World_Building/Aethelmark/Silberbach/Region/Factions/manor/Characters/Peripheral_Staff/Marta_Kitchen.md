@@ -1,5 +1,6 @@
 ---
 name: Marta Halse (Kitchen)
+type: character
 keywords: [npc, manor, kitchen, scullery, peripheral-staff, human, riverside, local]
 description: Human kitchen and scullery assistant at Isalia's Manor — local woman from the riverside hamlets, two years in, learning Tob's rhythm and being trained for eventual succession
 ---

@@ -1,5 +1,6 @@
 ---
 name: Baroness Elara Kaelen
+type: character
 keywords: [npc, noble, baroness, kaelen, ford, reformist, merchant-origin]
 description: Baroness of the Ford and political partner to Torvin Kaelen — from a Silberbach merchant family, sharper edge than her husband, runs the funding side of the reformist coalition through her family's network
 ---

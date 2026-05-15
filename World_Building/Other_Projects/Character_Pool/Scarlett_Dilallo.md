@@ -1,5 +1,6 @@
 ---
 name: Scarlett_Dilallo
+type: character
 keywords: [gurps, tl10, vikar-game, rikbin, four-arms, quadruped, chameleon, agoraphobia, spacer, galliard]
 description: A 100-point TL10 Rikbin spacer — 8ft tall with four short arms, four legs, chameleon camouflage, IR vision, No Head vital zone, ambidextrous across all limbs, and Agoraphobia in a space setting. No skills filed; racial template only. From Vikar's GURPS campaign.
 ---

@@ -1,5 +1,6 @@
 ---
 name: Mira Toren
+type: character
 keywords: [npc, accountant, manor staff]
 description: Gnome head accountant with an instinct for spotting financial dishonesty who protects the manor's books from corruption after exposing fraud at a previous employer
 ---

@@ -1,5 +1,6 @@
 ---
 name: Night
+type: character
 keywords: [dnd35, awakened-jaguar, rogue, galliard, foxen, sylvan, harness]
 description: A 2-year-old CG awakened jaguar rogue 1. Black fur, gold eyes. Growling speech. Speaks Foxen and Sylvan. Wears only a harness with two belt pouches. Track feat. No weapons — only natural claws and bite.
 ---

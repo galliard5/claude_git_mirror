@@ -1,5 +1,6 @@
 ---
 name: Liora
+type: character
 keywords: [npc, manor, staff, receptionist, human]
 description: Young human woman who staffs the manor's reception desk during daytime hours — organized, efficient, and accustomed to the estate's particular clientele
 ---

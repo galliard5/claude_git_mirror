@@ -1,5 +1,6 @@
 ---
 name: Grenn
+type: character
 keywords: [npc, scout, kobold, warren-born, rochevaux, kennel-hounds]
 description: Warren-born kobold scout and close-terrain specialist, carrying the cultural weight of permanent transformation more quietly than anyone else in the squad
 ---

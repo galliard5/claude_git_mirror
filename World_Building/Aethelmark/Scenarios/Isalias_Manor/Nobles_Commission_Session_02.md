@@ -1,5 +1,6 @@
 ---
 name: Nobles Commission Session 02
+type: scenario
 keywords: [session, checkpoint, isalias estate, valerius, legal, grauwald, barrel, spouses, southern-thread]
 description: Full day at the manor following Session 01 — fertility tonic taken, Valerius informed of legal status and petition filed, Grauwald letter received and replied to personally, barrel discrepancy raised by Mira, walk-in client redirected, Kira flags three southern-origin spouses
 ---

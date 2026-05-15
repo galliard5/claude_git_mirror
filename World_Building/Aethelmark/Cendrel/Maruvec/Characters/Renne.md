@@ -1,5 +1,6 @@
 ---
 name: Renne
+type: character
 keywords: [hound, kennel, maruvec, pack, kobold scent]
 description: The uncontrolled variable in the pack introduction sequence — a cautious hound who had no existing category for the kobold scent profile and who settled only after Isandar removed the pressure by lying down
 ---

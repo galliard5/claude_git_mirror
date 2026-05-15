@@ -1,5 +1,6 @@
 ---
 name: Marta Sehn
+type: character
 keywords: [npc, guest, companion, mecklau, tracking, corvin]
 description: Mid-thirties woman who tracked her transformed companion Corvin across three counties and two contract transfers to bring him to Silberbach — now a guest at Isalia's Manor while Corvin's suppression clears
 ---

@@ -1,5 +1,6 @@
 ---
 name: The Buyer
+type: character
 keywords: [npc, antagonist, facility-owner, transformation, supply-chain, unnamed, kennel-hounds]
 description: Unnamed city-connected facility owner who commissioned the panther capture — contained at his facility after squad raid, awaiting transport to Varel
 ---

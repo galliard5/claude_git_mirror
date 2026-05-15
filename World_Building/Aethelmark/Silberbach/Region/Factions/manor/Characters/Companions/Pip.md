@@ -1,5 +1,6 @@
 ---
 name: Pip
+type: character
 keywords: [npc, manor, companion, rabbit, transformed, gelding, cheerful, melancholy, garden-wing]
 description: Anthro rabbit-form companion at the Garden Wing — cheerful by genuine temperament, melancholy by genuine grief, both at once; chose his transformation and chose his gelding and is still figuring out what those choices made of him
 ---

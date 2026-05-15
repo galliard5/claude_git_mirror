@@ -1,5 +1,6 @@
 ---
 name: Aldric Venn
+type: character
 keywords: [npc, transformed, client, factor, tortoise, lenne, solt, merchants guild]
 description: Former textile factor permanently transformed as a tortoise by unlicensed practitioner Edvard Solt under misrepresented terms — now a guest at Isalia's Manor seeking reversion or a suitable new form
 ---

@@ -1,5 +1,6 @@
 ---
 name: Icasus
+type: character
 keywords: [gurps, tl8, kai-pirate-game, uplift-dolphin, psionic, esp, social, force-sword, lightsail, machine-telepathy]
 description: A 79-point TL8 female uplift dolphin with ESP, Machine Telepathy, a social skill suite, Force Sword, and lightsail piloting. Kai's "rebooted" dolphin concept — same species/psionic template as Icarus but a completely different character in a lower-tech setting.
 ---

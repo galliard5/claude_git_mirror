@@ -1,5 +1,6 @@
 ---
 name: Bandit Recipe
+type: scenario
 keywords: [scenario-prompt, kennel-hounds, programme, bandits, stolen, transformation, courier, black-market]
 description: Bandits capture a programme courier, acquire the transformation recipe, and begin using it for criminal purposes
 ---

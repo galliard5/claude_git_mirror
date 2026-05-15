@@ -1,5 +1,6 @@
 ---
 name: Merchants Close
+type: location
 keywords: [location, street, Silberbach]
 description: A street in Silberbach's commercial district where Aldus Corvel operates above Vanders Currency Exchange and conducts his money laundering activities
 ---

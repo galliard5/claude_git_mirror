@@ -1,5 +1,6 @@
 ---
 name: Lash
+type: character
 keywords: [dnd35, pseudodragon, rogue, dragon, thief, poison, telepathy, gradea, galliard]
 description: A pseudodragon Dragon2/Rogue1 named Lash. Hover and Combat Reflexes, telepathy, sleep-poison sting, MW thieves' tools and wands. File named "gradea pseudodragon" — Gradea is likely the campaign name.
 ---

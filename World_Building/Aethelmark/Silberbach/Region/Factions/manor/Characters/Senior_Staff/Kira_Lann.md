@@ -1,5 +1,6 @@
 ---
 name: Kira Lann
+type: character
 keywords: [npc, courier, manor staff]
 description: Messenger coordinator who built the manor's private courier network after being pushed out of the River Traders Guild following her father's death
 ---

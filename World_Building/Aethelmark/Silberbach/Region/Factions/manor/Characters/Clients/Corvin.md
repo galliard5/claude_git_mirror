@@ -1,5 +1,6 @@
 ---
 name: Corvin
+type: character
 keywords: [npc, transformed, resident, guest, clerk, hound, mecklau, crescent, suppression]
 description: Former trade records clerk permanently transformed under a court-adjacent debt settlement — fourteen months in form, Crescent collar removed 20 April 1650, now a free guest at Isalia's Manor with suppression clearing
 ---

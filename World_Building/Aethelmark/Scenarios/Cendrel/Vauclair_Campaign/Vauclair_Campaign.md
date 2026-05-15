@@ -1,5 +1,6 @@
 ---
 name: Vauclair Pilot Site
+type: location
 keywords: [scenario, campaign, border town]
 description: Street-level campaign at Vauclair following a freshly transformed sapient hound recruit navigating garrison life and the town's thriving black market
 ---

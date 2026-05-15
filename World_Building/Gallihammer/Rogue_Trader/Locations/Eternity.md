@@ -1,5 +1,6 @@
 ---
 name: Eternity - The Pillars
+type: setting-document
 keywords: [location, planet, tzeentch-analog, ancient-technology, rogue-trader, warp-adjacent]
 description: A frigid warp-edge world of iron-age tribes and kilometre-tall pre-collapse towers of unknown origin, circling a Blue Giant on the edge of the Screaming Vortex
 ---

@@ -1,5 +1,6 @@
 ---
 name: Kennels and Stables
+type: location
 keywords: [location, manor, boarding]
 description: Premium boarding facilities for canine and equine clients including luxury housing breeding suites and exercise yards
 ---

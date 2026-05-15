@@ -1,5 +1,6 @@
 ---
 name: Infirmary
+type: location
 keywords: [location, manor, medical]
 description: Medical wing equipped for both human and animal patients run by Dr Selene Korr with surgical facilities and a veterinary annex
 ---

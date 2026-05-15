@@ -1,5 +1,6 @@
 ---
 name: Riktiki
+type: character
 keywords: [gurps, tl9, ucsc, r-skezi, navigator, physicist, hyperspace, scythe-claws, ultrasonic, alien, galliard]
 description: A 100-point TL9 R'skezi alien navigator/physicist — hyperspace specialist, Machine Telepathy radio, built-in climbing silk, scythe claws with Striking ST 15, no normal speech (ultrasound only), Hermaphromorph, Third Person speech quirk, fears dogs specifically. From the UCSC campaign.
 ---

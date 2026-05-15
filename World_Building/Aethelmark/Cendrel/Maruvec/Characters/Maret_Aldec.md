@@ -1,5 +1,6 @@
 ---
 name: Maret Aldec
+type: character
 keywords: [npc, minor, family, maruvec, stub]
 description: Perrin Aldec's wife — perceptive, sharp, present only through Perrin's disclosures so far, arriving at the harness fitting next session
 ---

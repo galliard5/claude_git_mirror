@@ -1,5 +1,6 @@
 ---
 name: Master Edda Reinhart
+type: character
 keywords: [npc, tanners-guild, master, half-elven, silberbach, tanning]
 description: Half-elven Master of the Tanners and Leatherworkers Guild — the first tanner to hold the master's chair in a generation, came up through forty years of yard labor, holds quiet grudges against the leatherworker masters who opposed her election
 ---
