@@ -2,7 +2,7 @@
 name: File System Instructions
 keywords: [rules, instructions, reference]
 description: Core project rules and procedures for every session
-last_edited_utc: 2026-05-14T17:00:00Z
+last_edited_utc: 2026-05-15T18:30:00Z
 ---
 
 AVAILABLE TOOLS FOR CLAUDE
@@ -444,7 +444,7 @@ Good for: peripheral NPCs, filler location descriptions, batch background charac
 **Mode B — Mechanical Transformation**
 Source identifies what to change. Haiku executes mechanical edits.
 Good for: format conversions, case-normalizing filenames, batch metadata updates, applying a structural change to many files.
-*Often, a Python script is the right tool here instead — see `Python/` for existing utilities.*
+*Often, a Python script is the right tool here instead — check `Python/` for existing utilities; each script includes header comments describing what it does and how to run it. To write a new script, load `Python_Scripts_Protocol.md` (terse rules) or `System_Documentation/Python_Scripts.md` (full conventions with reasoning).*
 
 ### Source Phase
 

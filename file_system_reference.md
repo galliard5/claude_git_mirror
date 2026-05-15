@@ -397,9 +397,12 @@ FILE FORMAT STANDARDS
 PYTHON SCRIPTS PROTOCOL
 ========================
 
+> **Authoritative source:** `Python_Scripts_Protocol.md` (terse rules) and `System_Documentation/Python_Scripts.md` (full conventions with reasoning). This section is a summary — load those documents when writing or debugging scripts.
+
 - Last verified Python version: 3.14.3
 - All scripts live in `D:\claude\filesystem\Python\` (Windows host path)
 - To run from CMD: `cd D:\claude\filesystem\Python && python script_name.py [options]`
+- if writing a cmd line call or a /bat file to run a cript, use 'python' instead of 'python3'
 
 ## Two script categories with different conventions
 
