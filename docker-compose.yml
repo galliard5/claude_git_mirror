@@ -1,6 +1,6 @@
 # docker-compose.yml — MCP server stack
 #
-# Starts four MCP servers, all exposing Streamable HTTP transport
+# Starts three MCP servers, all exposing Streamable HTTP transport
 # so Claude Desktop connects via URL rather than spawning subprocesses.
 #
 # Host paths are set in .env (gitignored) — edit that file for your machine.
@@ -48,24 +48,6 @@ services:
       CORPUS_ROOT: /corpus
       MCP_PORT: "8002"
     command: python index_tools_mcp_server.py
-    restart: unless-stopped
-
-  # -------------------------------------------------------------------------
-  # filesystem — official MCP filesystem server, wrapped by supergateway
-  # supergateway bridges the stdio-only Node.js server to Streamable HTTP.
-  # Read-only mount: Claude reads corpus files but writes nothing here.
-  # -------------------------------------------------------------------------
-  filesystem:
-    image: supercorp/supergateway
-    ports:
-      - "8003:8000"
-    volumes:
-      - ${CORPUS_HOST_PATH}:/corpus:ro
-    command: >
-      --stdio "npx -y @modelcontextprotocol/server-filesystem /corpus"
-      --outputTransport streamableHttp
-      --stateful
-      --port 8000
     restart: unless-stopped
 
   # -------------------------------------------------------------------------
