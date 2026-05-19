@@ -1,73 +1,104 @@
 # Claude Code Context — Aethelmark & Gallihammer Projects
-<!-- Auto-generated from claude.ai userMemories. Refresh periodically. -->
-<!-- Host path: D:\claude\filesystem\Claude_Code_Context.md -->
-
-## Purpose & Context
-
-This file provides persistent project context for Claude Code sessions. It covers two major interconnected creative projects: **Gallihammer** (grimdark science fantasy worldbuilding and TTRPG) and **Aethelmark** (dark fantasy worldbuilding and TTRPG). Both are managed as structured file systems under `D:\claude\filesystem\` with MCP filesystem integration, version control via git, and an Obsidian-compatible directory structure.
+<!-- Synced from claude.ai userMemories. Regenerate periodically. -->
+<!-- Last sync: 2026-05-19 -->
 
 ---
 
 ## Filesystem Layout
 
-**MCP Docker paths** (use with MCP tools): `/corpus/` as root
-**Windows host path** (use with git, CMD, Explorer): `D:\claude\filesystem\`
+**MCP Docker root:** `/corpus/`
+**Windows host root:** `D:\claude\filesystem\`
 
-```
-D:\claude\filesystem\
-├── file_system_instructions.md     ← system/project rules (STARTUP: Steps 1–6)
-├── .gitignore
-├── index/
-│   ├── directory_index.md          ← live directory map (check freshness)
-│   ├── directory_index_with_files.md
-│   └── search_index.db             ← SQLite FTS5 corpus search index
-├── World_Building\
-│   ├── Gallihammer\
-│   └── Aethelmark\
-│       ├── Silberbach\
-│       │   └── Region\Factions\
-│       │       ├── Manor\          ← Isalia's Manor (Characters/, Buildings/)
-│       │       ├── Noble_Houses\
-│       │       ├── Guilds\
-│       │       └── Merchant_Families\
-│       ├── Cendrel\                ← Kennel Hounds region
-│       │   ├── Camp_Rochevaux\
-│       │   ├── Maruvec\
-│       │   └── Vauclair\
-│       └── Scenarios\
-│           ├── Isalias_Estate\
-│           └── Kennel_Hounds\
-├── Core_Rules\
-│   ├── core_rules.md
-│   ├── Scenario_Extraction_Rules.md
-│   └── Templates\
-├── Stories\
-├── Python\                         ← utility scripts + MCP servers
-├── System_Documentation\
-└── .obsidian\
-```
+**Top-level directories:**
+- `World_Building/` — all setting content
+- `Core_Rules/` — GM rules, templates, extraction rules
+- `Stories/` — creative writing (gitignored)
+- `Python/` — utility scripts + MCP servers
+- `Trash/` — soft-delete destination
+- `index/` — directory_index.md, directory_index_with_files.md, search_index.db
+- `System_Documentation/` — reference docs for indexer, corpus search, Docker
+- `Other_References/` — miscellaneous reference material
+- `Miscelanious_RPG_material/` — RPG PDFs (gitignored, excluded from corpus search)
+- `Perchance_prompts/` — Perchance generator prompts
+- `Sheet_Import/` — ingest folder for character sheets (gitignored)
 
-**Key location shortcuts:**
-- GM rules: `Core_Rules/core_rules.md`
-- System rules: `file_system_instructions.md` (root)
-- Isalia's Manor: `World_Building/Aethelmark/Silberbach/Region/Factions/Manor/`
-- Isalia character: `.../Manor/Characters/Owner/Isalia_Kreiger.md`
+**Root files:** `file_system_instructions.md`, `.gitignore`, `Claude_Code_Context.md`
 
 ---
 
 ## Naming & File Conventions
 
 - All files and folders: `Snake_Case_With_Capitals`
-- Default output format: `.md`
+- Default output: `.md`
+- Images: `.jpg`, filename matches `.md` counterpart
 - YAML frontmatter required on all `.md` files (lines 1–5):
-  ```yaml
-  ---
-  name: Name
-  keywords: [keyword1, keyword2]
-  description: One sentence description.
-  ---
-  ```
-- Images: `.jpg` preferred, filename matches `.md` counterpart
+
+```yaml
+---
+name: Name
+keywords: [keyword1, keyword2]
+description: One sentence description.
+---
+```
+
+---
+
+## Directory Structure (Aethelmark)
+
+```
+World_Building/Aethelmark/
+├── Cendrel/                          ← Kennel Hounds region
+│   ├── Camp_Rochevaux/Characters/
+│   ├── Maruvec/Characters/
+│   ├── Vauclair/Characters/ + Clans/
+│   └── Characters/                   ← region-level NPCs (e.g. Vellancourt)
+├── Scenarios/
+│   ├── Isalias_Manor/Day_Briefs/     ← Nobles Commission sessions
+│   ├── Cendrel/
+│   │   ├── Camp_Rochevaux_Campaign/
+│   │   ├── Maruvec_Campaign/
+│   │   └── Vauclair_Campaign/
+│   ├── Viktor_Steinfeld/
+│   └── Scenario_prompts/
+└── Silberbach/
+    ├── Region/
+    │   ├── Characters/
+    │   ├── Factions/
+    │   │   ├── Guilds/[11 guilds]/Characters/
+    │   │   ├── Manor/Characters/
+    │   │   │   ├── Owner/
+    │   │   │   ├── Senior_Staff/
+    │   │   │   ├── Companions/
+    │   │   │   ├── Transformed_Residents/
+    │   │   │   ├── Peripheral_Staff/
+    │   │   │   ├── Animals/
+    │   │   │   └── Clients/
+    │   │   ├── Noble_Houses/[10 houses]/Characters/
+    │   │   └── Merchant_Families/[3 families]/Characters/
+    │   └── Unique_Enchanted_Items/
+    └── Town/Characters/
+
+World_Building/Gallihammer/
+├── Archaeos_Expedition/Characters/ + Recovered_Technology/ + Scenarios/ + Ship/ + Sites/
+├── Dead_Terra/
+├── Equipment/
+└── Rogue_Trader/
+
+World_Building/Other_Projects/
+├── Neon_Fang/Cells/ + Characters/
+├── Souls_Gem/
+├── Little_spark/
+└── Character_Pool/
+```
+
+**Key paths:**
+- GM rules: `Core_Rules/core_rules.md`
+- System rules: `file_system_instructions.md` (root)
+- Templates: `Core_Rules/Templates/`
+- Isalia's Manor: `World_Building/Aethelmark/Silberbach/Region/Factions/Manor/`
+- Isalia character: `.../Manor/Characters/Owner/Isalia_Kreiger.md`
+- Cendrel lore: `World_Building/Aethelmark/Cendrel/`
+- Sessions: `Scenarios/Isalias_Manor/`, `Scenarios/Cendrel/`, `Scenarios/Viktor_Steinfeld/`
 
 ---
 
@@ -82,87 +113,103 @@ Post-collapse science fantasy set ~30,000–40,000 years after a stellar empire'
 - AI taboo stems from historical AGI failures
 
 **Active campaign — Archaeos Expedition:**
-- Player character: **Si'ken** (kobold reshaped into insectoid hybrid scout)
-- Vessel: *The Proving Ground* (converted medium transport, ~2.5km, Mechanicus archaeological expedition vessel, Forge-Monastery Valdrekk on planet Calthris)
-- Session 1 complete
-- Key crew: Commander Torrin Hale, Ship Master Kael Oenthe, Chief Archaeologist Sera Voss, Chief Enginseer Maret Vos, Skitarii Alpha Dren Harsk, Senior Logik Renn Cade, Senior Archivist Maren Pael, Chirugen Liss Thrace
+- PC: **Si'ken** (kobold reshaped into insectoid hybrid scout)
+- Vessel: *The Proving Ground* (converted medium transport, ~2.5km; Mechanicus archaeological expedition, Forge-Monastery Valdrekk, planet Calthris)
+- Session 1 complete; approaching Chief Enginseer Vos in engineering at session end
 - Ship has XCOM-style development system (7 upgrade categories fed by field salvage)
+- Crew: Commander Torrin Hale, Ship Master Kael Oenthe, Chief Archaeologist Sera Voss, Chief Enginseer Maret Vos, Skitarii Alpha Dren Harsk, Senior Logik Renn Cade, Senior Archivist Maren Pael, Chirugen Liss Thrace
 
 ---
 
 ## Project: Aethelmark
 
-Dark fantasy kingdom (Cendrel) inspired by Burgundy. Burgundy-adjacent European aesthetic, 16th century feel. Runs multiple active campaigns.
+Dark fantasy kingdom, 16th century Central European feel, Burgundy-inspired. Runs multiple active campaigns.
 
-**Central feature:** Sapient hound transformation — volunteers undergo permanent biological reshaping — running across multiple pilot sites.
+**Central feature:** Sapient hound transformation — volunteers undergo permanent biological reshaping. Framework: 5-yr enlistment, speaking collar retained, donor determines sex outcome.
 
-### Active Campaigns
+### Silberbach Region
+
+Town of ~5,000–6,000 on the Angerap River. Ruled by Count Elias Valtor from Valtor Keep. Locations: Market_Square, Harbor_District, Old_Temple, Silver_Eel, Drowned_Rat, Merchants_Close, Vanders_Currency_Exchange, Weavers_Row.
+
+**Factions** (all under `Silberbach/Region/Factions/`):
+- 11 Guilds (each with `Characters/` subfolder)
+- Noble Houses: Kreiger, Valtor, Steinfeld, Waldheim, Kaelen, Aldenberg, Grauwald, Meerhold, Rennic, Rothwyn
+- Merchant Families: Farrow, Vale, Welser
+
+### Isalia's Manor
+
+Owner: Isalia Kreiger (blue kobold, 70yo, retired 20th-level barbarian).
+
+**Senior Staff** (sort by job, not transformation status):
+
+| Name | Role | Form |
+|------|------|------|
+| Captain Albrecht Vogt | Head of Security | Transformed minotaur |
+| Sable | Stable Master | Transformed dark bay mare |
+| Alric Dain | Lead Alchemist | Human |
+| Dr. Selene Korr | Head Physician | Human |
+| Elowen Vale | Lead Enchanter | Elf |
+| Elias Varn | Estate Steward | Kobold |
+
+**Peripheral Staff:** Lyra, Mira, Rennik, Kira, Renn (woodward, direwolf)
+
+**Transformed Residents:** Anthony Valtor (imperial witness), Kael (amber manticore), Lira (sable doe), Nyssa (moonlit vixen), Silas (obsidian stallion), Vorik (iron boar)
+
+**Services:** transformation, breeding, medical, enchantments, alchemy
+
+### Cendrel (Kennel Hounds Region)
+
+Patron: Comte Edouard Vellancourt. Gritty tone, black-market integration.
+
+| Site | Status | Session path |
+|------|--------|-------------|
+| Vauclair (border town) | Session 01 done, first volunteer transforming | `Scenarios/Cendrel/Vauclair_Campaign/` |
+| Maruvec (city) | Sessions 1,2,4,5,6 done; session 3 missing | `Scenarios/Cendrel/Maruvec_Campaign/` |
+| Camp Rochevaux | Sessions 1–7 done, Act 3 pending | `Scenarios/Cendrel/Camp_Rochevaux_Campaign/` |
+
+**Vauclair:** ~3,000 surface + 800–1,000 warren, Greyvasse pass mouth. Clans: Rixek (conservative), Sezzin (merchants), Veth (pragmatic). Garrison: Elise Marenne (commander), Renaud Bastier (kennel master). ⚠ Vauclair alchemist name needs verification — old notes say "Corvel" but may be confused with Aldus Corvel (Silberbach money launderer).
+
+**Maruvec:** PC = Isandar Quickclaw (kobold, 19, dock-born). Squad: Théo Marchais, Sable Venn, Perrin Aldec, Dix. Kennel Master: Colette Varre. Donor hound: Brac. Transformation scheduled end-of-week in-world.
+
+**Camp Rochevaux:** Squad transformed; buyer facility raided; supply chain exposed. Key NPCs added: Lenne Souchard, The Buyer, Gregor, Joren, Gate Man. Lore at `Cendrel/Camp_Rochevaux/` (15 character files, Buyers_Facility.md).
+
+### Other Active Campaigns
 
 **Nobles Commission (Isalia's Manor):**
-- Sessions 01–06 in directory; sessions 01–05 confirmed complete
-- Current in-world date: **20 Apr 1650** (Session 04 checkpoint)
-- Key events: Corvin/Marta arrival, Crescent collar removal, intake protocol drafting, Aldric Venn intake, hearing confirmed 3 May, Seria appearing voluntarily
-
-**Maruvec Campaign:**
-- Sessions 01–02 complete (pre-transformation); session 3 summary status unclear
-- PC: **Isandar Quickclaw** (kobold, 19, dock-born)
-- Squad: Théo Marchais, Sable Venn, Perrin Aldec, Dix; Kennel Master Colette Varre
-- Donor hound Brac selected; transformation scheduled end-of-week in-world
-
-**Camp Rochevaux:**
-- Sessions 01–07 summaries present; full extraction complete
-- Squad transformed; buyer facility raided; supply chain exposed
-- Act 3 pending
+- Sessions 01–06 in `Scenarios/Isalias_Manor/` (01–05 confirmed complete, 06 verify)
+- Supporting files: `Estate_Daily_Life.md`, `Serya_Integration.md`, `Day_Briefs/` (2 files)
+- Current in-world date: **22 April 1650**
+- Hearing confirmed 3 May; Seria appearing voluntarily
 
 **Viktor Steinfeld:**
-- Session 01 complete (10 Apr 1650)
-- Viktor is a pregnant mare
+- Session 01 complete, 10 Apr 1650. Path: `Scenarios/Viktor_Steinfeld/`
+- Viktor is a pregnant mare (foal sire: Greymarch stallion, due late June–early July 1650)
+- Estate staff: Lukas (cousin, acting admin), Hannah Voss (stablemaster), Pell, Mrs Aldenmarch
 - Active threads: Oswin Brandt embezzlement (51 gold, 3 years, confessed), Corvel money-laundering investigation, Meerhold inspection pending, Voss & Kraemer solicitors summoned
-
-**Vauclair Campaign:**
-- Summary 01 + location/kennel files present; first volunteer transforming
 
 **Sergovy Waldheim:** Pending (mid–late April in-world)
 
-### Key NPCs — Isalia's Manor
+### Noble Houses
 
-| Name | Role | Notes |
-|------|------|-------|
-| Isalia Kreiger | Owner | Blue kobold, 70, retired 20th-level barbarian |
-| Captain Albrecht Vogt | Head of Security | Transformed minotaur |
-| Sable | Stable Master | Transformed dark bay mare |
-| Alric Dain | Lead Alchemist | Former battlefield surgeon |
-| Elowen Vale | Lead Enchanter | Elf, designs speech collars |
-| Elias Varn | Estate Steward | Kobold, discreet administrator |
-| Dr. Selene Korr | Head Physician | Medical care |
-| Renn | Woodward | Transformed direwolf, patrols grounds |
+Path: `Silberbach/Region/Factions/Noble_Houses/`
 
-### Manor Character Placement (subfolder rules)
+- **Kreiger** — Duke Romaine + Duchess Iaxiandra (blue dragon), Isalia's parents
+- **Valtor** — Count Elias, Silberbach ruler; Gerran Valtor (steward, embezzler)
+- **Steinfeld** — Viktor's house
+- **Waldheim** — Sergovy's house, forest/timber
+- **Kaelen** — Baron Torvin, reformist
+- **Aldenberg** — Corvel connection, Mira von Aldenberg (noble fugitive)
+- **Grauwald, Meerhold** (breeding stock), **Rennic** (Lady Seria), **Rothwyn**
 
-Path: `Manor/Characters/`
-
-- **Owner/** — Isalia only
-- **Senior_Staff/** — department heads (sort by job, not transformation status)
-- **Companions/** — breeding/intimate-services contractors
-- **Transformed_Residents/** — residents with no assigned work role
-- **Peripheral_Staff/** — lower-rank named staff
-- **Animals/** — non-sapient kennel/stable beasts
-- **Clients/** — manor clients
-
-### On the Horizon
-
-- Rochevaux Act 3
-- Sergovy Waldheim campaign launch
-- Nobles Commission hearing (~2 May in-world)
-- Alric fertility appointment (24 Apr in-world)
+Imperial transformation archives sealed at Isalia's manor under imperial privilege.
 
 ---
 
 ## World Standards (Aethelmark)
 
-- **Date format:** DD.Month YYYY (e.g. `20.April.1650`)
-- **Currency:** Copper Pence / Silver Dollar / Gold Crown / Platinum Throne (100:10:1:0.1)
-- **Timekeeping:** Canonical church bells (Matutin / Laudes / Prim / Terz / Sext / Non / Vesper / Komplet)
+- **Date format:** `DD.Month YYYY` (e.g. `22.April.1650`)
+- **Currency:** Copper Pence / Silver Dollar / Gold Crown / Platinum Throne (100:10:1:0.1). Treasury bars = 1,000× coin equivalent.
+- **Timekeeping:** Canonical church bells — Matutin, Laudes, Prim, Terz, Sext, Non, Vesper, Komplet
 - **Calendar:** 12 months, Januar–Dezember
 - **Legal hierarchy:** Imperial > Ducal > County > Town > Guild
 - **Distance:** Estate ~1 mile from Silberbach Market Square
@@ -171,18 +218,27 @@ Path: `Manor/Characters/`
 
 ## Tools & Infrastructure
 
-- **MCP servers:** filesystem (rooted at `D:\claude\filesystem\`), memory (graph, mostly retired), corpus-search (`Python/search_mcp_server.py`), index-tools (`Python/index_tools_mcp_server.py`)
+- **MCP servers:** filesystem (`D:\claude\filesystem\`), corpus-search (`Python/search_mcp_server.py`), index-tools (`Python/index_tools_mcp_server.py`). Memory MCP retired 2026-05-19.
 - **Claude Desktop config:** `C:\Users\galliard\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\claude_desktop_config.json`
-- **Obsidian:** `.obsidian/` at project root; files use YAML frontmatter, `**bold**` headers, `[[WikiLink]]` internal references
-- **Git:** version control from `D:\claude\filesystem\`
-- **Perchance:** `perchance.org/enhanced-ai-story` — template at `Python/Perchance_AI_Story_Template.md`
+- **Index files:** `index/directory_index.md`, `index/directory_index_with_files.md`, `index/search_index.db`
+- **Obsidian:** `.obsidian/` at project root; YAML frontmatter, `**bold**` headers, `[[WikiLink]]` refs
+- **Git:** from `D:\claude\filesystem\`; commit format: `[Category]: [Subject] | [Details] | [In-Game Date]`
 - **Map format:** `.wxx` (Worldographer); spec at `Core_Rules/Wxx_Map_Format_Spec.md`; toolchain at `Python/worldographer/`
+- **Perchance:** `perchance.org/enhanced-ai-story`; template at `Perchance_prompts/`
+
+### Python Utilities (`Python/`)
+
+- `validate_naming.py` — checks underscores, flags spaces/ampersands/apostrophes
+- `cleanup_legacy_tags.py` — removes legacy `[TEXT]` tag format
+- `convert_to_markdown.py` — batch `.txt` → `.md` with meta → YAML conversion
+- `process_session_summary.py` — quick-capture → formatted session logs
 
 ### Model Tiers
 
-- **Opus** — world-shaping decisions, lore architecture, deep consistency work
+- **Opus** — world-shaping decisions, lore architecture, deep consistency, central character work
 - **Sonnet** — session running (canonical), NPC dialogue, scene execution, day-to-day creative
 - **Haiku** — templated expansion, mechanical transforms, batch metadata
+- Handoff saves tokens only when source emits a compact spec Haiku expands — not when full content is passed through
 
 ### Git Commit Format
 
@@ -194,15 +250,11 @@ Categories: `Session:` `Scenario Extraction:` `World Building:` `Character:` `Ru
 
 ---
 
-## Key Learnings & Patterns
+## Key Operational Notes
 
-- `filesystem:edit_file` with `oldText`/`newText` pairs required for in-place edits; always read file immediately before editing
-- Always verify writes with a follow-up read (check YAML frontmatter at top, completion at bottom)
-- `filesystem:search_files` with glob `**/*filename*` reliably locates files when exact name is uncertain
+- Always `filesystem:read_file` immediately before `filesystem:edit_file` — exact string matching required
+- Always verify writes with a follow-up read (check YAML frontmatter top, content bottom)
+- `filesystem:search_files` with glob `**/*filename*` reliably locates files when exact name uncertain
 - Directory creation requires separate calls per level
-- Cross-thread MCP file access is not possible
-- The MCP memory graph (`memory.jsonl`) is largely retired; `userMemories` (claude.ai) is the active continuity system
-
----
-
-*Last synced from claude.ai userMemories: 2026-05-19*
+- Sessions live in `Scenarios/` subfolders — there is no root `Session_Summaries/` directory
+- `userMemories` (claude.ai) is the active continuity system; MCP memory graph is retired
