@@ -12,6 +12,9 @@ this interface is ranked search over the pre-built corpus_fts table.
 
 Launched by Claude Desktop as a stdio subprocess via claude_desktop_config.json.
 Not intended to be run manually.
+
+changed 2026-05-19: fixed stale build_search_index.py reference in error messages
+changed 2026-05-19: connections now closed via try/finally instead of inline close
 """
 
 import datetime
@@ -87,7 +90,7 @@ def search_corpus(
         Returns a 'no results' message or error string on failure.
     """
     if not DB_PATH.exists():
-        rebuild_path = DB_PATH.parent / "build_search_index.py"
+        rebuild_path = DB_PATH.parent / "build_indexes.py"
         return (
             f"[!] Search index not found at {DB_PATH}.\n"
             f"Run: python {rebuild_path}"
@@ -131,6 +134,7 @@ def search_corpus(
     if subquery_filters:
         where_clause += "\n  AND " + "\n  AND ".join(subquery_filters)
 
+    conn = None
     try:
         conn = _open_readonly()
         cur = conn.cursor()
@@ -158,7 +162,6 @@ def search_corpus(
             [match_expr] + subquery_params + [limit],
         )
         rows = cur.fetchall()
-        conn.close()
     except sqlite3.OperationalError as e:
         return (
             f"[!] Search error: {e}\n\n"
@@ -167,6 +170,9 @@ def search_corpus(
         )
     except Exception as e:
         return f"[!] Unexpected error: {e}"
+    finally:
+        if conn:
+            conn.close()
 
     if not rows:
         suffixes = []
@@ -225,20 +231,23 @@ def index_status() -> str:
     Useful for checking whether the index is stale before relying on results.
     """
     if not DB_PATH.exists():
-        rebuild_path = DB_PATH.parent / "build_search_index.py"
+        rebuild_path = DB_PATH.parent / "build_indexes.py"
         return (
             f"[!] Index not built yet.\n"
             f"Run: python {rebuild_path}"
         )
 
+    conn = None
     try:
         conn = _open_readonly()
         cur = conn.cursor()
         cur.execute("SELECT COUNT(*) FROM corpus_fts")
         count = cur.fetchone()[0]
-        conn.close()
     except Exception as e:
         return f"[!] Could not read index: {e}"
+    finally:
+        if conn:
+            conn.close()
 
     mtime = datetime.datetime.fromtimestamp(DB_PATH.stat().st_mtime)
     age = datetime.datetime.now() - mtime

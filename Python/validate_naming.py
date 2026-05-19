@@ -1,9 +1,18 @@
 #!/usr/bin/env python3
-"""
-Universal file and folder naming validator and fixer.
-Checks for compliance with naming rules without hard-coded paths.
-Can be run from any directory.
-"""
+# name: validate_naming.py
+# keywords: [naming, validation, corpus, maintenance, rename]
+# description: Scans a directory tree for Snake_Case naming violations (spaces, ampersands, apostrophes) and renames files/folders after confirmation.
+#
+# Modification script. Checks files and folders for compliance with the corpus naming
+# convention (Snake_Case_With_Capitals). Reports issues grouped by type, previews all
+# proposed renames, then asks for confirmation before touching anything.
+# Run from any directory; defaults to current directory if no --root is given.
+#
+# Command line arguments:
+#   --root [path]  - Directory to scan (default: prompted interactively)
+#   --dry-run      - Show report and preview without renaming anything
+#
+# changed 2026-05-19: added standard header, --dry-run flag, --root argument, confirmation changed to [y/N] default NO
 
 import os
 import re
@@ -16,6 +25,8 @@ class IssueType(Enum):
     SPACE_IN_NAME = "Contains spaces"
     AMPERSAND = "Contains '&' (should be '_and_')"
     APOSTROPHE = "Contains apostrophes"
+    # INCONSISTENT_CAPS is defined but not currently checked in check_name().
+    # Left here as a placeholder if cap-consistency checking is added later.
     INCONSISTENT_CAPS = "Inconsistent capitalization"
 
 
@@ -216,19 +227,19 @@ class NamingValidator:
 
 
 def get_directory_input() -> Path:
-    """Prompt user for directory path."""
+    """Prompt user for directory path interactively (used when --root is not supplied)."""
     print("\n" + "="*80)
     print("NAMING VALIDATOR & FIXER")
     print("="*80 + "\n")
-    
+
     while True:
         user_input = input("Enter directory path (or press Enter for current directory): ").strip()
-        
+
         if not user_input:
             return Path.cwd()
-        
+
         directory = Path(user_input).absolute()
-        
+
         if directory.is_dir():
             print(f"\n✓ Using: {directory}\n")
             return directory
@@ -238,31 +249,58 @@ def get_directory_input() -> Path:
 
 
 def main():
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Scan a directory for corpus naming violations and rename after confirmation."
+    )
+    parser.add_argument(
+        "--root",
+        default=None,
+        help="Directory to scan (default: prompted interactively)",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Show report and preview renames without applying any changes",
+    )
+    args = parser.parse_args()
+
     try:
-        root_dir = get_directory_input()
-        
+        if args.dry_run:
+            print("[DRY RUN] No files will be renamed.")
+
+        root_dir = Path(args.root).absolute() if args.root else get_directory_input()
+
+        if not root_dir.is_dir():
+            print(f"❌ Directory not found: {root_dir}")
+            return 1
+
         print("🔍 Scanning directory structure...\n")
         validator = NamingValidator(str(root_dir))
         validator.scan_directory()
-        
-        # Show report
+
         validator.print_report()
-        
-        # If issues found, ask what to do
-        if validator.issues:
-            validator.preview_fixes()
-            
-            response = input("🚀 Apply fixes? (yes/no): ").strip().lower()
-            
-            if response in ['yes', 'y']:
-                error_count = validator.execute_fixes()
-                return error_count
-            else:
-                print("❌ Operation cancelled.")
-                return 0
-        
-        return 0
-    
+
+        if not validator.issues:
+            return 0
+
+        validator.preview_fixes()
+
+        print(f"\n{len(validator.renames)} rename(s) proposed.")
+
+        if args.dry_run:
+            print("[DRY RUN] No changes made.")
+            return 0
+
+        response = input("Apply changes? [y/N]: ").strip().lower()
+        if response != "y":
+            print("Aborted.")
+            return 0
+
+        error_count = validator.execute_fixes()
+        return error_count
+
     except KeyboardInterrupt:
         print("\n\n❌ Operation cancelled by user.")
         return 1

@@ -64,6 +64,11 @@ def _strip_comment(line: str) -> str:
         'Trash/*.*       # visible in tree'  ->  'Trash/*.*'
         '# full comment line'                ->  ''
         'mode = blacklist'                   ->  'mode = blacklist'
+
+    Limitation: a literal '#' inside a value (e.g. root_directory = D:\\some#path)
+    would be incorrectly treated as a comment start, truncating the value.
+    Windows paths never contain '#' in practice, so this is not a real concern
+    for this codebase — but don't use this parser for configs that need '#' in values.
     """
     return line.split("#")[0].rstrip()
 

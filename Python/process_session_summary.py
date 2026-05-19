@@ -1,19 +1,24 @@
 # name: Process Session Summary
 # keywords: [utility, session, documentation, automation]
-# description: Converts quick-capture session notes into properly formatted session logs and timeline entries
+# description: Converts quick-capture session notes into formatted session logs and writes them to Stories/ as .txt files.
 #
-# Processes Session_Summary_Quick_Capture.md files and generates:
-#   - Formatted session log (Stories/[name].txt)
-#   - Timeline event entries
-#   - Character status updates summary
-#   - Campaign progress notes
+# Reads a Session_Summary_Quick_Capture.md form and generates a formatted session log.
+# Output is a plain .txt file in Stories/ (no meta tag — Stories/ .txt files no longer
+# require metadata). Modification script: shows preview, asks for confirmation before writing.
+#
+# Output path resolves relative to this script's location (../Stories/) by default,
+# so it works correctly from any working directory including inside Docker.
 #
 # Command line arguments:
 #   --input [path]    - Path to quick capture form (required)
-#   --output [path]   - Output directory for session log (default: Stories/)
+#   --output [path]   - Output directory for session log (default: ../Stories/ relative to script)
 #   --condensed       - Use condensed template (default: full template)
-#   --timeline        - Generate timeline-only output (no session log)
 #   --dry-run         - Preview output without writing
+#   --session-name    - Override session name (default: derived from input filename)
+#
+# changed 2026-05-19: removed hardcoded D:\Claude_MCP_folder path; output now resolves relative to script
+# changed 2026-05-19: removed deprecated <meta> tag from output (Stories/ .txt no longer needs it)
+# changed 2026-05-19: added confirmation prompt before writing (was writing directly without asking)
 
 import sys
 import os
@@ -180,24 +185,24 @@ def generate_full_log(data):
 
 
 def format_for_stories(session_name, log_content):
-    """Format log for Stories directory with proper meta tag."""
-    
-    # Extract campaign from metadata
-    campaign = session_name.split('_')[0] if '_' in session_name else 'Session'
-    
-    meta_tag = f"<meta>{session_name}, session, log, story, {campaign}, Session documentation for {session_name}</meta>"
-    
-    full_content = f"{meta_tag}\n\n{log_content}"
-    
-    return full_content
+    """Return log content ready to write to Stories/.
+
+    Stories/ .txt files no longer require a meta tag or YAML frontmatter,
+    so this just returns the content as-is.
+    """
+    return log_content
 
 
 def main():
+    # Default output resolves relative to this script: ../Stories/
+    # Works correctly from any working directory, including inside Docker.
+    default_output = str(Path(__file__).parent.parent / 'Stories')
+
     parser = argparse.ArgumentParser(
         description='Convert quick-capture session notes into formatted session logs'
     )
     parser.add_argument('--input', required=True, help='Path to quick capture form')
-    parser.add_argument('--output', default='D:\\Claude_MCP_folder\\Stories', help='Output directory for session log')
+    parser.add_argument('--output', default=default_output, help=f'Output directory for session log (default: {default_output})')
     parser.add_argument('--condensed', action='store_true', help='Use condensed template')
     parser.add_argument('--dry-run', action='store_true', help='Preview without writing')
     parser.add_argument('--session-name', help='Override session name (derived from input filename by default)')
@@ -232,6 +237,11 @@ def main():
     if args.dry_run:
         print(f"\n[DRY RUN] Would write to: {output_path}")
     else:
+        print(f"\nWould write to: {output_path}")
+        confirm = input("Apply changes? [y/N]: ").strip().lower()
+        if confirm != 'y':
+            print("Aborted.")
+            sys.exit(0)
         os.makedirs(args.output, exist_ok=True)
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(formatted_content)
