@@ -15,42 +15,8 @@ from typing import Optional
 
 from wxx_annotations import (
     world_to_hex, world_to_square, cells_adjacent_or_equal,
+    classify_shape_tag, stroke_to_feet, sample_path_cells,
 )
-
-
-# =============================================================================
-# Path → cell sequence sampling
-# =============================================================================
-# Walk shape points and produce an ordered list of cells touched.
-
-def sample_path_cells(points: list, orientation: str,
-                      samples_per_segment: int = 10) -> list:
-    """Walk a path and return [(col, row), ...] of cells touched."""
-    if not points:
-        return []
-    cells = []
-    last_cell = None
-    is_square = orientation == 'SQUARE'
-    for i in range(len(points) - 1):
-        x1, y1 = points[i]
-        x2, y2 = points[i + 1]
-        for t in range(samples_per_segment + 1):
-            s = t / samples_per_segment
-            wx = x1 + (x2 - x1) * s
-            wy = y1 + (y2 - y1) * s
-            if is_square:
-                cell = world_to_square(wx, wy)
-            else:
-                cell = world_to_hex(wx, wy, orientation)
-            if cell != last_cell:
-                cells.append(cell)
-                last_cell = cell
-    # Defensive: dedupe consecutive
-    deduped = [cells[0]] if cells else []
-    for c in cells[1:]:
-        if c != deduped[-1]:
-            deduped.append(c)
-    return deduped
 
 
 # =============================================================================
@@ -70,8 +36,16 @@ def format_path_with_inheritance(cells: list, conditions: dict) -> str:
     for cell in cells:
         if cell in conditions:
             kvs = conditions[cell]
-            kv_str = ','.join(f'{k}={v}' for k, v in kvs.items())
-            parts.append(f'({cell[0]},{cell[1]}):{kv_str}')
+            kv_parts = []
+            for k, v in kvs.items():
+                if k == 'ref':
+                    items = v if isinstance(v, list) else [v]
+                    kv_parts.extend(f'@{item}' for item in items)
+                elif isinstance(v, list):
+                    kv_parts.extend(f'{k}={item}' for item in v)
+                else:
+                    kv_parts.append(f'{k}={v}')
+            parts.append(f'({cell[0]},{cell[1]}):{",".join(kv_parts)}')
         else:
             parts.append(f'({cell[0]},{cell[1]})')
     return '|'.join(parts)
@@ -319,18 +293,24 @@ def build_description(wmap, annotations: dict = None,
 
     # ── Linear Features ────────────────────────────────────
     if not is_square:
-        road_shapes = [s for s in wmap.shapes if s.tag == 'road']
-        river_shapes = [s for s in wmap.shapes if s.tag == 'river']
+        _cat = lambda s: classify_shape_tag(s.tag, getattr(s, 'shape_type', 'Path'))
+        road_shapes  = [s for s in wmap.shapes if _cat(s) in ('road', 'bridge')]
+        river_shapes = [s for s in wmap.shapes if _cat(s) == 'river']
+        wall_shapes  = [s for s in wmap.shapes if _cat(s) == 'wall']
+        moat_shapes  = [s for s in wmap.shapes if _cat(s) == 'moat']
 
         if road_shapes or river_shapes:
             out.append('## Linear Features')
+            out.append('# @ref tags on path cells resolve to full definitions in Entity Definitions below.')
             out.append('')
 
             roads_anno = annotations.get('roads', {})
             for ord_idx, shape in enumerate(road_shapes, start=1):
                 entry = roads_anno.get(ord_idx, {})
-                name = entry.get('name', f'road {ord_idx}')
-                base = entry.get('base', 'unspecified surface, unspecified width')
+                name = entry.get('name', shape.tag if shape.tag else f'road {ord_idx}')
+                width_ft = stroke_to_feet(shape.stroke_width)
+                default_base = f'{shape.tag}, width≈{width_ft}ft' if shape.tag else f'unspecified surface, width≈{width_ft}ft'
+                base = entry.get('base', default_base)
                 flow = entry.get('flow', {})
                 conditions = entry.get('conditions', {})
                 cells = sample_path_cells(shape.points, orientation)
@@ -383,17 +363,17 @@ def build_description(wmap, annotations: dict = None,
                     out.append(f'path: {format_path_with_inheritance(cells, conditions)}')
                 out.append('')
 
-    # ── Linear Feature Details ─────────────────────────────
+    # ── Entity Definitions ─────────────────────────────────
     linear_details = annotations.get('linear_details', {})
     if linear_details:
-        out.append('## Linear Feature Details')
+        out.append('## Entity Definitions')
+        out.append('# Full definitions for all @ref tags used in Linear Features above.')
         out.append('')
-        out.append('| Ref | Type | Description |')
-        out.append('|=====|======|=============|')
+        out.append('| Entity | Type | Description |')
+        out.append('|========|======|=============|')
         for ref_id in sorted(linear_details.keys()):
             details = linear_details[ref_id]
             ref_type = details.get('type', '')
-            # Build a description from name + other fields
             desc_parts = []
             if 'name' in details:
                 desc_parts.append(details['name'] + '.')
@@ -401,7 +381,74 @@ def build_description(wmap, annotations: dict = None,
                 if k in details and details[k]:
                     desc_parts.append(f'{k}: {details[k]}.')
             description = ' '.join(desc_parts)
-            out.append(f'| {ref_id} | {ref_type} | {description} |')
+            out.append(f'| @{ref_id} | {ref_type} | {description} |')
+        out.append('')
+
+    # ── Walls ──────────────────────────────────────────────
+    walls_anno = annotations.get('walls', [])
+    if not is_square and (wall_shapes or walls_anno):
+        out.append('## Walls')
+        out.append('')
+        for ord_idx, shape in enumerate(wall_shapes, start=1):
+            entry = next((w for w in walls_anno if w.get('id') == f'wall {ord_idx}'), {})
+            name = entry.get('name', shape.tag if shape.tag else f'wall {ord_idx}')
+            cells = sample_path_cells(shape.points, orientation)
+            out.append(f'### wall {ord_idx}')
+            out.append(f'name: {name}')
+            for k in ('type', 'height_m', 'thickness_m', 'condition'):
+                v = entry.get(k, '')
+                if v:
+                    out.append(f'{k}: {v}')
+            for k in ('towers', 'gates'):
+                v = entry.get(k, '')
+                if v:
+                    out.append(f'{k}: {v}')
+            note = entry.get('note', '')
+            if note:
+                out.append(f'note: {note}')
+            if cells:
+                out.append(f'path: {format_path_with_inheritance(cells, {})}')
+            out.append('')
+
+    # ── Moat ───────────────────────────────────────────────
+    moats_anno = annotations.get('moats', [])
+    if not is_square and (moat_shapes or moats_anno):
+        out.append('## Moat')
+        out.append('')
+        for ord_idx, shape in enumerate(moat_shapes, start=1):
+            entry = next((m for m in moats_anno if m.get('id') == f'moat {ord_idx}'), {})
+            name = entry.get('name', shape.tag if shape.tag else f'moat {ord_idx}')
+            cells = sample_path_cells(shape.points, orientation)
+            out.append(f'### moat {ord_idx}')
+            out.append(f'name: {name}')
+            for k in ('source', 'width_m', 'depth_m', 'condition', 'is_river_segment'):
+                v = entry.get(k, '')
+                if v:
+                    out.append(f'{k}: {v}')
+            note = entry.get('note', '')
+            if note:
+                out.append(f'note: {note}')
+            if cells:
+                out.append(f'path: {format_path_with_inheritance(cells, {})}')
+            out.append('')
+
+    # ── Districts ──────────────────────────────────────────
+    districts = annotations.get('districts', [])
+    if districts:
+        out.append('## Districts')
+        out.append('# Named areas delineated as polygons on the map.')
+        out.append('')
+        out.append('| District | Visibility | Description |')
+        out.append('|==========|============|=============|')
+        for d in districts:
+            name = d.get('name', '(unnamed)')
+            vis = d.get('visibility', 'known')
+            desc = d.get('description', '')
+            if desc == 'TODO':
+                desc = ''
+            note = d.get('note', '')
+            full_desc = '. '.join(x for x in (desc, note) if x and x != 'TODO')
+            out.append(f'| {name} | {vis} | {full_desc} |')
         out.append('')
 
     # ── Points of Interest ─────────────────────────────────

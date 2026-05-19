@@ -29,6 +29,86 @@ from datetime import date
 from typing import Optional
 
 
+def classify_shape_tag(raw_tag: str, shape_type: str = 'Path') -> str:
+    """Map a Worldographer shape tag to a semantic category.
+
+    Tags are user-defined free text, so we match by keyword.
+    Returns one of: 'road', 'river', 'moat', 'wall', 'bridge', 'district', 'other'
+    """
+    t = raw_tag.lower()
+    # Moat before river — a moat is a defensive water feature distinct from a natural river
+    if 'moat' in t:
+        return 'moat'
+    # Water keywords apply to both paths and polygons (polygon = river body, path = flow course)
+    if any(w in t for w in ('river', 'stream', 'creek', 'canal', 'brook', 'lake', 'pond')):
+        return 'river'
+    if shape_type == 'Polygon':
+        return 'district'
+    if 'bridge' in t:
+        return 'bridge'
+    if any(w in t for w in ('road', 'street', 'lane', 'alley', 'way', 'track', 'trail')):
+        return 'road'
+    if any(w in t for w in ('wall', 'rampart', 'palisade', 'fence')):
+        return 'wall'
+    return 'other'
+
+
+def stroke_to_feet(stroke_width: float) -> int:
+    """Convert Worldographer strokeWidth to approximate feet.
+    strokeWidth = in_app_weight / 100; user convention: 1 weight ≈ 1 ft.
+    """
+    return round(stroke_width * 100)
+
+
+def sample_path_cells(points: list, orientation: str,
+                      samples_per_segment: int = 10) -> list:
+    """Walk a shape's point list and return the ordered hex/square cells touched."""
+    if not points:
+        return []
+    cells = []
+    last_cell = None
+    is_square = orientation == 'SQUARE'
+    for i in range(len(points) - 1):
+        x1, y1 = points[i]
+        x2, y2 = points[i + 1]
+        for t in range(samples_per_segment + 1):
+            s = t / samples_per_segment
+            wx = x1 + (x2 - x1) * s
+            wy = y1 + (y2 - y1) * s
+            cell = world_to_square(wx, wy) if is_square else world_to_hex(wx, wy, orientation)
+            if cell != last_cell:
+                cells.append(cell)
+                last_cell = cell
+    deduped = [cells[0]] if cells else []
+    for c in cells[1:]:
+        if c != deduped[-1]:
+            deduped.append(c)
+    return deduped
+
+
+def _wall_feature_cells(wall_shape, wmap, orientation: str) -> tuple[list, list]:
+    """Find tower and gatehouse features lying on or adjacent to a wall shape.
+
+    Returns (tower_cells, gate_cells) as lists of (col, row) tuples.
+    """
+    path_cells = set(sample_path_cells(wall_shape.points, orientation))
+
+    towers, gates = [], []
+    for f in wmap.features:
+        if 'Coast' in f.type:
+            continue
+        fcell = world_to_hex(f.x, f.y, orientation)
+        ft = f.type.lower()
+        near = any(cells_adjacent_or_equal(fcell, wc) for wc in path_cells)
+        if not near:
+            continue
+        if any(w in ft for w in ('tower', 'walltower', 'watchtower')):
+            towers.append(fcell)
+        elif any(w in ft for w in ('gatehouse', 'gate')):
+            gates.append(fcell)
+    return towers, gates
+
+
 # =============================================================================
 # Coordinate inversion helpers (duplicated from wxx_to_claude to avoid circular)
 # =============================================================================
@@ -85,7 +165,8 @@ def find_stitch_candidates(shapes: list, orientation: str) -> list:
 
     Returns a list of (i, j, meeting_cells) for shape index pairs.
     """
-    rivers = [(idx, s) for idx, s in enumerate(shapes) if s.tag == 'river']
+    rivers = [(idx, s) for idx, s in enumerate(shapes)
+              if classify_shape_tag(s.tag, getattr(s, 'shape_type', 'Path')) == 'river']
     candidates = []
     for ai, (idx_a, sa) in enumerate(rivers):
         a_first, a_last = _shape_endpoint_cells(sa, orientation)
@@ -194,32 +275,37 @@ def scaffold(wmap, source_filename: str = '') -> str:
         out.append('  # (15, 12): 1800m   # example: ridge fortress site')
         out.append('')
 
-    # ── Roads / Rivers ─────────────────────────────────────
+    # ── Roads / Rivers / Districts ─────────────────────────
     if not is_square:
-        # Group shapes by tag
-        road_shapes = [(i, s) for i, s in enumerate(wmap.shapes) if s.tag == 'road']
-        river_shapes = [(i, s) for i, s in enumerate(wmap.shapes) if s.tag == 'river']
+        _classify = lambda s: classify_shape_tag(s.tag, getattr(s, 'shape_type', 'Path'))
+        road_shapes  = [(i, s) for i, s in enumerate(wmap.shapes) if _classify(s) == 'road']
+        river_shapes = [(i, s) for i, s in enumerate(wmap.shapes) if _classify(s) == 'river']
+        bridge_shapes = [(i, s) for i, s in enumerate(wmap.shapes) if _classify(s) == 'bridge']
+        district_shapes = [(i, s) for i, s in enumerate(wmap.shapes) if _classify(s) == 'district']
         stitch_pairs = find_stitch_candidates(wmap.shapes, wmap.hex_orientation)
-        # Map shape index → list of partners for stitch comments
         stitch_map = {}
         for ia, ib, (ca, cb) in stitch_pairs:
             stitch_map.setdefault(ia, []).append((ib, ca, cb))
             stitch_map.setdefault(ib, []).append((ia, cb, ca))
 
-        if road_shapes:
+        if road_shapes or bridge_shapes:
             out.append('## Roads')
             out.append('')
-            for ord_idx, (shape_idx, s) in enumerate(road_shapes, start=1):
+            all_road_like = road_shapes + bridge_shapes
+            all_road_like.sort(key=lambda x: x[0])
+            for ord_idx, (shape_idx, s) in enumerate(all_road_like, start=1):
                 first_cell, last_cell = _shape_endpoint_cells(s, wmap.hex_orientation)
+                width_ft = stroke_to_feet(s.stroke_width)
+                base_hint = s.tag if s.tag else 'unspecified surface'
                 out.append(f'### road {ord_idx}')
-                out.append(f'name: road {ord_idx}')
-                out.append('base: unspecified surface, unspecified width')
+                out.append(f'name: TODO  # {s.tag}')
+                out.append(f'base: {base_hint}, width≈{width_ft}ft')
                 out.append('flow:')
                 out.append(f'  primary_endpoint: {first_cell}')
                 out.append(f'  secondary_endpoint: {last_cell}')
                 out.append('conditions:')
                 out.append('  # (col,row): key=value, key=value')
-                out.append('  # example: (28,22): surface=gravel, width=1')
+                out.append('  # example: (28,22): ref=bridge#1')
                 out.append('')
 
         if river_shapes:
@@ -227,12 +313,11 @@ def scaffold(wmap, source_filename: str = '') -> str:
             out.append('')
             for ord_idx, (shape_idx, s) in enumerate(river_shapes, start=1):
                 first_cell, last_cell = _shape_endpoint_cells(s, wmap.hex_orientation)
-                # Stitch candidate comment
+                base_hint = s.tag if s.tag else 'unspecified width, unknown current'
                 if shape_idx in stitch_map:
                     out.append(f'### river {ord_idx}')
                     out.append('# === STITCH CANDIDATE ===')
                     for partner_idx, my_cell, their_cell in stitch_map[shape_idx]:
-                        # Find partner's ord_idx in river_shapes
                         partner_ord = None
                         for po, (pi, _) in enumerate(river_shapes, start=1):
                             if pi == partner_idx:
@@ -247,8 +332,8 @@ def scaffold(wmap, source_filename: str = '') -> str:
                     out.append('# Delete this comment once resolved.')
                 else:
                     out.append(f'### river {ord_idx}')
-                out.append(f'name: river {ord_idx}')
-                out.append('base: unspecified width, unknown current')
+                out.append(f'name: TODO  # {s.tag}')
+                out.append(f'base: {base_hint}')
                 out.append('flow:')
                 out.append('  origin: TODO')
                 out.append(f'  origin_cell: {first_cell}')
@@ -257,6 +342,65 @@ def scaffold(wmap, source_filename: str = '') -> str:
                 out.append('  direction: forward')
                 out.append('conditions:')
                 out.append('  # example: (25,18): ref=bridge#1')
+                out.append('')
+
+        wall_shapes = [(i, s) for i, s in enumerate(wmap.shapes) if _classify(s) == 'wall']
+        moat_shapes = [(i, s) for i, s in enumerate(wmap.shapes) if _classify(s) == 'moat']
+
+        if wall_shapes:
+            out.append('## Walls')
+            out.append('')
+            out.append('# Wall segments drawn as paths in the .wxx.')
+            out.append('# type options: palisade | earthwork | stone | brick | ruins')
+            out.append('# condition options: intact | damaged | ruined | under_construction')
+            out.append('# towers/gates are auto-detected from nearby features.')
+            out.append('')
+            for ord_idx, (shape_idx, s) in enumerate(wall_shapes, start=1):
+                first_cell, last_cell = _shape_endpoint_cells(s, wmap.hex_orientation)
+                towers, gates = _wall_feature_cells(s, wmap, wmap.hex_orientation)
+                out.append(f'### wall {ord_idx}')
+                out.append(f'name: TODO  # {s.tag}')
+                out.append('type: stone')
+                out.append('height_m: ')
+                out.append('thickness_m: ')
+                out.append('condition: intact')
+                if towers:
+                    cell_str = ', '.join(f'({c[0]},{c[1]})' for c in towers)
+                    out.append(f'towers: {cell_str}')
+                if gates:
+                    cell_str = ', '.join(f'({c[0]},{c[1]})' for c in gates)
+                    out.append(f'gates: {cell_str}')
+                out.append('note: ')
+                out.append('')
+
+        if moat_shapes:
+            out.append('## Moat')
+            out.append('')
+            out.append('# Defensive water features. source=river means the waterway itself is the barrier.')
+            out.append('')
+            for ord_idx, (shape_idx, s) in enumerate(moat_shapes, start=1):
+                first_cell, last_cell = _shape_endpoint_cells(s, wmap.hex_orientation)
+                out.append(f'### moat {ord_idx}')
+                out.append(f'name: TODO  # {s.tag}')
+                out.append('source: river  # river | dug | dry')
+                out.append('width_m: ')
+                out.append('depth_m: ')
+                out.append('condition: ')
+                out.append('is_river_segment: false  # true if the natural river forms this barrier')
+                out.append('note: ')
+                out.append('')
+
+        if district_shapes:
+            out.append('## Districts')
+            out.append('')
+            out.append('# Named areas drawn as polygons. Add descriptions and visibility.')
+            out.append('')
+            for ord_idx, (shape_idx, s) in enumerate(district_shapes, start=1):
+                out.append(f'### district {ord_idx}')
+                out.append(f'name: {s.tag if s.tag else f"district {ord_idx}"}')
+                out.append('visibility: known')
+                out.append('description: TODO')
+                out.append('note: ')
                 out.append('')
 
     # ── Linear Feature Details ─────────────────────────────
@@ -468,6 +612,9 @@ def parse(text: str) -> dict:
         'roads': {},
         'rivers': {},
         'linear_details': {},
+        'walls': [],
+        'moats': [],
+        'districts': [],
         'pois': [],
         'feature_visibility': {},
         'feature_names': {},
@@ -548,8 +695,21 @@ def parse(text: str) -> dict:
                             for pair in cm.group(2).split(','):
                                 if '=' in pair:
                                     pk, pv = pair.split('=', 1)
-                                    kvs[pk.strip()] = pv.strip()
-                            entry['conditions'][cell] = kvs
+                                    pk, pv = pk.strip(), pv.strip()
+                                    if pk == 'ref':
+                                        kvs.setdefault('ref', []).append(pv)
+                                    else:
+                                        kvs[pk] = pv
+                            # Merge into existing cell entry (same cell, multiple lines)
+                            if cell in entry['conditions']:
+                                existing = entry['conditions'][cell]
+                                for pk, pv in kvs.items():
+                                    if pk == 'ref':
+                                        existing.setdefault('ref', []).extend(pv)
+                                    else:
+                                        existing[pk] = pv
+                            else:
+                                entry['conditions'][cell] = kvs
                     continue
                 # Top-level fields (not in flow/conditions block)
                 k, v = _parse_kv_line(stripped)
@@ -630,6 +790,53 @@ def parse(text: str) -> dict:
                 if cell and name and name != 'TODO':
                     result['feature_names'][cell] = name
 
+    # Walls
+    if 'Walls' in sections:
+        subs = _split_subsections(sections['Walls'])
+        for sub_name, body in subs.items():
+            entry = {'id': sub_name.strip()}
+            for line in body.splitlines():
+                stripped = line.strip()
+                if not stripped or stripped.startswith('#'):
+                    continue
+                k, v = _parse_kv_line(stripped)
+                if k:
+                    entry[k] = v
+            if entry.get('name', 'TODO') != 'TODO' or any(
+                entry.get(f) for f in ('type', 'height_m', 'thickness_m', 'towers', 'gates', 'note')
+            ):
+                result['walls'].append(entry)
+
+    # Moat
+    if 'Moat' in sections:
+        subs = _split_subsections(sections['Moat'])
+        for sub_name, body in subs.items():
+            entry = {'id': sub_name.strip()}
+            for line in body.splitlines():
+                stripped = line.strip()
+                if not stripped or stripped.startswith('#'):
+                    continue
+                k, v = _parse_kv_line(stripped)
+                if k:
+                    entry[k] = v
+            result['moats'].append(entry)
+
+    # Districts
+    if 'Districts' in sections:
+        subs = _split_subsections(sections['Districts'])
+        for sub_name, body in subs.items():
+            entry = {'id': sub_name.strip()}
+            for line in body.splitlines():
+                stripped = line.strip()
+                if not stripped or stripped.startswith('#'):
+                    continue
+                k, v = _parse_kv_line(stripped)
+                if k:
+                    entry[k] = v
+            name = entry.get('name', '')
+            if name and name != 'TODO':
+                result['districts'].append(entry)
+
     return result
 
 
@@ -642,8 +849,9 @@ def check_drift(annotations: dict, wmap, valid_icon_types: set) -> list:
     warnings = []
 
     # Count roads/rivers in current map
-    n_roads = sum(1 for s in wmap.shapes if s.tag == 'road')
-    n_rivers = sum(1 for s in wmap.shapes if s.tag == 'river')
+    _cat = lambda s: classify_shape_tag(s.tag, getattr(s, 'shape_type', 'Path'))
+    n_roads = sum(1 for s in wmap.shapes if _cat(s) in ('road', 'bridge'))
+    n_rivers = sum(1 for s in wmap.shapes if _cat(s) == 'river')
 
     for ord_idx in annotations.get('roads', {}):
         if ord_idx > n_roads:
@@ -694,7 +902,10 @@ def check_drift(annotations: dict, wmap, valid_icon_types: set) -> list:
         for entry in entries:
             for cond in entry.get('conditions', {}).values():
                 if 'ref' in cond:
-                    referenced_refs.add(cond['ref'])
+                    refs = cond['ref']
+                    if isinstance(refs, str):
+                        refs = [refs]
+                    referenced_refs.update(refs)
     defined_refs = set(annotations.get('linear_details', {}).keys())
     for ref in referenced_refs - defined_refs:
         warnings.append(f"Reference '{ref}' used in path conditions but no entry in Linear Feature Details.")

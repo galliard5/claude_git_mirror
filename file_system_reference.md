@@ -5,7 +5,7 @@ description: Supplementary procedures, tool schemas, and standards — load on d
 ---
 
 This file supplements `file_system_instructions.md`. Load when needed for:
-- Complete tool schemas with examples (filesystem, memory, corpus-search, index-tools)
+- Complete tool schemas with examples (filesystem, corpus-search, index-tools)
 - Template usage
 - Index refresh tooling and conventions
 - Python script protocols
@@ -16,7 +16,7 @@ This file supplements `file_system_instructions.md`. Load when needed for:
 TOOL SCHEMA REFERENCE
 =====================
 
-Complete schemas for all filesystem, memory, corpus-search, and index-tools tools, captured by direct introspection via `tool_search`. If a schema appears wrong or a tool returns an unexpected error, re-verify with `tool_search` and update this section.
+Complete schemas for all filesystem, corpus-search, and index-tools tools, captured by direct introspection via `tool_search`. If a schema appears wrong or a tool returns an unexpected error, re-verify with `tool_search` and update this section.
 
 ## Filesystem Read Tools (4)
 
@@ -174,66 +174,6 @@ params:
 
 ### `filesystem:list_allowed_directories`
 Returns the list of directories this server can access. No params.
-
-## Memory Tools (9)
-
-These operate on a knowledge graph stored separately from the filesystem. Used rarely in this project (the directory index file plus userMemories cover most needs), but available if needed.
-
-### `memory:read_graph`
-Read the entire knowledge graph. No params.
-
-### `memory:search_nodes`
-Search graph by query string against entity names, types, and observation content.
-```
-params:
-  query: string (required)
-```
-
-### `memory:open_nodes`
-Retrieve specific entities by name.
-```
-params:
-  names: array[string] (required)
-```
-
-### `memory:create_entities`
-Create new entities in the knowledge graph.
-```
-params:
-  entities: array[{name: string, entityType: string, observations: array[string]}] (required)
-```
-
-### `memory:add_observations`
-Add observations to existing entities.
-```
-params:
-  observations: array[{entityName: string, contents: array[string]}] (required)
-```
-
-### `memory:create_relations`
-Create relations between entities. Use active voice for relationType.
-```
-params:
-  relations: array[{from: string, to: string, relationType: string}] (required)
-```
-
-### `memory:delete_entities`
-```
-params:
-  entityNames: array[string] (required)
-```
-
-### `memory:delete_observations`
-```
-params:
-  deletions: array[{entityName: string, observations: array[string]}] (required)
-```
-
-### `memory:delete_relations`
-```
-params:
-  relations: array[{from: string, to: string, relationType: string}] (required)
-```
 
 ## Corpus Search Tools (2)
 

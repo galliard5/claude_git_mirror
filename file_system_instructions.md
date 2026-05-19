@@ -2,7 +2,7 @@
 name: File System Instructions
 keywords: [rules, instructions, reference]
 description: Core project rules and procedures for every session
-last_edited_utc: 2026-05-18T20:30:00Z
+last_edited_utc: 2026-05-19T07:00:00Z
 ---
 
 AVAILABLE TOOLS FOR CLAUDE
@@ -13,8 +13,6 @@ AVAILABLE TOOLS FOR CLAUDE
 - Query: filesystem:list_directory, filesystem:get_file_info, filesystem:directory_tree, filesystem:search_files, filesystem:list_allowed_directories
 
 > Note: `mcp/filesystem:latest` (Docker Hub) currently ships v0.2.0. `read_file` reads the whole file — no `head`/`tail` support. Upstream `main` exposes `read_text_file`/`read_media_file`/`list_directory_with_sizes` but they're not yet published. Revisit when the image updates.
-
-**Memory Tools (9):** memory:read_graph, memory:create_entities, memory:add_observations, memory:delete_entities, memory:delete_observations, memory:create_relations, memory:delete_relations, memory:open_nodes, memory:search_nodes
 
 **Corpus Search Tools (2):** corpus-search:search_corpus, corpus-search:index_status (custom MCP server — see CORPUS SEARCH below)
 
@@ -39,8 +37,8 @@ STARTUP PROCEDURES — EXECUTE ON EVERY CONVERSATION START
 ## STEP 1: PROJECT ROOT & TOP-LEVEL STRUCTURE + DEFERRED TOOL LOAD
 
 **[FIRST] Preload all MCP tools (prevents deferred-tool load errors on first calls):**
-Call `tool_search("filesystem read write edit memory corpus index")` immediately at session start.
-This loads all 11 filesystem tools, 9 memory tools, 2 corpus-search tools, and 1 index-tools tool into the registry so they're ready for immediate use. Zero cost after first call; eliminates the red parameter-error on initial tool invocations.
+Call `tool_search("filesystem read write edit corpus index")` immediately at session start.
+This loads all 11 filesystem tools, 2 corpus-search tools, and 1 index-tools tool into the registry so they're ready for immediate use. Zero cost after first call; eliminates the red parameter-error on initial tool invocations.
 
 **Root:** `/corpus` (Docker container path) — ALL MCP file operations confined here. No exceptions.
 **Host path:** `D:\claude\filesystem\` — use this for git, CMD, and native Windows tools.
@@ -338,7 +336,7 @@ Process: Read → identify exact target text → edit with verified string.
 
 ## VERIFIED TOOL SCHEMAS (quickref)
 
-The most common tools, condensed. **Full schemas with examples for all 11 filesystem + 9 memory + 2 corpus-search + 1 index-tools tools live in `file_system_reference.md` under TOOL SCHEMA REFERENCE.** Load that file when in doubt about parameters or for tools used less often.
+The most common tools, condensed. **Full schemas with examples for all 11 filesystem + 2 corpus-search + 1 index-tools tools live in `file_system_reference.md` under TOOL SCHEMA REFERENCE.** Load that file when in doubt about parameters or for tools used less often.
 
 - `filesystem:read_file` — `path` (reads whole file; no head/tail in current image)
 - `filesystem:read_multiple_files` — `paths` (array)
@@ -455,7 +453,7 @@ Output a HANDOFF BLOCK with:
 - MODE and pre-formatted git commit message
 - Per-file: path + spec (Mode A) or path + operation + params (Mode B)
 
-**Source must not call filesystem or memory MCP tools during this phase.** Tool calls during handoff defeat the purpose.
+**Source must not call filesystem MCP tools during this phase.** Tool calls during handoff defeat the purpose.
 
 ### Handoff Block Format — Mode A (Templated Expansion)
 

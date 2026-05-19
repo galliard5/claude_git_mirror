@@ -20,6 +20,10 @@ import gzip, re, html, sys, os, argparse, datetime
 from dataclasses import dataclass, field
 from typing import Optional
 
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from wxx_annotations import classify_shape_tag
+
 
 # =============================================================================
 # 1. CONFIGURATION
@@ -70,6 +74,7 @@ class WxxShape:
     map_layer: str
     svg_path_d: str
     points: list = field(default_factory=list)
+    shape_type: str = 'Path'   # 'Path' or 'Polygon' from XML type= attribute
 
 @dataclass
 class WxxMap:
@@ -222,6 +227,7 @@ def parse_wxx(xml):
             map_layer=_attr(s_xml, 'mapLayer', '') or '',
             svg_path_d=d,
             points=pts,
+            shape_type=_attr(s_xml, 'type', 'Path') or 'Path',
         ))
 
     return WxxMap(
@@ -449,19 +455,30 @@ def render_hex_map(wmap, *, project_module=None, render_mode='production',
                    f'fill="{edge_color}" text-anchor="middle">{row}</text>')
     out.append('</g>')
 
-    # Shapes (rivers, roads)
+    # Shapes (rivers, roads, districts)
     out.append('<g id="shapes">')
     for s in wmap.shapes:
-        if s.tag == 'river':
+        cat = classify_shape_tag(s.tag, s.shape_type)
+        if cat == 'river':
             out.append(f'<path d="{s.svg_path_d}" fill="none" stroke="#3a6a8a" '
                        f'stroke-width="42" stroke-linecap="round" opacity="0.55"/>')
             out.append(f'<path d="{s.svg_path_d}" fill="none" stroke="#6fa9d3" '
                        f'stroke-width="26" stroke-linecap="round"/>')
-        elif s.tag == 'road':
+        elif cat in ('road', 'bridge'):
             out.append(f'<path d="{s.svg_path_d}" fill="none" stroke="#5a3d1d" '
                        f'stroke-width="22" stroke-linecap="round" opacity="0.8"/>')
             out.append(f'<path d="{s.svg_path_d}" fill="none" stroke="#c9a766" '
                        f'stroke-width="12" stroke-linecap="round" stroke-dasharray="20 14"/>')
+        elif cat == 'moat':
+            out.append(f'<path d="{s.svg_path_d}" fill="none" stroke="#3a6a8a" '
+                       f'stroke-width="18" stroke-linecap="round" opacity="0.5"/>')
+            out.append(f'<path d="{s.svg_path_d}" fill="none" stroke="#6fa9d3" '
+                       f'stroke-width="10" stroke-linecap="round" stroke-dasharray="30 10"/>')
+        elif cat == 'district':
+            stroke = s.stroke_color or '#666666'
+            fill = s.fill_color or 'none'
+            out.append(f'<path d="{s.svg_path_d} Z" fill="{fill}" stroke="{stroke}" '
+                       f'stroke-width="4" stroke-dasharray="12 6" opacity="0.6"/>')
         else:
             stroke = s.stroke_color or '#444444'
             fill = s.fill_color or 'none'
@@ -692,6 +709,129 @@ def _load_project(name):
         return None
 
 
+def render_map(
+    wxx_path: str,
+    svg_path: str,
+    *,
+    player: bool = False,
+    regenerate: bool = False,
+    project: str | None = None,
+    no_claude_header: bool = False,
+) -> tuple[bool, str]:
+    """Callable API for rendering a .wxx file to SVG without a subprocess.
+
+    This is the preferred entry-point when importing wxx_to_svg from another
+    module (e.g. annotation_model.py or a PyInstaller bundle) because
+    sys.executable may not point to a plain Python interpreter.
+
+    Returns (success, log_text).
+    """
+    import contextlib, io, traceback
+
+    buf = io.StringIO()
+
+    def _log(*args_: object, **kw: object) -> None:
+        print(*args_, **kw, file=buf)
+
+    try:
+        # Resolve sibling packages
+        here = os.path.dirname(os.path.abspath(__file__))
+        if here not in sys.path:
+            sys.path.insert(0, here)
+
+        _log(f'[parse] {wxx_path}')
+        xml = load_wxx(wxx_path)
+        wmap = parse_wxx(xml)
+        _log(f'  map_type={wmap.map_type}, hex_orientation={wmap.hex_orientation}, '
+             f'size={wmap.tiles_wide}x{wmap.tiles_high}')
+        _log(f'  terrain ids: {len(wmap.terrain)}, '
+             f'features: {len(wmap.features)}, shapes: {len(wmap.shapes)}')
+
+        from wxx_annotations import (
+            determine_state, write_scaffold, regenerate_scaffold,
+            load_annotations, check_drift, annotation_path_for,
+        )
+
+        state = determine_state(svg_path, regenerate=regenerate)
+        annot_path = annotation_path_for(svg_path)
+        annotations = None
+        source_filename = os.path.basename(wxx_path)
+
+        if state == 'regenerate':
+            prev, new = regenerate_scaffold(wmap, svg_path, source_filename)
+            _log(f'[regenerate] Backed up old -> {prev}')
+            _log(f'[regenerate] Wrote fresh scaffold -> {new}')
+            annotations = load_annotations(svg_path)
+            render_mode = 'scaffold'
+        elif state == 'scaffold':
+            new_path = write_scaffold(wmap, svg_path, source_filename)
+            _log(f'[scaffold] No existing annotations — wrote {new_path}')
+            annotations = load_annotations(svg_path)
+            render_mode = 'scaffold'
+        else:
+            annotations = load_annotations(svg_path)
+            _log(f'[merge] Loaded annotations from {annot_path}')
+            render_mode = 'production'
+
+        if annotations and state == 'merge':
+            try:
+                from icons import all_types
+                valid_types = set(all_types(wmap.map_type))
+            except Exception:
+                valid_types = set()
+            warnings = check_drift(annotations, wmap, valid_types)
+            for w in warnings:
+                _log(f'  WARN: {w}')
+
+        project_name = project
+        if not project_name and annotations:
+            project_name = annotations.get('project', 'default')
+        if not project_name:
+            project_name = 'default'
+        project_module = _load_project(project_name)
+        _log(f'  project: {project_name}')
+
+        visibility_filter = 'player' if player else 'gm'
+        _log(f'[render] mode={render_mode}, visibility={visibility_filter}')
+        svg = render(wmap,
+                     project_module=project_module,
+                     render_mode=render_mode,
+                     visibility_filter=visibility_filter,
+                     annotations=annotations)
+
+        if not no_claude_header:
+            try:
+                from wxx_to_claude import build_description
+                try:
+                    from terrain.world import glyph_for as world_glyph
+                except Exception:
+                    world_glyph = None
+                terrain_reskins = _project_terrain_reskins(project_module)
+                palette_overrides = (getattr(project_module, 'PALETTE_OVERRIDES', {})
+                                      if project_module else {})
+                desc = build_description(
+                    wmap, annotations,
+                    source_filename=source_filename,
+                    project_palette_overrides=palette_overrides,
+                    project_terrain_reskins=terrain_reskins,
+                    terrain_glyph_fn=world_glyph,
+                )
+                svg = embed_claude_header(svg, desc, source_filename=source_filename)
+                _log(f'  embedded header: {len(desc.splitlines())} description lines')
+            except Exception as e:
+                _log(f'  WARN: could not embed Claude header: {e}')
+
+        with open(svg_path, 'w', encoding='utf-8') as fh:
+            fh.write(svg)
+        _log(f'[write] {svg_path}: {len(svg):,} bytes')
+
+        return True, buf.getvalue()
+
+    except Exception:
+        _log(traceback.format_exc())
+        return False, buf.getvalue()
+
+
 def main():
     ap = argparse.ArgumentParser(description='Render Worldographer .wxx → v2 .svg')
     ap.add_argument('input', help='Path to .wxx file')
@@ -726,6 +866,7 @@ def main():
     from wxx_annotations import (
         determine_state, write_scaffold, regenerate_scaffold,
         load_annotations, check_drift, annotation_path_for,
+        classify_shape_tag,
     )
     state = determine_state(args.output, regenerate=args.regenerate_annotations)
     annot_path = annotation_path_for(args.output)
@@ -734,8 +875,8 @@ def main():
     source_filename = os.path.basename(args.input)
     if state == 'regenerate':
         prev, new = regenerate_scaffold(wmap, args.output, source_filename)
-        print(f'[regenerate] Backed up old → {prev}')
-        print(f'[regenerate] Wrote fresh scaffold → {new}')
+        print(f'[regenerate] Backed up old -> {prev}')
+        print(f'[regenerate] Wrote fresh scaffold -> {new}')
         print(f'  Hand-merge from .previous.md before re-rendering. '
               f'Re-running --regenerate-annotations will overwrite .previous.md.')
         annotations = load_annotations(args.output)

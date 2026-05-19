@@ -36,14 +36,16 @@ Two attributes on the `<map>` root determine which rendering path to use:
 <map type="BATTLEMAT" hexOrientation="SQUARE"  ...>   <!-- square / battlemap -->
 ```
 
-Worldographer offers **four fundamental map types** in its New Map dialog. As far as decoding goes, they collapse into two structural categories — hex (any orientation) and square — but the `type` attribute and likely feature library will differ:
+Worldographer offers **four fundamental map types** in its New Map dialog. As far as decoding goes, they collapse into two structural categories — hex (any orientation) and square — but the `type` attribute and feature library will differ:
 
-| User-facing name        | `type` attribute (observed/expected) | Grid kind | Notes |
-|-------------------------|--------------------------------------|-----------|-------|
-| World/Kingdom           | `WORLD`                              | hex       | Classic terrain library |
-| Town/City/Village       | likely `TOWN` or similar             | hex       | Smaller scale, urban features (no sample yet) |
-| Sector/Cosmic           | likely `COSMIC` or similar           | hex       | Starmap visuals (no sample yet) |
-| Battlemat/Dungeon       | `BATTLEMAT`                          | square    | Battlemat feature library, terrain via shapes |
+| User-facing name        | `type` attribute (confirmed/expected) | Grid kind | Notes |
+|-------------------------|---------------------------------------|-----------|-------|
+| World/Kingdom           | `WORLD`                               | hex       | Classic terrain library |
+| Town/City/Village       | `SETTLEMENT`                          | hex       | Structure/* feature library; same hex geometry as WORLD |
+| Sector/Cosmic           | likely `COSMIC` or similar            | hex       | Starmap visuals (no sample yet) |
+| Battlemat/Dungeon       | `BATTLEMAT`                           | square    | Battlemat feature library, terrain via shapes |
+
+**SETTLEMENT maps confirmed identical in structure to WORLD.** Same gzip/UTF-16-BE encoding, same hex geometry, same `<tiles>/<features>/<shapes>` layout. The only differences are the feature icon library (`Structure/Medieval *` instead of `Classic/*`) and a richer use of the shapes layer for roads, walls, and district polygons. All WORLD parsing code works unchanged on SETTLEMENT files.
 
 `hexOrientation` is the cleaner discriminator for rendering:
 
@@ -527,20 +529,163 @@ Run through this every time before bothering with stylistic polish.
 **Square maps additionally:**
 
 11. **Tile uniformity** — confirm all tiles are blank (`'0\t1\t0\t0\t0\tZ'` or similar). If they vary, the tile grid IS being used and you need to handle it.
-12. **Shape tags** — recognised tags (`ground`, `floor`, `room`, `wall`)? Any custom tags the user added that need styling?
+12. **Shape tags** — for battlemaps: recognised tags (`ground`, `floor`, `room`, `wall`)? For SETTLEMENT/hex maps: use keyword classification (§11), never exact match.
 13. **Polygon closure** — ground/floor/room paths should end with `Z` to fill correctly.
 
 Once all relevant checks pass, the map will be structurally correct and any remaining issues are stylistic.
 
 ---
 
-## 11. Output format: see `Wxx_Map_Format_Spec.md`
+## 11. Shape tags are user-defined free text — not a fixed vocabulary
+
+This is the most important thing to understand before writing any shape classification code. **The `tags` attribute on `<shape>` elements is freeform text entered by the map author in Worldographer's UI.** The application ships with a few preset style names (`road`, `river`) but the author can type anything.
+
+### What this means in practice
+
+A WORLD map's first test file may use preset tags (`road`, `river`) and appear to have a fixed vocabulary. A SETTLEMENT map created by the same author will likely have descriptive tags like `"Dirt/cobble road"`, `"Stone Bridge (15m clearance)"`, `"City Wall"`, `"Administrative zone"`. **Neither set is more "correct" — both are equally valid author choices.**
+
+Never write `if s.tag == 'road':` for anything beyond the simplest demo. Use keyword matching:
+
+```python
+def classify_shape_tag(raw_tag: str, shape_type: str = 'Path') -> str:
+    """Semantic classification of a shape by keyword matching on its tag."""
+    t = raw_tag.lower()
+    if 'moat' in t:
+        return 'moat'      # before river — moat is a defensive feature
+    if any(w in t for w in ('river', 'stream', 'creek', 'canal', 'brook', 'lake', 'pond')):
+        return 'river'
+    if shape_type == 'Polygon':
+        return 'district'  # named area polygon; check water keywords first
+    if 'bridge' in t:
+        return 'bridge'
+    if any(w in t for w in ('road', 'street', 'lane', 'alley', 'way', 'track', 'trail')):
+        return 'road'
+    if any(w in t for w in ('wall', 'rampart', 'palisade', 'fence')):
+        return 'wall'
+    return 'other'
+```
+
+The full tag string (e.g. `"Fine Stone road"`, `"Stone Bridge (15m clearance)"`) is also the best human-readable description of the feature — surface material and parenthetical metadata are embedded there by the author and should be surfaced in any output rather than discarded.
+
+### The `type` attribute distinguishes Path from Polygon
+
+The `<shape>` element has a `type` attribute — distinct from the map-level `<map type>` — that indicates the geometric form:
+
+| `type` value | Meaning |
+|--------------|---------|
+| `Path`       | Open or unclosed line/curve — roads, rivers, walls, moats |
+| `Polygon`    | Closed filled area — district boundaries, water bodies |
+
+**This attribute must be parsed and stored alongside `tags`.** A polygon tagged `"Angerap river"` is a filled water-body shape, not a flow-direction path. A polygon tagged `"Administrative zone"` is a district boundary. Without `type`, both would be misclassified.
+
+```python
+shape_type = _attr(s_xml, 'type', 'Path') or 'Path'   # 'Path' or 'Polygon'
+```
+
+Water keywords take priority even on Polygons (a river polygon should classify as `river`, not `district`).
+
+---
+
+## 12. strokeWidth encodes road/feature width
+
+`strokeWidth` on `<shape>` elements is stored as a float and corresponds directly to the author's in-app line-weight setting via:
+
+```
+strokeWidth = in_app_weight / 100
+```
+
+For the Aethelmark project, the author uses the convention **1 weight unit ≈ 1 foot of real-world width**. So:
+
+| In-app weight | strokeWidth | Approximate width |
+|---------------|-------------|-------------------|
+| 10            | 0.1         | ~10 ft (back alley) |
+| 20            | 0.2         | ~20 ft (secondary street) |
+| 30            | 0.3         | ~30 ft (main road) |
+| 40            | 0.4         | ~40 ft (wide bridge/avenue) |
+
+This convention is project-specific but the encoding formula is consistent. Verify against any known feature (e.g. a bridge with a stated clearance) before relying on it for a new map.
+
+```python
+def stroke_to_feet(stroke_width: float) -> int:
+    """strokeWidth * 100 = approximate feet at city scale."""
+    return round(stroke_width * 100)
+```
+
+Always surface `strokeWidth` in any road/feature description output — even if the exact scale is unknown, it preserves the author's relative sizing intent.
+
+---
+
+## 13. District polygons and point-in-polygon testing
+
+SETTLEMENT maps (and potentially others) use closed `Polygon` shapes to delineate named districts, zones, and areas. These are authored by drawing filled polygons in Worldographer and giving them descriptive tags (`"Old Town zone"`, `"Harbor District"`, `"Market Square"`).
+
+### What districts are used for
+
+- Grouping POIs and features into named areas for spatial reasoning
+- Indicating the character/function of an area (administrative, residential, commercial)
+- May overlap intentionally (e.g. `Administrative zone` nested inside `Old Town zone` — both apply to buildings in the civic center)
+
+### Point-in-polygon test
+
+Standard ray-casting algorithm works directly on world coordinates:
+
+```python
+def point_in_polygon(px, py, points):
+    """Ray-casting point-in-polygon test. points is [(wx, wy), ...]."""
+    n = len(points)
+    inside = False
+    j = n - 1
+    for i in range(n):
+        xi, yi = points[i]
+        xj, yj = points[j]
+        if ((yi > py) != (yj > py)) and (px < (xj - xi) * (py - yi) / (yj - yi) + xi):
+            inside = not inside
+        j = i
+    return inside
+```
+
+Use the feature's raw world `(x, y)` coordinates — no hex conversion needed. A feature can be in multiple districts (overlapping polygons); collect all that match.
+
+### Polygon boundary gaps
+
+Polygon boundaries authored in Worldographer may not perfectly share edges. Features sitting at a district boundary may fall "outside all districts" even when they conceptually belong to one. Known gaps in the Silberbach city map:
+
+- West bridge gatehouse (36,25) — sits at the wall/river junction between polygon boundaries
+- South gate (33,35) — sits on the wall line where no district polygon reaches
+- Northwest wall tower (22,14) — above the northern extent of all district polygons
+
+When a feature reports "outside all districts," check whether it sits on a wall, moat, or at a polygon corner before treating it as a classification error.
+
+### Wall tower and gatehouse auto-detection
+
+For wall shapes, nearby defensive features (towers, gatehouses) can be auto-detected by sampling the wall path at regular intervals and checking feature proximity:
+
+```python
+path_cells = set(sample_path_cells(wall_shape.points, orientation))
+for feature in wmap.features:
+    fcell = world_to_hex(feature.x, feature.y, orientation)
+    ft = feature.type.lower()
+    if any(cells_adjacent_or_equal(fcell, wc) for wc in path_cells):
+        if any(w in ft for w in ('tower', 'walltower', 'watchtower')):
+            towers.append(fcell)
+        elif any(w in ft for w in ('gatehouse', 'gate')):
+            gates.append(fcell)
+```
+
+**Use `sample_path_cells()` — not raw shape points.** Raw `<p>` elements are Bezier control points; the curve passes through intermediate hex cells that have no raw point. Sampling at 10 intervals per segment interpolates the actual path and catches features sitting on curved sections of wall.
+
+Bridge gatehouses (controlling bridge access) will not appear on the wall path — they sit at the bridge endpoints, not the wall perimeter. This is correct; they should be annotated on the bridge road entry, not the wall.
+
+---
+
+## 14. Output format: see `Wxx_Map_Format_Spec.md`
 
 Everything above this section concerns **reading** Worldographer `.wxx` files — schema discovery, geometry quirks, edge cases in the source format. This document is the *input* side of the renderer pipeline.
 
 The *output* side — the structure of the rendered `.svg` file, the embedded description block format, the annotation file schema, inheritance rules for road/river paths, the icon vocabulary, and project-vs-default styling — is defined in a separate canonical spec:
 
-**`D:\Claude_MCP_folder\Core_Rules\Wxx_Map_Format_Spec.md`**
+**`D:\Claude\Filesystem\Python\worldographer\Wxx_Parsing_Reference.md`** (this file) covers the input side.
+The output spec lives alongside the renderer scripts.
 
 That document is the source of truth for v2 `.svg` outputs. The renderer (`wxx_to_svg.py`), the description parser (`wxx_to_claude.py`), and the annotation tooling (`wxx_annotations.py`) all conform to what it specifies. When this parsing reference and the format spec disagree, the format spec wins for output-related questions and this document wins for input-parsing questions.
 
